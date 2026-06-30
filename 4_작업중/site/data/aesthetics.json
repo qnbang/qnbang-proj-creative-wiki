@@ -1,0 +1,4976 @@
+[
+  {
+    "id": "pragnanz",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "프레그난츠의 법칙",
+    "titleEn": "Law of Prägnanz",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "눈은 가장 단순하고 안정된 형태로 세상을 정리한다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "minimal logo geometric design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "복잡한 이미지를 마주하면 지각은 그것을 가능한 한 단순하고 규칙적이며 대칭적인 형태로 해석한다. 게슈탈트 심리학의 창시자 막스 베르트하이머가 1923년 논문에서 정식화한 지각 조직화의 총괄 원리로, 이후의 근접성·유사성·폐쇄성 법칙이 모두 이 원리의 하위 사례다.",
+      "why": "뇌는 에너지를 아끼기 위해 시각 정보를 최소 인지 비용으로 압축한다. 단순하게 읽히는 형태일수록 빠르게 이해되고, 빠른 이해는 호감으로 이어진다.",
+      "apply": [
+        "로고·픽토그램은 멀리서 봐도 한 덩어리의 단순 도형으로 읽히는지 점검한다.",
+        "복잡한 레이아웃은 큰 기하 형태(원·사각·축) 위에 얹어 정리한다.",
+        "디테일을 더하기 전에, 실루엣만으로 성립하는지를 먼저 확인한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><circle cx=\"200\" cy=\"120\" r=\"62\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"280\" cy=\"120\" r=\"62\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"360\" cy=\"120\" r=\"62\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">복잡한 교차 도형이 아니라 '겹쳐진 원 3개'로 읽힌다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "proximity",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "근접성의 법칙",
+    "titleEn": "Law of Proximity",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "가까이 있는 것들은 하나의 무리로 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "editorial layout whitespace grouping"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "서로 가까이 놓인 요소들은 자동으로 한 그룹으로 지각된다. 거리는 선이나 박스보다 강력한 '보이지 않는 묶음 장치'다. 게슈탈트 지각 조직화 원리 중 실무에서 가장 자주 쓰이는 법칙이다.",
+      "why": "시각 시스템은 공간적 거리를 의미적 거리로 번역한다. 가까우면 관련 있는 것, 멀면 무관한 것으로 읽는다.",
+      "apply": [
+        "관련 있는 정보끼리는 가깝게, 무관한 정보 사이에는 충분한 간격을 둔다.",
+        "구분선·테두리를 긋기 전에 여백 조절만으로 그룹화를 시도한다.",
+        "단락 내부 행간보다 단락 사이 간격을 항상 크게 유지한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><circle cx=\"110\" cy=\"66\" r=\"10\"/><circle cx=\"110\" cy=\"100\" r=\"10\"/><circle cx=\"110\" cy=\"134\" r=\"10\"/><circle cx=\"144\" cy=\"66\" r=\"10\"/><circle cx=\"144\" cy=\"100\" r=\"10\"/><circle cx=\"144\" cy=\"134\" r=\"10\"/><circle cx=\"250\" cy=\"66\" r=\"10\"/><circle cx=\"250\" cy=\"100\" r=\"10\"/><circle cx=\"250\" cy=\"134\" r=\"10\"/><circle cx=\"284\" cy=\"66\" r=\"10\"/><circle cx=\"284\" cy=\"100\" r=\"10\"/><circle cx=\"284\" cy=\"134\" r=\"10\"/><circle cx=\"390\" cy=\"66\" r=\"10\"/><circle cx=\"390\" cy=\"100\" r=\"10\"/><circle cx=\"390\" cy=\"134\" r=\"10\"/><circle cx=\"424\" cy=\"66\" r=\"10\"/><circle cx=\"424\" cy=\"100\" r=\"10\"/><circle cx=\"424\" cy=\"134\" r=\"10\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 점 18개가 간격 때문에 '세 그룹'으로 읽힌다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "similarity",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "유사성의 법칙",
+    "titleEn": "Law of Similarity",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "닮은 것들은 같은 편으로 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "design system visual consistency"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "색·모양·크기·질감이 비슷한 요소들은 떨어져 있어도 하나의 집합으로 지각된다. 반대로 하나만 다르게 만들면 그 요소는 즉시 분리되어 보인다.",
+      "why": "공통 속성은 시각 피질에서 같은 채널로 처리되어 자동으로 묶인다. 분류에 드는 인지 비용이 0에 가깝다.",
+      "apply": [
+        "같은 기능·같은 위계의 요소에는 같은 시각 언어(색·형태·크기)를 일관되게 부여한다.",
+        "버튼은 버튼끼리, 링크는 링크끼리 닮게 — 스타일 가짓수를 의도적으로 제한한다.",
+        "강조하고 싶은 단 하나만 규칙을 깨뜨린다(폰 레스토프 효과와 연결)."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><circle cx=\"150\" cy=\"50\" r=\"11\" fill=\"#222\"/><rect x=\"139\" y=\"77\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"150\" cy=\"126\" r=\"11\" fill=\"#222\"/><rect x=\"139\" y=\"153\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"215\" cy=\"50\" r=\"11\" fill=\"#222\"/><rect x=\"204\" y=\"77\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"215\" cy=\"126\" r=\"11\" fill=\"#222\"/><rect x=\"204\" y=\"153\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"280\" cy=\"50\" r=\"11\" fill=\"#222\"/><rect x=\"269\" y=\"77\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"280\" cy=\"126\" r=\"11\" fill=\"#222\"/><rect x=\"269\" y=\"153\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"345\" cy=\"50\" r=\"11\" fill=\"#222\"/><rect x=\"334\" y=\"77\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"345\" cy=\"126\" r=\"11\" fill=\"#222\"/><rect x=\"334\" y=\"153\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"410\" cy=\"50\" r=\"11\" fill=\"#222\"/><rect x=\"399\" y=\"77\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"410\" cy=\"126\" r=\"11\" fill=\"#222\"/><rect x=\"399\" y=\"153\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">모양이 같은 것끼리 '가로줄'로 묶여 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "closure",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "폐쇄성의 법칙",
+    "titleEn": "Law of Closure",
+    "origin": "게슈탈트 학파 · 가에타노 카니자",
+    "year": 1955,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "뇌는 빈틈을 스스로 메워 완성된 형태를 본다.",
+    "credibility": "established",
+    "keywords": [
+      "게슈탈트 학파 · 가에타노 카니자",
+      "게슈탈트 심리학",
+      "지각",
+      "negative space logo design clever"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "윤곽이 끊겨 있어도 지각은 빠진 부분을 채워 닫힌 형태로 인식한다. 카니자의 삼각형(1955)이 대표 실험으로, 존재하지 않는 흰 삼각형이 또렷하게 '보인다'. 보는 사람을 완성에 참여시키는 법칙이다.",
+      "why": "불완전한 윤곽을 그대로 두면 인지적 긴장이 생기고, 뇌는 이를 해소하려 윤곽을 보간한다. 스스로 완성한 형태는 더 강하게 기억된다.",
+      "apply": [
+        "로고·일러스트에서 윤곽을 일부러 끊어 보는 이의 상상을 개입시킨다.",
+        "전부 그리지 않는다 — 식별에 필요한 최소 단서만 남기고 덜어낸다.",
+        "잘린 이미지(블리드)로 화면 밖 공간을 암시해 프레임을 넓힌다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><path d=\"M 215 60 A 34 34 0 1 1 215 61 Z\" transform=\"rotate(60 215 78)\"/><circle cx=\"215\" cy=\"78\" r=\"30\"/><circle cx=\"345\" cy=\"78\" r=\"30\"/><circle cx=\"280\" cy=\"180\" r=\"30\"/><polygon points=\"215,78 345,78 280,180\" fill=\"#f4f4f1\"/></g><text x=\"280\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">카니자 삼각형 — 그리지 않은 흰 삼각형이 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "continuity",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "연속성의 법칙",
+    "titleEn": "Law of Good Continuation",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "시선은 한번 탄 흐름을 따라 끝까지 미끄러진다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "leading lines composition photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "교차하거나 끊긴 요소들도 부드러운 경로를 따라 이어진 하나의 흐름으로 지각된다. 두 곡선이 교차하면 우리는 꺾인 두 도형이 아니라 매끄럽게 지나가는 두 줄기로 읽는다.",
+      "why": "시각 시스템은 급격한 방향 전환보다 완만한 연속을 '같은 사물'로 가정한다. 자연계의 윤곽 대부분이 연속적이기 때문에 생긴 통계적 직관이다.",
+      "apply": [
+        "시선 유도가 필요하면 정렬축·곡선·사선 하나로 요소들을 꿰어라.",
+        "줄을 맞춘 정렬(왼끝·기준선)은 그 자체로 강력한 연속 신호다.",
+        "흐름을 끊고 싶은 지점에서만 의도적으로 축을 꺾는다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><path d=\"M60,170 C 180,40 380,40 500,170\" fill=\"none\" stroke=\"#222\" stroke-width=\"3.5\"/><path d=\"M60,70 C 180,200 380,200 500,70\" fill=\"none\" stroke=\"#222\" stroke-width=\"3.5\" stroke-dasharray=\"1 0\"/><text x=\"280\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">교차점에서 꺾이지 않고 '두 개의 매끄러운 곡선'으로 읽힌다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "figure-ground",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "전경–배경의 법칙",
+    "titleEn": "Figure–Ground",
+    "origin": "에드가르 루빈",
+    "year": 1915,
+    "field": "지각심리학",
+    "oneLiner": "보는 순간 무엇이 주인공이고 무엇이 바탕인지 정해진다.",
+    "credibility": "established",
+    "keywords": [
+      "에드가르 루빈",
+      "지각심리학",
+      "지각",
+      "figure ground negative space art"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "지각은 장면을 즉시 '형상(figure)'과 '배경(ground)'으로 나눈다. 덴마크 심리학자 루빈이 꽃병/두 얼굴 그림으로 증명했듯, 이 관계는 반전될 수 있고 디자이너가 통제할 수 있다.",
+      "why": "윤곽선은 한쪽 영역에만 소속된다. 어느 쪽에 윤곽을 '주느냐'가 주인공을 결정하며, 모호하면 시선이 헤매고 명확하면 메시지가 꽂힌다.",
+      "apply": [
+        "주인공 뒤의 배경은 대비·디테일을 낮춰 확실히 물러나게 한다.",
+        "배경(네거티브 스페이스)에 두 번째 의미를 심으면 기억에 남는 위트가 된다.",
+        "텍스트 가독성이 흔들리면 배경을 단순화하는 것이 먼저다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cup%20or%20faces%20paradox.svg?width=900",
+          "caption": "루빈의 꽃병 — 꽃병과 두 얼굴이 교대로 보인다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "common-fate",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "공동 운명의 법칙",
+    "titleEn": "Law of Common Fate",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "같은 방향으로 움직이는 것들은 한 무리다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "motion design choreography ui"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "함께 움직이거나 같은 방향을 향하는 요소들은 하나의 집단으로 지각된다. 새 떼와 물고기 떼가 한 덩어리로 보이는 이유이며, 모션 디자인과 인터랙션의 근간이 되는 법칙이다.",
+      "why": "움직임의 동기화는 자연에서 '같은 개체/집단'이라는 가장 확실한 증거였다. 시각 시스템은 방향성 일치를 소속 관계로 즉시 번역한다.",
+      "apply": [
+        "함께 등장·퇴장해야 할 UI 요소들은 같은 방향·같은 타이밍으로 움직인다.",
+        "정지 화면에서도 방향성(화살표·시선·기울기)을 정렬해 무리를 만든다.",
+        "주인공만 흐름과 다른 방향을 향하게 해 긴장을 만든다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><path d=\"M120,60 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M180,90 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M150,130 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M230,60 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M260,110 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M210,160 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M300,80 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M330,140 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M370,100 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M290,180 l22,8 l-22,8 l6,-8 Z\"/><path d=\"M455,95 l-22,8 l22,8 l-6,-8 Z\" fill=\"#b3401f\"/></g><text x=\"280\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 방향의 무리 속에서 역방향 하나가 즉시 분리되어 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "peak-shift",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "피크 시프트 원리",
+    "titleEn": "Peak Shift Principle",
+    "origin": "V. S. 라마찬드란",
+    "year": 1999,
+    "field": "신경미학",
+    "oneLiner": "본질을 과장한 형태가 실물보다 더 강하게 반응을 끈다.",
+    "credibility": "established",
+    "keywords": [
+      "V. S. 라마찬드란",
+      "신경미학",
+      "지각",
+      "caricature exaggeration character design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "신경과학자 라마찬드란이 「예술 경험의 과학」(1999)에서 제시한 예술의 신경학적 원리. 대상의 특징적 속성을 골라 증폭하면 뇌의 반응도 증폭된다. 캐리커처가 사진보다 '더 그 사람 같아' 보이고, 고대 조각이 인체 비례를 과장하는 이유다.",
+      "why": "뇌의 인식 회로는 평균이 아니라 '차이'에 반응하도록 훈련된다. 특징을 극단으로 밀면 인식 신호가 더 크게 점화된다.",
+      "apply": [
+        "대상의 본질적 특징 하나를 찾아 그것만 의도적으로 과장한다.",
+        "일러스트·아이콘에서 사실적 재현보다 특징의 증폭을 택한다.",
+        "브랜드의 성격(둥글다, 날카롭다, 무겁다)을 형태 언어에서 한 단계 더 밀어붙인다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Venus%20von%20Willendorf%2001.jpg?width=900",
+          "caption": "빌렌도르프의 비너스 — 특징을 극단으로 증폭한 선사시대 조각",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "common-region",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "공통 영역의 법칙",
+    "titleEn": "Law of Common Region",
+    "origin": "스티븐 팔머",
+    "year": 1992,
+    "field": "지각심리학",
+    "oneLiner": "같은 울타리 안에 있는 것들은 한 가족으로 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "스티븐 팔머",
+      "지각심리학",
+      "지각",
+      "card ui design layout grouping"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "닫힌 경계(박스·배경면) 안에 함께 들어 있는 요소들은 하나의 그룹으로 지각된다. 버클리의 지각심리학자 스티븐 팔머가 1992년 고전 게슈탈트 목록에 추가한 법칙으로, 카드 UI가 작동하는 심리학적 근거다.",
+      "why": "경계선은 '여기까지가 한 단위'라는 가장 명시적인 신호다. 근접성보다 강해서, 멀리 떨어진 요소도 같은 영역 안에 있으면 묶인다.",
+      "apply": [
+        "관련 정보를 묶을 때 카드·패널·배경색 면을 쓴다 — 거리가 애매해도 묶인다.",
+        "영역 하나에 메시지 하나 — 한 카드에 두 주제를 넣지 않는다.",
+        "경계가 너무 많으면 위계가 사라진다. 박스 안에 박스는 두 겹까지만."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"80\" y=\"60\" width=\"190\" height=\"120\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"290\" y=\"60\" width=\"190\" height=\"120\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><g fill=\"#222\"><circle cx=\"140\" cy=\"120\" r=\"12\"/><circle cx=\"230\" cy=\"120\" r=\"12\"/><circle cx=\"350\" cy=\"120\" r=\"12\"/><circle cx=\"440\" cy=\"120\" r=\"12\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">간격은 같지만 울타리가 두 쌍으로 묶는다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "uniform-connectedness",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "균일 연결성의 법칙",
+    "titleEn": "Uniform Connectedness",
+    "origin": "스티븐 팔머 · 어빈 록",
+    "year": 1994,
+    "field": "지각심리학",
+    "oneLiner": "선으로 이어진 것들은 무엇보다 강하게 묶인다.",
+    "credibility": "established",
+    "keywords": [
+      "스티븐 팔머 · 어빈 록",
+      "지각심리학",
+      "지각",
+      "diagram design flowchart minimal"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "선이나 공통 표면으로 물리적으로 연결된 요소들은 색·거리·크기가 달라도 한 단위로 지각된다. 팔머와 록의 1994년 연구는 연결성이 근접성·유사성보다 우선함을 보였다. 다이어그램과 조직도가 성립하는 원리다.",
+      "why": "연결은 자연계에서 '한 몸'이라는 물리적 증거다. 시각 시스템은 이 단서를 다른 모든 그루핑 단서보다 신뢰한다.",
+      "apply": [
+        "관계를 보여줘야 할 때는 나란히 두지 말고 선으로 잇는다 — 플로차트, 주석 리더선.",
+        "연결선의 스타일(실선/점선/굵기)로 관계의 종류와 강도를 구분한다.",
+        "잘못 그어진 선 하나가 무관한 것을 한 몸으로 만든다 — 장식선을 경계하라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g stroke=\"#222\" stroke-width=\"2.5\"><line x1=\"120\" y1=\"90\" x2=\"250\" y2=\"150\"/><line x1=\"310\" y1=\"150\" x2=\"440\" y2=\"90\"/></g><g fill=\"#222\"><circle cx=\"120\" cy=\"90\" r=\"13\"/><circle cx=\"250\" cy=\"150\" r=\"13\"/><circle cx=\"310\" cy=\"150\" r=\"13\"/><circle cx=\"440\" cy=\"90\" r=\"13\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">가까운 가운데 둘이 아니라, 선으로 이어진 짝끼리 묶인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "symmetry-grouping",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "대칭 그루핑의 법칙",
+    "titleEn": "Law of Symmetry (Grouping)",
+    "origin": "게슈탈트 학파",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "대칭을 이루는 짝은 하나의 형태로 읽힌다.",
+    "credibility": "established",
+    "keywords": [
+      "게슈탈트 학파",
+      "게슈탈트 심리학",
+      "지각",
+      "symmetry graphic design poster"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "서로 대칭 관계에 있는 요소들은 떨어져 있어도 하나의 도형으로 묶여 지각된다. 괄호 기호 [ ]가 두 개의 선이 아니라 '한 쌍'으로 보이는 이유다. 게슈탈트 학파가 정리한 그루핑 원리 중 하나.",
+      "why": "대칭은 우연히 생기기 어려운 질서라서, 시각 시스템은 대칭 쌍을 '의도된 하나의 사물'로 해석한다.",
+      "apply": [
+        "마주 보는 요소(여는/닫는 장치, 좌우 칼럼)는 정확히 대칭시켜 한 단위임을 알린다.",
+        "펼침면·포스터에서 좌우 페이지를 거울 구조로 짜면 한 화면으로 읽힌다.",
+        "대칭 깨짐은 즉시 눈에 띈다 — 정렬 오차는 대칭 구도에서 가장 치명적이다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"3\"><path d=\"M180,60 Q150,120 180,180\"/><path d=\"M380,60 Q410,120 380,180\"/><path d=\"M250,60 Q220,120 250,180\"/><path d=\"M310,60 Q340,120 310,180\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">네 개의 곡선이 아니라 '두 쌍의 괄호'로 읽힌다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "past-experience",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "과거 경험의 법칙",
+    "titleEn": "Law of Past Experience",
+    "origin": "막스 베르트하이머",
+    "year": 1923,
+    "field": "게슈탈트 심리학",
+    "oneLiner": "한 번 배운 형태는 그 형태로밖에 보이지 않는다.",
+    "credibility": "established",
+    "keywords": [
+      "막스 베르트하이머",
+      "게슈탈트 심리학",
+      "지각",
+      "iconography visual convention design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "지각은 백지에서 출발하지 않는다. 익숙한 패턴(글자, 얼굴, 관습적 기호)은 모호한 자극을 그 방향으로 끌어당겨 해석하게 만든다. 베르트하이머가 정리한 그루핑 원리 중 유일하게 '학습'이 개입하는 법칙이다.",
+      "why": "자주 만난 패턴은 신경 회로에 지름길을 만든다. 13과 B의 중간 형태는 숫자 사이에선 13으로, 글자 사이에선 B로 읽힌다 — 맥락과 경험이 지각을 완성한다.",
+      "apply": [
+        "관습적 기호(돋보기=검색, 빨강=경고)를 함부로 재발명하지 않는다.",
+        "타깃 문화권의 시각 관습(읽기 방향, 색의 의미)을 조사하고 따른다.",
+        "익숙한 형태를 살짝 비트는 위트는 통하지만, 알아볼 수 없게 비틀면 실패한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "popout",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "전주의적 팝아웃",
+    "titleEn": "Pre-attentive Pop-out",
+    "origin": "앤 트리스먼",
+    "year": 1980,
+    "field": "인지심리학",
+    "oneLiner": "어떤 차이는 찾기도 전에 눈에 꽂힌다.",
+    "credibility": "established",
+    "keywords": [
+      "앤 트리스먼",
+      "인지심리학",
+      "지각",
+      "data visualization highlight design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "색·기울기·크기·움직임 같은 기초 속성의 차이는 주의를 기울이기 전, 200밀리초 안에 자동으로 검출된다. 트리스먼의 특징 통합 이론(1980)이 밝힌 시각 처리의 첫 단계로, '한눈에 보이는' 디자인의 과학적 근거다.",
+      "why": "시각 피질의 초기 단계는 화면 전체를 병렬로 훑으며 기초 특징의 이상치를 찾는다. 단일 속성의 차이는 항목 수와 무관하게 즉시 튀어나온다 — 단, 두 속성의 조합 차이는 하나씩 찾아야 해서 느리다.",
+      "apply": [
+        "즉시 보여야 할 것은 색·크기·방향 중 '한 가지' 속성만 다르게 한다.",
+        "조합으로 구분하지 마라 — '빨갛고 둥근 것만 중요'는 스캔이 느려진다.",
+        "대시보드·표지판처럼 0.5초 안에 읽혀야 하는 화면일수록 팝아웃 설계가 전부다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"108\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"160\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"212\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"264\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"316\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"368\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"420\" y=\"48\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"108\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"160\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"212\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"264\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"316\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"368\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"420\" y=\"86\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"108\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"160\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"212\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"264\" y=\"124\" width=\"20\" height=\"20\" fill=\"#b3401f\" transform=\"rotate(45 274 134)\"/><rect x=\"316\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"368\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"420\" y=\"124\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"108\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"160\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"212\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"264\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"316\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"368\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/><rect x=\"420\" y=\"162\" width=\"20\" height=\"20\" fill=\"#222\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">세지 않아도, 찾지 않아도 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "pareidolia",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "얼굴 우선 지각",
+    "titleEn": "Face Pareidolia",
+    "origin": "인지신경과학",
+    "year": 1991,
+    "field": "인지신경과학",
+    "oneLiner": "점 둘과 선 하나면 얼굴이 된다.",
+    "credibility": "established",
+    "keywords": [
+      "인지신경과학",
+      "지각",
+      "pareidolia faces in objects"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "인간의 뇌에는 얼굴 전용 처리 영역(방추상 얼굴 영역)이 있어, 얼굴을 닮은 최소한의 배열에도 자동 반응한다. 신생아가 태어나자마자 얼굴 패턴을 추적한다는 연구(Johnson 외, 1991) 이래 얼굴 우선성은 지각심리학의 정설이다. 콘센트가 놀란 표정으로 보이는 이유.",
+      "why": "얼굴 인식은 생존(양육자·적의 식별)에 직결돼 가장 빠르고 민감하게 진화했다. 거짓 양성(얼굴이 아닌데 얼굴로 봄)을 감수할 만큼 문턱이 낮다.",
+      "apply": [
+        "시선을 끌어야 하면 얼굴을 넣어라 — 얼굴 있는 이미지는 거의 항상 먼저 읽힌다.",
+        "제품·로고에 최소 단서(두 점과 곡선)만으로 표정을 심으면 캐릭터가 된다.",
+        "의도하지 않은 얼굴을 점검하라 — 창문 배열, 자동차 정면이 멋대로 표정을 만든다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"3\"><circle cx=\"170\" cy=\"115\" r=\"55\"/><rect x=\"330\" y=\"60\" width=\"110\" height=\"110\" rx=\"8\"/></g><g fill=\"#222\"><circle cx=\"152\" cy=\"100\" r=\"6\"/><circle cx=\"188\" cy=\"100\" r=\"6\"/><path d=\"M150,135 Q170,150 190,135\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"367\" cy=\"100\" r=\"6\"/><circle cx=\"403\" cy=\"100\" r=\"6\"/><line x1=\"367\" y1=\"140\" x2=\"403\" y2=\"140\" stroke=\"#222\" stroke-width=\"3\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">원과 사각형이 아니라 '웃는 얼굴과 무표정'으로 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "bouba-kiki",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "부바–키키 효과",
+    "titleEn": "Bouba/Kiki Effect",
+    "origin": "볼프강 쾰러 · V. S. 라마찬드란",
+    "year": 1929,
+    "field": "지각심리학",
+    "oneLiner": "형태에는 소리가 있고, 소리에는 형태가 있다.",
+    "credibility": "established",
+    "keywords": [
+      "볼프강 쾰러 · V. S. 라마찬드란",
+      "지각심리학",
+      "지각",
+      "organic vs geometric logo design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "둥근 도형과 뾰족한 도형에 '부바/키키'라는 이름을 붙이라고 하면 문화·언어를 불문하고 95% 이상이 둥근 쪽을 부바, 뾰족한 쪽을 키키라 부른다. 쾰러의 1929년 실험을 라마찬드란·허버드(2001)가 재확인한 교차감각 대응 현상이다.",
+      "why": "소리의 음향 윤곽과 형태의 시각 윤곽이 뇌에서 공통 표상으로 매핑된다. 형태·소리·의미가 일치할 때 처리 유창성이 올라간다.",
+      "apply": [
+        "브랜드 이름의 발음과 로고의 형태 언어를 일치시킨다 — 부드러운 이름엔 곡선을.",
+        "제품의 촉감·맛·성격까지 형태로 번역할 수 있다(바삭함=각, 크리미함=원).",
+        "이름과 형태가 어긋나면 이유 모를 위화감이 남는다 — 네이밍과 디자인을 함께 검토하라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><path d=\"M170,70 Q220,55 215,110 Q255,130 195,160 Q160,185 135,150 Q95,135 115,100 Q125,65 170,70 Z\" fill=\"#222\"/><path d=\"M390,55 L420,100 L470,90 L430,125 L460,170 L405,145 L370,180 L380,130 L330,115 L385,105 Z\" fill=\"#222\"/><text x=\"175\" y=\"216\" text-anchor=\"middle\" font-size=\"14\" fill=\"#888\" font-family=\"sans-serif\">부바</text><text x=\"400\" y=\"216\" text-anchor=\"middle\" font-size=\"14\" fill=\"#888\" font-family=\"sans-serif\">키키</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "curvature",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "곡선 선호",
+    "titleEn": "Preference for Curvature",
+    "origin": "모셰 바 · 마이탈 네타",
+    "year": 2006,
+    "field": "신경미학",
+    "oneLiner": "모서리는 경계심을, 곡선은 안심을 부른다.",
+    "credibility": "established",
+    "keywords": [
+      "모셰 바 · 마이탈 네타",
+      "신경미학",
+      "지각",
+      "soft rounded product design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "같은 사물이라도 윤곽이 곡선이면 더 호감을 얻는다. 바와 네타의 2006년 연구는 날카로운 윤곽이 위협 처리에 관여하는 편도체를 더 활성화함을 보였다. 이후 건축 공간 연구에서도 곡면 공간이 '아름답다' 판정을 더 받았다.",
+      "why": "날카로움은 자연에서 위험(가시, 이빨, 파편)의 신호였다. 곡선은 안전·부드러움·생명체의 신호로 처리되어 접근 동기를 만든다.",
+      "apply": [
+        "친근함·편안함이 목표면 모서리 반경을 키우고, 긴장·정밀함이 목표면 각을 세운다.",
+        "아동·헬스케어·환대 분야는 곡선 우위, 보안·금융·기계는 직선 우위가 출발점.",
+        "전부 둥글리면 긴장이 사라진다 — 핵심 한 곳에는 각을 남겨 대비를 만든다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"110\" y=\"65\" width=\"140\" height=\"110\" rx=\"55\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><path d=\"M330,175 L355,65 L395,140 L430,75 L460,175 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><text x=\"180\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">접근</text><text x=\"395\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">경계</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "light-above",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "위에서 오는 빛의 가정",
+    "titleEn": "Light-from-Above Prior",
+    "origin": "V. S. 라마찬드란",
+    "year": 1988,
+    "field": "시지각 연구",
+    "oneLiner": "뇌는 빛이 위에서 온다고 가정하고 입체를 읽는다.",
+    "credibility": "established",
+    "keywords": [
+      "V. S. 라마찬드란",
+      "시지각 연구",
+      "지각",
+      "neumorphism ui light shadow"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "같은 음영 그라데이션도 밝은 쪽이 위면 볼록하게, 아래면 오목하게 보인다. 라마찬드란의 1988년 Nature 논문이 정식화한 시지각의 기본 가정으로, 모든 엠보스/디보스 표현과 UI 입체감의 물리 엔진이다.",
+      "why": "수억 년간 광원(태양)은 항상 위에 있었다. 시각 시스템은 이 통계를 하드코딩해 음영만으로 요철을 복원한다.",
+      "apply": [
+        "버튼·카드의 하이라이트는 위, 그림자는 아래 — 이 관계를 뒤집으면 눌린 상태가 된다.",
+        "일러스트·아이콘의 광원을 한 방향(보통 좌상단)으로 통일한다.",
+        "광원이 요소마다 다르면 무의식적 위화감이 쌓인다 — 그림자 방향 일관성을 검수하라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><defs><radialGradient id=\"bump\" cx=\"38%\" cy=\"32%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#fff\"/><stop offset=\"100%\" stop-color=\"#9a9a92\"/></radialGradient><radialGradient id=\"dent\" cx=\"38%\" cy=\"72%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#fff\"/><stop offset=\"100%\" stop-color=\"#9a9a92\"/></radialGradient></defs><circle cx=\"180\" cy=\"115\" r=\"52\" fill=\"url(#bump)\"/><circle cx=\"380\" cy=\"115\" r=\"52\" fill=\"url(#dent)\"/><text x=\"180\" y=\"212\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">볼록하게 보인다</text><text x=\"380\" y=\"212\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">오목하게 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "reading-flow",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "읽기 방향의 편향",
+    "titleEn": "Reading-Direction Bias",
+    "origin": "시지각 연구 · 야콥 닐슨",
+    "year": 2006,
+    "field": "시선 추적 연구",
+    "oneLiner": "시선은 왼쪽 위에서 출발해 글을 읽듯 화면을 읽는다.",
+    "credibility": "established",
+    "keywords": [
+      "시지각 연구 · 야콥 닐슨",
+      "시선 추적 연구",
+      "지각",
+      "z pattern f pattern layout design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "좌→우로 읽는 문화권의 시선은 화면도 좌상단에서 시작해 Z자 또는 F자 궤적으로 훑는다. 닐슨의 시선 추적 연구(2006)가 웹에서 F-패턴을 실증했다. 구도의 '시작점'과 '종착점'이 문화적으로 정해져 있다는 뜻이다.",
+      "why": "수천 시간의 읽기 훈련이 시선의 디폴트 경로를 만든다. 그 경로 위에 놓인 정보는 공짜로 읽히고, 경로 밖 정보는 의식적 노력을 요구한다.",
+      "apply": [
+        "가장 중요한 것은 좌상단 사분면에, 행동 유도(CTA)는 시선이 끝나는 우하단에.",
+        "인물 사진의 시선·이동 방향은 본문 쪽(보통 오른쪽)을 향하게 해 흐름을 잇는다.",
+        "RTL(아랍어·히브리어) 문화권 대상 디자인은 구도 자체를 거울 반전해 검토한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "optical-center",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "광학적 중앙",
+    "titleEn": "Optical Center",
+    "origin": "타이포그래피·인쇄 전통",
+    "year": 1900,
+    "field": "타이포그래피",
+    "oneLiner": "느낌의 중앙은 자의 중앙보다 위에 있다.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피·인쇄 전통",
+      "타이포그래피",
+      "지각",
+      "poster composition centered minimal"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "기하학적 정중앙에 놓인 요소는 미세하게 내려앉아 보인다. 인쇄·액자 전통은 오래전부터 '광학적 중앙'을 수학적 중앙보다 약간 위(대략 5~8%)에 잡아 왔다. 액자 매트의 아래 변을 더 넓게 재단하는 이유다.",
+      "why": "시야의 상하 비대칭과 중력 도식 때문에 인간은 화면 위쪽을 과대평가한다. 정확히 가운데 둔 것은 '약간 아래'로 지각된다.",
+      "apply": [
+        "포스터·표지의 단독 요소는 수치 중앙보다 살짝 위에 앉힌다.",
+        "버튼·배지 속 텍스트와 아이콘의 상하 정렬은 수치가 아니라 눈으로 최종 판정한다.",
+        "상하 여백이 같아 보이려면 아래 여백을 더 줘야 한다 — 카드, 액자, 명함 모두."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"115\" y=\"35\" width=\"130\" height=\"170\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"120\" r=\"17\" fill=\"#222\"/><line x1=\"115\" y1=\"120\" x2=\"245\" y2=\"120\" stroke=\"#bbb\" stroke-dasharray=\"4 4\"/><rect x=\"315\" y=\"35\" width=\"130\" height=\"170\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"109\" r=\"17\" fill=\"#b3401f\"/><line x1=\"315\" y1=\"120\" x2=\"445\" y2=\"120\" stroke=\"#bbb\" stroke-dasharray=\"4 4\"/><text x=\"180\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">수학적 중앙 — 내려앉아 보임</text><text x=\"380\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">광학적 중앙 — 편안함</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "overshoot",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "시각 보정과 오버슈트",
+    "titleEn": "Optical Compensation & Overshoot",
+    "origin": "활자 설계 전통 · 아드리안 프루티거",
+    "year": 1950,
+    "field": "타이포그래피",
+    "oneLiner": "같아 보이게 하려면 같게 만들면 안 된다.",
+    "credibility": "established",
+    "keywords": [
+      "활자 설계 전통 · 아드리안 프루티거",
+      "타이포그래피",
+      "지각",
+      "type design optical correction lettering"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "활자에서 O는 H보다 위아래로 살짝 크게(오버슈트), 가로획은 세로획보다 가늘게 그려진다. 수치로 같으면 눈에는 다르게 보이기 때문이다. 프루티거를 비롯한 활자 설계자들이 체계화한 이 보정 원리는 로고·아이콘 등 모든 정밀 형태 작업에 적용된다.",
+      "why": "지각은 면적·곡률·방향에 따라 크기를 다르게 추정한다. 곡선과 꼭짓점은 평변보다 작아 보이고, 가로획은 같은 굵기여도 두꺼워 보인다. 기하학이 아니라 지각이 기준이어야 한다.",
+      "apply": [
+        "원형·삼각형 아이콘은 사각형보다 2~3% 키워서 시각적 크기를 맞춘다.",
+        "수치 정렬 후 반드시 '눈 정렬' 패스를 거친다 — 특히 곡선과 사선의 끝.",
+        "재생 버튼(삼각형)은 무게중심 때문에 광학적으로 약간 오른쪽에 둔다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><line x1=\"100\" y1=\"70\" x2=\"460\" y2=\"70\" stroke=\"#bbb\" stroke-dasharray=\"4 4\"/><line x1=\"100\" y1=\"170\" x2=\"460\" y2=\"170\" stroke=\"#bbb\" stroke-dasharray=\"4 4\"/><rect x=\"140\" y=\"70\" width=\"64\" height=\"100\" fill=\"none\" stroke=\"#222\" stroke-width=\"11\"/><circle cx=\"320\" cy=\"120\" r=\"55\" fill=\"none\" stroke=\"#222\" stroke-width=\"11\"/><path d=\"M415,170 L447,70 L479,170 Z\" fill=\"none\" stroke=\"#222\" stroke-width=\"10\" transform=\"translate(-14 0)\"/><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">원과 삼각형은 기준선을 살짝 넘어야 같은 크기로 보인다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "weber-fechner",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "베버–페히너 법칙",
+    "titleEn": "Weber–Fechner Law",
+    "origin": "에른스트 베버 · 구스타프 페히너",
+    "year": 1860,
+    "field": "정신물리학",
+    "oneLiner": "차이가 느껴지려면 더하기가 아니라 곱하기로 커져야 한다.",
+    "credibility": "established",
+    "keywords": [
+      "에른스트 베버 · 구스타프 페히너",
+      "정신물리학",
+      "지각",
+      "modular type scale typography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "자극의 변화가 지각되려면 절대량이 아니라 '비율'로 증가해야 한다. 베버의 발견을 페히너가 『정신물리학 요강』(1860)에서 수학화했다. 16px 옆의 18px는 구분되지 않지만 16px 옆의 24px(×1.5)는 명확히 다르다 — 타이포 스케일이 등차가 아닌 등비인 이유다.",
+      "why": "감각은 로그 척도로 작동한다. 단계 사이가 일정 비율 이하면 위계가 뭉개지고, 비율이 충분하면 적은 단계로도 풍부한 위계가 선다.",
+      "apply": [
+        "크기·굵기·간격 체계는 등차(+2px)가 아니라 등비(×1.25, ×1.5)로 설계한다.",
+        "위계가 안 느껴진다면 단계를 늘리지 말고 단계 간 비율을 키워라.",
+        "색·그림자도 마찬가지 — 미세한 10단계보다 확실한 4단계가 강하다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\" font-family=\"sans-serif\" font-weight=\"600\"><text x=\"90\" y=\"130\" font-size=\"16\">가</text><text x=\"130\" y=\"130\" font-size=\"18\">가</text><text x=\"172\" y=\"130\" font-size=\"20\">가</text><text x=\"220\" y=\"130\" font-size=\"22\">가</text><text x=\"330\" y=\"130\" font-size=\"14\">가</text><text x=\"368\" y=\"130\" font-size=\"21\">가</text><text x=\"412\" y=\"130\" font-size=\"32\">가</text><text x=\"470\" y=\"130\" font-size=\"48\">가</text></g><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">등차(+2) — 위계가 뭉개진다</text><text x=\"420\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">등비(×1.5) — 위계가 선다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "gaze-cue",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "시선 단서 효과",
+    "titleEn": "Gaze Cueing",
+    "origin": "크리스 프리슨 · 앨런 킹스턴",
+    "year": 1998,
+    "field": "인지심리학",
+    "oneLiner": "사진 속 인물이 보는 곳을, 보는 사람도 본다.",
+    "credibility": "established",
+    "keywords": [
+      "크리스 프리슨 · 앨런 킹스턴",
+      "인지심리학",
+      "지각",
+      "advertising eye gaze direction model"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "타인의 시선 방향은 우리의 주의를 자동으로 같은 곳으로 끌고 간다. 프리슨과 킹스턴의 1998년 실험이 이 반사적 주의 이동을 실증했다. 광고에서 모델이 제품을 바라보게 하는 고전적 기법의 과학적 근거다.",
+      "why": "시선 따라가기는 영장류의 사회적 생존 기술이다. '저 사람이 보는 것'은 중요한 정보일 확률이 높아, 주의 시스템이 자동으로 동기화된다.",
+      "apply": [
+        "모델의 시선을 헤드라인이나 제품 쪽으로 돌려 시선의 화살표로 쓴다.",
+        "정면 응시는 보는 이를 붙잡고(아이캐치), 측면 응시는 흘려보낸다 — 목적에 맞게.",
+        "일러스트 캐릭터·마스코트의 시선도 같은 힘을 가진다. 빈 곳을 보게 두지 마라."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "global-precedence",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "전역 우선성",
+    "titleEn": "Global Precedence",
+    "origin": "데이비드 네이번",
+    "year": 1977,
+    "field": "인지심리학",
+    "oneLiner": "숲을 먼저 보고 나무는 나중에 본다.",
+    "credibility": "established",
+    "keywords": [
+      "데이비드 네이번",
+      "인지심리학",
+      "지각",
+      "gestalt whole shape silhouette design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "네이번이 「숲이 나무보다 먼저」(Cognitive Psychology, 1977)에서 실증한 처리 순서. 작은 글자들로 이루어진 큰 글자(네이번 도형)에서 전체(전역) 형태가 부분(국소)보다 먼저, 더 빠르게 식별되며 전역이 국소 판단을 간섭한다. 지각은 큰 구조에서 세부로 내려간다.",
+      "why": "시각 시스템은 저해상도의 전체 윤곽을 먼저 포착해 장면의 뼈대를 세운 뒤, 그 틀 안에서 디테일을 채운다. 큰 그림이 틀리면 디테일이 아무리 좋아도 길을 잃는다.",
+      "apply": [
+        "디테일을 다듬기 전에 전체 실루엣·레이아웃·그루핑이 먼저 성립하는지 확인한다(흐릿하게 보기).",
+        "부분의 완성도보다 전체 형태의 명료함에 먼저 투자한다 — 관객도 그 순서로 본다.",
+        "국소 요소들이 의도치 않은 전역 패턴을 만들지 않는지 한 걸음 물러나 점검한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\" font-family=\"monospace\" font-size=\"20\" font-weight=\"700\"><text x=\"215\" y=\"70\">H</text><text x=\"215\" y=\"102\">H</text><text x=\"215\" y=\"134\">H</text><text x=\"215\" y=\"166\">H</text><text x=\"215\" y=\"198\">H</text><text x=\"245\" y=\"70\">H</text><text x=\"245\" y=\"134\">H</text><text x=\"275\" y=\"70\">H</text><text x=\"275\" y=\"134\">H</text><text x=\"305\" y=\"70\">H</text><text x=\"305\" y=\"134\">H</text><text x=\"305\" y=\"166\">H</text><text x=\"305\" y=\"198\">H</text><text x=\"305\" y=\"102\">H</text></g><text x=\"400\" y=\"135\" font-size=\"14\" fill=\"#888\" font-family=\"sans-serif\">작은 H들이 모여</text><text x=\"400\" y=\"156\" font-size=\"14\" fill=\"#888\" font-family=\"sans-serif\">큰 H로 먼저 읽힌다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "cheerleader-effect",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "치어리더 효과",
+    "titleEn": "Cheerleader Effect",
+    "origin": "드루 워커 · 에드워드 불",
+    "year": 2014,
+    "field": "지각심리학",
+    "oneLiner": "같은 얼굴도 무리 속에 있으면 더 예뻐 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "드루 워커 · 에드워드 불",
+      "지각심리학",
+      "지각",
+      "group portrait grid layout design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "워커와 불이 「위계적 부호화가 집단 속 개인을 더 매력적으로 만든다」(Psychological Science, 2014)에서 보인 현상. 동일한 얼굴이 단독일 때보다 집단 속에 있을 때 더 매력적으로 평가됐다. 시각계가 집단을 위계적으로 부호화해 개별 얼굴을 '집단 평균'쪽으로 당기고, 평균 얼굴은 대체로 더 매력적이기 때문이다(평균성의 미와 연결).",
+      "why": "뇌는 군집을 개별이 아니라 앙상블 통계(평균)로 요약 지각한다. 개체는 그 평균의 후광을 입어, 단독으로 볼 때보다 결점이 평균에 희석된다.",
+      "apply": [
+        "인물·제품 사진은 정돈된 그룹·그리드 안에 배치하면 개별 인상이 끌어올려진다.",
+        "팀 소개·포트폴리오 썸네일은 균질한 세트로 묶어 전체 평균 인상을 관리한다.",
+        "단, 주인공 하나를 띄울 땐 반대로 — 무리에서 떼어내 고립시켜야 개성이 산다(폰 레스토프)."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><circle cx=\"135\" cy=\"115\" r=\"34\"/></g><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><circle cx=\"320\" cy=\"100\" r=\"30\"/><circle cx=\"380\" cy=\"118\" r=\"30\"/><circle cx=\"440\" cy=\"98\" r=\"30\"/><circle cx=\"350\" cy=\"150\" r=\"30\"/><circle cx=\"412\" cy=\"150\" r=\"30\"/></g><text x=\"135\" y=\"195\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">단독</text><text x=\"385\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">무리 속 — 더 매력적으로</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "inattentional-blindness",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "무주의 맹시",
+    "titleEn": "Inattentional Blindness",
+    "origin": "대니얼 사이먼스 · 크리스토퍼 차브리스",
+    "year": 1999,
+    "field": "주의 연구",
+    "oneLiner": "한 곳에 집중하면 한복판의 고릴라도 안 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "대니얼 사이먼스 · 크리스토퍼 차브리스",
+      "주의 연구",
+      "지각",
+      "selective attention focus minimal design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "사이먼스와 차브리스의 「우리 한가운데의 고릴라」(Perception, 1999) — 패스 횟수를 세는 과제에 몰입한 관찰자의 절반가량이 화면 중앙을 가로지르는 고릴라 분장을 알아채지 못했다. 주의를 받지 못한 대상은 눈앞에 또렷이 있어도 지각되지 않는다.",
+      "why": "시각은 카메라가 아니라 선택적 스포트라이트다. 주의 자원은 한정돼 있어, 과제와 무관한 자극은 망막에 맺혀도 의식에 오르지 못한다.",
+      "apply": [
+        "사용자가 한 과제에 몰입하면 배너·툴팁·알림은 통째로 무시된다 — 중요 정보는 과제 흐름 위에 둔다.",
+        "'눈에 잘 띈다'와 '주의를 받는다'는 다르다 — 크게 만든다고 보이는 게 아니다.",
+        "결정적 메시지는 사용자의 현재 주의 초점과 같은 위치·같은 순간에 등장시킨다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><circle cx=\"130\" cy=\"80\" r=\"22\"/><circle cx=\"205\" cy=\"150\" r=\"22\"/><circle cx=\"280\" cy=\"80\" r=\"22\"/><circle cx=\"355\" cy=\"150\" r=\"22\"/><circle cx=\"430\" cy=\"80\" r=\"22\"/></g><g opacity=\"0.18\"><circle cx=\"280\" cy=\"120\" r=\"46\" fill=\"#222\"/><circle cx=\"265\" cy=\"108\" r=\"6\" fill=\"#f4f4f1\"/><circle cx=\"295\" cy=\"108\" r=\"6\" fill=\"#f4f4f1\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">공만 세면, 흐릿한 고릴라는 보이지 않는다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "change-blindness",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "변화 맹시",
+    "titleEn": "Change Blindness",
+    "origin": "로널드 렌싱크 · 케빈 오리건 · 제임스 클라크",
+    "year": 1997,
+    "field": "주의 연구",
+    "oneLiner": "깜빡이는 순간에 바뀌면 큰 변화도 못 알아챈다.",
+    "credibility": "established",
+    "keywords": [
+      "로널드 렌싱크 · 케빈 오리건 · 제임스 클라크",
+      "주의 연구",
+      "지각",
+      "before after comparison ui design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "렌싱크 연구진의 「볼 것인가 말 것인가」(Psychological Science, 1997) — 두 장면 사이에 짧은 빈 화면을 끼우면 크고 반복되는 변화조차 좀처럼 검출되지 않았다. 우리는 세계의 상세한 표상을 머릿속에 들고 있지 않으며, 변화를 보려면 그 지점에 주의가 가 있어야 한다.",
+      "why": "변화 검출은 변화 신호(움직임의 번쩍임)에 의존하는데, 화면 전환이 그 신호를 가리면 비교할 기준이 사라진다. 기억은 장면 전체가 아니라 주의가 머문 일부만 붙든다.",
+      "apply": [
+        "상태 변화(추가됨·삭제됨·갱신됨)는 전환과 동시에 일어나면 묻힌다 — 별도의 명시적 신호로 알린다.",
+        "페이지 리렌더·필터 적용 후 '무엇이 바뀌었는지'를 모션·하이라이트로 또렷이 보여준다.",
+        "비교가 필요한 두 상태는 같은 화면에 나란히 — 시간차로 보여주면 차이가 사라진다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"80\" y=\"55\" width=\"120\" height=\"130\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"95\" r=\"14\" fill=\"#222\"/><rect x=\"100\" y=\"125\" width=\"80\" height=\"10\" fill=\"#bbb\"/><rect x=\"100\" y=\"145\" width=\"60\" height=\"10\" fill=\"#bbb\"/></g><rect x=\"235\" y=\"55\" width=\"50\" height=\"130\" fill=\"#222\" opacity=\"0.85\"/><g><rect x=\"335\" y=\"55\" width=\"120\" height=\"130\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"95\" r=\"14\" fill=\"#b3401f\"/><rect x=\"355\" y=\"125\" width=\"80\" height=\"10\" fill=\"#bbb\"/><rect x=\"355\" y=\"145\" width=\"60\" height=\"10\" fill=\"#bbb\"/></g><text x=\"260\" y=\"125\" text-anchor=\"middle\" font-size=\"22\" fill=\"#f4f4f1\" font-family=\"sans-serif\">?</text><text x=\"280\" y=\"212\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">빈 화면을 거치면 색이 바뀐 걸 놓친다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "thatcher-effect",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "대처 착시",
+    "titleEn": "Thatcher Effect",
+    "origin": "피터 톰프슨",
+    "year": 1980,
+    "field": "얼굴 지각",
+    "oneLiner": "거꾸로 뒤집으면 기괴함조차 안 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "피터 톰프슨",
+      "얼굴 지각",
+      "지각",
+      "face symmetry alignment icon design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "톰프슨의 한 쪽짜리 고전 논문 「마거릿 대처: 새로운 착시」(Perception, 1980). 얼굴에서 눈과 입만 상하 반전시킨 사진은 얼굴 전체를 뒤집어 놓으면 멀쩡해 보이지만, 똑바로 세우는 순간 끔찍하게 일그러져 보인다. 얼굴은 부분이 아니라 부분들의 '배치 관계(전체적 처리)'로 인식되며, 그 처리는 정립 방향에서만 작동한다.",
+      "why": "익숙한 정립 얼굴은 눈·코·입의 관계를 통째로 읽는 전용 회로가 가동되어 미세한 어긋남도 즉시 잡아낸다. 뒤집으면 그 회로가 꺼지고 부분별로만 보여 이상을 못 느낀다.",
+      "apply": [
+        "얼굴·대칭 요소는 정상 방향에서 1px의 어긋남도 강하게 감지된다 — 인물·아이콘 정렬을 정밀하게.",
+        "로고·마스코트의 눈·입 배치는 미세 조정에 가장 민감한 부분이니 마지막까지 눈으로 검수한다.",
+        "전체적 관계가 중요한 대상(얼굴, 타이포 균형)은 부분 수치 정렬만 믿지 말고 통째로 본다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><circle cx=\"170\" cy=\"110\" r=\"58\"/><path d=\"M150,95 a10,6 0 1 0 0.1,0\" /><path d=\"M190,95 a10,6 0 1 0 0.1,0\"/><path d=\"M150,135 Q170,148 190,135\"/></g><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><circle cx=\"390\" cy=\"110\" r=\"58\"/><path d=\"M370,90 Q390,77 410,90\"/><g transform=\"rotate(180 370 128)\"><path d=\"M360,128 a10,6 0 1 0 0.1,0\"/></g><g transform=\"rotate(180 410 128)\"><path d=\"M400,128 a10,6 0 1 0 0.1,0\"/></g></g><text x=\"170\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">정상</text><text x=\"390\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">눈·입만 반전 — 똑바로 보면 기괴</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "boundary-extension",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "경계 확장",
+    "titleEn": "Boundary Extension",
+    "origin": "헬렌 인트로브 · 메리 리처드슨",
+    "year": 1989,
+    "field": "장면 기억",
+    "oneLiner": "기억은 프레임 바깥까지 멋대로 그려 넣는다.",
+    "credibility": "established",
+    "keywords": [
+      "헬렌 인트로브 · 메리 리처드슨",
+      "장면 기억",
+      "지각",
+      "tight crop bleed photography composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "인트로브와 리처드슨의 「클로즈업 장면의 광각 기억」(JEP: LMC, 1989). 사람들은 가까이 찍힌 장면을 실제보다 더 넓은 화각으로 기억하고, 원래 프레임 밖에 있었을 법한 배경까지 보충해 회상한다. 시각계가 장면의 경계 너머를 자동으로 외삽해 기억과 합치기 때문이다.",
+      "why": "지각은 프레임을 세계의 끝이 아니라 '잘린 창'으로 가정한다. 뇌는 연속된 공간을 전제로 보이지 않는 바깥을 채워 넣어, 기억 속 장면이 실제보다 넓어진다.",
+      "apply": [
+        "타이트한 크롭(블리드)은 보는 이가 화면 밖 공간을 스스로 보충하게 해 더 넓은 세계를 암시한다.",
+        "주제를 일부러 프레임에 바짝 붙이면 '계속 이어지는' 긴장과 현장감이 생긴다.",
+        "전체를 다 담으려 멀리 빼지 마라 — 적절히 잘린 프레임이 상상으로 더 크게 완성된다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"180\" y=\"55\" width=\"200\" height=\"130\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"35\" width=\"300\" height=\"170\" fill=\"none\" stroke=\"#b3401f\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><circle cx=\"280\" cy=\"120\" r=\"30\" fill=\"#222\"/><text x=\"280\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">실선이 실제 프레임, 점선이 기억된 화각</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "generic-viewpoint",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "일반 시점 가정",
+    "titleEn": "Generic Viewpoint Assumption",
+    "origin": "윌리엄 T. 프리먼",
+    "year": 1994,
+    "field": "계산 시지각",
+    "oneLiner": "뇌는 '내가 우연히 딱 이 각도에 있을 리 없다'고 가정한다.",
+    "credibility": "established",
+    "keywords": [
+      "윌리엄 T. 프리먼",
+      "계산 시지각",
+      "지각",
+      "isometric impossible object illusion design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "프리먼이 Nature(1994)에서 베이지안 틀로 정식화한 지각의 기본 전제. 관찰자는 자신이 장면에 대해 특별하고 우연한 위치에 있지 않다고 가정한다 — 시점이 조금 움직여도 형상이 크게 변하지 않는 '일반적 시점'을 선호하고, 특정 각도에서만 성립하는 우연한 정렬은 해석에서 배제한다.",
+      "why": "우연히 완벽하게 정렬되는 시점은 무한한 시점 중 단 하나라 확률이 0에 가깝다. 뇌는 그런 '기적'을 믿느니, 어느 각도에서나 안정적인 평범한 해석을 택한다.",
+      "apply": [
+        "형태가 특정 각도에서만 성립하는 우연한 일치에 기대지 마라 — 다양한 시점에서 안정적으로 읽혀야 한다.",
+        "3D·아이소메트릭에서 모서리가 우연히 겹쳐 모호해지는 카메라 각도를 피한다.",
+        "반대로, '불가능한 도형'의 위트는 이 가정을 의도적으로 배신해 만든다 — 규칙을 알아야 깰 수 있다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"><rect x=\"100\" y=\"70\" width=\"80\" height=\"80\"/><line x1=\"180\" y1=\"70\" x2=\"220\" y2=\"45\"/><line x1=\"180\" y1=\"150\" x2=\"220\" y2=\"125\"/><line x1=\"220\" y1=\"45\" x2=\"220\" y2=\"125\"/><line x1=\"100\" y1=\"70\" x2=\"140\" y2=\"45\"/><line x1=\"140\" y1=\"45\" x2=\"220\" y2=\"45\"/></g><g fill=\"none\" stroke=\"#b3401f\" stroke-width=\"2.5\"><line x1=\"360\" y1=\"60\" x2=\"460\" y2=\"160\"/><circle cx=\"410\" cy=\"110\" r=\"4\" fill=\"#b3401f\"/></g><text x=\"140\" y=\"195\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">안정적 시점 — 정육면체로 읽힘</text><text x=\"410\" y=\"195\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">우연한 시점 — 배제됨</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "peekaboo",
+    "domain": "aesthetics",
+    "category": "perception",
+    "categoryLabel": "지각",
+    "title": "지각적 문제 해결",
+    "titleEn": "Perceptual Problem-Solving (Peekaboo)",
+    "origin": "V. S. 라마찬드란 · 윌리엄 허스타인",
+    "year": 1999,
+    "field": "신경미학",
+    "oneLiner": "조금 가려진 것이 다 보이는 것보다 끌린다.",
+    "credibility": "established",
+    "keywords": [
+      "V. S. 라마찬드란 · 윌리엄 허스타인",
+      "신경미학",
+      "지각",
+      "obscured silhouette mystery poster design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "라마찬드란과 허스타인이 「예술의 과학」(Journal of Consciousness Studies, 1999)에서 제시한 예술의 신경학 법칙 중 하나. 의미가 즉시 드러나지 않아 시각계가 해답을 찾아 '분투'하게 만드는 이미지가 역설적으로 더 매혹적이다. 안개 속 형체, 가려진 누드, 암시된 윤곽 — 지각이 스스로 풀어내는 그 과정 자체가 보상이 된다.",
+      "why": "뇌의 시각 영역은 모호함을 해소하고 '아하'에 도달하는 순간 도파민 보상을 낸다. 너무 쉬우면 보상이 없고, 적당히 가려져 풀리는 맛이 있을 때 몰입이 생긴다(피크엔드·자이가르닉과 공명).",
+      "apply": [
+        "전부 드러내지 마라 — 살짝 가리고 암시해 보는 이가 마지막 한 조각을 스스로 채우게 한다.",
+        "히어로 이미지·인트로에 약간의 모호함(실루엣, 부분 노출)을 남겨 발견의 보상을 설계한다.",
+        "단, 풀리지 않는 모호함은 좌절이다 — '노력하면 풀린다'는 확신이 보이는 선까지만."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><defs><pattern id=\"slats\" width=\"34\" height=\"10\" patternUnits=\"userSpaceOnUse\"><rect width=\"34\" height=\"6\" y=\"2\" fill=\"#f4f4f1\"/></pattern></defs><g fill=\"#222\"><circle cx=\"280\" cy=\"110\" r=\"62\"/><path d=\"M255,95 a8,5 0 1 0 0.1,0\" fill=\"#f4f4f1\"/><path d=\"M305,95 a8,5 0 1 0 0.1,0\" fill=\"#f4f4f1\"/><path d=\"M255,130 Q280,148 305,130\" fill=\"none\" stroke=\"#f4f4f1\" stroke-width=\"4\"/></g><g stroke=\"#f4f4f1\" stroke-width=\"9\"><line x1=\"210\" y1=\"58\" x2=\"350\" y2=\"58\"/><line x1=\"210\" y1=\"76\" x2=\"350\" y2=\"76\"/><line x1=\"210\" y1=\"94\" x2=\"350\" y2=\"94\"/><line x1=\"210\" y1=\"112\" x2=\"350\" y2=\"112\"/><line x1=\"210\" y1=\"130\" x2=\"350\" y2=\"130\"/><line x1=\"210\" y1=\"148\" x2=\"350\" y2=\"148\"/><line x1=\"210\" y1=\"166\" x2=\"350\" y2=\"166\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">가려질수록 뇌는 더 열심히 본다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "golden-ratio",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "황금비",
+    "titleEn": "Golden Ratio (φ ≈ 1.618)",
+    "origin": "유클리드 · 루카 파치올리",
+    "year": -300,
+    "field": "수학·비례론",
+    "oneLiner": "1 : 1.618 — 전체와 부분이 같은 비율로 공명하는 분할.",
+    "credibility": "established",
+    "keywords": [
+      "유클리드 · 루카 파치올리",
+      "수학·비례론",
+      "구성·비례",
+      "golden ratio design composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "전체에 대한 큰 부분의 비가 큰 부분에 대한 작은 부분의 비와 같아지는 분할(φ≈1.618). 유클리드 『원론』이 '외중비'로 정의했고, 르네상스의 파치올리가 『신성한 비례』(1509)에서 미학의 영역으로 끌어왔다. 앵무조개 나선, 파르테논 분석, 르 코르뷔지에의 모뒬로르까지 — 가장 오래 살아남은 비례의 규범이다.",
+      "why": "자기유사성 — 부분을 잘라내도 전체와 같은 비율이 반복된다. 시각적으로 '어디를 봐도 같은 질서'가 느껴져 안정과 생동을 동시에 준다. (단, 만능 공식은 아니다. 후대의 과장된 신화도 많다.)",
+      "apply": [
+        "본문:제목, 콘텐츠:여백 등 두 값의 관계를 정할 때 1:1.6을 출발점으로 삼는다.",
+        "화면 분할(사이드바:본문), 카드의 가로세로비에 적용해 본 뒤 눈으로 미세 조정한다.",
+        "타이포 스케일을 ×1.618(또는 완화된 ×1.25~1.5)로 등비 설계한다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/NautilusCutawayLogarithmicSpiral.jpg?width=1100",
+          "caption": "앵무조개 단면의 로그 나선",
+          "credit": "Wikimedia Commons"
+        },
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Parthenon%20in%20Athens.jpg?width=1100",
+          "caption": "파르테논 — 황금비 분석의 단골 사례",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rule-of-thirds",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "삼분할의 법칙",
+    "titleEn": "Rule of Thirds",
+    "origin": "존 토머스 스미스",
+    "year": 1797,
+    "field": "회화·사진 구도론",
+    "oneLiner": "화면을 9칸으로 나누고, 주인공은 교차점에 둔다.",
+    "credibility": "established",
+    "keywords": [
+      "존 토머스 스미스",
+      "회화·사진 구도론",
+      "구성·비례",
+      "rule of thirds photography composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "화면을 가로세로 3등분하고 주요 요소를 분할선과 교차점 위에 배치하는 구도법. 화가 존 토머스 스미스가 1797년 저서에서 처음 명명했다. 중앙 배치의 정적인 안정 대신 긴장과 움직임이 있는 균형을 만든다.",
+      "why": "정중앙은 한눈에 끝나는 '닫힌' 배치다. 1/3 지점은 주인공과 여백 사이에 비대칭 균형을 만들어 시선이 화면 전체를 돌게 한다.",
+      "apply": [
+        "사진·썸네일에서 수평선은 가운데가 아닌 위/아래 1/3 선에 맞춘다.",
+        "인물의 시선·이동 방향 앞쪽에 2/3의 빈 공간을 남긴다.",
+        "포스터의 헤드라인·로고를 교차점 4곳 중 하나에 앉혀 본다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"100\" y=\"30\" width=\"360\" height=\"180\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><g stroke=\"#bbb\" stroke-width=\"1\"><line x1=\"220\" y1=\"30\" x2=\"220\" y2=\"210\"/><line x1=\"340\" y1=\"30\" x2=\"340\" y2=\"210\"/><line x1=\"100\" y1=\"90\" x2=\"460\" y2=\"90\"/><line x1=\"100\" y1=\"150\" x2=\"460\" y2=\"150\"/></g><g fill=\"#b3401f\"><circle cx=\"220\" cy=\"90\" r=\"6\"/><circle cx=\"340\" cy=\"90\" r=\"6\"/><circle cx=\"220\" cy=\"150\" r=\"6\"/><circle cx=\"340\" cy=\"150\" r=\"6\"/></g><circle cx=\"220\" cy=\"90\" r=\"26\" fill=\"none\" stroke=\"#b3401f\" stroke-width=\"2.5\"/></svg>",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20by%20hokusai%2019th%20century.jpg?width=1100",
+          "caption": "호쿠사이 〈가나가와 해변의 높은 파도 아래〉 — 파도와 후지산이 분할선 위에 놓인다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "line-of-beauty",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "미의 선",
+    "titleEn": "Line of Beauty",
+    "origin": "윌리엄 호가스",
+    "year": 1753,
+    "field": "미학 이론",
+    "oneLiner": "직선은 죽어 있고, S자 곡선은 살아 있다.",
+    "credibility": "established",
+    "keywords": [
+      "윌리엄 호가스",
+      "미학 이론",
+      "구성·비례",
+      "s curve line of beauty art composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "영국 화가 호가스가 『미의 분석』(1753)에서 제시한 이론. 완만한 S자 곡선(서펜타인 라인)이 가장 아름다운 선이며, 직선과 단순 원호는 단조롭고 과한 굴곡은 어지럽다고 보았다. 보티첼리의 비너스부터 현대 제품의 곡면까지, '생동감 있는 우아함'의 공식이다.",
+      "why": "S커브는 시선을 한 번에 끝내지 않고 방향을 두 번 바꾸며 '추적의 즐거움'을 준다. 생명체의 윤곽 대부분이 복합 곡선이라 생동감과 직결된다.",
+      "apply": [
+        "인물·제품 사진의 포즈와 앵글에서 몸통 축이 S자를 그리게 한다.",
+        "일러스트의 줄기·머리카락·천 주름은 단순 원호 대신 곡률이 변하는 곡선으로.",
+        "지면의 시선 흐름(Z·S 패턴)을 요소 배치로 설계한다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro%20Botticelli%20-%20La%20nascita%20di%20Venere%20-%20Google%20Art%20Project%20-%20edited.jpg?width=1100",
+          "caption": "보티첼리 〈비너스의 탄생〉 — 콘트라포스토가 만드는 S자 축",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "symmetry-balance",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "대칭과 균형",
+    "titleEn": "Symmetry & Balance",
+    "origin": "비트루비우스 · 루돌프 아른하임",
+    "year": 1954,
+    "field": "건축·시각심리",
+    "oneLiner": "균형은 무게의 문제다 — 좌우가 같거나, 다르되 팽팽하거나.",
+    "credibility": "established",
+    "keywords": [
+      "비트루비우스 · 루돌프 아른하임",
+      "건축·시각심리",
+      "구성·비례",
+      "asymmetrical balance graphic design poster"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "대칭은 가장 오래된 질서의 형식이고, 비대칭 균형은 더 세련된 질서다. 아른하임은 『미술과 시지각』(1954)에서 모든 시각 요소가 '지각적 무게'를 가지며 구도는 그 무게들의 역학적 평형이라고 분석했다. 크기·색·위치·고립이 모두 무게가 된다.",
+      "why": "인간은 중력 아래 사는 존재라 시각적 불균형을 물리적 불안으로 느낀다. 대칭은 즉각적 안정·장엄함을, 비대칭 균형은 안정 속의 긴장과 생기를 준다.",
+      "apply": [
+        "장엄·신뢰·격식이 목표면 좌우 대칭을, 생동·현대성이 목표면 비대칭 균형을 택한다.",
+        "큰 요소 하나 ↔ 작은 요소 여럿 + 넓은 여백으로 시소처럼 무게를 맞춘다.",
+        "작아도 진한 색·고립된 위치는 무겁다 — 면적이 아니라 '끌림'으로 균형을 판단한다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20(Edited).jpeg?width=1100",
+          "caption": "타지마할 — 완전 대칭이 만드는 장엄",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "hierarchy",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "시각적 위계",
+    "titleEn": "Visual Hierarchy",
+    "origin": "그래픽 디자인 원리",
+    "year": 1920,
+    "field": "그래픽 디자인",
+    "oneLiner": "무엇을 먼저 볼지는 보는 사람이 아니라 디자이너가 정한다.",
+    "credibility": "established",
+    "keywords": [
+      "그래픽 디자인 원리",
+      "그래픽 디자인",
+      "구성·비례",
+      "visual hierarchy poster typography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "크기·굵기·색·대비·위치로 정보에 '읽는 순서'를 부여하는 원리. 신타이포그래피 운동(치홀트)과 바우하우스가 체계화했다. 위계가 없는 화면은 모든 것이 같은 목소리로 외치는 화면이고, 결국 아무것도 들리지 않는다.",
+      "why": "시선은 대비가 가장 큰 곳에 먼저 간다. 위계는 그 본능적 순서를 정보의 중요도 순서와 일치시키는 작업이다.",
+      "apply": [
+        "화면마다 '1초 안에 보여야 할 것' 하나를 정하고 그것만 압도적으로 키운다.",
+        "위계 단계는 3~4개로 제한한다. 다섯 번째 강조는 강조가 아니다.",
+        "눈을 가늘게 뜨고(스쿼트 테스트) 흐릿한 상태에서도 순서가 읽히는지 확인한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><text x=\"80\" y=\"92\" font-size=\"44\" font-weight=\"700\" fill=\"#222\" font-family=\"sans-serif\">먼저 읽힌다</text><text x=\"80\" y=\"130\" font-size=\"20\" fill=\"#444\" font-family=\"sans-serif\">그 다음 이 줄이 읽히고</text><text x=\"80\" y=\"160\" font-size=\"13\" fill=\"#999\" font-family=\"sans-serif\">마지막으로 이 작은 글줄이 읽힌다 — 순서는 설계된 것이다</text><rect x=\"80\" y=\"180\" width=\"120\" height=\"34\" fill=\"#222\"/><text x=\"140\" y=\"202\" font-size=\"13\" fill=\"#fff\" text-anchor=\"middle\" font-family=\"sans-serif\">행동 유도</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "grid",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "그리드 시스템",
+    "titleEn": "Grid Systems",
+    "origin": "요제프 뮐러-브로크만",
+    "year": 1981,
+    "field": "스위스 타이포그래피",
+    "oneLiner": "보이지 않는 격자가 보이는 질서를 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "요제프 뮐러-브로크만",
+      "스위스 타이포그래피",
+      "구성·비례",
+      "swiss grid system poster design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "지면을 일정한 칼럼·모듈로 나누고 모든 요소를 그 위에 정렬하는 방법론. 스위스파 거장 뮐러-브로크만이 『그래픽 디자인의 그리드 시스템』(1981)으로 집대성했다. 그리드는 구속이 아니라, 무한한 배치 중 좋은 배치만 남기는 필터다.",
+      "why": "정렬된 요소들은 연속성의 법칙으로 묶여 한 번에 읽힌다. 반복되는 모듈은 페이지를 넘겨도 유지되는 리듬 — 즉 신뢰감을 만든다.",
+      "apply": [
+        "작업 시작 전에 칼럼 수·거터·마진부터 정한다(웹은 12칼럼이 표준 출발점).",
+        "모든 요소의 좌우 끝을 칼럼 경계에 스냅시킨다. '대충 가운데'를 없앤다.",
+        "리듬이 단조로우면 그리드를 지키면서 스팬(차지하는 칼럼 수)만 다양화한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#e3e3de\"><rect x=\"85\" y=\"28\" width=\"56\" height=\"184\"/><rect x=\"153\" y=\"28\" width=\"56\" height=\"184\"/><rect x=\"221\" y=\"28\" width=\"56\" height=\"184\"/><rect x=\"289\" y=\"28\" width=\"56\" height=\"184\"/><rect x=\"357\" y=\"28\" width=\"56\" height=\"184\"/><rect x=\"425\" y=\"28\" width=\"56\" height=\"184\"/></g><g fill=\"#222\"><rect x=\"85\" y=\"40\" width=\"192\" height=\"58\"/><rect x=\"289\" y=\"40\" width=\"124\" height=\"26\"/><rect x=\"289\" y=\"74\" width=\"260\" height=\"8\" fill=\"#999\"/><rect x=\"289\" y=\"88\" width=\"220\" height=\"8\" fill=\"#999\"/><rect x=\"85\" y=\"120\" width=\"124\" height=\"70\" fill=\"#b3401f\"/><rect x=\"221\" y=\"120\" width=\"192\" height=\"8\" fill=\"#999\"/><rect x=\"221\" y=\"134\" width=\"170\" height=\"8\" fill=\"#999\"/></g></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "canon",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "카논 — 인체 비례의 규범",
+    "titleEn": "The Canon of Polykleitos",
+    "origin": "폴리클레이토스",
+    "year": -440,
+    "field": "고전 조각",
+    "oneLiner": "아름다움은 부분과 부분의 정확한 비율 관계에서 온다.",
+    "credibility": "established",
+    "keywords": [
+      "폴리클레이토스",
+      "고전 조각",
+      "구성·비례",
+      "classical sculpture proportion study"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "고대 그리스 조각가 폴리클레이토스는 『카논』에서 이상적 인체를 부분 간 수적 비례 체계로 규정하고, 그 증명으로 〈도리포로스(창을 든 남자)〉를 제작했다. '아름다움은 많은 수들의 미세한 관계 속에서 생겨난다'는 그의 명제는 비례 미학의 출발점이다.",
+      "why": "부분들이 공통 단위(모듈)의 배수로 관계 맺으면 전체가 하나의 시스템으로 읽힌다. 무질서한 다양성이 아니라 계산된 다양성이 된다.",
+      "apply": [
+        "캐릭터·제품 디자인에서 기준 모듈(머리 크기, 버튼 높이)을 정하고 모든 치수를 그 배수로 잡는다.",
+        "8pt 그리드처럼 간격·크기 체계를 단일 단위에서 파생시킨다.",
+        "비례를 깨야 할 때는 '의도된 위반'임이 보이도록 확실히 깬다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Doryphoros%20MAN%20Napoli%20Inv6011-2.jpg?width=900",
+          "caption": "〈도리포로스〉 로마 시대 모각 — 카논의 물리적 증명",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "unity-variety",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "다양성 속의 통일",
+    "titleEn": "Unity in Variety",
+    "origin": "프랜시스 허치슨 · 구스타프 페히너",
+    "year": 1725,
+    "field": "미학·실험심리학",
+    "oneLiner": "아름다움 = 풍부한 다양성 × 그것을 꿰는 하나의 질서.",
+    "credibility": "established",
+    "keywords": [
+      "프랜시스 허치슨 · 구스타프 페히너",
+      "미학·실험심리학",
+      "구성·비례",
+      "unity in variety art composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "허치슨은 『미와 덕의 관념의 기원』(1725)에서 미를 '다양성 속의 제일성(uniformity amidst variety)'으로 정의했고, 실험미학의 창시자 페히너가 19세기에 이를 측정 가능한 원리로 다듬었다. 단조로움도 혼란도 아닌, 둘 사이의 팽팽한 공존이 미의 조건이라는 가장 고전적인 공식이다.",
+      "why": "다양성은 흥미(각성)를, 통일성은 이해(질서)를 공급한다. 한쪽만 있으면 지루하거나 어지럽다. 둘이 곱해질 때 '풍부한데 읽힌다'는 감각이 생긴다.",
+      "apply": [
+        "요소가 다양하면 팔레트·폰트·형태 언어 중 하나를 강하게 통일해 묶는다.",
+        "반대로 시스템이 너무 균질하면 크기·리듬에 의도적 변주를 넣는다.",
+        "'무엇으로 통일하고 무엇으로 변주할 것인가'를 작업 전에 한 줄로 적어 둔다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20Gogh%20-%20Starry%20Night%20-%20Google%20Art%20Project.jpg?width=1100",
+          "caption": "고흐 〈별이 빛나는 밤〉 — 무수한 변주를 하나의 소용돌이 리듬이 통일한다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "birkhoff",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "버코프의 미적 척도",
+    "titleEn": "Aesthetic Measure, M = O/C",
+    "origin": "조지 버코프",
+    "year": 1933,
+    "field": "수리미학",
+    "oneLiner": "M = O/C — 아름다움은 질서를 복잡도로 나눈 값이다.",
+    "credibility": "established",
+    "keywords": [
+      "조지 버코프",
+      "수리미학",
+      "구성·비례",
+      "generative art order complexity"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "수학자 조지 버코프가 『미적 척도』(1933)에서 제안한 공식. 미적 가치(M)는 질서(Order)에 비례하고 복잡도(Complexity)에 반비례한다. 다각형·화병·시구까지 수치화를 시도한 최초의 수학적 미학으로, 오늘날 계산미학과 정보미학의 원형이다.",
+      "why": "같은 만족을 주는 두 디자인이 있다면 인지 비용이 낮은 쪽이 더 아름답게 느껴진다. '복잡도당 질서의 효율'이라는 관점은 디자인 품질을 점검하는 강력한 휴리스틱이다.",
+      "apply": [
+        "요소를 추가할 때마다 자문한다 — 이것은 질서(O)를 늘리는가, 복잡도(C)만 늘리는가.",
+        "복잡도를 줄일 수 없다면 정렬·반복·대칭으로 질서를 보강해 비율을 지킨다.",
+        "시안 비교 시 '같은 정보량을 더 적은 규칙으로 설명하는 쪽'을 고른다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><g><rect x=\"90\" y=\"56\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"90\" y=\"86\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"90\" y=\"116\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"90\" y=\"146\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"120\" y=\"56\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"120\" y=\"86\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"120\" y=\"116\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"120\" y=\"146\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"150\" y=\"56\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"150\" y=\"86\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"150\" y=\"116\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"150\" y=\"146\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"180\" y=\"56\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"180\" y=\"86\" width=\"24\" height=\"24\" fill=\"#b3401f\"/><rect x=\"180\" y=\"116\" width=\"24\" height=\"24\" fill=\"#222\"/><rect x=\"180\" y=\"146\" width=\"24\" height=\"24\" fill=\"#b3401f\"/></g><g><rect x=\"330\" y=\"60\" width=\"18\" height=\"18\" fill=\"#222\" transform=\"rotate(-12 330 60)\"/><rect x=\"368\" y=\"92\" width=\"26\" height=\"26\" fill=\"#222\" transform=\"rotate(30 368 92)\"/><rect x=\"412\" y=\"58\" width=\"14\" height=\"14\" fill=\"#222\" transform=\"rotate(8 412 58)\"/><rect x=\"345\" y=\"130\" width=\"30\" height=\"30\" fill=\"#222\" transform=\"rotate(-25 345 130)\"/><rect x=\"400\" y=\"120\" width=\"20\" height=\"20\" fill=\"#222\" transform=\"rotate(14 400 120)\"/><rect x=\"440\" y=\"95\" width=\"16\" height=\"16\" fill=\"#222\" transform=\"rotate(40 440 95)\"/><rect x=\"358\" y=\"170\" width=\"18\" height=\"18\" fill=\"#222\" transform=\"rotate(5 358 170)\"/><rect x=\"420\" y=\"160\" width=\"26\" height=\"26\" fill=\"#222\" transform=\"rotate(-18 420 160)\"/><rect x=\"460\" y=\"140\" width=\"14\" height=\"14\" fill=\"#222\" transform=\"rotate(22 460 140)\"/><rect x=\"470\" y=\"180\" width=\"20\" height=\"20\" fill=\"#222\" transform=\"rotate(-8 470 180)\"/></g></g><text x=\"150\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">높은 O, 낮은 C → M↑</text><text x=\"408\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 요소 수, 질서 없음 → M↓</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "dynamic-symmetry",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "동적 대칭",
+    "titleEn": "Dynamic Symmetry",
+    "origin": "제이 햄비지",
+    "year": 1920,
+    "field": "비례론",
+    "oneLiner": "√2, √3, √5 — 뿌리 사각형이 살아 있는 비례를 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "제이 햄비지",
+      "비례론",
+      "구성·비례",
+      "dynamic symmetry root rectangle composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "미술 이론가 햄비지가 『동적 대칭의 요소』(1920)에서 제시한 비례 체계. 정수비의 '정적' 사각형 대신 무리수 비례(루트 사각형)를 쓰면 분할할수록 같은 비례가 재생산되는 '동적' 구도가 된다고 보았다. 그리스 도기 분석에서 출발해 20세기 회화·사진 구도법에 큰 영향을 줬다.",
+      "why": "루트 사각형은 반으로 잘라도 같은 비례가 반복된다(√2의 자기복제 — A4 용지가 그 증거다). 화면 분할에 일관된 기하적 논리가 생겨 부분과 전체가 공명한다.",
+      "apply": [
+        "A계열 용지(√2)의 반접기 위계를 그대로 레이아웃 분할에 활용한다.",
+        "화면의 대각선과 그 수선(레바트망)으로 분할선을 도출해 요소를 앉힌다.",
+        "황금비가 과하게 느껴지면 √2(1:1.414)가 더 차분한 대안이 된다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"none\" stroke=\"#222\" stroke-width=\"2\"><rect x=\"150\" y=\"45\" width=\"212\" height=\"150\"/><line x1=\"256\" y1=\"45\" x2=\"256\" y2=\"195\"/><line x1=\"256\" y1=\"120\" x2=\"362\" y2=\"120\"/><line x1=\"309\" y1=\"120\" x2=\"309\" y2=\"195\"/></g><g stroke=\"#b3401f\" stroke-width=\"1.5\"><line x1=\"150\" y1=\"195\" x2=\"362\" y2=\"45\"/><line x1=\"256\" y1=\"195\" x2=\"362\" y2=\"120\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">√2 사각형 — 반으로 잘라도 같은 비례가 반복된다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "modulor",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "모뒬로르",
+    "titleEn": "Le Modulor",
+    "origin": "르 코르뷔지에",
+    "year": 1948,
+    "field": "근대 건축",
+    "oneLiner": "인체 치수와 황금비로 짠 치수의 사다리.",
+    "credibility": "established",
+    "keywords": [
+      "르 코르뷔지에",
+      "근대 건축",
+      "구성·비례",
+      "le corbusier modulor architecture proportion"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "르 코르뷔지에가 『모뒬로르』(1948)에서 발표한 측정 체계. 인체 기준 치수(신장, 배꼽 높이, 든 손끝)를 황금비로 연쇄 분할해 건축 치수의 등비 계열을 만들었다. 미터법의 추상성과 인체의 구체성을 잇겠다는 시도로, 마르세유 위니테 다비타시옹에 실제 적용됐다.",
+      "why": "공간의 모든 치수가 인체에서 파생된 하나의 계열에 속하면, 사용자는 '맞다'는 느낌을 받는다. 임의의 치수 대신 시스템에서 꺼낸 치수는 서로 충돌하지 않는다.",
+      "apply": [
+        "디자인 시스템의 간격 토큰을 인체·콘텐츠 기준값에서 등비로 파생시킨다.",
+        "가구·공간 치수는 표준 인체 치수(앉은키, 손 닿는 높이)에서 출발한다.",
+        "치수가 두 계열 이상 섞이면 어수선해진다 — 하나의 사다리에서만 꺼내 쓴다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g stroke=\"#222\" stroke-width=\"2\" fill=\"none\"><line x1=\"140\" y1=\"200\" x2=\"430\" y2=\"200\"/><rect x=\"160\" y=\"178\" width=\"34\" height=\"22\"/><rect x=\"210\" y=\"165\" width=\"34\" height=\"35\"/><rect x=\"260\" y=\"143\" width=\"34\" height=\"57\"/><rect x=\"310\" y=\"108\" width=\"34\" height=\"92\"/><rect x=\"360\" y=\"52\" width=\"34\" height=\"148\"/></g><text x=\"280\" y=\"226\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">황금비 등비 계열(…×1.618)로 자라는 치수의 사다리</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "pythagoras",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "조화 비례",
+    "titleEn": "Harmonic Proportion",
+    "origin": "피타고라스 학파",
+    "year": -530,
+    "field": "수학·음악 이론",
+    "oneLiner": "아름다운 화음은 단순한 정수비다 — 눈도 귀와 다르지 않다.",
+    "credibility": "established",
+    "keywords": [
+      "피타고라스 학파",
+      "수학·음악 이론",
+      "구성·비례",
+      "harmonic proportion architecture palladio"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "피타고라스 학파는 현의 길이가 1:2(옥타브), 2:3(완전5도), 3:4(완전4도)일 때 협화음이 남을 발견하고, 우주의 아름다움이 수적 비례에 있다고 결론지었다. 이 사상은 르네상스 건축(팔라디오의 방 비례)으로 직수입되어 '보이는 음악'으로서의 비례론을 낳았다.",
+      "why": "단순한 정수비는 지각이 검산하기 쉽다. 2:3은 한눈에 관계가 읽히지만 17:23은 무질서로 보인다 — 검산 가능한 질서가 조화의 정체다.",
+      "apply": [
+        "화면 분할·카드 비례를 1:2, 2:3, 3:4 같은 단순비에서 고른다.",
+        "이미지 크롭 비율(4:3, 3:2, 16:9)을 한 작업물 안에서 한두 가지로 통일한다.",
+        "여백:콘텐츠, 행간:글자 크기 같은 짝 관계도 단순비로 말할 수 있게 정리한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g stroke=\"#222\" stroke-width=\"3\"><line x1=\"120\" y1=\"70\" x2=\"440\" y2=\"70\"/><line x1=\"120\" y1=\"120\" x2=\"280\" y2=\"120\"/><line x1=\"120\" y1=\"170\" x2=\"333\" y2=\"170\"/></g><g fill=\"#888\" font-size=\"13\" font-family=\"sans-serif\"><text x=\"455\" y=\"75\">1 — 기준</text><text x=\"295\" y=\"125\">1/2 — 옥타브</text><text x=\"348\" y=\"175\">2/3 — 완전5도</text></g></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "rule-of-odds",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "홀수의 법칙",
+    "titleEn": "Rule of Odds",
+    "origin": "회화·사진 구도 관례",
+    "year": 1800,
+    "field": "구도론",
+    "oneLiner": "셋은 둘보다 아름답다 — 홀수는 중심을 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "회화·사진 구도 관례",
+      "구도론",
+      "구성·비례",
+      "rule of odds still life styling"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "그룹으로 배치되는 요소는 홀수(특히 3, 5개)일 때 더 매력적이라는 구도 관례. 짝수는 둘씩 짝지어져 정적이고 분열되기 쉽지만, 홀수는 자연스러운 중심 요소와 둘러싼 리듬을 만든다. 정물화·꽃꽂이·제품 사진의 오래된 표준이다.",
+      "why": "짝수 그룹은 대칭으로 닫혀 시선이 멈추고, 홀수 그룹은 가운데 요소를 축으로 시선이 순환한다. 또한 홀수는 '미완결'의 미세한 긴장으로 흥미를 유지한다.",
+      "apply": [
+        "제품 연출·정물 촬영의 소품은 3개 또는 5개로 그룹핑한다.",
+        "나열형 콘텐츠(특징 소개, 카드)는 3개 단위가 가장 안정적으로 읽힌다.",
+        "짝수를 써야 한다면 크기·높이 차로 비대칭을 만들어 짝짓기를 깨라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><circle cx=\"135\" cy=\"130\" r=\"22\"/><circle cx=\"195\" cy=\"130\" r=\"22\"/><circle cx=\"330\" cy=\"124\" r=\"26\"/><circle cx=\"392\" cy=\"134\" r=\"19\"/><circle cx=\"443\" cy=\"120\" r=\"22\"/></g><text x=\"165\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">둘 — 짝지어 닫힌다</text><text x=\"388\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">셋 — 중심과 리듬이 생긴다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "leading-lines",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "리딩 라인",
+    "titleEn": "Leading Lines",
+    "origin": "회화·사진 구도론",
+    "year": 1850,
+    "field": "구도론",
+    "oneLiner": "화면 속의 선은 시선이 달리는 철로다.",
+    "credibility": "established",
+    "keywords": [
+      "회화·사진 구도론",
+      "구도론",
+      "구성·비례",
+      "leading lines photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "길·난간·그림자·건물 모서리 같은 화면 내의 선형 요소로 시선을 주제까지 끌고 가는 구도법. 연속성의 법칙을 구도에 응용한 것으로, 풍경·건축 사진의 기본기이자 회화의 오랜 장치다.",
+      "why": "시선은 선을 만나면 자동으로 올라타 끝까지 따라간다(연속성의 법칙). 선의 종착지에 주제를 두면 모든 관람자가 같은 여정으로 주제에 도착한다.",
+      "apply": [
+        "촬영 전에 현장의 선(도로, 해안선, 계단, 그림자)을 찾고 주제와 연결되는 앵글을 잡는다.",
+        "선의 출발점은 화면 모서리(특히 좌하단)가 강력하다 — 진입로가 된다.",
+        "주제 밖으로 새는 선은 시선도 데리고 나간다 — 화면 밖을 향한 강한 선을 정리하라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g stroke=\"#222\" stroke-width=\"2.5\" fill=\"none\"><line x1=\"80\" y1=\"205\" x2=\"350\" y2=\"92\"/><line x1=\"200\" y1=\"215\" x2=\"362\" y2=\"105\"/></g><circle cx=\"372\" cy=\"88\" r=\"17\" fill=\"#b3401f\"/><text x=\"280\" y=\"232\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">선의 끝에서 주제가 기다린다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "frame-in-frame",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "프레임 속 프레임",
+    "titleEn": "Frame within a Frame",
+    "origin": "회화·사진 구도론",
+    "year": 1600,
+    "field": "구도론",
+    "oneLiner": "문틀 하나가 화면을 두 배 깊게 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "회화·사진 구도론",
+      "구도론",
+      "구성·비례",
+      "frame within frame photography composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "창·문·아치·나뭇가지 같은 화면 내 요소로 주제를 한 번 더 둘러싸는 구도법. 17세기 네덜란드 회화의 '문 너머 보기(도어키케)'에서 현대 영화 촬영까지 이어지는 장치로, 깊이·집중·훔쳐보는 듯한 서사를 동시에 만든다.",
+      "why": "내부 프레임은 전경 층을 추가해 깊이를 만들고(공간감), 주제를 둘러싸 시선을 가두며(집중), '프레임 너머를 본다'는 관찰자 시점의 이야기를 깐다(서사).",
+      "apply": [
+        "주제가 밋밋하면 한 걸음 물러나 문·창·아치·터널을 전경에 끼워 본다.",
+        "내부 프레임은 어둡게 — 밝은 주제와의 명암 대비가 시선을 안쪽으로 민다.",
+        "UI에서도 통한다 — 모달·스포트라이트는 프레임 속 프레임의 디지털 번역이다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"120\" y=\"30\" width=\"320\" height=\"180\" fill=\"#222\"/><path d=\"M200,210 L200,90 A 80 80 0 0 1 360,90 L360,210 Z\" fill=\"#f4f4f1\"/><circle cx=\"280\" cy=\"150\" r=\"20\" fill=\"#b3401f\"/><text x=\"280\" y=\"232\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">아치가 깊이와 집중을 동시에 만든다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "linear-perspective",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "선원근법",
+    "titleEn": "Linear Perspective",
+    "origin": "필리포 브루넬레스키 · 레온 바티스타 알베르티",
+    "year": 1435,
+    "field": "르네상스 회화",
+    "oneLiner": "평행선들이 한 점에서 만날 때 평면은 공간이 된다.",
+    "credibility": "established",
+    "keywords": [
+      "필리포 브루넬레스키 · 레온 바티스타 알베르티",
+      "르네상스 회화",
+      "구성·비례",
+      "one point perspective architecture photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "브루넬레스키가 실험으로 증명하고 알베르티가 『회화론』(1435)으로 체계화한 공간 재현법. 평행한 선들이 소실점으로 수렴하는 기하학으로 2차원 위에 3차원을 세웠다. 라파엘로의 〈아테네 학당〉은 소실점이 화면의 의미 중심(두 철학자)과 일치하는 모범 답안이다.",
+      "why": "소실점 구조는 실제 망막에 맺히는 공간의 기하와 같아서 즉각 깊이로 읽힌다. 동시에 소실점은 모든 선이 가리키는 자리 — 화면에서 가장 강력한 주목점이 된다.",
+      "apply": [
+        "주제를 소실점(또는 그 근처)에 두면 화면의 모든 구조가 주제를 가리킨다.",
+        "1점 투시는 안정·집중, 2점은 활동성, 3점(앙각·부감)은 극적 스케일을 만든다.",
+        "UI·일러스트의 가짜 원근(아이소메트릭 포함)도 소실 논리를 일관되게 지켜야 한다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%22The%20School%20of%20Athens%22%20by%20Raffaello%20Sanzio%20da%20Urbino.jpg?width=1100",
+          "caption": "라파엘로 〈아테네 학당〉 — 소실점이 곧 주제다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aerial-perspective",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "공기원근법",
+    "titleEn": "Aerial Perspective",
+    "origin": "레오나르도 다빈치",
+    "year": 1510,
+    "field": "르네상스 회화",
+    "oneLiner": "멀어질수록 흐려지고, 옅어지고, 푸르러진다.",
+    "credibility": "established",
+    "keywords": [
+      "레오나르도 다빈치",
+      "르네상스 회화",
+      "구성·비례",
+      "atmospheric perspective landscape painting"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "대기가 빛을 산란시켜 먼 것일수록 대비가 낮아지고 청회색으로 변하는 현상을 회화에 도입한 기법. 레오나르도가 수고(手稿)에서 체계적으로 정리했고 〈모나리자〉의 배경이 대표적 실연이다. 선원근법 없이도 깊이를 만드는 두 번째 원근법.",
+      "why": "대비·채도·색온도의 거리별 변화는 시각 시스템이 깊이를 추정하는 핵심 단서다. 선이 없어도 '공기의 두께'만으로 공간이 생긴다.",
+      "apply": [
+        "배경 레이어는 대비·채도를 낮추고 살짝 푸르게·밝게 — 전경이 저절로 떠오른다.",
+        "일러스트·게임 배경은 거리별로 3~4단계의 명도·채도 띠를 설계한다.",
+        "UI에서도 응용된다 — 비활성 레이어를 흐리고 옅게 하면 깊이 위계가 생긴다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%2C%20by%20Leonardo%20da%20Vinci%2C%20from%20C2RMF%20retouched.jpg?width=900",
+          "caption": "〈모나리자〉 — 배경의 푸른 안개가 깊이를 만든다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pyramid",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "피라미드 구도",
+    "titleEn": "Pyramidal Composition",
+    "origin": "르네상스 전성기 회화",
+    "year": 1500,
+    "field": "르네상스 회화",
+    "oneLiner": "삼각형 위에 앉힌 구도는 무너지지 않는다.",
+    "credibility": "established",
+    "keywords": [
+      "르네상스 전성기 회화",
+      "르네상스 회화",
+      "구성·비례",
+      "pyramidal composition renaissance painting"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "주요 요소들을 삼각형(피라미드) 안에 배치하는 구도법. 레오나르도의 〈암굴의 성모〉, 라파엘로의 성모자상 연작이 정점을 보여준 르네상스 전성기의 표준 문법이다. 넓은 바닥과 하나의 정점이 안정과 위계를 동시에 해결한다.",
+      "why": "넓은 기저는 중력적 안정감을, 정점은 자연스러운 시선의 종착지를 제공한다. 구도 전체가 '산'의 도식으로 읽혀 한 덩어리가 된다.",
+      "apply": [
+        "인물 그룹 사진·일러스트는 머리들의 연결선이 삼각형을 그리도록 배치한다.",
+        "제품 연출에서 주인공을 정점에, 소품을 기저에 깔아 피라미드를 쌓는다.",
+        "역삼각형은 반대로 긴장과 불안을 만든다 — 의도가 있을 때만 뒤집어라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><path d=\"M280,40 L160,200 L400,200 Z\" fill=\"none\" stroke=\"#b3401f\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><g fill=\"#222\"><circle cx=\"280\" cy=\"72\" r=\"20\"/><circle cx=\"225\" cy=\"140\" r=\"16\"/><circle cx=\"335\" cy=\"140\" r=\"16\"/><circle cx=\"185\" cy=\"188\" r=\"13\"/><circle cx=\"280\" cy=\"182\" r=\"13\"/><circle cx=\"375\" cy=\"188\" r=\"13\"/></g><text x=\"280\" y=\"228\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">기저는 안정, 정점은 위계</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "diagonal",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "대각선의 역동",
+    "titleEn": "The Dynamic Diagonal",
+    "origin": "하인리히 뵐플린",
+    "year": 1915,
+    "field": "미술사",
+    "oneLiner": "수평은 멈춰 있고, 대각선은 움직인다.",
+    "credibility": "established",
+    "keywords": [
+      "하인리히 뵐플린",
+      "미술사",
+      "구성·비례",
+      "diagonal composition dynamic poster"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "미술사가 뵐플린은 『미술사의 기초개념』(1915)에서 르네상스의 수평·수직 구도와 바로크의 대각선 구도를 대비시켰다. 루벤스·틴토레토의 사선 구도는 정지된 장면에 운동과 드라마를 불어넣는다 — 방향이 곧 에너지라는 발견이다.",
+      "why": "수평·수직은 중력과 평형의 도식이라 정적이고, 사선은 '넘어지는 중'의 도식이라 시간과 운동을 암시한다. 기울기 자체가 서사를 만든다.",
+      "apply": [
+        "속도·역동이 목표면 주요 축을 10~30도 기울인다 — 스포츠·이벤트 포스터의 상수.",
+        "안정·신뢰가 목표면 수평·수직을 지키고 사선은 액센트로만.",
+        "사선은 한 방향으로 통일하라 — 여러 방향의 사선은 역동이 아니라 혼란이 된다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><rect x=\"100\" y=\"95\" width=\"150\" height=\"18\"/><rect x=\"100\" y=\"127\" width=\"150\" height=\"18\"/></g><g fill=\"#b3401f\"><rect x=\"330\" y=\"95\" width=\"150\" height=\"18\" transform=\"rotate(-18 405 104)\"/><rect x=\"330\" y=\"127\" width=\"150\" height=\"18\" transform=\"rotate(-18 405 136)\"/></g><text x=\"175\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">정지</text><text x=\"405\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">운동</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "power-of-center",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "중심의 힘",
+    "titleEn": "The Power of the Center",
+    "origin": "루돌프 아른하임",
+    "year": 1982,
+    "field": "시각심리학",
+    "oneLiner": "모든 구도는 중심과의 줄다리기다.",
+    "credibility": "established",
+    "keywords": [
+      "루돌프 아른하임",
+      "시각심리학",
+      "구성·비례",
+      "centered composition symmetry film"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "아른하임이 동명의 저서(1982)에서 전개한 구도 이론. 화면에는 중심으로 끌어당기는 '구심 시스템'과 격자처럼 펼치는 '직교 시스템'이 공존하며, 모든 배치는 이 두 힘 사이의 협상이다. 중앙 배치가 항상 나쁜 게 아니라, 중심의 힘을 의식적으로 쓰는가가 문제라는 통찰이다.",
+      "why": "중심은 시각장의 닻이다. 요소가 중심에서 벗어난 만큼 '당겨지는 긴장'이 생기고, 그 긴장의 양과 방향이 구도의 표정을 만든다.",
+      "apply": [
+        "권위·상징·정면성이 목표면 당당하게 정중앙에 둔다(종교화·문장·로고).",
+        "요소를 중심에서 비킬 때는 '무엇이 그 자리를 차지하는가'(여백·시선 방향)까지 설계한다.",
+        "삼분할과 중앙 배치는 적이 아니다 — 긴장이 필요하면 비키고, 침묵이 필요하면 중앙으로."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "crap",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "대비·반복·정렬·근접",
+    "titleEn": "Contrast · Repetition · Alignment · Proximity",
+    "origin": "로빈 윌리엄스",
+    "year": 1994,
+    "field": "그래픽 디자인 교육",
+    "oneLiner": "네 단어로 요약되는 비전공자를 위한 디자인 전부.",
+    "credibility": "established",
+    "keywords": [
+      "로빈 윌리엄스",
+      "그래픽 디자인 교육",
+      "구성·비례",
+      "graphic design basics layout principles"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "디자인 교육자 로빈 윌리엄스가 『디자이너가 아닌 사람들을 위한 디자인 북』(1994)에서 정리한 4원칙. 다르면 확실히 다르게(대비), 시각 요소를 문서 전체에서 되풀이하고(반복), 모든 요소를 다른 요소와 시각적으로 연결하며(정렬), 관련된 것끼리 모은다(근접). 게슈탈트 이론의 가장 성공적인 실무 번역본이다.",
+      "why": "네 원칙은 각각 위계(대비)·통일(반복)·연속(정렬)·그루핑(근접)이라는 지각 법칙을 행동 지침으로 바꾼 것이다. 체크리스트로 쓸 수 있다는 게 힘이다.",
+      "apply": [
+        "어설픈 차이를 금지한다 — 다르게 할 거면 두 배쯤 확실하게 다르게(대비).",
+        "모든 요소의 가장자리를 다른 무언가와 줄 맞춘다. 외톨이 정렬을 없앤다(정렬).",
+        "마감 전 4단어를 체크리스트로 한 바퀴 — 어긋난 항목이 보통 화면의 문제다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "rhythm",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "리듬과 변주",
+    "titleEn": "Rhythm & Variation",
+    "origin": "도니스 A. 돈디스",
+    "year": 1973,
+    "field": "시각 문해 교육",
+    "oneLiner": "반복이 박자를 만들고, 변주가 음악을 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "도니스 A. 돈디스",
+      "시각 문해 교육",
+      "구성·비례",
+      "rhythm repetition pattern design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "돈디스는 『시각 문해의 입문』(1973)에서 리듬을 시각 언어의 기본 기법으로 정리했다. 일정한 반복은 안정된 박자를, 간격·크기·색의 계획된 변화는 멜로디를 만든다. 반복 없는 변화는 소음이고 변화 없는 반복은 벽지다 — 둘의 직조가 리듬이다.",
+      "why": "반복은 다음을 예측하게 하고(안정), 변주는 예측을 기분 좋게 배반한다(흥미). 예측과 배반의 교차가 시선을 화면에 머물게 하는 박동이 된다.",
+      "apply": [
+        "긴 목록·그리드에는 N번째마다 큰 항목을 끼워 박자를 살린다(잡지의 와이드 카드).",
+        "반복 단위(카드, 행)의 '무엇이 고정이고 무엇이 변하는가'를 명시적으로 정한다.",
+        "스크롤 경험을 악보처럼 설계하라 — 절(반복)과 후렴(강조 섹션)의 교차."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill=\"#222\"><rect x=\"90\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"138\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"186\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"234\" y=\"80\" width=\"34\" height=\"100\" fill=\"#b3401f\"/><rect x=\"282\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"330\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"378\" y=\"120\" width=\"34\" height=\"60\"/><rect x=\"426\" y=\"80\" width=\"34\" height=\"100\" fill=\"#b3401f\"/></g><text x=\"280\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">셋의 박자, 넷째의 변주</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "prospect-refuge",
+    "domain": "aesthetics",
+    "category": "composition",
+    "categoryLabel": "구성·비례",
+    "title": "조망–은신처 이론",
+    "titleEn": "Prospect–Refuge Theory",
+    "origin": "제이 애플턴",
+    "year": 1975,
+    "field": "환경미학",
+    "oneLiner": "보면서도 보이지 않는 자리 — 그곳이 가장 편안하다.",
+    "credibility": "established",
+    "keywords": [
+      "제이 애플턴",
+      "환경미학",
+      "구성·비례",
+      "prospect refuge architecture window seat"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "지리학자 애플턴이 『경관의 경험』(1975)에서 제시한 이론. 인간은 막힘 없는 시야(조망, prospect)와 몸을 숨길 안식처(은신처, refuge)를 동시에 주는 경관을 본능적으로 선호한다. '보면서도 보이지 않는' 상태가 안전감과 미적 만족을 함께 준다 — 등받이 있는 창가 자리가 늘 먼저 차는 이유다.",
+      "why": "수렵채집기의 생존은 멀리 내다보되 자신은 노출되지 않는 위치에서 유리했다. 그 진화적 선호가 공간을 읽는 무의식적 쾌·불쾌의 기준으로 남았다.",
+      "apply": [
+        "공간·좌석은 넓은 조망과 등 뒤의 보호(벽·높은 등받이·낮은 천장)를 함께 설계한다.",
+        "화면도 마찬가지 — 탁 트인 콘텐츠 영역과 안정적으로 감싸는 프레임/사이드바의 균형.",
+        "사용자가 '내려다보는' 시점(대시보드, 지도 조망)은 통제감과 안정감을 동시에 준다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar%20David%20Friedrich%20-%20Der%20Wanderer%20%C3%BCber%20dem%20Nebelmeer.jpg?width=900",
+          "caption": "프리드리히 〈안개 바다 위의 방랑자〉 — 조망(시야)과 은신처(딛고 선 바위)의 전형",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "itten-contrast",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "7가지 색채 대비",
+    "titleEn": "Seven Colour Contrasts",
+    "origin": "요하네스 이텐",
+    "year": 1961,
+    "field": "색채학·바우하우스",
+    "oneLiner": "색은 홀로 아름답지 않다 — 대비가 색을 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "요하네스 이텐",
+      "색채학·바우하우스",
+      "색·빛",
+      "johannes itten color contrast bauhaus"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "바우하우스의 색채 교사 이텐이 『색채의 예술』(1961)에서 체계화한 7가지 대비 — 색상, 명도, 한난, 보색, 동시, 채도, 면적 대비. 색 자체가 아니라 색들 '사이의 관계'가 화면의 에너지를 결정한다는 이론이다.",
+      "why": "지각은 절대값이 아니라 차이를 읽는다. 같은 회색도 옆 색에 따라 다르게 보인다(동시 대비). 대비의 종류를 알면 우연이 아니라 의도로 색을 다룰 수 있다.",
+      "apply": [
+        "배색이 밋밋하면 7가지 중 어떤 대비가 빠졌는지 점검표처럼 훑는다.",
+        "면적 대비를 기억하라 — 강한 색은 좁게, 약한 색은 넓게 쓰면 팽팽해진다.",
+        "흑백으로 변환해 명도 대비가 살아 있는지 먼저 확인한다(명도가 무너지면 다 무너진다)."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Farbkreis%20Itten%201961.svg?width=900",
+          "caption": "이텐의 색상환(1961)",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "60-30-10",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "60–30–10 배색 법칙",
+    "titleEn": "60-30-10 Rule",
+    "origin": "인테리어·디자인 관례",
+    "year": 1970,
+    "field": "배색 실무",
+    "oneLiner": "주조색 60, 보조색 30, 강조색 10 — 색의 권력 배분.",
+    "credibility": "established",
+    "keywords": [
+      "인테리어·디자인 관례",
+      "배색 실무",
+      "색·빛",
+      "60 30 10 color rule interior palette"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "공간·화면의 색을 주조(60%) : 보조(30%) : 강조(10%)로 배분하는 실무 공식. 인테리어 디자인에서 관례로 정착해 그래픽·UI로 퍼졌다. 비율 자체보다 '색에 서열을 준다'는 발상이 핵심이다.",
+      "why": "모든 색이 같은 면적이면 위계가 사라져 시선이 분산된다. 압도적 주조색이 바탕의 안정감을, 소량의 강조색이 폰 레스토프식 주목을 만든다.",
+      "apply": [
+        "팔레트를 만들면 각 색의 '담당 면적'까지 함께 정한다.",
+        "강조색이 10%를 넘보기 시작하면 강조가 아니라 소음이 된다.",
+        "60% 주조색은 무채색/저채도로 깔고, 브랜드 컬러를 10%에 배치하는 구성이 안전하다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"80\" y=\"50\" width=\"240\" height=\"140\" fill=\"#e0ddd5\"/><rect x=\"320\" y=\"50\" width=\"120\" height=\"140\" fill=\"#5b6b73\"/><rect x=\"440\" y=\"50\" width=\"40\" height=\"140\" fill=\"#b3401f\"/><text x=\"200\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">60%</text><text x=\"380\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">30%</text><text x=\"460\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">10%</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "notan",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "노탄 — 명암의 설계",
+    "titleEn": "Notan (濃淡)",
+    "origin": "일본 회화 전통 · 아서 다우",
+    "year": 1899,
+    "field": "구도·명암론",
+    "oneLiner": "색을 빼고 흑백 두 덩어리로 봤을 때 이미 아름다워야 한다.",
+    "credibility": "established",
+    "keywords": [
+      "일본 회화 전통 · 아서 다우",
+      "구도·명암론",
+      "색·빛",
+      "notan study black white composition"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "밝음과 어둠의 면적 배치를 뜻하는 일본 회화 개념(濃淡). 화가이자 교육자 아서 다우가 『컴포지션』(1899)으로 서구에 소개해 구도 교육의 표준이 됐다. 디테일과 색 이전에, 흑/백 큰 덩어리의 패턴이 화면의 성패를 결정한다는 사상이다.",
+      "why": "시각은 명암 정보로 형태를 먼저 파악하고 색은 나중에 입힌다. 명암 구조가 약하면 어떤 색을 입혀도 화면이 잡히지 않는다.",
+      "apply": [
+        "섬네일 단계에서 2단계(흑백)로만 구도를 잡고 통과한 안만 발전시킨다.",
+        "완성작을 흑백 변환해 큰 덩어리 패턴이 명료한지 검사한다.",
+        "밝은 면과 어두운 면의 면적을 일부러 불균등하게(7:3 등) 가져가 본다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"95\" y=\"45\" width=\"170\" height=\"150\" fill=\"#fff\" stroke=\"#ddd\"/><path d=\"M95,195 L95,120 Q150,80 180,130 T265,110 L265,195 Z\" fill=\"#222\"/><circle cx=\"225\" cy=\"80\" r=\"16\" fill=\"#222\"/></g><g><rect x=\"295\" y=\"45\" width=\"170\" height=\"150\" fill=\"#222\"/><path d=\"M295,195 L295,120 Q350,80 380,130 T465,110 L465,195 Z\" fill=\"#fff\"/><circle cx=\"425\" cy=\"80\" r=\"16\" fill=\"#fff\"/></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 구도의 명암 반전 — 덩어리 패턴 자체가 디자인이다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "albers",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "색의 상호작용",
+    "titleEn": "Interaction of Color",
+    "origin": "요제프 알베르스",
+    "year": 1963,
+    "field": "색채 교육·바우하우스",
+    "oneLiner": "하나의 색은 없다 — 색은 이웃이 결정한다.",
+    "credibility": "established",
+    "keywords": [
+      "요제프 알베르스",
+      "색채 교육·바우하우스",
+      "색·빛",
+      "josef albers homage to the square"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "바우하우스 출신 교육자 알베르스가 예일에서의 수업을 집대성한 『색의 상호작용』(1963)의 핵심 명제. 같은 색이 배경에 따라 전혀 다른 색으로 보이고, 다른 두 색을 같아 보이게 만들 수도 있다. 색을 '값'이 아니라 '관계'로 다루는 훈련이 색채 감각의 전부라는 교육 철학이다.",
+      "why": "망막과 시각 피질은 색을 절대값이 아니라 주변과의 차이로 부호화한다. 따라서 팔레트 위의 색과 화면 속의 색은 다른 색이다 — 맥락 속에서 검증해야 한다.",
+      "apply": [
+        "색은 항상 실제 배경 위에서 고른다 — 흰 아트보드에서 고른 색은 거짓말을 한다.",
+        "브랜드 컬러가 배경별로 달라 보이면, 수치를 고집하지 말고 보이는 색을 맞춰 보정한다.",
+        "배색 시안은 색을 단독 칩이 아니라 실제 면적비·인접 관계로 배열해 평가한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"95\" y=\"45\" width=\"170\" height=\"150\" fill=\"#3b4a63\"/><rect x=\"295\" y=\"45\" width=\"170\" height=\"150\" fill=\"#d9c79a\"/><rect x=\"155\" y=\"95\" width=\"50\" height=\"50\" fill=\"#8a8578\"/><rect x=\"355\" y=\"95\" width=\"50\" height=\"50\" fill=\"#8a8578\"/><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">가운데 두 사각형은 같은 색이다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "chevreul",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "동시 대비의 법칙",
+    "titleEn": "Law of Simultaneous Contrast",
+    "origin": "미셸 외젠 셰브뢸",
+    "year": 1839,
+    "field": "색채과학",
+    "oneLiner": "이웃한 색은 서로를 반대 방향으로 밀어낸다.",
+    "credibility": "established",
+    "keywords": [
+      "미셸 외젠 셰브뢸",
+      "색채과학",
+      "색·빛",
+      "complementary color contrast art"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "고블랭 직물 공장의 화학자 셰브뢸이 『색의 동시 대비의 법칙』(1839)으로 정식화한 발견. 인접한 두 색은 서로의 보색 잔상을 상대에게 드리워, 차이가 실제보다 증폭되어 보인다. 인상주의와 신인상주의(쇠라의 점묘)가 이 책을 교과서로 삼았다.",
+      "why": "망막의 측방 억제가 경계에서 신호 차이를 과장한다. 회색이 빨강 옆에서는 초록 기를, 파랑 옆에서는 주황 기를 띠는 이유 — 색의 경계는 물리학이 아니라 생리학이다.",
+      "apply": [
+        "보색을 맞붙이면 둘 다 더 강렬해진다 — 경계가 떨리는 부작용은 명도차로 눌러라.",
+        "무채색 회색이 주변색에 물들어 보이면, 주변색의 보색을 미량 섞어 중화한다.",
+        "사진·그림의 색이 탁해 보일 때, 색 자체보다 '옆에 무엇이 있는가'를 먼저 본다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"95\" y=\"45\" width=\"170\" height=\"150\" fill=\"#b3401f\"/><rect x=\"295\" y=\"45\" width=\"170\" height=\"150\" fill=\"#2f6f4f\"/><rect x=\"155\" y=\"95\" width=\"50\" height=\"50\" fill=\"#9b9b9b\"/><rect x=\"355\" y=\"95\" width=\"50\" height=\"50\" fill=\"#9b9b9b\"/><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 회색이 빨강 위에선 푸르게, 초록 위에선 불그스름하게 기운다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "goethe-color",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "색채의 감정 작용",
+    "titleEn": "Sensory-Moral Effect of Colour",
+    "origin": "요한 볼프강 폰 괴테",
+    "year": 1810,
+    "field": "색채론",
+    "oneLiner": "색은 보이기 전에 먼저 느껴진다.",
+    "credibility": "established",
+    "keywords": [
+      "요한 볼프강 폰 괴테",
+      "색채론",
+      "색·빛",
+      "color psychology mood palette"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "괴테는 『색채론』(1810)에서 뉴턴의 물리학에 맞서 색의 체험적·심리적 차원을 탐구했다. 노랑·주황의 '플러스 편'은 활기와 온기를, 파랑·보라의 '마이너스 편'은 동경과 차분함을 일으킨다는 그의 분류는 과학적 논쟁과 별개로 색채 심리학과 추상회화(칸딘스키)의 길을 열었다.",
+      "why": "색은 의미 해석 이전에 생리적 각성 수준을 바꾼다. 난색은 각성을 높이고 한색은 낮춘다 — 화면의 '온도'가 곧 화면의 '기분'이 된다.",
+      "apply": [
+        "전달할 감정을 먼저 정하고 팔레트의 온도(난/한, 명/암)를 그에 맞춘다.",
+        "기능과 감정을 분리하지 마라 — 경고는 난색, 안내는 한색이 직관과 일치한다.",
+        "한 화면의 감정은 하나로 — 온도가 섞이면 비율(60-30-10)로 주인을 정해 준다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Goethe%2C%20Farbenkreis%20zur%20Symbolisierung%20des%20menschlichen%20Geistes-%20und%20Seelenlebens%2C%201809.jpg?width=900",
+          "caption": "괴테의 색상환(1809) — 색마다 정신의 성질을 적어 넣었다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bezold",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "베졸트 효과",
+    "titleEn": "Bezold Effect",
+    "origin": "빌헬름 폰 베졸트",
+    "year": 1874,
+    "field": "색채과학",
+    "oneLiner": "가는 선 하나의 색이 전체의 인상을 바꾼다.",
+    "credibility": "established",
+    "keywords": [
+      "빌헬름 폰 베졸트",
+      "색채과학",
+      "색·빛",
+      "bezold effect textile pattern color"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "기상학자이자 카펫 디자이너였던 베졸트가 발견한 동화(同化) 효과. 동시 대비와 반대로, 가늘게 섞여 들어간 색은 주변색을 밀어내지 않고 자신 쪽으로 끌어당겨 물들인다. 같은 빨강 카펫이 흰 윤곽선과 짜이면 밝아 보이고 검은 윤곽선과 짜이면 어두워 보인다.",
+      "why": "패턴이 시각 해상도보다 가늘어지면 망막이 색을 광학적으로 혼합하기 시작한다. 대비(경계의 과장)에서 동화(평균화)로 모드가 바뀌는 것이다.",
+      "apply": [
+        "패턴·텍스타일·해칭의 윤곽선 색만 바꿔도 전체 톤을 조정할 수 있다.",
+        "가는 텍스트·괘선의 색은 면으로 칠한 색보다 옅게 지각된다 — 한 단계 진하게 보정.",
+        "망점·해칭 일러스트에서 선 색으로 분위기를 통제하라 — 면을 다시 칠할 필요가 없다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"95\" y=\"45\" width=\"170\" height=\"150\" fill=\"#b3401f\"/><g stroke=\"#fff\" stroke-width=\"5\"><line x1=\"95\" y1=\"54\" x2=\"265\" y2=\"54\"/><line x1=\"95\" y1=\"73\" x2=\"265\" y2=\"73\"/><line x1=\"95\" y1=\"92\" x2=\"265\" y2=\"92\"/><line x1=\"95\" y1=\"111\" x2=\"265\" y2=\"111\"/><line x1=\"95\" y1=\"130\" x2=\"265\" y2=\"130\"/><line x1=\"95\" y1=\"149\" x2=\"265\" y2=\"149\"/><line x1=\"95\" y1=\"168\" x2=\"265\" y2=\"168\"/><line x1=\"95\" y1=\"187\" x2=\"265\" y2=\"187\"/></g></g><g><rect x=\"295\" y=\"45\" width=\"170\" height=\"150\" fill=\"#b3401f\"/><g stroke=\"#1a1a1a\" stroke-width=\"5\"><line x1=\"295\" y1=\"54\" x2=\"465\" y2=\"54\"/><line x1=\"295\" y1=\"73\" x2=\"465\" y2=\"73\"/><line x1=\"295\" y1=\"92\" x2=\"465\" y2=\"92\"/><line x1=\"295\" y1=\"111\" x2=\"465\" y2=\"111\"/><line x1=\"295\" y1=\"130\" x2=\"465\" y2=\"130\"/><line x1=\"295\" y1=\"149\" x2=\"465\" y2=\"149\"/><line x1=\"295\" y1=\"168\" x2=\"465\" y2=\"168\"/><line x1=\"295\" y1=\"187\" x2=\"465\" y2=\"187\"/></g></g><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">같은 빨강 — 흰 선과 짜이면 밝게, 검은 선과 짜이면 어둡게</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "advance-recede",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "진출색과 후퇴색",
+    "titleEn": "Advancing & Receding Colours",
+    "origin": "색채학 일반",
+    "year": 1900,
+    "field": "색채학",
+    "oneLiner": "따뜻하고 밝은 색은 다가오고, 차고 어두운 색은 물러난다.",
+    "credibility": "established",
+    "keywords": [
+      "색채학 일반",
+      "색채학",
+      "색·빛",
+      "warm cool color depth painting"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "난색·고명도·고채도 색은 실제보다 가깝게(진출), 한색·저명도·저채도 색은 멀게(후퇴) 지각된다. 괴테의 한난 구분에 뿌리를 두고 색채학에서 통설로 정리된 현상으로, 회화의 공간 표현과 인테리어의 체감 면적 조절에 두루 쓰인다.",
+      "why": "눈의 렌즈는 파장별로 초점 거리가 달라(색수차) 빨강은 망막 뒤, 파랑은 앞에 맺히는 경향이 있고, 대기원근의 학습(먼 것은 푸르다)이 이를 보강한다.",
+      "apply": [
+        "전경 주인공은 난색·고채도로, 배경은 한색·저채도로 — 깊이가 저절로 생긴다.",
+        "좁은 공간의 벽은 한색·밝은색으로 물려 넓어 보이게 한다.",
+        "버튼·배지를 띄우고 싶으면 배경보다 따뜻한 색을 — 같은 명도여도 앞으로 나온다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#39496b\"/><circle cx=\"200\" cy=\"120\" r=\"58\" fill=\"#d6452c\"/><circle cx=\"390\" cy=\"120\" r=\"58\" fill=\"#2c3a57\"/><text x=\"280\" y=\"222\" text-anchor=\"middle\" font-size=\"13\" fill=\"#aab3c6\" font-family=\"sans-serif\">같은 크기, 같은 거리 — 빨강은 떠오르고 남색은 가라앉는다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "purkinje",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "푸르키네 효과",
+    "titleEn": "Purkinje Effect",
+    "origin": "얀 에반겔리스타 푸르키네",
+    "year": 1825,
+    "field": "생리학",
+    "oneLiner": "어두워지면 세상의 주인공은 빨강에서 파랑으로 바뀐다.",
+    "credibility": "established",
+    "keywords": [
+      "얀 에반겔리스타 푸르키네",
+      "생리학",
+      "색·빛",
+      "blue hour night photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "생리학자 푸르키네가 새벽 산책에서 발견한 현상. 밝을 때는 빨간 꽃이 선명하지만 어스름에서는 파란 꽃이 더 밝아 보인다. 밝은 곳의 원추세포(빨강 민감)에서 어두운 곳의 간상세포(청록 민감)로 시각이 전환되기 때문이다.",
+      "why": "조도에 따라 망막의 감도 곡선 자체가 이동한다. 같은 팔레트도 환경 밝기에 따라 다른 그림이 된다 — 색은 보는 조건의 함수다.",
+      "apply": [
+        "다크 모드·야간 UI에서는 빨강 계열이 급격히 죽는다 — 중요 신호의 명도를 보강하라.",
+        "영화·게임의 밤 장면은 푸른 기를 더해야 '눈이 아는 밤'이 된다.",
+        "인쇄물·간판은 실제 설치 환경의 조도에서 최종 색 검수를 한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "chiaroscuro",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "키아로스쿠로",
+    "titleEn": "Chiaroscuro",
+    "origin": "카라바조",
+    "year": 1600,
+    "field": "바로크 회화",
+    "oneLiner": "어둠이 깊을수록 빛은 사건이 된다.",
+    "credibility": "established",
+    "keywords": [
+      "카라바조",
+      "바로크 회화",
+      "색·빛",
+      "chiaroscuro dramatic lighting photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "이탈리아어 '밝음-어둠'에서 온 극단적 명암 대비 기법. 카라바조는 배경을 어둠에 잠그고 인물에 좁고 강한 빛을 던져, 회화의 빛을 묘사 도구에서 극적 사건으로 바꿨다. 렘브란트를 거쳐 느와르 영화와 무대 조명까지 이어지는 빛의 드라마투르기다.",
+      "why": "시선은 화면에서 가장 밝은 곳, 정확히는 명암 대비가 가장 큰 곳으로 직행한다. 어둠은 손실이 아니라 빛의 가치를 끌어올리는 투자다.",
+      "apply": [
+        "전부 밝히지 마라 — 보여줄 것 하나에 빛을 몰아주고 나머지는 어둠에 맡긴다.",
+        "어두운 배경 + 한 줄기 측광은 가장 값싼 '고급스러움'의 공식이다(제품·인물 촬영).",
+        "다크 UI에서 콘텐츠 하이라이트는 키아로스쿠로의 문법 — 어둠 속 빛의 위계를 설계하라."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio%2C%20Michelangelo%20Merisi%20da%20-%20The%20Calling%20of%20Saint%20Matthew%20-%201599-1600%20(hi%20res).jpg?width=1100",
+          "caption": "카라바조 〈성 마태오의 소명〉 — 한 줄기 빛이 곧 서사다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rembrandt-light",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "렘브란트 라이팅",
+    "titleEn": "Rembrandt Lighting",
+    "origin": "렘브란트 판 레인 · 인물 조명 전통",
+    "year": 1640,
+    "field": "회화·사진 조명",
+    "oneLiner": "빛은 45도에서 올 때 가장 많은 이야기를 한다.",
+    "credibility": "established",
+    "keywords": [
+      "렘브란트 판 레인 · 인물 조명 전통",
+      "회화·사진 조명",
+      "색·빛",
+      "rembrandt lighting portrait photography"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "주광을 인물의 측상방 45도에 두어, 그늘진 뺨에 눈 밑 삼각형의 빛이 맺히게 하는 조명법. 렘브란트의 자화상 연작에서 정식화되어 인물 사진·영화 조명의 표준 어휘가 됐다. 입체감·분위기·심리 묘사를 한 번에 해결하는 각도다.",
+      "why": "정면광은 입체를 지우고 측면광은 반을 잃는다. 45도는 형태를 조각하는 음영과 표정을 읽을 빛을 동시에 확보하는 균형점이다.",
+      "apply": [
+        "인물 촬영의 기본기 — 주광 45도 측상방, 반대편 눈 밑 빛 삼각형을 확인하라.",
+        "제품·정물도 같다. 45도 측광이 질감과 형태를 가장 풍부하게 드러낸다.",
+        "플랫한 일러스트에도 광원 45도의 음영 한 겹이면 부피가 생긴다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt%20van%20Rijn%20-%20Self-Portrait%20-%20Google%20Art%20Project.jpg?width=900",
+          "caption": "렘브란트 자화상(1659) — 뺨 위 빛의 삼각형",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "zorn-palette",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "제한 팔레트",
+    "titleEn": "Limited Palette (Zorn)",
+    "origin": "안데르스 조른",
+    "year": 1890,
+    "field": "회화 실기",
+    "oneLiner": "네 가지 물감이면 충분하다 — 제한이 조화를 보장한다.",
+    "credibility": "established",
+    "keywords": [
+      "안데르스 조른",
+      "회화 실기",
+      "색·빛",
+      "zorn palette limited color painting"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "스웨덴 화가 조른의 이름이 붙은 4색 팔레트(황토색·버밀리온·상아흑·백색). 검정을 파랑처럼 부려 차가운 회색을 만들고, 모든 혼색이 같은 네 뿌리에서 나오므로 화면 전체가 저절로 조화된다. '색이 많아서 좋은 그림'이 아니라 '관계가 통제되어 좋은 그림'임을 증명하는 방법론이다.",
+      "why": "모든 색이 공통 성분을 나누면 어떤 조합도 충돌하지 않는다(다양성 속의 통일). 선택지 축소는 결정을 빠르게 하고 실수를 구조적으로 차단한다.",
+      "apply": [
+        "프로젝트 팔레트를 3~5색으로 봉인하고 변형은 그 혼합·농담으로만 만든다.",
+        "회색을 무채색 팩토리에서 꺼내지 말고 팔레트 색끼리 섞어 '기운 있는 회색'을 만든다.",
+        "색이 어수선한 작업물은 색을 추가해 고치려 말고, 빼서 4색까지 줄여 본다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"120\" y=\"70\" width=\"75\" height=\"100\" fill=\"#c8a24b\"/><rect x=\"205\" y=\"70\" width=\"75\" height=\"100\" fill=\"#c0402a\"/><rect x=\"290\" y=\"70\" width=\"75\" height=\"100\" fill=\"#211f1e\"/><rect x=\"375\" y=\"70\" width=\"75\" height=\"100\" fill=\"#fdfcf7\" stroke=\"#ddd\"/></g><text x=\"280\" y=\"212\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">황토 · 버밀리온 · 상아흑 · 백 — 조른의 전 재산</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "ecological-valence",
+    "domain": "aesthetics",
+    "category": "color",
+    "categoryLabel": "색·빛",
+    "title": "색 선호의 생태학적 가치 이론",
+    "titleEn": "Ecological Valence Theory",
+    "origin": "스티븐 파머 · 캐런 슐로스",
+    "year": 2010,
+    "field": "색채심리학",
+    "oneLiner": "좋아하는 사물과 엮인 색을 좋아한다.",
+    "credibility": "established",
+    "keywords": [
+      "스티븐 파머 · 캐런 슐로스",
+      "색채심리학",
+      "색·빛",
+      "color association palette mood nature"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "파머와 슐로스가 PNAS(2010)에서 제시한 색 선호의 메커니즘. 어떤 색에 대한 선호는 그 색과 연관된 사물들에 대한 평균적 정서 반응에서 나온다. 색–사물 연관의 강도로 가중한 정서가(WAVE)가 색 선호 변량의 약 80%를 설명했다 — 맑은 하늘·깨끗한 물의 파랑은 선호되고, 배설물·부패를 연상시키는 갈빛은 기피된다.",
+      "why": "색 선호는 임의의 취향이 아니라 적응적 학습이다. 좋은 것과 엮인 색에 끌리고 나쁜 것과 엮인 색을 피하는 편이 생존에 유리했다 — 그래서 선호는 문화·경험에 따라 달라진다.",
+      "apply": [
+        "색을 고를 때 타깃 집단이 그 색과 연상하는 사물·경험의 긍정성을 함께 따진다.",
+        "같은 색도 시장·문화마다 연상이 다르다 — 글로벌 디자인은 색의 지역적 함의를 조사한다.",
+        "브랜드 컬러는 의도한 긍정적 연상물(자연·소재·상징)과 일관되게 묶어 노출해 의미를 학습시킨다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"110\" y=\"55\" width=\"80\" height=\"80\" fill=\"#3d7fb8\"/><text x=\"150\" y=\"158\" text-anchor=\"middle\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">하늘·물</text><text x=\"150\" y=\"178\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2f6f4f\" font-family=\"sans-serif\">선호 ↑</text></g><g><rect x=\"370\" y=\"55\" width=\"80\" height=\"80\" fill=\"#6b5a32\"/><text x=\"410\" y=\"158\" text-anchor=\"middle\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">부패·오물</text><text x=\"410\" y=\"178\" text-anchor=\"middle\" font-size=\"13\" fill=\"#b3401f\" font-family=\"sans-serif\">기피 ↓</text></g></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "fluency",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "처리 유창성",
+    "titleEn": "Processing Fluency",
+    "origin": "롤프 레버 · 노르베르트 슈바르츠 · 표트르 윙킬만",
+    "year": 2004,
+    "field": "인지심리학",
+    "oneLiner": "쉽게 처리되는 것이 아름답게 느껴진다.",
+    "credibility": "established",
+    "keywords": [
+      "롤프 레버 · 노르베르트 슈바르츠 · 표트르 윙킬만",
+      "인지심리학",
+      "심리",
+      "clean minimal design readability"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "「지각자의 처리 경험 속의 미」(2004)에서 정식화된 현대 미학 심리학의 핵심 이론. 아름다움은 대상의 속성이 아니라 '그 대상을 처리하는 경험의 매끄러움'에서 온다. 대칭·원형성(전형성)·높은 대비·반복 노출이 아름답게 느껴지는 이유를 하나로 설명한다.",
+      "why": "정보가 술술 처리되면 뇌는 그 긍정적 신호의 출처를 대상 자체에 귀속시킨다 — '읽기 편하다'가 '아름답다'로 번역된다.",
+      "apply": [
+        "가독성·대비·정렬 같은 기본기가 곧 미감이다. 스타일링 전에 유창성을 확보한다.",
+        "전형성을 존중한다 — 카테고리의 원형에서 출발해 한두 군데만 새롭게 비튼다.",
+        "로딩·전환·읽는 리듬까지, '경험이 매끄러운가'를 미적 기준으로 삼는다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><text x=\"170\" y=\"115\" text-anchor=\"middle\" font-size=\"34\" font-weight=\"600\" fill=\"#222\" font-family=\"sans-serif\">읽힌다</text><text x=\"170\" y=\"160\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">고대비 · 정렬 · 전형적 형태</text><g transform=\"rotate(-7 400 110)\"><text x=\"400\" y=\"115\" text-anchor=\"middle\" font-size=\"34\" font-weight=\"600\" fill=\"#c9c6bd\" font-family=\"sans-serif\" letter-spacing=\"-6\">안읽힌다</text></g><text x=\"400\" y=\"160\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">저대비 · 비틀림 · 과밀</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "aesthetic-usability",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "미적–사용성 효과",
+    "titleEn": "Aesthetic-Usability Effect",
+    "origin": "구로스 마사아키 · 카시무라 카오리",
+    "year": 1995,
+    "field": "HCI·UX",
+    "oneLiner": "아름다운 것은 더 잘 작동하는 것처럼 느껴진다.",
+    "credibility": "established",
+    "keywords": [
+      "구로스 마사아키 · 카시무라 카오리",
+      "HCI·UX",
+      "심리",
+      "beautiful ui design minimal app"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "히타치 연구원 구로스와 카시무라가 ATM 인터페이스 실험(1995)으로 증명한 효과. 사용자는 미적으로 뛰어난 인터페이스를 실제 효율과 무관하게 '더 쓰기 쉽다'고 평가했다. 아름다움은 장식이 아니라 신뢰와 인내심을 만드는 기능이다.",
+      "why": "미적 만족은 긍정적 정서를 만들고, 긍정적 정서는 작은 결함에 대한 관용과 문제 해결 의지를 높인다. 첫인상의 후광 효과가 사용 경험 전체에 드리운다.",
+      "apply": [
+        "'동작하니까 됐다'에서 멈추지 않는다 — 마감 품질이 곧 체감 성능이다.",
+        "첫 화면·첫 3초에 미적 완성도를 집중 투자한다.",
+        "단, 미감이 실제 결함을 가린다는 뜻이기도 하다 — 사용성 테스트는 별도로 한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "mere-exposure",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "단순 노출 효과",
+    "titleEn": "Mere-Exposure Effect",
+    "origin": "로버트 자이언스",
+    "year": 1968,
+    "field": "사회심리학",
+    "oneLiner": "자주 본 것은 그 이유만으로 좋아진다.",
+    "credibility": "established",
+    "keywords": [
+      "로버트 자이언스",
+      "사회심리학",
+      "심리",
+      "brand identity consistency design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "심리학자 자이언스가 1968년 논문 「노출의 태도적 효과」로 입증한 효과. 무의미한 도형·단어조차 반복 노출만으로 호감도가 상승했다. 친숙함은 그 자체로 미적 호감의 강력한 원천이며, 브랜딩에서 '일관성'이 철칙인 이유다.",
+      "why": "익숙한 자극은 처리 유창성이 높다. 위협이 아니라는 학습이 누적되면서 인지적 편안함이 호감으로 전환된다.",
+      "apply": [
+        "로고·컬러·형태 언어를 모든 접점에서 집요하게 반복한다 — 노출 횟수가 자산이다.",
+        "리브랜딩은 친숙함 자산을 태우는 일이다. 혁신과 연속성의 비율을 설계한다.",
+        "새로운 형태 실험은 핵심 아이덴티티가 아닌 주변 요소에서 한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "von-restorff",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "폰 레스토프 효과",
+    "titleEn": "Von Restorff (Isolation) Effect",
+    "origin": "헤트비히 폰 레스토프",
+    "year": 1933,
+    "field": "기억심리학",
+    "oneLiner": "전부 같을 때 하나만 다르면, 기억은 그 하나를 가진다.",
+    "credibility": "established",
+    "keywords": [
+      "헤트비히 폰 레스토프",
+      "기억심리학",
+      "심리",
+      "accent color pop minimal design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "독일 심리학자 폰 레스토프가 1933년 실험으로 증명한 고립 효과. 균질한 항목들 속에서 하나만 다른 항목은 압도적으로 잘 기억된다. '강조'라는 디자인 행위의 심리학적 근거다.",
+      "why": "뇌는 예측에서 벗어난 자극에 주의 자원을 몰아준다. 단, 여러 개가 동시에 다르면 고립이 사라져 효과가 증발한다.",
+      "apply": [
+        "CTA 버튼, 핵심 숫자, 단 하나의 주인공에만 이질적 색/형태를 허락한다.",
+        "강조의 예산은 화면당 1개라고 생각한다.",
+        "균질한 바탕을 먼저 만들어라 — 배경이 조용할수록 고립은 커진다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><circle cx=\"115\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"170\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"225\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"280\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"335\" cy=\"110\" r=\"20\" fill=\"#b3401f\"/><circle cx=\"390\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"445\" cy=\"110\" r=\"20\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.5\"/></g><text x=\"280\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">내일 기억나는 것은 빨간 원 하나다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "berlyne",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "벌라인의 역U 곡선",
+    "titleEn": "Berlyne's Inverted-U",
+    "origin": "대니얼 벌라인",
+    "year": 1971,
+    "field": "실험미학",
+    "oneLiner": "너무 단순하면 지루하고 너무 복잡하면 불쾌하다 — 정점은 그 사이에 있다.",
+    "credibility": "established",
+    "keywords": [
+      "대니얼 벌라인",
+      "실험미학",
+      "심리",
+      "maximalism vs minimalism design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "실험미학자 벌라인이 『미학과 심리생물학』(1971)에서 제시한 모델. 신선함·복잡성 같은 '각성 잠재력'과 쾌감의 관계는 역U자를 그린다. 적당한 각성까지는 쾌감이 오르지만 한계를 넘으면 급락한다.",
+      "why": "뇌는 탐구할 거리(각성)를 원하면서도 통제 가능성(안전)을 원한다. 역U의 정점은 '새롭지만 감당된다'는 지점이다.",
+      "apply": [
+        "타깃의 시각적 문해력에 따라 복잡도 정점이 다르다 — 전문가용은 더 복잡해도 된다.",
+        "지루하다는 피드백엔 변주를 더하고, 어지럽다는 피드백엔 질서를 더한다.",
+        "복잡한 콘텐츠는 한 번에 다 보여주지 말고 단계적으로 공개해 각성을 관리한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><path d=\"M90,190 Q 280,-60 470,190\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"90\" y1=\"190\" x2=\"470\" y2=\"190\" stroke=\"#bbb\"/><circle cx=\"280\" cy=\"65\" r=\"7\" fill=\"#b3401f\"/><text x=\"280\" y=\"48\" text-anchor=\"middle\" font-size=\"13\" fill=\"#b3401f\" font-family=\"sans-serif\">쾌감의 정점</text><text x=\"105\" y=\"212\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">단조로움</text><text x=\"415\" y=\"212\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">과잉 복잡</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "maya",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "MAYA 원칙",
+    "titleEn": "Most Advanced Yet Acceptable",
+    "origin": "레이먼드 로위",
+    "year": 1951,
+    "field": "산업 디자인",
+    "oneLiner": "가장 앞서가되, 받아들여질 수 있는 마지막 지점까지만.",
+    "credibility": "established",
+    "keywords": [
+      "레이먼드 로위",
+      "산업 디자인",
+      "심리",
+      "streamline moderne industrial design raymond loewy"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "20세기 산업 디자인의 아버지 로위가 자서전 『결코 충분히 내버려두지 않는다』(1951)에서 정식화한 원칙. 대중은 새로움을 원하면서 동시에 두려워한다. 성공하는 디자인은 익숙함의 경계선 위에서 가장 진보한 형태다.",
+      "why": "단순 노출 효과(친숙 선호)와 새로움 추구(각성 선호)는 동시에 작동한다. MAYA는 벌라인의 역U 정점을 상업 디자인의 언어로 옮긴 것이다.",
+      "apply": [
+        "혁신적 기능일수록 형태·인터랙션은 보수적으로, 익숙한 제품일수록 형태를 과감하게.",
+        "한 번에 바꾸는 변수는 하나로 제한한다(형태가 새로우면 색은 익숙하게).",
+        "타깃이 이미 아는 원형(archetype)에서 출발해 반 보만 앞서 나간다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "fractal",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "프랙탈 선호",
+    "titleEn": "Fractal Fluency (D ≈ 1.3–1.5)",
+    "origin": "리처드 테일러",
+    "year": 1999,
+    "field": "물리학·신경미학",
+    "oneLiner": "자연을 닮은 중간 밀도의 프랙탈에서 눈은 쉰다.",
+    "credibility": "established",
+    "keywords": [
+      "리처드 테일러",
+      "물리학·신경미학",
+      "심리",
+      "fractal patterns in nature"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "물리학자 테일러는 1999년 잭슨 폴록의 드립 페인팅이 프랙탈 구조이며 그 차원이 자연 풍경과 같은 범위임을 분석했다. 후속 연구들은 사람들이 프랙탈 차원 D≈1.3~1.5의 패턴(구름, 해안선, 나뭇가지 수준의 복잡도)을 일관되게 선호하고 스트레스가 감소함을 보고했다.",
+      "why": "인간의 시각은 자연 환경의 통계에 맞춰 진화했다. 자연을 닮은 복잡도는 처리 유창성이 가장 높은 '디폴트 풍경'이다.",
+      "apply": [
+        "텍스처·패턴이 필요할 때 완전 랜덤도 완전 격자도 아닌 '자연의 거칠기'를 참조한다.",
+        "유기적 곡선, 나뭇결, 종이 질감 같은 자연 소재는 화면의 심리적 휴식처가 된다.",
+        "배경 패턴은 D가 낮게(성기게), 주인공 텍스처는 D를 높여 위계를 만든다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Fractal%20Broccoli.jpg?width=1100",
+          "caption": "로마네스코 브로콜리 — 자기유사 구조의 자연 표본",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "first-50ms",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "첫인상 50밀리초",
+    "titleEn": "50ms First Impression",
+    "origin": "기테 린드가드",
+    "year": 2006,
+    "field": "HCI 연구",
+    "oneLiner": "아름다움의 판결은 0.05초 만에 내려진다.",
+    "credibility": "established",
+    "keywords": [
+      "기테 린드가드",
+      "HCI 연구",
+      "심리",
+      "landing page first impression design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "린드가드 연구진의 2006년 실험은 웹페이지를 50밀리초만 보여줘도 매력 평가가 충분히 형성되며, 그 평가가 오래 본 뒤의 평가와 높은 상관을 보임을 밝혔다. 첫인상은 읽기 전에, 거의 반사적으로 결정되고 이후 판단의 닻이 된다.",
+      "why": "초고속 판단은 전체적 시각 속성(색 조화, 복잡도, 균형)에 의존한다. 일단 형성된 인상은 확증 편향으로 강화된다 — 첫 화면이 곧 변호인 아니면 검사다.",
+      "apply": [
+        "랜딩 화면은 디테일보다 전체 인상(색·균형·밀도)을 먼저 다듬는다.",
+        "흐릿하게 축소한 썸네일로 0.5초 테스트 — 그때 느껴지는 인상이 실제 첫인상이다.",
+        "로딩 중 첫 프레임(스켈레톤·배경색)까지 디자인하라. 판결은 거기서 이미 시작된다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "halo",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "후광 효과",
+    "titleEn": "Halo Effect",
+    "origin": "에드워드 손다이크",
+    "year": 1920,
+    "field": "사회심리학",
+    "oneLiner": "하나가 아름다우면 전부가 좋아 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "에드워드 손다이크",
+      "사회심리학",
+      "심리",
+      "premium packaging design unboxing"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "심리학자 손다이크가 1920년 논문에서 정식화한 인지 편향. 한 가지 두드러진 긍정 속성(외모, 마감 품질)이 무관한 다른 속성(능력, 신뢰성, 성능)의 평가까지 끌어올린다. 미적-사용성 효과의 상위 개념이자, 브랜딩이 작동하는 심리적 토대다.",
+      "why": "뇌는 대상마다 속성별 채점표를 쓰지 않고 하나의 호감 총점을 매긴 뒤 세부 평가를 그 총점에서 파생시킨다. 인지 비용을 아끼는 지름길이 평가를 오염시키는 것이다.",
+      "apply": [
+        "보이는 품질(포장, 첫 화면, 인쇄 마감)에 투자하라 — 보이지 않는 품질의 평가까지 바꾼다.",
+        "디테일 하나의 허술함도 역후광을 만든다 — 오탈자 하나가 제품 전체를 의심하게 한다.",
+        "포트폴리오·제안서는 최고작 하나를 앞세워라. 첫 작품이 나머지의 채점 기준이 된다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "averageness",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "평균성의 미",
+    "titleEn": "Beauty in Averageness",
+    "origin": "주디스 랭글로이스 · 로리 로그만",
+    "year": 1990,
+    "field": "진화심리학",
+    "oneLiner": "수많은 얼굴의 평균이 미인이다.",
+    "credibility": "established",
+    "keywords": [
+      "주디스 랭글로이스 · 로리 로그만",
+      "진화심리학",
+      "심리",
+      "classic timeless design archetype"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "랭글로이스와 로그만은 1990년, 여러 얼굴을 합성해 평균낼수록 매력 평가가 올라감을 실험으로 보였다(골턴의 19세기 합성 사진을 계승). 극단이 아니라 원형(prototype)에 가까운 형태가 아름답다는 발견으로, 처리 유창성 이론의 강력한 증거다.",
+      "why": "평균적 형태는 그 범주의 원형과 가장 닮아 처리(인식)가 가장 매끄럽다. 익숙한 구조 + 결점 없음의 신호가 호감으로 번역된다.",
+      "apply": [
+        "범주의 전형에서 출발하라 — '의자다운 의자'를 먼저 그리고 나서 개성을 더한다.",
+        "로고·서체·아이콘의 골격은 평균적 비례를 지키고, 차별화는 디테일 한 곳에서.",
+        "낯선 컨셉일수록 형태는 원형에 가깝게 — 새로움의 예산을 한 곳에 몰아 쓴다(MAYA)."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "peak-end",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "피크엔드 법칙",
+    "titleEn": "Peak-End Rule",
+    "origin": "대니얼 카너먼",
+    "year": 1993,
+    "field": "행동경제학",
+    "oneLiner": "경험의 기억은 절정과 마지막, 두 장면으로 압축된다.",
+    "credibility": "established",
+    "keywords": [
+      "대니얼 카너먼",
+      "행동경제학",
+      "심리",
+      "unboxing experience design moments"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "노벨상 수상자 카너먼 연구진이 1993년 정식화한 법칙. 경험 전체의 평가는 지속 시간이나 평균이 아니라 가장 강렬했던 순간(피크)과 종료 시점의 느낌으로 결정된다. '경험하는 자아'와 '기억하는 자아'가 다르다는 발견 — 디자인은 기억하는 자아를 위한 것이다.",
+      "why": "기억은 경험을 통째로 저장하지 못하고 대표 장면을 표본으로 남긴다. 피크와 엔드가 그 표본 추출 규칙이다.",
+      "apply": [
+        "여정에 의도된 피크 하나를 설계하라 — 언박싱의 한 순간, 스크롤 중의 와우 모먼트.",
+        "마지막을 공들여라 — 결제 완료 화면, 책의 마지막 페이지, 매장의 배웅이 전체 기억을 정한다.",
+        "모든 접점을 평준화하지 마라. 평균을 올리는 비용을 피크와 엔드에 몰아주는 편이 남는다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "serial-position",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "초두·최신 효과",
+    "titleEn": "Serial Position Effect",
+    "origin": "헤르만 에빙하우스",
+    "year": 1885,
+    "field": "기억심리학",
+    "oneLiner": "처음과 마지막만 살아남는다.",
+    "credibility": "established",
+    "keywords": [
+      "헤르만 에빙하우스",
+      "기억심리학",
+      "심리",
+      "portfolio presentation order design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "기억 연구의 개척자 에빙하우스가 『기억에 관하여』(1885)에서 보고한 현상. 목록을 기억할 때 처음 항목들(초두 효과)과 마지막 항목들(최신 효과)의 회상률이 높고 중간은 가라앉는다. 순서가 있는 모든 경험 — 발표, 포트폴리오, 메뉴 — 의 배치 전략을 결정한다.",
+      "why": "앞 항목은 리허설 기회가 많아 장기 기억으로, 끝 항목은 아직 작업 기억에 남아 있어 잘 회상된다. 가운데는 양쪽 이점을 다 놓친다.",
+      "apply": [
+        "포트폴리오는 최고작을 처음에, 그다음 강한 작품을 마지막에 — 중간에 약한 것을 묻는다.",
+        "발표·문서의 핵심 메시지는 서두에 선언하고 결말에서 반복한다.",
+        "긴 목록형 콘텐츠는 중간 침몰 구간에 시각적 변주(이미지·인용)를 넣어 깨운다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "zeigarnik",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "자이가르닉 효과",
+    "titleEn": "Zeigarnik Effect",
+    "origin": "블루마 자이가르닉",
+    "year": 1927,
+    "field": "기억심리학",
+    "oneLiner": "끝나지 않은 것이 마음에 남는다.",
+    "credibility": "established",
+    "keywords": [
+      "블루마 자이가르닉",
+      "기억심리학",
+      "심리",
+      "teaser campaign design curiosity"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "심리학자 자이가르닉이 1927년 실험으로 보인 현상 — 완료한 과제보다 중단된 과제가 약 두 배 잘 기억된다. 미완결은 인지적 긴장을 만들고, 그 긴장이 기억과 주의를 붙들어 둔다. 연재물의 클리프행어, 진행률 표시줄, 티저 광고가 모두 이 효과의 응용이다.",
+      "why": "뇌는 열린 과제를 '처리 중' 상태로 유지하며 자원을 계속 할당한다. 완결은 그 자원을 회수하는 신호다 — 그래서 완결된 것은 잊힌다.",
+      "apply": [
+        "전부 보여주지 마라 — 화면 가장자리에 다음 콘텐츠를 살짝 걸쳐(피킹) 스크롤을 부른다.",
+        "진행률·체크리스트로 '미완료'를 시각화하면 완료 욕구가 행동을 끌고 간다.",
+        "시리즈물·연작 포스터는 의도된 미완결로 다음 편을 기억에 예약시킨다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "ikea-effect",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "이케아 효과",
+    "titleEn": "IKEA Effect",
+    "origin": "마이클 노턴 · 대니얼 모촌 · 댄 애리얼리",
+    "year": 2012,
+    "field": "행동경제학",
+    "oneLiner": "내 손이 닿은 것은 더 아름다워 보인다.",
+    "credibility": "established",
+    "keywords": [
+      "마이클 노턴 · 대니얼 모촌 · 댄 애리얼리",
+      "행동경제학",
+      "심리",
+      "diy customization product design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "노턴 연구진의 2012년 논문이 명명한 편향 — 직접 조립·제작에 참여한 물건에 사람들은 더 높은 가치와 애착을 매긴다. 케이크 믹스에 달걀 하나를 '직접' 넣게 한 순간 판매가 살아난 일화처럼, 적당한 수고가 만족을 만든다.",
+      "why": "투입한 노력은 결과물의 가치로 정당화되고(인지부조화 해소), 완성에 참여한 대상은 자아의 연장이 된다. 노력이 애정의 담보가 되는 것이다.",
+      "apply": [
+        "사용자에게 마무리 한 수를 남겨라 — 색 선택, 이니셜 각인, 배치 커스터마이즈.",
+        "온보딩에서 작은 설정을 직접 하게 하면 제품에 대한 애착이 올라간다.",
+        "단, 수고는 '쉽고 성공이 보장된' 수준까지만 — 실패하는 조립은 증오를 만든다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "diderot",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "디드로 효과",
+    "titleEn": "Diderot Effect",
+    "origin": "드니 디드로 · 그랜트 매크래컨",
+    "year": 1769,
+    "field": "소비문화 연구",
+    "oneLiner": "새 가운 하나가 서재 전체를 갈아치운다 — 사물은 앙상블을 요구한다.",
+    "credibility": "established",
+    "keywords": [
+      "드니 디드로 · 그랜트 매크래컨",
+      "소비문화 연구",
+      "심리",
+      "matching set product family design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "계몽사상가 디드로는 선물 받은 우아한 새 가운 때문에 낡은 책상·의자가 초라해 보여 결국 서재 전체를 바꾸게 된 경험을 에세이(1769)로 남겼다. 인류학자 매크래컨(1988)이 이를 '사물들은 통일된 앙상블을 이루려 한다'는 소비 법칙으로 명명했다.",
+      "why": "소유물은 개별이 아니라 자아를 표현하는 세트로 지각된다. 세트에서 튀는 한 점은 부조화의 긴장을 만들고, 우리는 그 긴장을 '나머지를 업그레이드'하는 쪽으로 해소한다.",
+      "apply": [
+        "제품 라인·굿즈는 처음부터 앙상블(패밀리 룩)로 설계하라 — 하나가 나머지를 부른다.",
+        "공간·브랜드 리뉴얼에서 가장 눈에 띄는 한 점을 먼저 바꾸면 전체 기준이 끌려 올라간다.",
+        "반대로, 한 점만 고급화하면 기존 요소들이 갑자기 낡아 보이는 부작용을 계산에 넣어라."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "baby-schema",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "베이비 스키마",
+    "titleEn": "Kindchenschema",
+    "origin": "콘라트 로렌츠",
+    "year": 1943,
+    "field": "동물행동학",
+    "oneLiner": "큰 머리, 큰 눈, 둥근 뺨 — 귀여움은 공식이다.",
+    "credibility": "established",
+    "keywords": [
+      "콘라트 로렌츠",
+      "동물행동학",
+      "심리",
+      "cute character design mascot kawaii"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "동물행동학자 로렌츠가 1943년 정식화한 유아 도식. 큰 머리 비율, 얼굴 아래쪽의 큰 눈, 둥근 뺨, 짧은 사지 같은 특징 묶음은 종을 넘어 양육 반응을 자동 점화한다. 미키마우스가 수십 년에 걸쳐 점점 유아형으로 진화한 것(굴드의 분석)이 상업적 증명이다.",
+      "why": "유아 보호는 생존의 최우선 과제라 그 신호에 대한 반응이 본능으로 박혀 있다. 귀여움은 학습이 아니라 반사다 — 그래서 문화를 넘어 통한다.",
+      "apply": [
+        "캐릭터·마스코트는 머리:몸 비율을 키우고 눈을 크게, 얼굴 아래쪽에 배치한다.",
+        "제품·로봇의 친근함도 같은 공식 — 둥근 전면, 낮은 무게중심, 큰 '눈'(헤드라이트·센서).",
+        "귀여움의 강도는 조절 변수다 — 신뢰·전문성이 필요한 맥락에선 도식을 절제하라."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><circle cx=\"180\" cy=\"115\" r=\"62\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"130\" r=\"11\" fill=\"#222\"/><circle cx=\"200\" cy=\"130\" r=\"11\" fill=\"#222\"/><path d=\"M168,155 Q180,163 192,155\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/></g><g><circle cx=\"395\" cy=\"115\" r=\"62\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><circle cx=\"377\" cy=\"96\" r=\"5\" fill=\"#222\"/><circle cx=\"413\" cy=\"96\" r=\"5\" fill=\"#222\"/><path d=\"M380,150 L410,150\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/></g><text x=\"180\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">눈이 크고 낮다 — 아기</text><text x=\"395\" y=\"216\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">눈이 작고 높다 — 어른</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "uncanny-valley",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "불쾌한 골짜기",
+    "titleEn": "Uncanny Valley",
+    "origin": "모리 마사히로",
+    "year": 1970,
+    "field": "로봇공학",
+    "oneLiner": "거의 인간인 것이 가장 섬뜩하다.",
+    "credibility": "established",
+    "keywords": [
+      "모리 마사히로",
+      "로봇공학",
+      "심리",
+      "stylized character design 3d"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "로봇공학자 모리 마사히로가 1970년 에세이에서 제시한 가설. 인간 유사도가 높아질수록 호감도 오르지만, '거의 인간'에 도달하는 직전 구간에서 호감이 급락해 골짜기를 그린다. CG 캐릭터·휴머노이드·AI 아바타 디자인의 제1 리스크 지도다.",
+      "why": "거의 완벽한 유사성은 남은 미세한 어긋남(눈빛, 피부, 움직임)을 '병들거나 죽은 인간'의 신호로 읽게 만든다. 범주가 모호한 대상은 본능적 회피를 부른다.",
+      "apply": [
+        "사실적 인간 재현은 끝까지 갈 자신이 없으면 시작하지 마라 — 양식화가 안전한 둑이다.",
+        "캐릭터는 인간 유사도를 의도적으로 낮춰(만화적 비례, 단순화) 골짜기를 우회한다.",
+        "AI 보이스·아바타도 같다 — '사람인 척'의 어중간함보다 정직한 기계다움이 호감을 얻는다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><path d=\"M80,190 C 160,160 240,120 300,95 C 330,82 345,150 365,185 C 385,150 420,60 470,45\" fill=\"none\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"80\" y1=\"190\" x2=\"490\" y2=\"190\" stroke=\"#bbb\"/><circle cx=\"362\" cy=\"178\" r=\"6\" fill=\"#b3401f\"/><text x=\"362\" y=\"212\" text-anchor=\"middle\" font-size=\"12\" fill=\"#b3401f\" font-family=\"sans-serif\">골짜기</text><text x=\"120\" y=\"222\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">로봇답다</text><text x=\"430\" y=\"222\" font-size=\"12\" fill=\"#888\" font-family=\"sans-serif\">인간이다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "anthropomorphism",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "의인화 본능",
+    "titleEn": "Anthropomorphism",
+    "origin": "프리츠 하이더 · 마리안네 짐멜",
+    "year": 1944,
+    "field": "사회심리학",
+    "oneLiner": "세모와 네모가 움직이면 사람들은 드라마를 본다.",
+    "credibility": "established",
+    "keywords": [
+      "프리츠 하이더 · 마리안네 짐멜",
+      "사회심리학",
+      "심리",
+      "character motion design personality"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "하이더와 짐멜의 1944년 실험에서 참가자들은 도형들이 움직이는 무성 애니메이션을 보고 거의 전원이 '괴롭히는 큰 삼각형', '도망치는 연인' 같은 이야기를 읽어냈다. 인간은 최소한의 운동 단서에서도 의도·성격·감정을 자동으로 추출한다.",
+      "why": "타자의 의도 추론은 사회적 생존의 핵심 기술이라 과잉 작동하도록 진화했다. 움직임의 타이밍과 궤적만으로 '성격'이 지각된다 — 애니메이션과 모션 디자인의 존재 이유다.",
+      "apply": [
+        "UI 모션에 성격을 부여하라 — 통통 튀면 명랑, 천천히 미끄러지면 우아, 떨면 불안.",
+        "로딩 스피너·커서·토글 같은 미물도 움직임의 가감속 곡선으로 브랜드 성격을 말한다.",
+        "에러·거절 모션은 부드럽게 — 급정거하는 모션은 '화난 시스템'으로 읽힌다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "emotional-design",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "감정 디자인 3수준",
+    "titleEn": "Three Levels of Emotional Design",
+    "origin": "도널드 노먼",
+    "year": 2004,
+    "field": "인지과학·디자인",
+    "oneLiner": "본능·행동·반성 — 디자인은 세 개의 층에서 동시에 말한다.",
+    "credibility": "established",
+    "keywords": [
+      "도널드 노먼",
+      "인지과학·디자인",
+      "심리",
+      "emotional design product experience"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "인지과학자 노먼이 『감성 디자인』(2004)에서 제시한 모델. 본능적 수준(첫눈의 미추), 행동적 수준(사용의 즐거움), 반성적 수준(소유의 의미·자부심)이 각각 따로 평가되고 합산된다. '예쁜 것이 더 잘 작동한다'는 그의 명제는 긍정 정서가 창의적 문제 해결을 돕기 때문이다.",
+      "why": "세 수준은 뇌의 다른 처리 층위에 대응해 서로를 대체하지 못한다. 본능 층의 매력은 관용을, 행동 층의 즐거움은 재사용을, 반성 층의 의미는 충성과 추천을 만든다.",
+      "apply": [
+        "세 층을 따로 채점하라 — 첫눈에 끌리는가 / 쓰는 동안 기분 좋은가 / 남에게 자랑할 만한가.",
+        "반성 층을 잊지 마라 — 스토리, 장인정신, 소유의 서사가 가격표를 정당화한다.",
+        "충돌 시 우선순위는 맥락이 정한다 — 의료기기는 행동, 명품은 반성, 광고는 본능."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "cognitive-load",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "인지 부하",
+    "titleEn": "Cognitive Load",
+    "origin": "존 스웰러",
+    "year": 1988,
+    "field": "교육심리학",
+    "oneLiner": "작업 기억은 좁다 — 화면은 그것을 존중해야 한다.",
+    "credibility": "established",
+    "keywords": [
+      "존 스웰러",
+      "교육심리학",
+      "심리",
+      "minimal infographic clear design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "스웰러의 인지 부하 이론(1988)은 학습 자료가 작업 기억의 한계를 넘으면 이해가 무너짐을 보였다. 부하에는 본질적인 것(내용 자체의 난이도)과 외재적인 것(나쁜 제시 방식이 만든 불필요한 부하)이 있다 — 디자인의 일은 외재적 부하의 제거다.",
+      "why": "작업 기억은 동시에 몇 개의 덩어리만 다룬다. 장식적 소음, 흩어진 관련 정보, 일관성 없는 규칙은 모두 내용이 아닌 형식에 기억 슬롯을 낭비시킨다.",
+      "apply": [
+        "관련 정보는 한 시야 안에 — 그림과 설명을 분리하면 머리가 왕복 비용을 낸다.",
+        "장식은 부하다 — 내용 이해에 봉사하지 않는 그래픽 요소를 덜어낸다.",
+        "복잡한 내용일수록 형식은 단순하게 — 본질적 부하가 높으면 외재적 부하는 0에 수렴시켜라."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "hick",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "힉의 법칙",
+    "titleEn": "Hick's Law",
+    "origin": "윌리엄 에드먼드 힉",
+    "year": 1952,
+    "field": "실험심리학",
+    "oneLiner": "선택지가 늘수록 결정은 로그로 느려진다.",
+    "credibility": "established",
+    "keywords": [
+      "윌리엄 에드먼드 힉",
+      "실험심리학",
+      "심리",
+      "simple menu navigation design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "심리학자 힉의 1952년 실험이 정식화한 법칙 — 반응 시간은 선택지 수의 로그에 비례해 증가한다. 메뉴가 길어질수록, 옵션이 많아질수록 사용자는 느려지고 지친다. 아름다운 단순함이 실제 성능이기도 한 이유다.",
+      "why": "선택은 후보들을 이진 탐색하듯 좁혀가는 과정이라 로그 비용이 든다. 비슷한 선택지가 많으면 비교 비용이 더해져 '선택의 마비'까지 간다.",
+      "apply": [
+        "내비게이션·메뉴는 5~7개 이하로, 나머지는 묶어서 한 단계 아래로 내린다.",
+        "추천·기본값으로 사실상의 선택지를 줄여 준다 — '가장 인기' 배지 하나가 결정을 만든다.",
+        "단계적 공개 — 처음엔 큰 갈래만, 세부 옵션은 선택 후에 펼친다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "miller",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "매직 넘버 7±2",
+    "titleEn": "The Magical Number Seven",
+    "origin": "조지 밀러",
+    "year": 1956,
+    "field": "인지심리학",
+    "oneLiner": "한 번에 쥘 수 있는 덩어리는 일곱 개 남짓이다.",
+    "credibility": "established",
+    "keywords": [
+      "조지 밀러",
+      "인지심리학",
+      "심리",
+      "information chunking layout design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "밀러의 1956년 논문은 작업 기억이 동시에 다루는 정보 단위가 7±2개임을 보였다. 핵심은 숫자가 아니라 '청킹' — 항목을 의미 덩어리로 묶으면 같은 용량으로 더 많이 다룰 수 있다. 전화번호를 끊어 적는 이유이자, 정보 디자인의 그루핑 원칙이다.",
+      "why": "기억의 한계는 항목 수가 아니라 덩어리 수로 걸린다. 디자인의 그루핑(근접·공통영역)은 사용자의 머릿속 청킹을 대신해 주는 서비스다.",
+      "apply": [
+        "긴 나열은 3~4개씩 의미 단위로 묶어 제시한다(숫자·코드·기능 목록).",
+        "폼은 섹션으로 끊어라 — 20개 입력란도 4덩어리면 견딜 만해진다.",
+        "한 화면에서 비교를 요구하는 항목은 5개를 넘기지 않는다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "jakob",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "야콥의 법칙",
+    "titleEn": "Jakob's Law",
+    "origin": "야콥 닐슨",
+    "year": 2000,
+    "field": "UX 연구",
+    "oneLiner": "사용자는 다른 모든 곳에서 배운 기대를 들고 온다.",
+    "credibility": "established",
+    "keywords": [
+      "야콥 닐슨",
+      "UX 연구",
+      "심리",
+      "ux convention familiar patterns"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "사용성 연구의 대가 닐슨이 2000년 정식화한 법칙 — 사용자는 시간 대부분을 다른 사이트에서 보내므로, 당신의 사이트도 그들이 이미 아는 방식으로 작동하길 기대한다. 관습을 따르는 것은 게으름이 아니라 사용자의 학습 자산을 존중하는 일이다.",
+      "why": "기존 멘탈 모델과 일치하는 인터페이스는 학습 비용이 0이다(과거 경험의 법칙·단순 노출과 공명). 어긋나는 순간 사용자는 콘텐츠가 아니라 작동법을 생각하게 된다.",
+      "apply": [
+        "장바구니는 오른쪽 위, 로고는 왼쪽 위에서 홈으로 — 검증된 관습부터 채택한다.",
+        "혁신은 차별화가 가치를 만드는 지점에만 — 결제 플로우에서 실험하지 마라.",
+        "새 패턴을 도입할 땐 익숙한 패턴의 옷(아이콘·위치·용어)을 입혀 연착륙시킨다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "font-congruity",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "서체 일치 효과",
+    "titleEn": "Typeface Congruity",
+    "origin": "케빈 루이스 · 피터 워커",
+    "year": 1989,
+    "field": "인지심리학",
+    "oneLiner": "글씨의 목소리가 내용과 같을 때 말은 두 배로 들린다.",
+    "credibility": "established",
+    "keywords": [
+      "케빈 루이스 · 피터 워커",
+      "인지심리학",
+      "심리",
+      "typeface personality branding"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "루이스와 워커의 1989년 연구는 서체가 의미와 일치할 때(딱딱한 단어+각진 서체) 단어 처리 속도가 빨라짐을 보였다. 서체는 중립적 그릇이 아니라 어조·성격·시대를 발화하는 목소리이며, 내용과 어긋나면 무의식적 잡음이 된다.",
+      "why": "서체의 시각적 속성(무게, 곡률, 콘트라스트)은 부바-키키식 교차감각 연합으로 의미를 띤다. 의미와 형태가 일치하면 처리 유창성이 오르고 메시지 신뢰도가 따라 오른다.",
+      "apply": [
+        "서체 선정의 첫 질문은 '이 목소리가 이 내용을 말해도 되는가' — 미적 취향은 그다음.",
+        "장난스러운 내용에 권위적 세리프, 법률 문서에 라운드 산세리프 같은 불일치를 점검하라.",
+        "브랜드 서체는 브랜드 성격 형용사 3개를 정하고 그것을 형태 언어로 충족하는지로 고른다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "biophilia",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "바이오필리아",
+    "titleEn": "Biophilia & Restorative Nature",
+    "origin": "에드워드 윌슨 · 로저 울리히 · 캐플런 부부",
+    "year": 1984,
+    "field": "환경심리학",
+    "oneLiner": "자연을 닮은 것 앞에서 마음은 회복된다.",
+    "credibility": "established",
+    "keywords": [
+      "에드워드 윌슨 · 로저 울리히 · 캐플런 부부",
+      "환경심리학",
+      "심리",
+      "biophilic design interior plants nature"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "생물학자 윌슨은 『바이오필리아』(1984)에서 인간이 생명과 생명적 과정에 끌리는 선천적 경향을 가진다고 보았다. 같은 해 울리히는 Science에 발표한 연구로, 창밖에 나무가 보이는 병실의 수술 환자가 벽돌 벽을 마주한 환자보다 회복이 빠르고 진통제를 덜 썼음을 입증했다. 캐플런 부부의 주의 회복 이론(1989)은 자연의 '부드러운 매혹'이 고갈된 주의를 무노력으로 되살린다고 설명한다.",
+      "why": "인간의 지각계는 수백만 년간 자연 환경에 맞춰 진화했다. 자연을 닮은 형태·빛·소재는 처리 부담이 낮고 위협 신호가 적어, 인지 피로를 회복시키고 본능적 친화감을 부른다(프랙탈 선호와 공명).",
+      "apply": [
+        "자연광·식물·물·자연 소재·유기적 곡선을 공간과 화면의 '회복 지점'으로 배치한다.",
+        "직접 자연이 어려우면 간접 자연(나뭇결, 자연 다큐 영상, 풍경 이미지)도 효과가 있다.",
+        "고집중 작업 영역 곁에 시선을 쉴 자연 요소를 두어 주의 자원을 재충전시킨다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "embodied-simulation",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "체화된 시뮬레이션",
+    "titleEn": "Embodied Simulation",
+    "origin": "데이비드 프리드버그 · 비토리오 갈레세",
+    "year": 2007,
+    "field": "신경미학",
+    "oneLiner": "우리는 작품 속 몸짓을 제 몸으로 따라 느낀다.",
+    "credibility": "established",
+    "keywords": [
+      "데이비드 프리드버그 · 비토리오 갈레세",
+      "신경미학",
+      "심리",
+      "dynamic gesture movement figure art"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "미술사학자 프리드버그와 신경과학자 갈레세가 「미적 경험에서의 운동·정서·공감」(Trends in Cognitive Sciences, 2007)에서 제시한 이론. 미적 반응의 핵심에는 거울 뉴런에 기반한 체화된 시뮬레이션이 있어, 관람자는 작품 속 행위·정서·심지어 붓질의 동작까지 자신의 신체로 무의식적으로 모사한다. 미감은 머리만이 아니라 몸으로 일어난다.",
+      "why": "타인의 행동을 볼 때 그 행동을 실행하는 뇌 영역이 함께 활성화된다(거울 시스템). 정적인 이미지 속 운동·긴장·필치도 관람자의 운동·체감 회로를 점화해 공감적 몰입을 만든다.",
+      "apply": [
+        "동세·긴장·제스처가 느껴지는 형태는 보는 이의 신체 공감을 끌어 몰입을 높인다.",
+        "필치·손맛이 남은 작업(거친 브러시, 캘리그래피)은 만든 이의 동작을 관람자가 추체험하게 한다.",
+        "정적인 화면에도 운동의 흔적(궤적, 기울기, 속도감)을 심으면 몸으로 읽힌다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Laocoon%20Pio-Clementino%20Inv1059-1064-1067.jpg?width=900",
+          "caption": "〈라오콘 군상〉 — 뒤틀린 신체의 고통을 관람자가 몸으로 따라 느낀다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fitts",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "피츠의 법칙",
+    "titleEn": "Fitts's Law",
+    "origin": "폴 피츠",
+    "year": 1954,
+    "field": "실험심리학·HCI",
+    "oneLiner": "표적이 멀고 작을수록 닿는 데 더 오래 걸린다.",
+    "credibility": "established",
+    "keywords": [
+      "폴 피츠",
+      "실험심리학·HCI",
+      "심리",
+      "button size touch target ui design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "피츠가 「운동 진폭 제어에서 인간 운동계의 정보 용량」(Journal of Experimental Psychology, 1954)에서 정식화한 법칙. 표적까지 닿는 시간은 거리(D)가 멀수록, 표적 폭(W)이 좁을수록 로그 비례로 늘어난다(MT = a + b·log₂(2D/W)). HCI의 가장 기초적인 정량 법칙으로, 버튼 크기와 위치 설계의 근거다.",
+      "why": "겨냥에는 큰 동작과 미세 조정의 두 국면이 있고, 표적이 작거나 멀수록 미세 조정에 시간이 더 든다. 정확도와 속도는 맞바꿈 관계다.",
+      "apply": [
+        "자주 쓰는 버튼은 크게, 커서·엄지의 현재 위치 가까이 둔다.",
+        "화면 모서리·가장자리는 '무한히 큰 표적'이다(커서가 튕겨 나가지 않음) — 중요 기능을 배치하기 좋다.",
+        "위험한 동작(삭제)은 일부러 작게·멀리 떨어뜨려 오조작을 줄인다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><circle cx=\"110\" cy=\"120\" r=\"7\" fill=\"#222\"/><g stroke=\"#bbb\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"><line x1=\"110\" y1=\"120\" x2=\"200\" y2=\"120\"/><line x1=\"110\" y1=\"120\" x2=\"445\" y2=\"80\"/></g><rect x=\"185\" y=\"100\" width=\"42\" height=\"42\" fill=\"#2f6f4f\"/><rect x=\"437\" y=\"68\" width=\"18\" height=\"18\" fill=\"#b3401f\"/><text x=\"206\" y=\"170\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">가깝고 큼 — 빠름</text><text x=\"446\" y=\"112\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">멀고 작음 — 느림</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "picture-superiority",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "그림 우월 효과",
+    "titleEn": "Picture Superiority Effect",
+    "origin": "앨런 파이비오",
+    "year": 1971,
+    "field": "인지심리학",
+    "oneLiner": "그림은 글자보다 두 배 잘 기억된다.",
+    "credibility": "established",
+    "keywords": [
+      "앨런 파이비오",
+      "인지심리학",
+      "심리",
+      "icon infographic visual memory design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "파이비오의 이중부호화 이론(『심상과 언어 과정』, 1971)에 따르면 인지는 언어 채널과 비언어(심상) 채널 두 경로로 정보를 처리한다. 그림은 시각 코드와 언어 코드 양쪽에 이중 부호화되는 반면 단어는 언어 코드 하나로만 부호화되어, 그림이 단어보다 더 잘 기억된다 — 이것이 그림 우월 효과다.",
+      "why": "두 경로에 저장된 정보는 인출 단서가 두 배라 회상 성공률이 높다. 구체적이고 심상화하기 쉬운 정보일수록 이 이점이 커진다.",
+      "apply": [
+        "핵심 메시지는 텍스트와 이미지·아이콘·다이어그램을 함께 제시해 기억을 이중으로 건다.",
+        "추상적 개념도 시각적 은유(메타포)로 심상화하면 기억과 이해가 함께 오른다.",
+        "단, 무관한 장식 이미지는 도움이 안 된다 — 의미를 담은 그림만 이중부호화된다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g><rect x=\"100\" y=\"70\" width=\"120\" height=\"90\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><path d=\"M120,140 l25,-35 l20,25 l18,-28 l22,38 Z\" fill=\"#222\"/><circle cx=\"195\" cy=\"92\" r=\"10\" fill=\"#b3401f\"/><text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2f6f4f\" font-family=\"sans-serif\">기억 ↑↑</text></g><g><text x=\"400\" y=\"125\" text-anchor=\"middle\" font-size=\"22\" fill=\"#222\" font-family=\"sans-serif\">산</text><text x=\"400\" y=\"185\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">기억 ↑</text></g></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "goal-gradient",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "목표 구배 효과",
+    "titleEn": "Goal-Gradient Effect",
+    "origin": "클라크 헐 · 키베츠 외",
+    "year": 1932,
+    "field": "동기심리학",
+    "oneLiner": "결승선이 가까울수록 더 빨리 달린다.",
+    "credibility": "established",
+    "keywords": [
+      "클라크 헐 · 키베츠 외",
+      "동기심리학",
+      "심리",
+      "progress bar gamification onboarding ui"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "헐이 「목표 구배 가설과 미로 학습」(Psychological Review, 1932)에서 제시하고, 키베츠·우르민스키·정(Journal of Marketing Research, 2006)이 인간에게서 재현한 현상. 목표에 가까워질수록 그것을 향한 노력이 증가한다. 미로 끝 먹이에 가까울수록 빨리 달리는 쥐처럼, '커피 10잔 적립' 카드도 보상이 가까울수록 구매가 빨라졌다.",
+      "why": "남은 거리가 짧을수록 한 걸음의 가치가 커 보여 동기가 증폭된다. 진행이 가시화되면 완료 욕구(자이가르닉)가 행동을 끌어당긴다.",
+      "apply": [
+        "진행률 표시줄·단계 인디케이터로 '거의 다 왔음'을 보여줘 이탈을 막는다.",
+        "시작점에 약간의 진행분을 미리 채워 주면(가짜 출발) 완주율이 올라간다 — 10칸 빈 카드보다 12칸 중 2칸 채운 카드.",
+        "긴 과제는 작은 마일스톤으로 쪼개 매 구간 결승선을 만든다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"90\" y=\"100\" width=\"380\" height=\"32\" rx=\"16\" fill=\"#e3e3de\"/><rect x=\"90\" y=\"100\" width=\"300\" height=\"32\" rx=\"16\" fill=\"#2f6f4f\"/><circle cx=\"470\" cy=\"116\" r=\"20\" fill=\"none\" stroke=\"#b3401f\" stroke-width=\"3\"/><path d=\"M462,116 l6,7 l11,-14\" fill=\"none\" stroke=\"#b3401f\" stroke-width=\"3\"/><text x=\"280\" y=\"170\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">목표가 보이면 마지막 구간에서 속도가 붙는다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "center-stage",
+    "domain": "aesthetics",
+    "category": "psychology",
+    "categoryLabel": "심리",
+    "title": "중앙 무대 효과",
+    "titleEn": "Center-Stage Effect",
+    "origin": "아나 발렌수엘라 · 프리야 라구비르",
+    "year": 2009,
+    "field": "소비자심리학",
+    "oneLiner": "가운데 놓인 것이 '대표 선수'로 읽힌다.",
+    "credibility": "established",
+    "keywords": [
+      "아나 발렌수엘라 · 프리야 라구비르",
+      "소비자심리학",
+      "심리",
+      "pricing table center option ui design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "발렌수엘라와 라구비르가 「위치 기반 믿음: 중앙 무대 효과」(Journal of Consumer Psychology, 2009)에서 보인 현상. 여러 항목이 나란히 놓이면 사람들은 가운데 항목이 가장 인기 있고 대표적이라고 믿고, 그 결과 중앙을 더 자주 고른다. 주의의 차이가 아니라 '중앙 = 인기'라는 위치 기반 추론이며, 남의 선호를 고려할 때 더 강해진다.",
+      "why": "진열·배치의 관습상 가장 중요한 것을 가운데 둔다는 학습이 쌓여, 우리는 중앙 위치 자체를 '선택받은 것'의 신호로 역추론한다.",
+      "apply": [
+        "밀고 싶은 옵션(추천 요금제)은 가로 배열의 한가운데에 둔다 — 흔히 살짝 키우는 것과 함께.",
+        "중립적으로 보이고 싶은 비교는 중앙 자리의 무게를 의식하고 순서를 설계한다.",
+        "단독 노출이 아니라 '나란히 비교'되는 맥락에서만 작동한다는 점을 기억한다."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><rect x=\"110\" y=\"80\" width=\"90\" height=\"100\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"235\" y=\"62\" width=\"90\" height=\"118\" fill=\"#222\"/><rect x=\"360\" y=\"80\" width=\"90\" height=\"100\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"280\" y=\"50\" text-anchor=\"middle\" font-size=\"12\" fill=\"#b3401f\" font-family=\"sans-serif\">인기</text><text x=\"280\" y=\"205\" text-anchor=\"middle\" font-size=\"13\" fill=\"#888\" font-family=\"sans-serif\">가운데 = 가장 많이 선택된다</text></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "ma",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "마(間) — 여백의 미",
+    "titleEn": "Ma, The Aesthetics of Emptiness",
+    "origin": "일본 전통 미학",
+    "year": 1500,
+    "field": "동양 미학",
+    "oneLiner": "비어 있는 곳이 그려진 곳을 완성한다.",
+    "credibility": "established",
+    "keywords": [
+      "일본 전통 미학",
+      "동양 미학",
+      "철학·태도",
+      "ma japanese aesthetics negative space"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "일본 미학에서 마(間)는 사물 '사이'의 비어 있는 시간과 공간을 뜻한다. 여백은 채우지 못한 잉여가 아니라 적극적으로 설계된 구성 요소다. 하세가와 도하쿠의 〈송림도 병풍〉은 화면 대부분의 안개(여백)가 소나무보다 많은 것을 말하는 걸작이다.",
+      "why": "여백은 시선에 쉴 곳을 주고, 남은 요소의 가치를 희소성으로 끌어올리며, 보는 이가 상상으로 채울 자리를 남긴다(폐쇄성의 법칙과 공명한다).",
+      "apply": [
+        "요소를 더해 풀리지 않는 화면은 빼서 푼다 — 여백을 '배치'한다고 생각하라.",
+        "고급스러움이 목표라면 정보 밀도를 낮추는 것이 가장 싼 방법이다.",
+        "여백은 균등 분배하지 말 것 — 한쪽에 크게 몰아주면 구도가 된다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hasegawa%20Tohaku%20-%20Pine%20Trees%20(Sh%C5%8Drin-zu%20by%C5%8Dbu)%20-%20left%20hand%20screen.jpg?width=1100",
+          "caption": "하세가와 도하쿠 〈송림도 병풍〉 — 안개의 여백이 주인공",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "wabi-sabi",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "와비사비",
+    "titleEn": "Wabi-Sabi",
+    "origin": "센노 리큐 · 일본 다도 전통",
+    "year": 1580,
+    "field": "동양 미학",
+    "oneLiner": "불완전하고, 영원하지 않고, 미완성인 것의 아름다움.",
+    "credibility": "established",
+    "keywords": [
+      "센노 리큐 · 일본 다도 전통",
+      "동양 미학",
+      "철학·태도",
+      "wabi sabi interior kintsugi"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "다도의 대성자 센노 리큐가 완성한 미의식. 화려함 대신 소박함(와비), 시간이 남긴 흔적(사비)을 긍정한다. 깨진 그릇을 금으로 잇는 킨츠기는 흠집을 숨기는 대신 역사로 드러내는 와비사비의 상징이다.",
+      "why": "완벽한 대칭·광택은 긴장을 주지만, 불완전함은 친밀감과 시간의 깊이를 준다. 통제된 결함은 '진짜'라는 신호로 읽힌다.",
+      "apply": [
+        "수작업 질감, 고르지 않은 가장자리, 바랜 색을 '결함'이 아닌 재료로 쓴다.",
+        "완벽한 벡터 화면에 한 줌의 아날로그 노이즈를 더해 체온을 만든다.",
+        "오래될수록 좋아지는 디자인(가죽, 황동, 닳는 종이)을 의도적으로 선택한다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tea%20bowl%2C%20Korea%2C%20Joseon%20dynasty%2C%2016th%20century%20AD%2C%20Mishima-hakeme%20type%2C%20buncheong%20ware%2C%20stoneware%20with%20white%20engobe%20and%20translucent%2C%20greenish-gray%20glaze%2C%20gold%20lacquer%20-%20Ethnological%20Museum%2C%20Berlin%20-%20DSC02061.JPG?width=1100",
+          "caption": "킨츠기(금칠)로 수리된 조선 다완 — 흉터가 무늬가 된다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "less-but-better",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "더 적게, 그러나 더 좋게",
+    "titleEn": "Weniger, aber besser",
+    "origin": "디터 람스",
+    "year": 1976,
+    "field": "산업 디자인",
+    "oneLiner": "좋은 디자인은 가능한 한 적은 디자인이다.",
+    "credibility": "established",
+    "keywords": [
+      "디터 람스",
+      "산업 디자인",
+      "철학·태도",
+      "dieter rams braun design minimal"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "브라운(Braun)의 수석 디자이너 디터 람스의 철학이자 그의 '좋은 디자인 10계명'의 결론. 좋은 디자인은 혁신적이고, 유용하고, 이해 가능하고, 정직하고, 오래가며 — 마지막으로, 가능한 한 적다. 본질만 남기는 절제가 순수함과 단순함을 되돌려준다는 선언이다.",
+      "why": "모든 추가 요소는 주의력 비용을 청구한다. 기능에 봉사하지 않는 요소를 제거하면 남은 것들이 명료해지고, 명료함은 처리 유창성을 거쳐 아름다움이 된다.",
+      "apply": [
+        "완성 후 한 바퀴 — '이 요소를 빼면 무엇이 무너지는가'를 전 요소에 묻는다.",
+        "장식이 필요하다고 느껴지면 먼저 비례·재료·타이포로 해결을 시도한다.",
+        "10년 뒤에도 부끄럽지 않을지를 스타일 결정의 시금석으로 삼는다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Braun%20ABW30%20(schwarz).jpg?width=1100",
+          "caption": "디터 람스 시대의 브라운 제품 언어 — 본질만 남은 형태",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "vitruvius",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "비트루비우스의 3원칙",
+    "titleEn": "Firmitas, Utilitas, Venustas",
+    "origin": "마르쿠스 비트루비우스",
+    "year": -25,
+    "field": "건축 이론",
+    "oneLiner": "견고함, 유용함, 아름다움 — 셋 중 하나라도 빠지면 건축이 아니다.",
+    "credibility": "established",
+    "keywords": [
+      "마르쿠스 비트루비우스",
+      "건축 이론",
+      "철학·태도",
+      "vitruvius architecture classical proportion"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "로마 건축가 비트루비우스가 『건축십서』에서 제시한 건축의 3대 조건. 구조적 견고함(firmitas), 기능적 유용함(utilitas), 미적 즐거움(venustas)은 분리된 목표가 아니라 동시에 충족해야 할 하나의 기준이다. 2천 년간 모든 디자인 분야의 품질 삼각형으로 살아남았다.",
+      "why": "아름다움을 견고함·유용함과 같은 급의 '요구사항'으로 격상시킨 최초의 선언이다. 미는 사치가 아니라 완성의 조건이라는 관점의 원조.",
+      "apply": [
+        "리뷰 체크리스트를 셋으로 구성한다 — 튼튼한가(코드·구조), 쓸모 있는가(UX), 아름다운가(UI).",
+        "셋 중 하나를 희생하는 결정은 '부채'로 기록하고 갚을 계획을 세운다.",
+        "아름다움 항목을 '나중에'로 미루는 순간 비트루비우스를 어기는 것이다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Da%20Vinci%20Vitruve%20Luc%20Viatour.jpg?width=900",
+          "caption": "다빈치 〈비트루비우스적 인간〉 — 비트루비우스의 비례론에 대한 헌사",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "form-follows-function",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "형태는 기능을 따른다",
+    "titleEn": "Form Follows Function",
+    "origin": "루이스 설리번",
+    "year": 1896,
+    "field": "근대 건축",
+    "oneLiner": "형태의 이유는 형태 밖에 있다 — 기능이 형태를 결정한다.",
+    "credibility": "established",
+    "keywords": [
+      "루이스 설리번",
+      "근대 건축",
+      "철학·태도",
+      "form follows function architecture bauhaus"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "마천루의 아버지 설리번이 1896년 에세이 「예술적으로 고려된 고층 사무소 건물」에서 선언한 근대 디자인의 표어. 자연 만물의 형태가 그 기능의 표현이듯, 인공물의 형태도 용도에서 도출되어야 한다는 사상. 바우하우스와 모더니즘 전체의 주춧돌이 됐다.",
+      "why": "기능에서 도출된 형태는 자의적 장식보다 필연성을 가진다. 보는 사람은 '왜 이 모양인가'에 대한 답이 보일 때 그 형태를 정직하다고, 그래서 아름답다고 느낀다.",
+      "apply": [
+        "형태 결정마다 기능적 근거를 한 줄로 말할 수 있는지 자문한다.",
+        "장식하고 싶다면 기능 요소(손잡이, 이음새, 그리드)를 드러내는 방식으로 한다.",
+        "단, 교조가 되지 말 것 — 즐거움·상징도 기능이다(포스트모더니즘의 반론을 기억하라)."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "ornament-crime",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "장식과 범죄",
+    "titleEn": "Ornament and Crime",
+    "origin": "아돌프 로스",
+    "year": 1908,
+    "field": "근대 건축",
+    "oneLiner": "장식을 덜어내는 것이 문화의 진보다.",
+    "credibility": "established",
+    "keywords": [
+      "아돌프 로스",
+      "근대 건축",
+      "철학·태도",
+      "adolf loos modernist architecture minimal"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "빈의 건축가 로스가 1908년 강연 「장식과 범죄」에서 던진 도발. 장식은 노동과 재료의 낭비이며, 양식적 장식이 사라지는 것이 문화 성숙의 징표라고 주장했다. 수사는 과격하지만 — 모더니즘과 미니멀리즘 전체가 이 강연의 후예다.",
+      "why": "장식은 빨리 낡는다. 유행하는 장식을 입은 사물은 유행과 함께 버려지고, 장식 없는 본질적 형태는 시간을 견딘다 — 지속가능성의 미학적 버전이다.",
+      "apply": [
+        "요소를 추가할 때 '10년 뒤에도 필요할까'를 묻는다 — 트렌드 장식은 감가상각이 빠르다.",
+        "장식 충동이 들면 재료·비례·빛으로 풍부함을 만드는 길을 먼저 찾아라.",
+        "단, 로스도 수공예의 장인적 장식은 별개로 봤다 — 의미 있는 디테일까지 학살하지 마라."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "less-is-more",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "Less is More",
+    "titleEn": "Less is More",
+    "origin": "미스 반 데어 로에",
+    "year": 1947,
+    "field": "근대 건축",
+    "oneLiner": "덜어낸 것이 더한 것이다 — 그리고 신은 디테일에 있다.",
+    "credibility": "established",
+    "keywords": [
+      "미스 반 데어 로에",
+      "근대 건축",
+      "철학·태도",
+      "mies van der rohe minimalism architecture"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "바우하우스 마지막 교장이자 시그램 빌딩의 건축가 미스 반 데어 로에를 대표하는 두 모토. 요소를 최소로 줄이되(Less is more), 남은 소수의 요소는 광적인 정밀도로 다듬는다(God is in the details). 덜어냄과 완성도는 한 세트라는 것 — 미니멀리즘이 게으름이 아니라 가장 비싼 양식인 이유다.",
+      "why": "요소가 적을수록 각 요소가 받는 시선의 지분이 커진다. 미니멀한 화면에서 1px의 어긋남은 복잡한 화면의 10배로 보인다 — 덜어낼수록 디테일의 책임이 무거워진다.",
+      "apply": [
+        "덜어냈다면 남은 것을 집요하게 — 여백 수치, 모서리, 정렬, 커닝까지 다듬어라.",
+        "미니멀 디자인의 견적은 더 높게 — 숨을 곳이 없는 디자인은 공정이 더 길다.",
+        "'단순한데 싸 보인다'는 평가는 덜어냄이 아니라 디테일 부족의 신호다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "truth-materials",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "재료의 진실성",
+    "titleEn": "Truth to Materials",
+    "origin": "존 러스킨 · 미술공예운동",
+    "year": 1849,
+    "field": "건축·공예 사상",
+    "oneLiner": "나무는 나무답게, 돌은 돌답게, 픽셀은 픽셀답게.",
+    "credibility": "established",
+    "keywords": [
+      "존 러스킨 · 미술공예운동",
+      "건축·공예 사상",
+      "철학·태도",
+      "raw materials honest design brutalism"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "러스킨은 『건축의 일곱 등불』(1849)에서 한 재료로 다른 재료를 흉내 내는 기만을 건축의 거짓말로 규정했다. 모리스의 미술공예운동이 이를 계승했고, 콘크리트를 노출한 브루탈리즘과 '디지털답게'를 외친 플랫 디자인까지 — 재료 정직성은 모든 매체에서 되살아나는 원칙이다.",
+      "why": "흉내는 가까이에서 반드시 들통나고, 들통난 가짜는 전체의 신뢰를 무너뜨린다(역후광). 재료 본연의 성질을 드러낸 디자인은 시간이 지나도 거짓말이 들통날 일이 없다.",
+      "apply": [
+        "가짜 질감(나무 무늬 시트, 가죽 스티치 픽셀)을 쓰기 전에 진짜 성질을 살릴 길을 찾아라.",
+        "디지털 UI는 디지털답게 — 종이·가죽 모사보다 빛·레이어·모션이라는 고유 재료를 쓴다.",
+        "재료의 약점도 정직하게 — 합판의 단면, 콘크리트의 거푸집 자국이 오히려 표정이 된다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "morris-rule",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "모리스의 황금률",
+    "titleEn": "Morris's Golden Rule",
+    "origin": "윌리엄 모리스",
+    "year": 1880,
+    "field": "미술공예운동",
+    "oneLiner": "유용하지 않거나 아름답지 않은 것을 집에 두지 마라.",
+    "credibility": "established",
+    "keywords": [
+      "윌리엄 모리스",
+      "미술공예운동",
+      "철학·태도",
+      "william morris arts and crafts interior"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "미술공예운동의 지도자 모리스가 1880년 강연에서 제시한 생활 미학의 기준. 소유의 자격을 '유용' 또는 '아름다움'이라는 두 관문으로 심사하라는 것 — 곤도 마리에식 정리법과 에센셜리즘의 빅토리아 시대 원형이다.",
+      "why": "공간의 미감은 더한 것이 아니라 통과시킨 것의 평균으로 결정된다. 기준 없는 축적은 평균을 무너뜨리고, 엄격한 관문은 남은 모든 것의 밀도를 높인다.",
+      "apply": [
+        "화면·공간·브랜드 자산을 정기적으로 심사하라 — 쓸모도 아름다움도 없는 것은 퇴출.",
+        "신규 추가에도 같은 관문을 — '있으면 좋은' 것은 대부분 없어도 좋은 것이다.",
+        "팀의 디자인 시스템도 마찬가지 — 안 쓰는 컴포넌트와 토큰은 미감의 부채다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "kant",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "무목적의 합목적성",
+    "titleEn": "Purposiveness without Purpose",
+    "origin": "임마누엘 칸트",
+    "year": 1790,
+    "field": "철학적 미학",
+    "oneLiner": "아름다움은 쓸모를 묻지 않는데도 잘 설계된 것처럼 보이는 질서다.",
+    "credibility": "established",
+    "keywords": [
+      "임마누엘 칸트",
+      "철학적 미학",
+      "철학·태도",
+      "art for arts sake beauty"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "칸트는 『판단력 비판』(1790)에서 미적 판단을 분석했다. 아름다운 것은 어떤 목적에 봉사해서가 아니라, 마치 목적을 위해 설계된 듯한 형식적 질서가 우리의 인식 능력을 자유롭게 놀게 하기 때문에 즐겁다. 이해관계 없는 만족 — 소유욕도 효용 계산도 없는 순수한 바라봄이 미적 경험의 정체라는 정의다.",
+      "why": "지각과 상상력이 강제 없이 어울려 노는 상태가 쾌감을 만든다. 광고·설득이 노골적으로 목적을 드러내는 순간 미적 거리가 무너지는 이유이기도 하다.",
+      "apply": [
+        "팔려는 의도를 화면 전면에 세우지 마라 — 목적이 보이면 아름다움이 의심받는다.",
+        "기능적 근거가 없어도 형식적 완결성(비례·질서)이 주는 만족을 정당한 가치로 인정하라.",
+        "포트폴리오엔 '그저 아름다워서 만든' 작업을 한 점 두라 — 그것이 미감의 증명서다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "hume-taste",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "취미의 기준",
+    "titleEn": "Standard of Taste",
+    "origin": "데이비드 흄",
+    "year": 1757,
+    "field": "철학적 미학",
+    "oneLiner": "취향은 주관적이지만, 훈련된 눈들은 결국 합의한다.",
+    "credibility": "established",
+    "keywords": [
+      "데이비드 흄",
+      "철학적 미학",
+      "철학·태도",
+      "design critique taste development"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "흄은 에세이 「취미의 기준에 관하여」(1757)에서 '취향은 제각각'이라는 상대주의와 '걸작은 분명히 존재한다'는 직관 사이의 다리를 놓았다. 섬세한 감식력, 연습, 폭넓은 비교, 편견 없음, 좋은 분별력을 갖춘 비평가들의 합의가 사실상의 기준이 된다는 것 — 미감은 타고나는 게 아니라 훈련되는 능력이라는 선언이다.",
+      "why": "감식력은 와인 테이스팅처럼 미세 차이의 변별 훈련으로 자란다. 많이, 비교하며, 편견 없이 본 눈들이 같은 결론에 수렴한다면 그것이 '좋음'의 실용적 정의다.",
+      "apply": [
+        "매일 좋은 것을 의식적으로 보라 — 레퍼런스 수집은 취미 훈련의 기본 체력이다.",
+        "비교 평가를 습관화하라 — 시안은 단독이 아니라 나란히 두고 차이를 말로 설명한다.",
+        "내 취향과 훈련된 합의를 구분하라 — '나는 싫지만 좋은 디자인'을 인정할 때 성장한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "aristotle-order",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "질서·대칭·명확성",
+    "titleEn": "Order, Symmetry, Definiteness",
+    "origin": "아리스토텔레스",
+    "year": -340,
+    "field": "고전 철학",
+    "oneLiner": "미의 주된 형식은 질서와 대칭과 명확한 한정이다.",
+    "credibility": "established",
+    "keywords": [
+      "아리스토텔레스",
+      "고전 철학",
+      "철학·태도",
+      "classical greek aesthetics architecture"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "아리스토텔레스는 『형이상학』에서 아름다움의 으뜸 형식으로 질서(taxis), 대칭(symmetria), 명확한 한정(horismenon)을 꼽았고, 『시학』에서는 아름다운 것이 적절한 크기를 가져야 — 너무 작아도 너무 커서도 안 된다고 덧붙였다. 2300년 뒤의 게슈탈트 심리학이 실험으로 재발견한 목록과 놀랍도록 겹친다.",
+      "why": "질서는 예측 가능성을, 대칭은 무결성을, 명확한 한정은 '어디서 시작해 어디서 끝나는지'의 파악 가능성을 준다 — 셋 모두 지각이 대상을 쥐는 손잡이다.",
+      "apply": [
+        "작업물에 세 질문을 던져라 — 규칙이 보이는가(질서), 균형 잡혔는가(대칭), 윤곽이 명확한가(한정).",
+        "'적절한 크기'를 기억하라 — 한눈에 전체가 잡히는 규모로 정보를 끊어라.",
+        "끝맺음을 디자인하라 — 명확한 가장자리, 명확한 마지막 섹션이 작품을 '하나'로 만든다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "occam",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "오컴의 면도날",
+    "titleEn": "Occam's Razor",
+    "origin": "오컴의 윌리엄",
+    "year": 1320,
+    "field": "스콜라 철학",
+    "oneLiner": "같은 것을 이룬다면, 더 적은 것이 이긴다.",
+    "credibility": "established",
+    "keywords": [
+      "오컴의 윌리엄",
+      "스콜라 철학",
+      "철학·태도",
+      "simplicity essential minimal design"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "14세기 논리학자 오컴의 윌리엄에게 귀속되는 원리 — 필요 없이 존재자를 늘리지 마라. 같은 현상을 설명하는 두 이론 중 가정이 적은 쪽을 택하라는 사고의 경제 원칙으로, 디자인에선 '같은 기능을 한다면 요소가 적은 안이 옳다'로 번역된다.",
+      "why": "요소 하나하나는 인지 비용·오류 가능성·유지 비용을 청구한다. 기능이 같다면 적은 쪽이 비용 구조상 우월하다 — 버코프의 M=O/C와 같은 결론에 도달하는 철학 버전이다.",
+      "apply": [
+        "시안 비교의 타이브레이커 — 효과가 같아 보이면 무조건 요소가 적은 쪽을 고른다.",
+        "설명이 필요한 디자인은 패배다 — 주석·범례·도움말을 늘리기 전에 구조를 줄여라.",
+        "프로세스에도 적용하라 — 같은 결과를 내는 더 짧은 제작 공정이 더 좋은 공정이다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "mono-no-aware",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "모노노아와레",
+    "titleEn": "Mono no Aware (物の哀れ)",
+    "origin": "모토오리 노리나가",
+    "year": 1763,
+    "field": "일본 국학",
+    "oneLiner": "사라지기 때문에 아름답다.",
+    "credibility": "established",
+    "keywords": [
+      "모토오리 노리나가",
+      "일본 국학",
+      "철학·태도",
+      "cherry blossom fleeting beauty japanese"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "국학자 모토오리 노리나가가 『겐지모노가타리』 연구에서 정식화한 일본 미학의 중심 개념. 사물(모노)에 닿아 일어나는 깊은 정감(아와레) — 특히 벚꽃처럼 덧없는 것의 소멸을 향한 애상이 미적 감수성의 핵심이라 보았다. 와비사비가 '낡음'의 미라면 모노노아와레는 '스러짐'의 미다.",
+      "why": "유한함은 희소성의 시간 버전이다. 곧 사라질 것은 지금 이 순간의 가치를 증폭시키고, 그 애틋함이 대상을 기억에 새긴다.",
+      "apply": [
+        "한정·계절·순간을 디자인 재료로 써라 — 시즌 에디션, 지는 노을의 팔레트, 사라지는 인터랙션.",
+        "영원한 척하지 마라 — 시간이 흐르는 것(빛 바램, 사용 흔적, 버전의 역사)을 드러내는 디자인.",
+        "엔딩을 아름답게 — 서비스 종료 화면, 마지막 페이지, 페이드아웃도 작품의 일부다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "mingei",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "용(用)의 미",
+    "titleEn": "Mingei — Beauty of Use",
+    "origin": "야나기 무네요시",
+    "year": 1926,
+    "field": "민예 운동",
+    "oneLiner": "이름 없는 장인이 만든, 쓰임을 다하는 물건이 가장 아름답다.",
+    "credibility": "established",
+    "keywords": [
+      "야나기 무네요시",
+      "민예 운동",
+      "철학·태도",
+      "mingei folk craft pottery"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "사상가 야나기 무네요시가 1926년 민예 운동을 일으키며 세운 미학. 천재의 서명이 아니라 무명 장인의 반복 노동에서, 감상이 아니라 일상의 쓰임에서 건강한 아름다움이 나온다고 보았다. 그가 최고로 꼽은 것이 조선의 백자와 막사발이었다 — 꾸미려는 의지 없이 쓸모에 충실해서 아름다운 물건들.",
+      "why": "쓰임을 위한 반복 제작은 불필요한 것을 자연 도태시키고 필요한 형태만 남긴다. 수만 번의 사용이 검증한 형태는 어떤 천재의 독창보다 깊은 필연성을 가진다.",
+      "apply": [
+        "일상 도구의 디자인은 '감상자'가 아니라 '사용자의 손'을 위해 결정하라.",
+        "오래 팔린 무명의 표준품(클립, 컵, 의자)을 스승으로 — 그 형태에는 이유만 남아 있다.",
+        "서명 욕심을 줄여라 — 디자이너가 보이지 않을수록 좋은 도구라는 역설을 받아들인다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Moon%20jar.%2018thC.Joseon%20Dynasty.British%20Museum.jpg?width=900",
+          "caption": "조선 달항아리(18세기) — 야나기가 사랑한 '쓰임의 미'",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "qiyun",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "기운생동",
+    "titleEn": "Qiyun Shengdong (氣韻生動)",
+    "origin": "사혁",
+    "year": 550,
+    "field": "동양 화론",
+    "oneLiner": "그림의 으뜸 법은 기운이 살아 움직이는 것이다.",
+    "credibility": "established",
+    "keywords": [
+      "사혁",
+      "동양 화론",
+      "철학·태도",
+      "ink painting brush energy calligraphy"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "남제의 화가·비평가 사혁이 『고화품록』에서 제시한 그림의 여섯 법칙(육법) 중 제1법. 형태의 닮음(형사)보다 대상의 생명감과 정신(신사)을 옮기는 것이 회화의 최고 기준이라는 선언으로, 1500년간 동아시아 미학의 제1조로 군림했다. 나머지 다섯 법(골법용필·응물상형·수류부채·경영위치·전이모사)이 모두 이 첫 법에 봉사한다.",
+      "why": "정확한 재현은 카메라가 이기지만, 생동감은 선의 속도·강약·생략이 만드는 에너지의 기록이다. 보는 사람은 형태가 아니라 그 에너지에 공명한다.",
+      "apply": [
+        "정확함과 생동감이 충돌하면 생동감을 택하라 — 약간 어긋난 활기가 정밀한 죽음보다 낫다.",
+        "스케치의 첫 선이 가진 에너지를 마감 과정에서 죽이지 마라 — 다듬되 박제하지 않기.",
+        "일러스트·로고의 선에 속도와 압력의 변화를 남겨라. 균일한 선은 안전하지만 숨을 쉬지 않는다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Guo%20Xi%20-%20Early%20Spring%20(large).jpg?width=900",
+          "caption": "곽희 〈조춘도〉(1072) — 산이 살아 꿈틀거린다",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "no-technique",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "무기교의 기교",
+    "titleEn": "Technique of No Technique",
+    "origin": "고유섭",
+    "year": 1934,
+    "field": "한국 미학",
+    "oneLiner": "다듬지 않은 듯 다듬는 것 — 한국미의 역설.",
+    "credibility": "established",
+    "keywords": [
+      "고유섭",
+      "한국 미학",
+      "철학·태도",
+      "korean moon jar dansaekhwa aesthetic"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "한국 최초의 미학자 고유섭이 1930년대에 조선 미술의 성격으로 제시한 개념. '무기교의 기교, 무계획의 계획' — 자를 대고 잰 듯한 완벽 대신, 자연스러움을 잃지 않는 절제된 손길이 한국 미의 본령이라 보았다. 좌우가 미묘하게 다른 달항아리의 어깨선이 그 표본이다.",
+      "why": "완벽한 규칙성은 기계의 흔적이고, 통제된 불규칙성은 살아 있는 손의 흔적이다. 후자는 보는 이에게 긴장 대신 무심한 편안함을 준다 — 애쓰지 않은 듯한 것이 최고의 애씀이다.",
+      "apply": [
+        "그리드를 짠 뒤 한 군데는 손의 감각으로 풀어 줘라 — 완벽한 정렬의 숨 막힘을 빼는 환기구.",
+        "손글씨·불균질 텍스처·비정형 라인을 '정밀하게' 배치하라 — 무심함도 설계의 결과다.",
+        "과시적 기교가 보이면 의심하라 — 기술이 주인공이 된 디자인은 메시지를 잃은 디자인이다."
+      ],
+      "svg": "",
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Korea-Joseon-Moon%20jar-01.jpg?width=900",
+          "caption": "달항아리 — 미묘하게 비대칭인 어깨선의 무심한 아름다움",
+          "credit": "Wikimedia Commons"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aura",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "아우라",
+    "titleEn": "Aura",
+    "origin": "발터 벤야민",
+    "year": 1935,
+    "field": "비판 이론",
+    "oneLiner": "복제의 시대일수록 '지금, 여기, 단 하나'가 빛난다.",
+    "credibility": "established",
+    "keywords": [
+      "발터 벤야민",
+      "비판 이론",
+      "철학·태도",
+      "limited edition craft print making"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "벤야민은 「기술복제시대의 예술작품」(1935)에서 원본만이 갖는 시공간적 일회성 — 아우라 — 가 기계 복제로 붕괴한다고 분석했다. 그러나 역설적으로 무한 복제 시대는 원본성·한정성·실물 경험의 가치를 폭등시켰다. 디지털 시대의 수공예 부활, 한정판, 라이브의 프리미엄이 그 증거다.",
+      "why": "희소성은 가치 지각의 기본 회로다. 무엇이든 무한히 복제되는 환경에서는 복제 불가능한 속성(物性, 시간, 장소, 이력)만이 차별적 가치를 담는 그릇이 된다.",
+      "apply": [
+        "디지털 산출물에 일회성의 층을 입혀라 — 시리얼 넘버, 제작 이력, 한정 수량.",
+        "실물·현장 경험을 브랜드의 정점에 — 인쇄물의 질감, 팝업의 '그날 그곳'은 복제되지 않는다.",
+        "과정의 기록(스케치, 수정 흔적)을 공개하라 — 이력이 곧 원본성의 증명이다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "dewey",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "경험으로서의 예술",
+    "titleEn": "Art as Experience",
+    "origin": "존 듀이",
+    "year": 1934,
+    "field": "프래그머티즘 철학",
+    "oneLiner": "예술은 사물이 아니라 하나의 완결된 경험이다.",
+    "credibility": "established",
+    "keywords": [
+      "존 듀이",
+      "프래그머티즘 철학",
+      "철학·태도",
+      "experience design journey storytelling"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "철학자 듀이는 『경험으로서의 예술』(1934)에서 미적인 것을 미술관의 사물에서 삶의 경험으로 되돌렸다. 시작과 전개와 완결을 갖춘 '하나의 경험'(an experience)이 미적 경험의 단위이며, 잘 마친 식사나 잘 끝난 작업도 그 자격이 있다. 경험 디자인(UX)이라는 분야 전체의 철학적 출생증명서다.",
+      "why": "기억에 남는 것은 산발적 순간이 아니라 리듬과 완결을 갖춘 서사 단위다. 제품·공간·서비스도 '하나의 경험'으로 묶일 때 비로소 미적 대상이 된다.",
+      "apply": [
+        "화면 단위가 아니라 여정 단위로 디자인하라 — 도입, 전개, 절정, 완결의 호흡을 설계한다.",
+        "끊김(로딩, 단절된 전환, 막다른 화면)은 경험의 사망 지점 — 서사의 연속성을 사수하라.",
+        "완결감을 명시적으로 — '끝났다, 잘했다'를 말해 주는 마무리 장면이 경험을 봉인한다."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "quality-without-name",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "무명의 질",
+    "titleEn": "Quality Without a Name",
+    "origin": "크리스토퍼 알렉산더",
+    "year": 1979,
+    "field": "건축 이론",
+    "oneLiner": "좋은 곳에는 이름 붙일 수 없는 생기가 있다 — 그리고 그것은 패턴으로 만들어진다.",
+    "credibility": "established",
+    "keywords": [
+      "크리스토퍼 알렉산더",
+      "건축 이론",
+      "철학·태도",
+      "christopher alexander pattern language architecture"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "건축가 알렉산더는 『시간을 초월한 건축의 길』(1979)에서 살아 있는 건물·마을이 공유하는 무명의 질(quality without a name)을 탐구했고, 『패턴 랭귀지』(1977)에서 그것을 만드는 253개의 검증된 패턴(빛이 두 면에서 드는 방, 거리를 향한 창...)을 사전처럼 정리했다. 소프트웨어 디자인 패턴 운동의 직계 조상이기도 하다.",
+      "why": "생기는 신비가 아니라 패턴들의 중첩이 만드는 창발이다. 개별 패턴은 평범해도, 인간 행동과 공명하는 패턴들이 촘촘히 겹치면 '살아 있다'는 느낌이 생긴다.",
+      "apply": [
+        "직감으로 '좋다'고 느낀 공간·화면을 분해하라 — 어떤 패턴들의 중첩인지 말로 추출한다.",
+        "팀의 패턴 랭귀지를 만들어라 — 검증된 해법을 이름 붙여 사전화하면 품질이 복리로 쌓인다.",
+        "패턴은 정답이 아니라 출발점 — 맥락에 맞게 변주하되, 패턴이 풀려는 문제를 잊지 마라."
+      ],
+      "svg": "",
+      "images": []
+    }
+  },
+  {
+    "id": "aesthetic-triad",
+    "domain": "aesthetics",
+    "category": "philosophy",
+    "categoryLabel": "철학·태도",
+    "title": "미적 삼제",
+    "titleEn": "The Aesthetic Triad",
+    "origin": "안잔 채터지 · 오신 바르타니안",
+    "year": 2014,
+    "field": "신경미학",
+    "oneLiner": "미감은 감각·정서·의미 세 신경계의 합주다.",
+    "credibility": "established",
+    "keywords": [
+      "안잔 채터지 · 오신 바르타니안",
+      "신경미학",
+      "철학·태도",
+      "neuroaesthetics art science diagram"
+    ],
+    "related": [],
+    "detail": {
+      "desc": "신경과학자 채터지와 바르타니안이 「신경미학」(Trends in Cognitive Sciences, 2014)에서 제시한 통합 모델. 미적 경험은 세 신경계 — 감각운동(형태·색·움직임의 지각), 정서-가치(쾌·보상), 의미-지식(맥락·연상·해석) — 의 유연한 상호작용에서 창발한다. 모든 미적 경험이 셋을 똑같이 동원하는 건 아니며, 가중치는 맥락에 따라 달라진다.",
+      "why": "아름다움은 망막의 자극도, 순수한 관념도 아니다. 감각의 쾌, 정서의 울림, 의미의 깊이가 함께 점화될 때 비로소 '아름답다'는 통합된 상태가 된다 — 이 색인의 100여 법칙이 결국 세 축 어딘가에 놓인다.",
+      "apply": [
+        "디자인을 세 축으로 점검한다 — 감각적으로 쾌한가, 정서적으로 울리는가, 의미가 읽히는가.",
+        "감각만 화려하고 의미가 비면 공허하고, 의미만 있고 감각이 없으면 메마르다 — 균형을 맞춘다.",
+        "맥락에 따라 주연 축을 정한다 — 데이터 시각화는 의미, 패션 비주얼은 감각, 추모 공간은 정서."
+      ],
+      "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"560\" height=\"240\" fill=\"#f4f4f1\"/><g fill-opacity=\"0.42\"><circle cx=\"245\" cy=\"100\" r=\"60\" fill=\"#3d7fb8\"/><circle cx=\"315\" cy=\"100\" r=\"60\" fill=\"#b3401f\"/><circle cx=\"280\" cy=\"155\" r=\"60\" fill=\"#2f6f4f\"/></g><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#444\"><text x=\"215\" y=\"80\" text-anchor=\"middle\">감각운동</text><text x=\"345\" y=\"80\" text-anchor=\"middle\">정서·가치</text><text x=\"280\" y=\"200\" text-anchor=\"middle\">의미·지식</text></g></svg>",
+      "images": []
+    }
+  },
+  {
+    "id": "semiotics",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "기호학",
+    "titleEn": "Semiotics",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "기호가 의미를 만드는 방식을 다루는 학문.",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Semiotics"
+    ],
+    "related": [
+      "constructivism",
+      "pop-art",
+      "swiss"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Semiotics"
+      }
+    ],
+    "detail": {
+      "desc": "기호가 의미를 만드는 방식을 다루는 학문. 기표(형태)와 기의(뜻)의 관계, 그리고 도상·지표·상징의 구분은 로고·픽토그램·광고를 읽고 설계하는 기본 문법이다. 빨간 원이 \"금지\"가 되는 건 자연이 아니라 약속이다.",
+      "wiki": "Semiotics",
+      "svg": ""
+    }
+  },
+  {
+    "id": "gestalt",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "게슈탈트",
+    "titleEn": "Gestalt",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "\"전체는 부분의 합과 다르다\" — 인간이 형태를 묶어서 지각하는 원리(근접성·유사성·연속성·폐쇄성·전경/배경).",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Gestalt"
+    ],
+    "related": [
+      "swiss",
+      "bauhaus",
+      "minimalism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gestalt_psychology"
+      }
+    ],
+    "detail": {
+      "desc": "\"전체는 부분의 합과 다르다\" — 인간이 형태를 묶어서 지각하는 원리(근접성·유사성·연속성·폐쇄성·전경/배경). 그리드 정렬이 질서로 느껴지고, 로고의 비워진 부분이 형태로 읽히는 이유가 전부 여기 있다.",
+      "wiki": "Gestalt psychology",
+      "svg": ""
+    }
+  },
+  {
+    "id": "color-theory",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "색 이론",
+    "titleEn": "Color Theory",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "색상·명도·채도의 3속성과 색상환 위의 관계(보색·유사색)로 배색을 설계하는 이론.",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Color Theory"
+    ],
+    "related": [
+      "bauhaus",
+      "impressionism",
+      "psychedelic"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Color_theory"
+      }
+    ],
+    "detail": {
+      "desc": "색상·명도·채도의 3속성과 색상환 위의 관계(보색·유사색)로 배색을 설계하는 이론. 이텐과 알베르스의 바우하우스 색채 수업이 현대 색 교육의 토대이며, 보색 진동을 무기로 쓴 것이 사이키델릭이다.",
+      "wiki": "Color theory",
+      "svg": ""
+    }
+  },
+  {
+    "id": "aesthetics",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "미학",
+    "titleEn": "Aesthetics",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "아름다움과 취향을 다루는 철학.",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Aesthetics"
+    ],
+    "related": [
+      "romanticism",
+      "minimalism",
+      "memphis"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aesthetics"
+      }
+    ],
+    "detail": {
+      "desc": "아름다움과 취향을 다루는 철학. 낭만주의의 \"숭고\"(압도하는 자연), 모더니즘의 \"기능미\", 포스트모던의 \"키치 옹호\"까지 — 모든 양식 뒤에는 무엇이 아름다운가에 대한 입장이 있다.",
+      "wiki": "Aesthetics",
+      "svg": ""
+    }
+  },
+  {
+    "id": "golden-ratio",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "황금비",
+    "titleEn": "Golden Ratio",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "1:1.618의 비례.",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Golden Ratio"
+    ],
+    "related": [
+      "renaissance",
+      "swiss",
+      "neoclassicism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Golden_ratio"
+      }
+    ],
+    "detail": {
+      "desc": "1:1.618의 비례. 르네상스가 신성한 비례로 숭배했고, 근대 타이포그래피의 판형·여백 설계(반 데 그라프 캐논)로 이어졌다. 만능 열쇠는 아니지만 비례 감각의 출발점으로 여전히 유효하다.",
+      "wiki": "Golden ratio",
+      "svg": ""
+    }
+  },
+  {
+    "id": "fff",
+    "domain": "aesthetics",
+    "category": "이론",
+    "categoryLabel": "이론",
+    "title": "형태는 기능을 따른다",
+    "titleEn": "Form Follows Function",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "건축가 루이스 설리번의 명제(1896)로, 장식보다 쓰임이 형태를 결정해야 한다는 모더니즘의 신조.",
+    "credibility": "established",
+    "keywords": [
+      "이론",
+      "Form Follows Function"
+    ],
+    "related": [
+      "bauhaus",
+      "minimalism",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Form_follows_function"
+      }
+    ],
+    "detail": {
+      "desc": "건축가 루이스 설리번의 명제(1896)로, 장식보다 쓰임이 형태를 결정해야 한다는 모더니즘의 신조. 바우하우스와 미니멀리즘, 플랫 디자인까지 한 세기를 관통한 가장 영향력 있는 디자인 문장.",
+      "wiki": "Form follows function",
+      "svg": ""
+    }
+  },
+  {
+    "id": "rule-of-thirds",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "삼분할 법칙",
+    "titleEn": "Rule of Thirds",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "화면을 가로·세로 3등분한 선과 그 교차점에 핵심 요소를 두는 가장 기본적인 구도 법칙.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Rule of Thirds"
+    ],
+    "related": [
+      "impressionism",
+      "swiss",
+      "minimalism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rule_of_thirds"
+      }
+    ],
+    "detail": {
+      "desc": "화면을 가로·세로 3등분한 선과 그 교차점에 핵심 요소를 두는 가장 기본적인 구도 법칙. 1797년 존 토머스 스미스가 이름 붙였고, 정중앙 배치의 정적인 안정 대신 긴장과 생동감을 만든다. 카메라의 격자 가이드와 웹 히어로 레이아웃의 기본기.",
+      "wiki": "Rule of thirds",
+      "svg": ""
+    }
+  },
+  {
+    "id": "leading-lines",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "리딩 라인",
+    "titleEn": "Leading Lines",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "길·난간·그림자 같은 선으로 시선을 주인공까지 끌고 가는 기법.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Leading Lines"
+    ],
+    "related": [
+      "renaissance",
+      "constructivism",
+      "swiss"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "길·난간·그림자 같은 선으로 시선을 주인공까지 끌고 가는 기법. 르네상스 원근법의 소실점이 원조이며, 사진·영화의 구도부터 웹의 대각선 레이아웃까지 — \"보는 순서를 설계할 수 있다\"는 발상의 출발점이다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "framing",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "프레이밍",
+    "titleEn": "Framing",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "문·창·아치 같은 요소로 화면 안에 또 하나의 액자를 만들어 주인공을 감싸는 구도.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Framing"
+    ],
+    "related": [
+      "baroque",
+      "renaissance",
+      "glassmorphism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Framing_(visual_arts)"
+      }
+    ],
+    "detail": {
+      "desc": "문·창·아치 같은 요소로 화면 안에 또 하나의 액자를 만들어 주인공을 감싸는 구도. 시선을 가두고 깊이를 더하며 \"들여다보는\" 긴장을 만든다. 바로크 회화의 무대 장치부터 UI의 카드 레이아웃까지 같은 원리다.",
+      "wiki": "Framing (visual arts)",
+      "svg": ""
+    }
+  },
+  {
+    "id": "balance",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "균형 — 대칭과 비대칭",
+    "titleEn": "Balance",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "시각적 무게를 저울질하는 원리.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Balance"
+    ],
+    "related": [
+      "neoclassicism",
+      "constructivism",
+      "swiss"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Symmetry"
+      }
+    ],
+    "detail": {
+      "desc": "시각적 무게를 저울질하는 원리. 대칭은 권위와 안정(신고전주의 파사드), 비대칭은 긴장과 세련(구성주의 포스터)을 만든다. 큰 것 하나와 작은 것 여럿이 평형을 이루는 비대칭 균형이 현대 레이아웃의 핵심 기술이다.",
+      "wiki": "Symmetry",
+      "svg": ""
+    }
+  },
+  {
+    "id": "rule-of-odds",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "홀수의 법칙",
+    "titleEn": "Rule of Odds",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "3·5처럼 홀수 개의 요소가 짝수보다 자연스럽고 역동적으로 보인다는 법칙.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Rule of Odds"
+    ],
+    "related": [
+      "minimalism",
+      "midcentury",
+      "pop-art"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rule_of_odds"
+      }
+    ],
+    "detail": {
+      "desc": "3·5처럼 홀수 개의 요소가 짝수보다 자연스럽고 역동적으로 보인다는 법칙. 짝수는 둘씩 짝지어져 정적이 되지만, 홀수는 가운데가 생겨 시선이 머문다. 정물화의 3개 배치, 디자인의 3단 구성·3색 팔레트가 모두 같은 직관이다.",
+      "wiki": "Rule of odds",
+      "svg": ""
+    }
+  },
+  {
+    "id": "focal-point",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "포컬 포인트",
+    "titleEn": "Focal Point",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "화면에서 시선이 가장 먼저 닿는 한 점.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Focal Point"
+    ],
+    "related": [
+      "baroque",
+      "swiss",
+      "minimalism"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "화면에서 시선이 가장 먼저 닿는 한 점. 대비·고립·크기·색으로 만들며, 포컬 포인트가 없는 화면은 어디를 봐야 할지 몰라 금세 외면당한다. \"모든 것을 강조하면 아무것도 강조되지 않는다\"는 격언의 실체.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "depth-layers",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "깊이 — 전경·중경·배경",
+    "titleEn": "Depth & Layers",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "평면을 3개 층으로 나눠 공간감을 만드는 법칙.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Depth & Layers"
+    ],
+    "related": [
+      "renaissance",
+      "romanticism",
+      "glassmorphism"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "평면을 3개 층으로 나눠 공간감을 만드는 법칙. 르네상스의 대기 원근법(멀수록 흐리고 푸르게)이 체계화했고, 낭만주의 풍경화가 극대화했다. 그림자와 블러로 층을 쌓는 글래스모피즘 UI가 디지털판 깊이다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "rhythm",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "반복과 리듬",
+    "titleEn": "Repetition & Rhythm",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "같은 요소를 반복해 패턴과 박자를 만드는 원리.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Repetition & Rhythm"
+    ],
+    "related": [
+      "art-nouveau",
+      "pop-art",
+      "bauhaus"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "같은 요소를 반복해 패턴과 박자를 만드는 원리. 반복은 통일감을, 의도된 변주는 포인트를 만든다. 아르누보의 덩굴 패턴, 워홀의 실크스크린 반복, 그리드 위 카드 목록까지 — 반복 속 한 번의 파격이 가장 강한 강조다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "contrast",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "대비",
+    "titleEn": "Contrast",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "명암·크기·색·질감의 차이로 화면에 에너지를 만드는 원리.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Contrast"
+    ],
+    "related": [
+      "baroque",
+      "expressionism",
+      "neo-brutalism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Contrast_(vision)"
+      }
+    ],
+    "detail": {
+      "desc": "명암·크기·색·질감의 차이로 화면에 에너지를 만드는 원리. 카라바조의 키아로스쿠로(극단적 명암)가 회화의 정점이고, 타이포그래피의 \"확실히 다르게 하라\"(굵기 두 단계 차이)는 오늘의 실무 수칙이다. 대비가 어중간하면 실수처럼 보인다.",
+      "wiki": "Contrast (vision)",
+      "svg": ""
+    }
+  },
+  {
+    "id": "scale-juxtaposition",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "스케일과 병치",
+    "titleEn": "Scale & Juxtaposition",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "예상을 벗어난 크기 대비로 시선을 붙잡는 법칙.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Scale & Juxtaposition"
+    ],
+    "related": [
+      "surrealism",
+      "pop-art",
+      "neo-brutalism"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "예상을 벗어난 크기 대비로 시선을 붙잡는 법칙. 마그리트의 방을 가득 채운 사과, 올덴버그의 거대한 일상 사물이 고전이며, 거대 타이포 옆 작은 본문 같은 극단적 크기 차이는 현대 편집 디자인의 단골 무기다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "eye-flow",
+    "domain": "aesthetics",
+    "category": "구도 · 이미지 법칙",
+    "categoryLabel": "구도 · 이미지 법칙",
+    "title": "시선의 흐름",
+    "titleEn": "Visual Flow",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "서구 독자의 눈은 Z자(훑어보기)·F자(읽기) 패턴으로 움직인다는 관찰.",
+    "credibility": "established",
+    "keywords": [
+      "구도 · 이미지 법칙",
+      "Visual Flow"
+    ],
+    "related": [
+      "swiss",
+      "flat-design",
+      "victorian"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "서구 독자의 눈은 Z자(훑어보기)·F자(읽기) 패턴으로 움직인다는 관찰. 신문 편집과 광고가 경험으로 알던 것을 아이트래킹 연구가 입증했고, 랜딩 페이지의 \"좌상단 로고–중앙 헤드라인–우하단 버튼\" 공식이 여기서 나왔다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "grid",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "그리드 시스템",
+    "titleEn": "Grid System",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "지면을 수학적 모듈로 나눠 요소를 배치하는 설계 도구.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Grid System"
+    ],
+    "related": [
+      "swiss",
+      "de-stijl",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Grid_(graphic_design)"
+      }
+    ],
+    "detail": {
+      "desc": "지면을 수학적 모듈로 나눠 요소를 배치하는 설계 도구. 뮐러-브로크만의 『그리드 시스템』(1981)이 정전이며, 오늘날 웹의 12컬럼 레이아웃과 디자인 시스템의 직계 조상이다.",
+      "wiki": "Grid (graphic design)",
+      "svg": ""
+    }
+  },
+  {
+    "id": "hierarchy",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "시각 계층",
+    "titleEn": "Visual Hierarchy",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "크기·굵기·색·위치로 \"먼저 읽힐 것\"을 설계하는 기술.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Visual Hierarchy"
+    ],
+    "related": [
+      "swiss",
+      "neo-brutalism",
+      "flat-design"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "크기·굵기·색·위치로 \"먼저 읽힐 것\"을 설계하는 기술. 제목-부제-본문의 위계가 무너지면 아무리 아름다워도 읽히지 않는다. 스위스 스타일이 장식 없이도 강한 이유가 정교한 위계다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "proportion",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "비례",
+    "titleEn": "Proportion",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "부분과 전체의 크기 관계.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Proportion"
+    ],
+    "related": [
+      "renaissance",
+      "neoclassicism",
+      "swiss"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "부분과 전체의 크기 관계. 판형의 가로세로비, 본문과 여백의 비율, 활자 크기의 단계(스케일)까지 — 비례가 무너진 화면은 이유를 몰라도 불편하게 느껴진다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "whitespace",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "여백",
+    "titleEn": "White Space",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "비어 있는 공간은 낭비가 아니라 적극적인 디자인 재료다.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "White Space"
+    ],
+    "related": [
+      "minimalism",
+      "swiss",
+      "glassmorphism"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "비어 있는 공간은 낭비가 아니라 적극적인 디자인 재료다. 여백은 시선을 모으고, 위계를 만들고, 고급감을 연출한다. 미니멀리즘과 애플 디자인의 핵심 무기.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "pictogram",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "픽토그램",
+    "titleEn": "Pictogram",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "언어 없이 뜻을 전하는 그림 기호.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Pictogram"
+    ],
+    "related": [
+      "bauhaus",
+      "swiss",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pictogram"
+      }
+    ],
+    "detail": {
+      "desc": "언어 없이 뜻을 전하는 그림 기호. 노이라트의 아이소타입(1920s)에서 출발해 1964 도쿄 올림픽 픽토그램으로 만개했다. 공항·화장실·이모지까지 — 가장 성공한 국제 공용어.",
+      "wiki": "Pictogram",
+      "svg": ""
+    }
+  },
+  {
+    "id": "collage",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "콜라주",
+    "titleEn": "Collage",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "이질적 재료를 잘라 붙여 새 의미를 만드는 기법.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Collage"
+    ],
+    "related": [
+      "cubism",
+      "dada",
+      "grunge",
+      "memphis"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Collage"
+      }
+    ],
+    "detail": {
+      "desc": "이질적 재료를 잘라 붙여 새 의미를 만드는 기법. 피카소의 파피에 콜레가 발명하고 다다가 무기화했으며, 그런지와 진(zine) 문화로 이어졌다. 디지털 레이어 합성의 사상적 원조.",
+      "wiki": "Collage",
+      "svg": ""
+    }
+  },
+  {
+    "id": "photomontage",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "포토몽타주",
+    "titleEn": "Photomontage",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "사진을 오려 붙여 현실에 없는 장면을 만드는 기법.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Photomontage"
+    ],
+    "related": [
+      "dada",
+      "constructivism",
+      "surrealism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Photomontage"
+      }
+    ],
+    "detail": {
+      "desc": "사진을 오려 붙여 현실에 없는 장면을 만드는 기법. 한나 회흐와 존 하트필드가 바이마르 독일에서 풍자 무기로 벼렸고, 구성주의 선전 포스터의 표준 기법이 됐다.",
+      "wiki": "Photomontage",
+      "svg": ""
+    }
+  },
+  {
+    "id": "benday",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "벤데이 도트",
+    "titleEn": "Ben-Day Dots",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "값싼 인쇄에서 색조를 만들던 망점 기법.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Ben-Day Dots"
+    ],
+    "related": [
+      "pop-art",
+      "post-impressionism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ben_Day_process"
+      }
+    ],
+    "detail": {
+      "desc": "값싼 인쇄에서 색조를 만들던 망점 기법. 리히텐슈타인이 이 \"싸구려 인쇄의 흔적\"을 확대해 회화로 끌어올리며 팝아트의 상징이 됐다. 쇠라의 점묘와는 \"기계 점 vs 손 점\"으로 대비된다.",
+      "wiki": "Ben Day process",
+      "svg": ""
+    }
+  },
+  {
+    "id": "abstraction",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "추상",
+    "titleEn": "Abstraction",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "대상의 재현을 버리고 형·색·구성 자체로 말하는 태도.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Abstraction"
+    ],
+    "related": [
+      "de-stijl",
+      "abstract-expressionism",
+      "bauhaus"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Abstract_art"
+      }
+    ],
+    "detail": {
+      "desc": "대상의 재현을 버리고 형·색·구성 자체로 말하는 태도. 칸딘스키의 첫 추상(1910년경)에서 몬드리안의 격자, 추상표현주의의 색면까지 — 로고 디자인의 단순화 원리도 같은 사고다.",
+      "wiki": "Abstract art",
+      "svg": ""
+    }
+  },
+  {
+    "id": "accessibility",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "접근성",
+    "titleEn": "Accessibility",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "시력·색각·운동 능력과 무관하게 누구나 쓸 수 있게 설계하는 원칙(대비 비율, 글자 크기, 키보드 조작 등).",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Accessibility"
+    ],
+    "related": [
+      "neumorphism",
+      "flat-design",
+      "swiss"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Accessibility"
+      }
+    ],
+    "detail": {
+      "desc": "시력·색각·운동 능력과 무관하게 누구나 쓸 수 있게 설계하는 원칙(대비 비율, 글자 크기, 키보드 조작 등). 뉴모피즘이 낮은 대비로 빠르게 저문 것이 접근성의 힘을 보여주는 반면교사다.",
+      "wiki": "Accessibility",
+      "svg": ""
+    }
+  },
+  {
+    "id": "vernacular",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "버내큘러",
+    "titleEn": "Vernacular",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "전문 디자이너가 아닌 일상의 시각언어 — 시장 간판, 전단지, 손글씨 메뉴판 — 를 의도적으로 차용하는 태도.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Vernacular"
+    ],
+    "related": [
+      "grunge",
+      "neo-brutalism",
+      "memphis"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "전문 디자이너가 아닌 일상의 시각언어 — 시장 간판, 전단지, 손글씨 메뉴판 — 를 의도적으로 차용하는 태도. 세련됨 대신 진정성을 얻는 전략으로, 그런지와 네오 브루탈리즘이 애용한다.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "retro",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "레트로",
+    "titleEn": "Retro",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "과거 양식을 의도적으로 소환하는 디자인.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Retro"
+    ],
+    "related": [
+      "vaporwave",
+      "y2k",
+      "midcentury"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Retro_style"
+      }
+    ],
+    "detail": {
+      "desc": "과거 양식을 의도적으로 소환하는 디자인. 단순 복제가 아니라 \"그 시대를 기억하는 방식\"의 재구성이며, 주기적으로 돌아온다 — 미드센추리 부활, Y2K 리바이벌, 베이퍼웨이브가 모두 레트로의 자식들.",
+      "wiki": "Retro style",
+      "svg": ""
+    }
+  },
+  {
+    "id": "pastiche",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "파스티슈",
+    "titleEn": "Pastiche",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "여러 양식을 혼성 인용하는 포스트모던의 화법.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Pastiche"
+    ],
+    "related": [
+      "memphis",
+      "vaporwave",
+      "grunge"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pastiche"
+      }
+    ],
+    "detail": {
+      "desc": "여러 양식을 혼성 인용하는 포스트모던의 화법. 패러디와 달리 조롱이 목적이 아니며, 멤피스의 키치 수용과 베이퍼웨이브의 시대 혼합이 대표적이다.",
+      "wiki": "Pastiche",
+      "svg": ""
+    }
+  },
+  {
+    "id": "trompe",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "트롱프뢰유",
+    "titleEn": "Trompe-l'œil",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "\"눈속임\"이라는 뜻의 프랑스어.",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Trompe-l'œil"
+    ],
+    "related": [
+      "baroque",
+      "skeuomorphism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trompe-l'œil"
+      }
+    ],
+    "detail": {
+      "desc": "\"눈속임\"이라는 뜻의 프랑스어. 평면에 진짜 같은 입체를 그리는 기법으로 바로크 천장화가 정점이었다. 화면 속 가죽과 유리를 그린 스큐어모피즘은 디지털 시대의 트롱프뢰유다.",
+      "wiki": "Trompe-l'œil",
+      "svg": ""
+    }
+  },
+  {
+    "id": "cliche",
+    "domain": "aesthetics",
+    "category": "실행",
+    "categoryLabel": "실행",
+    "title": "클리셰",
+    "titleEn": "Cliché",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "닳도록 반복돼 힘을 잃은 시각 관용구(전구=아이디어, 악수=협력).",
+    "credibility": "established",
+    "keywords": [
+      "실행",
+      "Cliché"
+    ],
+    "related": [
+      "pop-art",
+      "neo-brutalism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cliché"
+      }
+    ],
+    "detail": {
+      "desc": "닳도록 반복돼 힘을 잃은 시각 관용구(전구=아이디어, 악수=협력). 피해야 할 함정이지만, 팝아트처럼 클리셰를 알고 비틀면 가장 빠른 소통 도구가 되기도 한다.",
+      "wiki": "Cliché",
+      "svg": ""
+    }
+  },
+  {
+    "id": "poster",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "포스터",
+    "titleEn": "Poster",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "19세기 석판 인쇄와 함께 태어난 거리의 미디어.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Poster"
+    ],
+    "related": [
+      "post-impressionism",
+      "art-nouveau",
+      "swiss",
+      "psychedelic"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Poster"
+      }
+    ],
+    "detail": {
+      "desc": "19세기 석판 인쇄와 함께 태어난 거리의 미디어. 셰레와 로트레크가 예술로 끌어올렸고, 아르누보·구성주의·스위스·사이키델릭까지 — 거의 모든 그래픽 양식이 포스터에서 정점을 찍었다.",
+      "wiki": "Poster",
+      "svg": ""
+    }
+  },
+  {
+    "id": "album-art",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "앨범 커버",
+    "titleEn": "Album Art",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "12인치 LP 슬리브라는 정사각 캔버스.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Album Art"
+    ],
+    "related": [
+      "psychedelic",
+      "grunge",
+      "vaporwave",
+      "y2k"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Album_cover"
+      }
+    ],
+    "detail": {
+      "desc": "12인치 LP 슬리브라는 정사각 캔버스. 블루노트의 모던 재즈 타이포, 사이키델릭 록 포스터, 그런지와 베이퍼웨이브까지 — 음악 장르의 정체성이 시각화되는 가장 밀도 높은 매체.",
+      "wiki": "Album cover",
+      "svg": ""
+    }
+  },
+  {
+    "id": "branding",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "브랜드 아이덴티티",
+    "titleEn": "Brand Identity",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "로고 하나가 아니라 색·서체·말투·동선까지 일관된 시스템으로 설계하는 일.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Brand Identity"
+    ],
+    "related": [
+      "swiss",
+      "minimalism",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brand"
+      }
+    ],
+    "detail": {
+      "desc": "로고 하나가 아니라 색·서체·말투·동선까지 일관된 시스템으로 설계하는 일. 비녤리의 아메리칸 에어라인, 폴 랜드의 IBM처럼 스위스 모더니즘이 기업 아이덴티티(CI)의 문법을 만들었다.",
+      "wiki": "Brand",
+      "svg": ""
+    }
+  },
+  {
+    "id": "packaging",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "포장",
+    "titleEn": "Packaging",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "손에 쥐고 돌려보는 입체 그래픽.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Packaging"
+    ],
+    "related": [
+      "victorian",
+      "pop-art",
+      "minimalism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Packaging_and_labeling"
+      }
+    ],
+    "detail": {
+      "desc": "손에 쥐고 돌려보는 입체 그래픽. 빅토리안 시대의 장식 깡통에서 워홀이 미술관에 들인 수프 캔, 무인양품의 무표정한 미니멀 포장까지 — 양식의 변천이 가장 일상적으로 체감되는 매체.",
+      "wiki": "Packaging and labeling",
+      "svg": ""
+    }
+  },
+  {
+    "id": "infographic",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "인포그래픽",
+    "titleEn": "Infographic",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "데이터를 시각 서사로 바꾸는 디자인.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Infographic"
+    ],
+    "related": [
+      "swiss",
+      "flat-design",
+      "bauhaus"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Infographic"
+      }
+    ],
+    "detail": {
+      "desc": "데이터를 시각 서사로 바꾸는 디자인. 나이팅게일의 장미 도표, 아이소타입의 그림 통계가 원조이며, 명료성의 원칙은 스위스 스타일과 한 뿌리다.",
+      "wiki": "Infographic",
+      "svg": ""
+    }
+  },
+  {
+    "id": "uiux",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "UI/UX 디자인",
+    "titleEn": "UI/UX Design",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "화면 위의 디자인 문법.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "UI/UX Design"
+    ],
+    "related": [
+      "skeuomorphism",
+      "flat-design",
+      "glassmorphism",
+      "neumorphism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/User_interface_design"
+      }
+    ],
+    "detail": {
+      "desc": "화면 위의 디자인 문법. 스큐어모피즘(학습) → 플랫(명료) → 글래스모피즘(깊이)으로 이어진 진화는 결국 \"사용자가 무엇을 익숙해했는가\"의 역사다. 디자인 양식이 가장 빠르게 교체되는 전장.",
+      "wiki": "User interface design",
+      "svg": ""
+    }
+  },
+  {
+    "id": "wayfinding",
+    "domain": "aesthetics",
+    "category": "매체",
+    "categoryLabel": "매체",
+    "title": "웨이파인딩",
+    "titleEn": "Wayfinding",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "공간에서 길을 잃지 않게 하는 사이니지 시스템.",
+    "credibility": "established",
+    "keywords": [
+      "매체",
+      "Wayfinding"
+    ],
+    "related": [
+      "swiss",
+      "brutalism",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wayfinding"
+      }
+    ],
+    "detail": {
+      "desc": "공간에서 길을 잃지 않게 하는 사이니지 시스템. 공항·지하철의 픽토그램과 컬러 코딩이 대표적이며, 뉴욕 지하철 사인(비녤리)은 스위스 모더니즘이 도시 스케일로 구현된 사례다.",
+      "wiki": "Wayfinding",
+      "svg": ""
+    }
+  }
+]

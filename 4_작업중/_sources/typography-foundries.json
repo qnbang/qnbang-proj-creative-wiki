@@ -1,0 +1,194 @@
+[
+  {
+    "id": "type-f-linotype",
+    "ko": "라이노타입", "en": "Linotype",
+    "period": "1886–", "origin": "미국/독일",
+    "oneLiner": "한 줄에 활자를 통째로 주조한 식자기 — 20세기 신문·출판을 바꾼 회사.",
+    "desc": "오트마 메르겐탈러가 1886년 발명한 라이노타입 식자기를 판매하기 위해 미국에서 설립됐다. 한 줄(line of type)을 통째로 금속으로 부어내는 이 기계로 신문·서적 조판 속도가 폭발적으로 빨라졌다. 헬베티카·팔라티노·옵티마·유니버스 같은 20세기 대표 서체를 보유했고, 2006년 모노타입에 인수됐다.",
+    "traits": ["라이노타입 핫메탈 식자기", "헬베티카(1957)", "팔라티노·옵티마(헤르만 차프)"],
+    "fonts": [
+      {"name": "Work Sans", "css": "'Work Sans', sans-serif", "note": "헬베티카 계열 그로테스크 대체"},
+      {"name": "Newsreader", "css": "'Newsreader', serif", "note": "신문 본문용 세리프 대체"}
+    ],
+    "realTypefaces": ["Helvetica", "Palatino", "Optima", "Univers", "Avenir"],
+    "related": ["type-grotesque", "type-humanist-sans", "type-f-monotype", "type-f-stempel"],
+    "imageFile": "Linotype logo.svg",
+    "imageCaption": "라이노타입 로고"
+  },
+  {
+    "id": "type-f-monotype",
+    "ko": "모노타입", "en": "Monotype",
+    "period": "1887–", "origin": "미국/영국",
+    "oneLiner": "낱활자를 한 자씩 주조한 식자기 — 타임스·길 산스를 낳은 활자 명가.",
+    "desc": "톨버트 랜스턴이 1887년 미국 필라델피아에서 랜스턴 모노타입으로 창업했고, 영국 지사가 활자 디자인의 중심이 됐다. 스탠리 모리슨의 지휘 아래 타임스 뉴 로만(1932)과 에릭 길의 길 산스(1928) 등 고전 서체를 다수 제작했다. 오늘날 라이노타입·ITC·헬베티카·후글러 등 거대 폰트 자산을 흡수한 업계 최대 기업이다.",
+    "traits": ["모노타입 낱자 식자기", "타임스 뉴 로만(1932)", "길 산스(1928)"],
+    "fonts": [
+      {"name": "PT Serif", "css": "'PT Serif', serif", "note": "타임스 계열 트랜지셔널 대체"},
+      {"name": "Cabin", "css": "'Cabin', sans-serif", "note": "길 산스 계열 휴머니스트 산세 대체"}
+    ],
+    "realTypefaces": ["Times New Roman", "Gill Sans", "Arial", "Perpetua", "Bembo"],
+    "related": ["type-transitional", "type-humanist-sans", "type-f-linotype", "type-f-itc"],
+    "imageFile": "Monotype-logo.svg",
+    "imageCaption": "모노타입 로고"
+  },
+  {
+    "id": "type-f-itc",
+    "ko": "ITC (국제 활자 회사)", "en": "International Typeface Corporation",
+    "period": "1970–", "origin": "미국",
+    "oneLiner": "금속활자 없이 사진식자·디지털만으로 출발한 첫 라이선스 활자 회사.",
+    "desc": "1970년 뉴욕에서 아론 번스·허브 루발린·에드워드 론드탈러가 설립했다. 금속활자 생산 이력 없이 사진식자와 디지털을 위해 서체를 디자인·라이선스한 첫 회사로, 잡지 《U&lc》를 통해 타이포그래피 문화를 전파했다. ITC 아방가르드 고딕·ITC 가라몬드 등 큰 엑스하이트의 재해석 서체로 1970~80년대 광고 활자를 지배했다.",
+    "traits": ["사진식자·디지털 전용 첫 회사", "ITC 아방가르드 고딕(1970)", "잡지 U&lc 발행"],
+    "fonts": [
+      {"name": "Jost", "css": "'Jost', sans-serif", "note": "아방가르드 계열 기하 산세 대체"},
+      {"name": "Cormorant Garamond", "css": "'Cormorant Garamond', serif", "note": "ITC 가라몬드 계열 대체"}
+    ],
+    "realTypefaces": ["ITC Avant Garde Gothic", "ITC Garamond", "ITC Lubalin Graph", "ITC Bookman"],
+    "related": ["type-geometric", "type-display", "type-f-monotype", "type-f-letraset"],
+    "imageFile": "ITC Avant Garde Gothic Sample.svg",
+    "imageCaption": "ITC 아방가르드 고딕 견본"
+  },
+  {
+    "id": "type-f-berthold",
+    "ko": "H. 베르톨트 AG", "en": "H. Berthold AG",
+    "period": "1858–1993", "origin": "독일",
+    "oneLiner": "산세리프의 원형 악치덴츠-그로테스크를 낳은 베를린의 활자 거장.",
+    "desc": "1858년 헤르만 베르톨트가 베를린에서 황동 괘선 제조로 시작해, 1893년 이후 활자 주조로 영역을 넓혔다. 1898년 발표한 악치덴츠-그로테스크는 헬베티카·유니버스보다 반세기 앞선 산세리프의 원형이 됐다. 1918년 세계 최대 활자 주조소였고, 귄터 게르하르트 랑게의 감수 아래 정밀한 디지털 서체로도 명성을 떨쳤으나 1993년 파산했다.",
+    "traits": ["악치덴츠-그로테스크(1898)", "산세리프의 원형", "정밀한 활자 주조 명성"],
+    "fonts": [
+      {"name": "Archivo", "css": "'Archivo', sans-serif", "note": "악치덴츠-그로테스크 계열 그로테스크 대체"},
+      {"name": "Inter", "css": "'Inter', sans-serif", "note": "중립적 그로테스크 대체"}
+    ],
+    "realTypefaces": ["Akzidenz-Grotesk", "Berthold Baskerville", "Berthold City", "Block"],
+    "related": ["type-grotesque", "type-f-linotype", "type-f-stempel"],
+    "imageFile": "Akzidenz Grotesk Regular & Italic.svg",
+    "imageCaption": "베르톨트 악치덴츠-그로테스크 견본"
+  },
+  {
+    "id": "type-f-adobe",
+    "ko": "어도비 타입", "en": "Adobe Type",
+    "period": "1983–", "origin": "미국",
+    "oneLiner": "포스트스크립트와 함께 디지털 활자 시대를 연 어도비의 활자 부서.",
+    "desc": "포스트스크립트 페이지 기술과 함께 출발한 어도비의 활자 사업으로, 섬너 스톤이 1984년 첫 타이포그래피 디렉터가 됐다. 1989년 시작한 어도비 오리지널스 프로그램에서 로버트 슬림바흐와 캐럴 트웜블리가 미니언·미리어드·트레이전 등 표준급 서체를 만들었다. 디지털 활자 품질의 기준을 세웠고, OpenType 포맷 표준화도 주도했다.",
+    "traits": ["포스트스크립트 디지털 활자", "어도비 오리지널스(1989)", "미니언·미리어드(1992)"],
+    "fonts": [
+      {"name": "Source Serif 4", "css": "'Source Serif 4', serif", "note": "어도비 오픈소스 세리프(미니언 계열 감성)"},
+      {"name": "Source Sans 3", "css": "'Source Sans 3', sans-serif", "note": "미리어드 계열 휴머니스트 산세 대체"}
+    ],
+    "realTypefaces": ["Minion", "Myriad", "Trajan", "Adobe Garamond", "Warnock"],
+    "related": ["type-garalde", "type-humanist-sans", "type-f-emigre"],
+    "imageFile": "Adobe Systems logo and wordmark.svg",
+    "imageCaption": "어도비 로고"
+  },
+  {
+    "id": "type-f-emigre",
+    "ko": "에미그레", "en": "Emigre",
+    "period": "1985–", "origin": "미국",
+    "oneLiner": "매킨토시의 거친 픽셀을 미학으로 끌어올린 첫 디지털 활자 회사.",
+    "desc": "1985년 루디 반더란스와 주자나 리코 부부가 캘리포니아 버클리에서 설립했다. 1984년 창간한 잡지 《에미그레》를 실험장 삼아, 초기 매킨토시의 저해상도 비트맵을 부정하지 않고 오히려 디자인 언어로 끌어올렸다. 로 95(Lo-Res)·미세스 이브스 같은 서체로 1990년대 디지털 타이포그래피와 포스트모던 디자인을 대표했다.",
+    "traits": ["첫 디지털 독립 활자 회사", "잡지 Emigre의 실험적 조판", "비트맵·포스트모던 미학"],
+    "fonts": [
+      {"name": "Silkscreen", "css": "'Silkscreen', sans-serif", "note": "저해상도 비트맵 픽셀 폰트 대체"},
+      {"name": "Domine", "css": "'Domine', serif", "note": "미세스 이브스풍 본문 세리프 대체"}
+    ],
+    "realTypefaces": ["Lo-Res (Oakland)", "Mrs Eaves", "Base", "Filosofia"],
+    "related": ["type-display", "type-f-adobe"],
+    "imageFile": "",
+    "imageCaption": ""
+  },
+  {
+    "id": "type-f-hoefler",
+    "ko": "후글러 앤 코", "en": "Hoefler&Co",
+    "period": "1989–", "origin": "미국",
+    "oneLiner": "고담·아카이브로 미국 편집·아이덴티티 디자인을 사로잡은 활자 회사.",
+    "desc": "조너선 후글러가 1989년 뉴욕에서 설립했고, 잡지·기업 의뢰 서체로 명성을 쌓았다. 2005~2014년 토바이어스 프리어존스와 후글러 앤 프리어존스로 운영하며 GQ를 위해 만든 고담(2000)이 오바마 2008 대선 캠페인에 쓰여 폭발적 인기를 얻었다. 머큐리·아카이브 등 정교한 서체로 미국 편집 디자인을 대표했고, 2021년 모노타입에 인수됐다.",
+    "traits": ["고담(2000)", "프리어존스와의 협업·결별", "정교한 편집·아이덴티티 서체"],
+    "fonts": [
+      {"name": "Montserrat", "css": "'Montserrat', sans-serif", "note": "고담 계열 기하 그로테스크 대체"},
+      {"name": "Archivo", "css": "'Archivo', sans-serif", "note": "구조적 산세 대체"}
+    ],
+    "realTypefaces": ["Gotham", "Archer", "Mercury", "Hoefler Text", "Sentinel"],
+    "related": ["type-geometric", "type-grotesque", "type-f-commercial"],
+    "imageFile": "",
+    "imageCaption": ""
+  },
+  {
+    "id": "type-f-commercial",
+    "ko": "커머셜 타입", "en": "Commercial Type",
+    "period": "2007–", "origin": "미국/영국",
+    "oneLiner": "가디언 이집션으로 신문 리디자인의 새 기준을 세운 현대 활자 회사.",
+    "desc": "2007년 폴 반스와 크리스티안 슈바르츠가 뉴욕·런던을 거점으로 설립했다. 두 사람이 협업한 가디언 신문 리디자인용 가디언 이집션은 영국식 이집션의 견고함에 현대적 우아함을 더해 D&AD 블랙 펜슬을 받았다. 퍼블리코·그래픽 등 정밀한 편집 서체로 현대 신문·잡지 타이포그래피를 이끄는 대표 파운드리다.",
+    "traits": ["가디언 이집션(슬랩+휴머니스트)", "신문·잡지 편집 서체", "폴 반스·크리스티안 슈바르츠"],
+    "fonts": [
+      {"name": "Roboto Slab", "css": "'Roboto Slab', serif", "note": "가디언 이집션 계열 슬랩 대체"},
+      {"name": "Source Serif 4", "css": "'Source Serif 4', serif", "note": "편집용 본문 세리프 대체"}
+    ],
+    "realTypefaces": ["Guardian Egyptian", "Publico", "Graphik", "Caponi"],
+    "related": ["type-slab", "type-grotesque", "type-f-hoefler", "type-f-klim"],
+    "imageFile": "",
+    "imageCaption": ""
+  },
+  {
+    "id": "type-f-klim",
+    "ko": "클림 타입 파운드리", "en": "Klim Type Foundry",
+    "period": "2005–", "origin": "뉴질랜드",
+    "oneLiner": "지역의 목소리로 만든 서체 — 뉴질랜드에서 세계로 간 1인 파운드리.",
+    "desc": "크리스 사워스비가 2005년 뉴질랜드 웰링턴에서 설립했다. '잘 만든 하나(a thing well made)'를 모토로, 지역 디자이너를 위한 서체를 만든다는 철학에서 출발했다. 파운더스 그로테스크·캘리브르·메트릭 등 정밀하고 동시대적인 산세리프로 국제적 명성을 얻어, 작은 독립 파운드리가 세계 시장에서 통할 수 있음을 보여준 사례다.",
+    "traits": ["파운더스 그로테스크", "캘리브르·메트릭", "정밀한 동시대 산세리프"],
+    "fonts": [
+      {"name": "Inter", "css": "'Inter', sans-serif", "note": "파운더스 그로테스크 계열 그로테스크 대체"},
+      {"name": "Spectral", "css": "'Spectral', serif", "note": "정밀한 본문 세리프 대체"}
+    ],
+    "realTypefaces": ["Founders Grotesk", "Calibre", "Metric", "Tiempos", "Feijoa"],
+    "related": ["type-grotesque", "type-f-commercial"],
+    "imageFile": "",
+    "imageCaption": ""
+  },
+  {
+    "id": "type-f-fontshop",
+    "ko": "폰트숍 / FontFont", "en": "FontShop",
+    "period": "1989–", "origin": "독일",
+    "oneLiner": "최초의 디지털 폰트 통신판매상 — FontFont로 독립 디자이너 시대를 열다.",
+    "desc": "1989년 에릭 슈피커만·요안 슈피커만·네빌 브로디가 설립한 최초의 디지털 폰트 통신판매 회사다. 1990년 시작한 자체 레이블 FontFont는 '디자이너에 의한, 디자이너를 위한' 서체를 표방했다. 슈피커만의 FF 메타('헬베티카의 안티테제'), FF DIN, 브로디의 FF 블러 등을 배출했고, 2011년 MoMA가 이 중 여러 서체를 영구 소장했다.",
+    "traits": ["최초의 디지털 폰트 통신판매", "FontFont 레이블(1990)", "FF 메타·FF DIN"],
+    "fonts": [
+      {"name": "Fira Sans", "css": "'Fira Sans', sans-serif", "note": "슈피커만 FF 메타 계열 휴머니스트 산세"},
+      {"name": "Oswald", "css": "'Oswald', sans-serif", "note": "FF DIN 계열 컨덴스드 산세 대체"}
+    ],
+    "realTypefaces": ["FF Meta", "FF DIN", "FF Blur", "FF Scala", "FF Beowolf"],
+    "related": ["type-humanist-sans", "type-grotesque", "type-f-emigre"],
+    "imageFile": "FontShop logo.svg",
+    "imageCaption": "폰트숍 로고"
+  },
+  {
+    "id": "type-f-letraset",
+    "ko": "레트라셋", "en": "Letraset",
+    "period": "1959–", "origin": "영국",
+    "oneLiner": "문지르면 붙는 건식 전사 글자 — 디자이너 책상의 타이포그래피 혁명.",
+    "desc": "1959년 런던에서 건식 전사(rub-down) 레터링 시스템으로 출발했다. 시트 위 글자를 종이에 대고 문지르면 옮겨붙는 방식으로, 식자기 없이도 누구나 표제 글자를 조판할 수 있게 해 디자인 작업을 민주화했다. 1970년 레트라그라피카 구독 서비스로 블록 업·데이비다 볼드 등 실험적 디스플레이 서체를 다수 보급했다.",
+    "traits": ["건식 전사(rub-down) 레터링", "레트라그라피카 서체 컬렉션", "디자인 작업의 민주화"],
+    "fonts": [
+      {"name": "Bungee", "css": "'Bungee', sans-serif", "note": "레트라셋풍 실험 디스플레이 대체"},
+      {"name": "Rubik", "css": "'Rubik', sans-serif", "note": "둥근 디스플레이 산세 대체"}
+    ],
+    "realTypefaces": ["Letraset Block Up", "Davida Bold", "Compacta", "Premier Shaded"],
+    "related": ["type-display", "type-f-itc"],
+    "imageFile": "",
+    "imageCaption": ""
+  },
+  {
+    "id": "type-f-stempel",
+    "ko": "D. 슈템펠 AG", "en": "D. Stempel AG",
+    "period": "1895–1985", "origin": "독일",
+    "oneLiner": "팔라티노·옵티마를 주조한 프랑크푸르트의 활자 명가.",
+    "desc": "1895년 다비트 슈템펠이 프랑크푸르트에서 설립했고, 1900년 라이노타입 GmbH의 매트릭스를 독점 제작하는 핵심 협력사가 됐다. 헤르만 차프의 팔라티노(1948)·옵티마(1958)를 비롯해 안티콰·그로테스크·프락투어·아랍어 등 방대한 서체를 보유했다. 활판 인쇄 쇠퇴로 1985년 독립 운영을 마쳤고, 그 활자 아카이브는 박물관에 보존돼 있다.",
+    "traits": ["라이노타입 매트릭스 독점 제작", "팔라티노(1948)·옵티마(1958)", "멤피스(슬랩세리프) 선구"],
+    "fonts": [
+      {"name": "Cormorant", "css": "'Cormorant', serif", "note": "팔라티노풍 고전 세리프 대체"},
+      {"name": "Marcellus", "css": "'Marcellus', serif", "note": "옵티마풍 세리프리스 인상 대체"}
+    ],
+    "realTypefaces": ["Palatino", "Optima", "Memphis", "Sabon", "Neuzeit"],
+    "related": ["type-humanist-sans", "type-slab", "type-f-linotype", "type-f-berthold"],
+    "imageFile": "Palatino sample.svg",
+    "imageCaption": "슈템펠 팔라티노 견본"
+  }
+]

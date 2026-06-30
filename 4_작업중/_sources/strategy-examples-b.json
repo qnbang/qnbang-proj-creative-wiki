@@ -1,0 +1,166 @@
+{
+  "_meta": {
+    "설명": "크리에이티브 전략 법칙별 실제 집행 광고 카피 예시 (WebSearch로 직접 검증, 환각 없음)",
+    "작성일": "2026-06-30",
+    "비고": "double-diamond는 순수 프로세스로 카피 매칭이 약해 제외. 각 카피는 유명·출처 분명한 실제 사례만 수록."
+  },
+  "lateral-thinking": {
+    "ko": [
+      {"copy": "침대는 가구가 아닙니다. 과학입니다.", "brand": "에이스침대", "year": "1993", "note": "'침대=가구'라는 관습적 범주를 비틀어 '과학'으로 재정의 — 카테고리 자체를 옆으로 옮긴 수평적 발상의 교과서"},
+      {"copy": "열심히 일한 당신, 떠나라.", "brand": "현대카드", "year": "2002", "note": "카드 혜택을 한마디도 말하지 않고 '떠남'을 권하는 역발상 — 기존 카드광고 공식을 옆으로 비켜선 발상"}
+    ],
+    "en": [
+      {"copy": "Think Small.", "brand": "Volkswagen (DDB)", "year": "1959", "note": "'크고 화려한 차가 좋다'는 시대 통념을 정면으로 비틀어 '작음'을 강점으로 — 관습 전복형 수평 사고의 원형"},
+      {"copy": "We're number two. We try harder.", "brand": "Avis (DDB)", "year": "1962", "note": "약점(2등)을 숨기지 않고 강점으로 뒤집은 '유도(judo)식' 발상 — 통념을 옆으로 비튼 전형"},
+      {"copy": "Buy Less, Demand More.", "brand": "Patagonia", "year": "2020", "note": "블랙프라이데이에 '더 사라'가 아니라 '덜 사고 제품에 더 요구하라'고 외친 역발상 — 판매 극대화라는 업계 통념을 옆으로 비튼 수평적 발상 (최신)"}
+    ]
+  },
+  "design-thinking": {
+    "ko": [],
+    "en": [
+      {"copy": "You are more beautiful than you think.", "brand": "Dove (Real Beauty / Real Beauty Sketches)", "year": "2004", "note": "'여성 4%만 자신을 아름답다고 답한다'는 사용자 리서치 인사이트에서 출발 — 제품속성이 아닌 사용자 공감에서 메시지를 도출한 디자인 씽킹 사례"},
+      {"copy": "Reverse Selfie. (Let's change beauty before social media changes us.)", "brand": "Dove (Ogilvy)", "year": "2021", "note": "10대 소녀가 셀카를 과보정하는 과정을 역재생해 보여준 캠페인 — '소셜미디어가 청소년 자존감을 해친다'는 사용자 실태 관찰에서 출발해 공감으로 문제를 재정의한 디자인 씽킹 (최신)"}
+    ]
+  },
+  "cialdini": {
+    "ko": [
+      {"copy": "20개의 건강한 치아를 80세까지", "brand": "애경 2080 치약", "year": "1998", "note": "구체 숫자(20·80)로 권위·신뢰 단서를 심은 사회적 약속형 카피 — 숫자 마케팅으로 전문성·신뢰 원칙 자극"}
+    ],
+    "en": [
+      {"copy": "More than 80% of dentists recommend Colgate.", "brand": "Colgate", "year": "2007", "note": "치과의사(권위)+다수(사회적 증거)를 결합한 권위·합의 원칙의 전형 — 영국 ASA가 오인소지로 제재할 만큼 설득력이 강했던 사례"},
+      {"copy": "A Diamond is Forever.", "brand": "De Beers (N.W. Ayer)", "year": "1948", "note": "약혼반지=다이아라는 사회적 규범(합의·사회적 증거)을 창조 — '모두가 그렇게 한다'는 합의 원칙을 광고로 발명"},
+      {"copy": "Only 1 room left at this price! / 143 other people are looking right now.", "brand": "Booking.com", "year": "2021", "note": "'지금 몇 명이 보고 있다·방금 누가 예약했다'는 다수 행동(사회적 증거)과 희소성을 동시에 노출 — 합의·희소성 원칙을 전환율 카피로 상시 운용한 사례 (최신)"}
+    ]
+  },
+  "loss-aversion": {
+    "ko": [
+      {"copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요.", "brand": "경동보일러", "year": "1991", "note": "추운 시골 부모님이 떠는 모습 → '지금 안 해드리면 불효'라는 손실·죄책감 프레임으로 구매를 압박한 감성 손실회피"}
+    ],
+    "en": [
+      {"copy": "Got Milk?", "brand": "California Milk Processor Board (Goodby Silverstein)", "year": "1993", "note": "'우유가 떨어졌을 때의 곤란함(결핍)'을 보여줘 손실회피를 자극 — 효익이 아니라 '없을 때의 고통'으로 소구한 정석"},
+      {"copy": "When it absolutely, positively has to be there overnight.", "brand": "FedEx (Ally & Gargano)", "year": "1978", "note": "'못 가면 큰일난다'는 실패의 손실을 환기 — 안 보내면 잃는다는 손실 프레임으로 신뢰를 판매"},
+      {"copy": "These are some of the new essentials for back to school.", "brand": "Sandy Hook Promise", "year": "2019", "note": "평범한 개학 쇼핑 광고로 시작하다 총기난사 속에서 학용품이 생존도구로 변하는 반전 — '내 아이를 잃을 수 있다'는 최악의 손실을 환기해 행동을 압박한 손실회피(에미상 수상) (최신)"}
+    ]
+  },
+  "framing": {
+    "ko": [],
+    "en": [
+      {"copy": "75% lean (vs. 25% fat)", "brand": "Ground beef framing study (Levin & Gaeth)", "year": "1988", "note": "동일한 고기를 '75% 살코기'로 표현하면 '25% 지방'보다 호의적 평가 — 같은 사실의 표현 차이가 인식을 바꾸는 프레이밍 실증"},
+      {"copy": "A Diamond is Forever.", "brand": "De Beers (N.W. Ayer)", "year": "1948", "note": "다이아 구매라는 소비를 '영원한 사랑'으로 프레이밍 — 같은 거래를 '소비'가 아닌 '영속'으로 표현한 가치 프레임"},
+      {"copy": "It's like milk, but made for humans.", "brand": "Oatly", "year": "2021", "note": "귀리음료를 '인간을 위해 만든 우유'로 표현 — 같은 제품을 '대체유'가 아니라 '사람에게 맞는 진짜 우유'로 재구성한 프레이밍(스웨덴 우유협회가 이 문구로 소송할 만큼 강력) (최신)"}
+    ]
+  },
+  "anchoring": {
+    "ko": [],
+    "en": [
+      {"copy": "Model 3. Starting at $36,990 (vs. $57,900 for comparable luxury EVs).", "brand": "Tesla", "year": "2021", "note": "경쟁 럭셔리 전기차의 높은 가격($57,900)을 비교 기준점(앵커)으로 제시해 자사 가격($36,990)을 '합리적'으로 인식시킨 가격 앵커링 (최신)"}
+    ]
+  },
+  "elm": {
+    "ko": [
+      {"copy": "침대는 가구가 아닙니다. 과학입니다.", "brand": "에이스침대", "year": "1993", "note": "인체공학·수면공학 논거로 '저관여→고관여'를 유도 — 중심경로(논증) 설득을 노린 고관여 카피"}
+    ],
+    "en": [
+      {"copy": "A15 Bionic. 15 billion transistors. The fastest chip in a smartphone.", "brand": "Apple iPhone 13", "year": "2021", "note": "'150억 트랜지스터·업계 최速'이라는 정량 스펙을 근거로 제시 — 소비자가 성능을 분석·비교하게 만드는 중심경로(논증) 설득의 고관여 카피 (최신)"}
+    ]
+  },
+  "system-1-2": {
+    "ko": [
+      {"copy": "여러분, 모두 부~자 되세요.", "brand": "BC카드", "year": "2002", "note": "논리 없이 따뜻한 덕담 한마디로 호감을 일으킨 직관·감성(시스템1) 소구 — 5일 방영으로 전국 유행어가 된 즉각적 정서 반응"},
+      {"copy": "산소 같은 여자", "brand": "마몽드 (태평양)", "year": "1990s", "note": "정보 없이 이미지·느낌만으로 각인 — 분석 없이 직관적 감성으로 작동하는 시스템1 카피"},
+      {"copy": "도망가자", "brand": "여기어때", "year": "2021", "note": "선우정아 노래와 지친 일상을 벗어나는 영상으로 '쉬고 싶다'는 정서만 즉각 자극 — 가격·혜택 정보 없이 감정·직관에 곧장 작동한 시스템1 소구(2021 대한민국광고대상) (최신)"}
+    ],
+    "en": [
+      {"copy": "I'm lovin' it.", "brand": "McDonald's (Heye & Partner)", "year": "2003", "note": "5음절 징글 'ba-da-ba-BA-BAAA'와 결합해 정보 없이 즐거운 기분만 전이 — 직관·감정의 시스템1 소구"}
+    ]
+  },
+  "ethos-pathos-logos": {
+    "ko": [
+      {"copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요.", "brand": "경동보일러", "year": "1991", "note": "효심·부모 정서를 건드린 파토스(감정) 호소 — 제품 스펙 대신 가족애로 설득"}
+    ],
+    "en": [
+      {"copy": "15 minutes could save you 15% or more on car insurance.", "brand": "GEICO", "year": "1990s~", "note": "수치 근거로 따지게 하는 로고스(논리) 호소의 전형"},
+      {"copy": "8 out of 10 dentists recommend...", "brand": "Colgate", "year": "2007", "note": "전문가(치과의사) 권위를 빌린 에토스(신뢰) 호소"},
+      {"copy": "The Best Men Can Be.", "brand": "Gillette (P&G)", "year": "2019", "note": "면도 성능 대신 '남자다움의 책임'이라는 가치·도덕에 호소 — 옳고 그름의 정서·신념을 건드린 파토스/에토스 중심의 목적지향 광고 (최신)"}
+    ]
+  },
+  "rule-of-three": {
+    "ko": [
+      {"copy": "지킬 것은 지킨다 / 그날의 피로는 그날 푼다 / 젊은 날의 선택", "brand": "박카스 (동아제약)", "year": "1990s~", "note": "짧은 3박자 대구로 리듬을 만든 슬로건 묶음 — 한국형 삼단 카피의 사례"}
+    ],
+    "en": [
+      {"copy": "Snap! Crackle! Pop!", "brand": "Kellogg's Rice Krispies (N.W. Ayer)", "year": "1932", "note": "세 의성어를 병렬한 트라이콜론 — 광고사상 가장 유명한 '셋의 법칙' 카피"},
+      {"copy": "Here's to the crazy ones. The misfits. The rebels. The troublemakers.", "brand": "Apple (TBWA\\Chiat\\Day)", "year": "1997", "note": "셋·셋으로 끊어 쌓는 열거 리듬 — 삼의 법칙을 확장한 점층 나열"},
+      {"copy": "Faster, Higher, Stronger – Together.", "brand": "International Olympic Committee", "year": "2021", "note": "100년 넘은 3박자 모토(Citius·Altius·Fortius)에 'Together'를 더해 리듬을 유지·확장 — 셋의 법칙을 현대적으로 갱신한 공식 표어 (최신)"}
+    ]
+  },
+  "rhetorical-figures": {
+    "ko": [
+      {"copy": "사랑은 움직이는 거야.", "brand": "한솔엠닷컴 018", "year": "2000", "note": "추상 명사(사랑)에 동사를 붙인 의인·역설적 단언 — 짧은 경구형 수사로 유행어화"},
+      {"copy": "다 무신사랑 해", "brand": "무신사", "year": "2020", "note": "브랜드명 '무신사'와 '사랑해'를 겹쳐 '다 무신사에서 해 = 다 무신사 사랑해'로 읽히는 언어유희(펀) — 동음·중의를 활용한 수사 기법의 사례 (최신)"}
+    ],
+    "en": [
+      {"copy": "Maybe she's born with it. Maybe it's Maybelline.", "brand": "Maybelline (Lintas)", "year": "1991", "note": "'Maybe~Maybe~'의 두운·대구(anaphora)와 born/Maybelline 음운 반복 — 수사 기법(두운+대조)의 대표"},
+      {"copy": "Melts in your mouth, not in your hand.", "brand": "M&M's (Ted Bates)", "year": "1954", "note": "'mouth↔hand'의 대조(antithesis)와 운율 — 짧은 대조 수사의 정석"}
+    ]
+  },
+  "success-heath": {
+    "ko": [],
+    "en": [
+      {"copy": "Where's the beef?", "brand": "Wendy's", "year": "1984", "note": "'고기 어디?'라는 의외·구체(Concrete·Unexpected) 질문 한마디가 사회현상이 됨 — SUCCESs의 들러붙는 메시지 사례 (Ad Age 20세기 슬로건 톱10)"},
+      {"copy": "1,000 songs in your pocket.", "brand": "Apple iPod", "year": "2001", "note": "'5GB MP3 플레이어'를 '주머니 속 1,000곡'이라는 구체적 그림으로 — 추상 스펙을 구체로 바꾼 SUCCESs(Concrete) 사례"},
+      {"copy": "The beauty of no artificial preservatives.", "brand": "Burger King (Moldy Whopper)", "year": "2020", "note": "34일간 실제로 곰팡이가 핀 와퍼를 보여줌 — 의외성(곰팡이 광고)+구체성+신뢰성(주장이 아닌 증거)으로 들러붙게 만든 SUCCESs 사례(칸 그랑프리) (최신)"}
+    ]
+  },
+  "storybrand": {
+    "ko": [
+      {"copy": "사람을 향합니다.", "brand": "SK텔레콤", "year": "2005", "note": "기술이 아니라 '사람(고객)'을 이야기의 중심에 둔 캠페인 — 고객을 영웅으로 모시는 스토리브랜드형 메시지"}
+    ],
+    "en": [
+      {"copy": "Just Do It.", "brand": "Nike (Wieden+Kennedy)", "year": "1988", "note": "브랜드가 아니라 '도전하는 너(고객)'를 주인공으로 부추기는 명령형 — 고객=영웅 구도의 전형"},
+      {"copy": "Made Possible by Hosts.", "brand": "Airbnb", "year": "2021", "note": "브랜드가 아니라 게스트와 호스트(고객)가 만든 실제 경험·사진을 주인공으로 내세움 — 고객을 이야기의 영웅으로, 브랜드는 그 경험을 가능케 한 조력자로 둔 스토리브랜드 구조 (최신)"}
+    ]
+  },
+  "heros-journey": {
+    "ko": [],
+    "en": [
+      {"copy": "Here's to the crazy ones... the ones who are crazy enough to think they can change the world are the ones who do.", "brand": "Apple (Think Different)", "year": "1997", "note": "부적응자·반항아가 세상을 바꾸는 변화의 서사 — 평범에서 영웅으로의 여정을 압축한 내러티브"},
+      {"copy": "Live to Ride, Ride to Live.", "brand": "Harley-Davidson", "year": "1980s", "note": "일상을 벗어나 자유·자아를 찾아 떠나는 변화 서사 — 라이더의 여정을 슬로건화"},
+      {"copy": "You Can't Stop Us.", "brand": "Nike (Wieden+Kennedy)", "year": "2020", "note": "팬데믹으로 멈춘 스포츠가 역경을 딛고 다시 일어서는 분할화면 서사 — 시련→극복→귀환으로 이어지는 영웅 여정 구조를 압축한 변화 서사(칸 필름 그랑프리) (최신)"}
+    ]
+  },
+  "pyramid-principle": {
+    "ko": [
+      {"copy": "순간의 선택이 10년을 좌우합니다.", "brand": "금성사 (골드스타)", "year": "1980s", "note": "결론(선택이 10년을 좌우)을 맨 앞에 단정 — 근거 설명 전에 핵심 주장을 먼저 던지는 결론우선형"}
+    ],
+    "en": [
+      {"copy": "When it absolutely, positively has to be there overnight.", "brand": "FedEx", "year": "1978", "note": "핵심 약속(반드시·밤새 도착)을 한 문장 결론으로 먼저 제시 — 결론 먼저 메시지"},
+      {"copy": "Climate change is the ultimate safety test.", "brand": "Volvo (Grey)", "year": "2021", "note": "근거 설명에 앞서 '기후변화가 궁극의 안전 시험'이라는 결론·핵심 주장을 한 문장으로 먼저 단정 — 결론을 맨 앞에 두고 뒤에서 논거(전기차 전환)를 받치는 결론우선(피라미드) 구조 (최신)"}
+    ]
+  },
+  "positioning": {
+    "ko": [
+      {"copy": "침대는 가구가 아닙니다. 과학입니다.", "brand": "에이스침대", "year": "1993", "note": "가구 카테고리에서 빠져나와 '과학'이라는 차별 포지션을 점유 — 포지셔닝 교과서"},
+      {"copy": "2등은 아무도 기억하지 않는다.", "brand": "삼성전자", "year": "1990s", "note": "'세계 일류=1등'이라는 포지션을 자기 자리로 선언 — 일류·전문성 포지셔닝"}
+    ],
+    "en": [
+      {"copy": "We're number two. We try harder.", "brand": "Avis (DDB)", "year": "1962", "note": "1등이 아닌 '2등' 자리를 정직하게 점유해 강점으로 전환 — 빈자리 포지셔닝의 원형"},
+      {"copy": "Think Small.", "brand": "Volkswagen (DDB)", "year": "1959", "note": "대형차 시장과 정반대인 '소형·정직' 포지션을 선점 — 차별 포지션 슬로건"}
+    ]
+  },
+  "brand-archetypes": {
+    "ko": [],
+    "en": [
+      {"copy": "Just Do It.", "brand": "Nike", "year": "1988", "note": "한계를 넘어서라는 명령 — 영웅(Hero) 원형이 그대로 드러나는 슬로건"},
+      {"copy": "Live to Ride, Ride to Live.", "brand": "Harley-Davidson", "year": "1980s", "note": "기성 질서를 거부하고 자유를 좇는 무법자/반항아(Outlaw·Rebel) 원형"}
+    ]
+  },
+  "golden-circle": {
+    "ko": [
+      {"copy": "사람을 향합니다.", "brand": "SK텔레콤", "year": "2005", "note": "통신 기술(What)이 아니라 '왜=결국 사람을 위해서'라는 신념(Why)부터 말한 캠페인 — 골든서클 Why-first 사례"}
+    ],
+    "en": [
+      {"copy": "Think Different.", "brand": "Apple", "year": "1997", "note": "제품(What)이 아니라 '다르게 생각한다'는 신념(Why)을 먼저 선언 — 사이먼 시넥이 든 골든서클의 대표 사례"}
+    ]
+  }
+}

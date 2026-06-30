@@ -1,0 +1,274 @@
+[
+  {
+    "id": "type-k-hunminjeongeum",
+    "ko": "훈민정음 창제", "en": "Invention of Hangul (Hunminjeongeum)",
+    "period": "1443 (창제)–1446 (반포)", "origin": "조선 세종대왕",
+    "oneLiner": "창제자·반포일·제자원리가 모두 기록된 세계 유일의 문자 — 한글 타이포그래피의 시원.",
+    "desc": "1443년(세종 25년) 세종대왕이 28자로 창제하고 1446년 《훈민정음 해례본》으로 반포한 한국 고유 문자. 자음은 발음기관의 모양을, 모음은 천(•)·지(ㅡ)·인(ㅣ) 삼재(三才)를 본떠 만든 자질문자(featural script)로, 적은 기본 글자를 결합해 모든 소리를 적는다. 만든 사람·만든 날·만든 원리가 모두 기록된 세계 유일의 문자로, 한글 활자·조판의 모든 조형이 이 제자원리에서 출발한다.",
+    "traits": ["기본 28자(현대 24자)", "발음기관·천지인 본뜬 제자원리", "모아쓰기(음절 단위 네모틀 조합)", "자질문자 — 결합으로 음절 생성"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "해례본 계열을 잇는 본문 명조"},
+      {"name": "Gowun Batang", "css": "'Gowun Batang', serif", "note": "부드러운 바탕체로 옛 문헌 무드"}
+    ],
+    "realTypefaces": ["훈민정음 해례본 판각 글자", "월인천강지곡 한글활자", "용비어천가 판본"],
+    "related": ["type-k-metaltype", "type-k-myeongjo", "type-k-talnemo"],
+    "imageFile": "",
+    "imageCaption": "훈민정음 해례본"
+  },
+  {
+    "id": "type-k-metaltype",
+    "ko": "한글 금속활자", "en": "Hangul Metal Movable Type",
+    "period": "15세기 (조선 초)", "origin": "조선 주자소(鑄字所)",
+    "oneLiner": "세계 최초 금속활자 전통 위에 한글을 얹은 조선의 인쇄 — 활자 조판의 토대.",
+    "desc": "고려의 《직지심체요절》(1377)로 대표되는 세계 최초의 금속활자 전통을 이어, 조선은 계미자(1403)·갑인자(1434) 등 한자 활자를 정교화했다. 1443년 한글 창제 직후 한글 금속활자가 함께 주조돼 《월인천강지곡》·《석보상절》 등을 찍었으며, 갑인자와 함께 쓰인 '갑인자 병용 한글활자'가 대표적이다. 네모 안에 음절을 모아 짜는 한글 조판의 조형 규범이 이때 마련됐다.",
+    "traits": ["주자소의 동활자 주조", "갑인자 병용 한글활자", "조립식 동판으로 정밀 조판", "월인천강지곡·석보상절 인출"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "활자 본문체의 현대 계승"},
+      {"name": "Nanum Myeongjo", "css": "'Nanum Myeongjo', serif", "note": "옛 활자 인상의 명조"}
+    ],
+    "realTypefaces": ["갑인자 병용 한글활자(1434)", "월인천강지곡 활자", "경자자·계미자(한자)"],
+    "related": ["type-k-hunminjeongeum", "type-k-myeongjo", "type-blackletter"],
+    "imageFile": "",
+    "imageCaption": "조선의 금속활자"
+  },
+  {
+    "id": "type-k-myeongjo",
+    "ko": "명조체 / 바탕체", "en": "Myeongjo / Batang (Serif)",
+    "period": "1920년대– (1991 '바탕체' 개칭)", "origin": "궁체·붓글씨 → 인쇄 본문체",
+    "oneLiner": "붓의 부리(세리프)를 품은 한글 본문체 — 책의 기본값.",
+    "desc": "내리획은 굵고 가로획은 가늘며 획 끝에 부리(돌기)가 있는, 한글의 대표 본문용 서체. 궁체·붓글씨에서 형태가 유래해 1928년 이원모의 명조체, 1940년대 박경서의 정리를 거쳐 최정호가 인쇄용 본문체로 완성했다. '명조(明朝)'는 일본 인쇄 용어에서 온 이름으로, 1991년 문화부가 순우리말 '바탕체'로 바꿔 쓰도록 정했다. 장문 가독성이 좋아 책·신문 본문의 표준이다.",
+    "traits": ["획 끝의 부리(세리프)", "내리획 굵고 가로획 가는 대비", "본문 장문 가독성", "궁체·붓글씨 기원"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "구글·어도비 본명조 계열 바탕체"},
+      {"name": "Nanum Myeongjo", "css": "'Nanum Myeongjo', serif", "note": "네이버 나눔명조"}
+    ],
+    "realTypefaces": ["최정호 명조 원도", "SM신명조", "윤명조", "함초롬바탕"],
+    "related": ["type-k-choejeongho", "type-k-gothic", "type-garalde"],
+    "imageFile": "",
+    "imageCaption": "한글 명조체(바탕체)"
+  },
+  {
+    "id": "type-k-gothic",
+    "ko": "고딕체 / 돋움체", "en": "Gothic / Dotum (Sans-serif)",
+    "period": "1920년대– (1991 '돋움체' 개칭)", "origin": "근대 인쇄 → 화면용 표준",
+    "oneLiner": "부리를 떼고 획을 고르게 — 제목과 화면의 한글체.",
+    "desc": "부리(세리프)가 없고 가로·세로 획 굵기가 비교적 고른 한글 서체. 명조와 짝을 이루는 두 큰 축으로, '고딕'은 일본 인쇄 용어에서 왔고 1991년 문화부가 제목을 '돋우는' 용도를 살려 '돋움체'로 개칭했다. 최정호가 명조와 함께 고딕 원형을 정립했으며, 저해상도 화면에서 부리 표현이 어려운 명조 대신 본문용으로도 널리 쓰이게 됐다. 제목·간판·UI의 기본값.",
+    "traits": ["부리(세리프) 없음", "고른 획 굵기", "제목·화면 가독성", "명조와 짝을 이루는 두 축"],
+    "fonts": [
+      {"name": "Noto Sans KR", "css": "'Noto Sans KR', sans-serif", "note": "구글·어도비 본고딕 계열 돋움체"},
+      {"name": "Nanum Gothic", "css": "'Nanum Gothic', sans-serif", "note": "네이버 나눔고딕"}
+    ],
+    "realTypefaces": ["최정호 고딕 원도", "산돌고딕", "맑은 고딕", "윤고딕"],
+    "related": ["type-k-myeongjo", "type-k-choejeongho", "type-grotesque"],
+    "imageFile": "",
+    "imageCaption": "한글 고딕체(돋움체)"
+  },
+  {
+    "id": "type-k-talnemo",
+    "ko": "탈네모틀(탈네모꼴) 글꼴", "en": "Non-square (Talnemo) Hangul Type",
+    "period": "1976– / 1985 (안상수체)", "origin": "세벌식 한글 운동",
+    "oneLiner": "네모 칸을 벗어나 자모를 모아 짜는 한글 — 가장 한글다운 실험.",
+    "desc": "모든 글자를 같은 크기의 네모틀에 맞추던 관습을 깨고, 닿자·홀자·받침을 각자 일정한 모양으로 모아 짜는 세벌식 조합형 글꼴. 1976년 조영제의 논문 표본에서 출발해, 1985년 안상수체와 이상철의 샘이깊은물체, 1990년 한재준의 공한체로 이어졌다. 글자마다 너비가 달라 들쭉날쭉하지만, 적은 자소만으로 모든 글자를 만들어 경제적이고, 한글 창제 원리에 가장 충실하다는 평가를 받는다.",
+    "traits": ["세벌식 조합형(닿자·홀자·받침)", "글자마다 다른 너비", "적은 자소로 전체 생성", "한글 제자원리에 충실"],
+    "fonts": [
+      {"name": "Black Han Sans", "css": "'Black Han Sans', sans-serif", "note": "탈네모 인상의 굵은 디스플레이"},
+      {"name": "Jua", "css": "'Jua', sans-serif", "note": "둥글고 자유로운 탈네모 무드"}
+    ],
+    "realTypefaces": ["안상수체(1985)", "샘이깊은물체", "공한체(1990)", "이상체"],
+    "related": ["type-k-ahnsangsoo", "type-k-hunminjeongeum", "type-k-leeyongje"],
+    "imageFile": "",
+    "imageCaption": "탈네모틀 한글 글꼴"
+  },
+  {
+    "id": "type-k-digital",
+    "ko": "한글 디지털 폰트", "en": "Korean Digital Fonts",
+    "period": "1990년대– (DTP·웹폰트)", "origin": "DTP·트루타입·오픈타입",
+    "oneLiner": "11,172자를 디지털로 — 사진식자에서 웹폰트까지 한글의 대중화.",
+    "desc": "사진식자 시대를 지나 1990년대 PC·DTP 보급과 함께 트루타입·오픈타입으로 옮겨 온 한글 글꼴. 현대 완성형 한글은 11,172자를 모두 그려야 해 한 벌 제작에 막대한 공이 든다. 2008년 네이버가 한글날에 나눔글꼴(나눔고딕·나눔명조)을 무료 배포하고 구글·어도비가 본고딕/본명조(Noto Sans·Serif KR)를 내놓으면서 누구나 쓰는 웹폰트 시대가 열렸고, 산돌구름 같은 구독형 폰트 플랫폼으로 확장됐다.",
+    "traits": ["완성형 11,172자 제작 부담", "트루타입·오픈타입·웹폰트", "나눔글꼴·본고딕 무료 배포", "구독형 폰트 플랫폼(산돌구름)"],
+    "fonts": [
+      {"name": "Noto Sans KR", "css": "'Noto Sans KR', sans-serif", "note": "구글·어도비 본고딕(오픈소스 웹폰트)"},
+      {"name": "Do Hyeon", "css": "'Do Hyeon', sans-serif", "note": "무료 배포 디스플레이 한글"}
+    ],
+    "realTypefaces": ["나눔고딕·나눔명조(2008)", "본고딕/Noto Sans KR", "맑은 고딕", "산돌구름 폰트"],
+    "related": ["type-k-sandoll", "type-k-yoondesign", "type-monospace"],
+    "imageFile": "",
+    "imageCaption": "한글 디지털 폰트"
+  },
+  {
+    "id": "type-k-choejeongho",
+    "ko": "최정호", "en": "Choi Jeong-ho",
+    "period": "1916–1988", "origin": "한국",
+    "oneLiner": "한글 명조·고딕의 원형을 그린 1세대 원도 디자이너 — 한국 활자의 본류.",
+    "desc": "체계적으로 글꼴을 공부한 한국 최초의 활자 디자이너로, 오늘날 한글 명조체(바탕체)와 고딕체(돋움체)의 원형을 손으로 그린 원도(原圖)를 남겼다. 1934년 일본에서 인쇄와 디자인을 익힌 뒤 삼화인쇄·동아출판사 등의 활자를 설계했고, 그가 그린 원도는 사진식자·디지털 시대 거의 모든 한글 본문체의 뿌리가 됐다. \"글자는 읽는 사람이 피로를 느끼지 않게 디자인돼야 한다\"는 가독성 철학을 남겼다.",
+    "traits": ["한글 명조·고딕 원도 설계", "한국 최초의 체계적 활자 디자이너", "가독성 중심 본문체 철학", "거의 모든 현대 한글 본문체의 뿌리"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "그의 명조 계보를 잇는 본문체"},
+      {"name": "Nanum Myeongjo", "css": "'Nanum Myeongjo', serif", "note": "최정호 명조의 디지털 후예"}
+    ],
+    "realTypefaces": ["최정호 명조 원도", "최정호 고딕 원도", "동아출판사·삼화인쇄 활자"],
+    "related": ["type-k-myeongjo", "type-k-gothic", "type-k-noeunyu"],
+    "imageFile": "",
+    "imageCaption": "최정호"
+  },
+  {
+    "id": "type-k-choejeongsun",
+    "ko": "최정순", "en": "Choi Jeong-sun",
+    "period": "1917–2016", "origin": "한국",
+    "oneLiner": "교과서·신문 활자의 근간을 그린 원도 설계자 — 최정호와 쌍벽.",
+    "desc": "최정호와 함께 한국 1세대 활자 디자이너로 꼽히는 원도 설계자. 1954년 일본에서 벤턴 자모조각기 조작법을 배워 와, 한글활자개량위원회의 도움으로 국정교과서체 원도를 만들고 평화당인쇄의 명조·고딕 원도를 그렸다. 한국일보·중앙일보·경향신문 등 주요 신문용 활자체를 잇따라 개발했고, 1982년 서울신문 전산조판(CTS)용 바탕체·돋움체, 1990년대 문화부 표준 글자체(문화바탕체·돋움체) 사업에도 참여했다.",
+    "traits": ["국정교과서체 원도 설계", "한국일보·중앙일보 등 신문 활자", "벤턴 자모조각기 도입", "CTS·문화부 표준체 개발"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "교과서·신문 본문체 계열"},
+      {"name": "Gowun Batang", "css": "'Gowun Batang', serif", "note": "교과서체 인상의 부드러운 바탕"}
+    ],
+    "realTypefaces": ["국정교과서체 원도", "평화당 명조·고딕", "문화바탕체·문화돋움체"],
+    "related": ["type-k-choejeongho", "type-k-myeongjo", "type-k-gothic"],
+    "imageFile": "",
+    "imageCaption": "최정순"
+  },
+  {
+    "id": "type-k-ahnsangsoo",
+    "ko": "안상수", "en": "Ahn Sang-soo",
+    "period": "1952–", "origin": "한국",
+    "oneLiner": "안상수체로 탈네모틀을 대중화한 타이포그래퍼 — 한글 실험의 상징.",
+    "desc": "1985년 《과학동아》 제호로 설계한 '안상수체'로 한글 탈네모틀 글꼴을 대중에 각인시킨 그래픽 디자이너이자 타이포그래퍼. 닿자·홀자·받침을 같은 모양·크기로 모아 짜는 세벌식 조합형으로, 디자이너가 만든 첫 본격 탈네모틀 글꼴로 평가된다. 홍익대 교수로 20여 년 재직하며 실험잡지 《보고서/보고서》를 펴냈고, 2012년 파주에 독립 디자인 학교 파티(PaTI, 파주타이포그라피배곳)를 세웠다.",
+    "traits": ["안상수체(1985) — 세벌식 탈네모틀", "실험잡지 《보고서/보고서》", "홍익대 교수·파티(PaTI) 설립", "한글 전위 타이포그래피"],
+    "fonts": [
+      {"name": "Black Han Sans", "css": "'Black Han Sans', sans-serif", "note": "탈네모 디스플레이 무드"},
+      {"name": "Do Hyeon", "css": "'Do Hyeon', sans-serif", "note": "실험적 한글 제목용"}
+    ],
+    "realTypefaces": ["안상수체(1985)", "안상수체 2012", "마노체", "이상체"],
+    "related": ["type-k-talnemo", "type-k-agtypo", "type-k-noeunyu"],
+    "imageFile": "",
+    "imageCaption": "안상수"
+  },
+  {
+    "id": "type-k-kimjinpyeong",
+    "ko": "김진평", "en": "Kim Jin-pyeong",
+    "period": "1949–1998", "origin": "한국",
+    "oneLiner": "한글 레터링의 대부 — 명조·고딕 구조를 처음 분석한 이론가.",
+    "desc": "1970~90년대 한글 활자꼴의 황무지 시대에 레터링과 이론을 함께 일군 시각 디자이너이자 교육자. 합동통신 광고기획실과 한국판 《리더스 다이제스트》 아트디렉터를 거쳐 1981년부터 서울여대 교수로 재직했다. 1983년 펴낸 《한글의 글자표현》은 한글의 다양한 표현법을 정리하고 명조·고딕의 구조를 분석한 최초의 책으로, 한글 디자인을 체계화한 토대가 됐다. 모나지 않고 손맛을 살린 레터링으로 '한글 레터링의 대부'로 불린다.",
+    "traits": ["《한글의 글자표현》(1983) 저술", "명조·고딕 구조 최초 분석", "서울여대 교수·교육자", "로고·매체 레터링 다수"],
+    "fonts": [
+      {"name": "Noto Sans KR", "css": "'Noto Sans KR', sans-serif", "note": "구조 분석의 대상이던 고딕 계열"},
+      {"name": "Jua", "css": "'Jua', sans-serif", "note": "손맛 살린 레터링 무드"}
+    ],
+    "realTypefaces": ["김진평 레터링 작업", "한글 글자표현 도해"],
+    "related": ["type-k-myeongjo", "type-k-gothic", "type-k-ahnsangsoo"],
+    "imageFile": "",
+    "imageCaption": "김진평"
+  },
+  {
+    "id": "type-k-leeyongje",
+    "ko": "이용제", "en": "Lee Yong-je",
+    "period": "1972–", "origin": "한국",
+    "oneLiner": "한글 디자인 첫 박사 — 바람체·꽃길의 세로쓰기 활자 운동가.",
+    "desc": "한국 최초로 한글 디자인으로 박사 학위를 받은 활자 디자이너이자 교육자. 2004년 한글을 연구·제작하는 회사 '활자공간'을 세워 세로쓰기 전용 글꼴 '바람체'·'꽃길' 등 실험적 한글 활자를 꾸준히 만들었고, 아모레퍼시픽 전용서체 '아리따' 제작에도 참여했다. 카페·마켓 '히읗'을 운영하며 2012년부터 타이포그래피 교양지 《히읗》을 펴내, 한글 활자 문화를 대중과 잇는 액티비스트형 작업을 이어 왔다.",
+    "traits": ["한글 디자인 첫 박사", "활자공간 설립·운영", "세로쓰기 글꼴 바람체·꽃길", "타이포 잡지 《히읗》 발행"],
+    "fonts": [
+      {"name": "Gaegu", "css": "'Gaegu', cursive", "note": "손글씨풍 한글 — 실험적 활자 무드"},
+      {"name": "Gowun Batang", "css": "'Gowun Batang', serif", "note": "정갈한 본문 바탕체"}
+    ],
+    "realTypefaces": ["바람체", "꽃길", "아리따(공동 제작)"],
+    "related": ["type-k-hwaljagonggan", "type-k-talnemo", "type-k-noeunyu"],
+    "imageFile": "",
+    "imageCaption": "이용제"
+  },
+  {
+    "id": "type-k-seokgeumho",
+    "ko": "석금호", "en": "Seok Geum-ho",
+    "period": "1955–", "origin": "한국",
+    "oneLiner": "산돌을 세운 한글 폰트 산업의 개척자 — 한국 최초의 폰트 회사.",
+    "desc": "1984년 산돌(산돌글자은행)을 세운 서체 디자이너로, 한국 디지털 폰트 산업의 개척자. 《리더스 다이제스트》 아트디렉터로 일하던 1980년대 초, 일본에서 수입한 사진식자기에 한글을 의존하던 현실에 문제의식을 느껴 창업에 나섰다. 컴퓨터 보급 전이라 3년간 수입 없이 버텼다는 일화가 유명하며, 1990년대 DTP 시대가 열리자 그동안 쌓은 서체로 도약했다. 산돌광수체·맑은 고딕·산돌네오고딕 등 250여 종을 개발하며 회사를 폰트 업계 1위로 키웠다.",
+    "traits": ["산돌 창업(1984)", "한국 최초의 폰트 회사", "사진식자 한글 종속에 문제의식", "250여 종 서체 개발 주도"],
+    "fonts": [
+      {"name": "Noto Sans KR", "css": "'Noto Sans KR', sans-serif", "note": "산돌이 제작 참여한 본고딕 계열"},
+      {"name": "Black Han Sans", "css": "'Black Han Sans', sans-serif", "note": "산돌 제작 무료 디스플레이체"}
+    ],
+    "realTypefaces": ["산돌고딕", "산돌광수체", "맑은 고딕", "산돌네오고딕"],
+    "related": ["type-k-sandoll", "type-k-digital", "type-k-gothic"],
+    "imageFile": "",
+    "imageCaption": "석금호"
+  },
+  {
+    "id": "type-k-noeunyu",
+    "ko": "노은유", "en": "Noh Eun-you",
+    "period": "1983–", "origin": "한국",
+    "oneLiner": "최정호를 복원한 글꼴 연구자 — AG타이포그라피연구소의 이론가.",
+    "desc": "한글 글꼴 디자이너이자 연구자로, 최정호 한글꼴 연구로 박사 학위를 받았다. 박사 과정 동안 한국은 물론 일본까지 건너가 최정호의 초기 작업물을 추적·발굴했고, 그 성과를 안상수와 함께 펴낸 《한글 디자이너 최정호》로 정리했다. AG타이포그라피연구소 책임연구원으로 안상수체 2012 등의 작업에 참여하며, 일본어 발음을 한글 제자원리로 적는 '소리체'를 연구하는 등 한글 활자의 역사와 확장을 잇는 작업을 해 왔다.",
+    "traits": ["최정호 한글꼴 박사 연구", "《한글 디자이너 최정호》 공저", "AG타이포그라피연구소 책임연구원", "소리체 연구"],
+    "fonts": [
+      {"name": "Noto Serif KR", "css": "'Noto Serif KR', serif", "note": "최정호 명조 계보 연구 대상"},
+      {"name": "Nanum Myeongjo", "css": "'Nanum Myeongjo', serif", "note": "본문 명조 후예"}
+    ],
+    "realTypefaces": ["안상수체 2012(공동)", "소리체(연구)"],
+    "related": ["type-k-choejeongho", "type-k-agtypo", "type-k-ahnsangsoo"],
+    "imageFile": "",
+    "imageCaption": "노은유"
+  },
+  {
+    "id": "type-k-sandoll",
+    "ko": "산돌 (Sandoll)", "en": "Sandoll",
+    "period": "1984년 설립", "origin": "한국 · 석금호",
+    "oneLiner": "한국 최초의 폰트 회사 — 산돌고딕·산돌구름으로 폰트 업계 1위.",
+    "desc": "1984년 석금호가 세운 한국 최초의 본격 폰트 회사. 사진식자 시대를 거쳐 DTP·디지털 폰트로 도약했고, 산돌고딕·산돌명조·산돌광수체와 애플 iOS에 쓰인 산돌네오고딕, 맑은 고딕·나눔고딕 제작 참여 등으로 한글 본문체의 표준을 다듬었다. 2018년 사명을 (주)산돌로 바꾸고 2022년 코스닥에 상장했으며, 구독형 폰트 플랫폼 '산돌구름'을 운영한다. 2024년 경쟁사 윤디자인그룹을 인수하며 업계 지배력을 강화했다.",
+    "traits": ["한국 최초 폰트 회사(1984)", "산돌고딕·산돌명조 등 대표 본문체", "구독형 플랫폼 산돌구름", "코스닥 상장·윤디자인 인수"],
+    "fonts": [
+      {"name": "Noto Sans KR", "css": "'Noto Sans KR', sans-serif", "note": "산돌이 제작 참여한 본고딕"},
+      {"name": "Black Han Sans", "css": "'Black Han Sans', sans-serif", "note": "산돌 제작 무료 디스플레이체"}
+    ],
+    "realTypefaces": ["산돌고딕", "산돌명조", "산돌네오고딕(iOS)", "산돌광수체"],
+    "related": ["type-k-seokgeumho", "type-k-yoondesign", "type-k-digital"],
+    "imageFile": "",
+    "imageCaption": "산돌"
+  },
+  {
+    "id": "type-k-yoondesign",
+    "ko": "윤디자인그룹", "en": "Yoon Design Group",
+    "period": "1989년 설립", "origin": "한국 · 윤영기",
+    "oneLiner": "윤명조·윤고딕의 본가 — 한글 폰트 산업의 양대 산맥.",
+    "desc": "1989년 윤영기가 세운 윤디자인연구소를 모체로 한 한글 글꼴 회사로, 창업주 이름에서 회사명을 땄다. 윤명조·윤고딕·서울서체 등 출판·디자인 현장에서 널리 쓰인 본문·제목체를 만들었고, 1994년 윤고딕100 활자가족을 시작으로 200·300·500·700 등 폭넓은 가족 시리즈를 구축했다. 1991년 대전엑스포 전용서체를 제공하는 등 기업 전용서체 분야를 개척했으며, 폰트 클라우드 '폰코(font.co.kr)'를 운영하다 2024년 산돌에 인수됐다.",
+    "traits": ["윤명조·윤고딕·서울서체", "활자가족 시리즈(100~700)", "기업 전용서체 개척", "폰트 플랫폼 폰코 운영"],
+    "fonts": [
+      {"name": "Nanum Gothic", "css": "'Nanum Gothic', sans-serif", "note": "윤고딕 계열 본문 고딕 인상"},
+      {"name": "Nanum Myeongjo", "css": "'Nanum Myeongjo', serif", "note": "윤명조 계열 본문 명조 인상"}
+    ],
+    "realTypefaces": ["윤명조", "윤고딕", "서울서체"],
+    "related": ["type-k-sandoll", "type-k-digital", "type-k-myeongjo"],
+    "imageFile": "",
+    "imageCaption": "윤디자인그룹"
+  },
+  {
+    "id": "type-k-agtypo",
+    "ko": "AG타이포그라피연구소", "en": "AG Typography Institute",
+    "period": "2012년 설립", "origin": "한국 · 안그라픽스",
+    "oneLiner": "안그라픽스의 글꼴 연구소 — 안상수체를 잇는 활자 연구의 산실.",
+    "desc": "1985년 안상수가 세운 디자인 회사 안그라픽스(안그라픽스)의 부설 연구소로 2012년 설립됐다. 글꼴의 조형미와 가독성을 함께 연구해, 안상수체를 다벌식·그룹 커닝으로 재구성한 '안상수체 2012'를 비롯한 AG 글꼴들을 개발한다. 노은유 등 연구자가 참여해 최정호 연구·소리체 같은 한글 활자의 역사와 실험을 잇는 작업을 수행하며, 전통과 혁신을 결합한 타이포그래피 연구의 한 거점을 이룬다.",
+    "traits": ["안그라픽스 부설(2012)", "안상수체 2012 재구성", "조형·가독성 연구 병행", "최정호 연구·소리체 등 실험"],
+    "fonts": [
+      {"name": "Black Han Sans", "css": "'Black Han Sans', sans-serif", "note": "탈네모·실험 활자 무드"},
+      {"name": "Do Hyeon", "css": "'Do Hyeon', sans-serif", "note": "실험적 제목 한글"}
+    ],
+    "realTypefaces": ["AG 안상수체 2012", "AG 최정호 계열 글꼴"],
+    "related": ["type-k-ahnsangsoo", "type-k-noeunyu", "type-k-talnemo"],
+    "imageFile": "",
+    "imageCaption": "AG타이포그라피연구소"
+  },
+  {
+    "id": "type-k-hwaljagonggan",
+    "ko": "활자공간", "en": "Type Space (Hwalja Gonggan)",
+    "period": "2004년 설립", "origin": "한국 · 이용제",
+    "oneLiner": "이용제의 한글 활자 작업실 — 바람체·꽃길과 잡지 《히읗》.",
+    "desc": "2004년 이용제가 세운, 한글을 연구하고 활자를 제작하는 회사. 세로쓰기 전용 글꼴 '바람체'·'꽃길'을 비롯한 실험적 한글 활자를 만들고, 아모레퍼시픽 '아리따' 제작에도 참여했다. 카페·마켓 '히읗'을 운영하며 2012년부터 타이포그래피 교양지 《히읗》을 펴내, 작은 규모로 한글 활자의 조형 실험과 대중적 확산을 함께 추구하는 독립 작업실형 활자 회사다.",
+    "traits": ["이용제 설립(2004)", "세로쓰기 글꼴 바람체·꽃길", "타이포 잡지 《히읗》 발행", "독립 작업실형 활자 회사"],
+    "fonts": [
+      {"name": "Gaegu", "css": "'Gaegu', cursive", "note": "손글씨풍 실험 한글 무드"},
+      {"name": "Gowun Batang", "css": "'Gowun Batang', serif", "note": "정갈한 본문 바탕"}
+    ],
+    "realTypefaces": ["바람체", "꽃길", "아리따(공동)"],
+    "related": ["type-k-leeyongje", "type-k-talnemo", "type-k-digital"],
+    "imageFile": "",
+    "imageCaption": "활자공간"
+  }
+]

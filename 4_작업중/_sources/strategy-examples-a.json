@@ -1,0 +1,157 @@
+{
+  "aida": {
+    "ko": [
+      {"copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요", "brand": "경동보일러", "year": "1991", "note": "겨울 시골 노부부 화면으로 주의→연탄불 향수로 흥미·감정→효심 자극으로 구매 욕구→'며느리가 사드린다'는 행동까지 유도하는 깔때기형 서사"}
+    ],
+    "en": [
+      {"copy": "They laughed when I sat down at the piano — but when I started to play!", "brand": "U.S. School of Music (John Caples)", "year": "1926", "note": "헤드라인으로 주의를 낚고, 반전 스토리로 흥미·욕구를 키운 뒤 통신강좌 우편주문(행동)으로 닫는 AIDA 직접반응 카피의 교과서"}
+    ]
+  },
+  "pas": {
+    "ko": [
+      {"copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요", "brand": "경동보일러", "year": "1991", "note": "연탄 때는 시골 부모(문제)→자식 된 죄책감(고통 증폭)→보일러로 효도(해결)의 PAS 구조"}
+    ],
+    "en": [
+      {"copy": "Got milk?", "brand": "California Milk Processor Board", "year": "1993", "note": "우유가 '떨어졌을 때'의 결핍·낭패감(문제·고통)을 환기시켜 구매(해결)로 미는 결핍 마케팅 = PAS의 변주"}
+    ]
+  },
+  "fab": {
+    "ko": [
+      {"copy": "맥주의 90%는 물입니다. 물이 좋아야 맥주가 좋습니다", "brand": "하이트맥주", "year": "1993", "note": "'100% 천연암반수'라는 특징을 '그래서 더 깨끗한 맛'이라는 고객 이득으로 번역한 FAB"}
+    ],
+    "en": [
+      {"copy": "1,000 songs in your pocket.", "brand": "Apple iPod", "year": "2001", "note": "5GB 하드디스크(특징)를 '주머니 속 1,000곡'이라는 손에 잡히는 이득(benefit)으로 치환한 FAB의 정석"}
+    ]
+  },
+  "four-u": {
+    "ko": [
+      {"copy": "열심히 일한 당신, 떠나라!", "brand": "현대카드", "year": "2002", "note": "짧고 긴급한 명령형으로 '떠나라'는 행동을 촉구 — 유용·긴급·독창을 한 줄에 압축한 헤드라인"}
+    ],
+    "en": [
+      {"copy": "When it absolutely, positively has to be there overnight.", "brand": "FedEx", "year": "1978", "note": "유용(배송)·긴급(overnight)·초구체(absolutely, positively)를 한 문장에 담은 4U 헤드라인의 전형"}
+    ]
+  },
+  "schwartz-awareness": {
+    "ko": [
+      {"copy": "맥주의 90%는 물입니다", "brand": "하이트맥주", "year": "1993", "note": "맛 차이를 모르던 '문제 미인지' 소비자에게 '물=깨끗함' 프레임을 새로 심어 욕구를 만든 인지단계 공략"}
+    ],
+    "en": [
+      {"copy": "The computer for the rest of us.", "brand": "Apple Macintosh", "year": "1984", "note": "컴퓨터를 '나와 상관없다'고 여기던 미인지·무관심층을 겨냥해 진입장벽을 낮춘 인지수준별 메시지"}
+    ]
+  },
+  "hierarchy-of-effects": {
+    "ko": [
+      {"copy": "사람을 향합니다", "brand": "SK텔레콤", "year": "2005", "note": "기능 나열 대신 기업 철학으로 인지·호감을 쌓아 장기 선호·충성으로 잇는 효과위계형 브랜드 캠페인"}
+    ],
+    "en": [
+      {"copy": "Apple reinvents the phone.", "brand": "Apple iPhone", "year": "2007", "note": "새 카테고리 인지→관심·선호→구매로 단계를 밟아 올라가게 설계된 신제품 런칭 메시지"}
+    ]
+  },
+  "drop": {
+    "ko": [
+      {"copy": "침대는 가구가 아닙니다. 침대는 과학입니다", "brand": "에이스침대", "year": "1993", "note": "'침대'와 '과학'이라는 잘 안 만나는 두 단어를 충돌시켜 낙차로 각인시킨 대표 카피"}
+    ],
+    "en": [
+      {"copy": "Think small.", "brand": "Volkswagen (DDB)", "year": "1959", "note": "'더 크게'가 미덕이던 자동차 광고에서 정반대 '작게'를 내세운 의외의 결합 — 기대와의 낙차"}
+    ]
+  },
+  "parallelism": {
+    "ko": [
+      {"copy": "우리 강산 푸르게 푸르게", "brand": "유한킴벌리", "year": "1984", "note": "'푸르게 푸르게' 같은 말을 반복(첩어·대구)해 리듬과 각인을 만든 병렬 카피"}
+    ],
+    "en": [
+      {"copy": "Eat fresh. Feel good.", "brand": "Subway", "year": "2021", "note": "두 개의 명령형 동사구를 같은 구조로 병치 — 대구·병렬의 전형"}
+    ]
+  },
+  "subtraction": {
+    "ko": [
+      {"copy": "사람을 향합니다", "brand": "SK텔레콤", "year": "2005", "note": "통신 스펙·요금을 다 덜어내고 다섯 글자로 압축한 극단적 단순화 슬로건"}
+    ],
+    "en": [
+      {"copy": "Just do it.", "brand": "Nike", "year": "1988", "note": "설명을 0으로 줄인 세 단어 — 빼기(subtraction)의 정점"},
+      {"copy": "Think different.", "brand": "Apple", "year": "1997", "note": "문법까지 덜어낸 두 단어로 브랜드 태도를 압축한 빼기 슬로건"}
+    ]
+  },
+  "insight-aha": {
+    "ko": [
+      {"copy": "열심히 일한 당신, 떠나라!", "brand": "현대카드", "year": "2002", "note": "카드 혜택이 아니라 '떠나야 할 만큼 지친 우리'라는 날카로운 삶의 인사이트를 그대로 카피로 쓴 통찰형"}
+    ],
+    "en": [
+      {"copy": "Lemon.", "brand": "Volkswagen (DDB)", "year": "1960", "note": "'불량품'을 뜻하는 lemon을 새 차 밑에 붙여 '그래서 우리는 불량을 골라낸다'로 뒤집은 통찰·리프레임"},
+      {"copy": "A diamond is forever.", "brand": "De Beers", "year": "1947", "note": "다이아의 영원함=사랑의 영원함이라는 인사이트로 약혼반지 관습 자체를 만들어낸 통찰형 카피"}
+    ]
+  },
+  "usp": {
+    "ko": [
+      {"copy": "흔들어라, 더 부드러워진다", "brand": "처음처럼", "year": "2007", "note": "'흔들면 부드러워진다'는 단일 편익만 집요하게 반복한 USP"}
+    ],
+    "en": [
+      {"copy": "Melts in your mouth, not in your hands.", "brand": "M&M's", "year": "1954", "note": "'손에서 안 녹는다'는 단 하나의 독자 편익만 반복하는 USP의 원형"},
+      {"copy": "Fresh, hot pizza delivered in 30 minutes or less, or it's free.", "brand": "Domino's", "year": "1979", "note": "'30분 배달'이라는 단일 편익을 보증까지 걸어 반복한 USP"}
+    ]
+  },
+  "ogilvy": {
+    "ko": [],
+    "en": [
+      {"copy": "At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock.", "brand": "Rolls-Royce (Ogilvy)", "year": "1958", "note": "구체적 팩트 한 줄을 헤드라인으로 삼고 그 아래 긴 롱카피로 논증한 오길비식 롱카피·헤드라인"}
+    ]
+  },
+  "burnett": {
+    "ko": [
+      {"copy": "대한민국에서 김대리로 산다는 것", "brand": "박카스(동아제약)", "year": "2012", "note": "특정 직업군 캐릭터의 고단한 일상을 드라마로 보여줘 제품에 내재된 공감 드라마를 끌어낸 캠페인"}
+    ],
+    "en": [
+      {"copy": "Come to where the flavor is. Come to Marlboro Country.", "brand": "Marlboro (Leo Burnett)", "year": "1963", "note": "카우보이(말보로맨)라는 캐릭터·세계관 드라마로 제품의 '내재적 드라마'를 구현한 버넷의 대표작"}
+    ]
+  },
+  "hopkins": {
+    "ko": [
+      {"copy": "맥주의 90%는 물입니다. 물이 좋아야 맥주가 좋습니다", "brand": "하이트맥주", "year": "1993", "note": "'왜 깨끗한가'를 물로 설명하는 reason-why — 사실 자체는 평범해도 먼저 말해 선점한 홉킨스식 논법"}
+    ],
+    "en": [
+      {"copy": "Schlitz beer — washed with live steam.", "brand": "Schlitz", "year": "1919", "note": "병을 증기로 세척한다는 '이유'를 설명해 5위에서 1위로 끌어올린 홉킨스 reason-why의 원조 사례"}
+    ]
+  },
+  "james-webb-young": {
+    "ko": [
+      {"copy": "우리가 어떤 민족입니까", "brand": "배달의민족", "year": "2014", "note": "민족주의 웅변 어법 + 배달앱이라는 낡은 요소들을 새로 조합해 만든 발상 — 기존 것의 새 결합"}
+    ],
+    "en": [
+      {"copy": "Red Bull gives you wings.", "brand": "Red Bull", "year": "1987", "note": "'에너지 음료'와 '날개'라는 익숙한 요소들을 새 관계로 묶어낸 조합 발상"}
+    ]
+  },
+  "scamper": {
+    "ko": [
+      {"copy": "흔들어라, 더 부드러워진다", "brand": "처음처럼", "year": "2007", "note": "그냥 따라 마시던 소주에 '흔드는' 행위를 더해(Modify·Adapt) 음용 경험을 비튼 변형 발상"}
+    ],
+    "en": [
+      {"copy": "The man your man could smell like.", "brand": "Old Spice (Wieden+Kennedy)", "year": "2010", "note": "남성용 제품 광고의 화자·타깃을 '구매 결정하는 여성'으로 뒤집은(Reverse) SCAMPER식 변형"}
+    ]
+  },
+  "random-word": {
+    "ko": [
+      {"copy": "우리가 어떤 민족입니까", "brand": "배달의민족", "year": "2014", "note": "'배달'과 전혀 다른 맥락의 '민족'을 강제로 연결해 명화 패러디로 확장한 의외의 결합"}
+    ],
+    "en": [
+      {"copy": "FCK.", "brand": "KFC (Mother London)", "year": "2018", "note": "치킨 품절 사과를 자사명 철자를 뒤섞은 욕설 한 단어로 강제 연결한 위트"}
+    ]
+  },
+  "synectics": {
+    "ko": [
+      {"copy": "말하지 않아도 알아요", "brand": "오리온 초코파이", "year": "1989", "note": "과자에 '정(情)'이라는 인간 정서를 비유로 입혀 가족·이웃의 정으로 유추시킨 은유 카피"},
+      {"copy": "고향의 맛, 다시다", "brand": "CJ 다시다", "year": "1987", "note": "조미료 맛을 혀의 맛이 아니라 '고향·어머니 손맛'으로 은유·상징화한 유추"}
+    ],
+    "en": [
+      {"copy": "Red Bull gives you wings.", "brand": "Red Bull", "year": "1987", "note": "에너지의 상승감을 '날개'에 빗댄 은유 — 추상적 효능을 신체 감각 이미지로 유추"}
+    ]
+  },
+  "bisociation": {
+    "ko": [
+      {"copy": "우리가 어떤 민족입니까", "brand": "배달의민족", "year": "2014", "note": "비장한 민족 웅변 프레임과 '치킨·야식 배달' 프레임을 충돌시켜 웃음을 만든 양연상"}
+    ],
+    "en": [
+      {"copy": "Where's the beef?", "brand": "Wendy's", "year": "1984", "note": "거대한 빵과 빈약한 고기라는 두 프레임을 한 질문에 충돌시켜 경쟁사를 찌른 위트 — 양연상"},
+      {"copy": "FCK.", "brand": "KFC (Mother London)", "year": "2018", "note": "'사과'라는 진지한 프레임과 욕설 프레임을 겹쳐 웃음·호감으로 전환한 두 프레임 충돌"}
+    ]
+  }
+}

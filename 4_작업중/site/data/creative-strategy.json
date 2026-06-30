@@ -1,0 +1,2152 @@
+[
+  {
+    "id": "aida",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "AIDA",
+    "titleEn": "AIDA",
+    "origin": "E. St. Elmo Lewis(귀속 논쟁)",
+    "year": 1898,
+    "oneLiner": "주의 → 흥미 → 욕구 → 행동으로 이끄는 설득 깔때기.",
+    "credibility": "consensus",
+    "keywords": [
+      "퍼널",
+      "주의",
+      "욕구",
+      "행동"
+    ],
+    "related": [
+      "pas",
+      "hierarchy-of-effects",
+      "schwartz-awareness"
+    ],
+    "detail": {
+      "desc": "광고·세일즈 메시지를 Attention(주의)·Interest(흥미)·Desire(욕구)·Action(행동) 4단계로 설계하라는 가장 오래된 설득 모델이다. 19세기 말 세일즈맨십에서 출발해 약어 'AIDA'는 1921년경 정착했고, 이후 거의 모든 카피 공식의 원형이 되었다.",
+      "rationale": "수용자가 메시지를 단계적으로 처리한다는 직관(인지→감정→행동의 위계)에 기댄다. Lavidge & Steiner의 효과위계 모델이 이 직관에 가장 가까운 학술적 근거다. 다만 단계가 항상 순차적이지 않고(저관여 구매·충동구매), AIDA 자체의 실증 검증은 약해 기원조차 논쟁적이다. '구조 점검용 체크리스트'로 쓰는 것이 안전하다.",
+      "apply": [
+        "헤드라인으로 주의를 잡았는지, 본문이 흥미·욕구를 쌓는지, 마지막에 명확한 CTA(행동)가 있는지 4단계로 자기점검한다.",
+        "단계가 빠진 카피(욕구 없이 바로 행동 요구 등)를 찾아 보강한다.",
+        "저관여 제품은 흥미·욕구를 짧게 압축하고 행동 단계를 키운다."
+      ],
+      "sources": [
+        {
+          "label": "Lavidge & Steiner 1961, A Model for Predictive Measurements of Advertising Effectiveness",
+          "url": "https://www.jstor.org/stable/1248516"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요",
+            "brand": "경동보일러",
+            "year": "1991",
+            "note": "겨울 시골 노부부 화면으로 주의→연탄불 향수로 흥미·감정→효심 자극으로 구매 욕구→'며느리가 사드린다'는 행동까지 유도하는 깔때기형 서사"
+          }
+        ],
+        "en": [
+          {
+            "copy": "They laughed when I sat down at the piano — but when I started to play!",
+            "brand": "U.S. School of Music (John Caples)",
+            "year": "1926",
+            "note": "헤드라인으로 주의를 낚고, 반전 스토리로 흥미·욕구를 키운 뒤 통신강좌 우편주문(행동)으로 닫는 AIDA 직접반응 카피의 교과서"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "pas",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "PAS",
+    "titleEn": "Problem-Agitate-Solution",
+    "origin": "Dan Kennedy 보급",
+    "year": null,
+    "oneLiner": "문제를 짚고, 고통을 키운 뒤, 해결책을 내미는 3단 구조.",
+    "credibility": "industry",
+    "keywords": [
+      "문제",
+      "증폭",
+      "해결",
+      "고통"
+    ],
+    "related": [
+      "aida",
+      "loss-aversion"
+    ],
+    "detail": {
+      "desc": "Problem(문제 제기) → Agitate(문제를 생생히 증폭) → Solution(해결책 제시)의 3단 카피 구조. Dan Kennedy 등 다이렉트 마케터들이 보급했으며, 짧은 분량에서 강한 정서적 추진력을 만들어 숏폼·이메일·랜딩에 특히 강력하다.",
+      "rationale": "손실회피·부정 편향에 기댄다. 사람은 얻을 것보다 잃을 것·아플 것에 더 민감하므로, 문제를 구체적으로 증폭하면 해결책의 가치가 상대적으로 커진다. 단 'Agitate'가 과하면 조작적·불쾌하게 느껴져 역효과(공포 소구의 EPPM 원리처럼 효능 있는 해결책이 반드시 따라와야 한다).",
+      "apply": [
+        "독자가 실제로 겪는 문제를 한 문장으로 정확히 짚는다.",
+        "그 문제가 방치되면 어떤 손실·불편이 쌓이는지 구체적 장면으로 증폭한다.",
+        "증폭한 만큼 즉시 해결책(제품)으로 안도감을 준다 — 고통만 키우고 끝내지 않는다."
+      ],
+      "sources": [
+        {
+          "label": "Dan Kennedy, The Ultimate Sales Letter"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요",
+            "brand": "경동보일러",
+            "year": "1991",
+            "note": "연탄 때는 시골 부모(문제)→자식 된 죄책감(고통 증폭)→보일러로 효도(해결)의 PAS 구조"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Got milk?",
+            "brand": "California Milk Processor Board",
+            "year": "1993",
+            "note": "우유가 '떨어졌을 때'의 결핍·낭패감(문제·고통)을 환기시켜 구매(해결)로 미는 결핍 마케팅 = PAS의 변주"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fab",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "FAB",
+    "titleEn": "Feature-Advantage-Benefit",
+    "origin": "영업 전통(창시자 불명)",
+    "year": null,
+    "oneLiner": "특징을 강점으로, 강점을 '나에게 좋은 이득'으로 번역하라.",
+    "credibility": "industry",
+    "keywords": [
+      "특징",
+      "강점",
+      "이득",
+      "So what"
+    ],
+    "related": [
+      "usp",
+      "four-u"
+    ],
+    "detail": {
+      "desc": "Feature(제품의 객관적 특징) → Advantage(그 특징이 주는 기능적 강점) → Benefit(고객이 실제로 얻는 가치)으로 메시지를 번역하는 영업·카피 프레임. 스펙 나열을 고객 언어로 바꾸는 도구다.",
+      "rationale": "고객은 드릴이 아니라 '벽에 뚫린 구멍'을 산다는 자기참조 효과에 기댄다. 특징은 판매자 관점, 이득은 구매자 관점이다. 각 특징에 'So what?(그래서 나한테?)'을 반복해 물으면 자동으로 Benefit에 도달한다.",
+      "apply": [
+        "스펙 목록을 적고, 각 줄에 'So what?'을 던져 고객 이득까지 내려간다.",
+        "헤드라인엔 Benefit을, 본문 근거엔 Feature를 배치한다.",
+        "기능이 비슷한 경쟁 상황에선 Benefit의 감정적 결을 차별화한다."
+      ],
+      "sources": [
+        {
+          "label": "이론카탈로그 A. 카피라이팅 공식·구조"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "맥주의 90%는 물입니다. 물이 좋아야 맥주가 좋습니다",
+            "brand": "하이트맥주",
+            "year": "1993",
+            "note": "'100% 천연암반수'라는 특징을 '그래서 더 깨끗한 맛'이라는 고객 이득으로 번역한 FAB"
+          }
+        ],
+        "en": [
+          {
+            "copy": "1,000 songs in your pocket.",
+            "brand": "Apple iPod",
+            "year": "2001",
+            "note": "5GB 하드디스크(특징)를 '주머니 속 1,000곡'이라는 손에 잡히는 이득(benefit)으로 치환한 FAB의 정석"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "four-u",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "4U",
+    "titleEn": "Useful-Urgent-Unique-Ultra-specific",
+    "origin": "Michael Masterson / AWAI",
+    "year": null,
+    "oneLiner": "헤드라인을 유용·긴급·독창·초구체 4기준으로 채점하라.",
+    "credibility": "industry",
+    "keywords": [
+      "헤드라인",
+      "긴급",
+      "구체성",
+      "체크리스트"
+    ],
+    "related": [
+      "aida",
+      "fab",
+      "ogilvy"
+    ],
+    "detail": {
+      "desc": "헤드라인을 Useful(유용한가)·Urgent(지금 봐야 하나)·Unique(새로운가)·Ultra-specific(충분히 구체적인가) 4기준으로 평가·개선하는 체크리스트. Michael Masterson과 AWAI가 보급했다.",
+      "rationale": "구체성 효과(Paivio)와 처리 유창성에 부분적으로 기댄다. 구체적·독창적 표현은 더 생생히 부호화되고, 긴급성은 희소성·손실회피를 건드린다. '이론'이라기보다 검증된 실무 휴리스틱이며, 4항목을 모두 만족할 필요는 없고 약한 축을 찾는 진단 도구로 쓴다.",
+      "apply": [
+        "헤드라인 후보를 4U 각 항목 1~4점으로 채점해 가장 낮은 축을 보강한다.",
+        "막연한 표현('많은 혜택')을 숫자·기한으로 초구체화한다.",
+        "긴급성이 약하면 마감·한정 같은 정당한 시간 압박을 더한다(거짓 긴급성은 신뢰를 해친다)."
+      ],
+      "sources": [
+        {
+          "label": "Michael Masterson / AWAI 카피 가이드"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "열심히 일한 당신, 떠나라!",
+            "brand": "현대카드",
+            "year": "2002",
+            "note": "짧고 긴급한 명령형으로 '떠나라'는 행동을 촉구 — 유용·긴급·독창을 한 줄에 압축한 헤드라인"
+          }
+        ],
+        "en": [
+          {
+            "copy": "When it absolutely, positively has to be there overnight.",
+            "brand": "FedEx",
+            "year": "1978",
+            "note": "유용(배송)·긴급(overnight)·초구체(absolutely, positively)를 한 문장에 담은 4U 헤드라인의 전형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "schwartz-awareness",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "Schwartz 인지 5단계",
+    "titleEn": "Schwartz 5 Stages of Awareness",
+    "origin": "Eugene M. Schwartz, Breakthrough Advertising",
+    "year": 1966,
+    "oneLiner": "고객의 인지 수준(무인지~완전인지)에 따라 메시지를 분기하라.",
+    "credibility": "industry",
+    "keywords": [
+      "인지단계",
+      "타깃팅",
+      "퍼널",
+      "메시지 분기"
+    ],
+    "related": [
+      "aida",
+      "positioning"
+    ],
+    "detail": {
+      "desc": "고객을 Unaware(무인지)·Problem-aware(문제인지)·Solution-aware(해결책인지)·Product-aware(제품인지)·Most-aware(완전인지) 5단계로 나누고, 각 단계에 맞춰 카피의 출발점을 다르게 잡으라는 프레임. 현대 퍼널 타깃팅의 뿌리다.",
+      "rationale": "사람마다 이미 가진 지식·욕구가 다르므로 같은 메시지가 모두에게 통하지 않는다는 통찰. 무인지 고객에게 가격·CTA를 들이밀면 실패하고, 완전인지 고객에게 문제를 장황히 설명하면 지루하다. Collier의 '진행 중인 대화에 끼어들라'와 직결되는 실무 정전.",
+      "apply": [
+        "같은 제품이라도 광고 채널별 고객 인지 수준을 추정해 후킹 지점을 바꾼다.",
+        "콜드 트래픽(무인지)엔 문제 공감부터, 리타깃팅(제품인지)엔 혜택·증거·오퍼로 바로 들어간다.",
+        "이메일 시퀀스를 단계 이동(문제→해결책→제품)에 맞춰 설계한다."
+      ],
+      "sources": [
+        {
+          "label": "Eugene M. Schwartz, Breakthrough Advertising (1966)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "맥주의 90%는 물입니다",
+            "brand": "하이트맥주",
+            "year": "1993",
+            "note": "맛 차이를 모르던 '문제 미인지' 소비자에게 '물=깨끗함' 프레임을 새로 심어 욕구를 만든 인지단계 공략"
+          }
+        ],
+        "en": [
+          {
+            "copy": "The computer for the rest of us.",
+            "brand": "Apple Macintosh",
+            "year": "1984",
+            "note": "컴퓨터를 '나와 상관없다'고 여기던 미인지·무관심층을 겨냥해 진입장벽을 낮춘 인지수준별 메시지"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hierarchy-of-effects",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "효과 위계 모델",
+    "titleEn": "Hierarchy of Effects",
+    "origin": "Robert J. Lavidge & Gary A. Steiner",
+    "year": 1961,
+    "oneLiner": "인지→지식→호감→선호→확신→구매의 단계적 광고 효과.",
+    "credibility": "established",
+    "keywords": [
+      "think-feel-do",
+      "광고효과",
+      "단계",
+      "측정"
+    ],
+    "related": [
+      "aida",
+      "elm",
+      "schwartz-awareness"
+    ],
+    "detail": {
+      "desc": "광고가 소비자를 인지(awareness)→지식(knowledge)→호감(liking)→선호(preference)→확신(conviction)→구매(purchase)의 6단계로 끌어올린다는 학술 모델. think(인지)–feel(감정)–do(행동) 위계의 고전으로, AIDA류 실무 공식들이 인용하는 거의 유일한 정식 학술 출처다.",
+      "rationale": "광고 효과를 매출 한 점이 아니라 '심리적 진행도'로 측정할 수 있게 한 점이 기여다. 다만 1999년 Vakratsas & Ambler의 리뷰는 think→feel→do의 고정 순서가 모든 상황에 성립한다는 실증 근거는 약하다고 판정했다(저관여·습관 구매에선 순서가 뒤바뀌거나 동시에 일어남). '효과의 단계가 있다'는 틀은 유효하되 순서는 맥락 의존.",
+      "apply": [
+        "캠페인 KPI를 매출 하나가 아니라 인지·호감·선호 등 단계별 지표로 쪼개 측정한다.",
+        "지금 막힌 단계(인지는 높은데 선호가 낮다 등)를 진단해 메시지를 그 단계에 맞춘다.",
+        "저관여 제품은 위계를 짧게 압축하고 행동·반복 노출에 무게를 둔다."
+      ],
+      "sources": [
+        {
+          "label": "Lavidge & Steiner 1961, A Model for Predictive Measurements of Advertising Effectiveness",
+          "url": "https://www.jstor.org/stable/1248516"
+        },
+        {
+          "label": "Vakratsas & Ambler 1999, How Advertising Works",
+          "url": "https://www.jstor.org/stable/1251999"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "사람을 향합니다",
+            "brand": "SK텔레콤",
+            "year": "2005",
+            "note": "기능 나열 대신 기업 철학으로 인지·호감을 쌓아 장기 선호·충성으로 잇는 효과위계형 브랜드 캠페인"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Apple reinvents the phone.",
+            "brand": "Apple iPhone",
+            "year": "2007",
+            "note": "새 카테고리 인지→관심·선호→구매로 단계를 밟아 올라가게 설계된 신제품 런칭 메시지"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "drop",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "낙차",
+    "titleEn": "Semantic Distance / Defamiliarization",
+    "origin": "유병욱 『생각의 기쁨』 등(8법칙)",
+    "year": 2017,
+    "oneLiner": "잘 안 만나는 두 단어를 부딪쳐 의외성을 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "낙차",
+      "낯설게하기",
+      "스키마 불일치",
+      "의외성"
+    ],
+    "related": [
+      "bisociation",
+      "random-word",
+      "success-heath",
+      "subtraction"
+    ],
+    "detail": {
+      "desc": "평소 함께 쓰이지 않는 단어·이미지를 결합해 신선한 충격을 주는 발상 원리. 유병욱 『생각의 기쁨』의 핵심 개념으로 알려진 8법칙의 첫 번째 항목이다.",
+      "rationale": "근거가 탄탄한 항목이다. 스키마 불일치 이론(Meyers-Levy & Tybout 1989)은 기대와 적당히 어긋나는 정보가 더 깊이 처리되고 선호된다고 보며, 러시아 형식주의의 '낯설게하기'(쉬클롭스키 1917)는 익숙한 것을 비틀어 지각을 되살린다고 본다. 단 불일치가 너무 크면 이해 실패로 호감이 꺾이는 역U자 관계라는 점이 한계.",
+      "apply": [
+        "핵심 개념과 의미적으로 먼 단어를 강제로 짝지어 헤드라인 후보를 뽑는다.",
+        "불일치가 '해소 가능한' 수준인지 점검한다 — 풀리지 않는 낙차는 그냥 난해함이다.",
+        "진부한 표현이 보이면 한쪽 단어를 의외의 영역에서 가져와 교체한다."
+      ],
+      "sources": [
+        {
+          "label": "Meyers-Levy & Tybout 1989, Schema Congruity and Evaluation",
+          "url": "https://www.jstor.org/stable/2489511"
+        },
+        {
+          "label": "유병욱 『생각의 기쁨』 (북하우스, 2017)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "침대는 가구가 아닙니다. 침대는 과학입니다",
+            "brand": "에이스침대",
+            "year": "1993",
+            "note": "'침대'와 '과학'이라는 잘 안 만나는 두 단어를 충돌시켜 낙차로 각인시킨 대표 카피"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Think small.",
+            "brand": "Volkswagen (DDB)",
+            "year": "1959",
+            "note": "'더 크게'가 미덕이던 자동차 광고에서 정반대 '작게'를 내세운 의외의 결합 — 기대와의 낙차"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "parallelism",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "병렬",
+    "titleEn": "Parallelism / Isocolon",
+    "origin": "유병욱 『생각의 기쁨』 등(8법칙)",
+    "year": 2017,
+    "oneLiner": "같은 길이·구조의 문장을 나란히 놓아 리듬을 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "병렬",
+      "대구법",
+      "isocolon",
+      "리듬"
+    ],
+    "related": [
+      "rule-of-three",
+      "rhetorical-figures",
+      "subtraction",
+      "similarity",
+      "symmetry-balance"
+    ],
+    "detail": {
+      "desc": "구조·길이가 닮은 어구를 나란히 배치해 균형과 리듬을 만드는 수사 기법(대구법, isocolon). 8법칙의 한 항목이며, 광고 슬로건에서 기억성과 완결감을 높인다.",
+      "rationale": "★ 정정 반영: 카탈로그에서 흔히 병렬을 '운율 효과'와 묶지만 둘은 별개다. 운-이성 효과(McGlone & Tofighbakhsh 2000)는 '각운(rhyme)'이 맞을 때 더 참되게 느껴지는 현상이고, 병렬(isocolon)은 어구의 통사 구조를 맞추는 것이다. 병렬의 근거는 처리 유창성과 게슈탈트의 유사·대칭 원리(닮은 구조는 한 덩어리로 묶여 기억됨)이지 각운 효과가 아니다.",
+      "apply": [
+        "슬로건을 같은 음절수·같은 통사 구조의 두 어구로 다듬는다.",
+        "대조(antithesis)와 결합해 '적게 쓰고, 많이 남긴다' 같은 균형형 카피를 만든다.",
+        "각운까지 노린다면 그것은 운율 효과(별개 기법)임을 알고 의도적으로 더한다."
+      ],
+      "sources": [
+        {
+          "label": "McGlone & Tofighbakhsh 2000, Birds of a Feather Flock Conjointly",
+          "url": "https://doi.org/10.1111/1467-9280.00282"
+        },
+        {
+          "label": "이론카탈로그 ★ 8법칙 매핑 정정(05)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "우리 강산 푸르게 푸르게",
+            "brand": "유한킴벌리",
+            "year": "1984",
+            "note": "'푸르게 푸르게' 같은 말을 반복(첩어·대구)해 리듬과 각인을 만든 병렬 카피"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Eat fresh. Feel good.",
+            "brand": "Subway",
+            "year": "2021",
+            "note": "두 개의 명령형 동사구를 같은 구조로 병치 — 대구·병렬의 전형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "subtraction",
+    "domain": "creative-strategy",
+    "category": "카피 공식",
+    "title": "빼기",
+    "titleEn": "Subtraction / Simplification",
+    "origin": "유병욱 『생각의 기쁨』 등(8법칙)",
+    "year": 2017,
+    "oneLiner": "덜어내 한 메시지만 남길 때 더 강해진다.",
+    "credibility": "established",
+    "keywords": [
+      "단순화",
+      "인지부하",
+      "유창성",
+      "빼기"
+    ],
+    "related": [
+      "parallelism",
+      "pyramid-principle",
+      "success-heath",
+      "pragnanz"
+    ],
+    "detail": {
+      "desc": "메시지·요소를 덜어내 핵심 하나만 남기는 단순화 원리. 8법칙의 한 항목으로, 디자인과 카피 모두에서 '무엇을 넣을까'보다 '무엇을 뺄까'를 묻는다.",
+      "rationale": "★ 정정 반영: 단순화의 근거를 흔히 '밀러의 7±2'(1956)로 대지만 이는 오용이다. 밀러의 7±2는 작업기억이 한 번에 회상할 수 있는 '청크 수'에 관한 것으로, 화면·카피를 단순화해야 한다는 직접 근거가 아니다. 올바른 근거는 인지 부하 이론(Sweller 1988)과 처리 유창성(Reber)이다 — 처리할 정보가 적을수록 부하가 낮고, 쉽게 처리되는 메시지가 더 진실·호감으로 느껴진다.",
+      "apply": [
+        "카피 초안에서 핵심 약속을 가린 채 읽었을 때 군더더기 문장을 지운다.",
+        "한 화면에 메시지가 둘 이상이면 부차적인 것을 다음 단계로 미룬다.",
+        "단순화의 근거로 '7±2'를 인용하지 말고 인지 부하·유창성으로 설명한다."
+      ],
+      "sources": [
+        {
+          "label": "Sweller 1988, Cognitive Load During Problem Solving",
+          "url": "https://doi.org/10.1207/s15516709cog1202_4"
+        },
+        {
+          "label": "이론카탈로그 ★ 8법칙 매핑 정정(06)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "사람을 향합니다",
+            "brand": "SK텔레콤",
+            "year": "2005",
+            "note": "통신 스펙·요금을 다 덜어내고 다섯 글자로 압축한 극단적 단순화 슬로건"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Just do it.",
+            "brand": "Nike",
+            "year": "1988",
+            "note": "설명을 0으로 줄인 세 단어 — 빼기(subtraction)의 정점"
+          },
+          {
+            "copy": "Think different.",
+            "brand": "Apple",
+            "year": "1997",
+            "note": "문법까지 덜어낸 두 단어로 브랜드 태도를 압축한 빼기 슬로건"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "insight-aha",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "통찰(아하 모먼트)",
+    "titleEn": "Insight / Aha Moment",
+    "origin": "유병욱 8법칙 → 게슈탈트·Kounios & Beeman",
+    "year": 2009,
+    "oneLiner": "막혔던 문제가 갑자기 재구성되며 '아하' 하고 풀린다.",
+    "credibility": "established",
+    "keywords": [
+      "통찰",
+      "아하",
+      "재구성",
+      "게슈탈트"
+    ],
+    "related": [
+      "bisociation",
+      "lateral-thinking",
+      "synectics",
+      "drop"
+    ],
+    "detail": {
+      "desc": "문제를 노려보다 갑자기 구조가 재편되며 해답이 떠오르는 통찰 경험. 8법칙의 '인사이트' 항목이 이를 가리킨다.",
+      "rationale": "★ 정정 반영: 8법칙에서 통찰을 de Bono의 '수평적 사고'로 매핑하는 경우가 있으나, de Bono의 이론은 유사과학이라는 비판(Sternberg 등)을 받는다. 통찰의 심리학적 근거는 게슈탈트의 'Aha 체험' 연구와 Kounios & Beeman(2009)의 신경과학으로 교체하는 것이 정확하다 — 통찰 직전 우반구 활동과 알파파 변화가 관찰되며, 통찰은 '단계적 추론'이 아니라 갑작스런 표상 재구성으로 일어난다.",
+      "apply": [
+        "막힌 문제는 잠시 내려놓고 무관한 활동(부화기)을 거쳐 재접근한다.",
+        "문제의 전제를 의심하고 표현을 바꿔 재구성(reframe)한다.",
+        "통찰을 '수평적 사고'로 설명하지 말고 표상 재구성·부화 효과로 설명한다."
+      ],
+      "sources": [
+        {
+          "label": "Kounios & Beeman 2009, The Aha! Moment",
+          "url": "https://doi.org/10.1111/j.1467-8721.2009.01638.x"
+        },
+        {
+          "label": "이론카탈로그 ★ 8법칙 매핑 정정(07)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "열심히 일한 당신, 떠나라!",
+            "brand": "현대카드",
+            "year": "2002",
+            "note": "카드 혜택이 아니라 '떠나야 할 만큼 지친 우리'라는 날카로운 삶의 인사이트를 그대로 카피로 쓴 통찰형"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Lemon.",
+            "brand": "Volkswagen (DDB)",
+            "year": "1960",
+            "note": "'불량품'을 뜻하는 lemon을 새 차 밑에 붙여 '그래서 우리는 불량을 골라낸다'로 뒤집은 통찰·리프레임"
+          },
+          {
+            "copy": "A diamond is forever.",
+            "brand": "De Beers",
+            "year": "1947",
+            "note": "다이아의 영원함=사랑의 영원함이라는 인사이트로 약혼반지 관습 자체를 만들어낸 통찰형 카피"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "usp",
+    "domain": "creative-strategy",
+    "category": "광고 거장",
+    "title": "USP",
+    "titleEn": "Unique Selling Proposition",
+    "origin": "Rosser Reeves, Reality in Advertising",
+    "year": 1961,
+    "oneLiner": "경쟁사가 못/안 하는 단일 독자적 편익을 반복 제안하라.",
+    "credibility": "industry",
+    "keywords": [
+      "차별화",
+      "단일 편익",
+      "반복",
+      "제안"
+    ],
+    "related": [
+      "positioning",
+      "fab",
+      "ogilvy"
+    ],
+    "detail": {
+      "desc": "모든 광고는 '이 제품을 사면 이 구체적 이득을 얻는다'는 하나의 독자적 제안을 담아야 하고, 그 제안은 경쟁사가 하지 못하거나 하지 않는 것이어야 하며, 대중을 움직일 만큼 강해야 한다는 원칙. Rosser Reeves가 1961년 정식화했다.",
+      "rationale": "차별화와 단일 메시지 집중의 결합이다. 후대에 R-USP(Relevant·Unique·Significant·Persuasive) 척도로 측정 가능하게 발전했다. 다만 모든 제품이 진짜 독자적 편익을 갖지는 않으며, 기능 차별화가 어려운 포화 시장에선 USP보다 브랜드 이미지·포지셔닝이 더 유효하다(USP의 한계).",
+      "apply": [
+        "'우리만 말할 수 있는 한 문장'을 찾고 모든 광고에서 일관되게 반복한다.",
+        "USP 후보가 경쟁사도 말할 수 있는 것이면 진짜 차별점이 아니므로 폐기한다.",
+        "기능 차별이 없으면 USP 대신 이미지·포지셔닝 전략으로 전환한다."
+      ],
+      "sources": [
+        {
+          "label": "Rosser Reeves, Reality in Advertising (1961)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "흔들어라, 더 부드러워진다",
+            "brand": "처음처럼",
+            "year": "2007",
+            "note": "'흔들면 부드러워진다'는 단일 편익만 집요하게 반복한 USP"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Melts in your mouth, not in your hands.",
+            "brand": "M&M's",
+            "year": "1954",
+            "note": "'손에서 안 녹는다'는 단 하나의 독자 편익만 반복하는 USP의 원형"
+          },
+          {
+            "copy": "Fresh, hot pizza delivered in 30 minutes or less, or it's free.",
+            "brand": "Domino's",
+            "year": "1979",
+            "note": "'30분 배달'이라는 단일 편익을 보증까지 걸어 반복한 USP"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ogilvy",
+    "domain": "creative-strategy",
+    "category": "광고 거장",
+    "title": "오길비 — 브랜드 이미지·롱카피",
+    "titleEn": "Ogilvy: Brand Image & Long Copy",
+    "origin": "David Ogilvy",
+    "year": 1963,
+    "oneLiner": "헤드라인이 80%, 롱카피가 판다, 리서치가 이끈다.",
+    "credibility": "industry",
+    "keywords": [
+      "헤드라인",
+      "롱카피",
+      "브랜드 이미지",
+      "리서치"
+    ],
+    "related": [
+      "usp",
+      "hopkins",
+      "four-u"
+    ],
+    "detail": {
+      "desc": "데이비드 오길비의 카피 철학: 헤드라인이 광고 효과의 대부분을 좌우하고('헤드라인을 읽는 사람이 본문 읽는 사람의 5배'), 팩트가 풍부한 롱카피가 실제로 팔며, 모든 결정은 소비자 리서치에 근거하고, 장기적으로는 일관된 브랜드 이미지가 자산이 된다는 입장. 『어느 광고인의 고백』(1963)에 집약돼 있다.",
+      "rationale": "오길비의 원칙은 다이렉트 마케팅 시절의 측정 경험에서 나온 경험칙이다. '80센트' 같은 수치는 통제된 실험값이 아니라 실무 관찰이므로 정확한 비율로 받아들이면 안 된다. 그럼에도 '헤드라인 우선·증거 기반·일관된 이미지'라는 골격은 오늘날에도 실무 표준으로 통한다.",
+      "apply": [
+        "헤드라인 후보를 본문보다 더 많이 쓰고 더 오래 다듬는다.",
+        "고관여·고가 제품은 팩트가 충분한 롱카피로 신뢰를 쌓는다.",
+        "캠페인마다 톤·비주얼을 흩뜨리지 말고 일관된 브랜드 이미지로 축적한다."
+      ],
+      "sources": [
+        {
+          "label": "David Ogilvy, Confessions of an Advertising Man (1963)"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock.",
+            "brand": "Rolls-Royce (Ogilvy)",
+            "year": "1958",
+            "note": "구체적 팩트 한 줄을 헤드라인으로 삼고 그 아래 긴 롱카피로 논증한 오길비식 롱카피·헤드라인"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "burnett",
+    "domain": "creative-strategy",
+    "category": "광고 거장",
+    "title": "버넷 — 내재적 드라마",
+    "titleEn": "Burnett: Inherent Drama",
+    "origin": "Leo Burnett",
+    "year": null,
+    "oneLiner": "제품 속에 이미 들어 있는 드라마를 캐릭터로 극화하라.",
+    "credibility": "industry",
+    "keywords": [
+      "내재적 드라마",
+      "캐릭터",
+      "상징",
+      "스토리텔링"
+    ],
+    "related": [
+      "brand-archetypes",
+      "storybrand"
+    ],
+    "detail": {
+      "desc": "레오 버넷의 철학: 모든 제품에는 본래 흥미로운 드라마가 들어 있으며, 광고는 그것을 발굴해 기억에 남는 캐릭터·이미지로 극화해야 한다는 입장. 말보로 맨, 졸리 그린 자이언트, 토니 더 타이거가 대표 사례다.",
+      "rationale": "추상적 편익을 구체적 캐릭터·상징으로 번역하면 구체성 효과와 정서적 부호화가 강해져 더 오래 기억된다. 또 일관된 마스코트는 브랜드 자산(Aaker)으로 축적된다. 직관에 기반한 실무 지혜로, 체계적 이론이라기보다 강력한 발상 태도다.",
+      "apply": [
+        "제품의 평범한 특징에서 '극적으로 보일 만한 진실'을 찾아낸다.",
+        "추상적 가치(자유·신뢰)를 상징하는 캐릭터·이미지로 구체화한다.",
+        "한 번 만든 상징은 캠페인마다 바꾸지 말고 자산으로 키운다."
+      ],
+      "sources": [
+        {
+          "label": "이론카탈로그 B. 광고 크리에이티브 사조·거장"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "대한민국에서 김대리로 산다는 것",
+            "brand": "박카스(동아제약)",
+            "year": "2012",
+            "note": "특정 직업군 캐릭터의 고단한 일상을 드라마로 보여줘 제품에 내재된 공감 드라마를 끌어낸 캠페인"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Come to where the flavor is. Come to Marlboro Country.",
+            "brand": "Marlboro (Leo Burnett)",
+            "year": "1963",
+            "note": "카우보이(말보로맨)라는 캐릭터·세계관 드라마로 제품의 '내재적 드라마'를 구현한 버넷의 대표작"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hopkins",
+    "domain": "creative-strategy",
+    "category": "광고 거장",
+    "title": "홉킨스 — 과학적 광고",
+    "titleEn": "Hopkins: Scientific Advertising",
+    "origin": "Claude C. Hopkins, Scientific Advertising",
+    "year": 1923,
+    "oneLiner": "reason-why 카피를 쿠폰·테스트로 측정·검증하라.",
+    "credibility": "industry",
+    "keywords": [
+      "reason-why",
+      "테스트",
+      "측정",
+      "A/B"
+    ],
+    "related": [
+      "ogilvy",
+      "usp",
+      "hierarchy-of-effects"
+    ],
+    "detail": {
+      "desc": "클로드 홉킨스의 1923년 저작이 정립한 광고관: 광고는 예술이 아니라 측정 가능한 세일즈맨십이며, 구매 이유(reason-why)를 명확히 제시하고 쿠폰 회수·키 코드로 반응을 추적해 검증해야 한다는 입장. 사실상 A/B 테스트의 시조다.",
+      "rationale": "'느낌'이 아니라 데이터로 광고 효과를 판단하자는 실증주의의 출발점. 다이렉트 리스폰스의 토대를 놓았다. 단 그의 시대엔 측정 가능한 다이렉트 매체만 다뤘기에, 브랜드 이미지처럼 즉각 측정되지 않는 장기 효과는 과소평가하는 한계가 있다.",
+      "apply": [
+        "모든 카피·오퍼를 측정 가능한 형태(코드·랜딩·전환 추적)로 내보낸다.",
+        "직감으로 정하지 말고 두 버전을 실제 테스트해 이긴 쪽을 남긴다.",
+        "구매 이유를 막연한 분위기가 아니라 구체적 reason-why로 적는다."
+      ],
+      "sources": [
+        {
+          "label": "Claude C. Hopkins, Scientific Advertising (1923)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "맥주의 90%는 물입니다. 물이 좋아야 맥주가 좋습니다",
+            "brand": "하이트맥주",
+            "year": "1993",
+            "note": "'왜 깨끗한가'를 물로 설명하는 reason-why — 사실 자체는 평범해도 먼저 말해 선점한 홉킨스식 논법"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Schlitz beer — washed with live steam.",
+            "brand": "Schlitz",
+            "year": "1919",
+            "note": "병을 증기로 세척한다는 '이유'를 설명해 5위에서 1위로 끌어올린 홉킨스 reason-why의 원조 사례"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "james-webb-young",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "아이디어 5단계",
+    "titleEn": "A Technique for Producing Ideas",
+    "origin": "James Webb Young",
+    "year": 1940,
+    "oneLiner": "아이디어는 낡은 요소의 새 조합이며 5단계로 길러진다.",
+    "credibility": "industry",
+    "keywords": [
+      "조합",
+      "부화",
+      "유레카",
+      "발상절차"
+    ],
+    "related": [
+      "bisociation",
+      "drop",
+      "scamper",
+      "insight-aha"
+    ],
+    "detail": {
+      "desc": "제임스 웹 영의 고전: '아이디어란 낡은 요소들의 새로운 조합'이며, 그 능력은 자료 수집(specific+general)→소화→부화(내려놓기)→유레카→구체화·검증의 5단계 절차로 기를 수 있다는 방법론. 광고 발상의 표준 절차로 통한다.",
+      "rationale": "양연상(Koestler)·개념적 혼성과 같은 '조합으로서의 창의' 관점을 실무 절차로 정리했다. 특히 '부화기(incubation)' 단계는 통찰 연구가 지지하는 실재 효과다 — 의식적으로 매달리길 멈추면 무의식적 재조합이 일어나 'Aha'가 온다. 신비화하지 않고 훈련 가능한 기술로 본 점이 핵심이다.",
+      "apply": [
+        "발상 전에 구체 자료와 폭넓은 일반 지식을 충분히 모은다.",
+        "막히면 의식적으로 문제를 내려놓는 '부화기'를 일정에 넣는다.",
+        "떠오른 아이디어를 곧장 현실에서 다듬고 검증하는 5단계까지 마친다."
+      ],
+      "sources": [
+        {
+          "label": "James Webb Young, A Technique for Producing Ideas (1940)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "우리가 어떤 민족입니까",
+            "brand": "배달의민족",
+            "year": "2014",
+            "note": "민족주의 웅변 어법 + 배달앱이라는 낡은 요소들을 새로 조합해 만든 발상 — 기존 것의 새 결합"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Red Bull gives you wings.",
+            "brand": "Red Bull",
+            "year": "1987",
+            "note": "'에너지 음료'와 '날개'라는 익숙한 요소들을 새 관계로 묶어낸 조합 발상"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "scamper",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "SCAMPER",
+    "titleEn": "SCAMPER",
+    "origin": "Bob Eberle (Osborn 1953 체크리스트 파생)",
+    "year": 1971,
+    "oneLiner": "대체·결합·응용·수정·전용·제거·역전 7질문으로 변주하라.",
+    "credibility": "industry",
+    "keywords": [
+      "체크리스트",
+      "변형",
+      "역발상",
+      "결합"
+    ],
+    "related": [
+      "james-webb-young",
+      "synectics",
+      "lateral-thinking",
+      "random-word"
+    ],
+    "detail": {
+      "desc": "기존 대상에 Substitute(대체)·Combine(결합)·Adapt(응용)·Modify(확대/축소)·Put to other use(전용)·Eliminate(제거)·Reverse(역전) 7가지 질문을 던져 아이디어를 변주하는 체크리스트. Osborn의 체크리스트를 Bob Eberle가 1971년 약어로 정리했다.",
+      "rationale": "'무에서 창조'가 아니라 기존 것의 체계적 조작으로 발상을 강제하는 도구다. 강제 연상·관점 전환을 절차화해 빈 종이의 막막함을 줄인다. 단 SCAMPER 자체가 창의성을 높인다는 실증 근거는 약하며, 발산을 돕는 진입 도구로 보는 것이 정확하다.",
+      "apply": [
+        "막힌 아이디어에 7개 질문을 차례로 던져 최소 7개 변주를 강제로 뽑는다.",
+        "특히 'Eliminate(빼면?)'와 'Reverse(거꾸로 하면?)'에서 의외의 답을 노린다.",
+        "변주 중 실현 가능성보다 신선함을 먼저 보고 추린 뒤 검증으로 넘어간다."
+      ],
+      "sources": [
+        {
+          "label": "Bob Eberle, SCAMPER (1971)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "흔들어라, 더 부드러워진다",
+            "brand": "처음처럼",
+            "year": "2007",
+            "note": "그냥 따라 마시던 소주에 '흔드는' 행위를 더해(Modify·Adapt) 음용 경험을 비튼 변형 발상"
+          }
+        ],
+        "en": [
+          {
+            "copy": "The man your man could smell like.",
+            "brand": "Old Spice (Wieden+Kennedy)",
+            "year": "2010",
+            "note": "남성용 제품 광고의 화자·타깃을 '구매 결정하는 여성'으로 뒤집은(Reverse) SCAMPER식 변형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "random-word",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "무작위 단어",
+    "titleEn": "Random Word / Random Entry",
+    "origin": "Edward de Bono",
+    "year": 1970,
+    "oneLiner": "무관한 명사를 강제로 연결해 사고의 패턴을 깬다.",
+    "credibility": "industry",
+    "keywords": [
+      "강제연결",
+      "무작위",
+      "패턴깨기",
+      "발산"
+    ],
+    "related": [
+      "scamper",
+      "synectics",
+      "bisociation",
+      "drop"
+    ],
+    "detail": {
+      "desc": "주제와 전혀 무관한 단어를 무작위로 골라 강제로 연결시키며 새 연상을 끌어내는 발상 기법. de Bono의 도구 중 즉시 적용성이 가장 높다고 평가된다.",
+      "rationale": "익숙한 연상 경로를 우회하게 만드는 것이 핵심이다. 뇌는 같은 주제 안에선 늘 같은 길을 가지만, 무관한 단어가 끼어들면 새 연결을 만들어야 해 낙차(스키마 불일치)가 생긴다. de Bono의 상위 이론('수평적 사고')은 유사과학 비판을 받지만, 무작위 단어 기법 자체는 강제 연상의 유효한 실무 도구다.",
+      "apply": [
+        "사전·주변 사물에서 명사 하나를 무작위로 뽑아 주제와 억지로 잇는다.",
+        "'이 단어의 속성이 우리 문제에 적용된다면?'을 끝까지 밀어붙인다.",
+        "한 단어에서 막히면 버리고 다른 무작위 단어로 빠르게 갈아탄다."
+      ],
+      "sources": [
+        {
+          "label": "Edward de Bono, Lateral Thinking (1970, random entry 기법)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "우리가 어떤 민족입니까",
+            "brand": "배달의민족",
+            "year": "2014",
+            "note": "'배달'과 전혀 다른 맥락의 '민족'을 강제로 연결해 명화 패러디로 확장한 의외의 결합"
+          }
+        ],
+        "en": [
+          {
+            "copy": "FCK.",
+            "brand": "KFC (Mother London)",
+            "year": "2018",
+            "note": "치킨 품절 사과를 자사명 철자를 뒤섞은 욕설 한 단어로 강제 연결한 위트"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "synectics",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "시네틱스",
+    "titleEn": "Synectics",
+    "origin": "William Gordon & George Prince",
+    "year": 1961,
+    "oneLiner": "네 가지 유추로 익숙한 것을 낯설게, 낯선 것을 익숙하게.",
+    "credibility": "industry",
+    "keywords": [
+      "유추",
+      "은유",
+      "낯설게",
+      "직접유추"
+    ],
+    "related": [
+      "random-word",
+      "scamper",
+      "bisociation",
+      "drop"
+    ],
+    "detail": {
+      "desc": "Gordon과 Prince의 집단 발상법. 직접 유추·개인 유추(자신이 대상이 되어봄)·상징 유추(압축된 모순)·환상 유추(불가능한 상상) 네 가지 유추로 문제를 다른 영역에 빗대어 '익숙한 것을 낯설게, 낯선 것을 익숙하게' 만든다.",
+      "rationale": "유추(analogy)는 한 영역의 구조를 다른 영역으로 옮겨 새 통찰을 낳는 핵심 인지 기제다. 개념적 혼성·양연상과 같은 가족으로, 은유적 발상을 절차화한 것이다. 광고에서 비유·메타포 아이디어를 체계적으로 뽑는 데 유효하다.",
+      "apply": [
+        "문제를 '이것은 무엇과 닮았나'로 다른 영역(자연·기계·신화)에 빗댄다.",
+        "개인 유추로 '내가 이 제품이라면?'을 상상해 새 관점을 얻는다.",
+        "유추에서 나온 이미지를 광고의 비주얼 메타포로 발전시킨다."
+      ],
+      "sources": [
+        {
+          "label": "Gordon & Prince, Synectics (1961)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "말하지 않아도 알아요",
+            "brand": "오리온 초코파이",
+            "year": "1989",
+            "note": "과자에 '정(情)'이라는 인간 정서를 비유로 입혀 가족·이웃의 정으로 유추시킨 은유 카피"
+          },
+          {
+            "copy": "고향의 맛, 다시다",
+            "brand": "CJ 다시다",
+            "year": "1987",
+            "note": "조미료 맛을 혀의 맛이 아니라 '고향·어머니 손맛'으로 은유·상징화한 유추"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Red Bull gives you wings.",
+            "brand": "Red Bull",
+            "year": "1987",
+            "note": "에너지의 상승감을 '날개'에 빗댄 은유 — 추상적 효능을 신체 감각 이미지로 유추"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bisociation",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "양연상",
+    "titleEn": "Bisociation",
+    "origin": "Arthur Koestler, The Act of Creation",
+    "year": 1964,
+    "oneLiner": "양립 불가한 두 사고틀의 충돌이 창의를 낳는다.",
+    "credibility": "consensus",
+    "keywords": [
+      "충돌",
+      "이중연상",
+      "유머",
+      "창의"
+    ],
+    "related": [
+      "drop",
+      "synectics",
+      "random-word",
+      "james-webb-young"
+    ],
+    "detail": {
+      "desc": "아서 케스틀러의 개념. 평소엔 양립하지 않는 두 개의 사고 틀(matrix)이 한 지점에서 충돌·교차할 때 창의가 일어난다는 이론. 그 충돌은 맥락에 따라 유머(haha)·발견(aha)·예술(ahh)로 나타난다. 낙차·의외성의 상위 이론에 해당한다.",
+      "rationale": "창의를 '서로 먼 두 틀의 예기치 못한 연결'로 설명해 농담·통찰·은유를 하나의 메커니즘으로 묶었다. 스키마 불일치·개념적 혼성과 통한다. 철학적·기술적 개념이라 정밀한 실증보다는 통찰적 통설로 받아들여진다.",
+      "apply": [
+        "서로 먼 두 영역(고급/저급, 기술/감성)을 한 카피에서 충돌시킨다.",
+        "유머 광고는 두 틀의 갑작스런 전환(punch)으로 설계한다.",
+        "은유는 출발 영역과 도착 영역의 거리가 멀수록 신선함이 커짐을 활용한다."
+      ],
+      "sources": [
+        {
+          "label": "Arthur Koestler, The Act of Creation (1964)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "우리가 어떤 민족입니까",
+            "brand": "배달의민족",
+            "year": "2014",
+            "note": "비장한 민족 웅변 프레임과 '치킨·야식 배달' 프레임을 충돌시켜 웃음을 만든 양연상"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Where's the beef?",
+            "brand": "Wendy's",
+            "year": "1984",
+            "note": "거대한 빵과 빈약한 고기라는 두 프레임을 한 질문에 충돌시켜 경쟁사를 찌른 위트 — 양연상"
+          },
+          {
+            "copy": "FCK.",
+            "brand": "KFC (Mother London)",
+            "year": "2018",
+            "note": "'사과'라는 진지한 프레임과 욕설 프레임을 겹쳐 웃음·호감으로 전환한 두 프레임 충돌"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lateral-thinking",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "수평적 사고",
+    "titleEn": "Lateral Thinking",
+    "origin": "Edward de Bono",
+    "year": 1967,
+    "oneLiner": "수직(논리) 대신 패턴을 옆으로 재구성하는 사고.",
+    "credibility": "disputed",
+    "keywords": [
+      "수평적사고",
+      "패턴",
+      "de Bono",
+      "비판"
+    ],
+    "related": [
+      "random-word",
+      "insight-aha",
+      "scamper",
+      "synectics"
+    ],
+    "detail": {
+      "desc": "에드워드 드 보노가 만든 용어. 단계적 논리(수직적 사고) 대신 사고의 패턴 자체를 옆으로 비틀어 재구성하는 발상을 가리킨다. 대중적으로 큰 영향을 미쳤다.",
+      "rationale": "★ 비판 병기: 수평적 사고는 학계에서 유사과학에 가깝다는 비판을 받는다(Sternberg 등). 개념 정의가 모호하고, 그 효과를 입증하는 통제된 증거가 부족하며, 검증 가능한 예측을 내놓지 못한다는 것이 요지다. 다만 그 산하의 구체적 기법(무작위 단어 등)은 강제 연상 도구로서 실무 가치가 있으므로, '수평적 사고'라는 큰 틀의 과학성과 개별 기법의 유용성은 구분해서 보아야 한다.",
+      "apply": [
+        "'수평적 사고'를 검증된 이론으로 인용하지 말고 발상 태도·브랜드로 다룬다.",
+        "효과가 확인된 하위 기법(무작위 단어·도발 PO)만 골라 실무에 쓴다.",
+        "통찰의 메커니즘이 필요하면 게슈탈트 Aha·부화 효과로 설명을 보강한다."
+      ],
+      "sources": [
+        {
+          "label": "Edward de Bono, The Use of Lateral Thinking (1967)"
+        },
+        {
+          "label": "이론카탈로그 C. 발상·창의성 기법(유사과학 비판)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "침대는 가구가 아닙니다. 과학입니다.",
+            "brand": "에이스침대",
+            "year": "1993",
+            "note": "'침대=가구'라는 관습적 범주를 비틀어 '과학'으로 재정의 — 카테고리 자체를 옆으로 옮긴 수평적 발상의 교과서"
+          },
+          {
+            "copy": "열심히 일한 당신, 떠나라.",
+            "brand": "현대카드",
+            "year": "2002",
+            "note": "카드 혜택을 한마디도 말하지 않고 '떠남'을 권하는 역발상 — 기존 카드광고 공식을 옆으로 비켜선 발상"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Think Small.",
+            "brand": "Volkswagen (DDB)",
+            "year": "1959",
+            "note": "'크고 화려한 차가 좋다'는 시대 통념을 정면으로 비틀어 '작음'을 강점으로 — 관습 전복형 수평 사고의 원형"
+          },
+          {
+            "copy": "We're number two. We try harder.",
+            "brand": "Avis (DDB)",
+            "year": "1962",
+            "note": "약점(2등)을 숨기지 않고 강점으로 뒤집은 '유도(judo)식' 발상 — 통념을 옆으로 비튼 전형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "double-diamond",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "더블 다이아몬드",
+    "titleEn": "Double Diamond",
+    "origin": "British Design Council",
+    "year": 2004,
+    "oneLiner": "발산–수렴을 두 번 반복하는 디자인 프로세스.",
+    "credibility": "industry",
+    "keywords": [
+      "발산수렴",
+      "디자인프로세스",
+      "정의",
+      "전달"
+    ],
+    "related": [
+      "scamper",
+      "design-thinking",
+      "pyramid-principle",
+      "james-webb-young"
+    ],
+    "detail": {
+      "desc": "영국 디자인 카운슬이 정리한 디자인 프로세스 모델. Discover(발산)–Define(수렴)–Develop(발산)–Deliver(수렴)의 두 다이아몬드로, '올바른 문제를 찾는' 앞 다이아몬드와 '올바른 해법을 만드는' 뒤 다이아몬드를 구분한다.",
+      "rationale": "발산(넓게 펼치기)과 수렴(좁혀 결정하기)을 명시적으로 번갈아 배치해, 발상 단계에서 너무 일찍 좁히거나 끝까지 발산만 하는 실수를 막는다. Guilford의 발산/수렴 사고를 프로세스로 구조화한 것으로, 업계 표준으로 자리 잡았다.",
+      "apply": [
+        "문제 정의(앞 다이아몬드)와 해법 개발(뒤 다이아몬드)을 섞지 않고 분리한다.",
+        "각 단계에서 지금이 '펼칠 때'인지 '좁힐 때'인지 의식적으로 선언한다.",
+        "해법으로 바로 뛰지 말고 Discover/Define으로 '진짜 문제'부터 확인한다."
+      ],
+      "sources": [
+        {
+          "label": "British Design Council, The Double Diamond (2004~05)"
+        }
+      ]
+    }
+  },
+  {
+    "id": "design-thinking",
+    "domain": "creative-strategy",
+    "category": "발상법",
+    "title": "디자인 씽킹 5단계",
+    "titleEn": "Design Thinking",
+    "origin": "Tim Brown / IDEO, d.school",
+    "year": 2008,
+    "oneLiner": "공감→정의→발상→프로토타입→테스트의 인간중심 문제해결.",
+    "credibility": "disputed",
+    "keywords": [
+      "공감",
+      "프로토타입",
+      "인간중심",
+      "반복"
+    ],
+    "related": [
+      "double-diamond",
+      "scamper",
+      "storybrand",
+      "james-webb-young"
+    ],
+    "detail": {
+      "desc": "IDEO와 스탠퍼드 d.school이 대중화한 인간중심 문제해결 프로세스: 공감(Empathize)→정의(Define)→발상(Ideate)→프로토타입(Prototype)→테스트(Test). 디자인 사고를 비전문가도 쓸 수 있는 단계로 패키징했다.",
+      "rationale": "★ 비판 병기: 사용자 공감·빠른 프로토타이핑이라는 핵심 가치는 유효하나, '5단계 패키지'로서의 디자인 씽킹은 과대평가·상업화 비판을 받는다. IDEO 진영의 Bruce Nussbaum은 2011년 디자인 씽킹을 '실패한 실험'이라 자기비판했다. 단계만 따라 하면 표면적 혁신에 그치기 쉽고, 깊은 도메인 전문성을 대체하지 못한다.",
+      "apply": [
+        "단계를 의례적으로 밟지 말고 '진짜 사용자 관찰(공감)'에 시간을 쏟는다.",
+        "아이디어를 회의실에서 평가하지 말고 거친 프로토타입으로 빨리 테스트한다.",
+        "5단계를 만능 공식으로 신봉하지 말고 도메인 전문성과 병행한다."
+      ],
+      "sources": [
+        {
+          "label": "Tim Brown 2008, Design Thinking (HBR)",
+          "url": "https://hbr.org/2008/06/design-thinking"
+        },
+        {
+          "label": "Bruce Nussbaum 2011, Design Thinking Is a Failed Experiment"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "You are more beautiful than you think.",
+            "brand": "Dove (Real Beauty / Real Beauty Sketches)",
+            "year": "2004",
+            "note": "'여성 4%만 자신을 아름답다고 답한다'는 사용자 리서치 인사이트에서 출발 — 제품속성이 아닌 사용자 공감에서 메시지를 도출한 디자인 씽킹 사례"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cialdini",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "치알디니 설득 7원칙",
+    "titleEn": "Cialdini's Principles of Persuasion",
+    "origin": "Robert Cialdini, Influence",
+    "year": 1984,
+    "oneLiner": "상호성·일관성·사회적증거·권위·호감·희소성·연대.",
+    "credibility": "consensus",
+    "keywords": [
+      "상호성",
+      "사회적증거",
+      "희소성",
+      "권위"
+    ],
+    "related": [
+      "loss-aversion",
+      "framing",
+      "elm"
+    ],
+    "detail": {
+      "desc": "로버트 치알디니가 정리한 설득의 6원칙(상호성·일관성/약속·사회적 증거·권위·호감·희소성)에 2016년 일곱 번째 '연대(unity, 같은 정체성)'를 더한 프레임. 마케팅·세일즈에서 가장 널리 인용된다.",
+      "rationale": "각 원칙은 개별 실험 근거가 있으나, 효과 크기는 맥락에 크게 의존하고 대중서에서 과장되는 경향이 있다(통설). 예컨대 사회적 증거는 '긍정적 규범'일 때만 작동하고 부정 규범을 알리면 역효과(부메랑), 희소성은 진정성이 없으면 신뢰를 깎는다. 원칙 목록으로 외우기보다 '언제 작동/역작동하는가'의 조건까지 알아야 한다.",
+      "apply": [
+        "후기·사용자 수(사회적 증거)는 '대다수가 한다'는 긍정 규범으로만 제시한다.",
+        "희소성·마감은 실제일 때만 쓴다 — 거짓 희소성은 한 번에 신뢰를 잃는다.",
+        "여러 원칙을 남발하지 말고 제품·맥락에 맞는 한둘을 정직하게 쓴다."
+      ],
+      "sources": [
+        {
+          "label": "Robert Cialdini, Influence: The Psychology of Persuasion (1984/2016)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "20개의 건강한 치아를 80세까지",
+            "brand": "애경 2080 치약",
+            "year": "1998",
+            "note": "구체 숫자(20·80)로 권위·신뢰 단서를 심은 사회적 약속형 카피 — 숫자 마케팅으로 전문성·신뢰 원칙 자극"
+          }
+        ],
+        "en": [
+          {
+            "copy": "More than 80% of dentists recommend Colgate.",
+            "brand": "Colgate",
+            "year": "2007",
+            "note": "치과의사(권위)+다수(사회적 증거)를 결합한 권위·합의 원칙의 전형 — 영국 ASA가 오인소지로 제재할 만큼 설득력이 강했던 사례"
+          },
+          {
+            "copy": "A Diamond is Forever.",
+            "brand": "De Beers (N.W. Ayer)",
+            "year": "1948",
+            "note": "약혼반지=다이아라는 사회적 규범(합의·사회적 증거)을 창조 — '모두가 그렇게 한다'는 합의 원칙을 광고로 발명"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "loss-aversion",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "전망이론·손실회피",
+    "titleEn": "Prospect Theory / Loss Aversion",
+    "origin": "Daniel Kahneman & Amos Tversky",
+    "year": 1979,
+    "oneLiner": "사람은 이득보다 같은 크기의 손실을 더 크게 느낀다.",
+    "credibility": "established",
+    "keywords": [
+      "손실회피",
+      "준거점",
+      "전망이론",
+      "위험"
+    ],
+    "related": [
+      "framing",
+      "anchoring",
+      "pas"
+    ],
+    "detail": {
+      "desc": "카너먼과 트버스키의 전망이론. 사람은 절대적 부가 아니라 준거점(reference point) 대비 변화로 가치를 판단하며, 같은 크기라도 손실의 고통이 이득의 기쁨보다 더 크게 느껴진다(손실회피). 흔히 '손실이 이득의 약 2배'로 인용된다.",
+      "rationale": "행동경제학의 핵심 축으로 견고하게 재현된 이론이며 카너먼의 노벨상 근거다. 단 '2배'라는 손실회피 계수는 조건부 평균값이며 영역·금액·개인에 따라 달라지므로 절대 상수로 받아들이면 안 된다. 카피에서는 '얻을 이득'보다 '놓칠 손실'을 부각하면 행동을 더 강하게 유도할 수 있다.",
+      "apply": [
+        "혜택을 '얻는다'보다 '놓친다(이번에 안 하면 잃는 것)'로 프레이밍한다.",
+        "무료 체험·환불 보장으로 손실 위험을 제거해 구매 저항을 낮춘다.",
+        "손실 소구를 남용하면 불안 마케팅이 되므로 정직한 범위에서만 쓴다."
+      ],
+      "sources": [
+        {
+          "label": "Kahneman & Tversky 1979, Prospect Theory",
+          "url": "https://www.jstor.org/stable/1914185"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요.",
+            "brand": "경동보일러",
+            "year": "1991",
+            "note": "추운 시골 부모님이 떠는 모습 → '지금 안 해드리면 불효'라는 손실·죄책감 프레임으로 구매를 압박한 감성 손실회피"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Got Milk?",
+            "brand": "California Milk Processor Board (Goodby Silverstein)",
+            "year": "1993",
+            "note": "'우유가 떨어졌을 때의 곤란함(결핍)'을 보여줘 손실회피를 자극 — 효익이 아니라 '없을 때의 고통'으로 소구한 정석"
+          },
+          {
+            "copy": "When it absolutely, positively has to be there overnight.",
+            "brand": "FedEx (Ally & Gargano)",
+            "year": "1978",
+            "note": "'못 가면 큰일난다'는 실패의 손실을 환기 — 안 보내면 잃는다는 손실 프레임으로 신뢰를 판매"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "framing",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "프레이밍 효과",
+    "titleEn": "Framing Effect",
+    "origin": "Amos Tversky & Daniel Kahneman",
+    "year": 1981,
+    "oneLiner": "같은 사실도 표현 방식이 선택을 뒤집는다.",
+    "credibility": "established",
+    "keywords": [
+      "프레이밍",
+      "이득/손실",
+      "표현",
+      "관점"
+    ],
+    "related": [
+      "loss-aversion",
+      "anchoring",
+      "drop",
+      "cialdini"
+    ],
+    "detail": {
+      "desc": "논리적으로 동일한 정보라도 어떻게 표현(frame)하느냐에 따라 선택이 달라지는 현상. '90% 생존'과 '10% 사망', '95% 무지방'과 '5% 지방'은 같은 사실이지만 다른 반응을 낳는다. 8법칙의 '반대편의 점(관점 전환)'의 학술 근거다.",
+      "rationale": "전망이론의 가치함수에서 따라 나오는 견고한 효과로 폭넓게 재현된다. 준거점이 어디냐에 따라 같은 결과가 이득으로도 손실로도 보이기 때문이다. 카피에서는 '무엇을 말하느냐'만큼 '어느 프레임으로 말하느냐'가 결정적임을 뜻한다.",
+      "apply": [
+        "같은 혜택을 이득 프레임·손실 프레임 두 버전으로 써보고 더 강한 쪽을 택한다.",
+        "예방·안전 메시지는 손실 프레임, 향상·획득 메시지는 이득 프레임이 잘 맞는다.",
+        "수치를 긍정형(생존율·만족도)으로 돌려 같은 사실을 유리하게 표현한다."
+      ],
+      "sources": [
+        {
+          "label": "Tversky & Kahneman 1981, The Framing of Decisions",
+          "url": "https://doi.org/10.1126/science.7455683"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "75% lean (vs. 25% fat)",
+            "brand": "Ground beef framing study (Levin & Gaeth)",
+            "year": "1988",
+            "note": "동일한 고기를 '75% 살코기'로 표현하면 '25% 지방'보다 호의적 평가 — 같은 사실의 표현 차이가 인식을 바꾸는 프레이밍 실증"
+          },
+          {
+            "copy": "A Diamond is Forever.",
+            "brand": "De Beers (N.W. Ayer)",
+            "year": "1948",
+            "note": "다이아 구매라는 소비를 '영원한 사랑'으로 프레이밍 — 같은 거래를 '소비'가 아닌 '영속'으로 표현한 가치 프레임"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "anchoring",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "앵커링",
+    "titleEn": "Anchoring",
+    "origin": "Amos Tversky & Daniel Kahneman",
+    "year": 1974,
+    "oneLiner": "처음 본 숫자가 무관해도 이후 판단을 끌어당긴다.",
+    "credibility": "established",
+    "keywords": [
+      "닻",
+      "기준점",
+      "가격",
+      "숫자"
+    ],
+    "related": [
+      "framing",
+      "loss-aversion",
+      "cialdini"
+    ],
+    "detail": {
+      "desc": "판단 전에 제시된 임의의 숫자(닻)가 이후 추정·평가를 그 방향으로 끌어당기는 휴리스틱. 정가를 먼저 보여준 뒤 할인가를 제시하거나, 비싼 옵션을 먼저 배치하는 가격 전략의 토대다.",
+      "rationale": "재현성이 높은 견고한 효과이며, 특히 가격처럼 명시적 기준점이 있을 때 강건하다. 사람은 무관한 출발점에서 충분히 멀리 조정하지 못하기 때문이다. 8법칙의 '숫자' 항목에서 닻 효과는 '그 숫자가 기준점으로 쓰일 때'만 해당함에 유의(모든 숫자가 닻은 아니다).",
+      "apply": [
+        "할인 표시는 '원가(닻) → 할인가' 순으로 보여 절약 폭을 크게 느끼게 한다.",
+        "프리미엄 옵션을 맨 위에 배치해 중간 가격을 합리적으로 보이게 한다.",
+        "협상·제안에선 원하는 방향의 첫 숫자를 먼저 제시한다."
+      ],
+      "sources": [
+        {
+          "label": "Tversky & Kahneman 1974, Judgment under Uncertainty",
+          "url": "https://doi.org/10.1126/science.185.4157.1124"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "Isn't two months' salary a small price to pay for something that lasts forever?",
+            "brand": "De Beers",
+            "year": "1980s",
+            "note": "'두 달치 월급'이라는 기준점(앵커)을 심어 반지 지출의 정상 가격대를 설정 — 근거 없는 숫자를 표준 가격 닻으로 만든 앵커링 교과서"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "elm",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "정교화 가능성 모델(ELM)",
+    "titleEn": "Elaboration Likelihood Model",
+    "origin": "Richard Petty & John Cacioppo",
+    "year": 1986,
+    "oneLiner": "관여가 높으면 논증으로, 낮으면 주변 단서로 설득된다.",
+    "credibility": "established",
+    "keywords": [
+      "중심경로",
+      "주변경로",
+      "관여도",
+      "설득"
+    ],
+    "related": [
+      "cialdini",
+      "hierarchy-of-effects"
+    ],
+    "detail": {
+      "desc": "Petty와 Cacioppo의 이중 경로 설득 이론. 메시지를 깊이 처리할 동기·능력이 높으면 '중심 경로'(논증의 질)로, 낮으면 '주변 경로'(출처 매력·전문가·반복 같은 단서)로 태도가 형성된다. 중심 경로로 형성된 태도가 더 오래가고 행동으로 잘 이어진다.",
+      "rationale": "설득 연구의 핵심 이론으로 폭넓게 검증됐다. '같은 메시지가 왜 누군가에겐 논리로, 누군가에겐 분위기로 통하는가'를 관여도로 설명한다. 광고 소구의 정보적/변형적 구분과 직접 연결된다 — 고관여엔 근거를, 저관여엔 단서를.",
+      "apply": [
+        "고관여·고가 제품엔 탄탄한 논증·데이터(중심 경로)를 제공한다.",
+        "저관여·충동 제품엔 매력·반복·권위 같은 주변 단서를 강화한다.",
+        "타깃의 관여 수준을 먼저 추정해 논리/감성 비중을 정한다."
+      ],
+      "sources": [
+        {
+          "label": "Petty & Cacioppo 1986, The Elaboration Likelihood Model",
+          "url": "https://doi.org/10.1016/S0065-2601(08)60214-2"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "침대는 가구가 아닙니다. 과학입니다.",
+            "brand": "에이스침대",
+            "year": "1993",
+            "note": "인체공학·수면공학 논거로 '저관여→고관여'를 유도 — 중심경로(논증) 설득을 노린 고관여 카피"
+          }
+        ],
+        "en": [
+          {
+            "copy": "15 minutes could save you 15% or more on car insurance.",
+            "brand": "GEICO",
+            "year": "1990s~",
+            "note": "'15분·15%'라는 구체 수치 논거(중심경로)로 설득 — 효익을 숫자로 따지게 만드는 고관여 논증형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "system-1-2",
+    "domain": "creative-strategy",
+    "category": "설득 심리",
+    "title": "시스템 1 / 시스템 2",
+    "titleEn": "System 1 / System 2",
+    "origin": "Daniel Kahneman, Thinking, Fast and Slow",
+    "year": 2011,
+    "oneLiner": "빠른 직관(1)과 느린 숙고(2)의 두 사고 양식.",
+    "credibility": "consensus",
+    "keywords": [
+      "직관",
+      "숙고",
+      "이중처리",
+      "재현성"
+    ],
+    "related": [
+      "elm",
+      "framing",
+      "anchoring"
+    ],
+    "detail": {
+      "desc": "카너먼이 대중화한 이중 처리 은유. 시스템 1은 자동적·빠른·정서적 직관이고, 시스템 2는 노력이 드는 느린 논리적 사고다. 대부분의 일상 판단은 시스템 1이 처리하며, 많은 인지 편향이 여기서 나온다고 본다.",
+      "rationale": "★ 재현성 경고 반영: 빠른/느린 두 양식이라는 큰 틀과 프레이밍·앵커링 같은 핵심 편향은 견고하다. 그러나 이 책에 실린 '사회적 점화(priming)'와 '에고 고갈(ego depletion)'은 재현 위기로 큰 타격을 입었고, 카너먼 본인도 2017년 점화 연구에 대한 과신을 인정했다. 따라서 '무의식을 조종한다'는 식의 점화 기반 카피 주장은 피해야 한다.",
+      "apply": [
+        "저관여 상황은 시스템 1을 겨냥해 직관적·정서적 단서를 쓴다.",
+        "고관여 결정은 시스템 2가 작동하므로 명확한 근거를 함께 제공한다.",
+        "'무의식 조작/점화'를 효과의 근거로 내세우지 않는다(재현 실패 영역)."
+      ],
+      "sources": [
+        {
+          "label": "Daniel Kahneman, Thinking, Fast and Slow (2011)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "여러분, 모두 부~자 되세요.",
+            "brand": "BC카드",
+            "year": "2002",
+            "note": "논리 없이 따뜻한 덕담 한마디로 호감을 일으킨 직관·감성(시스템1) 소구 — 5일 방영으로 전국 유행어가 된 즉각적 정서 반응"
+          },
+          {
+            "copy": "산소 같은 여자",
+            "brand": "마몽드 (태평양)",
+            "year": "1990s",
+            "note": "정보 없이 이미지·느낌만으로 각인 — 분석 없이 직관적 감성으로 작동하는 시스템1 카피"
+          }
+        ],
+        "en": [
+          {
+            "copy": "I'm lovin' it.",
+            "brand": "McDonald's (Heye & Partner)",
+            "year": "2003",
+            "note": "5음절 징글 'ba-da-ba-BA-BAAA'와 결합해 정보 없이 즐거운 기분만 전이 — 직관·감정의 시스템1 소구"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ethos-pathos-logos",
+    "domain": "creative-strategy",
+    "category": "수사학",
+    "title": "에토스·파토스·로고스",
+    "titleEn": "Ethos, Pathos, Logos",
+    "origin": "Aristotle, Rhetoric",
+    "year": -350,
+    "oneLiner": "신뢰(에토스)·감정(파토스)·논리(로고스)로 설득하라.",
+    "credibility": "established",
+    "keywords": [
+      "에토스",
+      "파토스",
+      "로고스",
+      "카이로스"
+    ],
+    "related": [
+      "rule-of-three",
+      "elm",
+      "cialdini"
+    ],
+    "detail": {
+      "desc": "아리스토텔레스 『수사학』이 정리한 설득의 세 수단: 에토스(화자의 신뢰·인격), 파토스(청중의 감정), 로고스(논증의 논리). 여기에 카이로스(적시성·맥락)를 더해 넷으로 보기도 한다. 2,400년간 설득의 기본 틀로 통한다.",
+      "rationale": "설득을 '말하는 이·듣는 이·메시지'의 삼각 구도로 분해한 고전적 통찰로, 현대의 출처 신뢰성(에토스)·정서 소구(파토스)·논증 질(로고스) 연구로 이어진다. ELM의 중심 경로(로고스)와 주변 경로(에토스·파토스)의 뿌리. 셋 중 하나에만 기대면 설득이 약해진다.",
+      "apply": [
+        "카피에 신뢰 근거(에토스: 전문성·실적), 정서(파토스), 논리(로고스)가 모두 있는지 점검한다.",
+        "타깃의 관여도에 따라 로고스(고관여)·파토스(저관여) 비중을 조절한다.",
+        "메시지 타이밍·맥락(카이로스)을 설득의 한 변수로 본다."
+      ],
+      "sources": [
+        {
+          "label": "Aristotle, Rhetoric (c. 350 BC)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "여보, 아버님 댁에 보일러 놓아드려야겠어요.",
+            "brand": "경동보일러",
+            "year": "1991",
+            "note": "효심·부모 정서를 건드린 파토스(감정) 호소 — 제품 스펙 대신 가족애로 설득"
+          }
+        ],
+        "en": [
+          {
+            "copy": "15 minutes could save you 15% or more on car insurance.",
+            "brand": "GEICO",
+            "year": "1990s~",
+            "note": "수치 근거로 따지게 하는 로고스(논리) 호소의 전형"
+          },
+          {
+            "copy": "8 out of 10 dentists recommend...",
+            "brand": "Colgate",
+            "year": "2007",
+            "note": "전문가(치과의사) 권위를 빌린 에토스(신뢰) 호소"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rule-of-three",
+    "domain": "creative-strategy",
+    "category": "수사학",
+    "title": "삼의 법칙",
+    "titleEn": "Rule of Three",
+    "origin": "고전 수사학 전통",
+    "year": null,
+    "oneLiner": "셋으로 묶으면 더 기억되고 더 설득력 있다.",
+    "credibility": "established",
+    "keywords": [
+      "삼의법칙",
+      "tricolon",
+      "리듬",
+      "기억"
+    ],
+    "related": [
+      "parallelism",
+      "ethos-pathos-logos",
+      "rhetorical-figures",
+      "subtraction",
+      "rule-of-odds"
+    ],
+    "detail": {
+      "desc": "정보를 셋으로 묶으면 더 잘 기억되고 설득력이 커진다는 수사 원리(tricolon). '왔노라, 보았노라, 이겼노라(Veni, vidi, vici)'처럼 셋은 패턴을 만들기에 충분하면서도 부담이 적은 최소 수다.",
+      "rationale": "셋은 '반복으로 패턴이 성립하는 최소 개수'이자 작업기억에 부담이 적은 수다. 너무 적으면(둘) 패턴이 약하고, 너무 많으면 처리 부하가 는다. 처리 유창성과 게슈탈트의 묶음 원리로 뒷받침된다. 광고 슬로건·연설에서 검증된 효과.",
+      "apply": [
+        "핵심 메시지·혜택을 세 가지로 묶어 제시한다.",
+        "슬로건을 삼박자 리듬(세 어구)으로 다듬어 기억성을 높인다.",
+        "나열이 길면 가장 강한 셋으로 압축한다(빼기와 결합)."
+      ],
+      "sources": [
+        {
+          "label": "이론카탈로그 F. 수사학·언어 / Rule of Three"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "지킬 것은 지킨다 / 그날의 피로는 그날 푼다 / 젊은 날의 선택",
+            "brand": "박카스 (동아제약)",
+            "year": "1990s~",
+            "note": "짧은 3박자 대구로 리듬을 만든 슬로건 묶음 — 한국형 삼단 카피의 사례"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Snap! Crackle! Pop!",
+            "brand": "Kellogg's Rice Krispies (N.W. Ayer)",
+            "year": "1932",
+            "note": "세 의성어를 병렬한 트라이콜론 — 광고사상 가장 유명한 '셋의 법칙' 카피"
+          },
+          {
+            "copy": "Here's to the crazy ones. The misfits. The rebels. The troublemakers.",
+            "brand": "Apple (TBWA\\Chiat\\Day)",
+            "year": "1997",
+            "note": "셋·셋으로 끊어 쌓는 열거 리듬 — 삼의 법칙을 확장한 점층 나열"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rhetorical-figures",
+    "domain": "creative-strategy",
+    "category": "수사학",
+    "title": "수사적 표현 기법",
+    "titleEn": "Rhetorical Figures",
+    "origin": "고전 수사학 전통",
+    "year": null,
+    "oneLiner": "반복·대조·교차·은유 등 말의 형(figure)으로 각인시킨다.",
+    "credibility": "established",
+    "keywords": [
+      "수사법",
+      "은유",
+      "대조",
+      "두운"
+    ],
+    "related": [
+      "parallelism",
+      "rule-of-three",
+      "ethos-pathos-logos",
+      "pragnanz"
+    ],
+    "detail": {
+      "desc": "메시지를 더 기억·설득력 있게 만드는 말의 형(figures). Anaphora(두어 반복), Antithesis(대조), Chiasmus(ABBA 교차배열), Isocolon(등장구법), Alliteration(두운), Tricolon(삼의법칙), Metaphor(은유), Metonymy(환유), Climax(점층), Hyperbole(과장) 등. 포함관계 주의: tricolon ⊂ isocolon ⊂ parallelism.",
+      "rationale": "수사적 표현은 처리 유창성·운율·대칭을 통해 같은 내용을 더 잘 각인시킨다. 광고 연구(McQuarrie & Mick 1996)는 figure가 든 광고가 더 많은 정교화와 호의적 반응을 끌어낸다고 본다. 은유·환유는 추상을 구체로 옮겨 구체성 효과를 낳는다. 형식이 내용의 기억성을 높이는 견고한 현상.",
+      "apply": [
+        "대조(antithesis)로 제품의 강점을 경쟁/문제와 나란히 세운다.",
+        "두운·교차배열로 슬로건의 리듬과 완결감을 만든다.",
+        "추상적 가치는 은유·환유로 손에 잡히는 이미지로 바꾼다."
+      ],
+      "sources": [
+        {
+          "label": "McQuarrie & Mick 1996, Figures of Rhetoric in Advertising Language",
+          "url": "https://doi.org/10.1086/209459"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "사랑은 움직이는 거야.",
+            "brand": "한솔엠닷컴 018",
+            "year": "2000",
+            "note": "추상 명사(사랑)에 동사를 붙인 의인·역설적 단언 — 짧은 경구형 수사로 유행어화"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Maybe she's born with it. Maybe it's Maybelline.",
+            "brand": "Maybelline (Lintas)",
+            "year": "1991",
+            "note": "'Maybe~Maybe~'의 두운·대구(anaphora)와 born/Maybelline 음운 반복 — 수사 기법(두운+대조)의 대표"
+          },
+          {
+            "copy": "Melts in your mouth, not in your hand.",
+            "brand": "M&M's (Ted Bates)",
+            "year": "1954",
+            "note": "'mouth↔hand'의 대조(antithesis)와 운율 — 짧은 대조 수사의 정석"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "success-heath",
+    "domain": "creative-strategy",
+    "category": "스토리텔링",
+    "title": "스틱! SUCCESs",
+    "titleEn": "Made to Stick (SUCCESs)",
+    "origin": "Chip Heath & Dan Heath",
+    "year": 2007,
+    "oneLiner": "단순·의외·구체·신뢰·감정·스토리가 메시지를 들러붙게 한다.",
+    "credibility": "industry",
+    "keywords": [
+      "단순",
+      "의외성",
+      "구체성",
+      "지식의 저주"
+    ],
+    "related": [
+      "drop",
+      "subtraction",
+      "storybrand",
+      "rhetorical-figures"
+    ],
+    "detail": {
+      "desc": "칩·댄 히스 형제의 프레임. 기억에 들러붙는(sticky) 메시지의 여섯 속성: Simple(단순)·Unexpected(의외)·Concrete(구체)·Credible(신뢰)·Emotional(감정)·Stories(스토리). 가장 큰 적은 '지식의 저주'(아는 사람은 모르는 사람의 무지를 상상하지 못함)라고 본다.",
+      "rationale": "단순·구체는 인지 부하·구체성 효과, 의외성은 스키마 불일치(낙차), 감정·스토리는 정서적 부호화로 각각 뒷받침된다. 즉 검증된 인지 원리들을 실무 체크리스트로 묶은 것. 8법칙의 의외성·구체성·빼기와 직접 통한다.",
+      "apply": [
+        "핵심을 한 문장으로 단순화하고 의외의 각도로 비튼다.",
+        "추상적 주장을 숫자·장면 등 구체로 바꾼다(구체성 효과).",
+        "'지식의 저주'를 의심해 전문 용어를 청중 언어로 옮긴다."
+      ],
+      "sources": [
+        {
+          "label": "Chip & Dan Heath, Made to Stick (2007)"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "Where's the beef?",
+            "brand": "Wendy's",
+            "year": "1984",
+            "note": "'고기 어디?'라는 의외·구체(Concrete·Unexpected) 질문 한마디가 사회현상이 됨 — SUCCESs의 들러붙는 메시지 사례 (Ad Age 20세기 슬로건 톱10)"
+          },
+          {
+            "copy": "1,000 songs in your pocket.",
+            "brand": "Apple iPod",
+            "year": "2001",
+            "note": "'5GB MP3 플레이어'를 '주머니 속 1,000곡'이라는 구체적 그림으로 — 추상 스펙을 구체로 바꾼 SUCCESs(Concrete) 사례"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "storybrand",
+    "domain": "creative-strategy",
+    "category": "스토리텔링",
+    "title": "스토리브랜드 SB7",
+    "titleEn": "StoryBrand SB7",
+    "origin": "Donald Miller, Building a StoryBrand",
+    "year": 2017,
+    "oneLiner": "고객을 영웅으로, 브랜드를 안내자로 세우는 7부 구조.",
+    "credibility": "industry",
+    "keywords": [
+      "고객=영웅",
+      "안내자",
+      "메시지구조",
+      "행동촉구"
+    ],
+    "related": [
+      "heros-journey",
+      "success-heath",
+      "burnett"
+    ],
+    "detail": {
+      "desc": "도널드 밀러의 브랜드 메시지 프레임. ① 캐릭터(고객=영웅)가 ② 문제를 만나 ③ 안내자(브랜드)를 만나고 ④ 계획을 받아 ⑤ 행동하라는 부름을 듣고 ⑥ 실패를 피해 ⑦ 성공에 이른다. 핵심은 '브랜드는 영웅이 아니라 영웅을 돕는 안내자'라는 위치 전환이다.",
+      "rationale": "영웅의 여정을 비즈니스 메시지로 단순화한 대중적 프레임이다. '고객이 주인공'이라는 관점 전환은 자기참조 효과와 맞고, 명확한 한 줄 구조가 메시지 혼란을 줄인다. 학술 이론은 아니지만 메시지를 정돈하는 실무 표준으로 폭넓게 쓰인다.",
+      "apply": [
+        "카피에서 브랜드 자랑을 줄이고 '고객(영웅)의 문제·욕망'을 중심에 둔다.",
+        "브랜드를 안내자(공감+권위)로 위치시키고 명확한 '계획'을 제시한다.",
+        "성공한 모습과 피할 실패를 함께 보여 행동의 이유를 만든다."
+      ],
+      "sources": [
+        {
+          "label": "Donald Miller, Building a StoryBrand (2017)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "사람을 향합니다.",
+            "brand": "SK텔레콤",
+            "year": "2005",
+            "note": "기술이 아니라 '사람(고객)'을 이야기의 중심에 둔 캠페인 — 고객을 영웅으로 모시는 스토리브랜드형 메시지"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Just Do It.",
+            "brand": "Nike (Wieden+Kennedy)",
+            "year": "1988",
+            "note": "브랜드가 아니라 '도전하는 너(고객)'를 주인공으로 부추기는 명령형 — 고객=영웅 구도의 전형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "heros-journey",
+    "domain": "creative-strategy",
+    "category": "스토리텔링",
+    "title": "영웅의 여정",
+    "titleEn": "The Hero's Journey",
+    "origin": "Joseph Campbell / Christopher Vogler",
+    "year": 1949,
+    "oneLiner": "출발–입문–귀환의 보편적 서사 원형.",
+    "credibility": "consensus",
+    "keywords": [
+      "모노미스",
+      "원형",
+      "서사구조",
+      "귀환"
+    ],
+    "related": [
+      "storybrand",
+      "brand-archetypes"
+    ],
+    "detail": {
+      "desc": "조지프 캠벨이 신화 비교에서 도출한 보편 서사 구조(모노미스): 평범한 세계에서 모험에의 부름을 받아 떠나(출발), 시련·관문을 통과하고(입문), 변화된 채 돌아온다(귀환). Vogler가 이를 12단계로 정리해 할리우드 시나리오의 표준이 됐다.",
+      "rationale": "★ 비판 병기: 강력한 서사 틀이지만 '모든 신화에 보편적'이라는 주장은 선택 편향 비판을 받는다 — 들어맞는 사례만 골라 끼워 맞췄다는 것이다(많은 이야기는 이 구조를 따르지 않는다). 문학적·실무적 명제로는 유용하나 검증된 보편 법칙은 아니므로 '강력한 패턴' 정도로 다루는 것이 정확하다.",
+      "apply": [
+        "브랜드 스토리에 변화(여정 전후의 차이)를 넣어 몰입을 만든다.",
+        "고객을 영웅, 브랜드를 조력자로 배치한다(StoryBrand와 결합).",
+        "'보편 법칙'으로 맹신하지 말고 들어맞는 사례에 선택적으로 적용한다."
+      ],
+      "sources": [
+        {
+          "label": "Joseph Campbell, The Hero with a Thousand Faces (1949)"
+        },
+        {
+          "label": "Christopher Vogler, The Writer's Journey (1992)"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "Here's to the crazy ones... the ones who are crazy enough to think they can change the world are the ones who do.",
+            "brand": "Apple (Think Different)",
+            "year": "1997",
+            "note": "부적응자·반항아가 세상을 바꾸는 변화의 서사 — 평범에서 영웅으로의 여정을 압축한 내러티브"
+          },
+          {
+            "copy": "Live to Ride, Ride to Live.",
+            "brand": "Harley-Davidson",
+            "year": "1980s",
+            "note": "일상을 벗어나 자유·자아를 찾아 떠나는 변화 서사 — 라이더의 여정을 슬로건화"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "pyramid-principle",
+    "domain": "creative-strategy",
+    "category": "스토리텔링",
+    "title": "피라미드 원칙",
+    "titleEn": "The Pyramid Principle",
+    "origin": "Barbara Minto",
+    "year": 1978,
+    "oneLiner": "결론 먼저, 근거는 MECE로 묶어 위에서 아래로.",
+    "credibility": "established",
+    "keywords": [
+      "결론먼저",
+      "MECE",
+      "SCQA",
+      "논리구조"
+    ],
+    "related": [
+      "subtraction",
+      "success-heath"
+    ],
+    "detail": {
+      "desc": "바버라 민토의 논리적 글쓰기 프레임. 결론(핵심 메시지)을 맨 위에 먼저 두고, 그것을 떠받치는 근거를 MECE(상호 배타·전체 포괄)하게 그룹화해 피라미드처럼 위에서 아래로 전개한다. 도입은 SCQA(상황–전개–질문–답)로 잡는다. 컨설팅 보고의 표준이다.",
+      "rationale": "독자는 결론을 먼저 알 때 이후 정보를 더 쉽게 따라온다(처리 유창성·기대 형성). 'BLUF(Bottom Line Up Front)'의 원리다. MECE 그룹화는 누락·중복을 막아 논증을 견고하게 한다. 스토리텔링이 긴장을 미루는 것과 달리, 설득·보고에선 결론 선행이 더 효율적이다.",
+      "apply": [
+        "제안서·보고는 결론·핵심 메시지를 맨 앞에 둔다(BLUF).",
+        "근거를 3~4개의 MECE한 묶음으로 정리해 중복·누락을 없앤다.",
+        "도입을 SCQA로 짜 독자의 질문을 먼저 세운 뒤 답한다."
+      ],
+      "sources": [
+        {
+          "label": "Barbara Minto, The Pyramid Principle (1978)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "순간의 선택이 10년을 좌우합니다.",
+            "brand": "금성사 (골드스타)",
+            "year": "1980s",
+            "note": "결론(선택이 10년을 좌우)을 맨 앞에 단정 — 근거 설명 전에 핵심 주장을 먼저 던지는 결론우선형"
+          }
+        ],
+        "en": [
+          {
+            "copy": "When it absolutely, positively has to be there overnight.",
+            "brand": "FedEx",
+            "year": "1978",
+            "note": "핵심 약속(반드시·밤새 도착)을 한 문장 결론으로 먼저 제시 — 결론 먼저 메시지"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "positioning",
+    "domain": "creative-strategy",
+    "category": "브랜드 전략",
+    "title": "포지셔닝",
+    "titleEn": "Positioning",
+    "origin": "Al Ries & Jack Trout",
+    "year": 1981,
+    "oneLiner": "제품이 아니라 고객 마음속 한 자리를 차지하라.",
+    "credibility": "established",
+    "keywords": [
+      "포지셔닝",
+      "마음속자리",
+      "차별화",
+      "단어 소유"
+    ],
+    "related": [
+      "usp",
+      "brand-archetypes"
+    ],
+    "detail": {
+      "desc": "리스와 트라우트의 전략 개념. 마케팅 전쟁은 시장이 아니라 '고객의 마음속'에서 벌어지며, 브랜드는 고객 인식 속에서 명확한 한 자리(가능하면 단어 하나)를 차지해야 한다는 것. '최초가 되라, 아니면 새 카테고리를 만들어 최초가 되라.'",
+      "rationale": "정보 과잉 시대에 사람들은 단순화된 인식 사다리(category ladder)에 브랜드를 정렬한다는 통찰이다. 제품을 바꾸기보다 '인식'을 설계하는 것이 핵심이다. USP가 '제품의 독자 편익'이라면 포지셔닝은 '경쟁 구도 속 상대적 위치'다. 전략 마케팅의 정전으로 폭넓게 수용된다.",
+      "apply": [
+        "고객 머릿속에서 우리가 차지할 '단어 하나'를 정의한다.",
+        "1등이 어려우면 새 카테고리를 정의해 그 안의 최초가 된다.",
+        "모든 메시지를 그 포지션 하나로 정렬해 인식을 축적한다."
+      ],
+      "sources": [
+        {
+          "label": "Al Ries & Jack Trout, Positioning (1981)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "침대는 가구가 아닙니다. 과학입니다.",
+            "brand": "에이스침대",
+            "year": "1993",
+            "note": "가구 카테고리에서 빠져나와 '과학'이라는 차별 포지션을 점유 — 포지셔닝 교과서"
+          },
+          {
+            "copy": "2등은 아무도 기억하지 않는다.",
+            "brand": "삼성전자",
+            "year": "1990s",
+            "note": "'세계 일류=1등'이라는 포지션을 자기 자리로 선언 — 일류·전문성 포지셔닝"
+          }
+        ],
+        "en": [
+          {
+            "copy": "We're number two. We try harder.",
+            "brand": "Avis (DDB)",
+            "year": "1962",
+            "note": "1등이 아닌 '2등' 자리를 정직하게 점유해 강점으로 전환 — 빈자리 포지셔닝의 원형"
+          },
+          {
+            "copy": "Think Small.",
+            "brand": "Volkswagen (DDB)",
+            "year": "1959",
+            "note": "대형차 시장과 정반대인 '소형·정직' 포지션을 선점 — 차별 포지션 슬로건"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "brand-archetypes",
+    "domain": "creative-strategy",
+    "category": "브랜드 전략",
+    "title": "브랜드 아키타입 12",
+    "titleEn": "12 Brand Archetypes",
+    "origin": "Margaret Mark & Carol Pearson (융 원형)",
+    "year": 2001,
+    "oneLiner": "융의 원형 12가지로 브랜드 성격을 정한다.",
+    "credibility": "consensus",
+    "keywords": [
+      "아키타입",
+      "원형",
+      "브랜드성격",
+      "융"
+    ],
+    "related": [
+      "positioning",
+      "burnett",
+      "storybrand"
+    ],
+    "detail": {
+      "desc": "Mark와 Pearson이 칼 융의 원형(archetype) 개념을 브랜딩에 적용한 프레임. 순수·현자·탐험가·영웅·무법자·마법사·보통사람·연인·광대·돌봄·창조자·지배자 12가지 원형으로 브랜드의 일관된 성격과 서사를 정한다.",
+      "rationale": "원형은 문화를 가로지르는 보편적 인물 패턴이라 즉각적인 공감과 의미를 만든다는 발상이다. 실무에선 브랜드 성격·톤을 정렬하는 유용한 프레임이지만, 토대인 융의 집단무의식·원형 이론 자체가 학술적으로 논쟁적이다. '검증된 심리 법칙'이 아니라 '강력한 응용 프레임'으로 다루는 것이 정확하다.",
+      "apply": [
+        "브랜드에 가장 맞는 원형 1~2개를 정해 톤·비주얼·메시지를 정렬한다.",
+        "선택한 원형의 서사·가치를 모든 접점에서 일관되게 표현한다.",
+        "원형을 '과학'으로 포장하지 말고 일관성 도구로 활용한다."
+      ],
+      "sources": [
+        {
+          "label": "Mark & Pearson, The Hero and the Outlaw (2001)"
+        }
+      ],
+      "examples": {
+        "ko": [],
+        "en": [
+          {
+            "copy": "Just Do It.",
+            "brand": "Nike",
+            "year": "1988",
+            "note": "한계를 넘어서라는 명령 — 영웅(Hero) 원형이 그대로 드러나는 슬로건"
+          },
+          {
+            "copy": "Live to Ride, Ride to Live.",
+            "brand": "Harley-Davidson",
+            "year": "1980s",
+            "note": "기성 질서를 거부하고 자유를 좇는 무법자/반항아(Outlaw·Rebel) 원형"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "golden-circle",
+    "domain": "creative-strategy",
+    "category": "브랜드 전략",
+    "title": "골든 서클(Why부터)",
+    "titleEn": "The Golden Circle (Start With Why)",
+    "origin": "Simon Sinek, Start With Why",
+    "year": 2009,
+    "oneLiner": "What이 아니라 Why부터 말하라.",
+    "credibility": "disputed",
+    "keywords": [
+      "Why",
+      "골든서클",
+      "신념",
+      "목적"
+    ],
+    "related": [
+      "brand-archetypes",
+      "positioning",
+      "storybrand",
+      "ethos-pathos-logos"
+    ],
+    "detail": {
+      "desc": "사이먼 사이넥의 프레임. 위대한 브랜드·리더는 What(무엇을)·How(어떻게)가 아니라 Why(왜, 신념·목적)부터 소통한다는 주장. 'People don't buy what you do, they buy why you do it.'",
+      "rationale": "★ 비판 병기: 대중적으로 큰 영향을 미쳤지만 경험적 근거가 빈약하다. 사이넥이 든 신경과학 설명('Why는 변연계를 자극한다')은 뇌 기능을 과도하게 단순화한 것으로 비판받는다. 사례도 성공 기업을 사후에 끼워 맞춘 선택 편향에 가깝다. '목적·신념을 명확히 하라'는 실무 조언으로는 유용하나, 검증된 법칙으로 인용해선 안 된다.",
+      "apply": [
+        "브랜드의 목적·신념(Why)을 명확히 정의해 메시지의 일관된 뿌리로 삼는다.",
+        "기능(What)만 나열하지 말고 그 일을 하는 이유를 먼저 전한다.",
+        "'변연계' 같은 신경과학 근거로 포장하지 말고 목적 정렬 도구로 다룬다."
+      ],
+      "sources": [
+        {
+          "label": "Simon Sinek, Start With Why (2009)"
+        },
+        {
+          "label": "이론카탈로그 E. 스토리텔링(경험적 근거 빈약 비판)"
+        }
+      ],
+      "examples": {
+        "ko": [
+          {
+            "copy": "사람을 향합니다.",
+            "brand": "SK텔레콤",
+            "year": "2005",
+            "note": "통신 기술(What)이 아니라 '왜=결국 사람을 위해서'라는 신념(Why)부터 말한 캠페인 — 골든서클 Why-first 사례"
+          }
+        ],
+        "en": [
+          {
+            "copy": "Think Different.",
+            "brand": "Apple",
+            "year": "1997",
+            "note": "제품(What)이 아니라 '다르게 생각한다'는 신념(Why)을 먼저 선언 — 사이먼 시넥이 든 골든서클의 대표 사례"
+          }
+        ]
+      }
+    }
+  }
+]

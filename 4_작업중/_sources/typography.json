@@ -1,0 +1,206 @@
+[
+  {
+    "id": "type-blackletter",
+    "ko": "블랙레터", "en": "Blackletter / Gothic", "period": "1150–1500", "origin": "중세 유럽 필사본 → 구텐베르크",
+    "oneLiner": "펜의 각진 획이 그대로 굳은 활자 — 인쇄의 첫 얼굴.",
+    "desc": "중세 필경사의 넓은 펜촉 글씨에서 나온 촘촘하고 각진 서체. 구텐베르크의 42행 성서(1455)가 이 텍스투라로 짜였다. 텍스투라·로툰다·프락투어·슈바바허로 갈리며, 독일에서는 20세기까지 본문 활자로 살아남았다.",
+    "traits": ["넓은 펜촉의 각진 획", "촘촘한 세로 스트로크(텍스투라)", "장식적 대문자", "높은 흑색도(black letter)"],
+    "typo": "가독성보다 권위와 장중함. 오늘날엔 신문 제호·맥주 라벨·메탈 밴드 로고에 잔존한다.",
+    "fonts": [
+      {"name": "UnifrakturMaguntia", "css": "'UnifrakturMaguntia', serif", "note": "구텐베르크 텍스투라 계열"},
+      {"name": "Pirata One", "css": "'Pirata One', system-ui", "note": "현대적 블랙레터 디스플레이"}
+    ],
+    "realTypefaces": ["Gutenberg Textura(1455)", "Fraktur", "Schwabacher"],
+    "sampleText": "Fraktur",
+    "figures": ["요하네스 구텐베르크"],
+    "related": ["type-humanist", "victorian"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'UnifrakturMaguntia',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-humanist",
+    "ko": "휴머니스트 세리프", "en": "Humanist / Venetian Serif", "period": "1470–", "origin": "니콜라 장송(베네치아)",
+    "oneLiner": "손글씨의 온기를 새긴 첫 로만 활자 — 비스듬한 강세.",
+    "desc": "르네상스 인본주의자들의 둥근 손글씨를 본떠 베네치아에서 태어난 첫 로만 활자. 니콜라 장송(1470)이 정립했고, e의 가로획이 비스듬하며 획 대비가 낮아 따뜻하고 읽기 편하다. 모든 세리프체의 출발점.",
+    "traits": ["비스듬한 e 가로획·강세축", "낮은 획 대비", "손글씨의 흔적(calligraphic)", "둥글고 열린 형태"],
+    "typo": "긴 본문에 편안하다. 인본주의의 가독성 이상을 활자로 구현한 원형.",
+    "fonts": [
+      {"name": "Cardo", "css": "'Cardo', serif", "note": "휴머니스트 로만 부활"},
+      {"name": "Gentium Book Plus", "css": "'Gentium Book Plus', serif", "note": "낮은 대비의 본문 세리프"}
+    ],
+    "realTypefaces": ["Jenson(1470)", "Centaur(1914)", "Cloister"],
+    "sampleText": "Venetian",
+    "figures": ["니콜라 장송"],
+    "related": ["type-garalde", "renaissance", "golden-ratio"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Cardo',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-garalde",
+    "ko": "개럴드 (올드스타일)", "en": "Garalde / Old Style", "period": "1530–", "origin": "클로드 가라몽(프랑스)",
+    "oneLiner": "균형 잡힌 고전 세리프 — 500년을 견딘 본문의 표준.",
+    "desc": "휴머니스트를 다듬어 더 가늘고 우아하게 만든 양식. 클로드 가라몽(1530년대)과 알두스 마누티우스의 활자가 대표적이며, 이름 Garalde는 Garamond+Aldus의 합성이다. 획 대비가 적당하고 비례가 안정돼 오늘날까지 책 본문의 기본값.",
+    "traits": ["적당한 획 대비", "기울어진 강세축", "괄호형 세리프(bracketed)", "안정된 고전 비례"],
+    "typo": "장문 가독성의 황금률. EB Garamond는 그 직계 디지털 부활.",
+    "fonts": [
+      {"name": "EB Garamond", "css": "'EB Garamond', serif", "note": "가라몽 활자의 직계"},
+      {"name": "Cormorant Garamond", "css": "'Cormorant Garamond', serif", "note": "고대비 디스플레이 가라몽"}
+    ],
+    "realTypefaces": ["Garamond(1530s)", "Bembo", "Caslon(1722)", "Sabon"],
+    "sampleText": "Garamond",
+    "figures": ["니콜라 장송"],
+    "related": ["type-humanist", "type-transitional", "renaissance"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'EB Garamond',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-transitional",
+    "ko": "트랜지셔널", "en": "Transitional", "period": "1750–", "origin": "존 배스커빌(영국)",
+    "oneLiner": "올드스타일과 모던 사이 — 더 또렷하고 수직적인 세리프.",
+    "desc": "계몽주의 시대 인쇄·종이 기술의 발전으로 획 대비가 커지고 강세축이 수직에 가까워진 과도기 양식. 존 배스커빌(1757)이 대표적이며, 합리적이고 또렷한 인상으로 영국적 절제를 보여준다.",
+    "traits": ["수직에 가까운 강세축", "올드스타일보다 큰 획 대비", "또렷하고 합리적인 인상", "정교한 세리프"],
+    "typo": "권위 있는 본문·법률·학술 문서에 어울린다. Times의 조상격.",
+    "fonts": [
+      {"name": "Libre Baskerville", "css": "'Libre Baskerville', serif", "note": "배스커빌의 웹 최적화 부활"},
+      {"name": "PT Serif", "css": "'PT Serif', serif", "note": "화면용 트랜지셔널"}
+    ],
+    "realTypefaces": ["Baskerville(1757)", "Times New Roman(1932)", "Georgia"],
+    "sampleText": "Baskerville",
+    "figures": [],
+    "related": ["type-garalde", "type-didone", "neoclassicism"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Libre Baskerville',serif\"><span style=\"font-size:52px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-didone",
+    "ko": "디돈 (모던)", "en": "Didone / Modern", "period": "1790–", "origin": "보도니·디도",
+    "oneLiner": "극단의 획 대비 — 머리카락 세리프와 굵은 수직획의 우아함.",
+    "desc": "지암바티스타 보도니와 피르맹 디도가 1790년대에 완성한 신고전주의 활자. 가는 획과 굵은 획의 대비가 극단적이고, 세리프가 가늘고 평평하며 강세축이 완전히 수직이다. 차갑고 세련돼 패션·럭셔리 표제에 군림한다.",
+    "traits": ["극단적 획 대비", "수직 강세축", "가늘고 평평한 헤어라인 세리프", "차갑고 우아한 인상"],
+    "typo": "Vogue·Harper's Bazaar 제호의 그 느낌. 본문보다 대형 표제에 빛난다.",
+    "fonts": [
+      {"name": "Playfair Display", "css": "'Playfair Display', serif", "note": "고대비 디돈 디스플레이"},
+      {"name": "Bodoni Moda", "css": "'Bodoni Moda', serif", "note": "보도니의 현대 부활"}
+    ],
+    "realTypefaces": ["Bodoni(1798)", "Didot", "Walbaum"],
+    "sampleText": "Bodoni",
+    "figures": [],
+    "related": ["type-transitional", "type-slab", "neoclassicism", "art-deco"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Playfair Display',serif\"><span style=\"font-size:54px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-slab",
+    "ko": "슬랩세리프 (이집션)", "en": "Slab Serif / Egyptian", "period": "1815–", "origin": "산업혁명기 영국 광고",
+    "oneLiner": "두껍고 네모난 세리프 — 멀리서도 때리는 광고 활자.",
+    "desc": "19세기 초 산업혁명과 광고 포스터 수요에서 태어난 굵고 블록 같은 세리프. 이국적 인상 때문에 '이집션'이라 불렸다. 클래런던(1845)이 대표적이며, 힘있고 안정적이라 헤드라인·간판·서부극 포스터에 쓰였다.",
+    "traits": ["두껍고 네모난(slab) 세리프", "낮은 획 대비", "힘있고 안정적", "광고·표제 지향"],
+    "typo": "주목성과 견고함. 현대엔 Roboto Slab처럼 화면 헤드라인에도 쓴다.",
+    "fonts": [
+      {"name": "Roboto Slab", "css": "'Roboto Slab', serif", "note": "화면용 슬랩"},
+      {"name": "Zilla Slab", "css": "'Zilla Slab', serif", "note": "Mozilla의 슬랩세리프"}
+    ],
+    "realTypefaces": ["Clarendon(1845)", "Rockwell", "Courier"],
+    "sampleText": "Clarendon",
+    "figures": [],
+    "related": ["type-didone", "type-grotesque", "victorian"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Roboto Slab',serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:700\">Rg</span></div>"
+  },
+  {
+    "id": "type-grotesque",
+    "ko": "그로테스크 산세리프", "en": "Grotesque Sans-serif", "period": "1816 / 1957–", "origin": "악치덴츠 → 헬베티카",
+    "oneLiner": "세리프를 떼어낸 활자 — 중립과 명료의 대명사.",
+    "desc": "19세기 초 처음 등장한 '괴상한(grotesque)' 세리프 없는 활자. 악치덴츠-그로테스크(1896)를 거쳐 1957년 헬베티카와 유니버스로 완성됐고, 스위스 스타일의 중립적·체계적 미감을 대표한다. 표지판·기업 아이덴티티의 표준.",
+    "traits": ["세리프 없음", "거의 균일한 획 두께", "중립적·체계적 인상", "닫힌 형태(혹은 좁은 구금)"],
+    "typo": "헬베티카의 그 무표정한 명료함. 정보 전달·간판·UI의 기본값.",
+    "fonts": [
+      {"name": "Work Sans", "css": "'Work Sans', sans-serif", "note": "초기 그로테스크 기반"},
+      {"name": "Inter", "css": "'Inter', sans-serif", "note": "화면 최적 중립 산세"}
+    ],
+    "realTypefaces": ["Akzidenz-Grotesk(1896)", "Helvetica(1957)", "Univers(1957)"],
+    "sampleText": "Helvetica",
+    "figures": ["요제프 뮐러-브로크만", "아르민 호프만"],
+    "related": ["type-geometric", "type-humanist-sans", "swiss", "minimalism"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Work Sans',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:600\">Rg</span></div>"
+  },
+  {
+    "id": "type-geometric",
+    "ko": "지오메트릭 산세리프", "en": "Geometric Sans-serif", "period": "1927–", "origin": "파울 레너(푸투라)",
+    "oneLiner": "원과 직선으로 그린 글자 — 바우하우스의 기하 이상.",
+    "desc": "원·삼각형·직선 같은 기본 도형으로 글자를 구성한 산세리프. 파울 레너의 푸투라(1927)가 대표적이며, 바우하우스의 기능주의·기하 미학을 활자로 옮겼다. o가 정원에 가깝고 모던하고 미래적인 인상을 준다.",
+    "traits": ["기하학적 기본 도형(원·직선)", "정원에 가까운 o", "균일한 획", "모던·미래적 인상"],
+    "typo": "Futura는 나이키·루이비통부터 달 착륙 명판까지. 차갑고 이상주의적.",
+    "fonts": [
+      {"name": "Poppins", "css": "'Poppins', sans-serif", "note": "기하학 산세(데바나가리 겸용)"},
+      {"name": "Jost", "css": "'Jost', sans-serif", "note": "푸투라 계열 오픈소스"}
+    ],
+    "realTypefaces": ["Futura(1927)", "Avant Garde", "Century Gothic"],
+    "sampleText": "Futura",
+    "figures": ["발터 그로피우스", "헤르베르트 바이어"],
+    "related": ["type-grotesque", "type-humanist-sans", "bauhaus", "de-stijl"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Poppins',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:500\">Rg</span></div>"
+  },
+  {
+    "id": "type-humanist-sans",
+    "ko": "휴머니스트 산세리프", "en": "Humanist Sans-serif", "period": "1928–", "origin": "에릭 길(길 산스)",
+    "oneLiner": "손글씨의 비례를 품은 산세리프 — 따뜻한 명료함.",
+    "desc": "세리프는 없애되 휴머니스트 세리프의 손글씨 비례와 강세를 간직한 산세리프. 에릭 길의 길 산스(1928)와 아드리안 프루티거의 프루티거(1976)가 대표적이며, 그로테스크보다 인간적이고 가독성이 높아 표지판·본문에 두루 쓰인다.",
+    "traits": ["손글씨 비례·약한 강세", "열린 구금(open aperture)", "따뜻하고 가독성 높음", "세리프 없음"],
+    "typo": "공항 사인·정부 문서·본문 UI의 친근한 표준. 프루티거가 그 정점.",
+    "fonts": [
+      {"name": "Open Sans", "css": "'Open Sans', sans-serif", "note": "휴머니스트 산세 본문 표준"},
+      {"name": "Source Sans 3", "css": "'Source Sans 3', sans-serif", "note": "어도비 휴머니스트 산세"}
+    ],
+    "realTypefaces": ["Gill Sans(1928)", "Frutiger(1976)", "Myriad", "Verdana"],
+    "sampleText": "Frutiger",
+    "figures": [],
+    "related": ["type-geometric", "type-grotesque", "flat-design"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Open Sans',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:600\">Rg</span></div>"
+  },
+  {
+    "id": "type-script",
+    "ko": "스크립트", "en": "Script", "period": "18C–", "origin": "동판 조각·캘리그래피",
+    "oneLiner": "손으로 흘려 쓴 글씨를 활자로 — 우아함과 친밀함.",
+    "desc": "펜·붓의 연결된 손글씨를 본뜬 활자. 18세기 동판 조각(카퍼플레이트)의 화려한 라운드핸드에서 형식 스크립트가, 20세기 광고에서 캐주얼 스크립트가 나왔다. 초대장·로고·감성 광고에서 따뜻함과 격식을 더한다.",
+    "traits": ["연결된 흐르는 획", "기울기와 스워시", "형식(포멀)·캐주얼로 분화", "손의 흔적"],
+    "typo": "코카콜라 로고부터 청첩장까지. 본문엔 부적합, 강조·감성에 강하다.",
+    "fonts": [
+      {"name": "Dancing Script", "css": "'Dancing Script', cursive", "note": "캐주얼 스크립트"},
+      {"name": "Pinyon Script", "css": "'Pinyon Script', cursive", "note": "동판 라운드핸드"}
+    ],
+    "realTypefaces": ["Snell Roundhand", "Spencerian", "Mistral"],
+    "sampleText": "Script",
+    "figures": [],
+    "related": ["type-blackletter", "rococo", "art-nouveau"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Dancing Script',cursive\"><span style=\"font-size:56px;color:#222;line-height:1\">Script</span></div>"
+  },
+  {
+    "id": "type-monospace",
+    "ko": "모노스페이스", "en": "Monospace", "period": "1870s–", "origin": "타자기 → 코드",
+    "oneLiner": "모든 글자가 같은 폭 — 타자기와 코드의 활자.",
+    "desc": "글자마다 폭이 같아 세로로 줄이 맞는 활자. 타자기의 기계적 제약에서 출발했고, 컴퓨터 터미널·코드 에디터의 표준이 됐다. 등폭 덕에 정렬·들여쓰기가 또렷하며, 기술적·레트로한 인상을 준다.",
+    "traits": ["모든 글자 동일 폭(등폭)", "또렷한 정렬", "기술적·레트로 인상", "구분용 글리프(0/O, 1/l) 강조"],
+    "typo": "코드·터미널·데이터의 기본값. 디자인에선 기술적 무드의 액센트.",
+    "fonts": [
+      {"name": "JetBrains Mono", "css": "'JetBrains Mono', monospace", "note": "코딩용 등폭"},
+      {"name": "IBM Plex Mono", "css": "'IBM Plex Mono', monospace", "note": "IBM의 등폭 산세"}
+    ],
+    "realTypefaces": ["Courier(1955)", "Letter Gothic", "OCR-A"],
+    "sampleText": "Mono 0O1l",
+    "figures": [],
+    "related": ["type-grotesque", "type-display", "neo-brutalism", "vaporwave"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'JetBrains Mono',monospace\"><span style=\"font-size:50px;color:#222;line-height:1\">Rg</span></div>"
+  },
+  {
+    "id": "type-display",
+    "ko": "디스플레이 / 장식", "en": "Display / Decorative", "period": "19C–", "origin": "포스터·광고",
+    "oneLiner": "크게 봐야 사는 글자 — 개성과 목소리가 전부.",
+    "desc": "본문이 아니라 표제·로고·포스터처럼 큰 크기에서 쓰도록 만든 활자 총칭. 19세기 광고 포스터의 거대 목활자에서 출발했고, 가독성보다 개성·분위기·임팩트를 노린다. 초굵은(팻페이스)·아웃라인·실험적 형태가 모두 포함된다.",
+    "traits": ["큰 크기 전제", "강한 개성·분위기", "가독성보다 임팩트", "팻페이스·아웃라인 등 무한 변주"],
+    "typo": "포스터·간판·앨범 커버의 목소리. 한 작품에 하나면 충분하다.",
+    "fonts": [
+      {"name": "Anton", "css": "'Anton', sans-serif", "note": "초굵은 컨덴스드 디스플레이"},
+      {"name": "Abril Fatface", "css": "'Abril Fatface', display", "note": "팻페이스 디돈"}
+    ],
+    "realTypefaces": ["Ultra Bodoni(Fat Face)", "Cooper Black", "목활자 포스터체"],
+    "sampleText": "DISPLAY",
+    "figures": [],
+    "related": ["type-didone", "type-slab", "pop-art", "psychedelic"],
+    "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:24px;background:#f4f4f1;font-family:'Anton',sans-serif\"><span style=\"font-size:46px;color:#222;line-height:1;letter-spacing:1px\">Display</span></div>"
+  }
+]

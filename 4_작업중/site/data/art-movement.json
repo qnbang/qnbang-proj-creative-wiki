@@ -1,0 +1,4397 @@
+[
+  {
+    "id": "renaissance",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "르네상스",
+    "titleEn": "Renaissance",
+    "origin": "이탈리아",
+    "period": "1400–1600",
+    "field": "디자인 양식",
+    "oneLiner": "인간과 비례의 재발견 — 원근법이 화면에 질서를 세우다.",
+    "credibility": "established",
+    "keywords": [
+      "이탈리아",
+      "레오나르도 다 빈치",
+      "미켈란젤로",
+      "라파엘로",
+      "알브레히트 뒤러",
+      "선원근법과 소실점",
+      "수학적 비례(황금비)",
+      "인본주의·고전 부활"
+    ],
+    "related": [
+      "neoclassicism",
+      "swiss",
+      "arts-crafts"
+    ],
+    "detail": {
+      "desc": "고대 그리스·로마의 인본주의를 부활시킨 시대. 선원근법과 해부학, 수학적 비례가 회화에 과학적 질서를 부여했고, 뒤러의 판화와 활자 연구는 인쇄·타이포그래피 디자인의 출발점이 됐다. 그리드와 비례 체계라는 디자인의 뼈대가 여기서 시작된다.",
+      "traits": [
+        "선원근법과 소실점",
+        "수학적 비례(황금비)",
+        "인본주의·고전 부활",
+        "해부학적 정확성",
+        "판화·인쇄술의 보급"
+      ],
+      "palette": [
+        {
+          "hex": "#8B3A2E",
+          "name": "베네치안 레드"
+        },
+        {
+          "hex": "#1F3A5F",
+          "name": "울트라마린"
+        },
+        {
+          "hex": "#C9A227",
+          "name": "골드 리프"
+        },
+        {
+          "hex": "#6B7B5E",
+          "name": "세이지"
+        },
+        {
+          "hex": "#E8DCC4",
+          "name": "프레스코"
+        }
+      ],
+      "typo": "인쇄술과 함께 휴머니스트 세리프가 태어난 시대 — 오늘날 모든 세리프체의 원형.",
+      "fonts": [
+        {
+          "name": "EB Garamond",
+          "css": "'EB Garamond', serif",
+          "note": "르네상스 활자의 직계"
+        },
+        {
+          "name": "Cinzel",
+          "css": "'Cinzel', serif",
+          "note": "로만 캐피탈"
+        }
+      ],
+      "realTypefaces": [
+        "Jenson(1470)",
+        "Garamond(1530s)",
+        "뒤러의 로만 대문자 설계"
+      ],
+      "sampleText": "Vitruvian 1490",
+      "motifs": [
+        "비트루비우스 인체 비례",
+        "소실점 원근",
+        "프레스코 벽화",
+        "고전 기둥·아치",
+        "필사본에서 인쇄로"
+      ],
+      "motifDesc": "원과 정사각형에 내접한 인체처럼, 화면의 모든 요소가 측정 가능한 비례 위에 놓인다. 다 빈치의 스푸마토와 뒤러의 정밀 판화가 양 끝을 이룬다.",
+      "figures": [
+        "레오나르도 다 빈치",
+        "미켈란젤로",
+        "라파엘로",
+        "알브레히트 뒤러"
+      ],
+      "figurePortraits": {
+        "레오나르도 다 빈치": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo%20da%20Vinci%20-%20presumed%20self-portrait%20-%20WGA12798.jpg?width=400",
+        "미켈란젤로": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%20Daniele%20da%20Volterra%20(dettaglio).jpg?width=400",
+        "라파엘로": "https://commons.wikimedia.org/wiki/Special:FilePath/Raffaello%20Sanzio.jpg?width=400",
+        "알브레히트 뒤러": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht%20D%C3%BCrer%20-%201500%20self-portrait%20(High%20resolution%20and%20detail).jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "모나리자",
+          "titleEn": "Mona Lisa",
+          "artist": "레오나르도 다 빈치",
+          "year": "1503",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%2C%20by%20Leonardo%20da%20Vinci%2C%20from%20C2RMF%20retouched.jpg?width=800"
+        },
+        {
+          "title": "아테네 학당",
+          "titleEn": "The School of Athens",
+          "artist": "라파엘로",
+          "year": "1511",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Raphael%20School%20of%20Athens.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "renaissance painting masterpiece",
+        "images": [
+          "https://i.pinimg.com/736x/89/60/5b/89605bb7f2aa7beebebbdbf6cbc67001.jpg",
+          "https://i.pinimg.com/736x/b2/f5/92/b2f5922de3bf03e5f7e541eea4bc7247.jpg",
+          "https://i.pinimg.com/736x/11/8d/92/118d9263bf6f591d4a030b4adf46377c.jpg",
+          "https://i.pinimg.com/736x/7b/3f/b7/7b3fb7cdd9a7ae319c22afcce9275be9.jpg",
+          "https://i.pinimg.com/736x/d0/de/d0/d0ded09eb43b9498cc05856f9ec12eed.jpg",
+          "https://i.pinimg.com/736x/19/a7/54/19a754afc6a8292237b4c386c632cf1c.jpg",
+          "https://i.pinimg.com/736x/25/dd/b0/25ddb07903a74d39593506cacdb4e898.jpg",
+          "https://i.pinimg.com/736x/98/60/66/986066e46ad5c7a8958ef182c4cc0597.jpg",
+          "https://i.pinimg.com/736x/f1/b1/f4/f1b1f491a2e23e35bcf5091882a5a68d.jpg",
+          "https://i.pinimg.com/736x/14/75/5f/14755f89e249821c2aa7714c702fb496.jpg",
+          "https://i.pinimg.com/736x/43/8a/55/438a558d7cebe3158ed2c97948dce470.jpg",
+          "https://i.pinimg.com/736x/93/e7/34/93e734b0a0c7499fe44d27fe6e6b808b.jpg",
+          "https://i.pinimg.com/736x/92/91/80/929180bb8b03f29a09d5e497fdeb50bf.jpg",
+          "https://i.pinimg.com/736x/c1/99/d0/c199d074c145d8bfa1821d686fca7abe.jpg",
+          "https://i.pinimg.com/736x/a7/91/88/a7918894da5c13d3598ff913b58e5a15.jpg",
+          "https://i.pinimg.com/736x/2e/49/a5/2e49a5b3d05cc4f2643b3e129726ffaa.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "baroque",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "바로크",
+    "titleEn": "Baroque",
+    "origin": "이탈리아 → 유럽",
+    "period": "1600–1750",
+    "field": "디자인 양식",
+    "oneLiner": "빛과 어둠의 드라마 — 보는 이를 압도하는 극장적 화면.",
+    "credibility": "established",
+    "keywords": [
+      "이탈리아 → 유럽",
+      "카라바조",
+      "렘브란트",
+      "루벤스",
+      "베르니니",
+      "키아로스쿠로(극단적 명암)",
+      "대각선·소용돌이 구도",
+      "과장된 운동감과 감정"
+    ],
+    "related": [
+      "victorian",
+      "rococo"
+    ],
+    "detail": {
+      "desc": "종교개혁에 맞선 가톨릭의 시각 전략에서 자란 양식. 카라바조의 극단적 명암(키아로스쿠로), 루벤스의 소용돌이치는 구도, 베르니니의 과장된 운동감으로 감정을 직격한다. 오늘날 \"드라마틱한 연출\"의 시각 문법이 여기서 정립됐다.",
+      "traits": [
+        "키아로스쿠로(극단적 명암)",
+        "대각선·소용돌이 구도",
+        "과장된 운동감과 감정",
+        "호화로운 금장식",
+        "극장적 연출"
+      ],
+      "palette": [
+        {
+          "hex": "#2B1D12",
+          "name": "움버 다크"
+        },
+        {
+          "hex": "#7A1F1F",
+          "name": "카민"
+        },
+        {
+          "hex": "#C9962E",
+          "name": "올드 골드"
+        },
+        {
+          "hex": "#3E2C4A",
+          "name": "딥 바이올렛"
+        },
+        {
+          "hex": "#E5D5B8",
+          "name": "캔들라이트"
+        }
+      ],
+      "typo": "동판 인그레이빙의 화려한 스워시와 플러리시 — 캘리그래피가 권위를 입던 시대.",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "고대비 트랜지셔널"
+        },
+        {
+          "name": "Pinyon Script",
+          "css": "'Pinyon Script', cursive",
+          "note": "동판 스크립트"
+        }
+      ],
+      "realTypefaces": [
+        "Caslon(1722)",
+        "동판 라운드핸드",
+        "Fleuron 장식활자"
+      ],
+      "sampleText": "Chiaroscuro",
+      "motifs": [
+        "어둠을 가르는 한 줄기 빛",
+        "소용돌이 구도",
+        "금박 액자·천장화",
+        "벨벳과 진주",
+        "바니타스 정물"
+      ],
+      "motifDesc": "화면의 대부분을 어둠에 잠그고 극적인 빛 한 줄기로 주인공을 조각한다. 시선은 대각선을 따라 회오리치며, 모든 디테일이 과잉으로 풍요롭다.",
+      "figures": [
+        "카라바조",
+        "렘브란트",
+        "루벤스",
+        "베르니니"
+      ],
+      "figurePortraits": {
+        "카라바조": "https://commons.wikimedia.org/wiki/Special:FilePath/Bild-Ottavio%20Leoni%2C%20Caravaggio.jpg?width=400",
+        "렘브란트": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt%20van%20Rijn%20-%20Self-Portrait%20-%20Google%20Art%20Project.jpg?width=400",
+        "루벤스": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Paul%20Rubens%20-%20Self-Portrait%20-%20WGA20374.jpg?width=400",
+        "베르니니": "https://commons.wikimedia.org/wiki/Special:FilePath/Gian%20Lorenzo%20Bernini%2C%20self-portrait%2C%20c1623.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "야경",
+          "titleEn": "The Night Watch",
+          "artist": "렘브란트",
+          "year": "1642",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Nightwatch%20by%20Rembrandt%20-%20Rijksmuseum.jpg?width=800"
+        },
+        {
+          "title": "성 마태오를 부르심",
+          "titleEn": "The Calling of Saint Matthew",
+          "artist": "카라바조",
+          "year": "1600",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Calling%20of%20Saint%20Matthew-Caravaggo%20(1599-1600).jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "baroque painting caravaggio rembrandt",
+        "images": [
+          "https://i.pinimg.com/736x/6b/34/47/6b34477a626038a39ae9316d558289b5.jpg",
+          "https://i.pinimg.com/736x/44/98/f6/4498f60214b45ed0545de46209f820f7.jpg",
+          "https://i.pinimg.com/736x/ce/ca/92/ceca922141c3f02ee945d2759fef2ed5.jpg",
+          "https://i.pinimg.com/736x/0d/22/2f/0d222f6876c6fdaea52c5c472412baa1.jpg",
+          "https://i.pinimg.com/736x/1c/22/e3/1c22e3a159c65e8bd72fbc8f009eb259.jpg",
+          "https://i.pinimg.com/736x/1a/a5/00/1aa50013ebbed4f96fc4feded24e4027.jpg",
+          "https://i.pinimg.com/736x/ba/ff/a4/baffa4656669a6e2df39fa15c918d27b.jpg",
+          "https://i.pinimg.com/736x/4b/5d/0c/4b5d0c3b042bf9effb9cd9bd79cded5f.jpg",
+          "https://i.pinimg.com/736x/95/bb/1c/95bb1c6a8d4f8df6489697c7597b945b.jpg",
+          "https://i.pinimg.com/736x/e9/f6/43/e9f64383a89a3bb7ec41e5ed056f5563.jpg",
+          "https://i.pinimg.com/736x/92/14/15/9214155d08e8ad788e6f0eec88218de9.jpg",
+          "https://i.pinimg.com/736x/e6/d8/a7/e6d8a7d1f53f9f17959c7b5425198288.jpg",
+          "https://i.pinimg.com/736x/ac/b3/2a/acb32a8708462e62921d291e65a33e53.jpg",
+          "https://i.pinimg.com/736x/53/06/c8/5306c80d9bee8db6a303e30cf4748026.jpg",
+          "https://i.pinimg.com/736x/b2/8a/2f/b28a2fc82a3c0ccdb6d109f7fc43fec3.jpg",
+          "https://i.pinimg.com/736x/21/f9/d4/21f9d46ebc2af3db81ea0fa9dc05f9df.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "rococo",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "로코코",
+    "titleEn": "Rococo",
+    "origin": "프랑스",
+    "period": "1720–1780",
+    "field": "디자인 양식",
+    "oneLiner": "파스텔빛 유희 — 귀족 살롱의 가볍고 달콤한 장식.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스",
+      "프라고나르",
+      "부셰",
+      "와토",
+      "파스텔 팔레트",
+      "로카유(조개·소용돌이) 장식",
+      "비대칭 곡선 C·S 스크롤"
+    ],
+    "related": [
+      "baroque",
+      "victorian",
+      "art-nouveau"
+    ],
+    "detail": {
+      "desc": "바로크의 장중함이 프랑스 살롱에서 가볍고 관능적인 유희로 변한 양식. 조개·덩굴 모양의 로카유 장식, 파우더 파스텔, 연애와 전원의 한가로운 장면(페트 갈랑트)이 특징. \"장식을 위한 장식\"의 정점이자, 이후 신고전주의가 반발한 대상.",
+      "traits": [
+        "파스텔 팔레트",
+        "로카유(조개·소용돌이) 장식",
+        "비대칭 곡선 C·S 스크롤",
+        "연애·전원의 유희적 주제",
+        "경쾌함과 관능"
+      ],
+      "palette": [
+        {
+          "hex": "#F2C9D4",
+          "name": "로즈 퐁파두르"
+        },
+        {
+          "hex": "#A8C6E8",
+          "name": "파우더 블루"
+        },
+        {
+          "hex": "#BFD8C9",
+          "name": "셀라돈"
+        },
+        {
+          "hex": "#D9C27E",
+          "name": "길트"
+        },
+        {
+          "hex": "#F7EFE2",
+          "name": "크림"
+        }
+      ],
+      "typo": "깃털처럼 가벼운 스크립트와 섬세한 플러리시 — 연애편지의 글씨.",
+      "fonts": [
+        {
+          "name": "Pinyon Script",
+          "css": "'Pinyon Script', cursive",
+          "note": "격식 스크립트"
+        },
+        {
+          "name": "Petit Formal Script",
+          "css": "'Petit Formal Script', cursive",
+          "note": "살롱의 필체"
+        }
+      ],
+      "realTypefaces": [
+        "Fournier(1740s)",
+        "로카유 장식 활자"
+      ],
+      "sampleText": "Fête galante",
+      "motifs": [
+        "조개·로카유 스크롤",
+        "그네와 정원",
+        "큐피드·꽃줄",
+        "파스텔 실크",
+        "금박 거울 프레임"
+      ],
+      "motifDesc": "직선이 없는 세계 — 모든 모서리가 조개 껍데기처럼 말려 올라간다. 프라고나르의 「그네」처럼 달콤한 빛과 파스텔이 화면을 감싼다.",
+      "figures": [
+        "프라고나르",
+        "부셰",
+        "와토"
+      ],
+      "figurePortraits": {
+        "프라고나르": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Honor%C3%A9%20Fragonard%20-%20Self-portrait.jpg?width=400",
+        "부셰": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%20Boucher%20-%20Self-Portrait%20-%20WGA02906.jpg?width=400",
+        "와토": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalba%20Carriera%20Portrait%20Antoine%20Watteau.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "그네",
+          "titleEn": "The Swing",
+          "artist": "장오노레 프라고나르",
+          "year": "1767",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Fragonard%2C%20The%20Swing.jpg?width=800"
+        },
+        {
+          "title": "키테라 섬으로의 순례",
+          "titleEn": "Pilgrimage to Cythera",
+          "artist": "앙투안 바토",
+          "year": "1718",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine%20Watteau%20-%20Pilgrimage%20to%20Cythera%20-%20WGA25454.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "rococo painting fragonard boucher",
+        "images": [
+          "https://i.pinimg.com/736x/7f/59/d9/7f59d9a7894f7dc27eb8da13ac9fe7e3.jpg",
+          "https://i.pinimg.com/736x/54/ed/4e/54ed4e94c6c0d86e645500b8fdb7cdf2.jpg",
+          "https://i.pinimg.com/736x/50/9e/89/509e89c7e919686b123940d4e031ae2c.jpg",
+          "https://i.pinimg.com/736x/9b/6a/86/9b6a8671303dbe1c154e6e7e1c7e7742.jpg",
+          "https://i.pinimg.com/736x/47/42/2e/47422ea9f5a8c7fa8fd4336856e1a412.jpg",
+          "https://i.pinimg.com/736x/1d/10/bc/1d10bc1bc943b5a59d1d1e1b682b2707.jpg",
+          "https://i.pinimg.com/736x/a8/d7/cb/a8d7cbff1dac498b9c2b622ecf29a141.jpg",
+          "https://i.pinimg.com/736x/de/b0/83/deb0833e76ede96e003bdfa45330ba10.jpg",
+          "https://i.pinimg.com/736x/4d/ca/68/4dca68381eb889dfa9eb8c2e6e8831ad.jpg",
+          "https://i.pinimg.com/736x/8c/88/4d/8c884dab7530c52a2d61a28fa06173a4.jpg",
+          "https://i.pinimg.com/736x/33/c7/ac/33c7aca68d14f189f75fc08fcdabb1a6.jpg",
+          "https://i.pinimg.com/736x/7d/c5/7f/7dc57fdb2ae9c41a79e41a61a3f98e79.jpg",
+          "https://i.pinimg.com/736x/d7/e8/d1/d7e8d12eaabb985916fa821eff029210.jpg",
+          "https://i.pinimg.com/736x/a6/6f/56/a66f56b3a9208a46cf42a4b828c58b3e.jpg",
+          "https://i.pinimg.com/736x/7c/9a/c2/7c9ac225bcfb9efa966fe8bde7aec3a4.jpg",
+          "https://i.pinimg.com/736x/b8/b5/e8/b8b5e85ecc2f08d1a7a06d5042e78c7a.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "neoclassicism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "신고전주의",
+    "titleEn": "Neoclassicism",
+    "origin": "프랑스·로마",
+    "period": "1760–1830",
+    "field": "디자인 양식",
+    "oneLiner": "로코코에 대한 반성 — 고대의 질서와 도덕으로 돌아가라.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스·로마",
+      "자크루이 다비드",
+      "앵그르",
+      "카노바",
+      "명확한 윤곽선과 형태",
+      "좌우 대칭·안정 구도",
+      "고대 로마·그리스 주제"
+    ],
+    "related": [
+      "renaissance",
+      "art-deco",
+      "minimalism"
+    ],
+    "detail": {
+      "desc": "폼페이 발굴(1748)과 계몽주의가 촉발한 고전 부활. 로코코의 경박함을 비판하며 명확한 윤곽선, 균형 잡힌 구도, 영웅적 주제로 돌아갔다. 다비드의 「호라티우스 형제의 맹세」가 선언문. 절제와 질서라는 미덕은 훗날 미니멀리즘·스위스 스타일과 공명한다.",
+      "traits": [
+        "명확한 윤곽선과 형태",
+        "좌우 대칭·안정 구도",
+        "고대 로마·그리스 주제",
+        "절제된 색채",
+        "도덕적·영웅적 서사"
+      ],
+      "palette": [
+        {
+          "hex": "#F0EBE0",
+          "name": "마블 화이트"
+        },
+        {
+          "hex": "#8C1C13",
+          "name": "폼페이안 레드"
+        },
+        {
+          "hex": "#2E3A4E",
+          "name": "프러시안 블루"
+        },
+        {
+          "hex": "#C8B68E",
+          "name": "스톤"
+        },
+        {
+          "hex": "#1D1D1B",
+          "name": "잉크"
+        }
+      ],
+      "typo": "디도와 보도니 — 수학적으로 다듬은 고대비 모던 세리프가 이 시대의 활자.",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "디돈 계열"
+        },
+        {
+          "name": "Marcellus",
+          "css": "'Marcellus', serif",
+          "note": "로만 비문체"
+        }
+      ],
+      "realTypefaces": [
+        "Didot(1784)",
+        "Bodoni(1790s)",
+        "Baskerville(1757)"
+      ],
+      "sampleText": "Et in Arcadia",
+      "motifs": [
+        "도리아·이오니아 기둥",
+        "월계관·메달리온",
+        "토가와 조각상",
+        "페디먼트 구도",
+        "대리석 질감"
+      ],
+      "motifDesc": "화면이 신전처럼 설계된다 — 인물은 프리즈(띠 부조)처럼 전경에 평행 배치되고, 배경의 기둥과 아치가 수직·수평의 뼈대를 세운다.",
+      "figures": [
+        "자크루이 다비드",
+        "앵그르",
+        "카노바"
+      ],
+      "figurePortraits": {
+        "자크루이 다비드": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis%20David%20-%20Self-portrait%2C%201794.jpg?width=400",
+        "앵그르": "https://commons.wikimedia.org/wiki/Special:FilePath/Ingres%2C%20Self-portrait.jpg?width=400",
+        "카노바": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio%20Canova.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "마라의 죽음",
+          "titleEn": "The Death of Marat",
+          "artist": "자크루이 다비드",
+          "year": "1793",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Death%20of%20Marat%20by%20David.jpg?width=800"
+        },
+        {
+          "title": "그랑드 오달리스크",
+          "titleEn": "La Grande Odalisque",
+          "artist": "앵그르",
+          "year": "1814",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Auguste%20Dominique%20Ingres%2C%20La%20Grande%20Odalisque%2C%201814.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "neoclassical painting jacques louis david",
+        "images": [
+          "https://i.pinimg.com/736x/f1/b1/f4/f1b1f491a2e23e35bcf5091882a5a68d.jpg",
+          "https://i.pinimg.com/736x/97/b2/11/97b211e7b306a8a397a3e0a8078cac42.jpg",
+          "https://i.pinimg.com/736x/bc/3c/bb/bc3cbb48d94ca5a6ad9aea5d57b1422f.jpg",
+          "https://i.pinimg.com/736x/e0/a1/ba/e0a1ba84129248ab14556b4e8c6276b0.jpg",
+          "https://i.pinimg.com/736x/c6/0a/b3/c60ab313ccf26bc0a10d1aa5cee60689.jpg",
+          "https://i.pinimg.com/736x/0c/92/d3/0c92d3eabe2e1551479b9c47bb2c55c0.jpg",
+          "https://i.pinimg.com/736x/c3/34/ad/c334ad28bc4793230219e038f9b564e6.jpg",
+          "https://i.pinimg.com/736x/68/fb/08/68fb089fa77d5642223d55fb3186e84c.jpg",
+          "https://i.pinimg.com/736x/3e/c4/06/3ec406d937d2b98b88e75fd0a44dde80.jpg",
+          "https://i.pinimg.com/736x/c7/6b/3e/c76b3e0ac7a88d0e380255b26f9c4737.jpg",
+          "https://i.pinimg.com/736x/07/ab/17/07ab1766b0aacacb8b4e2390d28c9fb4.jpg",
+          "https://i.pinimg.com/736x/d9/b5/01/d9b5018697e6fd5fb481dbb9fcbd09b6.jpg",
+          "https://i.pinimg.com/736x/94/b9/fe/94b9fe9f54804ef06db405cf832efcbc.jpg",
+          "https://i.pinimg.com/736x/6f/3b/c1/6f3bc12c76907d694a3ae2ab117079b8.jpg",
+          "https://i.pinimg.com/736x/f9/ef/1b/f9ef1b8a4d61b60c4edafe92d99d3773.jpg",
+          "https://i.pinimg.com/736x/13/58/0a/13580aca0b77095ea835c2eb51032a08.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "romanticism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "낭만주의",
+    "titleEn": "Romanticism",
+    "origin": "독일·영국·프랑스",
+    "period": "1800–1850",
+    "field": "디자인 양식",
+    "oneLiner": "이성에 맞서는 감정 — 숭고한 자연 앞의 인간.",
+    "credibility": "established",
+    "keywords": [
+      "독일·영국·프랑스",
+      "들라크루아",
+      "터너",
+      "프리드리히",
+      "고야",
+      "감정·상상력의 우위",
+      "숭고한 자연(폭풍·안개·폐허)",
+      "격정적 붓질과 색"
+    ],
+    "related": [
+      "victorian",
+      "grunge",
+      "psychedelic"
+    ],
+    "detail": {
+      "desc": "계몽주의의 이성 중심에 반발해 감정, 상상력, 개인의 내면을 앞세운 운동. 프리드리히의 안개 낀 산, 터너의 폭풍, 들라크루아의 격정이 대표적. \"숭고(sublime)\" — 아름다움을 넘어 압도하는 자연 — 라는 미학 개념을 시각화했다.",
+      "traits": [
+        "감정·상상력의 우위",
+        "숭고한 자연(폭풍·안개·폐허)",
+        "격정적 붓질과 색",
+        "이국과 중세에 대한 동경",
+        "개인·천재의 신화"
+      ],
+      "palette": [
+        {
+          "hex": "#1E2A44",
+          "name": "폭풍 블루"
+        },
+        {
+          "hex": "#7E3B2C",
+          "name": "번트 시에나"
+        },
+        {
+          "hex": "#C99A4B",
+          "name": "노을 골드"
+        },
+        {
+          "hex": "#4A5D4F",
+          "name": "깊은 숲"
+        },
+        {
+          "hex": "#D8CDBD",
+          "name": "안개"
+        }
+      ],
+      "typo": "감정을 싣는 글자 — 격정적 이탤릭과 고딕 리바이벌(중세 동경)의 공존.",
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "서정적 세리프"
+        },
+        {
+          "name": "Tangerine",
+          "css": "'Tangerine', cursive",
+          "note": "시인의 필체"
+        }
+      ],
+      "realTypefaces": [
+        "고딕 리바이벌 블랙레터",
+        "팻 페이스(광고 등장)"
+      ],
+      "sampleText": "The Sublime",
+      "motifs": [
+        "안개 바다 위 방랑자",
+        "폭풍우와 난파선",
+        "고딕 폐허",
+        "달빛",
+        "등 돌린 인물(뤼켄피구어)"
+      ],
+      "motifDesc": "인간은 작게, 자연은 압도적으로. 등을 돌린 인물의 시선을 따라 관객도 무한 앞에 선다. 빛은 설명이 아니라 감정을 위해 쓰인다.",
+      "figures": [
+        "들라크루아",
+        "터너",
+        "프리드리히",
+        "고야"
+      ],
+      "figurePortraits": {
+        "들라크루아": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene%20delacroix.jpg?width=400",
+        "터너": "https://commons.wikimedia.org/wiki/Special:FilePath/Turner%20selfportrait.jpg?width=400",
+        "프리드리히": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar%20David%20Friedrich%20-%20Self-Portrait%20-%20WGA08291.jpg?width=400",
+        "고야": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20y%20Lucientes%20-%20Self-Portrait%20in%20the%20Workshop%20-%20WGA10008.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "민중을 이끄는 자유의 여신",
+          "titleEn": "Liberty Leading the People",
+          "artist": "외젠 들라크루아",
+          "year": "1830",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eug%C3%A8ne%20Delacroix%20-%20Le%2028%20Juillet.%20La%20Libert%C3%A9%20guidant%20le%20peuple.jpg?width=800"
+        },
+        {
+          "title": "안개 바다 위의 방랑자",
+          "titleEn": "Wanderer above the Sea of Fog",
+          "artist": "카스파르 다비트 프리드리히",
+          "year": "1818",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar%20David%20Friedrich%20-%20Wanderer%20above%20the%20sea%20of%20fog.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "romanticism painting friedrich turner",
+        "images": [
+          "https://i.pinimg.com/736x/13/e8/93/13e893c242a3706483b4e4eb0e4c7503.jpg",
+          "https://i.pinimg.com/736x/f9/0d/f5/f90df54e68ed5c3891da8bf282865c1a.jpg",
+          "https://i.pinimg.com/736x/63/34/94/633494dee8383d66f43a93e239202b6d.jpg",
+          "https://i.pinimg.com/736x/aa/2e/0d/aa2e0d078f417c48b83c7a3f40260e41.jpg",
+          "https://i.pinimg.com/736x/00/63/2e/00632e2187f01691eb3f70c8da97227e.jpg",
+          "https://i.pinimg.com/736x/f2/19/85/f219859bb83d2d663b884fb881513139.jpg",
+          "https://i.pinimg.com/736x/d5/a9/ee/d5a9ee2cd8e9c2a438e4dac8add6b633.jpg",
+          "https://i.pinimg.com/736x/ad/5e/e7/ad5ee7117a85322ed64bde265a2259fa.jpg",
+          "https://i.pinimg.com/736x/43/24/81/432481ffe24c930a53ca667bf28dd5fa.jpg",
+          "https://i.pinimg.com/736x/34/b0/50/34b05039e81b1c7196d84cf4a6d95380.jpg",
+          "https://i.pinimg.com/736x/64/4d/74/644d74c53b67257ea659e74f72ad61d0.jpg",
+          "https://i.pinimg.com/736x/e6/0d/c1/e60dc17f3623d47b0d1ec602c8dcf48b.jpg",
+          "https://i.pinimg.com/736x/a9/dd/e2/a9dde212210b62234e1418aafee2d35b.jpg",
+          "https://i.pinimg.com/736x/8f/c3/65/8fc36528812ce90c49fd5d642a3df98a.jpg",
+          "https://i.pinimg.com/736x/24/fb/3e/24fb3eee7e7ab4249d601fabf845e3a4.jpg",
+          "https://i.pinimg.com/736x/eb/a1/98/eba1986cf56aa70b8ec26e35fd94ce13.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "impressionism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "인상주의",
+    "titleEn": "Impressionism",
+    "origin": "프랑스 파리",
+    "period": "1860–1890",
+    "field": "디자인 양식",
+    "oneLiner": "빛의 순간을 붙잡다 — 아카데미를 뛰쳐나간 첫 모던.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스 파리",
+      "모네",
+      "마네",
+      "르누아르",
+      "드가",
+      "야외 사생(플레네르)",
+      "끊어진 붓터치·색 병치",
+      "순간의 빛과 대기"
+    ],
+    "related": [
+      "post-impressionism",
+      "art-nouveau"
+    ],
+    "detail": {
+      "desc": "살롱 아카데미의 규범을 거부하고 야외에서 빛과 대기의 순간적 인상을 그린 운동. 끊어진 붓터치와 밝은 보색 병치, 일상적 주제(카페·정원·기차역)로 회화의 문법을 바꿨다. 우키요에 수집 열풍과 사진의 등장이 구도 혁신을 부추겼다.",
+      "traits": [
+        "야외 사생(플레네르)",
+        "끊어진 붓터치·색 병치",
+        "순간의 빛과 대기",
+        "일상적 주제",
+        "우키요에·사진의 영향"
+      ],
+      "palette": [
+        {
+          "hex": "#7FA8D9",
+          "name": "하늘"
+        },
+        {
+          "hex": "#B5CC8E",
+          "name": "풀빛"
+        },
+        {
+          "hex": "#F2C879",
+          "name": "햇살"
+        },
+        {
+          "hex": "#E8A8B8",
+          "name": "장미"
+        },
+        {
+          "hex": "#EFEAE0",
+          "name": "캔버스"
+        }
+      ],
+      "typo": "부드러운 세리프와 가벼운 스크립트 — 벨 에포크 파리의 공기.",
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "파리지앵 세리프"
+        },
+        {
+          "name": "Satisfy",
+          "css": "'Satisfy', cursive",
+          "note": "가벼운 스크립트"
+        }
+      ],
+      "realTypefaces": [
+        "벨 에포크 석판 포스터 레터링"
+      ],
+      "sampleText": "Soleil levant 1872",
+      "motifs": [
+        "수련과 물의 반영",
+        "야외 카페·뱃놀이",
+        "기차역의 증기",
+        "양산 쓴 인물",
+        "점묘적 붓터치"
+      ],
+      "motifDesc": "윤곽선이 사라지고 색점들이 관객의 눈 속에서 섞인다. 같은 건초더미를 아침과 저녁에 다시 그리는 — 대상이 아니라 빛이 주인공인 회화.",
+      "figures": [
+        "모네",
+        "마네",
+        "르누아르",
+        "드가"
+      ],
+      "figurePortraits": {
+        "모네": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Monet%201899%20Nadar%20crop.jpg?width=400",
+        "마네": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Manet%20-%20Self-Portrait%20-%20Google%20Art%20Project.jpg?width=400",
+        "르누아르": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste%20Renoir%20-%20Autoportrait%2C%201875.jpg?width=400",
+        "드가": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Degas%20self%20portrait%201855FXD.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "인상, 해돋이",
+          "titleEn": "Impression, Sunrise",
+          "artist": "클로드 모네",
+          "year": "1872",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Monet%2C%20Impression%2C%20soleil%20levant%2C%201872.jpg?width=800"
+        },
+        {
+          "title": "폴리베르제르의 바",
+          "titleEn": "A Bar at the Folies-Bergère",
+          "artist": "에두아르 마네",
+          "year": "1882",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Manet%2C%20A%20Bar%20at%20the%20Folies-Berg%C3%A8re.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "impressionist painting monet renoir",
+        "images": [
+          "https://i.pinimg.com/736x/81/61/86/8161862441cdfb037a6061af4807f601.jpg",
+          "https://i.pinimg.com/736x/92/91/80/929180bb8b03f29a09d5e497fdeb50bf.jpg",
+          "https://i.pinimg.com/736x/82/b0/f8/82b0f8f474289adcfdef90c6d76db56b.jpg",
+          "https://i.pinimg.com/736x/f1/0f/52/f10f528d92bd41052b9942d13193edc5.jpg",
+          "https://i.pinimg.com/736x/e8/78/e6/e878e625193386bceb05ee0b2de850a0.jpg",
+          "https://i.pinimg.com/736x/cc/17/54/cc17540fb4fb2cfba63f3240fc86956e.jpg",
+          "https://i.pinimg.com/736x/ce/6e/7d/ce6e7da1aa58bf9eddcd9e0747fdb19e.jpg",
+          "https://i.pinimg.com/736x/4a/f5/a9/4af5a9bd0cfe5001ffe1123c33e2396f.jpg",
+          "https://i.pinimg.com/736x/b4/94/ae/b494aed3863957fc59edaee64f94a6c4.jpg",
+          "https://i.pinimg.com/736x/24/7f/91/247f91325e89e02333a13af218457eb7.jpg",
+          "https://i.pinimg.com/736x/ba/d9/05/bad9056fdd1173f397b67e6498ac4343.jpg",
+          "https://i.pinimg.com/736x/ae/94/a2/ae94a2d0c5ce24818ee2a0653a48d617.jpg",
+          "https://i.pinimg.com/736x/fe/d5/81/fed5813b322e7fee1e725b457187d3bd.jpg",
+          "https://i.pinimg.com/736x/3b/72/14/3b7214a203c87580d1a3103123358fc7.jpg",
+          "https://i.pinimg.com/736x/ee/08/17/ee0817798bd96de443da4f357280752c.jpg",
+          "https://i.pinimg.com/736x/02/15/d8/0215d898271c3c4c123ea9f989cc7f4e.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "post-impressionism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "후기인상주의",
+    "titleEn": "Post-Impressionism",
+    "origin": "프랑스",
+    "period": "1885–1910",
+    "field": "디자인 양식",
+    "oneLiner": "빛 너머의 구조와 감정 — 고흐의 소용돌이, 쇠라의 점.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스",
+      "반 고흐",
+      "고갱",
+      "세잔",
+      "쇠라",
+      "로트레크",
+      "감정적·상징적 색채",
+      "점묘법(분할주의)",
+      "형태의 기하학적 구축"
+    ],
+    "related": [
+      "impressionism",
+      "art-nouveau",
+      "pop-art",
+      "psychedelic"
+    ],
+    "detail": {
+      "desc": "인상주의의 빛을 이어받되 각자의 길로 밀고 나간 세대. 고흐는 감정의 붓질로, 쇠라는 과학적 점묘로, 세잔은 형태의 구축으로, 로트레크는 석판 포스터로 — 특히 쇠라의 점묘는 인쇄 망점·벤데이 도트의 미학적 선조이고, 로트레크는 그래픽 포스터 디자인의 아버지다.",
+      "traits": [
+        "감정적·상징적 색채",
+        "점묘법(분할주의)",
+        "형태의 기하학적 구축",
+        "석판 포스터의 황금기",
+        "평면성과 윤곽선(우키요에)"
+      ],
+      "palette": [
+        {
+          "hex": "#2E5AA8",
+          "name": "별밤 블루"
+        },
+        {
+          "hex": "#F2B705",
+          "name": "해바라기"
+        },
+        {
+          "hex": "#D95525",
+          "name": "주황"
+        },
+        {
+          "hex": "#3E7A4E",
+          "name": "사이프러스"
+        },
+        {
+          "hex": "#7A4E8C",
+          "name": "고갱 퍼플"
+        }
+      ],
+      "typo": "로트레크의 포스터 레터링 — 그림과 글자가 처음으로 한 몸이 된 순간.",
+      "fonts": [
+        {
+          "name": "Berkshire Swash",
+          "css": "'Berkshire Swash', cursive",
+          "note": "포스터 레터링"
+        },
+        {
+          "name": "Kaushan Script",
+          "css": "'Kaushan Script', cursive",
+          "note": "붓의 기세"
+        }
+      ],
+      "realTypefaces": [
+        "물랭루주 석판 레터링",
+        "Auriol(아르누보 직전)"
+      ],
+      "sampleText": "La Nuit étoilée",
+      "motifs": [
+        "소용돌이치는 별밤",
+        "해바라기·사이프러스",
+        "점묘의 일요일 오후",
+        "물랭루주 포스터",
+        "타히티의 평면 색면"
+      ],
+      "motifDesc": "붓터치 하나하나가 감정의 단위가 된다. 쇠라의 점은 차분한 과학, 고흐의 획은 끓는 감정 — 같은 기법이 정반대의 온도를 낸다.",
+      "figures": [
+        "반 고흐",
+        "고갱",
+        "세잔",
+        "쇠라",
+        "로트레크"
+      ],
+      "figurePortraits": {
+        "반 고흐": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20van%20Gogh%20-%20Self-Portrait%20-%20Google%20Art%20Project%20(454045).jpg?width=400",
+        "고갱": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-Portrait%20by%20Paul%20Gauguin%2C%201885.jpg?width=400",
+        "세잔": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20C%C3%A9zanne%20-%20Self-Portrait%20-%20Google%20Art%20Project.jpg?width=400",
+        "쇠라": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Seurat%201888.jpg?width=400",
+        "로트레크": "https://commons.wikimedia.org/wiki/Special:FilePath/Henri%20de%20Toulouse-Lautrec%20059.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "별이 빛나는 밤",
+          "titleEn": "The Starry Night",
+          "artist": "빈센트 반 고흐",
+          "year": "1889",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/VanGogh-starry%20night%20ballance1.jpg?width=800"
+        },
+        {
+          "title": "그랑드자트 섬의 일요일 오후",
+          "titleEn": "A Sunday on La Grande Jatte",
+          "artist": "조르주 쇠라",
+          "year": "1884",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Seurat%20-%20A%20Sunday%20on%20La%20Grande%20Jatte%20--%201884%20-%20Google%20Art%20Project.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "post impressionism van gogh painting",
+        "images": [
+          "https://i.pinimg.com/736x/b0/df/ce/b0dfce82276a681c148c1bc3b858d38c.jpg",
+          "https://i.pinimg.com/736x/49/c5/7a/49c57a6727ab936f458dec874701d05d.jpg",
+          "https://i.pinimg.com/736x/aa/01/f1/aa01f12541dc08fa36893a1db4cb8700.jpg",
+          "https://i.pinimg.com/736x/a9/9e/ad/a99eade643efe42ac177328675875287.jpg",
+          "https://i.pinimg.com/736x/30/ce/b1/30ceb1f4ac6a2df16ad462c321f20f5b.jpg",
+          "https://i.pinimg.com/736x/ea/90/54/ea90547de4dc76e995fed3f67a4106d5.jpg",
+          "https://i.pinimg.com/736x/f0/b8/98/f0b8988608540964e8f26010b8063bdf.jpg",
+          "https://i.pinimg.com/736x/82/11/6b/82116b6abc8202aa17d6fa77c45a5e8a.jpg",
+          "https://i.pinimg.com/736x/25/dd/b0/25ddb07903a74d39593506cacdb4e898.jpg",
+          "https://i.pinimg.com/736x/fa/24/bc/fa24bc46081487549b133bb5072b14d6.jpg",
+          "https://i.pinimg.com/736x/a0/35/f7/a035f7b6a517f195b0bef910366b3fe3.jpg",
+          "https://i.pinimg.com/736x/8c/4b/ac/8c4bacab0b2cf42c9329ae7ff090e2c7.jpg",
+          "https://i.pinimg.com/736x/64/f1/75/64f17572287efb2c2bdf0af7993e122f.jpg",
+          "https://i.pinimg.com/736x/ce/4c/f2/ce4cf260f8445e1898a413a1d006299f.jpg",
+          "https://i.pinimg.com/736x/b0/a8/48/b0a8487acf63d341b5da08ce691bb947.jpg",
+          "https://i.pinimg.com/736x/b7/9c/27/b79c2743adad9eacb35e873dbae68290.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "expressionism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "표현주의",
+    "titleEn": "Expressionism",
+    "origin": "독일·북유럽",
+    "period": "1905–1930",
+    "field": "디자인 양식",
+    "oneLiner": "왜곡이 곧 진실 — 내면의 불안을 그대로 토해내다.",
+    "credibility": "established",
+    "keywords": [
+      "독일·북유럽",
+      "뭉크",
+      "키르히너",
+      "에곤 실레",
+      "콜비츠",
+      "감정의 직접 표출",
+      "왜곡된 형태·원근",
+      "비자연적 강렬한 색"
+    ],
+    "related": [
+      "grunge",
+      "constructivism",
+      "psychedelic"
+    ],
+    "detail": {
+      "desc": "뭉크의 「절규」를 선구로 독일에서 만개한 운동(다리파·청기사파). 정확한 재현 대신 거친 붓질, 비명 같은 색, 일그러진 형태로 내면의 감정을 직접 표현했다. 목판화의 거친 칼맛은 훗날 펑크·그런지 그래픽의 직계 조상이다.",
+      "traits": [
+        "감정의 직접 표출",
+        "왜곡된 형태·원근",
+        "비자연적 강렬한 색",
+        "거친 목판화의 부활",
+        "불안·소외의 주제"
+      ],
+      "palette": [
+        {
+          "hex": "#D72E2E",
+          "name": "절규 레드"
+        },
+        {
+          "hex": "#F2A33C",
+          "name": "핏빛 노을"
+        },
+        {
+          "hex": "#1F3B73",
+          "name": "심연 블루"
+        },
+        {
+          "hex": "#161616",
+          "name": "목판 블랙"
+        },
+        {
+          "hex": "#E3D9C2",
+          "name": "병든 살빛"
+        }
+      ],
+      "typo": "칼로 판 듯한 글자 — 독일 블랙레터와 거친 목판 레터링.",
+      "fonts": [
+        {
+          "name": "UnifrakturMaguntia",
+          "css": "'UnifrakturMaguntia', serif",
+          "note": "독일 블랙레터"
+        },
+        {
+          "name": "Frijole",
+          "css": "'Frijole', cursive",
+          "note": "거친 목판 느낌"
+        }
+      ],
+      "realTypefaces": [
+        "다리파 목판 레터링",
+        "Fraktur 계열"
+      ],
+      "sampleText": "Der Schrei",
+      "motifs": [
+        "일그러진 얼굴",
+        "핏빛 하늘",
+        "거친 목판 선",
+        "도시의 군중과 소외",
+        "가면"
+      ],
+      "motifDesc": "선은 떨리고 색은 비명을 지른다. 다리 위의 절규처럼 풍경 전체가 인물의 감정에 감염되어 함께 일그러진다.",
+      "figures": [
+        "뭉크",
+        "키르히너",
+        "에곤 실레",
+        "콜비츠"
+      ],
+      "figurePortraits": {
+        "뭉크": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%20-%20Self-Portrait%20against%20Red%20Background.jpg?width=400",
+        "키르히너": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirchner%20-%20Selbstbildnis%20als%20Soldat.jpg?width=400",
+        "에곤 실레": "https://commons.wikimedia.org/wiki/Special:FilePath/Egon%20Schiele%2C%20Self-Portrait%2C%201912%2C%20NGA%2082933.jpg?width=400",
+        "콜비츠": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4the%20Kollwitz%20-%20Selbstbildnis%20(Self-portrait).%20Lithograph%2C%201924.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "절규",
+          "titleEn": "The Scream",
+          "artist": "에드바르 뭉크",
+          "year": "1893",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Scream.jpg?width=800"
+        },
+        {
+          "title": "죽음과 소녀",
+          "titleEn": "Death and the Maiden",
+          "artist": "에곤 실레",
+          "year": "1915",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Egon%20Schiele%20-%20Der%20Tod%20und%20das%20M%C3%A4dchen.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "german expressionism painting munch",
+        "images": [
+          "https://i.pinimg.com/736x/aa/45/41/aa4541fa1033848c6d9bc599457d049b.jpg",
+          "https://i.pinimg.com/736x/df/29/c9/df29c90c06d6345fd1048ace2b505af2.jpg",
+          "https://i.pinimg.com/736x/61/0f/47/610f474bcd3accc37fe669e4f6fe3713.jpg",
+          "https://i.pinimg.com/736x/3f/0e/d7/3f0ed72f15abc8ea7e6cb2aae5fe7878.jpg",
+          "https://i.pinimg.com/736x/e0/24/3b/e0243b65e0923308f90d7b7c79d1fc0f.jpg",
+          "https://i.pinimg.com/736x/5d/49/6f/5d496f9592f44409042b29aa9a40df8d.jpg",
+          "https://i.pinimg.com/736x/6a/f0/93/6af0931d2b89a494d9230c6678e3b427.jpg",
+          "https://i.pinimg.com/736x/5d/9e/91/5d9e918ec68b9e531afaea5c1713ff32.jpg",
+          "https://i.pinimg.com/736x/e4/5d/20/e45d206a519f7d6e836a2575e5bb3e2a.jpg",
+          "https://i.pinimg.com/736x/57/7e/0d/577e0df1eb0068e229de3dea2f41ebfe.jpg",
+          "https://i.pinimg.com/736x/99/6d/78/996d7885f6d4d9263e87f7d7c0b56246.jpg",
+          "https://i.pinimg.com/736x/d4/29/a3/d429a3bd2683ca0bcfcbf2a285920b99.jpg",
+          "https://i.pinimg.com/736x/13/ab/bf/13abbf171f230e3d248e4f11cd52c2c0.jpg",
+          "https://i.pinimg.com/736x/eb/9f/0f/eb9f0f43753bae0891e3c4234da9f8f0.jpg",
+          "https://i.pinimg.com/736x/bb/af/f3/bbaff34a4dde4327572a9f3805ee7774.jpg",
+          "https://i.pinimg.com/736x/a3/47/09/a3470915af9ea63b27416c8a4e9b273e.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "cubism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "입체주의",
+    "titleEn": "Cubism",
+    "origin": "프랑스 파리",
+    "period": "1907–1925",
+    "field": "디자인 양식",
+    "oneLiner": "하나의 시점을 버리다 — 형태를 쪼개고 다시 조립하는 회화.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스 파리",
+      "피카소",
+      "브라크",
+      "레제",
+      "후안 그리스",
+      "다시점의 동시 표현",
+      "형태의 기하학적 분해",
+      "파피에 콜레(콜라주의 발명)"
+    ],
+    "related": [
+      "art-deco",
+      "constructivism",
+      "de-stijl"
+    ],
+    "detail": {
+      "desc": "피카소와 브라크가 세잔의 구축적 형태를 극단까지 밀어붙인 혁명. 대상을 여러 시점에서 동시에 보고 면으로 분해해 재조립했다. 신문지를 화면에 붙인 파피에 콜레는 콜라주의 발명이며, 면 분할의 사고는 아르데코·데 스테일·그래픽 레이아웃 전반에 흘러들었다.",
+      "traits": [
+        "다시점의 동시 표현",
+        "형태의 기하학적 분해",
+        "파피에 콜레(콜라주의 발명)",
+        "절제된 모노톤 팔레트",
+        "회화 평면성의 선언"
+      ],
+      "palette": [
+        {
+          "hex": "#8C7B66",
+          "name": "오커 브라운"
+        },
+        {
+          "hex": "#5E6B73",
+          "name": "회청"
+        },
+        {
+          "hex": "#B0A18A",
+          "name": "샌드 베이지"
+        },
+        {
+          "hex": "#3D3A33",
+          "name": "다크 엄버"
+        },
+        {
+          "hex": "#D8D2C4",
+          "name": "신문지"
+        }
+      ],
+      "typo": "화면 속에 등장한 활자 조각 — 신문·라벨의 스텐실 글자가 회화의 재료가 되다.",
+      "fonts": [
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "기하 분해의 감각"
+        },
+        {
+          "name": "Oswald",
+          "css": "'Oswald', sans-serif",
+          "note": "신문 컨덴스드"
+        }
+      ],
+      "realTypefaces": [
+        "스텐실 레터링",
+        "JOU(신문) 활자 조각"
+      ],
+      "sampleText": "Avignon 1907",
+      "motifs": [
+        "면으로 쪼개진 얼굴",
+        "기타·병·신문",
+        "파피에 콜레",
+        "겹치는 반투명 면",
+        "다시점 정물"
+      ],
+      "motifDesc": "바이올린의 옆면과 정면이 한 화면에 공존한다. 쪼개진 면들이 얕은 부조처럼 겹치며, 붙여진 신문 조각이 \"이것은 그림이다\"라고 선언한다.",
+      "figures": [
+        "피카소",
+        "브라크",
+        "레제",
+        "후안 그리스"
+      ],
+      "figurePortraits": {
+        "피카소": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20de%20Picasso%2C%201908.jpg?width=400",
+        "브라크": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Braque%2C%201908%2C%20photograph%20published%20in%20Gelett%20Burgess%2C%20The%20Wild%20Men%20of%20Paris%2C%20Architectural%20Record%2C%20May%201910.jpg?width=400",
+        "레제": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Fernand%20L%C3%A9ger%20LCCN2004663201.jpg?width=400",
+        "후안 그리스": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan%20Gris%20-%201912%20-%20Self-portrait.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "아비뇽의 처녀들",
+          "titleEn": "Les Demoiselles d'Avignon",
+          "artist": "파블로 피카소",
+          "year": "1907",
+          "src": "https://upload.wikimedia.org/wikipedia/en/4/4c/Les_Demoiselles_d%27Avignon.jpg"
+        },
+        {
+          "title": "메트로놈이 있는 정물",
+          "titleEn": "Still Life with Metronome",
+          "artist": "조르주 브라크",
+          "year": "1909",
+          "src": "https://upload.wikimedia.org/wikipedia/en/5/57/Georges_Braque%2C_1909%2C_Still_Life_with_Metronome_%28Still_Life_with_Mandola_and_Metronome%29%2C_oil_on_canvas%2C_81_x_54.1_cm%2C_Metropolitan_Museum_of_Art.jpg"
+        }
+      ],
+      "gallery": {
+        "q": "cubism picasso braque painting",
+        "images": [
+          "https://i.pinimg.com/736x/74/49/fc/7449fc20c72ba691edda9cf6f4c1297e.jpg",
+          "https://i.pinimg.com/736x/18/7e/cf/187ecf5ad647f4e1cc57e7ba0b79d8ec.jpg",
+          "https://i.pinimg.com/736x/7f/04/41/7f044149b2ed4b0d2a083feaf32634c8.jpg",
+          "https://i.pinimg.com/736x/eb/97/a6/eb97a6cd05519f269c0f951bcccfcb39.jpg",
+          "https://i.pinimg.com/736x/54/20/6c/54206c3ee87104562acc1f64afab7ccf.jpg",
+          "https://i.pinimg.com/736x/3f/83/1b/3f831bc1ec99f425c378e43c5539be40.jpg",
+          "https://i.pinimg.com/736x/bc/05/5f/bc055f5e2707b7c08a68c4db41aee1f2.jpg",
+          "https://i.pinimg.com/736x/f5/38/60/f53860bcbd78fce593283a5f8c0bf80f.jpg",
+          "https://i.pinimg.com/736x/b8/f2/df/b8f2dfbc02da852100a881fbafb112e1.jpg",
+          "https://i.pinimg.com/736x/da/f8/52/daf85238bd545e54e3c7c1dc51cdc102.jpg",
+          "https://i.pinimg.com/736x/1f/f0/5e/1ff05e10d784acad1b8007efafcb4e94.jpg",
+          "https://i.pinimg.com/736x/b4/29/25/b429257d1d3dd6a2f2dac79951b4da63.jpg",
+          "https://i.pinimg.com/736x/1d/c5/3f/1dc53f1e9599b743c3f86f589002512e.jpg",
+          "https://i.pinimg.com/736x/23/cb/e8/23cbe8ae4e6e8f2657f3f571e5d0cdc3.jpg",
+          "https://i.pinimg.com/736x/c5/d6/f2/c5d6f28feb04eb71cf7ea6f56a640848.jpg",
+          "https://i.pinimg.com/736x/e5/09/fb/e509fb92c454fbecac96f9da10ab2cf6.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "dada",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "다다",
+    "titleEn": "Dada",
+    "origin": "취리히·베를린",
+    "period": "1916–1924",
+    "field": "디자인 양식",
+    "oneLiner": "의미에 대한 테러 — 전쟁의 광기에 반(反)예술로 답하다.",
+    "credibility": "established",
+    "keywords": [
+      "취리히·베를린",
+      "뒤샹",
+      "한나 회흐",
+      "슈비터스",
+      "차라",
+      "반예술·반논리",
+      "우연성의 방법론",
+      "포토몽타주의 발명"
+    ],
+    "related": [
+      "constructivism",
+      "grunge",
+      "memphis",
+      "surrealism"
+    ],
+    "detail": {
+      "desc": "1차대전의 참상 속 취리히 카바레 볼테르에서 태어난 반예술 운동. 우연·콜라주·기성품(레디메이드)으로 부르주아 예술의 권위를 조롱했다. 회흐와 하트필드의 포토몽타주, 슈비터스의 활자 콜라주는 구성주의·펑크·그런지 타이포그래피의 무기고가 됐다.",
+      "traits": [
+        "반예술·반논리",
+        "우연성의 방법론",
+        "포토몽타주의 발명",
+        "레디메이드(뒤샹)",
+        "활자 뒤섞기 타이포그래피"
+      ],
+      "palette": [
+        {
+          "hex": "#111111",
+          "name": "잉크 블랙"
+        },
+        {
+          "hex": "#E4002B",
+          "name": "선동 레드"
+        },
+        {
+          "hex": "#6E6E6E",
+          "name": "신문 회색"
+        },
+        {
+          "hex": "#2B6CB0",
+          "name": "콜라주 블루"
+        },
+        {
+          "hex": "#F2EFE6",
+          "name": "찢은 종이"
+        }
+      ],
+      "typo": "활자 서랍을 엎지른 타이포그래피 — 크기·서체·방향이 제멋대로 충돌한다.",
+      "fonts": [
+        {
+          "name": "Special Elite",
+          "css": "'Special Elite', cursive",
+          "note": "타자기 콜라주"
+        },
+        {
+          "name": "Rubik Mono One",
+          "css": "'Rubik Mono One', sans-serif",
+          "note": "활자 블록"
+        }
+      ],
+      "realTypefaces": [
+        "뒤섞인 우드타입·납활자",
+        "신문 표제 활자"
+      ],
+      "sampleText": "DADA 1916",
+      "motifs": [
+        "포토몽타주",
+        "레디메이드(변기·자전거 바퀴)",
+        "찢은 신문 콜라주",
+        "무작위 활자 시",
+        "부조리한 기계 드로잉"
+      ],
+      "motifDesc": "가위와 풀이 붓을 대신한다. 잘려나간 사진과 활자가 문법 없이 충돌하며, 그 부조리 자체가 전쟁 시대에 대한 가장 정직한 보고서가 된다.",
+      "figures": [
+        "뒤샹",
+        "한나 회흐",
+        "슈비터스",
+        "차라"
+      ],
+      "figurePortraits": {
+        "뒤샹": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Duchamp.jpg?width=400",
+        "한나 회흐": "https://commons.wikimedia.org/wiki/Special:FilePath/Hannah%20H%C3%B6ch%201974.jpg?width=400",
+        "슈비터스": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurt%20Schwitters.JPG?width=400",
+        "차라": "https://commons.wikimedia.org/wiki/Special:FilePath/Tzara%20by%20Tihanyi.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "샘",
+          "titleEn": "Fountain",
+          "artist": "마르셀 뒤샹",
+          "year": "1917",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/960px-Duchamp_Fountaine.jpg"
+        },
+        {
+          "title": "계단을 내려오는 누드 No.2",
+          "titleEn": "Nude Descending a Staircase, No. 2",
+          "artist": "마르셀 뒤샹",
+          "year": "1912",
+          "src": "https://upload.wikimedia.org/wikipedia/en/c/cd/Marcel_Duchamp%2C_1912%2C_Nu_descendant_un_escalier_n%C2%B0_2.jpg"
+        }
+      ],
+      "gallery": {
+        "q": "dada art collage photomontage",
+        "images": [
+          "https://i.pinimg.com/736x/fb/00/c3/fb00c3b7608d834d5ada1392f44e00a6.jpg",
+          "https://i.pinimg.com/736x/69/37/b9/6937b9ccf9c5993aa430347e6375113b.jpg",
+          "https://i.pinimg.com/736x/cf/98/4b/cf984b79159fac8419d72092478cd218.jpg",
+          "https://i.pinimg.com/736x/d2/6f/58/d26f588eaf4404cf354ff156edce1274.jpg",
+          "https://i.pinimg.com/736x/c3/9b/2f/c39b2fef3a75490c3db6e91eea79a227.jpg",
+          "https://i.pinimg.com/736x/7e/2d/6b/7e2d6b69694c92523c45e2245c3247e9.jpg",
+          "https://i.pinimg.com/736x/93/2e/a2/932ea28f8aa292b5b31c65129df72f82.jpg",
+          "https://i.pinimg.com/736x/99/10/fc/9910fcb4278c24512c9e74764a447e56.jpg",
+          "https://i.pinimg.com/736x/93/08/7c/93087c7a525ac21e5d27f4d3c2301747.jpg",
+          "https://i.pinimg.com/736x/28/6f/42/286f42bca241fd10c69846d30d7d1616.jpg",
+          "https://i.pinimg.com/736x/74/c6/55/74c655733326f6720e1da410ff760d69.jpg",
+          "https://i.pinimg.com/736x/14/65/5c/14655c58412cc6fc0fc95e3a03ada9ef.jpg",
+          "https://i.pinimg.com/736x/5a/5c/35/5a5c359782b0379dcb3744cd247714e6.jpg",
+          "https://i.pinimg.com/736x/dd/68/9b/dd689b6bd2cee67ba6243000f12c7013.jpg",
+          "https://i.pinimg.com/736x/8d/84/77/8d8477383d7166c1fd3c10738d87e239.jpg",
+          "https://i.pinimg.com/736x/64/0f/bc/640fbc796b80bd0dc546750c73dbfb36.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "surrealism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "초현실주의",
+    "titleEn": "Surrealism",
+    "origin": "프랑스 파리",
+    "period": "1924–1950",
+    "field": "디자인 양식",
+    "oneLiner": "꿈의 문법으로 그리다 — 무의식이 화면을 점령하다.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스 파리",
+      "달리",
+      "마그리트",
+      "에른스트",
+      "미로",
+      "무의식·꿈의 시각화",
+      "데페이즈망(낯선 병치)",
+      "정밀 묘사 + 불가능한 장면"
+    ],
+    "related": [
+      "dada",
+      "psychedelic",
+      "vaporwave"
+    ],
+    "detail": {
+      "desc": "다다의 부조리에 프로이트의 무의식 이론을 결합한 운동. 달리의 녹아내리는 시계, 마그리트의 \"이것은 파이프가 아니다\"처럼 정교한 사실 묘사로 불가능한 장면을 그려 현실의 틈을 벌렸다. 광고·뮤직비디오·사이키델릭이 물려받은 시각 화법의 보고.",
+      "traits": [
+        "무의식·꿈의 시각화",
+        "데페이즈망(낯선 병치)",
+        "정밀 묘사 + 불가능한 장면",
+        "자동기술법",
+        "상징과 은유의 회화"
+      ],
+      "palette": [
+        {
+          "hex": "#2E6FB7",
+          "name": "마그리트 하늘"
+        },
+        {
+          "hex": "#D9A441",
+          "name": "사막 모래"
+        },
+        {
+          "hex": "#4E2A6E",
+          "name": "꿈 보라"
+        },
+        {
+          "hex": "#1A1A1A",
+          "name": "그림자"
+        },
+        {
+          "hex": "#EDE6D6",
+          "name": "구름"
+        }
+      ],
+      "typo": "말과 이미지의 어긋남을 즐기는 타이포 — 단정한 글자가 불가능을 말할 때 효과는 배가된다.",
+      "fonts": [
+        {
+          "name": "Italiana",
+          "css": "'Italiana', serif",
+          "note": "단정한 역설"
+        },
+        {
+          "name": "Megrim",
+          "css": "'Megrim', cursive",
+          "note": "꿈의 골격"
+        }
+      ],
+      "realTypefaces": [
+        "마그리트의 필기체 캡션",
+        "초현실주의 선언 인쇄물"
+      ],
+      "sampleText": "Ceci n’est pas",
+      "motifs": [
+        "녹아내리는 시계",
+        "중산모 신사",
+        "파란 하늘과 구름",
+        "눈(目)과 문",
+        "광활한 사막 지평선"
+      ],
+      "motifDesc": "기법은 사실주의, 내용은 불가능 — 이 어긋남이 핵심이다. 익숙한 사물 둘을 낯설게 붙이는 데페이즈망은 오늘날 광고 비주얼의 기본기가 됐다.",
+      "figures": [
+        "달리",
+        "마그리트",
+        "에른스트",
+        "미로"
+      ],
+      "figurePortraits": {
+        "달리": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvador%20Dal%C3%AD%20by%20Carl%20Van%20Vechten%2C%201934.jpg?width=400",
+        "마그리트": "https://commons.wikimedia.org/wiki/Special:FilePath/Ren%C3%A9%20Magritte%20in%201961.jpg?width=400",
+        "에른스트": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Ernst%201968.jpg?width=400",
+        "미로": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan%20Miro%20(cropped).jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "기억의 지속",
+          "titleEn": "The Persistence of Memory",
+          "artist": "살바도르 달리",
+          "year": "1931",
+          "src": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg"
+        },
+        {
+          "title": "이미지의 배반",
+          "titleEn": "The Treachery of Images",
+          "artist": "르네 마그리트",
+          "year": "1929",
+          "src": "https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg"
+        }
+      ],
+      "gallery": {
+        "q": "surrealism magritte dali painting",
+        "images": [
+          "https://i.pinimg.com/736x/a0/f3/b8/a0f3b8c22a1da4e67d637e23573be526.jpg",
+          "https://i.pinimg.com/736x/f8/b7/5a/f8b75a7b0b2be55639a1e3b0da2a0d81.jpg",
+          "https://i.pinimg.com/736x/43/8c/13/438c1392623bb54698718a9317f03c33.jpg",
+          "https://i.pinimg.com/736x/87/27/d2/8727d276a63ceb79adb36b87720cb645.jpg",
+          "https://i.pinimg.com/736x/3e/3e/63/3e3e6323cc16054e9da2010e73191d5c.jpg",
+          "https://i.pinimg.com/736x/b5/df/c8/b5dfc84c0511d36ea47fef1b67b01c5c.jpg",
+          "https://i.pinimg.com/736x/89/e7/6a/89e76aa95501aa6e62b4eec9a09be34a.jpg",
+          "https://i.pinimg.com/736x/ec/74/15/ec74154f64f18b0edf99ad439af223b7.jpg",
+          "https://i.pinimg.com/736x/78/34/eb/7834eb4291f522c7b8722cd2a2b1783b.jpg",
+          "https://i.pinimg.com/736x/06/74/cb/0674cb673594e1e71047b300f704a5b6.jpg",
+          "https://i.pinimg.com/736x/fe/3c/a7/fe3ca7d4cbe331a5cac34e2e12cd7916.jpg",
+          "https://i.pinimg.com/736x/70/f1/fa/70f1fa8717c24e40f557dec894cd357a.jpg",
+          "https://i.pinimg.com/736x/8d/63/10/8d6310d25f2695601239a6ba18d2e319.jpg",
+          "https://i.pinimg.com/736x/bd/1f/20/bd1f20a442eac2878d7cd05845205a57.jpg",
+          "https://i.pinimg.com/736x/63/d7/6a/63d76a0ee45186c3e3106e651e9c32f9.jpg",
+          "https://i.pinimg.com/736x/10/a9/13/10a913cd9eb4908617c07e240e9fd253.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "abstract-expressionism",
+    "domain": "art-movement",
+    "category": "fineart",
+    "categoryLabel": "미술 사조 1400–1960",
+    "title": "추상표현주의",
+    "titleEn": "Abstract Expressionism",
+    "origin": "미국 뉴욕",
+    "period": "1943–1960",
+    "field": "디자인 양식",
+    "oneLiner": "캔버스는 행위의 무대 — 미술의 수도가 뉴욕으로 옮겨오다.",
+    "credibility": "established",
+    "keywords": [
+      "미국 뉴욕",
+      "폴록",
+      "로스코",
+      "데 쿠닝",
+      "프랭컨탈러",
+      "액션 페인팅(행위의 기록)",
+      "색면 회화(컬러필드)",
+      "거대한 스케일"
+    ],
+    "related": [
+      "minimalism",
+      "midcentury",
+      "grunge"
+    ],
+    "detail": {
+      "desc": "2차대전 후 뉴욕에서 태어난 첫 미국발 국제 운동. 폴록은 캔버스를 바닥에 눕혀 물감을 뿌렸고(액션 페인팅), 로스코는 거대한 색면으로 숭고를 회복했다(색면 회화). 거대한 스케일과 행위의 흔적이라는 유산은 미니멀리즘과 그런지 양쪽에 흘러들었다.",
+      "traits": [
+        "액션 페인팅(행위의 기록)",
+        "색면 회화(컬러필드)",
+        "거대한 스케일",
+        "구상의 완전한 포기",
+        "물감 그 자체의 물성"
+      ],
+      "palette": [
+        {
+          "hex": "#B5402E",
+          "name": "로스코 레드"
+        },
+        {
+          "hex": "#E8A33C",
+          "name": "오커"
+        },
+        {
+          "hex": "#243B53",
+          "name": "딥 블루"
+        },
+        {
+          "hex": "#1E1E1E",
+          "name": "드립 블랙"
+        },
+        {
+          "hex": "#E8E2D6",
+          "name": "생 캔버스"
+        }
+      ],
+      "typo": "붓의 제스처를 닮은 글자 — 마커와 브러시의 즉흥적 획.",
+      "fonts": [
+        {
+          "name": "Permanent Marker",
+          "css": "'Permanent Marker', cursive",
+          "note": "제스처 마커"
+        },
+        {
+          "name": "Kaushan Script",
+          "css": "'Kaushan Script', cursive",
+          "note": "브러시 스트로크"
+        }
+      ],
+      "realTypefaces": [
+        "프란츠 클라인의 흑백 획(레터링적 추상)"
+      ],
+      "sampleText": "No. 14, 1960",
+      "motifs": [
+        "드립과 스플래터",
+        "떠 있는 색면 블록",
+        "거친 붓의 제스처",
+        "벽 크기의 캔버스",
+        "물감의 층위"
+      ],
+      "motifDesc": "폴록의 화면엔 중심이 없다 — 모든 곳이 동등한 에너지로 차 있는 올오버(all-over) 구성. 로스코 앞에서는 색 자체가 감정의 공간이 된다.",
+      "figures": [
+        "폴록",
+        "로스코",
+        "데 쿠닝",
+        "프랭컨탈러"
+      ],
+      "figurePortraits": {
+        "폴록": "https://commons.wikimedia.org/wiki/Special:FilePath/Jackson%20Pollock%20by%20Hans%20Namuth.jpg?width=400",
+        "로스코": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Rothko.jpg?width=400",
+        "데 쿠닝": "https://commons.wikimedia.org/wiki/Special:FilePath/WIllem%20De%20Kooning.jpg?width=400",
+        "프랭컨탈러": "https://commons.wikimedia.org/wiki/Special:FilePath/2001%20National%20Medal%20of%20Arts%20Recipient%20Helen%20Frankenthaler%20(cropped).jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "넘버 5, 1948",
+          "titleEn": "No. 5, 1948",
+          "artist": "잭슨 폴록",
+          "year": "1948",
+          "src": "https://upload.wikimedia.org/wikipedia/en/4/4a/No._5%2C_1948.jpg"
+        }
+      ],
+      "gallery": {
+        "q": "abstract expressionism rothko pollock",
+        "images": [
+          "https://i.pinimg.com/736x/02/16/e1/0216e1d58829b2c5571b7ee8faf16917.jpg",
+          "https://i.pinimg.com/736x/9c/77/d6/9c77d66262f18d58384f825d3dec9a40.jpg",
+          "https://i.pinimg.com/736x/f1/97/89/f19789bc8bb45268b09d83d65caafb00.jpg",
+          "https://i.pinimg.com/736x/07/e6/c4/07e6c41e6b88c18879e9cca51abe64cd.jpg",
+          "https://i.pinimg.com/736x/13/94/2c/13942cb55a999e82b5628a66bbcac626.jpg",
+          "https://i.pinimg.com/736x/84/c2/0f/84c20fc9801ffead59e44ddfec13dc3c.jpg",
+          "https://i.pinimg.com/736x/e8/4f/e6/e84fe616f640f21c5ac830659d2a6a8f.jpg",
+          "https://i.pinimg.com/736x/6d/96/f4/6d96f4c6f3df0dd80fdff320dd5f9c07.jpg",
+          "https://i.pinimg.com/736x/ac/6e/a7/ac6ea71d35765eba516ebbe321d0e266.jpg",
+          "https://i.pinimg.com/736x/f9/9f/d3/f99fd3330459c2e7ed31ae5974db6149.jpg",
+          "https://i.pinimg.com/736x/ab/4f/e2/ab4fe2aa9323eb78c2b5a384c6c0906b.jpg",
+          "https://i.pinimg.com/736x/dd/c0/8f/ddc08f0487cb1d39c578a7f2df7c5c2d.jpg",
+          "https://i.pinimg.com/736x/09/ed/4c/09ed4cf49061254f5ab7ebc6ba690526.jpg",
+          "https://i.pinimg.com/736x/ba/43/c2/ba43c233b4ec42fc12ab6c8abf56c30a.jpg",
+          "https://i.pinimg.com/736x/37/3f/10/373f102919ac8761c7722ea03eb4dc0f.jpg",
+          "https://i.pinimg.com/736x/47/01/76/470176fffa9581fd0e6c8a08f998ad1b.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "victorian",
+    "domain": "art-movement",
+    "category": "v19",
+    "categoryLabel": "19세기",
+    "title": "빅토리안",
+    "titleEn": "Victorian",
+    "origin": "영국",
+    "period": "1837–1901",
+    "field": "디자인 양식",
+    "oneLiner": "산업혁명이 낳은 장식 과잉의 시대 — 많을수록 좋다.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "오웬 존스",
+      "귀스타브 도레",
+      "존 테니얼",
+      "장식 과잉(Horror Vacui)",
+      "화려한 보더·프레임",
+      "한 지면에 여러 서체 혼용"
+    ],
+    "related": [
+      "arts-crafts",
+      "art-nouveau"
+    ],
+    "detail": {
+      "desc": "빅토리아 여왕 치세의 영국에서 산업혁명과 함께 번성한 양식. 대량 인쇄 기술이 보급되며 광고·포스터에 가능한 모든 장식과 서체를 한 화면에 욱여넣는 과시적 미감이 유행했다. 호화로운 보더, 음영 입체 글자, 다마스크 패턴이 상징적이다.",
+      "traits": [
+        "장식 과잉(Horror Vacui)",
+        "화려한 보더·프레임",
+        "한 지면에 여러 서체 혼용",
+        "음영·아웃라인 입체 레터링",
+        "다마스크·플로럴 패턴"
+      ],
+      "palette": [
+        {
+          "hex": "#4A1E2B",
+          "name": "버건디"
+        },
+        {
+          "hex": "#1F3B2C",
+          "name": "포레스트 그린"
+        },
+        {
+          "hex": "#B68A3A",
+          "name": "앤티크 골드"
+        },
+        {
+          "hex": "#6E5849",
+          "name": "세피아 브라운"
+        },
+        {
+          "hex": "#E8DCC8",
+          "name": "아이보리"
+        }
+      ],
+      "typo": "고대비 세리프와 우드타입 장식 서체, 블랙레터가 한 지면에 공존한다. 글자 자체가 장식이었다.",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "고대비 디돈 세리프"
+        },
+        {
+          "name": "Rye",
+          "css": "'Rye', serif",
+          "note": "서커스 포스터풍 우드타입"
+        },
+        {
+          "name": "UnifrakturMaguntia",
+          "css": "'UnifrakturMaguntia', serif",
+          "note": "블랙레터(고딕체)"
+        }
+      ],
+      "realTypefaces": [
+        "Clarendon",
+        "Tuscan 우드타입",
+        "Fat Face",
+        "빅토리안 블랙레터"
+      ],
+      "sampleText": "Grand Exhibition 1851",
+      "motifs": [
+        "금박 프레임",
+        "리본·문장(紋章)",
+        "다마스크 벽지",
+        "동판화 일러스트",
+        "서커스 포스터"
+      ],
+      "motifDesc": "동판화 기법의 정밀 일러스트와 금박 장식 프레임, 곡선 리본 배너가 핵심. 여백은 실패로 간주되어 모든 공간이 장식으로 채워진다.",
+      "figures": [
+        "오웬 존스",
+        "귀스타브 도레",
+        "존 테니얼"
+      ],
+      "figurePortraits": {
+        "오웬 존스": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Owen%20Jones%2C%20Esq.%2C%20R.A%20(4674168)%20(cropped).jpg?width=400",
+        "귀스타브 도레": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave%20Dor%C3%A9%20by%20Nadar%20-%20Getty%20Museum.jpg?width=400",
+        "존 테니얼": "https://commons.wikimedia.org/wiki/Special:FilePath/Self%20Portrait%20-%20Sir%20John%20Tenniel%20-%20ABDAG003664.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "문양의 문법, 도판 1",
+          "titleEn": "The Grammar of Ornament, Plate 1",
+          "artist": "오웬 존스",
+          "year": "1868",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Owen%20Jones%20-%20Grammar%20of%20Ornament%20-%201868%20-%20plate%20001%20-%20300ppi.jpg?width=800"
+        },
+        {
+          "title": "문양의 문법, 도판 43",
+          "titleEn": "The Grammar of Ornament, Plate 43",
+          "artist": "오웬 존스",
+          "year": "1868",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Owen%20Jones%20-%20Grammar%20of%20Ornament%20-%201868%20-%20plate%20043%20-%20300ppi.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "victorian graphic design poster",
+        "images": [
+          "https://i.pinimg.com/736x/66/88/79/66887937e02f38000a0d054c6c12d790.jpg",
+          "https://i.pinimg.com/736x/ac/6b/2d/ac6b2d9b8a812c33647a6ee7dae911ba.jpg",
+          "https://i.pinimg.com/736x/84/72/72/847272d250ef1c4ec93118e4b71e285e.jpg",
+          "https://i.pinimg.com/736x/a3/f4/2f/a3f42f2deffc5aeb7481b44468e0df96.jpg",
+          "https://i.pinimg.com/736x/51/0f/95/510f95827a81dfe64a06e112bd07c441.jpg",
+          "https://i.pinimg.com/736x/ba/89/8c/ba898c72614d72b4cd92b0729b50baa4.jpg",
+          "https://i.pinimg.com/736x/0b/0c/47/0b0c473c175ae338448ab0c563bdefa0.jpg",
+          "https://i.pinimg.com/736x/3f/52/48/3f5248f907f9350492bd380bae0edb6b.jpg",
+          "https://i.pinimg.com/736x/24/3e/41/243e4165742e6e75744d85e16bb63a77.jpg",
+          "https://i.pinimg.com/736x/43/0c/17/430c176f7b87ee8e22c58649877a2743.jpg",
+          "https://i.pinimg.com/736x/34/a2/6e/34a26ec440a26545f1261d96281fec61.jpg",
+          "https://i.pinimg.com/736x/f6/1a/d3/f61ad31ddd8d3df51b99304eafdfb7f0.jpg",
+          "https://i.pinimg.com/736x/8f/2d/fe/8f2dfecde1c91f4c734c4759277c9ecb.jpg",
+          "https://i.pinimg.com/736x/42/3d/f8/423df881770b36e84667d29122a48c45.jpg",
+          "https://i.pinimg.com/736x/f5/85/df/f585df52e6974cf487b30957f2e32b0c.jpg",
+          "https://i.pinimg.com/736x/69/6e/4a/696e4a96c35d40ac602105bf919224e7.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "arts-crafts",
+    "domain": "art-movement",
+    "category": "v19",
+    "categoryLabel": "19세기",
+    "title": "미술공예운동",
+    "titleEn": "Arts & Crafts",
+    "origin": "영국",
+    "period": "1880–1910",
+    "field": "디자인 양식",
+    "oneLiner": "기계 생산에 반기를 든 수공예의 부활 — 정직한 재료, 정직한 노동.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "윌리엄 모리스",
+      "존 러스킨",
+      "찰스 레니 매킨토시",
+      "수공예성·장인정신",
+      "자연 모티프의 평면 패턴",
+      "재료의 정직한 사용"
+    ],
+    "related": [
+      "victorian",
+      "art-nouveau"
+    ],
+    "detail": {
+      "desc": "윌리엄 모리스가 이끈, 산업화된 조악한 대량생산에 대한 반발 운동. 중세 길드의 수공예 전통으로 돌아가 재료의 정직함과 만듦새의 아름다움을 추구했다. 자연에서 가져온 평면 패턴과 책 공예가 대표적 유산이다.",
+      "traits": [
+        "수공예성·장인정신",
+        "자연 모티프의 평면 패턴",
+        "재료의 정직한 사용",
+        "중세·고딕 부흥",
+        "생활과 예술의 통합"
+      ],
+      "palette": [
+        {
+          "hex": "#7B4B2A",
+          "name": "테라코타"
+        },
+        {
+          "hex": "#5B6E3A",
+          "name": "올리브 그린"
+        },
+        {
+          "hex": "#A6803C",
+          "name": "머스터드 오커"
+        },
+        {
+          "hex": "#44352B",
+          "name": "다크 월넛"
+        },
+        {
+          "hex": "#DCCDAF",
+          "name": "린넨"
+        }
+      ],
+      "typo": "중세 필사본과 초기 인쇄본을 본뜬 묵직한 올드스타일 세리프. 켈름스콧 프레스의 책 타이포그래피가 정점.",
+      "fonts": [
+        {
+          "name": "IM Fell English",
+          "css": "'IM Fell English', serif",
+          "note": "17세기 활자 리바이벌"
+        },
+        {
+          "name": "Goudy Bookletter 1911",
+          "css": "'Goudy Bookletter 1911', serif",
+          "note": "켈름스콧 계열 북 세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Golden Type(모리스)",
+        "Troy",
+        "Jenson 리바이벌"
+      ],
+      "sampleText": "The Kelmscott Press",
+      "motifs": [
+        "덩굴·버드나무 패턴",
+        "튤립·석류 문양",
+        "필사본식 장식 이니셜",
+        "목판화 보더"
+      ],
+      "motifDesc": "자연을 양식화한 반복 평면 패턴이 핵심. 벽지·직물·책 보더에 덩굴과 꽃이 좌우대칭으로 흐른다. 원근감 없는 평면성이 특징.",
+      "figures": [
+        "윌리엄 모리스",
+        "존 러스킨",
+        "찰스 레니 매킨토시"
+      ],
+      "figurePortraits": {
+        "윌리엄 모리스": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Morris%20age%2053.jpg?width=400",
+        "존 러스킨": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruskin%20Self%20Portrait%201875.jpg?width=400",
+        "찰스 레니 매킨토시": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles-Rennie-Mackintosh.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "딸기 도둑",
+          "titleEn": "Strawberry Thief",
+          "artist": "윌리엄 모리스",
+          "year": "1883",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Morris%20Strawberry%20Thief%201883.jpg?width=800"
+        },
+        {
+          "title": "트렐리스 벽지 도안",
+          "titleEn": "Trellis wallpaper design",
+          "artist": "윌리엄 모리스",
+          "year": "1862",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Morris%20design%20for%20Trellis%20wallpaper%201862.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "arts and crafts movement william morris design",
+        "images": [
+          "https://i.pinimg.com/736x/d3/ac/aa/d3acaa56d30bdc9a99525dc0572c24a3.jpg",
+          "https://i.pinimg.com/736x/61/6d/6c/616d6c3377d9a5ac769392512cd74b8f.jpg",
+          "https://i.pinimg.com/736x/f7/56/40/f75640665d7e4cc0b3c3d4af27904835.jpg",
+          "https://i.pinimg.com/736x/30/11/b7/3011b791c2c0be9515cab300776f5d26.jpg",
+          "https://i.pinimg.com/736x/4c/0d/23/4c0d23fdb8af04f4e5807385b25b716a.jpg",
+          "https://i.pinimg.com/736x/58/a7/75/58a7750e2246ffed51bb519a8d815322.jpg",
+          "https://i.pinimg.com/736x/9d/e5/37/9de537237b729d9a9b790d01df5d6a81.jpg",
+          "https://i.pinimg.com/736x/41/69/49/416949cdd86829ef9aae39d55e75839c.jpg",
+          "https://i.pinimg.com/736x/3f/21/62/3f2162e9d294c87119a8f54660fd0c79.jpg",
+          "https://i.pinimg.com/736x/95/c2/25/95c225bc242bb98108d77eb720cf7b0d.jpg",
+          "https://i.pinimg.com/736x/40/20/a9/4020a92f29a88e2503c2ed9efbb1ec38.jpg",
+          "https://i.pinimg.com/736x/3f/0f/3a/3f0f3a2f2bbd6031f672bc231a9c50e0.jpg",
+          "https://i.pinimg.com/736x/69/04/7e/69047e239544486492b14195be7b88d8.jpg",
+          "https://i.pinimg.com/736x/71/ee/6b/71ee6b5924930bc2cbbe3d04a9f5ce03.jpg",
+          "https://i.pinimg.com/736x/8f/21/6f/8f216f7df55c4cfc67875202a4b24318.jpg",
+          "https://i.pinimg.com/736x/19/59/3d/19593d4fc95ef87f96264a4aa4d413ee.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "art-nouveau",
+    "domain": "art-movement",
+    "category": "v19",
+    "categoryLabel": "19세기",
+    "title": "아르누보",
+    "titleEn": "Art Nouveau",
+    "origin": "프랑스·벨기에",
+    "period": "1890–1910",
+    "field": "디자인 양식",
+    "oneLiner": "자연의 곡선이 건축부터 포스터까지 — 채찍처럼 휘는 유기적 선.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스·벨기에",
+      "알폰스 무하",
+      "엑토르 기마르",
+      "구스타프 클림트",
+      "오브리 비어즐리",
+      "휘플래시(whiplash) 곡선",
+      "식물·꽃·곤충 모티프",
+      "여성상과 흐르는 머리카락"
+    ],
+    "related": [
+      "arts-crafts",
+      "art-deco",
+      "psychedelic"
+    ],
+    "detail": {
+      "desc": "\"새로운 예술\"이라는 이름처럼 역사주의 양식을 거부하고 자연의 유기적 형태에서 출발한 총체 예술 운동. 식물 줄기처럼 휘감기는 휘플래시 곡선이 건축, 가구, 보석, 포스터를 관통했다. 무하의 포스터와 파리 지하철 입구가 대표 이미지다.",
+      "traits": [
+        "휘플래시(whiplash) 곡선",
+        "식물·꽃·곤충 모티프",
+        "여성상과 흐르는 머리카락",
+        "비대칭 구도",
+        "장식과 구조의 일체화"
+      ],
+      "palette": [
+        {
+          "hex": "#5F6E3E",
+          "name": "모스 그린"
+        },
+        {
+          "hex": "#2E6E6A",
+          "name": "피콕"
+        },
+        {
+          "hex": "#C0A24D",
+          "name": "뮤트 골드"
+        },
+        {
+          "hex": "#9A8FB8",
+          "name": "라일락"
+        },
+        {
+          "hex": "#F1E9D6",
+          "name": "크림"
+        }
+      ],
+      "typo": "글자도 덩굴처럼 — 곡선이 살아 있는 유기적 레터링. 직선과 직각을 의도적으로 피한다.",
+      "fonts": [
+        {
+          "name": "Macondo",
+          "css": "'Macondo', cursive",
+          "note": "유기적 곡선 디스플레이"
+        },
+        {
+          "name": "Berkshire Swash",
+          "css": "'Berkshire Swash', cursive",
+          "note": "스워시 세리프"
+        },
+        {
+          "name": "Tangerine",
+          "css": "'Tangerine', cursive",
+          "note": "흐르는 캘리그래피"
+        }
+      ],
+      "realTypefaces": [
+        "Arnold Böcklin",
+        "Eckmann",
+        "Auriol",
+        "Métropolitaines"
+      ],
+      "sampleText": "La Belle Époque",
+      "motifs": [
+        "붓꽃·백합·양귀비",
+        "잠자리·공작",
+        "흐르는 머리칼의 뮤즈",
+        "스테인드글라스",
+        "연철 곡선 장식"
+      ],
+      "motifDesc": "자연을 그대로 그리지 않고 곡선의 리듬으로 양식화한다. 윤곽선이 뚜렷한 평면 채색(우키요에의 영향)과 액자처럼 화면을 감싸는 장식 보더가 전형.",
+      "figures": [
+        "알폰스 무하",
+        "엑토르 기마르",
+        "구스타프 클림트",
+        "오브리 비어즐리"
+      ],
+      "figurePortraits": {
+        "알폰스 무하": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfons%20Mucha%20Self%20Portrait.jpg?width=400",
+        "엑토르 기마르": "https://commons.wikimedia.org/wiki/Special:FilePath/Hector%20Guimard%20(Mus%C3%A9e%20des%20Beaux-Arts%20de%20Lyon)%20(5469611512).jpg?width=400",
+        "구스타프 클림트": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Klimt%201912.jpg?width=400",
+        "오브리 비어즐리": "https://commons.wikimedia.org/wiki/Special:FilePath/Aubrey%20Beardsley%20ca.%201895.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "지스몽다",
+          "titleEn": "Gismonda",
+          "artist": "알폰스 무하",
+          "year": "1894",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfons%20Mucha%20-%201894%20-%20Gismonda.jpg?width=800"
+        },
+        {
+          "title": "포르트 도핀 지하철 입구",
+          "titleEn": "Porte Dauphine Métro entrance",
+          "artist": "엑토르 기마르",
+          "year": "1900",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20station%20art%20nouveau%20de%20la%20porte%20Dauphine%20(Hector%20Guimard).jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "art nouveau poster",
+        "images": [
+          "https://i.pinimg.com/736x/ae/57/a0/ae57a0c422b21f4972628df1f8f19288.jpg",
+          "https://i.pinimg.com/736x/14/0f/fb/140ffbb91a49bb98acd74b4b547d4acf.jpg",
+          "https://i.pinimg.com/736x/fb/fa/09/fbfa093f808c34e4ae8f05b3e2c5a031.jpg",
+          "https://i.pinimg.com/736x/e2/de/6e/e2de6ec55cf6a27992afdeac9479f448.jpg",
+          "https://i.pinimg.com/736x/dd/ae/01/ddae017d421eb6a64ac68a0abf354562.jpg",
+          "https://i.pinimg.com/736x/6e/10/3f/6e103f88e4cb3b67128fd08e489da540.jpg",
+          "https://i.pinimg.com/736x/e5/88/c3/e588c3bdd2629718882a6e60d992f08e.jpg",
+          "https://i.pinimg.com/736x/69/d9/43/69d94343796e2babc0a5035f81f03ea6.jpg",
+          "https://i.pinimg.com/736x/88/bd/c4/88bdc476bcc1237e52213589dd94d631.jpg",
+          "https://i.pinimg.com/736x/5c/ea/2c/5cea2cac616f956a6dbb61a5c48eb8d1.jpg",
+          "https://i.pinimg.com/736x/16/4d/86/164d868af7770474eeec2190efb2f30d.jpg",
+          "https://i.pinimg.com/736x/e6/70/3e/e6703ebf34d036ea1077151c234140c7.jpg",
+          "https://i.pinimg.com/736x/b8/49/6f/b8496f5d36085ce6daf9e09c777bcb57.jpg",
+          "https://i.pinimg.com/736x/eb/c1/cc/ebc1cccc34accccbacd829b4c650ebb9.jpg",
+          "https://i.pinimg.com/736x/d3/98/75/d398758600331e873a7c99892b004808.jpg",
+          "https://i.pinimg.com/736x/9e/5f/f7/9e5ff779da817ba1462ef2d765adfff2.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "constructivism",
+    "domain": "art-movement",
+    "category": "mod",
+    "categoryLabel": "모더니즘 1915–45",
+    "title": "구성주의",
+    "titleEn": "Constructivism",
+    "origin": "러시아",
+    "period": "1915–1930s",
+    "field": "디자인 양식",
+    "oneLiner": "예술은 혁명의 도구다 — 사선, 적과 흑, 포토몽타주.",
+    "credibility": "established",
+    "keywords": [
+      "러시아",
+      "알렉산드르 로드첸코",
+      "엘 리시츠키",
+      "바르바라 스테파노바",
+      "역동적 사선 구도",
+      "적·흑·백 3색 대비",
+      "포토몽타주"
+    ],
+    "related": [
+      "bauhaus",
+      "de-stijl",
+      "brutalism"
+    ],
+    "detail": {
+      "desc": "러시아 혁명기에 태어난 운동. 예술을 위한 예술을 거부하고 디자인을 사회 건설의 도구로 보았다. 역동적인 사선 구도, 빨강·검정의 강렬한 대비, 포토몽타주, 기하학적 형태가 선전 포스터와 출판물을 지배했다.",
+      "traits": [
+        "역동적 사선 구도",
+        "적·흑·백 3색 대비",
+        "포토몽타주",
+        "기하학적 추상 형태",
+        "선전·기능 중심 디자인"
+      ],
+      "palette": [
+        {
+          "hex": "#C8102E",
+          "name": "레볼루션 레드"
+        },
+        {
+          "hex": "#111111",
+          "name": "블랙"
+        },
+        {
+          "hex": "#F2EFE6",
+          "name": "오프화이트"
+        },
+        {
+          "hex": "#8C8C8C",
+          "name": "뉴스프린트 그레이"
+        }
+      ],
+      "typo": "굵고 압축된 산세리프를 사선으로, 크기 대비를 극단적으로. 글자가 곧 그래픽 요소다.",
+      "fonts": [
+        {
+          "name": "Oswald",
+          "css": "'Oswald', sans-serif",
+          "note": "컨덴스드 산세리프"
+        },
+        {
+          "name": "Russo One",
+          "css": "'Russo One', sans-serif",
+          "note": "기하학적 헤비 산세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Akzidenz-Grotesk 컨덴스드",
+        "핸드페인트 키릴 레터링"
+      ],
+      "sampleText": "AGITPROP 1920",
+      "motifs": [
+        "붉은 쐐기",
+        "사선 막대",
+        "포토몽타주",
+        "확성기·기계 이미지",
+        "원과 직선의 충돌"
+      ],
+      "motifDesc": "엘 리시츠키의 \"붉은 쐐기로 백군을 쳐라\"처럼 추상 기하 형태에 정치적 의미를 싣는다. 사진을 오려 붙인 포토몽타주와 극단적 크기 대비가 화면에 긴장감을 만든다.",
+      "figures": [
+        "알렉산드르 로드첸코",
+        "엘 리시츠키",
+        "바르바라 스테파노바"
+      ],
+      "figurePortraits": {
+        "알렉산드르 로드첸코": "https://commons.wikimedia.org/wiki/Special:FilePath/1935-alexander_rodschenko.jpg?width=400",
+        "엘 리시츠키": "https://commons.wikimedia.org/wiki/Special:FilePath/El_lissitzky_self_portrait_1924.jpg?width=400",
+        "바르바라 스테파노바": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B0%D1%80%D0%B2%D0%B0%D1%80%D0%B0%20%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0%20%D0%B2%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%201924%20(cropped).jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "붉은 쐐기로 백군을 쳐라",
+          "titleEn": "Beat the Whites with the Red Wedge",
+          "artist": "엘 리시츠키",
+          "year": "1919",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Klinom%20Krasnym%20Bej%20Belych.JPG?width=800"
+        },
+        {
+          "title": "프로운",
+          "titleEn": "Proun",
+          "artist": "엘 리시츠키",
+          "year": "1925",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Prounen%20by%20El%20Lissitzky%20c.1925.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "russian constructivist poster",
+        "images": [
+          "https://i.pinimg.com/736x/a1/08/80/a10880fe1d796581bff6ff9fc8f098dc.jpg",
+          "https://i.pinimg.com/736x/ac/a7/a0/aca7a0d5628add2253333f9259d9e449.jpg",
+          "https://i.pinimg.com/736x/7b/33/78/7b3378c96df789a5b37ea86209587189.jpg",
+          "https://i.pinimg.com/736x/f3/ee/91/f3ee91110f9bc2ceaad7502417a5959b.jpg",
+          "https://i.pinimg.com/736x/20/c1/29/20c129b95c1f01afb2bea9f750f2b3e3.jpg",
+          "https://i.pinimg.com/736x/10/b2/44/10b244b7a978fc04ec4b63358f7a025c.jpg",
+          "https://i.pinimg.com/736x/31/d8/c1/31d8c1a36785d1fbe6a9e6c6c259303b.jpg",
+          "https://i.pinimg.com/736x/61/3b/93/613b9376b16957ee06749376fba52133.jpg",
+          "https://i.pinimg.com/736x/e2/d0/bd/e2d0bd5f58157a16e096d3c860c136e4.jpg",
+          "https://i.pinimg.com/736x/f2/0c/5e/f20c5ed734aa8d1758ba9448060f2781.jpg",
+          "https://i.pinimg.com/736x/0b/93/6a/0b936a010dc0f94a46f700c9492ffe24.jpg",
+          "https://i.pinimg.com/736x/a2/e1/ec/a2e1ec4f9178119de6d92103c1975c8b.jpg",
+          "https://i.pinimg.com/736x/6d/95/48/6d95480b3258850331df632f2c087ae4.jpg",
+          "https://i.pinimg.com/736x/87/69/9a/87699a2dd9d2d75e6897a71eaf5027f4.jpg",
+          "https://i.pinimg.com/736x/85/91/87/859187cdbba5bf39eccce76a888736f1.jpg",
+          "https://i.pinimg.com/736x/30/78/f3/3078f3f70d3be1c0d0678efe94611eeb.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "de-stijl",
+    "domain": "art-movement",
+    "category": "mod",
+    "categoryLabel": "모더니즘 1915–45",
+    "title": "데 스테일",
+    "titleEn": "De Stijl",
+    "origin": "네덜란드",
+    "period": "1917–1931",
+    "field": "디자인 양식",
+    "oneLiner": "수직·수평과 삼원색만 남긴 순수 추상 — 몬드리안의 격자.",
+    "credibility": "established",
+    "keywords": [
+      "네덜란드",
+      "피트 몬드리안",
+      "테오 판 두스뷔르흐",
+      "헤릿 리트펠트",
+      "수직·수평선만 사용",
+      "삼원색 + 흑백회",
+      "비대칭 균형"
+    ],
+    "related": [
+      "bauhaus",
+      "constructivism",
+      "minimalism"
+    ],
+    "detail": {
+      "desc": "네덜란드어로 \"양식\"이라는 뜻. 자연의 재현을 완전히 버리고 수직·수평선과 삼원색(빨강·파랑·노랑), 무채색만으로 보편적 조화를 추구했다. 몬드리안의 회화와 리트펠트의 적청 의자가 상징이며, 바우하우스와 현대 그리드 시스템에 직접적 영향을 줬다.",
+      "traits": [
+        "수직·수평선만 사용",
+        "삼원색 + 흑백회",
+        "비대칭 균형",
+        "면 분할 구성",
+        "보편적 조형 언어 추구"
+      ],
+      "palette": [
+        {
+          "hex": "#DD0100",
+          "name": "프라이머리 레드"
+        },
+        {
+          "hex": "#225095",
+          "name": "프라이머리 블루"
+        },
+        {
+          "hex": "#FAC901",
+          "name": "프라이머리 옐로"
+        },
+        {
+          "hex": "#000000",
+          "name": "블랙"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "화이트"
+        }
+      ],
+      "typo": "직선만으로 구축한 기하학적 레터링. 두스뷔르흐는 곡선 없는 알파벳을 직접 설계했다.",
+      "fonts": [
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "기하학적 산세리프"
+        },
+        {
+          "name": "Josefin Sans",
+          "css": "'Josefin Sans', sans-serif",
+          "note": "1920년대풍 지오메트릭"
+        }
+      ],
+      "realTypefaces": [
+        "두스뷔르흐 알파벳(1919)",
+        "Architype Van Doesburg"
+      ],
+      "sampleText": "NIEUWE BEELDING",
+      "motifs": [
+        "검은 격자선",
+        "원색 사각 면",
+        "비대칭 면 분할",
+        "적청 의자",
+        "직교 평면의 건축"
+      ],
+      "motifDesc": "굵은 검은 선이 화면을 비대칭으로 분할하고 일부 면에만 원색을 채운다. 장식이 아니라 비례와 균형 그 자체가 조형의 전부다.",
+      "figures": [
+        "피트 몬드리안",
+        "테오 판 두스뷔르흐",
+        "헤릿 리트펠트"
+      ],
+      "figurePortraits": {
+        "피트 몬드리안": "https://commons.wikimedia.org/wiki/Special:FilePath/Piet_Mondriaan.jpg?width=400",
+        "테오 판 두스뷔르흐": "https://commons.wikimedia.org/wiki/Special:FilePath/Theo%20van%20Doesburg%20in%20military%20service.JPG?width=400",
+        "헤릿 리트펠트": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerrit%20Thomas%20Rietveld.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "빨강·파랑·노랑의 구성 II",
+          "titleEn": "Composition II in Red, Blue, and Yellow",
+          "artist": "피트 몬드리안",
+          "year": "1930",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondriaan%2C%201930%20-%20Mondrian%20Composition%20II%20in%20Red%2C%20Blue%2C%20and%20Yellow.jpg?width=800"
+        },
+        {
+          "title": "적청 의자",
+          "titleEn": "Red and Blue Chair",
+          "artist": "헤릿 리트펠트",
+          "year": "1917",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ngv%20design%2C%20gerrit%20rietveld%2C%20red-blue%20chair%201917%2001.JPG?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "de stijl design mondrian",
+        "images": [
+          "https://i.pinimg.com/736x/74/53/18/74531865afc2fa3f0372542738649bae.jpg",
+          "https://i.pinimg.com/736x/e2/51/f2/e251f28c58df2e08f884bbe162a984b5.jpg",
+          "https://i.pinimg.com/736x/e6/79/7f/e6797f8c981525fad382d79685a95cff.jpg",
+          "https://i.pinimg.com/736x/88/45/38/8845386fd3f8f27e746729e85555f08c.jpg",
+          "https://i.pinimg.com/736x/54/78/f5/5478f5cdb9c3ac51c676513cb6157955.jpg",
+          "https://i.pinimg.com/736x/0f/ff/fa/0ffffa8e6bd34d27d3d5fb6d3f954775.jpg",
+          "https://i.pinimg.com/736x/3e/7b/74/3e7b7492b353fe87f9df6a7b3ce02b9e.jpg",
+          "https://i.pinimg.com/736x/0d/7b/35/0d7b355261f4eeb4488b497f750b4b00.jpg",
+          "https://i.pinimg.com/736x/29/cc/d2/29ccd29ce5af4eac0d9d10fcf9452d46.jpg",
+          "https://i.pinimg.com/736x/57/5a/81/575a81cfd7313fb98bcf111c56425823.jpg",
+          "https://i.pinimg.com/736x/1e/1c/d0/1e1cd00429f25072dee36457708a8845.jpg",
+          "https://i.pinimg.com/736x/7f/39/0d/7f390d44588be9fe44a798a76f3f84ef.jpg",
+          "https://i.pinimg.com/736x/37/a2/59/37a259bb24063a59902fe39a45da667a.jpg",
+          "https://i.pinimg.com/736x/3d/30/94/3d30944f1496849f38c7f6a9142185cd.jpg",
+          "https://i.pinimg.com/736x/97/ce/45/97ce45b93ace27449eed282bbee28132.jpg",
+          "https://i.pinimg.com/736x/1c/70/ae/1c70ae840332aec19dd870b37016977b.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "bauhaus",
+    "domain": "art-movement",
+    "category": "mod",
+    "categoryLabel": "모더니즘 1915–45",
+    "title": "바우하우스",
+    "titleEn": "Bauhaus",
+    "origin": "독일",
+    "period": "1919–1933",
+    "field": "디자인 양식",
+    "oneLiner": "형태는 기능을 따른다 — 예술과 기술의 새로운 통합.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "발터 그로피우스",
+      "헤르베르트 바이어",
+      "라슬로 모호이너지",
+      "요제프 알베르스",
+      "기능주의(form follows function)",
+      "원·삼각·사각 기본형",
+      "삼원색 활용"
+    ],
+    "related": [
+      "de-stijl",
+      "constructivism",
+      "swiss",
+      "minimalism"
+    ],
+    "detail": {
+      "desc": "그로피우스가 바이마르에 세운 조형 학교이자 20세기 디자인의 원점. 공예·미술·산업을 통합해 대량생산 시대의 합리적 조형 언어를 만들었다. 기하학적 기본형(원·삼각·사각)과 원색, 소문자 전용 타이포그래피, 비대칭 그리드가 유산이다.",
+      "traits": [
+        "기능주의(form follows function)",
+        "원·삼각·사각 기본형",
+        "삼원색 활용",
+        "비대칭 레이아웃",
+        "산세리프·소문자 타이포그래피"
+      ],
+      "palette": [
+        {
+          "hex": "#D71920",
+          "name": "바우하우스 레드"
+        },
+        {
+          "hex": "#1660A8",
+          "name": "바우하우스 블루"
+        },
+        {
+          "hex": "#F2B705",
+          "name": "바우하우스 옐로"
+        },
+        {
+          "hex": "#111111",
+          "name": "블랙"
+        },
+        {
+          "hex": "#E8E4DC",
+          "name": "플라스터"
+        }
+      ],
+      "typo": "장식 없는 기하학적 산세리프. 바이어의 유니버설 서체는 대문자조차 불필요한 장식으로 보고 소문자만 남겼다.",
+      "fonts": [
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "Futura 계열 지오메트릭"
+        },
+        {
+          "name": "Josefin Sans",
+          "css": "'Josefin Sans', sans-serif",
+          "note": "저엑스하이트 기하 산세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Universal(헤르베르트 바이어)",
+        "Futura",
+        "Erbar-Grotesk"
+      ],
+      "sampleText": "bauhaus 1919",
+      "motifs": [
+        "원·삼각·사각 조합",
+        "겹침과 투명",
+        "사선 배치 텍스트",
+        "아이소타입 도형",
+        "강철 파이프 가구"
+      ],
+      "motifDesc": "기본 도형의 겹침과 원색 대비로 화면을 구축한다. 사진과 타이포그래피를 결합한 \"타이포포토\", 사선으로 달리는 텍스트 블록이 전형적 그래픽 어법.",
+      "figures": [
+        "발터 그로피우스",
+        "헤르베르트 바이어",
+        "라슬로 모호이너지",
+        "요제프 알베르스"
+      ],
+      "figurePortraits": {
+        "발터 그로피우스": "https://commons.wikimedia.org/wiki/Special:FilePath/WalterGropius-1919.jpg?width=400",
+        "헤르베르트 바이어": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Bayer%20at%20the%20exhibition%20Bauhaus.jpg?width=400",
+        "라슬로 모호이너지": "https://commons.wikimedia.org/wiki/Special:FilePath/Laszlo%20Moholy-Nagy%20-%20photography%20from%20NARA%20-%20281845.jpg?width=400",
+        "요제프 알베르스": "https://commons.wikimedia.org/wiki/Special:FilePath/Josef%20Albers.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "바우하우스 데사우 교사",
+          "titleEn": "Bauhaus Dessau building",
+          "artist": "발터 그로피우스 (CC 사진)",
+          "year": "1925",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bauhaus.JPG?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "bauhaus design poster",
+        "images": [
+          "https://i.pinimg.com/736x/56/1a/4d/561a4d86602c03c5ba6fc0921590673e.jpg",
+          "https://i.pinimg.com/736x/e6/b2/0f/e6b20f0c0703e174ec9995577a68ed8b.jpg",
+          "https://i.pinimg.com/736x/c5/d4/37/c5d437240004c6f802963971a4e6792a.jpg",
+          "https://i.pinimg.com/736x/d3/b4/1d/d3b41d12c920fe690df5ac1c59ea9781.jpg",
+          "https://i.pinimg.com/736x/1b/df/be/1bdfbec5ee1365e77d34e02b3810229a.jpg",
+          "https://i.pinimg.com/736x/55/e0/dd/55e0ddad91e6d615d19f799db2f18e70.jpg",
+          "https://i.pinimg.com/736x/15/0e/99/150e990b02092e92a0f8e4f9916ee5ae.jpg",
+          "https://i.pinimg.com/736x/57/01/eb/5701eb5f703ef1db41100caef9b8de2f.jpg",
+          "https://i.pinimg.com/736x/7e/8f/6c/7e8f6c1a9c3d6bd9299a7bd0aae9375c.jpg",
+          "https://i.pinimg.com/736x/69/11/e0/6911e07e46feece6f0e505182947bb71.jpg",
+          "https://i.pinimg.com/736x/66/14/2b/66142b84f745a89f28dbcd9f658fcb9a.jpg",
+          "https://i.pinimg.com/736x/3f/84/3d/3f843d6b07931bdec2f8f1dc6908be75.jpg",
+          "https://i.pinimg.com/736x/c2/e4/f9/c2e4f91a6f9b512c2b3527103255121e.jpg",
+          "https://i.pinimg.com/736x/d7/5c/c3/d75cc3dd1299f6eb4d46502c9b6f6c91.jpg",
+          "https://i.pinimg.com/736x/6a/b0/01/6ab001d7b2fc4b808b5c0569f52ff165.jpg",
+          "https://i.pinimg.com/736x/6a/86/c4/6a86c4091ee05540dc329f775bfe02d6.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "art-deco",
+    "domain": "art-movement",
+    "category": "mod",
+    "categoryLabel": "모더니즘 1915–45",
+    "title": "아르데코",
+    "titleEn": "Art Deco",
+    "origin": "프랑스 → 세계",
+    "period": "1920–1939",
+    "field": "디자인 양식",
+    "oneLiner": "기계 시대의 화려함 — 선버스트, 금빛, 마천루의 기하학.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스 → 세계",
+      "카상드르",
+      "타마라 드 렘피카",
+      "윌리엄 밴 앨런",
+      "에르테",
+      "선버스트·지그재그·셰브런",
+      "엄격한 대칭",
+      "유선형과 마천루 실루엣"
+    ],
+    "related": [
+      "art-nouveau",
+      "bauhaus",
+      "midcentury"
+    ],
+    "detail": {
+      "desc": "1925년 파리 장식미술박람회(Arts Décoratifs)에서 유래한 양식 — 다만 \"아르데코\"라는 명칭 자체는 1960년대에 와서야 정착했다. 아르누보의 곡선을 기계 시대의 직선과 대칭으로 바꾸고, 이집트·아즈텍 문양과 귀금속 소재를 결합해 호화로운 모더니티를 연출했다. 크라이슬러 빌딩과 개츠비의 시대.",
+      "traits": [
+        "선버스트·지그재그·셰브런",
+        "엄격한 대칭",
+        "유선형과 마천루 실루엣",
+        "금속성 광택과 옻칠",
+        "이국 문양의 차용(이집트·아즈텍)"
+      ],
+      "palette": [
+        {
+          "hex": "#0E1A2B",
+          "name": "미드나이트 네이비"
+        },
+        {
+          "hex": "#C9A227",
+          "name": "샴페인 골드"
+        },
+        {
+          "hex": "#1E5C4F",
+          "name": "에메랄드"
+        },
+        {
+          "hex": "#7A1F3D",
+          "name": "와인"
+        },
+        {
+          "hex": "#E9E2D0",
+          "name": "펄 아이보리"
+        }
+      ],
+      "typo": "기하학적 뼈대에 가는 획 — 길쭉한 대문자, 데코라티브 산세리프. 우아함과 기계미의 결합.",
+      "fonts": [
+        {
+          "name": "Poiret One",
+          "css": "'Poiret One', cursive",
+          "note": "헤어라인 지오메트릭"
+        },
+        {
+          "name": "Limelight",
+          "css": "'Limelight', cursive",
+          "note": "할리우드 데코 디스플레이"
+        },
+        {
+          "name": "Monoton",
+          "css": "'Monoton', cursive",
+          "note": "네온사인 인라인"
+        }
+      ],
+      "realTypefaces": [
+        "Broadway",
+        "Bifur(카상드르)",
+        "Peignot",
+        "Empire"
+      ],
+      "sampleText": "GRAND HOTEL 1925",
+      "motifs": [
+        "부채꼴 선버스트",
+        "계단형 마천루",
+        "지그재그 프리즈",
+        "유선형 기관차·여객선",
+        "공작 깃털"
+      ],
+      "motifDesc": "중심 대칭의 부채꼴 광선과 계단식 윤곽이 화면을 지배한다. 카상드르의 포스터처럼 기계(열차·여객선)를 영웅적으로 단순화한 에어브러시 그러데이션이 전형.",
+      "figures": [
+        "카상드르",
+        "타마라 드 렘피카",
+        "윌리엄 밴 앨런",
+        "에르테"
+      ],
+      "figurePortraits": {
+        "카상드르": "https://commons.wikimedia.org/wiki/Special:FilePath/Portret%20van%20A.%20M.%20Cassandre%20in%20Rijksacademie%20in%20Amsterdam%2C%201967.jpg?width=400",
+        "윌리엄 밴 앨런": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Van%20Alen%20(1883%E2%80%931954).png?width=400",
+        "에르테": "https://commons.wikimedia.org/wiki/Special:FilePath/Ert%C3%A9%20at%20the%20Sonnabend%20Gallery%2C%20New%20York%20City%201970.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "크라이슬러 빌딩",
+          "titleEn": "Chrysler Building",
+          "artist": "윌리엄 밴 앨런 (CC 사진)",
+          "year": "1930",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysler%20Building%20by%20David%20Shankbone%20Retouched.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "art deco poster design",
+        "images": [
+          "https://i.pinimg.com/736x/9b/86/3a/9b863ae37531cf0ea67f9910b2448428.jpg",
+          "https://i.pinimg.com/736x/83/ef/91/83ef910458fb58838e441363115beb07.jpg",
+          "https://i.pinimg.com/736x/6e/0f/54/6e0f54219f007fe74b1fcd14cf2d4193.jpg",
+          "https://i.pinimg.com/736x/c8/8f/b3/c88fb324820db3f0b05df5b9b2823277.jpg",
+          "https://i.pinimg.com/736x/c3/d4/c6/c3d4c6615e9cc65721732dcf80d772a0.jpg",
+          "https://i.pinimg.com/736x/60/fe/1a/60fe1ab4fd8b62977c8db13bd7890f04.jpg",
+          "https://i.pinimg.com/736x/cb/e6/8d/cbe68d991eb75276bdd7978a855b3f6c.jpg",
+          "https://i.pinimg.com/736x/77/62/41/776241268bbc89d53d67c92a001359b7.jpg",
+          "https://i.pinimg.com/736x/75/a5/b0/75a5b0743fe0b5897626d1773b7f3ae8.jpg",
+          "https://i.pinimg.com/736x/b9/eb/72/b9eb725f3b2a190f3dce90a2c0bdc52f.jpg",
+          "https://i.pinimg.com/736x/de/86/2c/de862c5ec9009658fea2b3e9df986ab4.jpg",
+          "https://i.pinimg.com/736x/25/b7/aa/25b7aa176faf0621e1a83080f26efa87.jpg",
+          "https://i.pinimg.com/736x/c9/c9/2f/c9c92ff435041cec8d2a18224b64f396.jpg",
+          "https://i.pinimg.com/736x/56/db/6c/56db6c4989187e7c6ff90267576599df.jpg",
+          "https://i.pinimg.com/736x/ae/ac/73/aeac73b4d907bf16e85a3aaecbac114c.jpg",
+          "https://i.pinimg.com/736x/7a/85/f9/7a85f9338fb6a63dcf1d6d39f07f5bba.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "midcentury",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "미드센추리 모던",
+    "titleEn": "Mid-Century Modern",
+    "origin": "미국·북유럽",
+    "period": "1945–1969",
+    "field": "디자인 양식",
+    "oneLiner": "전후 낙관주의의 디자인 — 부메랑, 원자, 임스 체어.",
+    "credibility": "established",
+    "keywords": [
+      "미국·북유럽",
+      "찰스 & 레이 임스",
+      "조지 넬슨",
+      "알렉산더 지라드",
+      "아르네 야콥센",
+      "유기적 곡선 + 기능주의",
+      "따뜻한 어스톤 팔레트",
+      "원자·우주 시대 모티프"
+    ],
+    "related": [
+      "bauhaus",
+      "art-deco",
+      "swiss"
+    ],
+    "detail": {
+      "desc": "2차대전 후 호황기 미국과 북유럽에서 꽃핀 생활 디자인. 바우하우스의 기능주의가 대중의 거실로 들어와 유기적 곡선, 따뜻한 색, 신소재(합판·유리섬유)와 만났다. 임스 부부의 가구와 원자·우주 시대 그래픽이 상징이다.",
+      "traits": [
+        "유기적 곡선 + 기능주의",
+        "따뜻한 어스톤 팔레트",
+        "원자·우주 시대 모티프",
+        "신소재 실험(합판·유리섬유)",
+        "실내외의 연결(개방형 평면)"
+      ],
+      "palette": [
+        {
+          "hex": "#E07A3F",
+          "name": "번트 오렌지"
+        },
+        {
+          "hex": "#2E6E5E",
+          "name": "틸"
+        },
+        {
+          "hex": "#D9A62E",
+          "name": "머스터드"
+        },
+        {
+          "hex": "#6B4A38",
+          "name": "월넛"
+        },
+        {
+          "hex": "#F0E6D2",
+          "name": "에그쉘"
+        }
+      ],
+      "typo": "친근한 산세리프와 경쾌한 손글씨 스크립트의 공존. 모텔·다이너 간판 레터링의 시대.",
+      "fonts": [
+        {
+          "name": "Montserrat",
+          "css": "'Montserrat', sans-serif",
+          "note": "부에노스아이레스 간판 산세리프"
+        },
+        {
+          "name": "Pacifico",
+          "css": "'Pacifico', cursive",
+          "note": "서프 컬처 브러시 스크립트"
+        }
+      ],
+      "realTypefaces": [
+        "Futura",
+        "Brush Script",
+        "Microgramma"
+      ],
+      "sampleText": "Palm Springs Motel",
+      "motifs": [
+        "부메랑·키드니 곡선",
+        "원자 모형 스타버스트",
+        "추상 패턴 텍스타일",
+        "구글리(Googie) 간판",
+        "월넛 + 컬러 비닐"
+      ],
+      "motifDesc": "아메바 같은 유기 곡선과 가는 막대 다리, 원자 궤도를 닮은 스타버스트가 반복된다. 알렉산더 지라드의 텍스타일처럼 단순 도형의 경쾌한 반복 패턴이 전형.",
+      "figures": [
+        "찰스 & 레이 임스",
+        "조지 넬슨",
+        "알렉산더 지라드",
+        "아르네 야콥센"
+      ],
+      "figurePortraits": {
+        "알렉산더 지라드": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Hayden%20Girard%20-%20Painter.jpg?width=400",
+        "아르네 야콥센": "https://commons.wikimedia.org/wiki/Special:FilePath/Arne%20Jacobsen%20photo.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "임스 라운지 체어 (670)",
+          "titleEn": "Eames Lounge Chair (670)",
+          "artist": "찰스 & 레이 임스 (CC 사진)",
+          "year": "1956",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ngv%20design%2C%20charles%20eames%20and%20herman%20miller%2C%20lounge%20chair%20670%2C%201956.JPG?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "mid century modern design furniture",
+        "images": [
+          "https://i.pinimg.com/736x/c9/c3/39/c9c339beb79c5e25eae86f6eedac7756.jpg",
+          "https://i.pinimg.com/736x/40/e8/0b/40e80b3da8011bc730c373026da1db2c.jpg",
+          "https://i.pinimg.com/736x/98/66/0b/98660b3d226cac73564c395f3af89e24.jpg",
+          "https://i.pinimg.com/736x/f6/be/5a/f6be5aa64c9795883052c39f049c5f58.jpg",
+          "https://i.pinimg.com/736x/1c/d7/17/1cd717c1c74688a84e82b56e0f9d96dd.jpg",
+          "https://i.pinimg.com/736x/7a/24/d0/7a24d0e9447c926aa116a70401349bdd.jpg",
+          "https://i.pinimg.com/736x/c6/eb/13/c6eb1399a58992e816b2b3d0575876f1.jpg",
+          "https://i.pinimg.com/736x/af/a7/fd/afa7fdd6ac9809c9c791fd3b1b7a5da7.jpg",
+          "https://i.pinimg.com/736x/53/3d/1a/533d1a8ebcc159a4afaea95342af0667.jpg",
+          "https://i.pinimg.com/736x/ea/20/63/ea20634a89a57902cd5641eb9be4e17d.jpg",
+          "https://i.pinimg.com/736x/31/38/04/31380428b8c542a0e75960393d366a1b.jpg",
+          "https://i.pinimg.com/736x/70/8a/87/708a877ca9dcb49d1808dc0a1ddfec84.jpg",
+          "https://i.pinimg.com/736x/30/c2/09/30c20945f27e43965e18f513f92a5f47.jpg",
+          "https://i.pinimg.com/736x/d8/59/f0/d859f0d5009647e2adc8fe1d245aa7c7.jpg",
+          "https://i.pinimg.com/736x/de/13/11/de1311eac41b3665886f325ade874afe.jpg",
+          "https://i.pinimg.com/736x/b8/92/1b/b8921b849c1c9b6b7af86116d61d5449.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "swiss",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "스위스 스타일",
+    "titleEn": "Swiss / International Style",
+    "origin": "스위스",
+    "period": "1950s–1970s",
+    "field": "디자인 양식",
+    "oneLiner": "그리드, 헬베티카, 객관성 — 현대 그래픽디자인의 문법.",
+    "credibility": "established",
+    "keywords": [
+      "스위스",
+      "요제프 뮐러-브로크만",
+      "막스 빌",
+      "아르민 호프만",
+      "에밀 루더",
+      "수학적 그리드 시스템",
+      "산세리프 타이포그래피",
+      "왼끝맞춤·비대칭 레이아웃"
+    ],
+    "related": [
+      "bauhaus",
+      "minimalism",
+      "brutalism"
+    ],
+    "detail": {
+      "desc": "취리히와 바젤에서 정립된 국제 타이포그래피 양식. 수학적 그리드, 산세리프(헬베티카·유니버스), 비대칭 정렬, 객관적 사진을 원칙으로 \"디자이너의 주관을 지운\" 명료한 정보 전달을 추구했다. 오늘날 UI 디자인 문법의 직계 조상.",
+      "traits": [
+        "수학적 그리드 시스템",
+        "산세리프 타이포그래피",
+        "왼끝맞춤·비대칭 레이아웃",
+        "일러스트 대신 객관적 사진",
+        "여백의 적극적 활용"
+      ],
+      "palette": [
+        {
+          "hex": "#E30613",
+          "name": "스위스 레드"
+        },
+        {
+          "hex": "#000000",
+          "name": "블랙"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "화이트"
+        },
+        {
+          "hex": "#58585A",
+          "name": "뉴트럴 그레이"
+        }
+      ],
+      "typo": "헬베티카의 고향. 서체는 목소리를 내지 않고 내용이 말하게 한다 — 크기·굵기·위치의 위계만으로 화면을 설계.",
+      "fonts": [
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "헬베티카 계보의 뉴트럴 산세리프"
+        },
+        {
+          "name": "Archivo",
+          "css": "'Archivo', sans-serif",
+          "note": "그로테스크 산세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica",
+        "Univers",
+        "Akzidenz-Grotesk"
+      ],
+      "sampleText": "Die neue Typographie",
+      "motifs": [
+        "모듈러 그리드",
+        "거대한 활자 = 이미지",
+        "기하학적 추상 포스터",
+        "흑백 사진",
+        "신호적 원색 포인트"
+      ],
+      "motifDesc": "뮐러-브로크만의 콘서트 포스터처럼 음악적 리듬을 기하 도형의 수열로 번역한다. 활자 자체가 화면의 주인공이 되는 타이포그래피 포스터가 정점.",
+      "figures": [
+        "요제프 뮐러-브로크만",
+        "막스 빌",
+        "아르민 호프만",
+        "에밀 루더"
+      ],
+      "figurePortraits": {
+        "요제프 뮐러-브로크만": "https://commons.wikimedia.org/wiki/Special:FilePath/Josef%20M%C3%BCller-Brockmann%2C%20RIT%20NandE%20Vol19Num5%201987%20Nov5%20(cropped).jpg?width=400",
+        "아르민 호프만": "https://commons.wikimedia.org/wiki/Special:FilePath/Armin%20Hofmann.jpg?width=400",
+        "에밀 루더": "https://commons.wikimedia.org/wiki/Special:FilePath/Emil%20Ruder.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "무지카 비바",
+          "titleEn": "Musica Viva",
+          "artist": "요제프 뮐러-브로크만",
+          "year": "1959",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Musica%20Viva.%20M%C3%BCller-Brockmann.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "swiss style graphic design poster",
+        "images": [
+          "https://i.pinimg.com/736x/a0/d5/52/a0d552bd92ec67f7aee7db6a2f965569.jpg",
+          "https://i.pinimg.com/736x/01/f1/b8/01f1b8a33e0d0a3e29dfa2728d3c43ae.jpg",
+          "https://i.pinimg.com/736x/b1/a6/82/b1a68239666eab2707de94918112898b.jpg",
+          "https://i.pinimg.com/736x/d9/f5/e3/d9f5e37f10fa1438c1b4b9f9fccefda1.jpg",
+          "https://i.pinimg.com/736x/f7/58/e7/f758e7cfe721ad55f82388d9781b9963.jpg",
+          "https://i.pinimg.com/736x/e9/e0/dd/e9e0dd84efc037747259d29ba5b09ea4.jpg",
+          "https://i.pinimg.com/736x/49/ad/f1/49adf1e983c826a447c3634f4e104a87.jpg",
+          "https://i.pinimg.com/736x/6b/7d/94/6b7d94f0a24a69c2203fa4c31d1a4c10.jpg",
+          "https://i.pinimg.com/736x/ac/57/45/ac5745585f712ba0b4e96b48cbb76c23.jpg",
+          "https://i.pinimg.com/736x/18/e3/7c/18e37cf32d71d32a743ec3551dbf8815.jpg",
+          "https://i.pinimg.com/736x/20/bc/e4/20bce4c9d0757a09bfb0c37e68bb0724.jpg",
+          "https://i.pinimg.com/736x/12/40/d3/1240d36b269f93fb4827c3e5c29c5cc1.jpg",
+          "https://i.pinimg.com/736x/4e/aa/26/4eaa26182980ae00f5d5a186773a5f07.jpg",
+          "https://i.pinimg.com/736x/b5/fd/dd/b5fddd4828886b47a4f114e481441b81.jpg",
+          "https://i.pinimg.com/736x/be/6c/53/be6c538ce8b04c05fe04c52534f546b7.jpg",
+          "https://i.pinimg.com/736x/8c/0f/ef/8c0fefe5225d79c69492b4f4c2247237.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "pop-art",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "팝아트",
+    "titleEn": "Pop Art",
+    "origin": "영국·미국",
+    "period": "1955–1970",
+    "field": "디자인 양식",
+    "oneLiner": "수프 캔도 예술이 된다 — 대중문화의 이미지를 미술관으로.",
+    "credibility": "established",
+    "keywords": [
+      "영국·미국",
+      "앤디 워홀",
+      "로이 리히텐슈타인",
+      "리처드 해밀턴",
+      "클래스 올든버그",
+      "대중문화 이미지 차용",
+      "벤데이 도트·실크스크린",
+      "강렬한 원색 + 검은 윤곽선"
+    ],
+    "related": [
+      "psychedelic",
+      "memphis"
+    ],
+    "detail": {
+      "desc": "광고, 만화, 슈퍼마켓 진열대 같은 대중문화 이미지를 순수미술의 영역으로 끌어온 운동. 워홀의 실크스크린 반복과 리히텐슈타인의 벤데이 도트가 상징. 고급 예술과 상업 이미지의 경계를 무너뜨렸다.",
+      "traits": [
+        "대중문화 이미지 차용",
+        "벤데이 도트·실크스크린",
+        "강렬한 원색 + 검은 윤곽선",
+        "반복과 복제",
+        "아이러니와 유머"
+      ],
+      "palette": [
+        {
+          "hex": "#FFD400",
+          "name": "코믹 옐로"
+        },
+        {
+          "hex": "#E4002B",
+          "name": "팝 레드"
+        },
+        {
+          "hex": "#00A3E0",
+          "name": "시안 블루"
+        },
+        {
+          "hex": "#FF7BAC",
+          "name": "벤데이 핑크"
+        },
+        {
+          "hex": "#111111",
+          "name": "잉크 블랙"
+        }
+      ],
+      "typo": "만화 말풍선과 광고 헤드라인의 어휘 — 두껍고 크고 즉각적인 디스플레이 서체.",
+      "fonts": [
+        {
+          "name": "Anton",
+          "css": "'Anton', sans-serif",
+          "note": "광고 헤드라인 컨덴스드"
+        },
+        {
+          "name": "Bangers",
+          "css": "'Bangers', cursive",
+          "note": "코믹북 레터링"
+        }
+      ],
+      "realTypefaces": [
+        "Franklin Gothic",
+        "코믹 핸드레터링",
+        "Cooper Black"
+      ],
+      "sampleText": "WHAAM! POW!",
+      "motifs": [
+        "벤데이 도트",
+        "말풍선·의성어",
+        "수프 캔·콜라병",
+        "실크스크린 초상 반복",
+        "검은 만화 윤곽선"
+      ],
+      "motifDesc": "인쇄 망점을 확대해 노출하는 벤데이 도트, 4도 원색의 어긋난 판박이 느낌이 전형. 같은 이미지를 색만 바꿔 반복하는 그리드 구성이 상징적이다.",
+      "figures": [
+        "앤디 워홀",
+        "로이 리히텐슈타인",
+        "리처드 해밀턴",
+        "클래스 올든버그"
+      ],
+      "figurePortraits": {
+        "앤디 워홀": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Warhol%20at%20the%20Jewish%20Museum%20(by%20Bernard%20Gotfryd)%20%E2%80%93%20LOC.jpg?width=400",
+        "로이 리히텐슈타인": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Lichtenstein%2C%20painter%201969%20(cropped).jpg?width=400",
+        "클래스 올든버그": "https://commons.wikimedia.org/wiki/Special:FilePath/Claes%20Oldenburg%20-%202012.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "캠벨 수프 통조림",
+          "titleEn": "Campbell's Soup Cans",
+          "artist": "앤디 워홀",
+          "year": "1962",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Campbell's%20Soup%20Cans%20by%20Andy%20Warhol.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "pop art warhol lichtenstein",
+        "images": [
+          "https://i.pinimg.com/736x/e9/fa/28/e9fa283563f8782d1fb10f50dc904414.jpg",
+          "https://i.pinimg.com/736x/9e/a0/d3/9ea0d35b70b5c083e40d8387848d1979.jpg",
+          "https://i.pinimg.com/736x/4e/41/8c/4e418ce6acac41f96451f994cdbf8703.jpg",
+          "https://i.pinimg.com/736x/5b/cd/41/5bcd412e7d9a9c9f6a4552af4f9ffa2d.jpg",
+          "https://i.pinimg.com/736x/ba/30/87/ba30872468656f7a4c50ee7a8bb7807e.jpg",
+          "https://i.pinimg.com/736x/fe/dc/c9/fedcc91a675c6c076f914e9f2b42c010.jpg",
+          "https://i.pinimg.com/736x/6d/05/25/6d05258d7c984917e08507545f483f13.jpg",
+          "https://i.pinimg.com/736x/69/f1/6c/69f16c9c9536afacd77467d0d2391d5d.jpg",
+          "https://i.pinimg.com/736x/ac/22/b3/ac22b3ce9fb912d70307eee24cbc895b.jpg",
+          "https://i.pinimg.com/736x/17/47/d7/1747d75b0b86aad5bbd39567cede6b85.jpg",
+          "https://i.pinimg.com/736x/45/e1/7b/45e17b66d89a9eb983ac9ff349d3280e.jpg",
+          "https://i.pinimg.com/736x/72/6b/33/726b3359f2590dba2c50d12c259587d6.jpg",
+          "https://i.pinimg.com/736x/ed/0c/95/ed0c9560beb23fef264b3c81f31fa8f6.jpg",
+          "https://i.pinimg.com/736x/cd/f9/16/cdf9164f2701a04fd66f90a379866792.jpg",
+          "https://i.pinimg.com/736x/64/5d/62/645d62732d71b20beb31cf0b47c818fa.jpg",
+          "https://i.pinimg.com/736x/f8/f9/2c/f8f92cfae0a355f80f005c178f72233f.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "minimalism",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "미니멀리즘",
+    "titleEn": "Minimalism",
+    "origin": "미국 → 세계",
+    "period": "1960s–현재",
+    "field": "디자인 양식",
+    "oneLiner": "덜어낼수록 강해진다 — Less is More.",
+    "credibility": "established",
+    "keywords": [
+      "미국 → 세계",
+      "도널드 저드",
+      "디터 람스",
+      "마시모 비녤리",
+      "존 파우슨",
+      "철저한 환원과 절제",
+      "여백이 곧 디자인",
+      "모노크롬·뉴트럴 팔레트"
+    ],
+    "related": [
+      "swiss",
+      "de-stijl",
+      "bauhaus",
+      "flat-design"
+    ],
+    "detail": {
+      "desc": "저드·플래빈의 미술에서 출발해 디자인 전반의 태도가 된 양식. 장식과 서사를 제거하고 재료·비례·여백만 남긴다. 미스 반 데어 로에의 \"Less is More\"와 디터 람스의 \"Less, but better\"가 신조. 오늘날 프리미엄 브랜딩과 UI의 기본 문법.",
+      "traits": [
+        "철저한 환원과 절제",
+        "여백이 곧 디자인",
+        "모노크롬·뉴트럴 팔레트",
+        "정밀한 비례와 정렬",
+        "재료 그 자체의 표현"
+      ],
+      "palette": [
+        {
+          "hex": "#FFFFFF",
+          "name": "화이트"
+        },
+        {
+          "hex": "#F2F2F2",
+          "name": "페이퍼"
+        },
+        {
+          "hex": "#D9D9D9",
+          "name": "라이트 그레이"
+        },
+        {
+          "hex": "#8C8C8C",
+          "name": "미드 그레이"
+        },
+        {
+          "hex": "#111111",
+          "name": "잉크"
+        }
+      ],
+      "typo": "가늘고 넓은 자간의 산세리프, 소문자 선호. 타이포그래피가 속삭일수록 공간이 말한다.",
+      "fonts": [
+        {
+          "name": "Inter Thin",
+          "css": "'Inter', sans-serif",
+          "weight": 100,
+          "note": "헤어라인 산세리프"
+        },
+        {
+          "name": "Inter Light",
+          "css": "'Inter', sans-serif",
+          "weight": 300,
+          "note": "라이트 산세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica Neue Light",
+        "Futura Light",
+        "Avenir"
+      ],
+      "sampleText": "less, but better",
+      "motifs": [
+        "빈 화면의 한 점",
+        "가는 괘선",
+        "단색 면",
+        "그림자 없는 평면",
+        "오브제 단독 배치"
+      ],
+      "motifDesc": "화면 대부분을 비우고 요소 하나에 시선을 모은다. 정렬·간격·비례의 정밀함이 장식을 대신하며, 흐트러짐 없는 질서 자체가 고급감을 만든다.",
+      "figures": [
+        "도널드 저드",
+        "디터 람스",
+        "마시모 비녤리",
+        "존 파우슨"
+      ],
+      "figurePortraits": {
+        "디터 람스": "https://commons.wikimedia.org/wiki/Special:FilePath/Designer-Dieter%20Rams.jpg?width=400",
+        "마시모 비녤리": "https://commons.wikimedia.org/wiki/Special:FilePath/Massimo%20Vignelli%202.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "브라운 포노주퍼 SK 4",
+          "titleEn": "Braun Phonosuper SK 4",
+          "artist": "디터 람스 & 한스 구겔로트",
+          "year": "1956",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/1956%20Braun%20Phonosuper%20SK4%20Schneewittchensarg.JPG?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "minimalist design dieter rams",
+        "images": [
+          "https://i.pinimg.com/736x/82/e6/e7/82e6e70493a3581133a614c948d8e755.jpg",
+          "https://i.pinimg.com/736x/02/39/e6/0239e6be5d510e5f9c7ea1eb53112a59.jpg",
+          "https://i.pinimg.com/736x/f2/14/c5/f214c5cc38ce295cd876dee36991902c.jpg",
+          "https://i.pinimg.com/736x/09/20/8b/09208bffdc239f9cca321e51d864f336.jpg",
+          "https://i.pinimg.com/736x/3c/8f/a5/3c8fa5196c9a7672fc38e84ea6646307.jpg",
+          "https://i.pinimg.com/736x/85/1d/b3/851db37023e2bf9fa6da9f547e88dab0.jpg",
+          "https://i.pinimg.com/736x/40/41/db/4041dbdbfec4a7be9b4dea255cc6f01e.jpg",
+          "https://i.pinimg.com/736x/9b/40/48/9b40481e4dea3e517d11e08752e359a3.jpg",
+          "https://i.pinimg.com/736x/9a/dc/ea/9adcea68ccda082ac33b0c1ab8e38c93.jpg",
+          "https://i.pinimg.com/736x/55/c6/88/55c6888684ef0dc2648636742d6f527a.jpg",
+          "https://i.pinimg.com/736x/68/d7/0f/68d70f5cd2555c2bc3d3bd8126614e9e.jpg",
+          "https://i.pinimg.com/736x/15/5d/1b/155d1bf4dad1e5515aa1220a08d065dc.jpg",
+          "https://i.pinimg.com/736x/47/1f/1d/471f1dbfaf0e97f76f5daa4fddd76403.jpg",
+          "https://i.pinimg.com/736x/53/01/ca/5301ca9d29e60bba20bb439b48dd2731.jpg",
+          "https://i.pinimg.com/736x/9a/c2/dc/9ac2dc53fa702a76627f1203cfe15662.jpg",
+          "https://i.pinimg.com/736x/26/80/2c/26802c3a7b074b623d488a3e0de3596a.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "psychedelic",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "사이키델릭",
+    "titleEn": "Psychedelic",
+    "origin": "미국 샌프란시스코",
+    "period": "1966–1972",
+    "field": "디자인 양식",
+    "oneLiner": "환각의 시각화 — 녹아내리는 글자와 진동하는 보색.",
+    "credibility": "established",
+    "keywords": [
+      "미국 샌프란시스코",
+      "웨스 윌슨",
+      "빅터 모스코소",
+      "리 콘클린",
+      "밀턴 글레이저",
+      "녹아내리는 유동적 레터링",
+      "진동하는 보색 대비",
+      "소용돌이·동심원 패턴"
+    ],
+    "related": [
+      "art-nouveau",
+      "pop-art"
+    ],
+    "detail": {
+      "desc": "60년대 샌프란시스코 록 문화에서 태어난 포스터 양식. 아르누보의 곡선을 환각적으로 증폭해, 읽기 힘들 만큼 녹아 흐르는 레터링과 망막을 진동시키는 보색 대비로 화면을 채웠다. 필모어 콘서트 포스터가 정전(正典).",
+      "traits": [
+        "녹아내리는 유동적 레터링",
+        "진동하는 보색 대비",
+        "소용돌이·동심원 패턴",
+        "아르누보의 환각적 재해석",
+        "가독성보다 체험"
+      ],
+      "palette": [
+        {
+          "hex": "#FF3CA6",
+          "name": "핫 핑크"
+        },
+        {
+          "hex": "#FF8A00",
+          "name": "애시드 오렌지"
+        },
+        {
+          "hex": "#7B2FBE",
+          "name": "퍼플 헤이즈"
+        },
+        {
+          "hex": "#9EF01A",
+          "name": "라임"
+        },
+        {
+          "hex": "#120A2A",
+          "name": "딥 바이올렛"
+        }
+      ],
+      "typo": "글자가 액체처럼 화면의 빈틈을 채우며 흐른다. 윤곽이 곧 일러스트인 핸드 레터링.",
+      "fonts": [
+        {
+          "name": "Shrikhand",
+          "css": "'Shrikhand', cursive",
+          "note": "그루비 팻 디스플레이"
+        },
+        {
+          "name": "Righteous",
+          "css": "'Righteous', cursive",
+          "note": "70s 라운드 디스플레이"
+        }
+      ],
+      "realTypefaces": [
+        "윌슨·모스코소 핸드레터링",
+        "Arnold Böcklin(재유행)"
+      ],
+      "sampleText": "Fillmore West",
+      "motifs": [
+        "동심원 파동",
+        "소용돌이",
+        "만화경 대칭",
+        "불꽃 모양 글자 덩어리",
+        "오프레지스터 인쇄"
+      ],
+      "motifDesc": "화면 전체가 출렁이는 액체처럼 보이도록 동심원과 파동 곡선을 중첩한다. 명도가 같은 보색(핑크-오렌지, 퍼플-라임)을 맞붙여 의도적인 시각 진동을 일으킨다.",
+      "figures": [
+        "웨스 윌슨",
+        "빅터 모스코소",
+        "리 콘클린",
+        "밀턴 글레이저"
+      ],
+      "figurePortraits": {
+        "빅터 모스코소": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor%20Moscoso%2C%20psychedelic%20poster%20and%20comix%20artist.jpg?width=400",
+        "밀턴 글레이저": "https://commons.wikimedia.org/wiki/Special:FilePath/Milton%20Glaser%20at%20Cooper%20Hewitt%2C%20Smithsonian%20Design%20Museum.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "뉴 블루스 인터체인지",
+          "titleEn": "New Blues Interchange at Cedric's Cellar",
+          "artist": "웨스 윌슨",
+          "year": "1967",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/New_Blues_Interchange_at_Cedric%27s_Cellar%2C_1967.jpg/960px-New_Blues_Interchange_at_Cedric%27s_Cellar%2C_1967.jpg"
+        }
+      ],
+      "gallery": {
+        "q": "psychedelic poster 1960s",
+        "images": [
+          "https://i.pinimg.com/736x/7e/8e/dd/7e8edd0fe6278bdde8c22f8fa863bd88.jpg",
+          "https://i.pinimg.com/736x/e6/ac/31/e6ac313d54f0f22c0caf79e2ab9f7420.jpg",
+          "https://i.pinimg.com/736x/e4/13/33/e4133364755055cbecad4f766e67314c.jpg",
+          "https://i.pinimg.com/736x/89/c5/de/89c5de3269057fff96539d8b774e3923.jpg",
+          "https://i.pinimg.com/736x/04/7b/98/047b9822900354adb29eb07399a14d6e.jpg",
+          "https://i.pinimg.com/736x/13/bc/b3/13bcb34c3468719bd7a08791f397176e.jpg",
+          "https://i.pinimg.com/736x/0c/05/14/0c05143f15b7f08654be67406f4cb168.jpg",
+          "https://i.pinimg.com/736x/86/ab/8a/86ab8a85fb64762faa8f31841ebddff1.jpg",
+          "https://i.pinimg.com/736x/df/c5/cb/dfc5cb7a7a3d04b22782ef441293c1df.jpg",
+          "https://i.pinimg.com/736x/19/7b/4b/197b4bce2f8e6fdb953b3be0845991d0.jpg",
+          "https://i.pinimg.com/736x/74/19/97/7419977fe2f32c6aae4ecb23e9af5d23.jpg",
+          "https://i.pinimg.com/736x/3e/f0/47/3ef047179df952d1129740460417a509.jpg",
+          "https://i.pinimg.com/736x/68/dd/35/68dd350e95d2157044e6c579041f25f1.jpg",
+          "https://i.pinimg.com/736x/bf/00/c0/bf00c05325dfe4e0dedaae6217c712d0.jpg",
+          "https://i.pinimg.com/736x/d1/ba/da/d1badae93bc62df97e73db18ef7b2dca.jpg",
+          "https://i.pinimg.com/736x/4e/d6/bc/4ed6bcea4fadbadc6345e9995eaa7fbc.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "brutalism",
+    "domain": "art-movement",
+    "category": "post",
+    "categoryLabel": "전후 1945–75",
+    "title": "브루탈리즘",
+    "titleEn": "Brutalism",
+    "origin": "영국·프랑스 → 웹",
+    "period": "1950s–1975 / 웹 2014–",
+    "field": "디자인 양식",
+    "oneLiner": "날것의 정직함 — 노출 콘크리트에서 기본값 HTML까지.",
+    "credibility": "established",
+    "keywords": [
+      "영국·프랑스 → 웹",
+      "르 코르뷔지에",
+      "앨리슨 & 피터 스미스슨",
+      "폴 루돌프",
+      "재료의 노출(노출 콘크리트)",
+      "거대한 매스와 반복 모듈",
+      "장식의 완전한 배제"
+    ],
+    "related": [
+      "constructivism",
+      "swiss",
+      "minimalism",
+      "grunge"
+    ],
+    "detail": {
+      "desc": "르 코르뷔지에의 베통 브뤼(béton brut, 노출 콘크리트)에서 이름을 딴 건축 양식. 재료와 구조를 가감 없이 드러내는 거대하고 반복적인 콘크리트 덩어리가 특징. 2010년대에는 꾸밈없는 기본값 HTML, 시스템 폰트, 거친 대비의 \"웹 브루탈리즘\"으로 부활했다.",
+      "traits": [
+        "재료의 노출(노출 콘크리트)",
+        "거대한 매스와 반복 모듈",
+        "장식의 완전한 배제",
+        "웹: 기본값 미학·시스템 폰트",
+        "의도적인 불친절함"
+      ],
+      "palette": [
+        {
+          "hex": "#B5B5B0",
+          "name": "콘크리트"
+        },
+        {
+          "hex": "#8A8A85",
+          "name": "시멘트 그레이"
+        },
+        {
+          "hex": "#55554F",
+          "name": "거푸집 섀도"
+        },
+        {
+          "hex": "#2B2B28",
+          "name": "아스팔트"
+        },
+        {
+          "hex": "#0000EE",
+          "name": "디폴트 링크 블루"
+        }
+      ],
+      "typo": "웹 브루탈리즘은 모노스페이스와 시스템 기본 서체, 과대한 크기 대비를 무기로 쓴다.",
+      "fonts": [
+        {
+          "name": "Archivo Black",
+          "css": "'Archivo Black', sans-serif",
+          "note": "헤비 그로테스크"
+        },
+        {
+          "name": "Space Mono",
+          "css": "'Space Mono', monospace",
+          "note": "모노스페이스"
+        },
+        {
+          "name": "Times New Roman",
+          "css": "'Times New Roman', serif",
+          "note": "브라우저 기본값"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica Bold(건축 사이니지)",
+        "Courier",
+        "Arial·Times 기본값"
+      ],
+      "sampleText": "BÉTON BRUT",
+      "motifs": [
+        "노출 콘크리트 매스",
+        "반복 모듈 파사드",
+        "거푸집 자국",
+        "웹: 언더라인 링크·보더 박스",
+        "하드 섀도"
+      ],
+      "motifDesc": "구조가 곧 외관. 웹에서는 그러데이션·라운드를 버리고 시스템 파랑 링크, 검은 보더, 겹친 박스, 커서 따라다니는 요소 같은 \"꾸미지 않음의 꾸밈\"으로 나타난다.",
+      "figures": [
+        "르 코르뷔지에",
+        "앨리슨 & 피터 스미스슨",
+        "폴 루돌프"
+      ],
+      "figurePortraits": {
+        "르 코르뷔지에": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Corbusier%20(1964).jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "위니테 다비타시옹",
+          "titleEn": "Unité d'Habitation, Marseille",
+          "artist": "르 코르뷔지에",
+          "year": "1952",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Corbusier%20Experimental%20Housing%20Project%2C%20Marseille%20-%20DPLA%20-%209c28f44cf8ed56689ab51b78069b1b7b.jpg?width=800"
+        },
+        {
+          "title": "보스턴 시청",
+          "titleEn": "Boston City Hall",
+          "artist": "Kallmann McKinnell & Knowles",
+          "year": "1968",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Boston%20city%20hall.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "brutalist architecture",
+        "images": [
+          "https://i.pinimg.com/736x/b7/5f/20/b75f208cd9d3620d902102686750e848.jpg",
+          "https://i.pinimg.com/736x/2d/d0/d1/2dd0d1103e17e93f2e0a52e8c7b8eed1.jpg",
+          "https://i.pinimg.com/736x/ca/bf/4b/cabf4b872840614f7cefeadd5f90d017.jpg",
+          "https://i.pinimg.com/736x/98/94/2a/98942ac250887aca15588cedb5af299f.jpg",
+          "https://i.pinimg.com/736x/b4/e8/d3/b4e8d3d393d784df23952ce84b702e42.jpg",
+          "https://i.pinimg.com/736x/ca/6f/25/ca6f2501c09d6a4c232c50cff2edccb7.jpg",
+          "https://i.pinimg.com/736x/3d/eb/d1/3debd1409b7fb0e504435d9554c4f55b.jpg",
+          "https://i.pinimg.com/736x/03/dc/e7/03dce747efdd15143d54305984e11035.jpg",
+          "https://i.pinimg.com/736x/cc/cc/74/cccc741906794c9f38e401c8d81e044a.jpg",
+          "https://i.pinimg.com/736x/6f/76/74/6f767407e91a01376ed75eb2016dd775.jpg",
+          "https://i.pinimg.com/736x/3a/f0/24/3af0246435d5d3b46285b5a8120b5c32.jpg",
+          "https://i.pinimg.com/736x/cf/8a/13/cf8a13d1ef85f7a81e85032544308dd8.jpg",
+          "https://i.pinimg.com/736x/1e/eb/c3/1eebc3fecca142c6e97525cd3bf27cd1.jpg",
+          "https://i.pinimg.com/736x/af/8a/94/af8a9422e4c44354a5959fa442677a86.jpg",
+          "https://i.pinimg.com/736x/1f/f1/96/1ff1969f4519fa42deade6a979e84709.jpg",
+          "https://i.pinimg.com/736x/eb/80/5d/eb805da095cd10494fcc2684c730cf5f.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "memphis",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "멤피스",
+    "titleEn": "Memphis",
+    "origin": "이탈리아 밀라노",
+    "period": "1981–1987",
+    "field": "디자인 양식",
+    "oneLiner": "좋은 취향에 대한 반란 — 테라조, 스퀴글, 충돌하는 파스텔.",
+    "credibility": "established",
+    "keywords": [
+      "이탈리아 밀라노",
+      "에토레 소트사스",
+      "나탈리 뒤 파스키에",
+      "미켈레 데 루키",
+      "충돌하는 고채도+파스텔",
+      "바크테리오·테라조 패턴",
+      "기하 도형의 무중력 배치"
+    ],
+    "related": [
+      "pop-art",
+      "y2k"
+    ],
+    "detail": {
+      "desc": "소트사스가 밀라노에서 결성한 디자인 그룹. 기능주의의 \"좋은 취향\"을 조롱하며 유치할 만큼 경쾌한 색, 싸구려 라미네이트 소재, 무의미한 장식 패턴을 의도적으로 충돌시켰다. 80년대 팝 문화 전체의 시각 언어가 됐다.",
+      "traits": [
+        "충돌하는 고채도+파스텔",
+        "바크테리오·테라조 패턴",
+        "기하 도형의 무중력 배치",
+        "기능을 배반하는 형태",
+        "키치의 의도적 수용"
+      ],
+      "palette": [
+        {
+          "hex": "#F25BA1",
+          "name": "버블검 핑크"
+        },
+        {
+          "hex": "#00BCD4",
+          "name": "아쿠아"
+        },
+        {
+          "hex": "#FFD400",
+          "name": "레몬"
+        },
+        {
+          "hex": "#9B5DE5",
+          "name": "바이올렛"
+        },
+        {
+          "hex": "#111111",
+          "name": "블랙"
+        }
+      ],
+      "typo": "둥글고 통통한 지오메트릭 디스플레이 — 글자도 장난감처럼.",
+      "fonts": [
+        {
+          "name": "Bungee",
+          "css": "'Bungee', cursive",
+          "note": "사이니지 디스플레이"
+        },
+        {
+          "name": "Fredoka",
+          "css": "'Fredoka', sans-serif",
+          "note": "라운드 지오메트릭"
+        }
+      ],
+      "realTypefaces": [
+        "ITC Bauhaus",
+        "Kabel",
+        "80s 라운드 디스플레이"
+      ],
+      "sampleText": "CARLTON 1981",
+      "motifs": [
+        "스퀴글(구불선)",
+        "테라조·바크테리오 패턴",
+        "컨페티 도트",
+        "지그재그",
+        "기둥 위의 공"
+      ],
+      "motifDesc": "소트사스의 바크테리오 패턴(검은 구불선 무리)과 테라조 조각이 배경을 채우고, 그 위에 도형들이 중력 없이 떠다닌다. 진지함을 거부하는 명랑한 무질서.",
+      "figures": [
+        "에토레 소트사스",
+        "나탈리 뒤 파스키에",
+        "미켈레 데 루키"
+      ],
+      "figurePortraits": {
+        "에토레 소트사스": "https://commons.wikimedia.org/wiki/Special:FilePath/Ettore%20Sottsass%201969.jpg?width=400",
+        "미켈레 데 루키": "https://commons.wikimedia.org/wiki/Special:FilePath/Michele%20de%20Lucchi-67592.jpg?width=400"
+      },
+      "artworks": [
+        {
+          "title": "칼튼 책장",
+          "titleEn": "Carlton room divider",
+          "artist": "에토레 소트사스 (CC 사진)",
+          "year": "1981",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ettore%20sottsass%20per%20memphis%20srl.%2C%20libreria%20carlton%2C%20milano%201981.jpg?width=800"
+        }
+      ],
+      "gallery": {
+        "q": "memphis design 80s",
+        "images": [
+          "https://i.pinimg.com/736x/db/bf/ed/dbbfed7495af724366e96d5e0f37c716.jpg",
+          "https://i.pinimg.com/736x/3e/50/5f/3e505f484853bd5b35ed9e4d2cda60e4.jpg",
+          "https://i.pinimg.com/736x/39/ac/4b/39ac4b5e4401d06592d435468f8ade83.jpg",
+          "https://i.pinimg.com/736x/ad/50/36/ad5036e4e24cef252339bad407838c02.jpg",
+          "https://i.pinimg.com/736x/25/af/fb/25affb5063ce6cefefa9e56845ca3cc7.jpg",
+          "https://i.pinimg.com/736x/78/52/d8/7852d82d0ca39d5e0baa20ecc98c4fac.jpg",
+          "https://i.pinimg.com/736x/67/1d/89/671d89d055c725aba32fcd903c85927d.jpg",
+          "https://i.pinimg.com/736x/ae/5a/0c/ae5a0c19c5e4950bf1db7c3c01823c5e.jpg",
+          "https://i.pinimg.com/736x/a8/6e/f8/a86ef871294e3b59486e4b40c3774d88.jpg",
+          "https://i.pinimg.com/736x/db/fa/cc/dbfaccb8bfce4a8ee597eb2d86bb55e8.jpg",
+          "https://i.pinimg.com/736x/ad/57/f3/ad57f37730fffefe051e6633f958c6a0.jpg",
+          "https://i.pinimg.com/736x/31/85/2c/31852c159a5e363a57b849882572966e.jpg",
+          "https://i.pinimg.com/736x/d2/51/54/d25154af38d71b3c9349146dbc0f48ea.jpg",
+          "https://i.pinimg.com/736x/d1/5f/ad/d15fad9cfeccecdccff2186f52e8d60f.jpg",
+          "https://i.pinimg.com/736x/11/09/9f/11099fcb7eb1e99a1fc0949c4ed33812.jpg",
+          "https://i.pinimg.com/736x/eb/4b/54/eb4b54afdbbb3d6c34016f40fda1104f.jpg"
+        ]
+      },
+      "demo": ""
+    }
+  },
+  {
+    "id": "grunge",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "그런지",
+    "titleEn": "Grunge",
+    "origin": "미국 시애틀",
+    "period": "1990–1999",
+    "field": "디자인 양식",
+    "oneLiner": "깨진 활자와 복사기 노이즈 — 규칙을 부수는 것이 규칙.",
+    "credibility": "established",
+    "keywords": [
+      "미국 시애틀",
+      "데이비드 카슨",
+      "아트 챈트리",
+      "네빌 브로디",
+      "해체된 타이포그래피",
+      "복사기·실크스크린 노이즈",
+      "찢은 종이·테이프 콜라주"
+    ],
+    "related": [
+      "brutalism",
+      "psychedelic",
+      "swiss"
+    ],
+    "detail": {
+      "desc": "시애틀 그런지 록과 펑크 진(zine) 문화에서 자란 해체주의 그래픽. 데이비드 카슨의 Ray Gun 매거진이 정점으로, 겹치고 잘리고 뒤집힌 활자와 복사기 얼룩, 찢은 종이 콜라주로 \"읽기\"보다 \"느끼기\"를 택했다. 그리드를 신봉한 스위스 스타일의 정확한 대척점.",
+      "traits": [
+        "해체된 타이포그래피",
+        "복사기·실크스크린 노이즈",
+        "찢은 종이·테이프 콜라주",
+        "의도적 가독성 파괴",
+        "DIY 진(zine) 문화"
+      ],
+      "palette": [
+        {
+          "hex": "#2B2826",
+          "name": "차콜"
+        },
+        {
+          "hex": "#5C5347",
+          "name": "머드 브라운"
+        },
+        {
+          "hex": "#8C8474",
+          "name": "더스트"
+        },
+        {
+          "hex": "#B7A14A",
+          "name": "니코틴 옐로"
+        },
+        {
+          "hex": "#D9D2C0",
+          "name": "빛바랜 종이"
+        }
+      ],
+      "typo": "타자기·스텐실·손글씨가 겹쳐 찍히고 뭉개진다. 잘려나간 글자, 어긋난 행간 — 불완전함이 곧 목소리.",
+      "fonts": [
+        {
+          "name": "Special Elite",
+          "css": "'Special Elite', cursive",
+          "note": "잉크 번진 타자기"
+        },
+        {
+          "name": "Rock Salt",
+          "css": "'Rock Salt', cursive",
+          "note": "스크래치 손글씨"
+        }
+      ],
+      "realTypefaces": [
+        "Template Gothic",
+        "Dead History",
+        "카슨의 콜라주 활자"
+      ],
+      "sampleText": "Lose Control",
+      "motifs": [
+        "찢은 종이·마스킹 테이프",
+        "복사기 얼룩·노이즈",
+        "겹쳐 찍힌 활자",
+        "손글씨 낙서",
+        "거친 흑백 사진"
+      ],
+      "motifDesc": "몇 번이고 복사를 거듭한 듯한 뭉개진 질감이 화면을 덮는다. 활자는 자르고 겹치고 기울여 콜라주 재료로 쓰이며, 얼룩과 흠집은 지우는 대신 전시한다.",
+      "figures": [
+        "데이비드 카슨",
+        "아트 챈트리",
+        "네빌 브로디"
+      ],
+      "figurePortraits": {
+        "데이비드 카슨": "https://commons.wikimedia.org/wiki/Special:FilePath/20190513-BT-Dus-David%20Carson-NP.jpg?width=400",
+        "네빌 브로디": "https://commons.wikimedia.org/wiki/Special:FilePath/Neville%20Brody%20TYPO%20SF%202012.jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": {
+        "q": "grunge graphic design 90s",
+        "images": [
+          "https://i.pinimg.com/736x/2a/d7/39/2ad739218e3de0fb537cf3c52d16b170.jpg",
+          "https://i.pinimg.com/736x/3b/9a/ee/3b9aee3818fbeccefcda488694b3d200.jpg",
+          "https://i.pinimg.com/736x/ef/52/94/ef529417ee322124998e732baebeaf4c.jpg",
+          "https://i.pinimg.com/736x/d9/9b/31/d99b316fa3d8ea399a3bb77bdd1a596b.jpg",
+          "https://i.pinimg.com/736x/d1/ae/a4/d1aea47b21cc2eb79e27f2f68d2bfef7.jpg",
+          "https://i.pinimg.com/736x/e7/73/de/e773dee7082eda84be9773b1d7dc9eae.jpg",
+          "https://i.pinimg.com/736x/34/df/c0/34dfc0ac7e66be4dcf7479b2dbaf9c41.jpg",
+          "https://i.pinimg.com/736x/04/e7/c0/04e7c0d3e3f52efc0cca4d06c1b89ddb.jpg",
+          "https://i.pinimg.com/736x/49/2c/a7/492ca712323fa64b7dae147db05fabb7.jpg",
+          "https://i.pinimg.com/736x/41/54/71/415471a56657c30124c9e277d644f15f.jpg",
+          "https://i.pinimg.com/736x/40/e0/4e/40e04e72a48dbf67f0502548f59f4149.jpg",
+          "https://i.pinimg.com/736x/4b/a5/bd/4ba5bd02e141ce1b12111a73b16621f5.jpg",
+          "https://i.pinimg.com/736x/bb/9f/00/bb9f004cc89a8903d61fd5ea61ae7053.jpg",
+          "https://i.pinimg.com/736x/f5/b1/63/f5b16303dc1559f91dda7067f23e8dab.jpg",
+          "https://i.pinimg.com/736x/91/96/36/9196364a622e018d9718870561cb72ba.jpg",
+          "https://i.pinimg.com/736x/13/18/4f/13184f9ec5e37a25c56bdf94c7aaeaa5.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:42px;background:#3a3531;font-family:'Courier New',monospace\">\n    <div style=\"font:700 22px 'Courier New',monospace;color:#d9cfc2;letter-spacing:1px;transform:rotate(-2.5deg);border:2px solid #d9cfc2;padding:9px 18px;box-shadow:3px 3px 0 rgba(0,0,0,.45);background:repeating-linear-gradient(45deg,rgba(0,0,0,.06) 0 3px,transparent 3px 6px)\">GRUNGE</div>\n  </div>"
+    }
+  },
+  {
+    "id": "y2k",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "Y2K",
+    "titleEn": "Y2K Aesthetic",
+    "origin": "세계 (인터넷)",
+    "period": "1995–2005",
+    "field": "디자인 양식",
+    "oneLiner": "밀레니엄의 테크노 유토피아 — 크롬, 반투명, 사이버 블루.",
+    "credibility": "established",
+    "keywords": [
+      "세계 (인터넷)",
+      "더 디자이너스 리퍼블릭",
+      "Me Company",
+      "아오시마 치호",
+      "액체금속 크롬 질감",
+      "반투명·젤리 플라스틱",
+      "와이어프레임·그리드 지평선"
+    ],
+    "related": [
+      "memphis",
+      "psychedelic",
+      "skeuomorphism"
+    ],
+    "detail": {
+      "desc": "밀레니엄 전환기의 기술 낙관주의가 만든 미감. 액체금속 크롬, 반투명 플라스틱(iMac), 렌즈 플레어, 와이어프레임 지형이 음반 커버·광고·게임을 지배했다. 2020년대 들어 강하게 재유행하며 디지털 네이티브 세대의 레트로가 됐다.",
+      "traits": [
+        "액체금속 크롬 질감",
+        "반투명·젤리 플라스틱",
+        "와이어프레임·그리드 지평선",
+        "렌즈 플레어·글로우",
+        "유토피아적 테크노 낙관주의"
+      ],
+      "palette": [
+        {
+          "hex": "#C0C8D8",
+          "name": "크롬 실버"
+        },
+        {
+          "hex": "#6FD8FF",
+          "name": "사이버 아쿠아"
+        },
+        {
+          "hex": "#9BF00B",
+          "name": "매트릭스 라임"
+        },
+        {
+          "hex": "#7A5CFA",
+          "name": "울트라 바이올렛"
+        },
+        {
+          "hex": "#F2F5FA",
+          "name": "클라우드 화이트"
+        }
+      ],
+      "typo": "미래를 연기하는 글자들 — 둥근 테크노 산세리프, 스퀘어 디스플레이, 픽셀·OCR 서체.",
+      "fonts": [
+        {
+          "name": "Orbitron",
+          "css": "'Orbitron', sans-serif",
+          "note": "스퀘어 테크노"
+        },
+        {
+          "name": "Audiowide",
+          "css": "'Audiowide', cursive",
+          "note": "라운드 퓨처리즘"
+        }
+      ],
+      "realTypefaces": [
+        "Eurostile",
+        "OCR-A",
+        "VAG Rounded",
+        "Chicago(픽셀)"
+      ],
+      "sampleText": "CYBER 2000",
+      "motifs": [
+        "크롬 블롭",
+        "그리드 지평선",
+        "렌즈 플레어",
+        "버블·물방울",
+        "픽셀·글리치"
+      ],
+      "motifDesc": "3D 렌더된 액체금속 덩어리와 소실점으로 뻗는 와이어 그리드가 전형. 하늘색-은색 그러데이션과 광택 하이라이트로 \"디지털의 물성\"을 연출한다.",
+      "figures": [
+        "더 디자이너스 리퍼블릭",
+        "Me Company",
+        "아오시마 치호"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": {
+        "q": "y2k graphic design",
+        "images": [
+          "https://i.pinimg.com/736x/da/dd/4c/dadd4cacf291d8f915d26caf82c3dd94.jpg",
+          "https://i.pinimg.com/736x/17/55/88/175588bb33a2f15b2f19640ef84144be.jpg",
+          "https://i.pinimg.com/736x/15/85/8d/15858d2fd83a89c568e9af1fb859e6c4.jpg",
+          "https://i.pinimg.com/736x/ff/4e/0f/ff4e0fadb8438bde0e876de319f9a646.jpg",
+          "https://i.pinimg.com/736x/42/b4/5f/42b45f55b3049a072b680e801bccacdf.jpg",
+          "https://i.pinimg.com/736x/6d/08/db/6d08dbcb4a4bb989cacbf3b47e1d2800.jpg",
+          "https://i.pinimg.com/736x/59/45/64/59456432a07db2cf0b4d6099e60682d1.jpg",
+          "https://i.pinimg.com/736x/cb/9c/f6/cb9cf61587a9170963fce7a0481c2a5d.jpg",
+          "https://i.pinimg.com/736x/cb/79/7a/cb797a3f85849ee4bbe6069c13baecbf.jpg",
+          "https://i.pinimg.com/736x/d2/35/0e/d2350e23b7aa9e1b2b3a85b210f3afef.jpg",
+          "https://i.pinimg.com/736x/aa/7d/89/aa7d89da92f872e31b99faa08a11511c.jpg",
+          "https://i.pinimg.com/736x/bb/d8/c6/bbd8c64e3f698bc343139f7116a023d1.jpg",
+          "https://i.pinimg.com/736x/0a/65/86/0a658657010b6733e17981bcaa6d616d.jpg",
+          "https://i.pinimg.com/736x/49/2f/7a/492f7a8e9554dcf7866ce90fec2c9d65.jpg",
+          "https://i.pinimg.com/736x/fa/f5/31/faf5318bfe788215718782f1286c3abd.jpg",
+          "https://i.pinimg.com/736x/61/8d/84/618d84b8f325fe724aa5047488d6e863.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap;padding:40px;background:linear-gradient(160deg,#bcd4f0,#7d9bc4);font-family:'Arial Black',sans-serif\">\n    <div style=\"font:800 26px 'Arial Black',sans-serif;background:linear-gradient(#ffffff,#b8c6da 45%,#6f8bb0 55%,#dfe9f5);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 1px 1px rgba(255,255,255,.5)\">Y2K</div>\n    <div style=\"width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#aac4e6 42%,#5a7fb0)\"></div>\n    <div style=\"width:52px;height:52px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#d6b8e6 42%,#9a6fb0)\"></div>\n  </div>"
+    }
+  },
+  {
+    "id": "skeuomorphism",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "스큐어모피즘",
+    "titleEn": "Skeuomorphism",
+    "origin": "미국 실리콘밸리",
+    "period": "2001–2013",
+    "field": "디자인 양식",
+    "oneLiner": "화면 속 가죽과 유리 — 현실을 흉내 내 디지털을 가르치다.",
+    "credibility": "established",
+    "keywords": [
+      "미국 실리콘밸리",
+      "스콧 포스톨",
+      "스티브 잡스",
+      "수전 케어",
+      "현실 질감의 모사(가죽·종이·금속)",
+      "글로시 하이라이트와 리얼 그림자",
+      "입체 버튼·엠보스"
+    ],
+    "related": [
+      "flat-design",
+      "y2k"
+    ],
+    "detail": {
+      "desc": "디지털 인터페이스가 낯설던 시절, 현실 사물의 질감과 형태를 그대로 모사해 사용법을 직관적으로 만든 UI 양식. 초기 Mac OS X의 아쿠아 버튼에서 iOS 6의 가죽 스티치 캘린더·녹색 펠트 게임 테이블로 정점을 찍고, 2013년 iOS 7의 플랫 전환과 함께 막을 내렸다.",
+      "traits": [
+        "현실 질감의 모사(가죽·종이·금속)",
+        "글로시 하이라이트와 리얼 그림자",
+        "입체 버튼·엠보스",
+        "학습 비용을 낮추는 시각적 은유",
+        "디테일 과잉"
+      ],
+      "palette": [
+        {
+          "hex": "#6E4A2F",
+          "name": "새들 가죽"
+        },
+        {
+          "hex": "#3D7A4E",
+          "name": "펠트 그린"
+        },
+        {
+          "hex": "#4A90D9",
+          "name": "아쿠아 글로스"
+        },
+        {
+          "hex": "#C9CDD6",
+          "name": "린넨 그레이"
+        },
+        {
+          "hex": "#F4F1EA",
+          "name": "페이퍼"
+        }
+      ],
+      "typo": "질감 위에 얹히는 친근한 서체 — 메모장 손글씨, 마커 펠트, 그리고 어디에나 Helvetica Neue.",
+      "fonts": [
+        {
+          "name": "Lobster",
+          "css": "'Lobster', cursive",
+          "note": "웹 2.0 시대의 아이콘"
+        },
+        {
+          "name": "Caveat",
+          "css": "'Caveat', cursive",
+          "note": "메모 앱 손글씨"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica Neue",
+        "Marker Felt",
+        "Noteworthy"
+      ],
+      "sampleText": "Notes & Leather",
+      "motifs": [
+        "가죽 스티치 헤더",
+        "린넨·종이 텍스처",
+        "유리 광택 버튼",
+        "찢긴 종이 모서리",
+        "리얼 그림자"
+      ],
+      "motifDesc": "바느질 자국이 있는 가죽 바, 한 장씩 찢어 쓴 메모지, 위쪽 절반에 흰 광택이 흐르는 유리 버튼 — 픽셀로 현실의 재질감을 재연하는 일러스트레이션이 UI 전체를 덮는다.",
+      "figures": [
+        "스콧 포스톨",
+        "스티브 잡스",
+        "수전 케어"
+      ],
+      "figurePortraits": {
+        "스콧 포스톨": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Forstall.jpg?width=400",
+        "스티브 잡스": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Jobs%20Headshot%202010%20(cropped%204).jpg?width=400",
+        "수전 케어": "https://commons.wikimedia.org/wiki/Special:FilePath/SusanKare2019photo.jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": {
+        "q": "skeuomorphism ui design",
+        "images": [
+          "https://i.pinimg.com/736x/72/6c/21/726c2123c11f274d694ed6c99a001f65.jpg",
+          "https://i.pinimg.com/736x/e4/65/10/e4651050825d7f7a85137d09060e0799.jpg",
+          "https://i.pinimg.com/736x/41/44/f5/4144f57b48d0b202de6675b6b4799050.jpg",
+          "https://i.pinimg.com/736x/51/c7/fb/51c7fbabd996c949b2634a6a31cbd36b.jpg",
+          "https://i.pinimg.com/736x/b2/8f/0c/b28f0cddf673e479608725324edf48ed.jpg",
+          "https://i.pinimg.com/736x/d9/22/3c/d9223cbce38b8f8d2610d84750bbeb72.jpg",
+          "https://i.pinimg.com/736x/f7/ae/04/f7ae04222c98169b74f4377b1852c7ca.jpg",
+          "https://i.pinimg.com/736x/21/35/12/213512b880281be3faf5df49d25ddaf6.jpg",
+          "https://i.pinimg.com/736x/5c/ec/3f/5cec3fe4f10de93dacddc41a3ccbe14d.jpg",
+          "https://i.pinimg.com/736x/9d/5d/2f/9d5d2f84788ef3a4880a2686f2f96179.jpg",
+          "https://i.pinimg.com/736x/d4/be/c1/d4bec1279f1f89105864b585d5e07af8.jpg",
+          "https://i.pinimg.com/736x/ed/79/a9/ed79a93370a637053973785baa5b6412.jpg",
+          "https://i.pinimg.com/736x/df/5f/42/df5f4248bf0d3ecb725022157b55e736.jpg",
+          "https://i.pinimg.com/736x/20/6b/f9/206bf91ea6ef000b4bfb5bf5b66ef16a.jpg",
+          "https://i.pinimg.com/736x/09/b1/74/09b174e6cf51ff7bb91c4762d0cadba9.jpg",
+          "https://i.pinimg.com/736x/ec/e5/69/ece569d7e49b274dda52f350c7729765.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;padding:38px;background:linear-gradient(#efe9df,#d8d0c0);font-family:sans-serif\">\n    <button style=\"font:600 14px sans-serif;color:#4a3b2a;padding:12px 22px;border-radius:10px;background:linear-gradient(#fdfaf3,#dccfb6);border:1px solid #b3a585;box-shadow:0 2px 3px rgba(0,0,0,.3),inset 0 1px 0 #fff;cursor:default\">눌러보기</button>\n    <div style=\"width:56px;height:56px;border-radius:13px;background:linear-gradient(#7fb2e6,#2f6fb0);box-shadow:0 3px 6px rgba(0,0,0,.4),inset 0 1px 2px rgba(255,255,255,.65)\"></div>\n    <div style=\"width:120px;height:34px;border-radius:18px;background:linear-gradient(#cfcabd,#efe9df);box-shadow:inset 0 2px 4px rgba(0,0,0,.3);position:relative\"><span style=\"position:absolute;top:2px;left:2px;width:30px;height:30px;border-radius:50%;background:linear-gradient(#fff,#d6cdbb);box-shadow:0 1px 2px rgba(0,0,0,.4)\"></span></div>\n  </div>"
+    }
+  },
+  {
+    "id": "flat-design",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "플랫 디자인",
+    "titleEn": "Flat Design",
+    "origin": "세계 (디지털)",
+    "period": "2010–현재",
+    "field": "디자인 양식",
+    "oneLiner": "질감을 지운 인터페이스 — 색, 타이포, 기하학만 남다.",
+    "credibility": "established",
+    "keywords": [
+      "세계 (디지털)",
+      "마티아스 두아르테",
+      "조너선 아이브",
+      "MS 메트로 팀",
+      "단색 면·미니멀 아이콘",
+      "질감과 광택의 제거",
+      "타이포그래피 중심 위계"
+    ],
+    "related": [
+      "skeuomorphism",
+      "swiss",
+      "minimalism"
+    ],
+    "detail": {
+      "desc": "스큐어모피즘의 장식 과잉에 대한 반동으로 MS 메트로(2010), iOS 7(2013), 구글 머티리얼(2014)이 연이어 채택한 디지털 양식. 그림자와 질감을 걷어내고 단색 면, 명확한 타이포그래피 위계, 기하학 아이콘으로 콘텐츠 자체를 드러낸다. 스위스 스타일의 디지털 환생.",
+      "traits": [
+        "단색 면·미니멀 아이콘",
+        "질감과 광택의 제거",
+        "타이포그래피 중심 위계",
+        "밝은 고채도 팔레트",
+        "그리드·카드 레이아웃"
+      ],
+      "palette": [
+        {
+          "hex": "#3498DB",
+          "name": "피터 리버"
+        },
+        {
+          "hex": "#E74C3C",
+          "name": "알리자린"
+        },
+        {
+          "hex": "#2ECC71",
+          "name": "에메랄드"
+        },
+        {
+          "hex": "#F1C40F",
+          "name": "선플라워"
+        },
+        {
+          "hex": "#2C3E50",
+          "name": "미드나이트 블루"
+        }
+      ],
+      "typo": "시스템 서체의 시대 — Segoe·San Francisco·Roboto. 크기와 굵기의 위계만으로 화면을 조직한다.",
+      "fonts": [
+        {
+          "name": "Roboto",
+          "css": "'Roboto', sans-serif",
+          "note": "구글 머티리얼 표준"
+        },
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "현대 UI 산세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Segoe UI(메트로)",
+        "San Francisco(iOS)",
+        "Roboto(머티리얼)"
+      ],
+      "sampleText": "Content First",
+      "motifs": [
+        "단색 카드 그리드",
+        "롱 섀도 아이콘",
+        "라인 아이콘",
+        "고스트 버튼",
+        "머티리얼 컬러 블록"
+      ],
+      "motifDesc": "타일처럼 깔리는 단색 카드와 45도 롱 섀도, 외곽선만 남긴 라인 아이콘이 전형. 장식이 사라진 자리를 선명한 색 대비와 일관된 그리드가 채운다.",
+      "figures": [
+        "마티아스 두아르테",
+        "조너선 아이브",
+        "MS 메트로 팀"
+      ],
+      "figurePortraits": {
+        "조너선 아이브": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Ive%20(OTRS).jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": {
+        "q": "flat design illustration ui",
+        "images": [
+          "https://i.pinimg.com/736x/12/8a/82/128a825f77d5d4fd13a2abe28c89e19a.jpg",
+          "https://i.pinimg.com/736x/36/b3/d2/36b3d261ebea8173f0c84ea634fce4d2.jpg",
+          "https://i.pinimg.com/736x/46/e9/88/46e9889fb3d801bc877001812fc871f0.jpg",
+          "https://i.pinimg.com/736x/c0/a1/d3/c0a1d31f4ab51e7ad03b983d6fdb8b32.jpg",
+          "https://i.pinimg.com/736x/91/2d/fc/912dfc04d9a23785a396a29f9e982ce3.jpg",
+          "https://i.pinimg.com/736x/c0/ed/12/c0ed12b48810b5fdc5a8241c2a2fc305.jpg",
+          "https://i.pinimg.com/736x/fe/d3/31/fed3319a5b9f057e16d4f4f7f4c4cfa0.jpg",
+          "https://i.pinimg.com/736x/06/bb/40/06bb406562d96c851a85e8ae8a4f1cae.jpg",
+          "https://i.pinimg.com/736x/74/0a/b5/740ab5a9ee7ee351584ff25906c7f181.jpg",
+          "https://i.pinimg.com/736x/d8/5b/d8/d85bd8d7a7c6ab396150da619aebc94f.jpg",
+          "https://i.pinimg.com/736x/be/a7/82/bea782dede465af25bd93dad7c16523d.jpg",
+          "https://i.pinimg.com/736x/00/60/1e/00601e565109f3dea52df69e513372d8.jpg",
+          "https://i.pinimg.com/736x/6e/58/17/6e58176f7041828f71d4ae7e01e28dec.jpg",
+          "https://i.pinimg.com/736x/1d/85/b5/1d85b565ed5bb43db0493868b460184b.jpg",
+          "https://i.pinimg.com/736x/62/cb/fe/62cbfe3736535279a47222e14013fa31.jpg",
+          "https://i.pinimg.com/736x/59/cf/32/59cf32dffa681496c27dda6263d20ecb.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;padding:42px;background:#ecf0f1;font-family:sans-serif\">\n    <button style=\"font:600 14px sans-serif;color:#fff;padding:13px 26px;background:#1abc9c;border:none;cursor:default\">버튼</button>\n    <div style=\"width:54px;height:54px;background:#e74c3c\"></div>\n    <div style=\"width:54px;height:54px;background:#3498db;border-radius:50%\"></div>\n    <div style=\"width:54px;height:54px;background:#f1c40f\"></div>\n  </div>"
+    }
+  },
+  {
+    "id": "vaporwave",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "베이퍼웨이브",
+    "titleEn": "Vaporwave",
+    "origin": "인터넷",
+    "period": "2011–현재",
+    "field": "디자인 양식",
+    "oneLiner": "쇼핑몰 BGM과 그리스 조각의 만남 — 인터넷이 낳은 첫 향수.",
+    "credibility": "established",
+    "keywords": [
+      "인터넷",
+      "Vektroid",
+      "제임스 페라로",
+      "다니엘 로파틴",
+      "핑크–시안 석양 그라데이션",
+      "그리스·로마 흉상의 차용",
+      "일본어 가타카나 텍스트"
+    ],
+    "related": [
+      "y2k",
+      "psychedelic",
+      "memphis"
+    ],
+    "detail": {
+      "desc": "2010년대 초 인터넷 음악·아트 신에서 태어난 미감. 80–90년대 소비문화(쇼핑몰, 광고, 윈도우 95)의 이미지를 슬로모션으로 재생하듯 차용해 그리스 조각, 일본어 텍스트, 체크 격자, 석양 그라데이션과 콜라주한다. Y2K가 미래를 향한 낙관이라면 베이퍼웨이브는 과거를 향한 아이러니한 향수다.",
+      "traits": [
+        "핑크–시안 석양 그라데이션",
+        "그리스·로마 흉상의 차용",
+        "일본어 가타카나 텍스트",
+        "윈도우 95·구식 UI 콜라주",
+        "VHS 노이즈와 슬로모션 감성"
+      ],
+      "palette": [
+        {
+          "hex": "#FF71CE",
+          "name": "네온 핑크"
+        },
+        {
+          "hex": "#01CDFE",
+          "name": "시안"
+        },
+        {
+          "hex": "#05FFA1",
+          "name": "민트"
+        },
+        {
+          "hex": "#B967FF",
+          "name": "퍼플"
+        },
+        {
+          "hex": "#FFFB96",
+          "name": "페일 옐로"
+        }
+      ],
+      "typo": "시스템 세리프(Times)와 일본어 고딕, 픽셀 폰트가 무심하게 뒤섞인다. 전각 영문(ＡＥＳＴＨＥＴＩＣ)이 상징.",
+      "fonts": [
+        {
+          "name": "VT323",
+          "css": "'VT323', monospace",
+          "note": "터미널 픽셀"
+        },
+        {
+          "name": "DotGothic16",
+          "css": "'DotGothic16', sans-serif",
+          "note": "일본어 도트 고딕"
+        }
+      ],
+      "realTypefaces": [
+        "Times New Roman",
+        "MS Gothic",
+        "Arial(윈도우 기본)"
+      ],
+      "sampleText": "AESTHETIC 1995",
+      "motifs": [
+        "그리스·로마 흉상",
+        "체크 격자 바닥",
+        "야자수와 석양",
+        "윈도우 95 창",
+        "VHS 글리치"
+      ],
+      "motifDesc": "헬리오스 흉상과 체크 격자, 석양 그라데이션 위로 윈도우 95 대화상자와 일본어 텍스트가 떠다닌다. 모든 이미지가 한 번 압축이 깨진 듯한 저해상도 질감을 공유한다.",
+      "figures": [
+        "Vektroid",
+        "제임스 페라로",
+        "다니엘 로파틴"
+      ],
+      "figurePortraits": {
+        "다니엘 로파틴": "https://commons.wikimedia.org/wiki/Special:FilePath/ONEOHTRIX%20POINT%20NEVER%20(cropped).jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": {
+        "q": "vaporwave aesthetic",
+        "images": [
+          "https://i.pinimg.com/736x/50/c3/43/50c3433695140ff7f10a656442adb47c.jpg",
+          "https://i.pinimg.com/736x/8f/34/9a/8f349aa2a6b81b0a53a1e186a4177397.jpg",
+          "https://i.pinimg.com/736x/d6/09/89/d60989bc981c784b058342c0603de677.jpg",
+          "https://i.pinimg.com/736x/ce/5a/d7/ce5ad7bed8772675dd4578f935179d99.jpg",
+          "https://i.pinimg.com/736x/ef/c5/82/efc5825c1fcd1dab3e228a1897ac140f.jpg",
+          "https://i.pinimg.com/736x/1b/72/10/1b7210fdd0719fd1945aa4d45fcb8c4c.jpg",
+          "https://i.pinimg.com/736x/31/76/c4/3176c40c9997a0459e71908213f181b1.jpg",
+          "https://i.pinimg.com/736x/9d/cf/ad/9dcfade6c3f1a9d2e903aaed7b8144fa.jpg",
+          "https://i.pinimg.com/736x/72/5a/48/725a48395e56bd7a88fcaf9da3090c1c.jpg",
+          "https://i.pinimg.com/736x/e1/dc/61/e1dc61f60238653a30723fae77e2c3e7.jpg",
+          "https://i.pinimg.com/736x/08/66/e9/0866e9ae4fc573228b9f35c076c5f4f3.jpg",
+          "https://i.pinimg.com/736x/d2/e4/ce/d2e4ce18897c4dd3e64dcce6b9bb8877.jpg",
+          "https://i.pinimg.com/736x/49/69/8e/49698e9bd96acd13ff2ee7b9d296be33.jpg",
+          "https://i.pinimg.com/736x/db/22/d8/db22d833889faffb9489a65eeab8a119.jpg",
+          "https://i.pinimg.com/736x/0d/c2/20/0dc2205e2b06473e7c1c4c28ad5a13f3.jpg",
+          "https://i.pinimg.com/736x/d0/5c/a5/d05ca5dfb5bd6abc9959448ab2682697.jpg"
+        ]
+      },
+      "demo": "<div style=\"position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:48px 40px;background:linear-gradient(#2b1055,#7b2f9e 60%,#ff6ad5);font-family:sans-serif\">\n    <div style=\"position:absolute;left:0;right:0;bottom:0;height:46%;background:repeating-linear-gradient(90deg,transparent 0 22px,rgba(1,205,254,.5) 22px 23px),repeating-linear-gradient(0deg,transparent 0 16px,rgba(1,205,254,.5) 16px 17px);transform:perspective(120px) rotateX(58deg);transform-origin:bottom\"></div>\n    <div style=\"position:relative;font:800 26px Arial,sans-serif;color:#ff71ce;text-shadow:2px 2px #01cdfe;letter-spacing:3px\">VAPOR</div>\n  </div>"
+    }
+  },
+  {
+    "id": "neumorphism",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "뉴모피즘",
+    "titleEn": "Neumorphism",
+    "origin": "드리블 (인터넷)",
+    "period": "2019–2021",
+    "field": "디자인 양식",
+    "oneLiner": "배경에서 빚어낸 버튼 — 빛과 그림자만으로 만드는 부드러운 양각.",
+    "credibility": "established",
+    "keywords": [
+      "드리블 (인터넷)",
+      "알렉산더 플류토",
+      "미할 말레비치",
+      "배경과 동일한 요소 색",
+      "명·암 이중 그림자",
+      "낮은 대비의 부드러운 화면"
+    ],
+    "related": [
+      "skeuomorphism",
+      "minimalism",
+      "glassmorphism"
+    ],
+    "detail": {
+      "desc": "2019년 말 드리블에서 폭발한 소프트 UI 트렌드. 배경과 같은 색의 요소에 밝은 그림자와 어두운 그림자 한 쌍을 드리워 실리콘 버튼처럼 눌러 찍거나 돋을새김한다. 스큐어모피즘의 물성을 미니멀리즘의 어휘로 재해석했지만, 낮은 대비 탓에 접근성 논쟁을 낳고 짧게 저물었다.",
+      "traits": [
+        "배경과 동일한 요소 색",
+        "명·암 이중 그림자",
+        "낮은 대비의 부드러운 화면",
+        "큰 라운드 모서리",
+        "촉각적 양각·음각 버튼"
+      ],
+      "palette": [
+        {
+          "hex": "#E0E5EC",
+          "name": "소프트 그레이"
+        },
+        {
+          "hex": "#F5F8FC",
+          "name": "하이라이트"
+        },
+        {
+          "hex": "#A3B1C6",
+          "name": "섀도 블루그레이"
+        },
+        {
+          "hex": "#7B8BA5",
+          "name": "딥 섀도"
+        },
+        {
+          "hex": "#5B7FFF",
+          "name": "소프트 블루"
+        }
+      ],
+      "typo": "둥근 지오메트릭 산세리프가 부드러운 표면과 한 몸처럼 어울린다.",
+      "fonts": [
+        {
+          "name": "Poppins",
+          "css": "'Poppins', sans-serif",
+          "note": "라운드 지오메트릭"
+        },
+        {
+          "name": "Quicksand",
+          "css": "'Quicksand', sans-serif",
+          "note": "소프트 라운드"
+        }
+      ],
+      "realTypefaces": [
+        "SF Pro Rounded",
+        "Gilroy",
+        "Proxima Soft"
+      ],
+      "sampleText": "Soft Touch UI",
+      "motifs": [
+        "양각 카드",
+        "음각 입력창",
+        "동일 색调 모노톤",
+        "둥근 슬라이더·노브",
+        "미세한 명암 경계"
+      ],
+      "motifDesc": "화면 전체가 한 장의 실리콘 패드처럼 보인다. 요소의 경계는 선이 아니라 빛 — 좌상단의 흰 하이라이트와 우하단의 푸른 그림자가 쌍으로 형태를 빚는다.",
+      "figures": [
+        "알렉산더 플류토",
+        "미할 말레비치"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": {
+        "q": "neumorphism ui",
+        "images": [
+          "https://i.pinimg.com/736x/43/36/3b/43363b4379eed8be50b65b7e515abee5.jpg",
+          "https://i.pinimg.com/736x/51/c7/fb/51c7fbabd996c949b2634a6a31cbd36b.jpg",
+          "https://i.pinimg.com/736x/c5/ce/15/c5ce15b16aec1551c6d19dea7fc02ca8.jpg",
+          "https://i.pinimg.com/736x/b2/8a/05/b28a0548150f415f9911f44d9f3667e3.jpg",
+          "https://i.pinimg.com/736x/78/33/84/783384a1ee8fb27f34043749fa8ae539.jpg",
+          "https://i.pinimg.com/736x/7f/66/36/7f66366daaa512fc17655e31311b7819.jpg",
+          "https://i.pinimg.com/736x/e5/b5/3f/e5b53f193bba32d1ccc084ad74143533.jpg",
+          "https://i.pinimg.com/736x/38/b2/9f/38b29fbbc56aa95f8825d539a8292da5.jpg",
+          "https://i.pinimg.com/736x/dc/43/96/dc4396b3dcd947f5a33d559b0c817756.jpg",
+          "https://i.pinimg.com/736x/3d/66/f4/3d66f45618d46293d3ef4b2fc9f9b4c4.jpg",
+          "https://i.pinimg.com/736x/30/a0/a7/30a0a7265de4edf62edf3231545490c7.jpg",
+          "https://i.pinimg.com/736x/81/6a/7b/816a7b24a39f6fcbf5851a7010ec710c.jpg",
+          "https://i.pinimg.com/736x/d0/a4/8d/d0a48db439312d9c3c371350077b2fc1.jpg",
+          "https://i.pinimg.com/736x/d5/e7/36/d5e736ebeabc627be4b798a4a8035cd5.jpg",
+          "https://i.pinimg.com/736x/72/53/49/725349067dab40f785e1fa376f2e4ef8.jpg",
+          "https://i.pinimg.com/736x/93/90/b0/9390b03620c33ef4db7fbd5365273d1b.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;gap:22px;align-items:center;justify-content:center;flex-wrap:wrap;padding:46px;background:#e0e5ec;font-family:sans-serif\">\n    <button style=\"font:600 14px sans-serif;color:#5b6478;padding:15px 26px;border:none;border-radius:15px;background:#e0e5ec;box-shadow:6px 6px 12px #bcc3cf,-6px -6px 12px #ffffff;cursor:default\">버튼</button>\n    <div style=\"width:58px;height:58px;border-radius:50%;background:#e0e5ec;box-shadow:inset 5px 5px 10px #bcc3cf,inset -5px -5px 10px #fff\"></div>\n    <div style=\"width:58px;height:58px;border-radius:16px;background:#e0e5ec;box-shadow:5px 5px 10px #bcc3cf,-5px -5px 10px #fff\"></div>\n  </div>"
+    }
+  },
+  {
+    "id": "glassmorphism",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "글래스모피즘",
+    "titleEn": "Glassmorphism",
+    "origin": "미국 (애플·MS)",
+    "period": "2020–현재",
+    "field": "디자인 양식",
+    "oneLiner": "반투명 유리판의 UI — 흐림과 깊이로 위계를 만든다.",
+    "credibility": "established",
+    "keywords": [
+      "미국 (애플·MS)",
+      "앨런 다이",
+      "Fluent Design System",
+      "Liquid Glass",
+      "반투명 backdrop blur 패널",
+      "1px 라이트 보더",
+      "레이어 간 깊이감"
+    ],
+    "related": [
+      "flat-design",
+      "neumorphism",
+      "skeuomorphism"
+    ],
+    "detail": {
+      "desc": "윈도우 10 플루언트의 아크릴(2017)에서 싹터 macOS Big Sur(2020)와 iOS 컨트롤 센터로 대중화된 양식. 배경을 비추는 반투명 블러 패널과 얇은 흰 테두리, 떠 있는 레이어로 깊이를 표현한다. 2025년 애플의 리퀴드 글래스(Liquid Glass)로 다시 디자인 담론의 중심에 섰다.",
+      "traits": [
+        "반투명 backdrop blur 패널",
+        "1px 라이트 보더",
+        "레이어 간 깊이감",
+        "선명한 컬러 그라데이션 배경",
+        "떠 있는 유리 카드"
+      ],
+      "palette": [
+        {
+          "hex": "#F2F6FF",
+          "name": "글래스 화이트"
+        },
+        {
+          "hex": "#BFD4F2",
+          "name": "프로스트"
+        },
+        {
+          "hex": "#7FA8E8",
+          "name": "스카이"
+        },
+        {
+          "hex": "#5B5BD6",
+          "name": "바이올렛 블루"
+        },
+        {
+          "hex": "#1B1F3B",
+          "name": "딥 네이비"
+        }
+      ],
+      "typo": "유리 위의 글자는 무게를 덜어낸다 — 밝은 배경·어두운 배경 모두에서 읽히는 뉴트럴 산세리프.",
+      "fonts": [
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "현대 UI 표준"
+        },
+        {
+          "name": "Space Grotesk",
+          "css": "'Space Grotesk', sans-serif",
+          "note": "테크 그로테스크"
+        }
+      ],
+      "realTypefaces": [
+        "SF Pro",
+        "Segoe UI Variable",
+        "Helvetica Now"
+      ],
+      "sampleText": "Through the Glass",
+      "motifs": [
+        "프로스티드 패널",
+        "유리 카드 스택",
+        "비비드 그라데이션 배경",
+        "빛 번짐·하이라이트",
+        "얇은 흰 테두리"
+      ],
+      "motifDesc": "선명한 그라데이션 배경 위에 흐려진 유리판이 층층이 떠 있다. 패널 너머로 비치는 색이 곧 장식이며, 모서리의 가는 흰 선이 유리의 두께를 암시한다.",
+      "figures": [
+        "앨런 다이",
+        "Fluent Design System",
+        "Liquid Glass"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": {
+        "q": "glassmorphism ui",
+        "images": [
+          "https://i.pinimg.com/736x/dc/e4/f0/dce4f06ab46a682631c80f304c401b83.jpg",
+          "https://i.pinimg.com/736x/68/8a/2a/688a2a63718e11e3a7144c103041f742.jpg",
+          "https://i.pinimg.com/736x/16/e0/92/16e092edfbf8d21f1d9e5ce58fa6e3a2.jpg",
+          "https://i.pinimg.com/736x/90/09/4d/90094d9d58e79bb0e3ee43c4212f0486.jpg",
+          "https://i.pinimg.com/736x/08/90/3a/08903a348a2f655c26faaaca234ad6dc.jpg",
+          "https://i.pinimg.com/736x/ff/9e/32/ff9e329c517d5f066b2ab9e8d6b9a8a9.jpg",
+          "https://i.pinimg.com/736x/af/ab/4c/afab4c1850fcdae55e04de2e5ca90757.jpg",
+          "https://i.pinimg.com/736x/88/46/6f/88466f0c5d6005d2d90712bade3d69da.jpg",
+          "https://i.pinimg.com/736x/7b/e0/3f/7be03f6d2e165de674d4a581bdf16971.jpg",
+          "https://i.pinimg.com/736x/be/91/ef/be91ef81e45a04c2e467e2f006790c95.jpg",
+          "https://i.pinimg.com/736x/09/2e/f8/092ef81dcdd69a1f393e22f845d7092e.jpg",
+          "https://i.pinimg.com/736x/4b/62/c8/4b62c8bb3c498bd3109ff3ec8912940d.jpg",
+          "https://i.pinimg.com/736x/dc/33/97/dc3397c7dcab0a1e7e60f76e2ecdf28d.jpg",
+          "https://i.pinimg.com/736x/54/13/6b/54136b25db39e48f9f70b7b21308a48b.jpg",
+          "https://i.pinimg.com/736x/4e/20/e7/4e20e7bfc388d9a5b419e87fb8664d60.jpg",
+          "https://i.pinimg.com/736x/2a/10/99/2a1099ee2b34a294decdd16ccd9fad24.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:44px;background:linear-gradient(135deg,#ff9a9e,#a18cd1 55%,#5ee7df);font-family:sans-serif\">\n    <div style=\"padding:22px 30px;border-radius:18px;background:rgba(255,255,255,.18);-webkit-backdrop-filter:blur(9px);backdrop-filter:blur(9px);border:1px solid rgba(255,255,255,.45);box-shadow:0 8px 32px rgba(31,38,135,.2);color:#fff\">\n      <div style=\"font:600 16px sans-serif\">Glassmorphism</div>\n      <div style=\"font:400 12px sans-serif;opacity:.9;margin-top:5px\">반투명 · 블러 · 빛 통과</div>\n    </div>\n  </div>"
+    }
+  },
+  {
+    "id": "neo-brutalism",
+    "domain": "art-movement",
+    "category": "pomo",
+    "categoryLabel": "포스트모던·디지털 1975–",
+    "title": "네오 브루탈리즘",
+    "titleEn": "Neubrutalism",
+    "origin": "웹 (Figma·Gumroad)",
+    "period": "2020–현재",
+    "field": "디자인 양식",
+    "oneLiner": "두꺼운 검정 보더와 날것의 원색 — 매끈함에 질린 웹의 반항.",
+    "credibility": "established",
+    "keywords": [
+      "웹 (Figma·Gumroad)",
+      "사힐 라빈지아",
+      "Figma",
+      "두꺼운 검정 보더",
+      "오프셋 하드 섀도(블러 0)",
+      "고채도 원색 블록"
+    ],
+    "related": [
+      "brutalism",
+      "memphis",
+      "flat-design"
+    ],
+    "detail": {
+      "desc": "2020년대 Gumroad, Figma 커뮤니티가 퍼뜨린 웹 트렌드. 브루탈리즘의 정직함을 팝 컬러로 번역해 두꺼운 검정 아웃라인, 오프셋 하드 섀도, 고채도 원색 블록, 의도적으로 어긋난 배치를 쓴다. 모두가 비슷해진 SaaS 디자인 표준화에 대한 반작용.",
+      "traits": [
+        "두꺼운 검정 보더",
+        "오프셋 하드 섀도(블러 0)",
+        "고채도 원색 블록",
+        "어긋난 그리드·스티커 감성",
+        "모노스페이스·시스템 폰트"
+      ],
+      "palette": [
+        {
+          "hex": "#FF90E8",
+          "name": "검로드 핑크"
+        },
+        {
+          "hex": "#FFC900",
+          "name": "하이라이터 옐로"
+        },
+        {
+          "hex": "#23A094",
+          "name": "틸 그린"
+        },
+        {
+          "hex": "#90A8ED",
+          "name": "페리윙클"
+        },
+        {
+          "hex": "#000000",
+          "name": "아웃라인 블랙"
+        }
+      ],
+      "typo": "두껍고 솔직한 그로테스크 + 모노스페이스. 글자에도 검정 테두리와 하드 섀도를 입힌다.",
+      "fonts": [
+        {
+          "name": "Archivo Black",
+          "css": "'Archivo Black', sans-serif",
+          "note": "헤비 그로테스크"
+        },
+        {
+          "name": "Space Grotesk",
+          "css": "'Space Grotesk', sans-serif",
+          "note": "기하 그로테스크"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica Bold",
+        "Neue Machina",
+        "JetBrains Mono"
+      ],
+      "sampleText": "RAW & HONEST",
+      "motifs": [
+        "검정 테두리 카드",
+        "오프셋 섀도",
+        "스티커·뱃지",
+        "마키 텍스트",
+        "일부러 어긋난 정렬"
+      ],
+      "motifDesc": "흰 카드가 4px 검정 보더를 두르고 검정 그림자를 오른쪽 아래로 밀어낸다. 핑크·노랑 원색 블록과 스티커처럼 붙은 뱃지가 화면을 명랑하게 어지럽힌다.",
+      "figures": [
+        "사힐 라빈지아",
+        "Figma"
+      ],
+      "figurePortraits": {
+        "사힐 라빈지아": "https://commons.wikimedia.org/wiki/Special:FilePath/Sahil%20Lavingia.png?width=400"
+      },
+      "artworks": [],
+      "gallery": {
+        "q": "neubrutalism web design",
+        "images": [
+          "https://i.pinimg.com/736x/15/51/50/155150c0367134d801a6c1aa4498d6d2.jpg",
+          "https://i.pinimg.com/736x/1b/6d/0b/1b6d0bd24516c381bcc85ef0b0ff3609.jpg",
+          "https://i.pinimg.com/736x/58/be/cb/58becb77fba3ad213ac73688b1f9c38b.jpg",
+          "https://i.pinimg.com/736x/5d/bd/7a/5dbd7a2f69710fa0736e17a6dee4af51.jpg",
+          "https://i.pinimg.com/736x/1c/2f/b0/1c2fb00a82a764bab2f4374d03f67886.jpg",
+          "https://i.pinimg.com/736x/1c/bc/6e/1cbc6ea7a1ae86e1d88ecb09f5bb916e.jpg",
+          "https://i.pinimg.com/736x/87/af/a6/87afa63f60e63b2f313c35fe31394edb.jpg",
+          "https://i.pinimg.com/736x/1c/a7/c5/1ca7c5b817db9df9a491cb58d44b6b81.jpg",
+          "https://i.pinimg.com/736x/b3/39/1a/b3391a0edc335af12d2f6470ab19053c.jpg",
+          "https://i.pinimg.com/736x/2d/b9/77/2db9778c86a328e7139b75cdf8875ea0.jpg",
+          "https://i.pinimg.com/736x/15/25/f0/1525f0e969173ab5abecb22e89a8cb7c.jpg",
+          "https://i.pinimg.com/736x/44/cb/61/44cb618d51bc57aba2ffc8c8a790378d.jpg",
+          "https://i.pinimg.com/736x/2f/f6/c1/2ff6c1ba3a1988e18e1680ee9094b8bf.jpg",
+          "https://i.pinimg.com/736x/f4/39/f2/f439f25178da78f231b48b77851caf37.jpg",
+          "https://i.pinimg.com/736x/39/f2/4c/39f24c568debead95342f7e3f48a80cb.jpg",
+          "https://i.pinimg.com/736x/dd/42/59/dd42593b2dfd3f49dd9549b7cda00953.jpg"
+        ]
+      },
+      "demo": "<div style=\"display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap;padding:40px;background:#fde047;font-family:sans-serif\">\n    <button style=\"font:700 14px sans-serif;color:#000;padding:13px 22px;background:#fff;border:3px solid #000;box-shadow:5px 5px 0 #000;cursor:default\">버튼</button>\n    <div style=\"width:54px;height:54px;background:#4ade80;border:3px solid #000;box-shadow:5px 5px 0 #000\"></div>\n    <div style=\"font:700 16px sans-serif;color:#000;background:#f472b6;border:3px solid #000;box-shadow:5px 5px 0 #000;padding:12px 16px\">A!</div>\n  </div>"
+    }
+  }
+]

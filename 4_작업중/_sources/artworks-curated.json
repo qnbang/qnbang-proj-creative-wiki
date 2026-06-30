@@ -1,0 +1,97 @@
+{
+  "renaissance": [
+    {"title_ko":"모나리자","title_en":"Mona Lisa","artist":"레오나르도 다 빈치","year":"1503","commonsFile":"Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg"},
+    {"title_ko":"아테네 학당","title_en":"The School of Athens","artist":"라파엘로","year":"1511","commonsFile":"Raphael School of Athens.jpg"}
+  ],
+  "baroque": [
+    {"title_ko":"야경","title_en":"The Night Watch","artist":"렘브란트","year":"1642","commonsFile":"The Nightwatch by Rembrandt - Rijksmuseum.jpg"},
+    {"title_ko":"성 마태오를 부르심","title_en":"The Calling of Saint Matthew","artist":"카라바조","year":"1600","commonsFile":"The Calling of Saint Matthew-Caravaggo (1599-1600).jpg"}
+  ],
+  "rococo": [
+    {"title_ko":"그네","title_en":"The Swing","artist":"장오노레 프라고나르","year":"1767","commonsFile":"Fragonard, The Swing.jpg"},
+    {"title_ko":"키테라 섬으로의 순례","title_en":"Pilgrimage to Cythera","artist":"앙투안 바토","year":"1718","commonsFile":"Antoine Watteau - Pilgrimage to Cythera - WGA25454.jpg"}
+  ],
+  "neoclassicism": [
+    {"title_ko":"마라의 죽음","title_en":"The Death of Marat","artist":"자크루이 다비드","year":"1793","commonsFile":"Death of Marat by David.jpg"},
+    {"title_ko":"그랑드 오달리스크","title_en":"La Grande Odalisque","artist":"앵그르","year":"1814","commonsFile":"Jean Auguste Dominique Ingres, La Grande Odalisque, 1814.jpg"}
+  ],
+  "romanticism": [
+    {"title_ko":"민중을 이끄는 자유의 여신","title_en":"Liberty Leading the People","artist":"외젠 들라크루아","year":"1830","commonsFile":"Eugène Delacroix - Le 28 Juillet. La Liberté guidant le peuple.jpg"},
+    {"title_ko":"안개 바다 위의 방랑자","title_en":"Wanderer above the Sea of Fog","artist":"카스파르 다비트 프리드리히","year":"1818","commonsFile":"Caspar David Friedrich - Wanderer above the sea of fog.jpg"}
+  ],
+  "impressionism": [
+    {"title_ko":"인상, 해돋이","title_en":"Impression, Sunrise","artist":"클로드 모네","year":"1872","commonsFile":"Claude Monet, Impression, soleil levant, 1872.jpg"},
+    {"title_ko":"폴리베르제르의 바","title_en":"A Bar at the Folies-Bergère","artist":"에두아르 마네","year":"1882","commonsFile":"Edouard Manet, A Bar at the Folies-Bergère.jpg"}
+  ],
+  "post-impressionism": [
+    {"title_ko":"별이 빛나는 밤","title_en":"The Starry Night","artist":"빈센트 반 고흐","year":"1889","commonsFile":"VanGogh-starry night ballance1.jpg"},
+    {"title_ko":"그랑드자트 섬의 일요일 오후","title_en":"A Sunday on La Grande Jatte","artist":"조르주 쇠라","year":"1884","commonsFile":"Georges Seurat - A Sunday on La Grande Jatte -- 1884 - Google Art Project.jpg"}
+  ],
+  "expressionism": [
+    {"title_ko":"절규","title_en":"The Scream","artist":"에드바르 뭉크","year":"1893","commonsFile":"The Scream.jpg"},
+    {"title_ko":"죽음과 소녀","title_en":"Death and the Maiden","artist":"에곤 실레","year":"1915","commonsFile":"Egon Schiele - Der Tod und das Mädchen.jpg"}
+  ],
+  "victorian": [
+    {"title_ko":"문양의 문법, 도판 1","title_en":"The Grammar of Ornament, Plate 1","artist":"오웬 존스","year":"1868","commonsFile":"Owen Jones - Grammar of Ornament - 1868 - plate 001 - 300ppi.jpg"},
+    {"title_ko":"문양의 문법, 도판 43","title_en":"The Grammar of Ornament, Plate 43","artist":"오웬 존스","year":"1868","commonsFile":"Owen Jones - Grammar of Ornament - 1868 - plate 043 - 300ppi.jpg"}
+  ],
+  "arts-crafts": [
+    {"title_ko":"딸기 도둑","title_en":"Strawberry Thief","artist":"윌리엄 모리스","year":"1883","commonsFile":"Morris Strawberry Thief 1883.jpg"},
+    {"title_ko":"트렐리스 벽지 도안","title_en":"Trellis wallpaper design","artist":"윌리엄 모리스","year":"1862","commonsFile":"William Morris design for Trellis wallpaper 1862.jpg"}
+  ],
+  "art-nouveau": [
+    {"title_ko":"지스몽다","title_en":"Gismonda","artist":"알폰스 무하","year":"1894","commonsFile":"Alfons Mucha - 1894 - Gismonda.jpg"},
+    {"title_ko":"포르트 도핀 지하철 입구","title_en":"Porte Dauphine Métro entrance","artist":"엑토르 기마르","year":"1900","commonsFile":"La station art nouveau de la porte Dauphine (Hector Guimard).jpg"}
+  ],
+  "constructivism": [
+    {"title_ko":"붉은 쐐기로 백군을 쳐라","title_en":"Beat the Whites with the Red Wedge","artist":"엘 리시츠키","year":"1919","commonsFile":"Klinom Krasnym Bej Belych.JPG"},
+    {"title_ko":"프로운","title_en":"Proun","artist":"엘 리시츠키","year":"1925","commonsFile":"A Prounen by El Lissitzky c.1925.jpg"}
+  ],
+  "de-stijl": [
+    {"title_ko":"빨강·파랑·노랑의 구성 II","title_en":"Composition II in Red, Blue, and Yellow","artist":"피트 몬드리안","year":"1930","commonsFile":"Piet Mondriaan, 1930 - Mondrian Composition II in Red, Blue, and Yellow.jpg"},
+    {"title_ko":"적청 의자","title_en":"Red and Blue Chair","artist":"헤릿 리트펠트","year":"1917","commonsFile":"Ngv design, gerrit rietveld, red-blue chair 1917 01.JPG"}
+  ],
+  "bauhaus": [
+    {"title_ko":"바우하우스 데사우 교사","title_en":"Bauhaus Dessau building","artist":"발터 그로피우스 (CC 사진)","year":"1925","commonsFile":"Bauhaus.JPG"}
+  ],
+  "art-deco": [
+    {"title_ko":"크라이슬러 빌딩","title_en":"Chrysler Building","artist":"윌리엄 밴 앨런 (CC 사진)","year":"1930","commonsFile":"Chrysler Building by David Shankbone Retouched.jpg"}
+  ],
+  "midcentury": [
+    {"title_ko":"임스 라운지 체어 (670)","title_en":"Eames Lounge Chair (670)","artist":"찰스 & 레이 임스 (CC 사진)","year":"1956","commonsFile":"Ngv design, charles eames and herman miller, lounge chair 670, 1956.JPG"}
+  ],
+  "swiss": [
+    {"title_ko":"무지카 비바","title_en":"Musica Viva","artist":"요제프 뮐러-브로크만","year":"1959","commonsFile":"Musica Viva. Müller-Brockmann.jpg"}
+  ],
+  "pop-art": [
+    {"title_ko":"캠벨 수프 통조림","title_en":"Campbell's Soup Cans","artist":"앤디 워홀","year":"1962","commonsFile":"Campbell's Soup Cans by Andy Warhol.jpg"}
+  ],
+  "minimalism": [
+    {"title_ko":"브라운 포노주퍼 SK 4","title_en":"Braun Phonosuper SK 4","artist":"디터 람스 & 한스 구겔로트","year":"1956","commonsFile":"1956 Braun Phonosuper SK4 Schneewittchensarg.JPG"}
+  ],
+  "brutalism": [
+    {"title_ko":"위니테 다비타시옹","title_en":"Unité d'Habitation, Marseille","artist":"르 코르뷔지에","year":"1952","commonsFile":"Le Corbusier Experimental Housing Project, Marseille - DPLA - 9c28f44cf8ed56689ab51b78069b1b7b.jpg"},
+    {"title_ko":"보스턴 시청","title_en":"Boston City Hall","artist":"Kallmann McKinnell & Knowles","year":"1968","commonsFile":"Boston city hall.jpg"}
+  ],
+  "memphis": [
+    {"title_ko":"칼튼 책장","title_en":"Carlton room divider","artist":"에토레 소트사스 (CC 사진)","year":"1981","commonsFile":"Ettore sottsass per memphis srl., libreria carlton, milano 1981.jpg"}
+  ],
+  "cubism": [
+    {"title_ko":"아비뇽의 처녀들","title_en":"Les Demoiselles d'Avignon","artist":"파블로 피카소","year":"1907","src":"https://upload.wikimedia.org/wikipedia/en/4/4c/Les_Demoiselles_d%27Avignon.jpg"},
+    {"title_ko":"메트로놈이 있는 정물","title_en":"Still Life with Metronome","artist":"조르주 브라크","year":"1909","src":"https://upload.wikimedia.org/wikipedia/en/5/57/Georges_Braque%2C_1909%2C_Still_Life_with_Metronome_%28Still_Life_with_Mandola_and_Metronome%29%2C_oil_on_canvas%2C_81_x_54.1_cm%2C_Metropolitan_Museum_of_Art.jpg"}
+  ],
+  "dada": [
+    {"title_ko":"샘","title_en":"Fountain","artist":"마르셀 뒤샹","year":"1917","src":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/960px-Duchamp_Fountaine.jpg"},
+    {"title_ko":"계단을 내려오는 누드 No.2","title_en":"Nude Descending a Staircase, No. 2","artist":"마르셀 뒤샹","year":"1912","src":"https://upload.wikimedia.org/wikipedia/en/c/cd/Marcel_Duchamp%2C_1912%2C_Nu_descendant_un_escalier_n%C2%B0_2.jpg"}
+  ],
+  "surrealism": [
+    {"title_ko":"기억의 지속","title_en":"The Persistence of Memory","artist":"살바도르 달리","year":"1931","src":"https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg"},
+    {"title_ko":"이미지의 배반","title_en":"The Treachery of Images","artist":"르네 마그리트","year":"1929","src":"https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg"}
+  ],
+  "abstract-expressionism": [
+    {"title_ko":"넘버 5, 1948","title_en":"No. 5, 1948","artist":"잭슨 폴록","year":"1948","src":"https://upload.wikimedia.org/wikipedia/en/4/4a/No._5%2C_1948.jpg"}
+  ],
+  "psychedelic": [
+    {"title_ko":"뉴 블루스 인터체인지","title_en":"New Blues Interchange at Cedric's Cellar","artist":"웨스 윌슨","year":"1967","src":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/New_Blues_Interchange_at_Cedric%27s_Cellar%2C_1967.jpg/960px-New_Blues_Interchange_at_Cedric%27s_Cellar%2C_1967.jpg"}
+  ]
+}

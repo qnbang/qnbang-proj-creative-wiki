@@ -1,0 +1,3858 @@
+[
+  {
+    "id": "type-blackletter",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "블랙레터",
+    "titleEn": "Blackletter / Gothic",
+    "origin": "중세 유럽 필사본 → 구텐베르크",
+    "period": "1150–1500",
+    "field": "타이포그래피",
+    "oneLiner": "펜의 각진 획이 그대로 굳은 활자 — 인쇄의 첫 얼굴.",
+    "credibility": "established",
+    "keywords": [
+      "중세 유럽 필사본 → 구텐베르크",
+      "요하네스 구텐베르크",
+      "Gutenberg Textura(1455)",
+      "Fraktur",
+      "Schwabacher"
+    ],
+    "related": [
+      "type-humanist",
+      "victorian"
+    ],
+    "detail": {
+      "desc": "중세 필경사의 넓은 펜촉 글씨에서 나온 촘촘하고 각진 서체. 구텐베르크의 42행 성서(1455)가 이 텍스투라로 짜였다. 텍스투라·로툰다·프락투어·슈바바허로 갈리며, 독일에서는 20세기까지 본문 활자로 살아남았다.",
+      "traits": [
+        "넓은 펜촉의 각진 획",
+        "촘촘한 세로 스트로크(텍스투라)",
+        "장식적 대문자",
+        "높은 흑색도(black letter)"
+      ],
+      "palette": [],
+      "typo": "가독성보다 권위와 장중함. 오늘날엔 신문 제호·맥주 라벨·메탈 밴드 로고에 잔존한다.",
+      "fonts": [
+        {
+          "name": "UnifrakturMaguntia",
+          "css": "'UnifrakturMaguntia', serif",
+          "note": "구텐베르크 텍스투라 계열"
+        },
+        {
+          "name": "Pirata One",
+          "css": "'Pirata One', system-ui",
+          "note": "현대적 블랙레터 디스플레이"
+        }
+      ],
+      "realTypefaces": [
+        "Gutenberg Textura(1455)",
+        "Fraktur",
+        "Schwabacher"
+      ],
+      "sampleText": "Fraktur",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [
+        "요하네스 구텐베르크"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'UnifrakturMaguntia',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-humanist",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "휴머니스트 세리프",
+    "titleEn": "Humanist / Venetian Serif",
+    "origin": "니콜라 장송(베네치아)",
+    "period": "1470–",
+    "field": "타이포그래피",
+    "oneLiner": "손글씨의 온기를 새긴 첫 로만 활자 — 비스듬한 강세.",
+    "credibility": "established",
+    "keywords": [
+      "니콜라 장송(베네치아)",
+      "니콜라 장송",
+      "Jenson(1470)",
+      "Centaur(1914)",
+      "Cloister"
+    ],
+    "related": [
+      "type-garalde",
+      "renaissance",
+      "golden-ratio"
+    ],
+    "detail": {
+      "desc": "르네상스 인본주의자들의 둥근 손글씨를 본떠 베네치아에서 태어난 첫 로만 활자. 니콜라 장송(1470)이 정립했고, e의 가로획이 비스듬하며 획 대비가 낮아 따뜻하고 읽기 편하다. 모든 세리프체의 출발점.",
+      "traits": [
+        "비스듬한 e 가로획·강세축",
+        "낮은 획 대비",
+        "손글씨의 흔적(calligraphic)",
+        "둥글고 열린 형태"
+      ],
+      "palette": [],
+      "typo": "긴 본문에 편안하다. 인본주의의 가독성 이상을 활자로 구현한 원형.",
+      "fonts": [
+        {
+          "name": "Cardo",
+          "css": "'Cardo', serif",
+          "note": "휴머니스트 로만 부활"
+        },
+        {
+          "name": "Gentium Book Plus",
+          "css": "'Gentium Book Plus', serif",
+          "note": "낮은 대비의 본문 세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Jenson(1470)",
+        "Centaur(1914)",
+        "Cloister"
+      ],
+      "sampleText": "Venetian",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [
+        "니콜라 장송"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Cardo',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-garalde",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "개럴드 (올드스타일)",
+    "titleEn": "Garalde / Old Style",
+    "origin": "클로드 가라몽(프랑스)",
+    "period": "1530–",
+    "field": "타이포그래피",
+    "oneLiner": "균형 잡힌 고전 세리프 — 500년을 견딘 본문의 표준.",
+    "credibility": "established",
+    "keywords": [
+      "클로드 가라몽(프랑스)",
+      "니콜라 장송",
+      "Garamond(1530s)",
+      "Bembo",
+      "Caslon(1722)",
+      "Sabon"
+    ],
+    "related": [
+      "type-humanist",
+      "type-transitional",
+      "renaissance"
+    ],
+    "detail": {
+      "desc": "휴머니스트를 다듬어 더 가늘고 우아하게 만든 양식. 클로드 가라몽(1530년대)과 알두스 마누티우스의 활자가 대표적이며, 이름 Garalde는 Garamond+Aldus의 합성이다. 획 대비가 적당하고 비례가 안정돼 오늘날까지 책 본문의 기본값.",
+      "traits": [
+        "적당한 획 대비",
+        "기울어진 강세축",
+        "괄호형 세리프(bracketed)",
+        "안정된 고전 비례"
+      ],
+      "palette": [],
+      "typo": "장문 가독성의 황금률. EB Garamond는 그 직계 디지털 부활.",
+      "fonts": [
+        {
+          "name": "EB Garamond",
+          "css": "'EB Garamond', serif",
+          "note": "가라몽 활자의 직계"
+        },
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "고대비 디스플레이 가라몽"
+        }
+      ],
+      "realTypefaces": [
+        "Garamond(1530s)",
+        "Bembo",
+        "Caslon(1722)",
+        "Sabon"
+      ],
+      "sampleText": "Garamond",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [
+        "니콜라 장송"
+      ],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'EB Garamond',serif\"><span style=\"font-size:56px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-transitional",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "트랜지셔널",
+    "titleEn": "Transitional",
+    "origin": "존 배스커빌(영국)",
+    "period": "1750–",
+    "field": "타이포그래피",
+    "oneLiner": "올드스타일과 모던 사이 — 더 또렷하고 수직적인 세리프.",
+    "credibility": "established",
+    "keywords": [
+      "존 배스커빌(영국)",
+      "Baskerville(1757)",
+      "Times New Roman(1932)",
+      "Georgia"
+    ],
+    "related": [
+      "type-garalde",
+      "type-didone",
+      "neoclassicism"
+    ],
+    "detail": {
+      "desc": "계몽주의 시대 인쇄·종이 기술의 발전으로 획 대비가 커지고 강세축이 수직에 가까워진 과도기 양식. 존 배스커빌(1757)이 대표적이며, 합리적이고 또렷한 인상으로 영국적 절제를 보여준다.",
+      "traits": [
+        "수직에 가까운 강세축",
+        "올드스타일보다 큰 획 대비",
+        "또렷하고 합리적인 인상",
+        "정교한 세리프"
+      ],
+      "palette": [],
+      "typo": "권위 있는 본문·법률·학술 문서에 어울린다. Times의 조상격.",
+      "fonts": [
+        {
+          "name": "Libre Baskerville",
+          "css": "'Libre Baskerville', serif",
+          "note": "배스커빌의 웹 최적화 부활"
+        },
+        {
+          "name": "PT Serif",
+          "css": "'PT Serif', serif",
+          "note": "화면용 트랜지셔널"
+        }
+      ],
+      "realTypefaces": [
+        "Baskerville(1757)",
+        "Times New Roman(1932)",
+        "Georgia"
+      ],
+      "sampleText": "Baskerville",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Libre Baskerville',serif\"><span style=\"font-size:52px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-didone",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "디돈 (모던)",
+    "titleEn": "Didone / Modern",
+    "origin": "보도니·디도",
+    "period": "1790–",
+    "field": "타이포그래피",
+    "oneLiner": "극단의 획 대비 — 머리카락 세리프와 굵은 수직획의 우아함.",
+    "credibility": "established",
+    "keywords": [
+      "보도니·디도",
+      "Bodoni(1798)",
+      "Didot",
+      "Walbaum"
+    ],
+    "related": [
+      "type-transitional",
+      "type-slab",
+      "neoclassicism",
+      "art-deco"
+    ],
+    "detail": {
+      "desc": "지암바티스타 보도니와 피르맹 디도가 1790년대에 완성한 신고전주의 활자. 가는 획과 굵은 획의 대비가 극단적이고, 세리프가 가늘고 평평하며 강세축이 완전히 수직이다. 차갑고 세련돼 패션·럭셔리 표제에 군림한다.",
+      "traits": [
+        "극단적 획 대비",
+        "수직 강세축",
+        "가늘고 평평한 헤어라인 세리프",
+        "차갑고 우아한 인상"
+      ],
+      "palette": [],
+      "typo": "Vogue·Harper's Bazaar 제호의 그 느낌. 본문보다 대형 표제에 빛난다.",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "고대비 디돈 디스플레이"
+        },
+        {
+          "name": "Bodoni Moda",
+          "css": "'Bodoni Moda', serif",
+          "note": "보도니의 현대 부활"
+        }
+      ],
+      "realTypefaces": [
+        "Bodoni(1798)",
+        "Didot",
+        "Walbaum"
+      ],
+      "sampleText": "Bodoni",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Playfair Display',serif\"><span style=\"font-size:54px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-slab",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "슬랩세리프 (이집션)",
+    "titleEn": "Slab Serif / Egyptian",
+    "origin": "산업혁명기 영국 광고",
+    "period": "1815–",
+    "field": "타이포그래피",
+    "oneLiner": "두껍고 네모난 세리프 — 멀리서도 때리는 광고 활자.",
+    "credibility": "established",
+    "keywords": [
+      "산업혁명기 영국 광고",
+      "Clarendon(1845)",
+      "Rockwell",
+      "Courier"
+    ],
+    "related": [
+      "type-didone",
+      "type-grotesque",
+      "victorian"
+    ],
+    "detail": {
+      "desc": "19세기 초 산업혁명과 광고 포스터 수요에서 태어난 굵고 블록 같은 세리프. 이국적 인상 때문에 '이집션'이라 불렸다. 클래런던(1845)이 대표적이며, 힘있고 안정적이라 헤드라인·간판·서부극 포스터에 쓰였다.",
+      "traits": [
+        "두껍고 네모난(slab) 세리프",
+        "낮은 획 대비",
+        "힘있고 안정적",
+        "광고·표제 지향"
+      ],
+      "palette": [],
+      "typo": "주목성과 견고함. 현대엔 Roboto Slab처럼 화면 헤드라인에도 쓴다.",
+      "fonts": [
+        {
+          "name": "Roboto Slab",
+          "css": "'Roboto Slab', serif",
+          "note": "화면용 슬랩"
+        },
+        {
+          "name": "Zilla Slab",
+          "css": "'Zilla Slab', serif",
+          "note": "Mozilla의 슬랩세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Clarendon(1845)",
+        "Rockwell",
+        "Courier"
+      ],
+      "sampleText": "Clarendon",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Roboto Slab',serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:700\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-grotesque",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "그로테스크 산세리프",
+    "titleEn": "Grotesque Sans-serif",
+    "origin": "악치덴츠 → 헬베티카",
+    "period": "1816 / 1957–",
+    "field": "타이포그래피",
+    "oneLiner": "세리프를 떼어낸 활자 — 중립과 명료의 대명사.",
+    "credibility": "established",
+    "keywords": [
+      "악치덴츠 → 헬베티카",
+      "요제프 뮐러-브로크만",
+      "아르민 호프만",
+      "Akzidenz-Grotesk(1896)",
+      "Helvetica(1957)",
+      "Univers(1957)"
+    ],
+    "related": [
+      "type-geometric",
+      "type-humanist-sans",
+      "swiss",
+      "minimalism"
+    ],
+    "detail": {
+      "desc": "19세기 초 처음 등장한 '괴상한(grotesque)' 세리프 없는 활자. 악치덴츠-그로테스크(1896)를 거쳐 1957년 헬베티카와 유니버스로 완성됐고, 스위스 스타일의 중립적·체계적 미감을 대표한다. 표지판·기업 아이덴티티의 표준.",
+      "traits": [
+        "세리프 없음",
+        "거의 균일한 획 두께",
+        "중립적·체계적 인상",
+        "닫힌 형태(혹은 좁은 구금)"
+      ],
+      "palette": [],
+      "typo": "헬베티카의 그 무표정한 명료함. 정보 전달·간판·UI의 기본값.",
+      "fonts": [
+        {
+          "name": "Work Sans",
+          "css": "'Work Sans', sans-serif",
+          "note": "초기 그로테스크 기반"
+        },
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "화면 최적 중립 산세"
+        }
+      ],
+      "realTypefaces": [
+        "Akzidenz-Grotesk(1896)",
+        "Helvetica(1957)",
+        "Univers(1957)"
+      ],
+      "sampleText": "Helvetica",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [
+        "요제프 뮐러-브로크만",
+        "아르민 호프만"
+      ],
+      "figurePortraits": {
+        "요제프 뮐러-브로크만": "https://commons.wikimedia.org/wiki/Special:FilePath/Josef%20M%C3%BCller-Brockmann%2C%20RIT%20NandE%20Vol19Num5%201987%20Nov5%20(cropped).jpg?width=400",
+        "아르민 호프만": "https://commons.wikimedia.org/wiki/Special:FilePath/Armin%20Hofmann.jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Work Sans',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:600\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-geometric",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "지오메트릭 산세리프",
+    "titleEn": "Geometric Sans-serif",
+    "origin": "파울 레너(푸투라)",
+    "period": "1927–",
+    "field": "타이포그래피",
+    "oneLiner": "원과 직선으로 그린 글자 — 바우하우스의 기하 이상.",
+    "credibility": "established",
+    "keywords": [
+      "파울 레너(푸투라)",
+      "발터 그로피우스",
+      "헤르베르트 바이어",
+      "Futura(1927)",
+      "Avant Garde",
+      "Century Gothic"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-humanist-sans",
+      "bauhaus",
+      "de-stijl"
+    ],
+    "detail": {
+      "desc": "원·삼각형·직선 같은 기본 도형으로 글자를 구성한 산세리프. 파울 레너의 푸투라(1927)가 대표적이며, 바우하우스의 기능주의·기하 미학을 활자로 옮겼다. o가 정원에 가깝고 모던하고 미래적인 인상을 준다.",
+      "traits": [
+        "기하학적 기본 도형(원·직선)",
+        "정원에 가까운 o",
+        "균일한 획",
+        "모던·미래적 인상"
+      ],
+      "palette": [],
+      "typo": "Futura는 나이키·루이비통부터 달 착륙 명판까지. 차갑고 이상주의적.",
+      "fonts": [
+        {
+          "name": "Poppins",
+          "css": "'Poppins', sans-serif",
+          "note": "기하학 산세(데바나가리 겸용)"
+        },
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "푸투라 계열 오픈소스"
+        }
+      ],
+      "realTypefaces": [
+        "Futura(1927)",
+        "Avant Garde",
+        "Century Gothic"
+      ],
+      "sampleText": "Futura",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [
+        "발터 그로피우스",
+        "헤르베르트 바이어"
+      ],
+      "figurePortraits": {
+        "발터 그로피우스": "https://commons.wikimedia.org/wiki/Special:FilePath/WalterGropius-1919.jpg?width=400",
+        "헤르베르트 바이어": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Bayer%20at%20the%20exhibition%20Bauhaus.jpg?width=400"
+      },
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Poppins',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:500\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-humanist-sans",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "휴머니스트 산세리프",
+    "titleEn": "Humanist Sans-serif",
+    "origin": "에릭 길(길 산스)",
+    "period": "1928–",
+    "field": "타이포그래피",
+    "oneLiner": "손글씨의 비례를 품은 산세리프 — 따뜻한 명료함.",
+    "credibility": "established",
+    "keywords": [
+      "에릭 길(길 산스)",
+      "Gill Sans(1928)",
+      "Frutiger(1976)",
+      "Myriad",
+      "Verdana"
+    ],
+    "related": [
+      "type-geometric",
+      "type-grotesque",
+      "flat-design"
+    ],
+    "detail": {
+      "desc": "세리프는 없애되 휴머니스트 세리프의 손글씨 비례와 강세를 간직한 산세리프. 에릭 길의 길 산스(1928)와 아드리안 프루티거의 프루티거(1976)가 대표적이며, 그로테스크보다 인간적이고 가독성이 높아 표지판·본문에 두루 쓰인다.",
+      "traits": [
+        "손글씨 비례·약한 강세",
+        "열린 구금(open aperture)",
+        "따뜻하고 가독성 높음",
+        "세리프 없음"
+      ],
+      "palette": [],
+      "typo": "공항 사인·정부 문서·본문 UI의 친근한 표준. 프루티거가 그 정점.",
+      "fonts": [
+        {
+          "name": "Open Sans",
+          "css": "'Open Sans', sans-serif",
+          "note": "휴머니스트 산세 본문 표준"
+        },
+        {
+          "name": "Source Sans 3",
+          "css": "'Source Sans 3', sans-serif",
+          "note": "어도비 휴머니스트 산세"
+        }
+      ],
+      "realTypefaces": [
+        "Gill Sans(1928)",
+        "Frutiger(1976)",
+        "Myriad",
+        "Verdana"
+      ],
+      "sampleText": "Frutiger",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Open Sans',sans-serif\"><span style=\"font-size:54px;color:#222;line-height:1;font-weight:600\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-script",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "스크립트",
+    "titleEn": "Script",
+    "origin": "동판 조각·캘리그래피",
+    "period": "18C–",
+    "field": "타이포그래피",
+    "oneLiner": "손으로 흘려 쓴 글씨를 활자로 — 우아함과 친밀함.",
+    "credibility": "established",
+    "keywords": [
+      "동판 조각·캘리그래피",
+      "Snell Roundhand",
+      "Spencerian",
+      "Mistral"
+    ],
+    "related": [
+      "type-blackletter",
+      "rococo",
+      "art-nouveau"
+    ],
+    "detail": {
+      "desc": "펜·붓의 연결된 손글씨를 본뜬 활자. 18세기 동판 조각(카퍼플레이트)의 화려한 라운드핸드에서 형식 스크립트가, 20세기 광고에서 캐주얼 스크립트가 나왔다. 초대장·로고·감성 광고에서 따뜻함과 격식을 더한다.",
+      "traits": [
+        "연결된 흐르는 획",
+        "기울기와 스워시",
+        "형식(포멀)·캐주얼로 분화",
+        "손의 흔적"
+      ],
+      "palette": [],
+      "typo": "코카콜라 로고부터 청첩장까지. 본문엔 부적합, 강조·감성에 강하다.",
+      "fonts": [
+        {
+          "name": "Dancing Script",
+          "css": "'Dancing Script', cursive",
+          "note": "캐주얼 스크립트"
+        },
+        {
+          "name": "Pinyon Script",
+          "css": "'Pinyon Script', cursive",
+          "note": "동판 라운드핸드"
+        }
+      ],
+      "realTypefaces": [
+        "Snell Roundhand",
+        "Spencerian",
+        "Mistral"
+      ],
+      "sampleText": "Script",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'Dancing Script',cursive\"><span style=\"font-size:56px;color:#222;line-height:1\">Script</span></div>"
+    }
+  },
+  {
+    "id": "type-monospace",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "모노스페이스",
+    "titleEn": "Monospace",
+    "origin": "타자기 → 코드",
+    "period": "1870s–",
+    "field": "타이포그래피",
+    "oneLiner": "모든 글자가 같은 폭 — 타자기와 코드의 활자.",
+    "credibility": "established",
+    "keywords": [
+      "타자기 → 코드",
+      "Courier(1955)",
+      "Letter Gothic",
+      "OCR-A"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-display",
+      "neo-brutalism",
+      "vaporwave"
+    ],
+    "detail": {
+      "desc": "글자마다 폭이 같아 세로로 줄이 맞는 활자. 타자기의 기계적 제약에서 출발했고, 컴퓨터 터미널·코드 에디터의 표준이 됐다. 등폭 덕에 정렬·들여쓰기가 또렷하며, 기술적·레트로한 인상을 준다.",
+      "traits": [
+        "모든 글자 동일 폭(등폭)",
+        "또렷한 정렬",
+        "기술적·레트로 인상",
+        "구분용 글리프(0/O, 1/l) 강조"
+      ],
+      "palette": [],
+      "typo": "코드·터미널·데이터의 기본값. 디자인에선 기술적 무드의 액센트.",
+      "fonts": [
+        {
+          "name": "JetBrains Mono",
+          "css": "'JetBrains Mono', monospace",
+          "note": "코딩용 등폭"
+        },
+        {
+          "name": "IBM Plex Mono",
+          "css": "'IBM Plex Mono', monospace",
+          "note": "IBM의 등폭 산세"
+        }
+      ],
+      "realTypefaces": [
+        "Courier(1955)",
+        "Letter Gothic",
+        "OCR-A"
+      ],
+      "sampleText": "Mono 0O1l",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:30px;background:#f4f4f1;font-family:'JetBrains Mono',monospace\"><span style=\"font-size:50px;color:#222;line-height:1\">Rg</span></div>"
+    }
+  },
+  {
+    "id": "type-display",
+    "domain": "typography",
+    "category": "활자 양식",
+    "categoryLabel": "활자 양식",
+    "title": "디스플레이 / 장식",
+    "titleEn": "Display / Decorative",
+    "origin": "포스터·광고",
+    "period": "19C–",
+    "field": "타이포그래피",
+    "oneLiner": "크게 봐야 사는 글자 — 개성과 목소리가 전부.",
+    "credibility": "established",
+    "keywords": [
+      "포스터·광고",
+      "Ultra Bodoni(Fat Face)",
+      "Cooper Black",
+      "목활자 포스터체"
+    ],
+    "related": [
+      "type-didone",
+      "type-slab",
+      "pop-art",
+      "psychedelic"
+    ],
+    "detail": {
+      "desc": "본문이 아니라 표제·로고·포스터처럼 큰 크기에서 쓰도록 만든 활자 총칭. 19세기 광고 포스터의 거대 목활자에서 출발했고, 가독성보다 개성·분위기·임팩트를 노린다. 초굵은(팻페이스)·아웃라인·실험적 형태가 모두 포함된다.",
+      "traits": [
+        "큰 크기 전제",
+        "강한 개성·분위기",
+        "가독성보다 임팩트",
+        "팻페이스·아웃라인 등 무한 변주"
+      ],
+      "palette": [],
+      "typo": "포스터·간판·앨범 커버의 목소리. 한 작품에 하나면 충분하다.",
+      "fonts": [
+        {
+          "name": "Anton",
+          "css": "'Anton', sans-serif",
+          "note": "초굵은 컨덴스드 디스플레이"
+        },
+        {
+          "name": "Abril Fatface",
+          "css": "'Abril Fatface', display",
+          "note": "팻페이스 디돈"
+        }
+      ],
+      "realTypefaces": [
+        "Ultra Bodoni(Fat Face)",
+        "Cooper Black",
+        "목활자 포스터체"
+      ],
+      "sampleText": "DISPLAY",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": "<div style=\"display:flex;align-items:center;justify-content:center;padding:24px;background:#f4f4f1;font-family:'Anton',sans-serif\"><span style=\"font-size:46px;color:#222;line-height:1;letter-spacing:1px\">Display</span></div>"
+    }
+  },
+  {
+    "id": "type-p-garamond",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "클로드 가라몽",
+    "titleEn": "Claude Garamond",
+    "origin": "프랑스",
+    "period": "1510–1561",
+    "field": "타이포그래피",
+    "oneLiner": "활자 주조를 독립 직업으로 세운 르네상스 펀치 조각가.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스",
+      "Garamond(1530s)"
+    ],
+    "related": [
+      "type-garalde",
+      "type-p-baskerville"
+    ],
+    "detail": {
+      "desc": "파리에서 활동한 프랑스의 펀치 조각가로, 인쇄소에 딸린 일이던 활자 제작을 독립된 전문 직업으로 끌어올렸다. 1530년대 그가 새긴 우아한 로만 활자는 유럽 전역으로 퍼져 본문 활자의 기준이 되었고, 오늘날 '가라몬드' 계열 서체의 원형이 되었다.",
+      "traits": [
+        "로만 활자 펀치 조각의 거장",
+        "활자 주조의 직업적 독립",
+        "본문 세리프의 고전 표준 정립"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "EB Garamond",
+          "css": "'EB Garamond', serif",
+          "note": "가라몽 활자의 직계 디지털 부활"
+        },
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "고대비 디스플레이 가라몽"
+        }
+      ],
+      "realTypefaces": [
+        "Garamond(1530s)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "클로드 가라몽",
+          "titleEn": "Claude Garamond",
+          "artist": "프랑스",
+          "year": "1510–1561",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Garamond-claude.png?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-caslon",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "윌리엄 캐슬론",
+    "titleEn": "William Caslon",
+    "origin": "영국",
+    "period": "1692–1766",
+    "field": "타이포그래피",
+    "oneLiner": "영국 활자 산업을 자립시킨 캐슬론 올드스타일의 창시자.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "Caslon(1722)"
+    ],
+    "related": [
+      "type-garalde",
+      "type-p-garamond"
+    ],
+    "detail": {
+      "desc": "원래 총기 조각공이던 영국의 활자 주조가로, 1722년경 독자적인 로만 활자를 발표해 그때까지 네덜란드 수입에 의존하던 영국 인쇄를 자립시켰다. 견고하고 읽기 편한 그의 활자는 미국 독립선언서 인쇄에도 쓰였고, '망설여지면 캐슬론을 써라'는 격언을 남겼다.",
+      "traits": [
+        "캐슬론 올드스타일 발표(1722년경)",
+        "영국 활자 주조의 자립",
+        "독립선언서 인쇄 활자"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Libre Caslon Text",
+          "css": "'Libre Caslon Text', serif",
+          "note": "캐슬론의 웹용 부활"
+        }
+      ],
+      "realTypefaces": [
+        "Caslon(1722)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "윌리엄 캐슬론",
+          "titleEn": "William Caslon",
+          "artist": "영국",
+          "year": "1692–1766",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Caslon%20painting%20from%20Caslon%20specimen%20of%201915.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-baskerville",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "존 배스커빌",
+    "titleEn": "John Baskerville",
+    "origin": "영국",
+    "period": "1706–1775",
+    "field": "타이포그래피",
+    "oneLiner": "트랜지셔널 세리프와 인쇄 공정을 혁신한 영국의 인쇄가.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "Baskerville(1757)"
+    ],
+    "related": [
+      "type-transitional",
+      "type-p-bodoni"
+    ],
+    "detail": {
+      "desc": "버밍엄의 인쇄가이자 활자 디자이너로, 1757년 더 또렷하고 수직적인 강세의 트랜지셔널 로만 활자를 선보였다. 매끈한 우브지·짙은 잉크·정교한 압인 같은 인쇄 공정 개량으로 책의 품질을 끌어올렸고, 그의 활자는 보도니·디도의 모던 세리프로 이어졌다.",
+      "traits": [
+        "트랜지셔널 세리프 정립(1757)",
+        "우브지·잉크 등 인쇄 공정 혁신",
+        "모던 세리프의 가교"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Libre Baskerville",
+          "css": "'Libre Baskerville', serif",
+          "note": "배스커빌의 웹 최적화 부활"
+        }
+      ],
+      "realTypefaces": [
+        "Baskerville(1757)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "존 배스커빌",
+          "titleEn": "John Baskerville",
+          "artist": "영국",
+          "year": "1706–1775",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Baskerville%20by%20James%20Millar.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-bodoni",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "지암바티스타 보도니",
+    "titleEn": "Giambattista Bodoni",
+    "origin": "이탈리아",
+    "period": "1740–1813",
+    "field": "타이포그래피",
+    "oneLiner": "극단적 획 대비의 디돈(모던) 세리프를 완성한 거장.",
+    "credibility": "established",
+    "keywords": [
+      "이탈리아",
+      "Bodoni(1798)"
+    ],
+    "related": [
+      "type-didone",
+      "type-p-didot"
+    ],
+    "detail": {
+      "desc": "파르마 공작의 인쇄소를 이끈 이탈리아의 인쇄가이자 활자 디자이너로, 1790년대에 가는 획과 굵은 획의 대비를 극단까지 밀어붙인 신고전주의 활자를 완성했다. 머리카락 같은 세리프와 완전한 수직 강세축은 차갑고 우아한 인상을 주어 오늘날 패션·럭셔리 표제의 상징이 되었다.",
+      "traits": [
+        "디돈(모던) 세리프 완성",
+        "극단적 획 대비와 수직 강세축",
+        "신고전주의 인쇄미의 정점"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Bodoni Moda",
+          "css": "'Bodoni Moda', serif",
+          "note": "보도니의 현대 부활"
+        },
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "고대비 디돈 디스플레이"
+        }
+      ],
+      "realTypefaces": [
+        "Bodoni(1798)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "지암바티스타 보도니",
+          "titleEn": "Giambattista Bodoni",
+          "artist": "이탈리아",
+          "year": "1740–1813",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Giambattista%20Bodoni%20by%20Giuseppe%20Lucatelli.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-didot",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "피르맹 디도",
+    "titleEn": "Firmin Didot",
+    "origin": "프랑스",
+    "period": "1764–1836",
+    "field": "타이포그래피",
+    "oneLiner": "보도니와 나란히 디돈 양식을 세운 프랑스 활자 왕조의 거장.",
+    "credibility": "established",
+    "keywords": [
+      "프랑스",
+      "Didot"
+    ],
+    "related": [
+      "type-didone",
+      "type-p-bodoni"
+    ],
+    "detail": {
+      "desc": "프랑스 인쇄 명가 디도 가문의 일원으로, 보도니와 거의 동시에 극단적 획 대비와 수직 강세의 모던 세리프 '디도'를 정립했다. '스테레오타이프(연판) 인쇄'라는 용어를 만들었고, 포인트 활자 크기 체계를 정비해 활자 표준화에도 기여했다.",
+      "traits": [
+        "디도 서체 정립",
+        "'스테레오타이프' 용어 창안",
+        "디도 포인트 활자 체계 정비"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "고대비 디돈 디스플레이"
+        }
+      ],
+      "realTypefaces": [
+        "Didot"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "피르맹 디도",
+          "titleEn": "Firmin Didot",
+          "artist": "프랑스",
+          "year": "1764–1836",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Firmin%20Didot%20portrait.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-goudy",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "프레더릭 가우디",
+    "titleEn": "Frederic Goudy",
+    "origin": "미국",
+    "period": "1865–1947",
+    "field": "타이포그래피",
+    "oneLiner": "122종의 활자를 만든 미국에서 가장 다작한 활자 디자이너.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Goudy Old Style(1915)",
+      "Copperplate Gothic",
+      "Kennerley"
+    ],
+    "related": [
+      "type-garalde",
+      "type-humanist"
+    ],
+    "detail": {
+      "desc": "독학으로 출발한 미국의 인쇄가이자 활자 디자이너로, 평생 122종에 이르는 서체를 만든 미국 최고의 다작 디자이너다. 1915년 발표한 Goudy Old Style은 즉각 성공을 거두었고, Copperplate Gothic·Kennerley 등으로 20세기 미국 활자 문화를 대표했다.",
+      "traits": [
+        "Goudy Old Style(1915)",
+        "Copperplate Gothic 등 122종 디자인",
+        "미국 활자 디자인의 자립"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Sorts Mill Goudy",
+          "css": "'Sorts Mill Goudy', serif",
+          "note": "Goudy Old Style의 오픈소스 부활"
+        }
+      ],
+      "realTypefaces": [
+        "Goudy Old Style(1915)",
+        "Copperplate Gothic",
+        "Kennerley"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "프레더릭 가우디",
+          "titleEn": "Frederic Goudy",
+          "artist": "미국",
+          "year": "1865–1947",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick%20W.%20Goudy%20by%20Arnold%20Genthe%201924.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-gill",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "에릭 길",
+    "titleEn": "Eric Gill",
+    "origin": "영국",
+    "period": "1882–1940",
+    "field": "타이포그래피",
+    "oneLiner": "휴머니스트 산세리프 길 산스를 만든 조각가·레터링 거장.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "Gill Sans(1928)",
+      "Perpetua",
+      "Joanna"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-p-renner"
+    ],
+    "detail": {
+      "desc": "영국의 조각가·석공·활자 디자이너로, 손글씨의 비례를 간직한 휴머니스트 산세리프 Gill Sans(1928)와 본문 세리프 Perpetua를 디자인했다. 길 산스는 영국 철도·펭귄 북스의 얼굴이 되었다. (사후 드러난 사생활의 심각한 문제로 인물 평가는 논쟁적이다.)",
+      "traits": [
+        "Gill Sans(1928)",
+        "Perpetua 세리프",
+        "석각 레터링의 활자화"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Open Sans",
+          "css": "'Open Sans', sans-serif",
+          "note": "휴머니스트 산세 본문 표준"
+        }
+      ],
+      "realTypefaces": [
+        "Gill Sans(1928)",
+        "Perpetua",
+        "Joanna"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "에릭 길",
+          "titleEn": "Eric Gill",
+          "artist": "영국",
+          "year": "1882–1940",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Gill%20-%20self%20portrait.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-renner",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "파울 레너",
+    "titleEn": "Paul Renner",
+    "origin": "독일",
+    "period": "1878–1956",
+    "field": "타이포그래피",
+    "oneLiner": "원과 직선의 기하 산세리프 푸투라를 설계한 모더니스트.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "Futura(1927)"
+    ],
+    "related": [
+      "type-geometric",
+      "type-p-tschichold"
+    ],
+    "detail": {
+      "desc": "독일의 활자 디자이너이자 타이포그래퍼로, 1927년 원·삼각형·직선 같은 기본 도형으로 글자를 구성한 기하학적 산세리프 Futura를 발표했다. 바우하우스의 기능주의 정신을 활자로 옮긴 푸투라는 20세기 가장 영향력 있는 산세리프 중 하나가 되었다.",
+      "traits": [
+        "Futura(1927)",
+        "기하학적 산세리프의 정립",
+        "독일 모던 타이포그래피 이론가"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Poppins",
+          "css": "'Poppins', sans-serif",
+          "note": "기하학 산세 계열"
+        },
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "푸투라 계열 오픈소스"
+        }
+      ],
+      "realTypefaces": [
+        "Futura(1927)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "파울 레너",
+          "titleEn": "Paul Renner",
+          "artist": "독일",
+          "year": "1878–1956",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Renner%2C%20um%201927%2C%20Fotografie%20von%20Eduard%20Wasow.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-tschichold",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "얀 치홀트",
+    "titleEn": "Jan Tschichold",
+    "origin": "독일",
+    "period": "1902–1974",
+    "field": "타이포그래피",
+    "oneLiner": "신타이포그래피를 정립하고 펭귄 북스를 디자인한 타이포그래퍼.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "Sabon(1967)"
+    ],
+    "related": [
+      "type-garalde",
+      "type-p-renner"
+    ],
+    "detail": {
+      "desc": "독일 출신의 타이포그래퍼이자 교사로, 1928년 저서 《신타이포그래피(Die neue Typographie)》로 비대칭·산세리프 중심의 모던 조판 원칙을 정립했다. 후에 고전적 대칭 조판으로 선회했고, 1947년부터 펭귄 북스의 표준 조판 규칙을 세워 페이퍼백 디자인을 통일했다. Sabon 서체를 설계했다.",
+      "traits": [
+        "《신타이포그래피》(1928)",
+        "펭귄 북스 조판 규칙 정립",
+        "Sabon 서체 디자인"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "EB Garamond",
+          "css": "'EB Garamond', serif",
+          "note": "치홀트의 Sabon이 속한 가라몽 계열"
+        }
+      ],
+      "realTypefaces": [
+        "Sabon(1967)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "얀 치홀트",
+          "titleEn": "Jan Tschichold",
+          "artist": "독일",
+          "year": "1902–1974",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Tschichold%20(1963)%20by%20Erling%20Mandelmann.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-zapf",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "헤르만 차프",
+    "titleEn": "Hermann Zapf",
+    "origin": "독일",
+    "period": "1918–2015",
+    "field": "타이포그래피",
+    "oneLiner": "팔라티노·옵티마를 만든 20세기 캘리그래피·활자의 거장.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "Palatino(1948)",
+      "Optima(1952)",
+      "Zapfino"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-humanist"
+    ],
+    "detail": {
+      "desc": "독일의 활자 디자이너이자 캘리그래퍼로, 손글씨의 흐름을 간직한 본문 세리프 Palatino(1948)와 세리프와 산세리프의 경계를 허문 Optima(1952)를 디자인했다. 후기에는 디지털 조판 알고리즘 연구에도 참여했으며, 그의 이름을 딴 Zapfino·Zapf Dingbats로도 널리 알려졌다.",
+      "traits": [
+        "Palatino(1948)",
+        "Optima(1952)",
+        "캘리그래피와 활자의 결합"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Optima는 비공개이나 유사",
+          "css": "'Marcellus', serif",
+          "note": "Optima식 무세리프 로만의 분위기"
+        }
+      ],
+      "realTypefaces": [
+        "Palatino(1948)",
+        "Optima(1952)",
+        "Zapfino"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "헤르만 차프",
+          "titleEn": "Hermann Zapf",
+          "artist": "독일",
+          "year": "1918–2015",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Zapf.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-frutiger",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "아드리안 프루티거",
+    "titleEn": "Adrian Frutiger",
+    "origin": "스위스",
+    "period": "1928–2015",
+    "field": "타이포그래피",
+    "oneLiner": "유니버스와 프루티거로 사인 시스템의 가독성을 정의한 거장.",
+    "credibility": "established",
+    "keywords": [
+      "스위스",
+      "Univers(1957)",
+      "Frutiger(1976)",
+      "Avenir"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-grotesque"
+    ],
+    "detail": {
+      "desc": "스위스의 활자 디자이너로, 1957년 일관된 굵기·폭 체계를 숫자로 정리한 Univers를 발표해 활자 패밀리 개념을 혁신했다. 1976년 파리 공항을 위해 만든 Frutiger는 먼 거리·다양한 각도에서도 잘 읽혀 공항·도로 사인의 표준이 되었다.",
+      "traits": [
+        "Univers(1957)와 활자 패밀리 체계",
+        "Frutiger(1976) 사인 서체",
+        "OCR-B 등 가독성 연구"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Open Sans",
+          "css": "'Open Sans', sans-serif",
+          "note": "휴머니스트 산세 계열"
+        },
+        {
+          "name": "Work Sans",
+          "css": "'Work Sans', sans-serif",
+          "note": "그로테스크 기반 산세"
+        }
+      ],
+      "realTypefaces": [
+        "Univers(1957)",
+        "Frutiger(1976)",
+        "Avenir"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "아드리안 프루티거",
+          "titleEn": "Adrian Frutiger",
+          "artist": "스위스",
+          "year": "1928–2015",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20Adrian%20Frutiger.tif?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-miedinger",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "막스 미딩거",
+    "titleEn": "Max Miedinger",
+    "origin": "스위스",
+    "period": "1910–1980",
+    "field": "타이포그래피",
+    "oneLiner": "헬베티카(원명 노이에 하스 그로테스크)를 그린 스위스 디자이너.",
+    "credibility": "established",
+    "keywords": [
+      "스위스",
+      "Helvetica(1957)"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-p-frutiger"
+    ],
+    "detail": {
+      "desc": "스위스의 활자 디자이너로, 1957년 하스 활자주조소에서 에두아르트 호프만과 함께 Neue Haas Grotesk를 만들었다. 이 서체는 1960년 Helvetica로 개명되어 스위스 스타일의 중립적·체계적 미감을 대표하는 20세기 가장 널리 쓰인 산세리프가 되었다.",
+      "traits": [
+        "Helvetica(노이에 하스 그로테스크, 1957)",
+        "스위스 스타일 산세의 정점",
+        "기업 아이덴티티의 표준 활자"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Work Sans",
+          "css": "'Work Sans', sans-serif",
+          "note": "그로테스크 계열 산세"
+        },
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "중립적 화면용 산세"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica(1957)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "막스 미딩거",
+          "titleEn": "Max Miedinger",
+          "artist": "스위스",
+          "year": "1910–1980",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Miedinger.png?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-carter",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "마티외 카터",
+    "titleEn": "Matthew Carter",
+    "origin": "영국",
+    "period": "1937–",
+    "field": "타이포그래피",
+    "oneLiner": "화면 가독성을 정의한 베르다나·조지아의 활자 디자이너.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "Verdana(1996)",
+      "Georgia(1996)",
+      "Bell Centennial"
+    ],
+    "related": [
+      "type-transitional",
+      "type-grotesque"
+    ],
+    "detail": {
+      "desc": "영국 태생의 미국 활자 디자이너로, 금속 활자부터 디지털·화면 폰트까지 시대를 가로질러 작업했다. 1990년대 마이크로소프트를 위해 만든 Verdana와 Georgia는 저해상도 화면에서의 가독성을 정의했고, Bell Centennial·Tahoma 등 실용 서체로도 유명하다.",
+      "traits": [
+        "Verdana·Georgia(화면 가독성)",
+        "Bell Centennial(전화번호부)",
+        "금속~디지털을 잇는 경력"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "PT Serif",
+          "css": "'PT Serif', serif",
+          "note": "조지아식 화면용 세리프 분위기"
+        }
+      ],
+      "realTypefaces": [
+        "Verdana(1996)",
+        "Georgia(1996)",
+        "Bell Centennial"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "마티외 카터",
+          "titleEn": "Matthew Carter",
+          "artist": "영국",
+          "year": "1937–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthew%20Carter%2C%202014.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-spiekermann",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "에릭 슈피커만",
+    "titleEn": "Erik Spiekermann",
+    "origin": "독일",
+    "period": "1947–",
+    "field": "타이포그래피",
+    "oneLiner": "FF 메타와 정보 디자인을 이끈 독일 타이포그래피 거장.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "FF Meta(1991)",
+      "ITC Officina",
+      "Fira Sans"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-grotesque"
+    ],
+    "detail": {
+      "desc": "독일의 타이포그래퍼이자 디자이너로, 1991년 '헬베티카의 안티테제'를 표방한 FF Meta를 발표해 1990년대의 대표 산세리프로 자리매김시켰다. FontShop을 공동 설립하고 베를린 교통·도이체반 등 대규모 정보 디자인 시스템을 이끌었다.",
+      "traits": [
+        "FF Meta(1991)",
+        "FontShop·ITC Officina",
+        "도이체반 등 정보 디자인 시스템"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Fira Sans",
+          "css": "'Fira Sans', sans-serif",
+          "note": "슈피커만이 주도한 오픈소스 산세"
+        }
+      ],
+      "realTypefaces": [
+        "FF Meta(1991)",
+        "ITC Officina",
+        "Fira Sans"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "에릭 슈피커만",
+          "titleEn": "Erik Spiekermann",
+          "artist": "독일",
+          "year": "1947–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/20201015-Erik%20Spiekermann-m-NP.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-licko",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "주자나 리코",
+    "titleEn": "Zuzana Licko",
+    "origin": "슬로바키아/미국",
+    "period": "1961–",
+    "field": "타이포그래피",
+    "oneLiner": "비트맵 폰트로 디지털 타이포그래피를 연 에미그레 공동 창업자.",
+    "credibility": "established",
+    "keywords": [
+      "슬로바키아/미국",
+      "Mrs Eaves",
+      "Filosofia",
+      "Modula",
+      "Matrix"
+    ],
+    "related": [
+      "type-didone",
+      "type-display"
+    ],
+    "detail": {
+      "desc": "체코슬로바키아 브라티슬라바 태생의 미국 활자 디자이너로, 1984년 매킨토시의 저해상도 화면을 위해 비트맵 폰트를 디자인하며 디지털 타이포그래피의 길을 열었다. 루디 반더란스와 Emigre를 공동 설립했고, Mrs Eaves·Filosofia·Matrix 같은 서체로 1990년대 실험 타이포그래피를 주도했다.",
+      "traits": [
+        "초기 매킨토시 비트맵 폰트",
+        "Emigre 공동 설립",
+        "Mrs Eaves·Filosofia·Matrix"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Playfair Display",
+          "css": "'Playfair Display', serif",
+          "note": "Filosofia가 속한 디돈 계열"
+        }
+      ],
+      "realTypefaces": [
+        "Mrs Eaves",
+        "Filosofia",
+        "Modula",
+        "Matrix"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-frerejones",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "토비아스 프레레-존스",
+    "titleEn": "Tobias Frere-Jones",
+    "origin": "미국",
+    "period": "1970–",
+    "field": "타이포그래피",
+    "oneLiner": "고담·인터스테이트로 미국적 산세리프를 빚은 활자 디자이너.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Gotham(2000)",
+      "Interstate",
+      "Archer"
+    ],
+    "related": [
+      "type-geometric",
+      "type-grotesque"
+    ],
+    "detail": {
+      "desc": "미국의 활자 디자이너로, 미국 도로 표지에서 영감을 얻은 Interstate와 뉴욕 거리 레터링에 뿌리를 둔 Gotham을 디자인했다. 고담은 오바마 2008 대선 캠페인 서체로 널리 알려졌다. 조너선 회플러와 오래 협업했고 현재 Frere-Jones Type을 운영한다.",
+      "traits": [
+        "Gotham(오바마 캠페인)",
+        "Interstate(도로 표지 기반)",
+        "Archer 등 다수 산업 표준 서체"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Montserrat",
+          "css": "'Montserrat', sans-serif",
+          "note": "고담식 기하 산세의 분위기"
+        }
+      ],
+      "realTypefaces": [
+        "Gotham(2000)",
+        "Interstate",
+        "Archer"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "토비아스 프레레-존스",
+          "titleEn": "Tobias Frere-Jones",
+          "artist": "미국",
+          "year": "1970–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tobias%20Frere-Jones.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-hoefler",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "조너선 회플러",
+    "titleEn": "Jonathan Hoefler",
+    "origin": "미국",
+    "period": "1970–",
+    "field": "타이포그래피",
+    "oneLiner": "Hoefler Text·고담 패밀리를 빚은 미국 디지털 활자의 거장.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Hoefler Text",
+      "Archer",
+      "Gotham"
+    ],
+    "related": [
+      "type-garalde",
+      "type-geometric"
+    ],
+    "detail": {
+      "desc": "미국의 활자 디자이너로, 1989년 뉴욕에 Hoefler Type Foundry를 세웠다. 애플에 번들된 Hoefler Text, 슬랩세리프 Archer, 그리고 프레레-존스와 함께 확장한 Gotham 패밀리 등으로 디지털 시대 고품질 활자 가족의 기준을 세웠다.",
+      "traits": [
+        "Hoefler Text(애플 번들)",
+        "Gotham·Archer 패밀리 구축",
+        "디지털 활자 가족 체계화"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "Hoefler Text식 고전 세리프 분위기"
+        }
+      ],
+      "realTypefaces": [
+        "Hoefler Text",
+        "Archer",
+        "Gotham"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "조너선 회플러",
+          "titleEn": "Jonathan Hoefler",
+          "artist": "미국",
+          "year": "1970–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Hoefler.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-p-burian",
+    "domain": "typography",
+    "category": "거장·인물",
+    "categoryLabel": "거장·인물",
+    "title": "베로니카 버리안",
+    "titleEn": "Veronika Burian",
+    "origin": "체코/오스트리아",
+    "period": "1973–",
+    "field": "타이포그래피",
+    "oneLiner": "타입투게더를 공동 설립한 다국어 본문 활자 디자이너.",
+    "credibility": "established",
+    "keywords": [
+      "체코/오스트리아",
+      "Maiola(2005)",
+      "Karmina",
+      "Adelle"
+    ],
+    "related": [
+      "type-garalde",
+      "type-humanist"
+    ],
+    "detail": {
+      "desc": "프라하 태생으로 독일에서 자란 활자 디자이너로, 영국 레딩대 활자 디자인 석사 과정 졸업작품 Maiola로 주목받았다. 호세 스카글리오네와 함께 독립 활자주조소 TypeTogether를 세워 다국어 본문용 서체와 신문·잡지 활자를 공급하고 있다.",
+      "traits": [
+        "Maiola(레딩대 졸업작, 2005)",
+        "TypeTogether 공동 설립",
+        "다국어 본문·편집 활자"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Lora",
+          "css": "'Lora', serif",
+          "note": "현대적 편집용 본문 세리프"
+        }
+      ],
+      "realTypefaces": [
+        "Maiola(2005)",
+        "Karmina",
+        "Adelle"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "베로니카 버리안",
+          "titleEn": "Veronika Burian",
+          "artist": "체코/오스트리아",
+          "year": "1973–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Veronika%20Burian%2C%202010.jpg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-linotype",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "라이노타입",
+    "titleEn": "Linotype",
+    "origin": "미국/독일",
+    "period": "1886–",
+    "field": "타이포그래피",
+    "oneLiner": "한 줄에 활자를 통째로 주조한 식자기 — 20세기 신문·출판을 바꾼 회사.",
+    "credibility": "established",
+    "keywords": [
+      "미국/독일",
+      "Helvetica",
+      "Palatino",
+      "Optima",
+      "Univers",
+      "Avenir"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-humanist-sans",
+      "type-f-monotype",
+      "type-f-stempel"
+    ],
+    "detail": {
+      "desc": "오트마 메르겐탈러가 1886년 발명한 라이노타입 식자기를 판매하기 위해 미국에서 설립됐다. 한 줄(line of type)을 통째로 금속으로 부어내는 이 기계로 신문·서적 조판 속도가 폭발적으로 빨라졌다. 헬베티카·팔라티노·옵티마·유니버스 같은 20세기 대표 서체를 보유했고, 2006년 모노타입에 인수됐다.",
+      "traits": [
+        "라이노타입 핫메탈 식자기",
+        "헬베티카(1957)",
+        "팔라티노·옵티마(헤르만 차프)"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Work Sans",
+          "css": "'Work Sans', sans-serif",
+          "note": "헬베티카 계열 그로테스크 대체"
+        },
+        {
+          "name": "Newsreader",
+          "css": "'Newsreader', serif",
+          "note": "신문 본문용 세리프 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Helvetica",
+        "Palatino",
+        "Optima",
+        "Univers",
+        "Avenir"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "라이노타입 로고",
+          "titleEn": "Linotype",
+          "artist": "미국/독일",
+          "year": "1886–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Linotype%20logo.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-monotype",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "모노타입",
+    "titleEn": "Monotype",
+    "origin": "미국/영국",
+    "period": "1887–",
+    "field": "타이포그래피",
+    "oneLiner": "낱활자를 한 자씩 주조한 식자기 — 타임스·길 산스를 낳은 활자 명가.",
+    "credibility": "established",
+    "keywords": [
+      "미국/영국",
+      "Times New Roman",
+      "Gill Sans",
+      "Arial",
+      "Perpetua",
+      "Bembo"
+    ],
+    "related": [
+      "type-transitional",
+      "type-humanist-sans",
+      "type-f-linotype",
+      "type-f-itc"
+    ],
+    "detail": {
+      "desc": "톨버트 랜스턴이 1887년 미국 필라델피아에서 랜스턴 모노타입으로 창업했고, 영국 지사가 활자 디자인의 중심이 됐다. 스탠리 모리슨의 지휘 아래 타임스 뉴 로만(1932)과 에릭 길의 길 산스(1928) 등 고전 서체를 다수 제작했다. 오늘날 라이노타입·ITC·헬베티카·후글러 등 거대 폰트 자산을 흡수한 업계 최대 기업이다.",
+      "traits": [
+        "모노타입 낱자 식자기",
+        "타임스 뉴 로만(1932)",
+        "길 산스(1928)"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "PT Serif",
+          "css": "'PT Serif', serif",
+          "note": "타임스 계열 트랜지셔널 대체"
+        },
+        {
+          "name": "Cabin",
+          "css": "'Cabin', sans-serif",
+          "note": "길 산스 계열 휴머니스트 산세 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Times New Roman",
+        "Gill Sans",
+        "Arial",
+        "Perpetua",
+        "Bembo"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "모노타입 로고",
+          "titleEn": "Monotype",
+          "artist": "미국/영국",
+          "year": "1887–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Monotype-logo.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-itc",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "ITC (국제 활자 회사)",
+    "titleEn": "International Typeface Corporation",
+    "origin": "미국",
+    "period": "1970–",
+    "field": "타이포그래피",
+    "oneLiner": "금속활자 없이 사진식자·디지털만으로 출발한 첫 라이선스 활자 회사.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "ITC Avant Garde Gothic",
+      "ITC Garamond",
+      "ITC Lubalin Graph",
+      "ITC Bookman"
+    ],
+    "related": [
+      "type-geometric",
+      "type-display",
+      "type-f-monotype",
+      "type-f-letraset"
+    ],
+    "detail": {
+      "desc": "1970년 뉴욕에서 아론 번스·허브 루발린·에드워드 론드탈러가 설립했다. 금속활자 생산 이력 없이 사진식자와 디지털을 위해 서체를 디자인·라이선스한 첫 회사로, 잡지 《U&lc》를 통해 타이포그래피 문화를 전파했다. ITC 아방가르드 고딕·ITC 가라몬드 등 큰 엑스하이트의 재해석 서체로 1970~80년대 광고 활자를 지배했다.",
+      "traits": [
+        "사진식자·디지털 전용 첫 회사",
+        "ITC 아방가르드 고딕(1970)",
+        "잡지 U&lc 발행"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Jost",
+          "css": "'Jost', sans-serif",
+          "note": "아방가르드 계열 기하 산세 대체"
+        },
+        {
+          "name": "Cormorant Garamond",
+          "css": "'Cormorant Garamond', serif",
+          "note": "ITC 가라몬드 계열 대체"
+        }
+      ],
+      "realTypefaces": [
+        "ITC Avant Garde Gothic",
+        "ITC Garamond",
+        "ITC Lubalin Graph",
+        "ITC Bookman"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "ITC 아방가르드 고딕 견본",
+          "titleEn": "International Typeface Corporation",
+          "artist": "미국",
+          "year": "1970–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/ITC%20Avant%20Garde%20Gothic%20Sample.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-berthold",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "H. 베르톨트 AG",
+    "titleEn": "H. Berthold AG",
+    "origin": "독일",
+    "period": "1858–1993",
+    "field": "타이포그래피",
+    "oneLiner": "산세리프의 원형 악치덴츠-그로테스크를 낳은 베를린의 활자 거장.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "Akzidenz-Grotesk",
+      "Berthold Baskerville",
+      "Berthold City",
+      "Block"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-f-linotype",
+      "type-f-stempel"
+    ],
+    "detail": {
+      "desc": "1858년 헤르만 베르톨트가 베를린에서 황동 괘선 제조로 시작해, 1893년 이후 활자 주조로 영역을 넓혔다. 1898년 발표한 악치덴츠-그로테스크는 헬베티카·유니버스보다 반세기 앞선 산세리프의 원형이 됐다. 1918년 세계 최대 활자 주조소였고, 귄터 게르하르트 랑게의 감수 아래 정밀한 디지털 서체로도 명성을 떨쳤으나 1993년 파산했다.",
+      "traits": [
+        "악치덴츠-그로테스크(1898)",
+        "산세리프의 원형",
+        "정밀한 활자 주조 명성"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Archivo",
+          "css": "'Archivo', sans-serif",
+          "note": "악치덴츠-그로테스크 계열 그로테스크 대체"
+        },
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "중립적 그로테스크 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Akzidenz-Grotesk",
+        "Berthold Baskerville",
+        "Berthold City",
+        "Block"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "베르톨트 악치덴츠-그로테스크 견본",
+          "titleEn": "H. Berthold AG",
+          "artist": "독일",
+          "year": "1858–1993",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Akzidenz%20Grotesk%20Regular%20%26%20Italic.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-adobe",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "어도비 타입",
+    "titleEn": "Adobe Type",
+    "origin": "미국",
+    "period": "1983–",
+    "field": "타이포그래피",
+    "oneLiner": "포스트스크립트와 함께 디지털 활자 시대를 연 어도비의 활자 부서.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Minion",
+      "Myriad",
+      "Trajan",
+      "Adobe Garamond",
+      "Warnock"
+    ],
+    "related": [
+      "type-garalde",
+      "type-humanist-sans",
+      "type-f-emigre"
+    ],
+    "detail": {
+      "desc": "포스트스크립트 페이지 기술과 함께 출발한 어도비의 활자 사업으로, 섬너 스톤이 1984년 첫 타이포그래피 디렉터가 됐다. 1989년 시작한 어도비 오리지널스 프로그램에서 로버트 슬림바흐와 캐럴 트웜블리가 미니언·미리어드·트레이전 등 표준급 서체를 만들었다. 디지털 활자 품질의 기준을 세웠고, OpenType 포맷 표준화도 주도했다.",
+      "traits": [
+        "포스트스크립트 디지털 활자",
+        "어도비 오리지널스(1989)",
+        "미니언·미리어드(1992)"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Source Serif 4",
+          "css": "'Source Serif 4', serif",
+          "note": "어도비 오픈소스 세리프(미니언 계열 감성)"
+        },
+        {
+          "name": "Source Sans 3",
+          "css": "'Source Sans 3', sans-serif",
+          "note": "미리어드 계열 휴머니스트 산세 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Minion",
+        "Myriad",
+        "Trajan",
+        "Adobe Garamond",
+        "Warnock"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "어도비 로고",
+          "titleEn": "Adobe Type",
+          "artist": "미국",
+          "year": "1983–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Adobe%20Systems%20logo%20and%20wordmark.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-emigre",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "에미그레",
+    "titleEn": "Emigre",
+    "origin": "미국",
+    "period": "1985–",
+    "field": "타이포그래피",
+    "oneLiner": "매킨토시의 거친 픽셀을 미학으로 끌어올린 첫 디지털 활자 회사.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Lo-Res (Oakland)",
+      "Mrs Eaves",
+      "Base",
+      "Filosofia"
+    ],
+    "related": [
+      "type-display",
+      "type-f-adobe"
+    ],
+    "detail": {
+      "desc": "1985년 루디 반더란스와 주자나 리코 부부가 캘리포니아 버클리에서 설립했다. 1984년 창간한 잡지 《에미그레》를 실험장 삼아, 초기 매킨토시의 저해상도 비트맵을 부정하지 않고 오히려 디자인 언어로 끌어올렸다. 로 95(Lo-Res)·미세스 이브스 같은 서체로 1990년대 디지털 타이포그래피와 포스트모던 디자인을 대표했다.",
+      "traits": [
+        "첫 디지털 독립 활자 회사",
+        "잡지 Emigre의 실험적 조판",
+        "비트맵·포스트모던 미학"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Silkscreen",
+          "css": "'Silkscreen', sans-serif",
+          "note": "저해상도 비트맵 픽셀 폰트 대체"
+        },
+        {
+          "name": "Domine",
+          "css": "'Domine', serif",
+          "note": "미세스 이브스풍 본문 세리프 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Lo-Res (Oakland)",
+        "Mrs Eaves",
+        "Base",
+        "Filosofia"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-hoefler",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "후글러 앤 코",
+    "titleEn": "Hoefler&Co",
+    "origin": "미국",
+    "period": "1989–",
+    "field": "타이포그래피",
+    "oneLiner": "고담·아카이브로 미국 편집·아이덴티티 디자인을 사로잡은 활자 회사.",
+    "credibility": "established",
+    "keywords": [
+      "미국",
+      "Gotham",
+      "Archer",
+      "Mercury",
+      "Hoefler Text",
+      "Sentinel"
+    ],
+    "related": [
+      "type-geometric",
+      "type-grotesque",
+      "type-f-commercial"
+    ],
+    "detail": {
+      "desc": "조너선 후글러가 1989년 뉴욕에서 설립했고, 잡지·기업 의뢰 서체로 명성을 쌓았다. 2005~2014년 토바이어스 프리어존스와 후글러 앤 프리어존스로 운영하며 GQ를 위해 만든 고담(2000)이 오바마 2008 대선 캠페인에 쓰여 폭발적 인기를 얻었다. 머큐리·아카이브 등 정교한 서체로 미국 편집 디자인을 대표했고, 2021년 모노타입에 인수됐다.",
+      "traits": [
+        "고담(2000)",
+        "프리어존스와의 협업·결별",
+        "정교한 편집·아이덴티티 서체"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Montserrat",
+          "css": "'Montserrat', sans-serif",
+          "note": "고담 계열 기하 그로테스크 대체"
+        },
+        {
+          "name": "Archivo",
+          "css": "'Archivo', sans-serif",
+          "note": "구조적 산세 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Gotham",
+        "Archer",
+        "Mercury",
+        "Hoefler Text",
+        "Sentinel"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-commercial",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "커머셜 타입",
+    "titleEn": "Commercial Type",
+    "origin": "미국/영국",
+    "period": "2007–",
+    "field": "타이포그래피",
+    "oneLiner": "가디언 이집션으로 신문 리디자인의 새 기준을 세운 현대 활자 회사.",
+    "credibility": "established",
+    "keywords": [
+      "미국/영국",
+      "Guardian Egyptian",
+      "Publico",
+      "Graphik",
+      "Caponi"
+    ],
+    "related": [
+      "type-slab",
+      "type-grotesque",
+      "type-f-hoefler",
+      "type-f-klim"
+    ],
+    "detail": {
+      "desc": "2007년 폴 반스와 크리스티안 슈바르츠가 뉴욕·런던을 거점으로 설립했다. 두 사람이 협업한 가디언 신문 리디자인용 가디언 이집션은 영국식 이집션의 견고함에 현대적 우아함을 더해 D&AD 블랙 펜슬을 받았다. 퍼블리코·그래픽 등 정밀한 편집 서체로 현대 신문·잡지 타이포그래피를 이끄는 대표 파운드리다.",
+      "traits": [
+        "가디언 이집션(슬랩+휴머니스트)",
+        "신문·잡지 편집 서체",
+        "폴 반스·크리스티안 슈바르츠"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Roboto Slab",
+          "css": "'Roboto Slab', serif",
+          "note": "가디언 이집션 계열 슬랩 대체"
+        },
+        {
+          "name": "Source Serif 4",
+          "css": "'Source Serif 4', serif",
+          "note": "편집용 본문 세리프 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Guardian Egyptian",
+        "Publico",
+        "Graphik",
+        "Caponi"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-klim",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "클림 타입 파운드리",
+    "titleEn": "Klim Type Foundry",
+    "origin": "뉴질랜드",
+    "period": "2005–",
+    "field": "타이포그래피",
+    "oneLiner": "지역의 목소리로 만든 서체 — 뉴질랜드에서 세계로 간 1인 파운드리.",
+    "credibility": "established",
+    "keywords": [
+      "뉴질랜드",
+      "Founders Grotesk",
+      "Calibre",
+      "Metric",
+      "Tiempos",
+      "Feijoa"
+    ],
+    "related": [
+      "type-grotesque",
+      "type-f-commercial"
+    ],
+    "detail": {
+      "desc": "크리스 사워스비가 2005년 뉴질랜드 웰링턴에서 설립했다. '잘 만든 하나(a thing well made)'를 모토로, 지역 디자이너를 위한 서체를 만든다는 철학에서 출발했다. 파운더스 그로테스크·캘리브르·메트릭 등 정밀하고 동시대적인 산세리프로 국제적 명성을 얻어, 작은 독립 파운드리가 세계 시장에서 통할 수 있음을 보여준 사례다.",
+      "traits": [
+        "파운더스 그로테스크",
+        "캘리브르·메트릭",
+        "정밀한 동시대 산세리프"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Inter",
+          "css": "'Inter', sans-serif",
+          "note": "파운더스 그로테스크 계열 그로테스크 대체"
+        },
+        {
+          "name": "Spectral",
+          "css": "'Spectral', serif",
+          "note": "정밀한 본문 세리프 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Founders Grotesk",
+        "Calibre",
+        "Metric",
+        "Tiempos",
+        "Feijoa"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-fontshop",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "폰트숍 / FontFont",
+    "titleEn": "FontShop",
+    "origin": "독일",
+    "period": "1989–",
+    "field": "타이포그래피",
+    "oneLiner": "최초의 디지털 폰트 통신판매상 — FontFont로 독립 디자이너 시대를 열다.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "FF Meta",
+      "FF DIN",
+      "FF Blur",
+      "FF Scala",
+      "FF Beowolf"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-grotesque",
+      "type-f-emigre"
+    ],
+    "detail": {
+      "desc": "1989년 에릭 슈피커만·요안 슈피커만·네빌 브로디가 설립한 최초의 디지털 폰트 통신판매 회사다. 1990년 시작한 자체 레이블 FontFont는 '디자이너에 의한, 디자이너를 위한' 서체를 표방했다. 슈피커만의 FF 메타('헬베티카의 안티테제'), FF DIN, 브로디의 FF 블러 등을 배출했고, 2011년 MoMA가 이 중 여러 서체를 영구 소장했다.",
+      "traits": [
+        "최초의 디지털 폰트 통신판매",
+        "FontFont 레이블(1990)",
+        "FF 메타·FF DIN"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Fira Sans",
+          "css": "'Fira Sans', sans-serif",
+          "note": "슈피커만 FF 메타 계열 휴머니스트 산세"
+        },
+        {
+          "name": "Oswald",
+          "css": "'Oswald', sans-serif",
+          "note": "FF DIN 계열 컨덴스드 산세 대체"
+        }
+      ],
+      "realTypefaces": [
+        "FF Meta",
+        "FF DIN",
+        "FF Blur",
+        "FF Scala",
+        "FF Beowolf"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "폰트숍 로고",
+          "titleEn": "FontShop",
+          "artist": "독일",
+          "year": "1989–",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/FontShop%20logo.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-letraset",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "레트라셋",
+    "titleEn": "Letraset",
+    "origin": "영국",
+    "period": "1959–",
+    "field": "타이포그래피",
+    "oneLiner": "문지르면 붙는 건식 전사 글자 — 디자이너 책상의 타이포그래피 혁명.",
+    "credibility": "established",
+    "keywords": [
+      "영국",
+      "Letraset Block Up",
+      "Davida Bold",
+      "Compacta",
+      "Premier Shaded"
+    ],
+    "related": [
+      "type-display",
+      "type-f-itc"
+    ],
+    "detail": {
+      "desc": "1959년 런던에서 건식 전사(rub-down) 레터링 시스템으로 출발했다. 시트 위 글자를 종이에 대고 문지르면 옮겨붙는 방식으로, 식자기 없이도 누구나 표제 글자를 조판할 수 있게 해 디자인 작업을 민주화했다. 1970년 레트라그라피카 구독 서비스로 블록 업·데이비다 볼드 등 실험적 디스플레이 서체를 다수 보급했다.",
+      "traits": [
+        "건식 전사(rub-down) 레터링",
+        "레트라그라피카 서체 컬렉션",
+        "디자인 작업의 민주화"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Bungee",
+          "css": "'Bungee', sans-serif",
+          "note": "레트라셋풍 실험 디스플레이 대체"
+        },
+        {
+          "name": "Rubik",
+          "css": "'Rubik', sans-serif",
+          "note": "둥근 디스플레이 산세 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Letraset Block Up",
+        "Davida Bold",
+        "Compacta",
+        "Premier Shaded"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-f-stempel",
+    "domain": "typography",
+    "category": "파운드리",
+    "categoryLabel": "파운드리",
+    "title": "D. 슈템펠 AG",
+    "titleEn": "D. Stempel AG",
+    "origin": "독일",
+    "period": "1895–1985",
+    "field": "타이포그래피",
+    "oneLiner": "팔라티노·옵티마를 주조한 프랑크푸르트의 활자 명가.",
+    "credibility": "established",
+    "keywords": [
+      "독일",
+      "Palatino",
+      "Optima",
+      "Memphis",
+      "Sabon",
+      "Neuzeit"
+    ],
+    "related": [
+      "type-humanist-sans",
+      "type-slab",
+      "type-f-linotype",
+      "type-f-berthold"
+    ],
+    "detail": {
+      "desc": "1895년 다비트 슈템펠이 프랑크푸르트에서 설립했고, 1900년 라이노타입 GmbH의 매트릭스를 독점 제작하는 핵심 협력사가 됐다. 헤르만 차프의 팔라티노(1948)·옵티마(1958)를 비롯해 안티콰·그로테스크·프락투어·아랍어 등 방대한 서체를 보유했다. 활판 인쇄 쇠퇴로 1985년 독립 운영을 마쳤고, 그 활자 아카이브는 박물관에 보존돼 있다.",
+      "traits": [
+        "라이노타입 매트릭스 독점 제작",
+        "팔라티노(1948)·옵티마(1958)",
+        "멤피스(슬랩세리프) 선구"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Cormorant",
+          "css": "'Cormorant', serif",
+          "note": "팔라티노풍 고전 세리프 대체"
+        },
+        {
+          "name": "Marcellus",
+          "css": "'Marcellus', serif",
+          "note": "옵티마풍 세리프리스 인상 대체"
+        }
+      ],
+      "realTypefaces": [
+        "Palatino",
+        "Optima",
+        "Memphis",
+        "Sabon",
+        "Neuzeit"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [
+        {
+          "title": "슈템펠 팔라티노 견본",
+          "titleEn": "D. Stempel AG",
+          "artist": "독일",
+          "year": "1895–1985",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Palatino%20sample.svg?width=600"
+        }
+      ],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-hunminjeongeum",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "훈민정음 창제",
+    "titleEn": "Invention of Hangul (Hunminjeongeum)",
+    "origin": "조선 세종대왕",
+    "period": "1443 (창제)–1446 (반포)",
+    "field": "타이포그래피",
+    "oneLiner": "창제자·반포일·제자원리가 모두 기록된 세계 유일의 문자 — 한글 타이포그래피의 시원.",
+    "credibility": "established",
+    "keywords": [
+      "조선 세종대왕",
+      "훈민정음 해례본 판각 글자",
+      "월인천강지곡 한글활자",
+      "용비어천가 판본"
+    ],
+    "related": [
+      "type-k-metaltype",
+      "type-k-myeongjo",
+      "type-k-talnemo"
+    ],
+    "detail": {
+      "desc": "1443년(세종 25년) 세종대왕이 28자로 창제하고 1446년 《훈민정음 해례본》으로 반포한 한국 고유 문자. 자음은 발음기관의 모양을, 모음은 천(•)·지(ㅡ)·인(ㅣ) 삼재(三才)를 본떠 만든 자질문자(featural script)로, 적은 기본 글자를 결합해 모든 소리를 적는다. 만든 사람·만든 날·만든 원리가 모두 기록된 세계 유일의 문자로, 한글 활자·조판의 모든 조형이 이 제자원리에서 출발한다.",
+      "traits": [
+        "기본 28자(현대 24자)",
+        "발음기관·천지인 본뜬 제자원리",
+        "모아쓰기(음절 단위 네모틀 조합)",
+        "자질문자 — 결합으로 음절 생성"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "해례본 계열을 잇는 본문 명조"
+        },
+        {
+          "name": "Gowun Batang",
+          "css": "'Gowun Batang', serif",
+          "note": "부드러운 바탕체로 옛 문헌 무드"
+        }
+      ],
+      "realTypefaces": [
+        "훈민정음 해례본 판각 글자",
+        "월인천강지곡 한글활자",
+        "용비어천가 판본"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-metaltype",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "한글 금속활자",
+    "titleEn": "Hangul Metal Movable Type",
+    "origin": "조선 주자소(鑄字所)",
+    "period": "15세기 (조선 초)",
+    "field": "타이포그래피",
+    "oneLiner": "세계 최초 금속활자 전통 위에 한글을 얹은 조선의 인쇄 — 활자 조판의 토대.",
+    "credibility": "established",
+    "keywords": [
+      "조선 주자소(鑄字所)",
+      "갑인자 병용 한글활자(1434)",
+      "월인천강지곡 활자",
+      "경자자·계미자(한자)"
+    ],
+    "related": [
+      "type-k-hunminjeongeum",
+      "type-k-myeongjo",
+      "type-blackletter"
+    ],
+    "detail": {
+      "desc": "고려의 《직지심체요절》(1377)로 대표되는 세계 최초의 금속활자 전통을 이어, 조선은 계미자(1403)·갑인자(1434) 등 한자 활자를 정교화했다. 1443년 한글 창제 직후 한글 금속활자가 함께 주조돼 《월인천강지곡》·《석보상절》 등을 찍었으며, 갑인자와 함께 쓰인 '갑인자 병용 한글활자'가 대표적이다. 네모 안에 음절을 모아 짜는 한글 조판의 조형 규범이 이때 마련됐다.",
+      "traits": [
+        "주자소의 동활자 주조",
+        "갑인자 병용 한글활자",
+        "조립식 동판으로 정밀 조판",
+        "월인천강지곡·석보상절 인출"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "활자 본문체의 현대 계승"
+        },
+        {
+          "name": "Nanum Myeongjo",
+          "css": "'Nanum Myeongjo', serif",
+          "note": "옛 활자 인상의 명조"
+        }
+      ],
+      "realTypefaces": [
+        "갑인자 병용 한글활자(1434)",
+        "월인천강지곡 활자",
+        "경자자·계미자(한자)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-myeongjo",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "명조체 / 바탕체",
+    "titleEn": "Myeongjo / Batang (Serif)",
+    "origin": "궁체·붓글씨 → 인쇄 본문체",
+    "period": "1920년대– (1991 '바탕체' 개칭)",
+    "field": "타이포그래피",
+    "oneLiner": "붓의 부리(세리프)를 품은 한글 본문체 — 책의 기본값.",
+    "credibility": "established",
+    "keywords": [
+      "궁체·붓글씨 → 인쇄 본문체",
+      "최정호 명조 원도",
+      "SM신명조",
+      "윤명조",
+      "함초롬바탕"
+    ],
+    "related": [
+      "type-k-choejeongho",
+      "type-k-gothic",
+      "type-garalde"
+    ],
+    "detail": {
+      "desc": "내리획은 굵고 가로획은 가늘며 획 끝에 부리(돌기)가 있는, 한글의 대표 본문용 서체. 궁체·붓글씨에서 형태가 유래해 1928년 이원모의 명조체, 1940년대 박경서의 정리를 거쳐 최정호가 인쇄용 본문체로 완성했다. '명조(明朝)'는 일본 인쇄 용어에서 온 이름으로, 1991년 문화부가 순우리말 '바탕체'로 바꿔 쓰도록 정했다. 장문 가독성이 좋아 책·신문 본문의 표준이다.",
+      "traits": [
+        "획 끝의 부리(세리프)",
+        "내리획 굵고 가로획 가는 대비",
+        "본문 장문 가독성",
+        "궁체·붓글씨 기원"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "구글·어도비 본명조 계열 바탕체"
+        },
+        {
+          "name": "Nanum Myeongjo",
+          "css": "'Nanum Myeongjo', serif",
+          "note": "네이버 나눔명조"
+        }
+      ],
+      "realTypefaces": [
+        "최정호 명조 원도",
+        "SM신명조",
+        "윤명조",
+        "함초롬바탕"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-gothic",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "고딕체 / 돋움체",
+    "titleEn": "Gothic / Dotum (Sans-serif)",
+    "origin": "근대 인쇄 → 화면용 표준",
+    "period": "1920년대– (1991 '돋움체' 개칭)",
+    "field": "타이포그래피",
+    "oneLiner": "부리를 떼고 획을 고르게 — 제목과 화면의 한글체.",
+    "credibility": "established",
+    "keywords": [
+      "근대 인쇄 → 화면용 표준",
+      "최정호 고딕 원도",
+      "산돌고딕",
+      "맑은 고딕",
+      "윤고딕"
+    ],
+    "related": [
+      "type-k-myeongjo",
+      "type-k-choejeongho",
+      "type-grotesque"
+    ],
+    "detail": {
+      "desc": "부리(세리프)가 없고 가로·세로 획 굵기가 비교적 고른 한글 서체. 명조와 짝을 이루는 두 큰 축으로, '고딕'은 일본 인쇄 용어에서 왔고 1991년 문화부가 제목을 '돋우는' 용도를 살려 '돋움체'로 개칭했다. 최정호가 명조와 함께 고딕 원형을 정립했으며, 저해상도 화면에서 부리 표현이 어려운 명조 대신 본문용으로도 널리 쓰이게 됐다. 제목·간판·UI의 기본값.",
+      "traits": [
+        "부리(세리프) 없음",
+        "고른 획 굵기",
+        "제목·화면 가독성",
+        "명조와 짝을 이루는 두 축"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Sans KR",
+          "css": "'Noto Sans KR', sans-serif",
+          "note": "구글·어도비 본고딕 계열 돋움체"
+        },
+        {
+          "name": "Nanum Gothic",
+          "css": "'Nanum Gothic', sans-serif",
+          "note": "네이버 나눔고딕"
+        }
+      ],
+      "realTypefaces": [
+        "최정호 고딕 원도",
+        "산돌고딕",
+        "맑은 고딕",
+        "윤고딕"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-talnemo",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "탈네모틀(탈네모꼴) 글꼴",
+    "titleEn": "Non-square (Talnemo) Hangul Type",
+    "origin": "세벌식 한글 운동",
+    "period": "1976– / 1985 (안상수체)",
+    "field": "타이포그래피",
+    "oneLiner": "네모 칸을 벗어나 자모를 모아 짜는 한글 — 가장 한글다운 실험.",
+    "credibility": "established",
+    "keywords": [
+      "세벌식 한글 운동",
+      "안상수체(1985)",
+      "샘이깊은물체",
+      "공한체(1990)",
+      "이상체"
+    ],
+    "related": [
+      "type-k-ahnsangsoo",
+      "type-k-hunminjeongeum",
+      "type-k-leeyongje"
+    ],
+    "detail": {
+      "desc": "모든 글자를 같은 크기의 네모틀에 맞추던 관습을 깨고, 닿자·홀자·받침을 각자 일정한 모양으로 모아 짜는 세벌식 조합형 글꼴. 1976년 조영제의 논문 표본에서 출발해, 1985년 안상수체와 이상철의 샘이깊은물체, 1990년 한재준의 공한체로 이어졌다. 글자마다 너비가 달라 들쭉날쭉하지만, 적은 자소만으로 모든 글자를 만들어 경제적이고, 한글 창제 원리에 가장 충실하다는 평가를 받는다.",
+      "traits": [
+        "세벌식 조합형(닿자·홀자·받침)",
+        "글자마다 다른 너비",
+        "적은 자소로 전체 생성",
+        "한글 제자원리에 충실"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Black Han Sans",
+          "css": "'Black Han Sans', sans-serif",
+          "note": "탈네모 인상의 굵은 디스플레이"
+        },
+        {
+          "name": "Jua",
+          "css": "'Jua', sans-serif",
+          "note": "둥글고 자유로운 탈네모 무드"
+        }
+      ],
+      "realTypefaces": [
+        "안상수체(1985)",
+        "샘이깊은물체",
+        "공한체(1990)",
+        "이상체"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-digital",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "한글 디지털 폰트",
+    "titleEn": "Korean Digital Fonts",
+    "origin": "DTP·트루타입·오픈타입",
+    "period": "1990년대– (DTP·웹폰트)",
+    "field": "타이포그래피",
+    "oneLiner": "11,172자를 디지털로 — 사진식자에서 웹폰트까지 한글의 대중화.",
+    "credibility": "established",
+    "keywords": [
+      "DTP·트루타입·오픈타입",
+      "나눔고딕·나눔명조(2008)",
+      "본고딕/Noto Sans KR",
+      "맑은 고딕",
+      "산돌구름 폰트"
+    ],
+    "related": [
+      "type-k-sandoll",
+      "type-k-yoondesign",
+      "type-monospace"
+    ],
+    "detail": {
+      "desc": "사진식자 시대를 지나 1990년대 PC·DTP 보급과 함께 트루타입·오픈타입으로 옮겨 온 한글 글꼴. 현대 완성형 한글은 11,172자를 모두 그려야 해 한 벌 제작에 막대한 공이 든다. 2008년 네이버가 한글날에 나눔글꼴(나눔고딕·나눔명조)을 무료 배포하고 구글·어도비가 본고딕/본명조(Noto Sans·Serif KR)를 내놓으면서 누구나 쓰는 웹폰트 시대가 열렸고, 산돌구름 같은 구독형 폰트 플랫폼으로 확장됐다.",
+      "traits": [
+        "완성형 11,172자 제작 부담",
+        "트루타입·오픈타입·웹폰트",
+        "나눔글꼴·본고딕 무료 배포",
+        "구독형 폰트 플랫폼(산돌구름)"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Sans KR",
+          "css": "'Noto Sans KR', sans-serif",
+          "note": "구글·어도비 본고딕(오픈소스 웹폰트)"
+        },
+        {
+          "name": "Do Hyeon",
+          "css": "'Do Hyeon', sans-serif",
+          "note": "무료 배포 디스플레이 한글"
+        }
+      ],
+      "realTypefaces": [
+        "나눔고딕·나눔명조(2008)",
+        "본고딕/Noto Sans KR",
+        "맑은 고딕",
+        "산돌구름 폰트"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-choejeongho",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "최정호",
+    "titleEn": "Choi Jeong-ho",
+    "origin": "한국",
+    "period": "1916–1988",
+    "field": "타이포그래피",
+    "oneLiner": "한글 명조·고딕의 원형을 그린 1세대 원도 디자이너 — 한국 활자의 본류.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "최정호 명조 원도",
+      "최정호 고딕 원도",
+      "동아출판사·삼화인쇄 활자"
+    ],
+    "related": [
+      "type-k-myeongjo",
+      "type-k-gothic",
+      "type-k-noeunyu"
+    ],
+    "detail": {
+      "desc": "체계적으로 글꼴을 공부한 한국 최초의 활자 디자이너로, 오늘날 한글 명조체(바탕체)와 고딕체(돋움체)의 원형을 손으로 그린 원도(原圖)를 남겼다. 1934년 일본에서 인쇄와 디자인을 익힌 뒤 삼화인쇄·동아출판사 등의 활자를 설계했고, 그가 그린 원도는 사진식자·디지털 시대 거의 모든 한글 본문체의 뿌리가 됐다. \"글자는 읽는 사람이 피로를 느끼지 않게 디자인돼야 한다\"는 가독성 철학을 남겼다.",
+      "traits": [
+        "한글 명조·고딕 원도 설계",
+        "한국 최초의 체계적 활자 디자이너",
+        "가독성 중심 본문체 철학",
+        "거의 모든 현대 한글 본문체의 뿌리"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "그의 명조 계보를 잇는 본문체"
+        },
+        {
+          "name": "Nanum Myeongjo",
+          "css": "'Nanum Myeongjo', serif",
+          "note": "최정호 명조의 디지털 후예"
+        }
+      ],
+      "realTypefaces": [
+        "최정호 명조 원도",
+        "최정호 고딕 원도",
+        "동아출판사·삼화인쇄 활자"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-choejeongsun",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "최정순",
+    "titleEn": "Choi Jeong-sun",
+    "origin": "한국",
+    "period": "1917–2016",
+    "field": "타이포그래피",
+    "oneLiner": "교과서·신문 활자의 근간을 그린 원도 설계자 — 최정호와 쌍벽.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "국정교과서체 원도",
+      "평화당 명조·고딕",
+      "문화바탕체·문화돋움체"
+    ],
+    "related": [
+      "type-k-choejeongho",
+      "type-k-myeongjo",
+      "type-k-gothic"
+    ],
+    "detail": {
+      "desc": "최정호와 함께 한국 1세대 활자 디자이너로 꼽히는 원도 설계자. 1954년 일본에서 벤턴 자모조각기 조작법을 배워 와, 한글활자개량위원회의 도움으로 국정교과서체 원도를 만들고 평화당인쇄의 명조·고딕 원도를 그렸다. 한국일보·중앙일보·경향신문 등 주요 신문용 활자체를 잇따라 개발했고, 1982년 서울신문 전산조판(CTS)용 바탕체·돋움체, 1990년대 문화부 표준 글자체(문화바탕체·돋움체) 사업에도 참여했다.",
+      "traits": [
+        "국정교과서체 원도 설계",
+        "한국일보·중앙일보 등 신문 활자",
+        "벤턴 자모조각기 도입",
+        "CTS·문화부 표준체 개발"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "교과서·신문 본문체 계열"
+        },
+        {
+          "name": "Gowun Batang",
+          "css": "'Gowun Batang', serif",
+          "note": "교과서체 인상의 부드러운 바탕"
+        }
+      ],
+      "realTypefaces": [
+        "국정교과서체 원도",
+        "평화당 명조·고딕",
+        "문화바탕체·문화돋움체"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-ahnsangsoo",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "안상수",
+    "titleEn": "Ahn Sang-soo",
+    "origin": "한국",
+    "period": "1952–",
+    "field": "타이포그래피",
+    "oneLiner": "안상수체로 탈네모틀을 대중화한 타이포그래퍼 — 한글 실험의 상징.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "안상수체(1985)",
+      "안상수체 2012",
+      "마노체",
+      "이상체"
+    ],
+    "related": [
+      "type-k-talnemo",
+      "type-k-agtypo",
+      "type-k-noeunyu"
+    ],
+    "detail": {
+      "desc": "1985년 《과학동아》 제호로 설계한 '안상수체'로 한글 탈네모틀 글꼴을 대중에 각인시킨 그래픽 디자이너이자 타이포그래퍼. 닿자·홀자·받침을 같은 모양·크기로 모아 짜는 세벌식 조합형으로, 디자이너가 만든 첫 본격 탈네모틀 글꼴로 평가된다. 홍익대 교수로 20여 년 재직하며 실험잡지 《보고서/보고서》를 펴냈고, 2012년 파주에 독립 디자인 학교 파티(PaTI, 파주타이포그라피배곳)를 세웠다.",
+      "traits": [
+        "안상수체(1985) — 세벌식 탈네모틀",
+        "실험잡지 《보고서/보고서》",
+        "홍익대 교수·파티(PaTI) 설립",
+        "한글 전위 타이포그래피"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Black Han Sans",
+          "css": "'Black Han Sans', sans-serif",
+          "note": "탈네모 디스플레이 무드"
+        },
+        {
+          "name": "Do Hyeon",
+          "css": "'Do Hyeon', sans-serif",
+          "note": "실험적 한글 제목용"
+        }
+      ],
+      "realTypefaces": [
+        "안상수체(1985)",
+        "안상수체 2012",
+        "마노체",
+        "이상체"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-kimjinpyeong",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "김진평",
+    "titleEn": "Kim Jin-pyeong",
+    "origin": "한국",
+    "period": "1949–1998",
+    "field": "타이포그래피",
+    "oneLiner": "한글 레터링의 대부 — 명조·고딕 구조를 처음 분석한 이론가.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "김진평 레터링 작업",
+      "한글 글자표현 도해"
+    ],
+    "related": [
+      "type-k-myeongjo",
+      "type-k-gothic",
+      "type-k-ahnsangsoo"
+    ],
+    "detail": {
+      "desc": "1970~90년대 한글 활자꼴의 황무지 시대에 레터링과 이론을 함께 일군 시각 디자이너이자 교육자. 합동통신 광고기획실과 한국판 《리더스 다이제스트》 아트디렉터를 거쳐 1981년부터 서울여대 교수로 재직했다. 1983년 펴낸 《한글의 글자표현》은 한글의 다양한 표현법을 정리하고 명조·고딕의 구조를 분석한 최초의 책으로, 한글 디자인을 체계화한 토대가 됐다. 모나지 않고 손맛을 살린 레터링으로 '한글 레터링의 대부'로 불린다.",
+      "traits": [
+        "《한글의 글자표현》(1983) 저술",
+        "명조·고딕 구조 최초 분석",
+        "서울여대 교수·교육자",
+        "로고·매체 레터링 다수"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Sans KR",
+          "css": "'Noto Sans KR', sans-serif",
+          "note": "구조 분석의 대상이던 고딕 계열"
+        },
+        {
+          "name": "Jua",
+          "css": "'Jua', sans-serif",
+          "note": "손맛 살린 레터링 무드"
+        }
+      ],
+      "realTypefaces": [
+        "김진평 레터링 작업",
+        "한글 글자표현 도해"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-leeyongje",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "이용제",
+    "titleEn": "Lee Yong-je",
+    "origin": "한국",
+    "period": "1972–",
+    "field": "타이포그래피",
+    "oneLiner": "한글 디자인 첫 박사 — 바람체·꽃길의 세로쓰기 활자 운동가.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "바람체",
+      "꽃길",
+      "아리따(공동 제작)"
+    ],
+    "related": [
+      "type-k-hwaljagonggan",
+      "type-k-talnemo",
+      "type-k-noeunyu"
+    ],
+    "detail": {
+      "desc": "한국 최초로 한글 디자인으로 박사 학위를 받은 활자 디자이너이자 교육자. 2004년 한글을 연구·제작하는 회사 '활자공간'을 세워 세로쓰기 전용 글꼴 '바람체'·'꽃길' 등 실험적 한글 활자를 꾸준히 만들었고, 아모레퍼시픽 전용서체 '아리따' 제작에도 참여했다. 카페·마켓 '히읗'을 운영하며 2012년부터 타이포그래피 교양지 《히읗》을 펴내, 한글 활자 문화를 대중과 잇는 액티비스트형 작업을 이어 왔다.",
+      "traits": [
+        "한글 디자인 첫 박사",
+        "활자공간 설립·운영",
+        "세로쓰기 글꼴 바람체·꽃길",
+        "타이포 잡지 《히읗》 발행"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Gaegu",
+          "css": "'Gaegu', cursive",
+          "note": "손글씨풍 한글 — 실험적 활자 무드"
+        },
+        {
+          "name": "Gowun Batang",
+          "css": "'Gowun Batang', serif",
+          "note": "정갈한 본문 바탕체"
+        }
+      ],
+      "realTypefaces": [
+        "바람체",
+        "꽃길",
+        "아리따(공동 제작)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-seokgeumho",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "석금호",
+    "titleEn": "Seok Geum-ho",
+    "origin": "한국",
+    "period": "1955–",
+    "field": "타이포그래피",
+    "oneLiner": "산돌을 세운 한글 폰트 산업의 개척자 — 한국 최초의 폰트 회사.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "산돌고딕",
+      "산돌광수체",
+      "맑은 고딕",
+      "산돌네오고딕"
+    ],
+    "related": [
+      "type-k-sandoll",
+      "type-k-digital",
+      "type-k-gothic"
+    ],
+    "detail": {
+      "desc": "1984년 산돌(산돌글자은행)을 세운 서체 디자이너로, 한국 디지털 폰트 산업의 개척자. 《리더스 다이제스트》 아트디렉터로 일하던 1980년대 초, 일본에서 수입한 사진식자기에 한글을 의존하던 현실에 문제의식을 느껴 창업에 나섰다. 컴퓨터 보급 전이라 3년간 수입 없이 버텼다는 일화가 유명하며, 1990년대 DTP 시대가 열리자 그동안 쌓은 서체로 도약했다. 산돌광수체·맑은 고딕·산돌네오고딕 등 250여 종을 개발하며 회사를 폰트 업계 1위로 키웠다.",
+      "traits": [
+        "산돌 창업(1984)",
+        "한국 최초의 폰트 회사",
+        "사진식자 한글 종속에 문제의식",
+        "250여 종 서체 개발 주도"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Sans KR",
+          "css": "'Noto Sans KR', sans-serif",
+          "note": "산돌이 제작 참여한 본고딕 계열"
+        },
+        {
+          "name": "Black Han Sans",
+          "css": "'Black Han Sans', sans-serif",
+          "note": "산돌 제작 무료 디스플레이체"
+        }
+      ],
+      "realTypefaces": [
+        "산돌고딕",
+        "산돌광수체",
+        "맑은 고딕",
+        "산돌네오고딕"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-noeunyu",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "노은유",
+    "titleEn": "Noh Eun-you",
+    "origin": "한국",
+    "period": "1983–",
+    "field": "타이포그래피",
+    "oneLiner": "최정호를 복원한 글꼴 연구자 — AG타이포그라피연구소의 이론가.",
+    "credibility": "established",
+    "keywords": [
+      "한국",
+      "안상수체 2012(공동)",
+      "소리체(연구)"
+    ],
+    "related": [
+      "type-k-choejeongho",
+      "type-k-agtypo",
+      "type-k-ahnsangsoo"
+    ],
+    "detail": {
+      "desc": "한글 글꼴 디자이너이자 연구자로, 최정호 한글꼴 연구로 박사 학위를 받았다. 박사 과정 동안 한국은 물론 일본까지 건너가 최정호의 초기 작업물을 추적·발굴했고, 그 성과를 안상수와 함께 펴낸 《한글 디자이너 최정호》로 정리했다. AG타이포그라피연구소 책임연구원으로 안상수체 2012 등의 작업에 참여하며, 일본어 발음을 한글 제자원리로 적는 '소리체'를 연구하는 등 한글 활자의 역사와 확장을 잇는 작업을 해 왔다.",
+      "traits": [
+        "최정호 한글꼴 박사 연구",
+        "《한글 디자이너 최정호》 공저",
+        "AG타이포그라피연구소 책임연구원",
+        "소리체 연구"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Serif KR",
+          "css": "'Noto Serif KR', serif",
+          "note": "최정호 명조 계보 연구 대상"
+        },
+        {
+          "name": "Nanum Myeongjo",
+          "css": "'Nanum Myeongjo', serif",
+          "note": "본문 명조 후예"
+        }
+      ],
+      "realTypefaces": [
+        "안상수체 2012(공동)",
+        "소리체(연구)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-sandoll",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "산돌 (Sandoll)",
+    "titleEn": "Sandoll",
+    "origin": "한국 · 석금호",
+    "period": "1984년 설립",
+    "field": "타이포그래피",
+    "oneLiner": "한국 최초의 폰트 회사 — 산돌고딕·산돌구름으로 폰트 업계 1위.",
+    "credibility": "established",
+    "keywords": [
+      "한국 · 석금호",
+      "산돌고딕",
+      "산돌명조",
+      "산돌네오고딕(iOS)",
+      "산돌광수체"
+    ],
+    "related": [
+      "type-k-seokgeumho",
+      "type-k-yoondesign",
+      "type-k-digital"
+    ],
+    "detail": {
+      "desc": "1984년 석금호가 세운 한국 최초의 본격 폰트 회사. 사진식자 시대를 거쳐 DTP·디지털 폰트로 도약했고, 산돌고딕·산돌명조·산돌광수체와 애플 iOS에 쓰인 산돌네오고딕, 맑은 고딕·나눔고딕 제작 참여 등으로 한글 본문체의 표준을 다듬었다. 2018년 사명을 (주)산돌로 바꾸고 2022년 코스닥에 상장했으며, 구독형 폰트 플랫폼 '산돌구름'을 운영한다. 2024년 경쟁사 윤디자인그룹을 인수하며 업계 지배력을 강화했다.",
+      "traits": [
+        "한국 최초 폰트 회사(1984)",
+        "산돌고딕·산돌명조 등 대표 본문체",
+        "구독형 플랫폼 산돌구름",
+        "코스닥 상장·윤디자인 인수"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Noto Sans KR",
+          "css": "'Noto Sans KR', sans-serif",
+          "note": "산돌이 제작 참여한 본고딕"
+        },
+        {
+          "name": "Black Han Sans",
+          "css": "'Black Han Sans', sans-serif",
+          "note": "산돌 제작 무료 디스플레이체"
+        }
+      ],
+      "realTypefaces": [
+        "산돌고딕",
+        "산돌명조",
+        "산돌네오고딕(iOS)",
+        "산돌광수체"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-yoondesign",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "윤디자인그룹",
+    "titleEn": "Yoon Design Group",
+    "origin": "한국 · 윤영기",
+    "period": "1989년 설립",
+    "field": "타이포그래피",
+    "oneLiner": "윤명조·윤고딕의 본가 — 한글 폰트 산업의 양대 산맥.",
+    "credibility": "established",
+    "keywords": [
+      "한국 · 윤영기",
+      "윤명조",
+      "윤고딕",
+      "서울서체"
+    ],
+    "related": [
+      "type-k-sandoll",
+      "type-k-digital",
+      "type-k-myeongjo"
+    ],
+    "detail": {
+      "desc": "1989년 윤영기가 세운 윤디자인연구소를 모체로 한 한글 글꼴 회사로, 창업주 이름에서 회사명을 땄다. 윤명조·윤고딕·서울서체 등 출판·디자인 현장에서 널리 쓰인 본문·제목체를 만들었고, 1994년 윤고딕100 활자가족을 시작으로 200·300·500·700 등 폭넓은 가족 시리즈를 구축했다. 1991년 대전엑스포 전용서체를 제공하는 등 기업 전용서체 분야를 개척했으며, 폰트 클라우드 '폰코(font.co.kr)'를 운영하다 2024년 산돌에 인수됐다.",
+      "traits": [
+        "윤명조·윤고딕·서울서체",
+        "활자가족 시리즈(100~700)",
+        "기업 전용서체 개척",
+        "폰트 플랫폼 폰코 운영"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Nanum Gothic",
+          "css": "'Nanum Gothic', sans-serif",
+          "note": "윤고딕 계열 본문 고딕 인상"
+        },
+        {
+          "name": "Nanum Myeongjo",
+          "css": "'Nanum Myeongjo', serif",
+          "note": "윤명조 계열 본문 명조 인상"
+        }
+      ],
+      "realTypefaces": [
+        "윤명조",
+        "윤고딕",
+        "서울서체"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-agtypo",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "AG타이포그라피연구소",
+    "titleEn": "AG Typography Institute",
+    "origin": "한국 · 안그라픽스",
+    "period": "2012년 설립",
+    "field": "타이포그래피",
+    "oneLiner": "안그라픽스의 글꼴 연구소 — 안상수체를 잇는 활자 연구의 산실.",
+    "credibility": "established",
+    "keywords": [
+      "한국 · 안그라픽스",
+      "AG 안상수체 2012",
+      "AG 최정호 계열 글꼴"
+    ],
+    "related": [
+      "type-k-ahnsangsoo",
+      "type-k-noeunyu",
+      "type-k-talnemo"
+    ],
+    "detail": {
+      "desc": "1985년 안상수가 세운 디자인 회사 안그라픽스(안그라픽스)의 부설 연구소로 2012년 설립됐다. 글꼴의 조형미와 가독성을 함께 연구해, 안상수체를 다벌식·그룹 커닝으로 재구성한 '안상수체 2012'를 비롯한 AG 글꼴들을 개발한다. 노은유 등 연구자가 참여해 최정호 연구·소리체 같은 한글 활자의 역사와 실험을 잇는 작업을 수행하며, 전통과 혁신을 결합한 타이포그래피 연구의 한 거점을 이룬다.",
+      "traits": [
+        "안그라픽스 부설(2012)",
+        "안상수체 2012 재구성",
+        "조형·가독성 연구 병행",
+        "최정호 연구·소리체 등 실험"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Black Han Sans",
+          "css": "'Black Han Sans', sans-serif",
+          "note": "탈네모·실험 활자 무드"
+        },
+        {
+          "name": "Do Hyeon",
+          "css": "'Do Hyeon', sans-serif",
+          "note": "실험적 제목 한글"
+        }
+      ],
+      "realTypefaces": [
+        "AG 안상수체 2012",
+        "AG 최정호 계열 글꼴"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "type-k-hwaljagonggan",
+    "domain": "typography",
+    "category": "한글 타이포그래피",
+    "categoryLabel": "한글 타이포그래피",
+    "title": "활자공간",
+    "titleEn": "Type Space (Hwalja Gonggan)",
+    "origin": "한국 · 이용제",
+    "period": "2004년 설립",
+    "field": "타이포그래피",
+    "oneLiner": "이용제의 한글 활자 작업실 — 바람체·꽃길과 잡지 《히읗》.",
+    "credibility": "established",
+    "keywords": [
+      "한국 · 이용제",
+      "바람체",
+      "꽃길",
+      "아리따(공동)"
+    ],
+    "related": [
+      "type-k-leeyongje",
+      "type-k-talnemo",
+      "type-k-digital"
+    ],
+    "detail": {
+      "desc": "2004년 이용제가 세운, 한글을 연구하고 활자를 제작하는 회사. 세로쓰기 전용 글꼴 '바람체'·'꽃길'을 비롯한 실험적 한글 활자를 만들고, 아모레퍼시픽 '아리따' 제작에도 참여했다. 카페·마켓 '히읗'을 운영하며 2012년부터 타이포그래피 교양지 《히읗》을 펴내, 작은 규모로 한글 활자의 조형 실험과 대중적 확산을 함께 추구하는 독립 작업실형 활자 회사다.",
+      "traits": [
+        "이용제 설립(2004)",
+        "세로쓰기 글꼴 바람체·꽃길",
+        "타이포 잡지 《히읗》 발행",
+        "독립 작업실형 활자 회사"
+      ],
+      "palette": [],
+      "typo": "",
+      "fonts": [
+        {
+          "name": "Gaegu",
+          "css": "'Gaegu', cursive",
+          "note": "손글씨풍 실험 한글 무드"
+        },
+        {
+          "name": "Gowun Batang",
+          "css": "'Gowun Batang', serif",
+          "note": "정갈한 본문 바탕"
+        }
+      ],
+      "realTypefaces": [
+        "바람체",
+        "꽃길",
+        "아리따(공동)"
+      ],
+      "sampleText": "",
+      "motifs": [],
+      "motifDesc": "",
+      "figures": [],
+      "figurePortraits": {},
+      "artworks": [],
+      "gallery": null,
+      "demo": ""
+    }
+  },
+  {
+    "id": "serif",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "세리프",
+    "titleEn": "Serif",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "획 끝의 작은 돌기(세리프)가 있는 활자.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Serif"
+    ],
+    "related": [
+      "renaissance",
+      "neoclassicism",
+      "victorian"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Serif"
+      }
+    ],
+    "detail": {
+      "desc": "획 끝의 작은 돌기(세리프)가 있는 활자. 로마 비문에서 르네상스 활자로 이어진 가장 오래된 계보로, 긴 글의 가독성과 고전적 권위를 담당한다. 올드스타일–트랜지셔널–디돈으로 진화했다.",
+      "wiki": "Serif",
+      "svg": ""
+    }
+  },
+  {
+    "id": "sans-serif",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "산세리프",
+    "titleEn": "Sans-serif",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "돌기 없는(\"sans\") 활자.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Sans-serif"
+    ],
+    "related": [
+      "bauhaus",
+      "swiss",
+      "flat-design"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sans-serif"
+      }
+    ],
+    "detail": {
+      "desc": "돌기 없는(\"sans\") 활자. 19세기 광고용으로 태어나 바우하우스와 스위스 스타일이 모더니즘의 목소리로 끌어올렸다. 헬베티카와 푸투라가 양대 산맥이며, 화면 시대의 기본값이 됐다.",
+      "wiki": "Sans-serif",
+      "svg": ""
+    }
+  },
+  {
+    "id": "display-type",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "디스플레이체",
+    "titleEn": "Display Type",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "본문이 아니라 제목·간판을 위해 개성을 극대화한 활자.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Display Type"
+    ],
+    "related": [
+      "victorian",
+      "art-deco",
+      "pop-art"
+    ],
+    "sources": [],
+    "detail": {
+      "desc": "본문이 아니라 제목·간판을 위해 개성을 극대화한 활자. 빅토리안 우드타입 포스터에서 시작해, 아르데코의 기하 장식체와 팝아트의 코믹 레터링으로 이어지는 \"시선을 붙잡는 글자\"의 역사.",
+      "wiki": "",
+      "svg": ""
+    }
+  },
+  {
+    "id": "script",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "스크립트체",
+    "titleEn": "Script Type",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "손글씨의 흐름을 활자로 옮긴 서체.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Script Type"
+    ],
+    "related": [
+      "rococo",
+      "midcentury",
+      "skeuomorphism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Script_typeface"
+      }
+    ],
+    "detail": {
+      "desc": "손글씨의 흐름을 활자로 옮긴 서체. 로코코 동판 스크립트의 격식부터 미드센추리 간판의 경쾌한 브러시까지 — 기계 시대에 손의 온기를 공급하는 역할을 맡아왔다.",
+      "wiki": "Script typeface",
+      "svg": ""
+    }
+  },
+  {
+    "id": "lettering",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "레터링",
+    "titleEn": "Lettering",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "활자를 고르는 게 아니라 글자를 그리는 일.",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Lettering"
+    ],
+    "related": [
+      "art-nouveau",
+      "psychedelic",
+      "grunge"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lettering"
+      }
+    ],
+    "detail": {
+      "desc": "활자를 고르는 게 아니라 글자를 그리는 일. 아르누보의 덩굴 글자, 사이키델릭의 녹아내리는 포스터 글자가 대표적이며, 단 한 번을 위해 만들어진다는 점에서 폰트와 구분된다.",
+      "wiki": "Lettering",
+      "svg": ""
+    }
+  },
+  {
+    "id": "blackletter",
+    "domain": "typography",
+    "category": "타이포그래피 개념",
+    "categoryLabel": "타이포그래피 개념",
+    "title": "블랙레터",
+    "titleEn": "Blackletter",
+    "origin": "",
+    "field": "개념",
+    "oneLiner": "중세 필사체에서 온 짙고 각진 활자(프락투어 등).",
+    "credibility": "established",
+    "keywords": [
+      "타이포그래피",
+      "Blackletter"
+    ],
+    "related": [
+      "victorian",
+      "expressionism"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Blackletter"
+      }
+    ],
+    "detail": {
+      "desc": "중세 필사체에서 온 짙고 각진 활자(프락투어 등). 구텐베르크 성서의 서체이자 독일 표현주의의 무기였고, 권위(신문 제호)와 반항(메탈 밴드 로고)을 동시에 상징하는 이중적 글자.",
+      "wiki": "Blackletter",
+      "svg": ""
+    }
+  }
+]

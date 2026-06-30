@@ -228,9 +228,13 @@ main:focus { outline: none; }
 .swatch b { display: block; font-size: 10.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 
 /* 폰트(양식) */
-.fontrow { padding: 14px 0; border-top: 1px solid var(--hairline); }
-.fontrow .fp { font-size: 26px; line-height: 1.2; }
-.fontrow .fn { font-size: 12.5px; color: var(--ink-faint); margin-top: 4px; }
+.fontrow { padding: 16px 0; border-top: 1px solid var(--hairline); }
+.fontrow .fp { font-size: 42px; line-height: 1.1; color: var(--ink); display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.fontrow .fp .fp-az { font-size: 17px; color: var(--ink-faint); letter-spacing: .04em; }
+.fontrow .fn { font-size: 12.5px; color: var(--ink-faint); margin-top: 7px; }
+.fontrow .fn b { color: var(--ink); font-weight: 600; }
+.fontrow .fn a { color: var(--c-typo); border-bottom: 1px solid transparent; }
+.fontrow .fn a:hover { border-color: var(--c-typo); }
 
 .chips-inline { display: flex; flex-wrap: wrap; gap: 8px; }
 .tag { font-size: 13px; padding: 5px 12px; background: var(--paper-warm); color: var(--ink-soft); border-radius: 4px; }
@@ -312,6 +316,12 @@ main:focus { outline: none; }
 .timeline-type .tl-row-type { height: 88px; }
 .tl-glyph { position: absolute; top: 50%; left: 0; transform-origin: left center; font-size: clamp(26px, 4vw, 46px); line-height: 1; color: var(--ink); white-space: nowrap; letter-spacing: .01em; opacity: .9; transition: opacity .15s; pointer-events: none; }
 .tl-row-type:hover .tl-glyph { opacity: 1; }
+/* 타임라인 막대 카테고리 구분 (인물·파운드리·한글) */
+.tl-cat-person .tl-bar { background: #2b2b2b; }
+.tl-cat-foundry .tl-bar { background: var(--c-typo); }
+.tl-cat-korean .tl-bar { background: #9a9a9a; }
+.tl-leg { display: inline-flex; align-items: center; gap: 4px; margin: 0 3px; }
+.tl-leg i { width: 14px; height: 6px; border-radius: 9999px; display: inline-block; }
 
 /* ── 대표작 (시각 위계 최상위) ── */
 .artwork-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }

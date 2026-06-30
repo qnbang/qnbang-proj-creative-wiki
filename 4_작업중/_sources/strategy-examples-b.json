@@ -145,14 +145,16 @@
     ],
     "en": [
       {"copy": "We're number two. We try harder.", "brand": "Avis (DDB)", "year": "1962", "note": "1등이 아닌 '2등' 자리를 정직하게 점유해 강점으로 전환 — 빈자리 포지셔닝의 원형"},
-      {"copy": "Think Small.", "brand": "Volkswagen (DDB)", "year": "1959", "note": "대형차 시장과 정반대인 '소형·정직' 포지션을 선점 — 차별 포지션 슬로건"}
+      {"copy": "Think Small.", "brand": "Volkswagen (DDB)", "year": "1959", "note": "대형차 시장과 정반대인 '소형·정직' 포지션을 선점 — 차별 포지션 슬로건"},
+      {"copy": "Are you tired of companies like Google and Facebook watching everything you do online? There's a simple solution: DuckDuckGo.", "brand": "DuckDuckGo", "year": "2022", "note": "1등 구글(과 페이스북)을 '감시하는 검색·서비스'로 규정하고 자신을 그 반대편 '추적 안 하는 프라이버시 검색(Privacy, simplified.)'으로 세워, 챌린저가 1등과의 대비로 소비자 머릿속에 '한 자리(프라이버시)'를 점유한 라이스&트라우트식 포지셔닝(2022년 전국 TV·라디오 집행). (최신)"}
     ]
   },
   "brand-archetypes": {
     "ko": [],
     "en": [
       {"copy": "Just Do It.", "brand": "Nike", "year": "1988", "note": "한계를 넘어서라는 명령 — 영웅(Hero) 원형이 그대로 드러나는 슬로건"},
-      {"copy": "Live to Ride, Ride to Live.", "brand": "Harley-Davidson", "year": "1980s", "note": "기성 질서를 거부하고 자유를 좇는 무법자/반항아(Outlaw·Rebel) 원형"}
+      {"copy": "Live to Ride, Ride to Live.", "brand": "Harley-Davidson", "year": "1980s", "note": "기성 질서를 거부하고 자유를 좇는 무법자/반항아(Outlaw·Rebel) 원형"},
+      {"copy": "Rebuild the World.", "brand": "LEGO", "year": "2019", "note": "'무엇이든 부수고 다시 지어 새로 만든다'는 창조·놀이 정신을 일관되게 내세워, 융 12원형 중 창조자(Creator) 원형을 그대로 체현한 캠페인(레고 30년 만의 첫 글로벌 브랜드 캠페인). (최신)"}
     ]
   },
   "golden-circle": {
@@ -160,7 +162,8 @@
       {"copy": "사람을 향합니다.", "brand": "SK텔레콤", "year": "2005", "note": "통신 기술(What)이 아니라 '왜=결국 사람을 위해서'라는 신념(Why)부터 말한 캠페인 — 골든서클 Why-first 사례"}
     ],
     "en": [
-      {"copy": "Think Different.", "brand": "Apple", "year": "1997", "note": "제품(What)이 아니라 '다르게 생각한다'는 신념(Why)을 먼저 선언 — 사이먼 시넥이 든 골든서클의 대표 사례"}
+      {"copy": "Think Different.", "brand": "Apple", "year": "1997", "note": "제품(What)이 아니라 '다르게 생각한다'는 신념(Why)을 먼저 선언 — 사이먼 시넥이 든 골든서클의 대표 사례"},
+      {"copy": "Earth is now our only shareholder.", "brand": "Patagonia", "year": "2022", "note": "재킷·기능(What)이 아니라 '우리는 지구를 구하려고 사업한다'는 신념(Why)을 먼저 말하고, 그 신념대로 회사 소유권 전체를 지구(환경 신탁)에 넘겼다고 선언한 사이먼 시넥식 Why-first 카피(2022년 9월 소유구조 전환 발표). (최신)"}
     ]
   }
 }

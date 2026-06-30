@@ -223,15 +223,16 @@ function timelineHTML(items) {
         const thumb = art ? `<img src="${esc(art.src)}" alt="${esc(it.title)}" loading="lazy">`
           : demo ? `<div class="demo-thumb">${demo}</div>`
           : `<span class="tl-thumb-ph">${esc(it.title.slice(0, 1))}</span>`;
+        const catCls = isType ? (it.category === '거장·인물' ? ' tl-cat-person' : it.category === '파운드리' ? ' tl-cat-foundry' : it.category === '한글 타이포그래피' ? ' tl-cat-korean' : '') : '';
         const w = Math.max(2, tlX(yr[1]) - tlX(yr[0]));
-        return `<a class="tl-row" href="#/item/${it.id}">
+        return `<a class="tl-row${catCls}" href="#/item/${it.id}">
           <span class="tl-thumb">${thumb}</span>
           <span class="tl-name">${esc(it.title)}<em>${esc(it.period)}</em></span>
           <span class="tl-track"><i class="tl-bar" style="left:${tlX(yr[0])}%;width:${w}%"></i></span>
         </a>`;
       }).join('')}
     </div>
-    <p class="tl-note">${isType ? '활자 양식 = 그 시대 대표 서체로 렌더 · 인물·회사·한글은 막대 · 시대순 · 가로 = 등장 시기' : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
+    <p class="tl-note">${isType ? `활자 양식 = 그 시대 대표 서체로 렌더 · 막대 <span class="tl-leg"><i style="background:#2b2b2b"></i>인물</span><span class="tl-leg"><i style="background:var(--c-typo)"></i>파운드리</span><span class="tl-leg"><i style="background:#9a9a9a"></i>한글</span> · 시대순 · 가로 = 등장 시기` : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
   </div>`;
 }
 function applyFilters() {
@@ -287,7 +288,7 @@ function renderItem(id) {
       + section('개요', det.desc)
       + tagBlock('특징', det.traits)
       + paletteBlock(det.palette)
-      + (det.typo ? section('타이포그래피', det.typo) : '') + fontsBlock(det.fonts)
+      + (det.typo ? section('타이포그래피', det.typo) : '') + fontsBlock(det.fonts, it)
       + (det.motifDesc ? section('모티프', det.motifDesc) : '') + tagBlock('', det.motifs)
       + figuresBlock(det.figures, det.figurePortraits)
       + (it.domain === 'typography' ? fontLinksBlock(it) : galleryBlock(det.gallery, it))
@@ -315,7 +316,7 @@ function renderItem(id) {
   </article></div>`;
 
   // 양식 서체 동적 로드 (프리뷰가 실제 폰트로 보이도록)
-  if (it.domain === 'art-movement' && det.fonts && det.fonts.length) {
+  if ((it.domain === 'art-movement' || it.domain === 'typography') && det.fonts && det.fonts.length) {
     ensureFontLink(det.fonts.map((f) => (f.name || '').trim().replace(/ /g, '+')).filter(Boolean).join('&family='));
   }
   // 팔레트 색 복사
@@ -330,11 +331,15 @@ function paletteBlock(pal) {
   if (!pal || !pal.length) return '';
   return `<div class="detail-block"><div class="detail-sub">팔레트</div><div class="palette">${pal.map((p) => `<span class="swatch" data-hex="${esc(p.hex)}"><i style="background:${esc(p.hex)}"></i><span>${esc(p.name || '')}</span><b>${esc(p.hex)}</b></span>`).join('')}</div></div>`;
 }
-function fontsBlock(fonts) {
+function fontsBlock(fonts, item) {
   if (!fonts || !fonts.length) return '';
-  return `<div class="detail-block"><div class="detail-sub">서체</div>${fonts.map((f) => {
-    const g = `https://fonts.google.com/specimen/${(f.name || '').trim().replace(/ /g, '+')}`;
-    return `<div class="fontrow"><div class="fp" style="font-family:${f.css || 'inherit'}">${esc(f.name)}</div><div class="fn">${esc(f.note || '')}${f.name ? ` · <a href="${g}" target="_blank" rel="noopener">Google Fonts에서 받기 ↗</a>` : ''}</div></div>`;
+  const isKo = item && item.category === '한글 타이포그래피';
+  const sample = isKo ? '다람쥐 헌 쳇바퀴' : 'Hamburgevons';
+  return `<div class="detail-block"><div class="detail-sub">서체 미리보기 · 받기</div>${fonts.map((f) => {
+    const nm = (f.name || '').trim();
+    const g = `https://fonts.google.com/specimen/${nm.replace(/ /g, '+')}`;
+    const ad = `https://fonts.adobe.com/search?query=${encodeURIComponent(nm)}`;
+    return `<div class="fontrow"><div class="fp" style="font-family:${f.css || 'inherit'}">${esc(sample)}<span class="fp-az">Aa Bb Gg · 0123</span></div><div class="fn"><b>${esc(nm)}</b>${f.note ? ` · ${esc(f.note)}` : ''}${nm ? ` · <a href="${g}" target="_blank" rel="noopener">Google Fonts ↗</a> <a href="${ad}" target="_blank" rel="noopener">Adobe ↗</a>` : ''}</div></div>`;
   }).join('')}</div>`;
 }
 function ensureFontLink(families) {
@@ -386,7 +391,7 @@ function fontLinksBlock(item) {
   const d = item.detail || {};
   const isKorean = item.category === '한글 타이포그래피';
   const clean = (s) => String(s).replace(/\s*\(.*?\)\s*/g, '').replace(/[，,].*$/, '').trim();
-  const names = [...(d.fonts || []).map((f) => f.name), ...(d.realTypefaces || [])].map(clean).filter(Boolean);
+  const names = [...(d.realTypefaces || [])].map(clean).filter(Boolean);
   const uniqNames = [...new Set(names)].slice(0, 8);
   const rows = uniqNames.map((n) => {
     const q = encodeURIComponent(n);
@@ -402,7 +407,7 @@ function fontLinksBlock(item) {
     `<a href="https://fonts.adobe.com/search?query=${browse}" target="_blank" rel="noopener">Adobe Fonts ↗</a>`,
     `<a href="https://noonnu.cc/index" target="_blank" rel="noopener">눈누(무료 한글폰트) ↗</a>`,
   ];
-  return `<div class="detail-block"><div class="detail-sub">관련 서체 · 받기</div>
+  return `<div class="detail-block"><div class="detail-sub">원본·역사적 활자체 · 더 찾기</div>
     ${uniqNames.length ? `<ul class="fontlist">${rows}</ul>` : ''}
     <div class="mood-links">${platforms.join('')}</div>
   </div>`;

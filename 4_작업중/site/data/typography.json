@@ -3698,7 +3698,7 @@
     "detail": {
       "desc": "획 끝의 작은 돌기(세리프)가 있는 활자. 로마 비문에서 르네상스 활자로 이어진 가장 오래된 계보로, 긴 글의 가독성과 고전적 권위를 담당한다. 올드스타일–트랜지셔널–디돈으로 진화했다.",
       "wiki": "Serif",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='235' y='180' text-anchor='middle' font-size='180' fill='#222' font-family='Georgia, serif'>A</text><circle cx='195' cy='172' r='26' fill='none' stroke='#222' stroke-width='2'/><line x1='214' y1='154' x2='265' y2='110' stroke='#888' stroke-width='1.5'/><text x='420' y='100' text-anchor='middle' font-size='14' fill='#888' font-family='sans-serif'>획 끝의</text><text x='420' y='120' text-anchor='middle' font-size='14' fill='#888' font-family='sans-serif'>작은 돌기</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>획 끝의 작은 돌기(세리프)가 있는 활자</text></svg>"
     }
   },
   {
@@ -3730,7 +3730,7 @@
     "detail": {
       "desc": "돌기 없는(\"sans\") 활자. 19세기 광고용으로 태어나 바우하우스와 스위스 스타일이 모더니즘의 목소리로 끌어올렸다. 헬베티카와 푸투라가 양대 산맥이며, 화면 시대의 기본값이 됐다.",
       "wiki": "Sans-serif",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='235' y='180' text-anchor='middle' font-size='180' fill='#222' font-family='Arial, Helvetica, sans-serif'>A</text><circle cx='192' cy='172' r='26' fill='none' stroke='#222' stroke-width='2'/><line x1='210' y1='152' x2='265' y2='110' stroke='#888' stroke-width='1.5'/><text x='420' y='100' text-anchor='middle' font-size='14' fill='#888' font-family='sans-serif'>돌기 없는</text><text x='420' y='120' text-anchor='middle' font-size='14' fill='#888' font-family='sans-serif'>곧은 획 끝</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>획 끝에 돌기가 없는(sans) 활자</text></svg>"
     }
   },
   {
@@ -3757,7 +3757,7 @@
     "detail": {
       "desc": "본문이 아니라 제목·간판을 위해 개성을 극대화한 활자. 빅토리안 우드타입 포스터에서 시작해, 아르데코의 기하 장식체와 팝아트의 코믹 레터링으로 이어지는 \"시선을 붙잡는 글자\"의 역사.",
       "wiki": "",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='200' y='175' text-anchor='middle' font-size='150' font-weight='bold' fill='#222' font-family='Impact, sans-serif'>Aa</text><line x1='340' y1='95' x2='500' y2='95' stroke='#888' stroke-width='2'/><line x1='340' y1='110' x2='500' y2='110' stroke='#888' stroke-width='2'/><line x1='340' y1='125' x2='480' y2='125' stroke='#888' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>개성을 극대화해 시선을 붙잡는 제목·간판용 활자</text></svg>"
     }
   },
   {
@@ -3789,7 +3789,7 @@
     "detail": {
       "desc": "손글씨의 흐름을 활자로 옮긴 서체. 로코코 동판 스크립트의 격식부터 미드센추리 간판의 경쾌한 브러시까지 — 기계 시대에 손의 온기를 공급하는 역할을 맡아왔다.",
       "wiki": "Script typeface",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='70' y1='150' x2='490' y2='150' stroke='#bbb' stroke-width='2'/><path d='M80 150 C100 90 140 90 150 150 C160 190 195 130 210 150 C225 168 250 100 270 150 C285 185 320 110 340 150 C355 178 390 120 410 150 C425 172 460 150 480 120' fill='none' stroke='#222' stroke-width='3'/><circle cx='480' cy='120' r='5' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>손글씨의 흐름을 한 획으로 이어 옮긴 서체</text></svg>"
     }
   },
   {
@@ -3821,7 +3821,7 @@
     "detail": {
       "desc": "활자를 고르는 게 아니라 글자를 그리는 일. 아르누보의 덩굴 글자, 사이키델릭의 녹아내리는 포스터 글자가 대표적이며, 단 한 번을 위해 만들어진다는 점에서 폰트와 구분된다.",
       "wiki": "Lettering",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g stroke='#bbb' stroke-width='1'><line x1='180' y1='60' x2='180' y2='190'/><line x1='220' y1='60' x2='220' y2='190'/><line x1='260' y1='60' x2='260' y2='190'/><line x1='300' y1='60' x2='300' y2='190'/><line x1='340' y1='60' x2='340' y2='190'/><line x1='380' y1='60' x2='380' y2='190'/><line x1='160' y1='80' x2='400' y2='80'/><line x1='160' y1='130' x2='400' y2='130'/><line x1='160' y1='170' x2='400' y2='170'/></g><path d='M210 170 L210 90 L300 90 Q330 90 330 120 Q330 145 300 145 L240 145 M285 145 L340 170' fill='none' stroke='#222' stroke-width='4'/><line x1='360' y1='70' x2='420' y2='55' stroke='#222' stroke-width='3'/><polygon points='360,70 372,66 366,78' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>활자를 고르는 게 아니라 작도선 위에 글자를 직접 그린다</text></svg>"
     }
   },
   {
@@ -3852,7 +3852,7 @@
     "detail": {
       "desc": "중세 필사체에서 온 짙고 각진 활자(프락투어 등). 구텐베르크 성서의 서체이자 독일 표현주의의 무기였고, 권위(신문 제호)와 반항(메탈 밴드 로고)을 동시에 상징하는 이중적 글자.",
       "wiki": "Blackletter",
-      "svg": ""
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='#222'><polygon points='150,70 168,70 168,180 150,180'/><polygon points='150,70 162,64 180,64 168,70'/><polygon points='150,180 168,180 186,186 168,186'/><polygon points='200,70 218,70 218,180 200,180'/><polygon points='200,70 212,64 230,64 218,70'/><polygon points='200,180 218,180 236,186 218,186'/><polygon points='250,70 268,70 268,180 250,180'/><polygon points='250,70 262,64 280,64 268,70'/><polygon points='250,180 268,180 286,186 268,186'/></g><g stroke='#222' stroke-width='3'><line x1='168' y1='100' x2='200' y2='130'/><line x1='218' y1='100' x2='250' y2='130'/></g><polygon points='320,64 360,64 360,186 320,186' fill='#222'/><polygon points='360,64 380,72 380,100 360,92' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>중세 필사체에서 온 짙고 각진 활자(프락투어)</text></svg>"
     }
   }
 ]

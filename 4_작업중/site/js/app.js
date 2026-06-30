@@ -207,15 +207,15 @@ function timelineHTML(items) {
     <div class="tl-body">
       ${decades.map((y) => `<i class="tl-grid" style="left:${tlX(y)}%"></i>`).join('')}
       ${list.map(({ it, yr }) => {
-        if (isType) {
-          const f = it.detail && it.detail.fonts && it.detail.fonts[0];
-          const ff = (f && f.css) || 'inherit';
-          const sample = (it.detail && it.detail.sampleText) || it.title;
+        const f = it.detail && it.detail.fonts && it.detail.fonts[0];
+        const sample = it.detail && it.detail.sampleText;
+        // 활자 양식(sampleText+대표서체 보유)만 큰 글자로 — 인물·파운드리·한글은 막대 유지
+        if (isType && sample && f && f.css) {
           const x = tlX(yr[0]);
           const tf = x > 66 ? 'translate(-100%,-50%)' : 'translate(0,-50%)';
           return `<a class="tl-row tl-row-type" href="#/item/${it.id}">
             <span class="tl-name">${esc(it.title)}<em>${esc(it.period)}</em></span>
-            <span class="tl-track"><span class="tl-glyph" style="left:${x}%;transform:${tf};font-family:${ff}">${esc(sample)}</span></span>
+            <span class="tl-track"><span class="tl-glyph" style="left:${x}%;transform:${tf};font-family:${f.css}">${esc(sample)}</span></span>
           </a>`;
         }
         const art = it.detail && it.detail.artworks && it.detail.artworks[0];
@@ -231,7 +231,7 @@ function timelineHTML(items) {
         </a>`;
       }).join('')}
     </div>
-    <p class="tl-note">${isType ? '글자 = 그 시대 대표 활자 (대표 서체로 렌더) · 시대순 · 가로 위치 = 등장 시기' : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
+    <p class="tl-note">${isType ? '활자 양식 = 그 시대 대표 서체로 렌더 · 인물·회사·한글은 막대 · 시대순 · 가로 = 등장 시기' : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
   </div>`;
 }
 function applyFilters() {

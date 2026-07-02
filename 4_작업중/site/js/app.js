@@ -1,11 +1,11 @@
-// 크리에이티브 인덱스 — 통합 위키 앱 (바닐라 ES module)
+// 크리에이티브 인덱스, 통합 위키 앱 (바닐라 ES module)
 // 데이터: data/*.json (공통 필드 + detail 도메인 원본)
 
 const DOMAINS = {
-  'aesthetics':        { ko: '미감', en: 'AESTHETICS', color: 'var(--c-aesthetics)', desc: '아름다움이 작동하는 원리 — 게슈탈트 지각에서 신경미학까지.' },
-  'art-movement':      { ko: '양식', en: 'MOVEMENTS',  color: 'var(--c-art)',        desc: '미술·디자인 양식의 역사와 개념 사전 — 색·타이포·인물로 읽는다.' },
-  'typography':        { ko: '타이포', en: 'TYPOGRAPHY', color: 'var(--c-typo)',     desc: '활자의 역사와 사람 — 양식·거장·파운드리, 그리고 한글.' },
-  'creative-strategy': { ko: '전략', en: 'STRATEGY',   color: 'var(--c-strategy)',   desc: '카피·발상·설득의 법칙 — 이론적 근거와 신뢰도까지 함께.' },
+  'aesthetics':        { ko: '미감', en: 'AESTHETICS', color: 'var(--c-aesthetics)', desc: '아름다움이 작동하는 원리. 게슈탈트 지각에서 신경미학까지.' },
+  'art-movement':      { ko: '양식', en: 'MOVEMENTS',  color: 'var(--c-art)',        desc: '미술·디자인 양식의 역사와 개념 사전. 색·타이포·인물로 읽는다.' },
+  'typography':        { ko: '타이포', en: 'TYPOGRAPHY', color: 'var(--c-typo)',     desc: '활자의 역사와 사람. 양식·거장·파운드리, 그리고 한글.' },
+  'creative-strategy': { ko: '전략', en: 'STRATEGY',   color: 'var(--c-strategy)',   desc: '카피·발상·설득의 법칙. 이론적 근거와 신뢰도까지 함께.' },
 };
 const DOMAIN_ORDER = ['aesthetics', 'art-movement', 'typography', 'creative-strategy'];
 
@@ -49,11 +49,16 @@ function toggleMark(id) {
 }
 function toast(msg) {
   let t = $('#toast');
-  if (!t) { t = document.createElement('div'); t.id = 'toast';
-    t.style.cssText = 'position:fixed;left:50%;bottom:34px;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;font-size:13px;z-index:200;opacity:0;transition:opacity .25s;pointer-events:none';
-    document.body.appendChild(t); }
+  if (!t) { t = document.createElement('div'); t.id = 'toast'; document.body.appendChild(t); }
   t.textContent = msg; t.style.opacity = '1';
   clearTimeout(t._t); t._t = setTimeout(() => { t.style.opacity = '0'; }, 1400);
+}
+
+// ── 테마 (라이트/다크 듀얼) ──
+const THEME_KEY = 'ckw_theme';
+function applyTheme(t) {
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem(THEME_KEY, t); } catch { /* noop */ }
 }
 
 // ── 데이터 로드 ──
@@ -118,10 +123,10 @@ function renderHome() {
   const featured = pickFeatured();
   view.innerHTML = `
     <section class="hero">
-      <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#222" stroke-width="2.5"/><circle cx="50" cy="50" r="40" fill="none" stroke="#222" stroke-width="2.5" transform="rotate(0 50 50)" stroke-dasharray="2 10"/><circle cx="50" cy="50" r="10" fill="#222"/></svg></div>
+      <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(0 50 50)" stroke-dasharray="2 10"/><circle cx="50" cy="50" r="10" fill="currentColor"/></svg></div>
       <h1 class="hero-title">크리에이티브 인덱스</h1>
-      <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙 —<br>흩어진 크리에이티브 지식을 하나의 색인으로. <b>${ALL.length}</b>개 항목.</p>
-      <form class="hero-search" id="homeSearch"><input type="search" placeholder="무엇이든 검색 — 대비, 바우하우스, 프레이밍…" aria-label="검색"></form>
+      <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙. 흩어진 크리에이티브 지식을 하나의 색인으로 모았습니다. <b>${ALL.length}</b>개 항목.</p>
+      <form class="hero-search" id="homeSearch"><input type="search" placeholder="무엇이든 검색: 대비, 바우하우스, 프레이밍…" aria-label="검색"></form>
     </section>
     <div class="wrap">
       <section class="domains">${domainCards}</section>
@@ -209,7 +214,7 @@ function timelineHTML(items) {
       ${list.map(({ it, yr }) => {
         const f = it.detail && it.detail.fonts && it.detail.fonts[0];
         const sample = it.detail && it.detail.sampleText;
-        // 활자 양식(sampleText+대표서체 보유)만 큰 글자로 — 인물·파운드리·한글은 막대 유지
+        // 활자 양식(sampleText+대표서체 보유)만 큰 글자로, 인물·파운드리·한글은 막대 유지
         if (isType && sample && f && f.css) {
           const x = tlX(yr[0]);
           const tf = x > 66 ? 'translate(-100%,-50%)' : 'translate(0,-50%)';
@@ -232,7 +237,7 @@ function timelineHTML(items) {
         </a>`;
       }).join('')}
     </div>
-    <p class="tl-note">${isType ? `활자 양식 = 그 시대 대표 서체로 렌더 · 막대 <span class="tl-leg"><i style="background:#2b2b2b"></i>인물</span><span class="tl-leg"><i style="background:var(--c-typo)"></i>파운드리</span><span class="tl-leg"><i style="background:#9a9a9a"></i>한글</span> · 시대순 · 가로 = 등장 시기` : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
+    <p class="tl-note">${isType ? `활자 양식 = 그 시대 대표 서체로 렌더 · 막대 <span class="tl-leg"><i style="background:var(--ink)"></i>인물</span><span class="tl-leg"><i style="background:var(--c-typo)"></i>파운드리</span><span class="tl-leg"><i style="background:var(--ink-faint)"></i>한글</span> · 시대순 · 가로 = 등장 시기` : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
   </div>`;
 }
 function applyFilters() {
@@ -309,7 +314,7 @@ function renderItem(id) {
     ${meta.length ? `<div class="detail-source">${meta.map((m) => `<span>${esc(m)}</span>`).join('')}</div>` : ''}
     <p class="detail-oneliner">${esc(it.oneLiner)}</p>
     <div class="detail-actions">
-      <button class="btn ${marked ? 'on' : ''}" data-mark="${it.id}">${marked ? '★ 저장됨' : '☆ 북마크'}</button>
+      <button class="btn ${marked ? 'on' : ''}" data-mark="${it.id}">${marked ? '저장됨' : '북마크'}</button>
     </div>
     <div class="detail-body">${body}</div>
     ${rel.length ? `<div class="detail-block" style="margin-top:40px"><div class="detail-sub">연결된 항목</div><div class="related-grid">${rel.map(cardHTML).join('')}</div></div>` : ''}
@@ -339,7 +344,7 @@ function fontsBlock(fonts, item) {
     const nm = (f.name || '').trim();
     const g = `https://fonts.google.com/specimen/${nm.replace(/ /g, '+')}`;
     const ad = `https://fonts.adobe.com/search?query=${encodeURIComponent(nm)}`;
-    return `<div class="fontrow"><div class="fp" style="font-family:${f.css || 'inherit'}">${esc(sample)}<span class="fp-az">Aa Bb Gg · 0123</span></div><div class="fn"><b>${esc(nm)}</b>${f.note ? ` · ${esc(f.note)}` : ''}${nm ? ` · <a href="${g}" target="_blank" rel="noopener">Google Fonts ↗</a> <a href="${ad}" target="_blank" rel="noopener">Adobe ↗</a>` : ''}</div></div>`;
+    return `<div class="fontrow"><div class="fp" style="font-family:${f.css || 'inherit'}">${esc(sample)}<span class="fp-az">Aa Bb Gg · 0123</span></div><div class="fn"><b>${esc(nm)}</b>${f.note ? ` · ${esc(f.note)}` : ''}${nm ? ` · <a href="${g}" target="_blank" rel="noopener">Google Fonts</a> <a href="${ad}" target="_blank" rel="noopener">Adobe</a>` : ''}</div></div>`;
   }).join('')}</div>`;
 }
 function ensureFontLink(families) {
@@ -356,7 +361,7 @@ function figures(imgs) {
 }
 function sourcesBlock(sources) {
   if (!sources || !sources.length) return '';
-  return `<div class="detail-block"><div class="detail-sub">출처</div><ul class="sources">${sources.map((s) => `<li>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)} ↗</a>` : esc(s.label)}</li>`).join('')}</ul></div>`;
+  return `<div class="detail-block"><div class="detail-sub">출처</div><ul class="sources">${sources.map((s) => `<li>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)}</a>` : esc(s.label)}</li>`).join('')}</ul></div>`;
 }
 function artworksBlock(arts) {
   if (!arts || !arts.length) return '';
@@ -403,9 +408,9 @@ function fontLinksBlock(item) {
   }).join('');
   const browse = encodeURIComponent(item.titleEn || item.title);
   const platforms = [
-    `<a href="https://fonts.google.com/?query=${browse}" target="_blank" rel="noopener">Google Fonts ↗</a>`,
-    `<a href="https://fonts.adobe.com/search?query=${browse}" target="_blank" rel="noopener">Adobe Fonts ↗</a>`,
-    `<a href="https://noonnu.cc/index" target="_blank" rel="noopener">눈누(무료 한글폰트) ↗</a>`,
+    `<a href="https://fonts.google.com/?query=${browse}" target="_blank" rel="noopener">Google Fonts</a>`,
+    `<a href="https://fonts.adobe.com/search?query=${browse}" target="_blank" rel="noopener">Adobe Fonts</a>`,
+    `<a href="https://noonnu.cc/index" target="_blank" rel="noopener">눈누(무료 한글폰트)</a>`,
   ];
   return `<div class="detail-block"><div class="detail-sub">원본·역사적 활자체 · 더 찾기</div>
     ${uniqNames.length ? `<ul class="fontlist">${rows}</ul>` : ''}
@@ -414,8 +419,8 @@ function fontLinksBlock(item) {
 }
 function galleryBlock(g, it) {
   const links = `<div class="mood-links">
-    ${g && g.q ? `<a href="https://www.pinterest.com/search/pins/?q=${encodeURIComponent(g.q)}" target="_blank" rel="noopener">Pinterest에서 더 보기 ↗</a>` : ''}
-    <a href="https://artvee.com/?s=${encodeURIComponent(it.titleEn || it.title)}" target="_blank" rel="noopener">Artvee에서 보기 ↗</a>
+    ${g && g.q ? `<a href="https://www.pinterest.com/search/pins/?q=${encodeURIComponent(g.q)}" target="_blank" rel="noopener">Pinterest에서 더 보기</a>` : ''}
+    <a href="https://artvee.com/?s=${encodeURIComponent(it.titleEn || it.title)}" target="_blank" rel="noopener">Artvee에서 보기</a>
   </div>`;
   if (!g || !g.images || !g.images.length) return `<div class="detail-block"><div class="detail-sub">더 보기</div>${links}</div>`;
   return `<div class="detail-block"><div class="detail-sub">분위기 더 보기 <span class="muted-note">영감용 · 시대 분류 미검증</span></div>
@@ -441,17 +446,17 @@ function renderBoard() {
   const items = getMarks().map((id) => BY_ID.get(id)).filter(Boolean);
   view.innerHTML = `<div class="wrap">
     <div class="explore-head"><h2 class="section-head" style="padding-top:8px">내 보드 <span class="muted">${items.length}개 저장됨</span></h2></div>
-    ${items.length ? grid(items) : `<div class="board-empty">아직 저장한 항목이 없습니다.<br>카드의 ☆를 눌러 마음에 든 법칙·양식을 모아보세요. <a href="#/explore">탐색하러 가기</a></div>`}
+    ${items.length ? grid(items) : `<div class="board-empty">아직 저장한 항목이 없습니다.<br>카드의 별 버튼을 눌러 마음에 든 법칙·양식을 모아 보세요. <a href="#/explore">탐색하러 가기</a></div>`}
   </div>`;
 }
 
 // ── 뷰: 소개 ──
 function renderAbout() {
-  const legend = Object.values(CRED).map((c) => `<span class="badge ${c.cls}"><i class="b-dot"></i>${c.ko} — ${c.note}</span>`).join('');
+  const legend = Object.values(CRED).map((c) => `<span class="badge ${c.cls}"><i class="b-dot"></i>${c.ko} · ${c.note}</span>`).join('');
   view.innerHTML = `<div class="wrap"><div class="about">
     <h2>소개</h2>
-    <p>〈크리에이티브 인덱스〉는 흩어져 있던 세 갈래의 크리에이티브 지식을 하나의 색인으로 모읍니다 — <b>미감</b>(아름다움의 원리), <b>양식</b>(미술·디자인 사조와 개념), <b>전략</b>(카피·발상·설득의 법칙).</p>
-    <p>각 항목은 한 줄 정의 — 설명 — 근거 — 적용의 순서로 정리되며, 가능한 한 출처를 명시합니다.</p>
+    <p>〈크리에이티브 인덱스〉는 흩어져 있던 크리에이티브 지식을 하나의 색인으로 모읍니다. <b>미감</b>(아름다움의 원리), 양식(미술·디자인 사조와 개념), 타이포(활자의 역사와 사람), 전략(카피·발상·설득의 법칙).</p>
+    <p>각 항목은 한 줄 정의, 설명, 근거, 적용의 순서로 정리되며, 가능한 한 출처를 명시합니다.</p>
     <p><b>신뢰도 배지</b>는 "이론적으로 얼마나 단단한가"를 표시합니다. 거장의 직관과 실험으로 검증된 정설을 구분하기 위한 장치입니다.</p>
     <div class="legend">${legend}</div>
     <p class="muted" style="font-size:13px">데이터: 미감의 법칙(117) · 디자인 양식 FORMA(양식 34 + 개념 45) · 크리에이티브 전략(작성 중). 예시 도판은 퍼블릭 도메인 및 자체 제작.</p>
@@ -499,12 +504,15 @@ function refreshStars() {
   view.querySelectorAll('[data-mark]').forEach((b) => {
     const on = isMarked(b.dataset.mark);
     if (b.classList.contains('card-star')) { b.classList.toggle('on', on); b.textContent = on ? '★' : '☆'; }
-    else if (b.classList.contains('btn')) { b.classList.toggle('on', on); b.textContent = on ? '★ 저장됨' : '☆ 북마크'; }
+    else if (b.classList.contains('btn')) { b.classList.toggle('on', on); b.textContent = on ? '저장됨' : '북마크'; }
   });
 }
 
 // ── 시작 ──
 (async function init() {
+  $('#themeToggle')?.addEventListener('click', () => {
+    applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+  });
   view.innerHTML = `<div class="wrap"><div class="empty">불러오는 중…</div></div>`;
   await loadData();
   window.addEventListener('hashchange', router);

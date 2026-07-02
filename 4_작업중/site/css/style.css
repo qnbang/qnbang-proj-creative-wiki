@@ -344,7 +344,7 @@ main:focus { outline: none; }
 .about .muted { color: var(--ink-faint); }
 
 /* ── 풋터 ── */
-.site-footer { padding: 0 24px 16px; border-top: 1px solid var(--hairline); margin-top: 40px; }
+.site-footer { padding: 0 24px 16px; border-top: 1px solid var(--hairline); margin-top: 40px; overflow: hidden; }
 .footer-links {
   display: flex; justify-content: space-between; max-width: var(--maxw); margin: 0 auto;
   padding: 24px calc(var(--pad) - 24px); font-size: 13px; color: var(--ink-muted);
@@ -353,7 +353,7 @@ main:focus { outline: none; }
 .footer-links a:hover { color: var(--ink); }
 .footer-wordmark {
   font-family: var(--font-title);
-  font-size: clamp(48px, 15vw, 230px); font-weight: 700; letter-spacing: var(--ls-kr);
+  font-size: clamp(40px, 10vw, 200px); font-weight: 700; letter-spacing: var(--ls-kr);
   line-height: 1.05; text-align: center; white-space: nowrap; color: var(--ink);
 }
 
@@ -486,6 +486,7 @@ main:focus { outline: none; }
   .timeline-type .tl-row-type { height: auto; }
   .timeline-type .tl-track { height: auto; min-height: 44px; }
   .tl-glyph { position: static; transform: none !important; font-size: 30px; opacity: 1; }
+  .tl-axis-label.tl-now { display: none; }  /* 좁은 축에서 마지막 연도와 겹침 방지 */
 }
 
 /* ── 모션 축소 ── */

@@ -6,8 +6,9 @@ const DOMAINS = {
   'art-movement':      { ko: '양식', en: 'MOVEMENTS',  color: 'var(--c-art)',        desc: '미술·디자인 양식의 역사와 개념 사전. 색·타이포·인물로 읽는다.' },
   'typography':        { ko: '타이포', en: 'TYPOGRAPHY', color: 'var(--c-typo)',     desc: '활자의 역사와 사람. 양식·거장·파운드리, 그리고 한글.' },
   'creative-strategy': { ko: '전략', en: 'STRATEGY',   color: 'var(--c-strategy)',   desc: '카피·발상·설득의 법칙. 이론적 근거와 신뢰도까지 함께.' },
+  'frontend':          { ko: '프론트엔드', en: 'FRONTEND', color: 'var(--c-frontend)', desc: '웹·앱 개발 용어 사전. 비전공자 눈높이로, 화면 뒤에서 무슨 일이 일어나는지.' },
 };
-const DOMAIN_ORDER = ['aesthetics', 'art-movement', 'typography', 'creative-strategy'];
+const DOMAIN_ORDER = ['aesthetics', 'art-movement', 'typography', 'creative-strategy', 'frontend'];
 
 // 타임라인용 연도 파싱: "1400–1600" / "1960s–현재" / "1950s–1975 / 웹 2014–"
 const NOW = 2026;
@@ -63,7 +64,7 @@ function applyTheme(t) {
 
 // ── 데이터 로드 ──
 async function loadData() {
-  const files = ['aesthetics', 'art-movement', 'typography', 'creative-strategy'];
+  const files = ['aesthetics', 'art-movement', 'typography', 'creative-strategy', 'frontend'];
   const sets = await Promise.all(files.map((f) =>
     fetch(`data/${f}.json`, { cache: 'no-store' }).then((r) => r.ok ? r.json() : []).catch(() => [])));
   ALL = sets.flat();
@@ -72,7 +73,7 @@ async function loadData() {
     BY_ID.set(it.id, it);
     const d = it.detail || {};
     it._search = [it.title, it.titleEn, it.origin, it.field, it.categoryLabel, it.oneLiner,
-      (it.keywords || []).join(' '), d.desc, d.why, d.rationale, d.typo, d.motifDesc,
+      (it.keywords || []).join(' '), d.desc, d.why, d.how, d.rationale, d.typo, d.motifDesc,
       (d.traits || []).join(' '), (d.figures || []).join(' '), (d.apply || []).join(' ')]
       .filter(Boolean).join(' ').toLowerCase();
   });
@@ -88,7 +89,11 @@ function cardThumb(item) {
   const dm = DOMAINS[item.domain];
   if (d.artworks && d.artworks[0]) return `<img src="${esc(d.artworks[0].src)}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
   if (d.demo) return `<span class="ct-demo">${d.demo}</span>`;
-  if (d.svg) return `<span class="ct-svg">${d.svg}</span>`;
+  if (d.svg) {
+    // SVG 자체 배경색을 썸네일 박스(16:10)에도 채워 레터박스 띠를 없앤다
+    const bg = (d.svg.match(/<rect[^>]*fill=["']([^"']+)["']/) || [])[1];
+    return `<span class="ct-svg"${bg ? ` style="background:${bg}"` : ''}>${d.svg}</span>`;
+  }
   return `<span class="ct-ph" style="--phc:${dm.color}">${esc((item.title || '·').slice(0, 1))}</span>`;
 }
 function cardHTML(item) {
@@ -125,7 +130,7 @@ function renderHome() {
     <section class="hero">
       <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(0 50 50)" stroke-dasharray="2 10"/><circle cx="50" cy="50" r="10" fill="currentColor"/></svg></div>
       <h1 class="hero-title">크리에이티브 인덱스</h1>
-      <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙. 흩어진 크리에이티브 지식을 하나의 색인으로 모았습니다. <b>${ALL.length}</b>개 항목.</p>
+      <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙, 프론트엔드 용어까지. 흩어진 크리에이티브 지식을 하나의 색인으로 모았습니다. <b>${ALL.length}</b>개 항목.</p>
       <form class="hero-search" id="homeSearch"><input type="search" placeholder="무엇이든 검색: 대비, 바우하우스, 프레이밍…" aria-label="검색"></form>
     </section>
     <div class="wrap">
@@ -304,6 +309,8 @@ function renderItem(id) {
       + listBlock('적용', det.apply)
       + examplesBlock(det.examples)
       + sourcesBlock(it.sources);
+  } else if (it.domain === 'frontend') {
+    body = section('정의', det.desc) + section('작동 방식', det.how) + sourcesBlock(it.sources);
   }
 
   const rel = (it.related || []).map((rid) => BY_ID.get(rid)).filter(Boolean);
@@ -455,11 +462,11 @@ function renderAbout() {
   const legend = Object.values(CRED).map((c) => `<span class="badge ${c.cls}"><i class="b-dot"></i>${c.ko} · ${c.note}</span>`).join('');
   view.innerHTML = `<div class="wrap"><div class="about">
     <h2>소개</h2>
-    <p>〈크리에이티브 인덱스〉는 흩어져 있던 크리에이티브 지식을 하나의 색인으로 모읍니다. <b>미감</b>(아름다움의 원리), 양식(미술·디자인 사조와 개념), 타이포(활자의 역사와 사람), 전략(카피·발상·설득의 법칙).</p>
+    <p>〈크리에이티브 인덱스〉는 흩어져 있던 크리에이티브 지식을 하나의 색인으로 모읍니다. <b>미감</b>(아름다움의 원리), 양식(미술·디자인 사조와 개념), 타이포(활자의 역사와 사람), 전략(카피·발상·설득의 법칙), 프론트엔드(웹·앱 개발 용어).</p>
     <p>각 항목은 한 줄 정의, 설명, 근거, 적용의 순서로 정리되며, 가능한 한 출처를 명시합니다.</p>
     <p><b>신뢰도 배지</b>는 "이론적으로 얼마나 단단한가"를 표시합니다. 거장의 직관과 실험으로 검증된 정설을 구분하기 위한 장치입니다.</p>
     <div class="legend">${legend}</div>
-    <p class="muted" style="font-size:13px">데이터: 미감의 법칙(117) · 디자인 양식 FORMA(양식 34 + 개념 45) · 크리에이티브 전략(작성 중). 예시 도판은 퍼블릭 도메인 및 자체 제작.</p>
+    <p class="muted" style="font-size:13px">데이터: 미감의 법칙(117) · 디자인 양식 FORMA(양식 34 + 개념 45) · 크리에이티브 전략(작성 중) · 프론트엔드 용어(88). 예시 도판은 퍼블릭 도메인 및 자체 제작.</p>
   </div></div>`;
 }
 

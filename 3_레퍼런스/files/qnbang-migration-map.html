@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QNBANG 변환 대응표 — 바닐라 → React</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F8; --surface:#FFFFFF; --ink:#16181D;
+    --muted:#5C6270; --faint-text:#8A8F9C;
+    --border:#E4E7EE; --faint:#EEF0F5;
+    --shadow:0 1px 2px rgba(20,24,33,.04), 0 4px 16px rgba(20,24,33,.04);
+    --radius:14px;
+    --sans:'Pretendard',system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:800px;margin:0 auto;padding:0 18px}
+
+  header.top{padding:40px 0 20px}
+  .kicker{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.04em;color:var(--faint-text);text-transform:uppercase;margin-bottom:12px}
+  h1{font-size:33px;line-height:1.14;font-weight:800;letter-spacing:-.03em}
+  .lede{margin-top:12px;font-size:15px;color:var(--muted);max-width:62ch}
+
+  .verdict{margin-top:22px;background:var(--ink);color:#fff;border-radius:18px;padding:26px 22px}
+  .verdict .kicker{color:rgba(255,255,255,.5)}
+  .verdict h2{font-size:19px;font-weight:700;margin-bottom:10px}
+  .verdict p{font-size:14.5px;color:rgba(255,255,255,.82);margin-bottom:10px}
+  .verdict p:last-child{margin-bottom:0}
+  .verdict b{color:#fff}
+  .verdict .warn{margin-top:14px;font-size:13.5px;color:#FFD9D2;background:rgba(224,79,61,.16);border-left:3px solid #E0533D;border-radius:0 8px 8px 0;padding:10px 13px}
+
+  .stack{margin-top:14px;display:flex;flex-wrap:wrap;gap:7px}
+  .stack span{font-size:12px;font-family:var(--mono);font-weight:600;color:var(--muted);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:5px 10px}
+
+  .controls{position:sticky;top:0;z-index:20;background:rgba(244,245,248,.88);backdrop-filter:saturate(180%) blur(10px);-webkit-backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--border);padding:12px 0 10px;margin-top:24px}
+  .search-box{position:relative}
+  .search-box svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--faint-text);pointer-events:none}
+  #search{width:100%;font-family:var(--sans);font-size:15px;padding:11px 38px 11px 40px;border:1px solid var(--border);border-radius:11px;background:var(--surface);color:var(--ink);outline:none}
+  #search::placeholder{color:var(--faint-text)}
+  #search:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(22,24,29,.08)}
+  #clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:var(--faint);color:var(--muted);width:24px;height:24px;border-radius:7px;cursor:pointer;font-size:14px;display:none}
+  .chips{display:flex;gap:7px;overflow-x:auto;margin-top:10px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;white-space:nowrap;text-decoration:none}
+  .chip .ltr{font-family:var(--mono);font-weight:700;color:var(--c)}
+  .chip.active{background:var(--c);color:#fff;border-color:var(--c)}
+  .chip.active .ltr{color:rgba(255,255,255,.9)}
+  .chip.dim{opacity:.35;pointer-events:none}
+
+  main{padding:18px 0 40px}
+  .section{padding-top:30px;scroll-margin-top:130px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .badge{flex:0 0 auto;font-family:var(--mono);font-weight:700;font-size:15px;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;color:#fff;background:var(--c)}
+  .sec-head h2{font-size:19px;font-weight:700;letter-spacing:-.02em}
+  .sec-sub{font-size:13.5px;color:var(--muted);margin:0 0 14px 46px}
+
+  .row{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:15px 17px;margin-bottom:10px}
+  .row-head{display:flex;align-items:center;flex-wrap:wrap;gap:6px 9px;margin-bottom:7px}
+  .from{font-family:var(--mono);font-weight:700;font-size:13.5px;color:var(--muted);word-break:break-word}
+  .arrow{color:var(--faint-text);font-weight:700}
+  .to{font-family:var(--mono);font-weight:700;font-size:13.5px;color:var(--c);word-break:break-word}
+  .lvl{margin-left:auto;font-size:11px;font-weight:700;font-family:var(--mono);padding:3px 9px;border-radius:999px;white-space:nowrap}
+  .lvl.easy{color:#1C7A4C;background:rgba(31,157,107,.13)}
+  .lvl.mid{color:#946312;background:rgba(192,138,30,.16)}
+  .lvl.hard{color:#B3382B;background:rgba(224,79,61,.13)}
+  .row-desc{font-size:14px;color:#33373F}
+  .row-memo{margin-top:9px;font-size:13px;color:#33373F;background:var(--c-soft);border-left:3px solid var(--c);border-radius:0 8px 8px 0;padding:8px 11px}
+
+  .empty{display:none;text-align:center;color:var(--muted);padding:50px 0;font-size:15px}
+
+  .order{margin-top:44px;background:var(--ink);color:#fff;border-radius:18px;padding:26px 22px}
+  .order .kicker{color:rgba(255,255,255,.5)}
+  .order h2{font-size:19px;font-weight:700;margin-bottom:14px}
+  .step{display:flex;gap:14px;padding:13px 0;border-top:1px solid rgba(255,255,255,.12)}
+  .step:first-of-type{border-top:none}
+  .step .s{font-family:var(--mono);font-weight:700;font-size:13px;color:rgba(255,255,255,.5);flex:0 0 auto;width:22px}
+  .step b{font-size:14.5px;font-weight:700;display:block;margin-bottom:2px}
+  .step span{font-size:13.5px;color:rgba(255,255,255,.62)}
+
+  footer{padding:30px 0 50px;color:var(--faint-text);font-size:12.5px;font-family:var(--mono)}
+  @media (max-width:480px){h1{font-size:27px}.lvl{margin-left:0}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">QNBANG · Migration Map</div>
+    <h1>바닐라 → React 변환 대응표</h1>
+    <p class="lede">실제 코드를 분석해 만든 표입니다. 지금 쓰는 파일·기술이 React에서 무엇으로 바뀌는지, 난이도와 함께 정리했습니다. 용어가 막히면 앞서 만든 교본에서 찾아보세요.</p>
+
+    <div class="verdict">
+      <div class="kicker">결론</div>
+      <h2>엔진을 다시 짜지 말고, React로 감싸라</h2>
+      <p>이 사이트는 스크롤과 3D가 <b>GSAP·ScrollTrigger·Lenis·Three.js</b>로 깊게 얽혀 있습니다. 이런 명령형 애니메이션은 React로 다시 짠다고 좋아지지 않습니다. React의 이점(컴포넌트 재사용·상태관리)은 이 영역에 거의 닿지 않습니다.</p>
+      <p>그래서 정답은 <b>엔진은 그대로 두고 React 컴포넌트로 감싸는 것</b>입니다. GSAP·Three.js 코드는 거의 그대로 살리고, 화면 구조와 데이터만 React식으로 나눕니다.</p>
+      <div class="warn">정직한 경고 — 비개발자에게 이 규모는 난도가 높습니다. 가장 위험한 두 곳은 ScrollTrigger의 핀·스크럽 타이밍과 3D의 R3F 전환입니다. "전부 React로 바꾼다" 대신 "지금 구조를 유지·정리만 한다"를 다시 저울질할 가치가 있습니다.</p>
+    </div>
+
+    <div class="stack">
+      <span>Three.js v0.160</span><span>GSAP</span><span>ScrollTrigger</span><span>Lenis</span><span>importmap</span><span>no-build</span><span>Vercel</span><span>i18n</span><span>main.js 2501줄</span>
+    </div>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="검색 (예: 블루베리, ScrollTrigger, 갤러리, 커서)" autocomplete="off">
+      <button id="clear">✕</button>
+    </div>
+    <nav class="chips" id="chips"></nav>
+  </div>
+</div>
+
+<div class="wrap">
+  <main id="main"></main>
+  <div class="empty" id="empty">검색 결과가 없습니다.</div>
+
+  <section class="order">
+    <div class="kicker">Recommended Order</div>
+    <h2>권장 작업 순서</h2>
+    <div class="step"><div class="s">1</div><div><b>토대 세우기</b><span>Vite + React 빈 프로젝트 생성, Node.js·npm 설치. index.html의 정적 마크업을 섹션 컴포넌트로만 옮긴다. 아직 움직임 없음.</span></div></div>
+    <div class="step"><div class="s">2</div><div><b>스크롤 복원</b><span>Lenis → ReactLenis, GSAP·ScrollTrigger를 훅으로 붙여 스크롤·핀·시퀀스를 되살린다. 여기가 1차 고비.</span></div></div>
+    <div class="step"><div class="s">3</div><div><b>3D 이식</b><span>히어로·푸터·갤러리를 react-three-fiber로 마지막에 옮긴다. 셰이더는 그대로 재사용. 3D를 먼저 건드리지 말 것.</span></div></div>
+    <div class="step"><div class="s">4</div><div><b>마무리</b><span>커서·다국어·인터랙션을 컴포넌트로 정리하고 Vercel에 빌드 배포한다.</span></div></div>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const DATA = [
+{id:"A", name:"프로젝트 토대", sub:"가장 먼저 손대는 부분. 환경부터 바꾼다.", rows:[
+ {from:"빌드 없음 (script + importmap)", to:"Vite + npm 프로젝트", lvl:"보통", desc:"React는 그냥 안 열리고 빌드가 필요하다. Vite로 React 프로젝트를 새로 만들고 거기에 코드를 옮긴다.", memo:"먼저 Node.js를 PC에 설치해야 한다. 이게 모든 작업의 출발점이다."},
+ {from:"index.html 한 장", to:"App + 섹션 컴포넌트 트리", lvl:"보통", desc:"한 덩어리 HTML을 인트로·히어로·About·프로젝트·멤버·갤러리·푸터 컴포넌트로 쪼갠다."},
+ {from:"serve.py / Vercel 배포", to:"Vite 빌드 → Vercel", lvl:"쉬움", desc:"배포처는 그대로 Vercel을 쓴다. 빌드 결과물만 올리면 된다."},
+ {from:"gtag (Google Analytics)", to:"동일 스크립트 삽입", lvl:"쉬움", desc:"분석 코드는 거의 그대로 넣는다. 바뀌는 게 거의 없다."},
+]},
+{id:"B", name:"페이지 구조 (main.js 분해)", sub:"2501줄 모놀리스를 조각으로 나누는 핵심 작업.", rows:[
+ {from:"main.js (2501줄)", to:"섹션 컴포넌트 + 커스텀 훅", lvl:"어려움", desc:"한 파일에 뭉친 모든 로직을 기능별 컴포넌트와 훅으로 분리한다. 이 변환의 본체다.", memo:"한 번에 다 옮기지 말고, 아래 섹션을 하나씩 떼어 옮기고 매번 화면을 확인한다."},
+ {from:"인트로/프리로더 (QN! 로고 + GSAP)", to:"<Preloader/> + useGSAP", lvl:"보통", desc:"로고 SVG 등장 애니메이션을 컴포넌트로 감싸고, GSAP 타임라인은 훅 안에서 그대로 돌린다."},
+ {from:"히어로 이미지 시퀀스 (341장 스크럽)", to:"<HeroSequence/> (canvas ref)", lvl:"어려움", desc:"스크롤에 맞춰 341장을 캔버스에 그리는 명령형 코드다. React로 다시 짜지 말고 canvas를 ref로 잡아 기존 방식 그대로 구동한다."},
+ {from:"PROJECTS 데이터 객체", to:"projects.js 데이터 + map 렌더", lvl:"쉬움", desc:"프로젝트 카피·이미지·태그 데이터를 따로 빼고, map으로 카드를 그린다. React가 가장 잘하는 부분이다."},
+ {from:"About / Members / Footer 섹션", to:"각 섹션 컴포넌트", lvl:"보통", desc:"멤버 롤러, About 패럴랙스 등을 컴포넌트로 옮긴다. 내부 GSAP은 useGSAP로 유지."},
+]},
+{id:"C", name:"스크롤 엔진", sub:"되살리기 가장 까다로운 부분. 엔진은 재사용한다.", rows:[
+ {from:"Lenis (부드러운 스크롤)", to:"<ReactLenis> 컴포넌트", lvl:"쉬움", desc:"Lenis는 React용 래퍼가 있다. 앱을 이걸로 감싸면 부드러운 스크롤이 거의 그대로 살아난다."},
+ {from:"GSAP", to:"gsap + @gsap/react (useGSAP)", lvl:"보통", desc:"GSAP은 React와 무관하게 작동한다. 라이브러리는 그대로 쓰고, 컴포넌트 안에서 useGSAP 훅으로 호출한다."},
+ {from:"ScrollTrigger (핀·스크럽)", to:"동일 + ref/훅으로 등록", lvl:"어려움", desc:"핀 고정과 스크럽을 React 안에서 등록한다. 화면이 다시 그려질 때 위치 재계산(refresh) 타이밍이 어긋나기 쉬워 가장 주의할 곳이다.", memo:"갤러리·히어로 핀이 여기 묶여 있다. 한 섹션씩 옮기며 원본과 스크롤을 나란히 비교한다."},
+]},
+{id:"D", name:"3D (Three.js)", sub:"마지막에 이식. 셰이더·모델은 거의 그대로 살린다.", rows:[
+ {from:"Three.js v0.160 (importmap)", to:"@react-three/fiber + three", lvl:"보통", desc:"importmap 대신 npm으로 three와 react-three-fiber를 설치한다. R3F가 Three.js를 React식으로 다룬다."},
+ {from:"hero/footer-blueberry-3d.js (Scene·렌더루프 수동)", to:"R3F <Canvas> + useFrame", lvl:"어려움", desc:"직접 짠 Scene·카메라·렌더 루프를 R3F가 대신 관리한다. 24개 알갱이는 InstancedMesh로 처리한다.", memo:"확인됨: 히어로·푸터 블루베리가 이 부분이다. GLB 모델 + HDR 조명 구조."},
+ {from:"GLTFLoader (blueberry.glb)", to:"drei useGLTF", lvl:"쉬움", desc:"GLB 모델 불러오기가 한 줄로 짧아진다."},
+ {from:"RGBELoader + RoomEnvironment (HDR)", to:"drei <Environment>", lvl:"쉬움", desc:"스튜디오 HDR 조명을 컴포넌트 한 줄로 넣는다."},
+ {from:"gallery-3d-scroll.js (Three + 커스텀 셰이더 + 스크롤)", to:"R3F + shaderMaterial + useScroll", lvl:"어려움", desc:"카드 필드 비행 갤러리다. 정점·프래그먼트 셰이더 코드는 거의 그대로 재사용하고, 스크롤 진행도만 다시 연결한다.", memo:"이 사이트에서 가장 복잡한 3D다. 셰이더를 새로 짜지 말 것."},
+ {from:"IntersectionObserver (화면 밖 정지)", to:"R3F frameloop 제어", lvl:"보통", desc:"화면 밖이면 렌더를 멈춰 성능을 아끼는 패턴이다. R3F에도 같은 개념이 있다."},
+]},
+{id:"E", name:"인터랙션 · 기타", sub:"비교적 독립적이라 나중에 정리하기 쉽다.", rows:[
+ {from:"cursor.js / smooth-cursor / cursor-target", to:"<CustomCursor/> 컴포넌트", lvl:"보통", desc:"가속·스퀴시 커서와 버튼 채움 효과를 한 컴포넌트로 묶고, 전역에서 한 번만 띄운다."},
+ {from:"language.js (data-i18n)", to:"react-i18next 또는 Context", lvl:"보통", desc:"다국어 전환을 React 표준 방식으로 옮긴다. 번역 텍스트는 데이터로 분리한다."},
+ {from:"interactions.js / service-hover", to:"컴포넌트 내부 이벤트 핸들러", lvl:"쉬움", desc:"호버·토글 같은 작은 인터랙션은 해당 컴포넌트 안으로 흡수한다."},
+ {from:"footer-cta-button.js", to:"<CtaButton/> 컴포넌트", lvl:"쉬움", desc:"푸터 버튼 효과를 재사용 컴포넌트로 만든다."},
+]},
+];
+
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const lvlClass = l => l==="쉬움"?"easy":l==="보통"?"mid":"hard";
+const main = document.getElementById('main');
+const chips = document.getElementById('chips');
+
+DATA.forEach((cat,i)=>{
+  const h = Math.round(i*300/DATA.length + 200) % 360;
+  const c = `hsl(${h}, 52%, 47%)`;
+  const cs = `hsla(${h}, 52%, 47%, 0.10)`;
+
+  const chip = document.createElement('a');
+  chip.href = '#sec-'+cat.id; chip.className='chip'; chip.dataset.cat=cat.id;
+  chip.style.setProperty('--c', c);
+  chip.innerHTML = `<span class="ltr">${cat.id}</span>${cat.name}`;
+  chips.appendChild(chip);
+
+  const sec = document.createElement('section');
+  sec.className='section'; sec.id='sec-'+cat.id; sec.dataset.cat=cat.id;
+  sec.style.setProperty('--c', c); sec.style.setProperty('--c-soft', cs);
+  let html = `<div class="sec-head"><div class="badge">${cat.id}</div><h2>${cat.name}</h2></div><p class="sec-sub">${cat.sub}</p>`;
+  cat.rows.forEach(r=>{
+    const blob = (r.from+' '+r.to+' '+r.desc+' '+(r.memo||'')+' '+r.lvl).toLowerCase();
+    html += `<article class="row" data-text="${esc(blob)}">
+      <div class="row-head"><span class="from">${esc(r.from)}</span><span class="arrow">→</span><span class="to">${esc(r.to)}</span><span class="lvl ${lvlClass(r.lvl)}">${esc(r.lvl)}</span></div>
+      <p class="row-desc">${esc(r.desc)}</p>
+      ${r.memo?`<div class="row-memo">${esc(r.memo)}</div>`:''}
+    </article>`;
+  });
+  sec.innerHTML = html;
+  main.appendChild(sec);
+});
+
+let rows=0; DATA.forEach(c=>rows+=c.rows.length);
+document.getElementById('footer').textContent = `${rows} mappings · ${DATA.length} groups · QNBANG migration map`;
+
+const search=document.getElementById('search'), clearBtn=document.getElementById('clear'), emptyEl=document.getElementById('empty');
+function applyFilter(){
+  const q=search.value.trim().toLowerCase();
+  clearBtn.style.display=q?'block':'none';
+  let any=false;
+  document.querySelectorAll('.section').forEach(sec=>{
+    let has=false;
+    sec.querySelectorAll('.row').forEach(r=>{const hit=!q||r.dataset.text.includes(q);r.style.display=hit?'':'none';if(hit)has=true;});
+    sec.style.display=has?'':'none';
+    const ch=chips.querySelector(`.chip[data-cat="${sec.dataset.cat}"]`); if(ch)ch.classList.toggle('dim',!has);
+    if(has)any=true;
+  });
+  emptyEl.style.display=any?'none':'block';
+}
+search.addEventListener('input',applyFilter);
+clearBtn.addEventListener('click',()=>{search.value='';applyFilter();search.focus();});
+
+const chipEls=[...chips.querySelectorAll('.chip')];
+const spy=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){const id=e.target.dataset.cat;chipEls.forEach(ch=>ch.classList.toggle('active',ch.dataset.cat===id));const a=chips.querySelector('.chip.active');if(a)a.scrollIntoView({block:'nearest',inline:'center'});}});},{rootMargin:'-45% 0px -50% 0px',threshold:0});
+document.querySelectorAll('.section').forEach(s=>spy.observe(s));
+</script>
+</body>
+</html>

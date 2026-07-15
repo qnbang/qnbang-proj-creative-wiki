@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프론트엔드 교본</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F8; --surface:#FFFFFF; --ink:#16181D;
+    --muted:#5C6270; --faint-text:#8A8F9C;
+    --border:#E4E7EE; --faint:#EEF0F5;
+    --shadow:0 1px 2px rgba(20,24,33,.04), 0 4px 16px rgba(20,24,33,.04);
+    --radius:14px;
+    --sans:'Pretendard',system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:800px;margin:0 auto;padding:0 18px}
+
+  header.top{padding:40px 0 22px}
+  .kicker{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.04em;color:var(--faint-text);text-transform:uppercase;margin-bottom:12px}
+  h1{font-size:36px;line-height:1.12;font-weight:800;letter-spacing:-.03em}
+  .lede{margin-top:12px;font-size:15px;color:var(--muted);max-width:62ch}
+  .legend{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+  .legend span{font-size:12px;color:var(--muted);background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:4px 9px}
+  .legend i{font-style:normal;font-family:var(--mono);font-weight:700;font-size:11px}
+  .stat{margin-top:16px;display:inline-flex;align-items:baseline;gap:8px;font-family:var(--mono);font-size:13px;color:var(--muted)}
+  .stat b{font-size:15px;color:var(--ink);font-weight:700}
+
+  .controls{position:sticky;top:0;z-index:20;background:rgba(244,245,248,.88);backdrop-filter:saturate(180%) blur(10px);-webkit-backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--border);padding:12px 0 10px}
+  .search-box{position:relative}
+  .search-box svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--faint-text);pointer-events:none}
+  #search{width:100%;font-family:var(--sans);font-size:15px;padding:11px 38px 11px 40px;border:1px solid var(--border);border-radius:11px;background:var(--surface);color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
+  #search::placeholder{color:var(--faint-text)}
+  #search:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(22,24,29,.08)}
+  #clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:var(--faint);color:var(--muted);width:24px;height:24px;border-radius:7px;cursor:pointer;font-size:14px;line-height:1;display:none}
+  #clear:hover{background:#E2E5EC;color:var(--ink)}
+  .chips{display:flex;gap:7px;overflow-x:auto;margin-top:10px;padding-bottom:2px;scrollbar-width:none;-ms-overflow-style:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;text-decoration:none}
+  .chip .ltr{font-family:var(--mono);font-weight:700;color:var(--c)}
+  .chip:hover{border-color:var(--c)}
+  .chip.active{background:var(--c);color:#fff;border-color:var(--c)}
+  .chip.active .ltr{color:rgba(255,255,255,.9)}
+  .chip.dim{opacity:.35;pointer-events:none}
+
+  main{padding:18px 0 40px}
+  .section{padding-top:30px;scroll-margin-top:128px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .badge{flex:0 0 auto;font-family:var(--mono);font-weight:700;font-size:15px;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;color:#fff;background:var(--c)}
+  .sec-head h2{font-size:20px;font-weight:700;letter-spacing:-.02em}
+  .sec-head .n{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--faint-text)}
+
+  .term{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;margin-bottom:10px}
+  .term-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 10px;margin-bottom:6px}
+  .term-en{font-family:var(--mono);font-weight:700;font-size:15.5px;color:var(--ink)}
+  .term-ko{font-size:12.5px;font-weight:600;color:var(--c);background:var(--c-soft);padding:3px 8px;border-radius:6px}
+  .term-desc{font-size:14.5px;color:#33373F}
+  .how{margin-top:11px;font-size:13.5px;color:#33373F;background:var(--faint);border-radius:8px;padding:10px 12px}
+  .how b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:3px}
+  .ex{margin-top:9px;font-size:13.5px;color:#33373F;background:var(--surface);border:1px dashed var(--border);border-radius:8px;padding:10px 12px}
+  .ex b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:3px}
+  .ex code{display:block;margin-top:7px;font-family:var(--mono);font-size:12.5px;line-height:1.5;background:#0F1115;color:#E6E8EE;padding:9px 11px;border-radius:7px;overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+  .memo{margin-top:11px;font-size:13.5px;color:#33373F;background:var(--c-soft);border-left:3px solid var(--c);border-radius:0 8px 8px 0;padding:9px 12px}
+  .memo b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:2px}
+
+  .empty{display:none;text-align:center;color:var(--muted);padding:60px 0;font-size:15px}
+  .empty span{display:block;font-family:var(--mono);color:var(--faint-text);font-size:13px;margin-top:6px}
+
+  .path{margin-top:46px;background:var(--ink);color:#fff;border-radius:18px;padding:26px 22px}
+  .path .kicker{color:rgba(255,255,255,.5)}
+  .path h2{font-size:19px;font-weight:700;margin-bottom:16px}
+  .stage{display:flex;gap:14px;padding:13px 0;border-top:1px solid rgba(255,255,255,.12)}
+  .stage:first-of-type{border-top:none}
+  .stage .s{font-family:var(--mono);font-weight:700;font-size:13px;color:rgba(255,255,255,.5);flex:0 0 auto;width:54px}
+  .stage b{font-size:14.5px;font-weight:700;display:block;margin-bottom:2px}
+  .stage span{font-size:13px;color:rgba(255,255,255,.6)}
+  .path .note{margin-top:16px;font-size:13px;color:rgba(255,255,255,.7);background:rgba(255,255,255,.06);border-radius:10px;padding:11px 13px}
+
+  footer{padding:30px 0 50px;color:var(--faint-text);font-size:12.5px;font-family:var(--mono)}
+  @media (max-width:480px){h1{font-size:29px}header.top{padding:30px 0 18px}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">Frontend Handbook · 종합 교본</div>
+    <h1>프론트엔드 교본</h1>
+    <p class="lede">비전공자 기준으로 프론트엔드 전 영역을 정리했습니다. 검색하거나 분류를 눌러 찾으세요. 카드마다 정의가 있고, 어려운 개념엔 아래 두 블록이 붙습니다.</p>
+    <div class="legend">
+      <span><i>작동 원리</i> — 안에서 무슨 일이 벌어지는지</span>
+      <span><i>예시</i> — 짧은 사례·코드</span>
+      <span><i>메모</i> — 당신 프로젝트와의 연결</span>
+    </div>
+    <div class="stat"><b id="count">0</b> 개 용어 · <b id="catcount">0</b> 개 분류</div>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="검색 (예: 클로저, 하이드레이션, CORS, useEffect)" autocomplete="off" aria-label="용어 검색">
+      <button id="clear" aria-label="검색어 지우기">✕</button>
+    </div>
+    <nav class="chips" id="chips" aria-label="분류 이동"></nav>
+  </div>
+</div>
+
+<div class="wrap">
+  <main id="main"></main>
+  <div class="empty" id="empty">검색 결과가 없습니다.<span>다른 단어로 찾아보세요.</span></div>
+
+  <section class="path">
+    <div class="kicker">Learning Path</div>
+    <h2>추천 학습 순서</h2>
+    <div class="stage"><div class="s">1단계</div><div><b>기초</b><span>웹 구조 · 브라우저 원리 · HTML · 접근성 · CSS 기초/레이아웃/심화</span></div></div>
+    <div class="stage"><div class="s">2단계</div><div><b>JavaScript</b><span>기초 → 핵심 개념(스코프·클로저·this) → 비동기 → DOM·이벤트</span></div></div>
+    <div class="stage"><div class="s">3단계</div><div><b>React</b><span>핵심 → 동작 원리 → Hooks·상태관리 → 렌더링·Next.js → 데이터 통신</span></div></div>
+    <div class="stage"><div class="s">4단계</div><div><b>심화</b><span>애니메이션 · 3D · 성능 · 보안 · 테스팅 · 빌드·배포·협업</span></div></div>
+    <div class="note">당신의 바닐라 3D 사이트 변환에서 핵심은 <b>N·O·P(React)</b> + <b>T(3D)</b> + <b>L·X(빌드·배포)</b>입니다. 나머지는 마주칠 때 찾아보면 됩니다.</div>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const DATA = [
+{id:"A", name:"웹의 기본 구조", terms:[
+ {en:"Front-end", ko:"프론트엔드", desc:"사용자가 화면에서 보고 누르는 부분이다. 버튼, 글자, 색, 움직임 전부."},
+ {en:"Back-end", ko:"백엔드", desc:"눈에 안 보이는 부분이다. 데이터 저장, 로그인 처리, 계산을 담당한다."},
+ {en:"Client", ko:"클라이언트", desc:"사용자의 기기와 브라우저다. 당신 PC, 방문자의 휴대폰이 클라이언트다."},
+ {en:"Server", ko:"서버", desc:"요청을 받아 파일이나 데이터를 보내주는 컴퓨터다."},
+ {en:"Browser", ko:"브라우저", desc:"크롬, 사파리 같은 프로그램이다. HTML·CSS·JS를 읽어 화면으로 그린다."},
+ {en:"HTTP / HTTPS", ko:"통신 규약", desc:"브라우저와 서버가 데이터를 주고받는 약속이다. HTTPS는 암호화된 안전한 버전이다."},
+ {en:"URL", ko:"주소", desc:"인터넷에서 특정 페이지나 파일의 위치를 가리키는 주소다."},
+ {en:"Domain", ko:"도메인", desc:"사람이 외우기 쉬운 사이트 이름이다. 실제 서버의 숫자 주소로 연결된다."},
+ {en:"DNS", ko:"도메인 이름 변환", desc:"도메인 이름을 실제 서버의 숫자 주소(IP)로 바꿔주는 전화번호부 같은 시스템이다."},
+ {en:"Hosting", ko:"호스팅", desc:"사이트 파일을 서버에 올려 인터넷에서 접속 가능하게 하는 일이다."},
+ {en:"Static / Dynamic", ko:"정적 · 동적", desc:"정적은 모두에게 같은 고정 페이지, 동적은 사용자나 상황에 따라 바뀌는 페이지다."},
+]},
+{id:"B", name:"브라우저 동작 원리", terms:[
+ {en:"Rendering Pipeline", ko:"렌더링 과정", desc:"브라우저가 코드를 화면 그림으로 만드는 단계들이다.", how:"HTML을 읽어 DOM을 만들고, CSS를 읽어 CSSOM을 만든 뒤 둘을 합쳐 렌더 트리를 만든다. 각 요소의 위치·크기를 계산하고(레이아웃), 픽셀로 칠하고(페인트), 층을 합쳐(합성) 화면에 띄운다."},
+ {en:"DOM", ko:"문서 객체 모델", desc:"브라우저가 HTML을 읽어 메모리에 만든 나무 구조다. JS는 이걸 통해 요소를 찾고 바꾼다."},
+ {en:"CSSOM", ko:"스타일 모델", desc:"브라우저가 CSS를 읽어 만든 스타일 구조다. DOM과 합쳐져 화면이 그려진다."},
+ {en:"Reflow", ko:"리플로우", desc:"요소의 크기나 위치가 바뀌어 레이아웃을 다시 계산하는 일이다. 무겁다.", how:"한 요소의 너비가 바뀌면 주변 요소 위치까지 다시 계산해야 한다. 반복되면 화면이 버벅인다. 그래서 위치·크기를 자주 바꾸는 애니메이션은 피하고 transform을 쓴다.", ex:"width나 top을 매 프레임 바꾸면 리플로우가 계속 일어난다. 대신 transform: translate를 쓰면 리플로우 없이 움직인다."},
+ {en:"Repaint", ko:"리페인트", desc:"위치는 그대로지만 색 같은 모양만 바뀌어 다시 칠하는 일이다. 리플로우보다 가볍다."},
+ {en:"Event Loop", ko:"이벤트 루프", desc:"JS가 한 번에 하나씩 일을 처리하면서도 멈추지 않게 하는 구조다.", how:"JS는 일꾼이 한 명이다(싱글 스레드). 시간이 걸리는 작업(타이머, 데이터 요청)은 옆에 맡겨두고 다음 코드를 먼저 처리한다. 맡긴 일이 끝나면 대기열에 들어가고, 이벤트 루프가 일꾼이 한가해질 때 그걸 꺼내 실행한다.", ex:"setTimeout(fn, 0)을 써도 fn은 지금 코드가 다 끝난 뒤에 실행된다. 0초여도 대기열을 거치기 때문이다."},
+ {en:"Call Stack", ko:"콜 스택", desc:"지금 실행 중인 함수들이 쌓이는 곳이다. 함수가 끝나면 위에서부터 빠진다."},
+ {en:"GPU Acceleration", ko:"GPU 가속", desc:"일부 작업(transform, opacity)을 그래픽 카드에 맡겨 부드럽게 처리하는 방식이다. 애니메이션이 매끈해진다."},
+ {en:"Frame / 60fps", ko:"프레임", desc:"화면은 1초에 여러 번 새로 그려진다. 보통 60번(60fps)이면 부드럽게 느껴진다."},
+]},
+{id:"C", name:"HTML", terms:[
+ {en:"Element / Tag", ko:"요소 · 태그", desc:"요소는 HTML의 한 덩어리, 태그는 그걸 표시하는 기호다. 여는 태그와 닫는 태그 사이가 한 요소다."},
+ {en:"Attribute", ko:"속성", desc:"요소에 추가 정보를 붙이는 값이다. 이미지에 주소를 지정하거나 이름표를 붙일 때 쓴다."},
+ {en:"head / body", ko:"머리 · 몸통", desc:"head는 제목·설정 등 안 보이는 정보, body는 실제 화면에 보이는 내용이 들어간다."},
+ {en:"Form", ko:"양식", desc:"사용자 입력을 모아 보내는 영역이다. 로그인, 검색, 신청서가 폼이다."},
+ {en:"Input", ko:"입력 칸", desc:"글자, 숫자, 체크박스 등 사용자가 값을 넣는 칸이다."},
+ {en:"Label", ko:"라벨", desc:"입력 칸이 무엇인지 알려주는 이름표다. 접근성에 중요하다."},
+ {en:"Anchor (a/href)", ko:"링크", desc:"다른 페이지나 위치로 이동하는 링크다. href에 목적지 주소를 적는다."},
+ {en:"Image (img/alt)", ko:"이미지", desc:"그림을 넣는 태그다. alt에 그림 설명을 적으면 안 보일 때나 낭독기에 쓰인다."},
+ {en:"Meta tag", ko:"메타 태그", desc:"페이지 정보(설명, 인코딩, 화면 설정)를 브라우저와 검색엔진에 알리는 태그다."},
+ {en:"data-* attribute", ko:"데이터 속성", desc:"요소에 임의 정보를 숨겨두는 속성이다. JS가 그 값을 읽어 쓴다."},
+]},
+{id:"D", name:"접근성 · SEO", terms:[
+ {en:"Accessibility (a11y)", ko:"접근성", desc:"장애가 있는 사람도 쓸 수 있게 만드는 것이다. 낭독기 사용자, 키보드만 쓰는 사람을 고려한다."},
+ {en:"ARIA", ko:"접근성 보조 속성", desc:"화면 낭독기에 요소의 역할·상태를 알려주는 속성이다. 시맨틱 태그로 부족할 때 보충한다."},
+ {en:"Screen Reader", ko:"화면 낭독기", desc:"화면 내용을 소리로 읽어주는 프로그램이다. 시각장애인이 웹을 쓰는 수단이다."},
+ {en:"Keyboard Navigation", ko:"키보드 이동", desc:"마우스 없이 Tab·Enter로 모든 기능을 쓸 수 있어야 한다는 원칙이다."},
+ {en:"Focus", ko:"포커스", desc:"지금 키보드 입력이 향하는 요소다. 어디에 있는지 테두리로 보여야 접근성이 좋다."},
+ {en:"Semantic Tag", ko:"시맨틱 태그", desc:"의미를 가진 태그다(header, nav, article). 검색엔진과 낭독기가 구조를 이해한다."},
+ {en:"Meta Description", ko:"메타 설명", desc:"검색 결과에 표시되는 페이지 요약문이다. SEO에 영향을 준다."},
+ {en:"Open Graph", ko:"공유 미리보기", desc:"링크를 SNS에 붙일 때 뜨는 제목·이미지·설명을 정하는 메타 정보다."},
+ {en:"sitemap / robots", ko:"검색 안내 파일", desc:"sitemap은 페이지 목록을, robots는 검색엔진이 봐도 되는 범위를 알려주는 파일이다."},
+ {en:"SEO", ko:"검색 최적화", desc:"검색에서 잘 노출되게 만드는 작업이다. 시맨틱 구조, 메타 정보, 빠른 속도가 영향을 준다."},
+]},
+{id:"E", name:"CSS 기초 · 박스모델", terms:[
+ {en:"Selector", ko:"선택자", desc:"디자인을 적용할 대상을 고르는 문법이다. 모든 제목 또는 이 버튼 하나처럼 지정한다."},
+ {en:"Property / Value", ko:"속성 · 값", desc:"무엇을 어떻게 바꿀지 정하는 한 쌍이다. color: red에서 color가 속성, red가 값이다."},
+ {en:"Box Model", ko:"박스 모델", desc:"모든 요소는 사각형 상자다. 내용·안쪽 여백·테두리·바깥 여백의 네 겹으로 이뤄진다.", how:"안쪽부터 content(내용), padding(안쪽 여백), border(테두리), margin(바깥 여백) 순이다. 요소의 실제 차지 크기를 계산할 때 이 네 겹을 다 더한다.", ex:"width 100에 padding 20을 주면 기본 설정에선 총 140이 된다. box-sizing: border-box를 주면 padding을 포함해 100으로 고정된다."},
+ {en:"margin / padding / border", ko:"여백 · 테두리", desc:"margin은 바깥 여백, padding은 안쪽 여백, border는 테두리다."},
+ {en:"display", ko:"표시 방식", desc:"요소가 줄을 차지하는지(block), 옆으로 붙는지(inline), 배치 도구인지(flex, grid)를 정한다."},
+ {en:"position", ko:"위치 지정", desc:"요소를 어디에 둘지 정하는 방식이다.", how:"static은 기본 흐름, relative는 원래 자리 기준 이동, absolute는 기준 부모 안에서 좌표 배치, fixed는 화면에 고정, sticky는 스크롤하다 일정 지점에서 붙는다.", ex:"position: sticky; top: 0을 주면 스크롤 중 화면 맨 위에 붙는 헤더가 된다."},
+ {en:"z-index", ko:"쌓임 순서", desc:"요소가 겹칠 때 누가 위에 보일지 정하는 숫자다. 클수록 앞에 온다.", ex:"메뉴를 z-index: 100, 본문을 z-index: 1로 두면 메뉴가 항상 본문 위에 뜬다."},
+ {en:"Units (px/rem/em/%/vw)", ko:"단위", desc:"크기를 재는 기준이다.", ex:"px는 고정 점, rem은 기본 글자 크기 배수, %는 부모 기준 비율, vw는 화면 너비의 100분율이다. 1rem은 보통 16px."},
+ {en:"Color (hex/rgb/hsl)", ko:"색 표기", desc:"색을 적는 방식이다. hex는 #FF0000, rgb는 빨강·초록·파랑 값, hsl은 색상·채도·명도로 적는다."},
+ {en:"overflow", ko:"넘침 처리", desc:"내용이 상자보다 클 때 자를지, 스크롤을 줄지 정한다."},
+]},
+{id:"F", name:"CSS 레이아웃 · 반응형", terms:[
+ {en:"Flexbox", ko:"한 줄 정렬", desc:"요소를 가로나 세로 한 방향으로 정렬·분배하는 배치 도구다.", ex:"display: flex; justify-content: space-between를 주면 자식들이 양 끝과 가운데로 고르게 벌어진다."},
+ {en:"Grid", ko:"격자 배치", desc:"요소를 행과 열의 격자에 배치하는 도구다. 복잡한 2차원 레이아웃에 강하다.", ex:"grid-template-columns: 1fr 1fr 1fr를 주면 같은 너비 3칸 격자가 된다."},
+ {en:"Float", ko:"플로트 (옛 방식)", desc:"요소를 좌우로 띄워 배치하던 옛 방법이다. 지금은 Flexbox·Grid로 대체됐다."},
+ {en:"Responsive", ko:"반응형", desc:"화면 크기에 따라 레이아웃이 자동으로 바뀌는 방식이다."},
+ {en:"Media Query", ko:"미디어 쿼리", desc:"화면 조건에 따라 다른 CSS를 적용하는 문법이다.", ex:"@media (max-width: 600px) 안에 쓴 스타일은 화면이 600px보다 좁을 때만 적용된다."},
+ {en:"Container Query", ko:"컨테이너 쿼리", desc:"화면이 아니라 부모 상자 크기에 따라 스타일을 바꾸는 최신 기능이다."},
+ {en:"Mobile-first", ko:"모바일 우선", desc:"작은 화면 기준으로 먼저 만들고 큰 화면을 더해가는 설계 방식이다."},
+ {en:"Viewport", ko:"뷰포트", desc:"브라우저에서 실제로 보이는 화면 영역이다. 모바일 설정 메타 태그로 기준을 잡는다."},
+ {en:"Breakpoint", ko:"분기점", desc:"레이아웃을 바꾸는 화면 너비 기준이다. 보통 모바일·태블릿·데스크톱으로 나눈다."},
+]},
+{id:"G", name:"CSS 심화 · 방법론", terms:[
+ {en:"Specificity", ko:"우선순위", desc:"여러 스타일이 충돌할 때 누가 이기는지 정하는 규칙이다.", how:"선택자가 구체적일수록 점수가 높아 이긴다. id가 class보다, class가 태그보다 강하다. 같은 점수면 나중에 쓴 게 이긴다. 이걸 모르면 스타일이 안 먹는 이유를 못 찾는다.", ex:"#title이 .title보다 강하다. .title로 색을 바꿔도 #title 규칙이 있으면 안 바뀐다."},
+ {en:"Cascade", ko:"종속", desc:"같은 요소에 여러 규칙이 적용될 때 우선순위와 순서로 최종 스타일을 정하는 원리다."},
+ {en:"Inheritance", ko:"상속", desc:"부모의 일부 스타일(글꼴, 색)이 자식에게 자동으로 내려가는 성질이다."},
+ {en:"Pseudo-class", ko:"가상 클래스", desc:"특정 상태일 때만 적용하는 선택자다.", ex:":hover는 마우스를 올렸을 때, :focus는 입력 칸이 선택됐을 때 적용된다."},
+ {en:"Pseudo-element", ko:"가상 요소", desc:"요소의 일부에 스타일을 넣는 선택자다. ::before, ::after로 가짜 요소를 추가한다."},
+ {en:"Transition", ko:"전환", desc:"값이 바뀔 때 부드럽게 변하게 하는 속성이다.", ex:"transition: 0.3s를 주면 색이나 크기가 0.3초에 걸쳐 서서히 변한다."},
+ {en:"Transform", ko:"변형", desc:"요소를 이동·회전·확대·기울이는 속성이다. 리플로우 없이 움직여 가볍다.", ex:"transform: translateX(50px)는 오른쪽으로 50px 이동, rotate(45deg)는 45도 회전이다."},
+ {en:"Animation / Keyframes", ko:"애니메이션", desc:"여러 단계의 변화를 정해 자동 재생하는 기능이다.", ex:"@keyframes로 0%와 100% 상태를 정하고 animation으로 그 사이를 반복 재생한다."},
+ {en:"CSS Variable", ko:"CSS 변수", desc:"색이나 크기 값을 이름으로 저장해 재사용하는 기능이다.", ex:"--main: blue로 정하고 color: var(--main)으로 쓴다. 한 곳만 고치면 전체가 바뀐다."},
+ {en:"BEM", ko:"클래스 작명 규칙", desc:"클래스 이름을 블록·요소·상태로 일관되게 짓는 방법이다. 큰 프로젝트에서 충돌을 줄인다."},
+ {en:"CSS-in-JS", ko:"JS 안의 CSS", desc:"styled-components처럼 JavaScript 파일 안에서 CSS를 쓰는 방식이다. 컴포넌트와 스타일을 한곳에 둔다."},
+ {en:"Sass / SCSS", ko:"전처리기", desc:"변수·중첩·반복을 지원하는 CSS 확장판이다. 최종적으로 일반 CSS로 변환된다."},
+ {en:"Tailwind CSS", ko:"유틸리티 CSS", desc:"미리 만든 짧은 클래스로 HTML 안에서 바로 디자인하는 도구다."},
+ {en:"Design Token", ko:"디자인 토큰", desc:"색·간격·글꼴 크기 같은 디자인 값을 이름으로 정해둔 표준 단위다. 일관성을 지킨다."},
+]},
+{id:"H", name:"JavaScript 기초", terms:[
+ {en:"Variable (let/const/var)", ko:"변수", desc:"값을 담는 이름표다.", ex:"const는 안 바뀌는 값, let은 바뀌는 값에 쓴다. var는 옛 방식이라 지금은 거의 안 쓴다."},
+ {en:"Data Type", ko:"자료형", desc:"값의 종류다. 숫자, 문자열, 불리언(참/거짓), 객체, 배열 등이 있다."},
+ {en:"Operator", ko:"연산자", desc:"값을 계산하거나 비교하는 기호다. +, -, ===, && 등이 있다."},
+ {en:"Conditional (if)", ko:"조건문", desc:"조건이 참일 때만 코드를 실행하는 문법이다. if, else로 갈래를 나눈다."},
+ {en:"Loop (for)", ko:"반복문", desc:"같은 동작을 여러 번 반복하는 문법이다. for, while이 있다."},
+ {en:"Function", ko:"함수", desc:"정해진 동작을 묶어둔 단위다. 필요할 때 호출해 같은 동작을 실행한다."},
+ {en:"Arrow Function", ko:"화살표 함수", desc:"함수를 짧게 쓰는 최신 문법이다.", ex:"const add = (a, b) => a + b. 기존 function 키워드보다 간결하다."},
+ {en:"Object / Array", ko:"객체 · 배열", desc:"객체는 이름표 붙은 값들의 묶음, 배열은 순서대로 나열된 값들의 목록이다."},
+ {en:"=== vs ==", ko:"동등 비교", desc:"값이 같은지 비교하는 두 방식이다.", how:"==는 자료형이 달라도 알아서 맞춰 비교해 헷갈리는 결과를 낸다. ===는 자료형까지 같아야 참이다. 항상 ===를 쓰는 게 안전하다.", ex:"0 == false는 참이지만 0 === false는 거짓이다."},
+ {en:"Truthy / Falsy", ko:"참 같은 값", desc:"조건문에서 참이나 거짓으로 취급되는 값이다.", ex:"빈 문자열, 0, null, undefined는 거짓처럼 취급된다. 나머지는 대체로 참이다."},
+ {en:"Template Literal", ko:"템플릿 문자열", desc:"문자열 안에 변수를 끼워 넣는 문법이다.", ex:"`안녕 ${name}님` 처럼 백틱과 ${} 안에 변수를 넣는다."},
+ {en:"null / undefined", ko:"빈 값", desc:"undefined는 값이 아직 정해지지 않음, null은 일부러 비워둔 빈 값을 뜻한다."},
+]},
+{id:"I", name:"JavaScript 핵심 개념", terms:[
+ {en:"Scope", ko:"스코프", desc:"변수가 통하는 범위다. 함수 안에서 만든 변수는 그 함수 안에서만 쓸 수 있다.", ex:"함수 안에서 선언한 변수는 밖에서 못 읽는다. 반대로 바깥 변수는 안에서 읽을 수 있다."},
+ {en:"Hoisting", ko:"호이스팅", desc:"선언이 코드 맨 위로 끌어올려진 것처럼 동작하는 현상이다.", how:"JS는 실행 전에 변수·함수 선언을 먼저 훑어 위로 올린다. 그래서 함수는 정의보다 위에서 호출해도 된다. 단 let·const는 값을 넣기 전 쓰면 오류가 난다.", ex:"function 선언은 위에서 호출해도 되지만, const x를 선언 전에 쓰면 오류가 난다."},
+ {en:"Closure", ko:"클로저", desc:"함수가 만들어질 때의 바깥 변수를 계속 기억하는 성질이다.", how:"안쪽 함수는 자신을 감싼 바깥 함수의 변수를 기억한다. 바깥 함수가 끝나도 그 변수는 살아남는다. 이걸로 값을 숨겨 보관하거나 상태를 유지한다.", ex:"카운터 함수가 자기 count 값을 계속 기억한다.", code:"function counter() {\n  let n = 0;\n  return () => ++n;\n}\nconst c = counter();\nc(); // 1\nc(); // 2"},
+ {en:"this", ko:"this 키워드", desc:"함수가 호출될 때 정해지는, 그 함수의 주인 객체를 가리키는 값이다.", how:"this는 누가 함수를 불렀느냐에 따라 달라진다. 같은 함수도 호출 방식에 따라 가리키는 대상이 바뀐다. 화살표 함수는 예외로 자신을 감싼 바깥의 this를 그대로 쓴다.", ex:"obj.method() 안의 this는 obj를 가리킨다. 그냥 fn()으로 부르면 this가 엉뚱해질 수 있다."},
+ {en:"Prototype", ko:"프로토타입", desc:"객체가 기능을 물려받는 원본 사슬이다.", how:"객체는 어떤 속성을 찾을 때 자기에게 없으면 프로토타입을 따라 위로 올라가며 찾는다. 이 사슬로 메서드를 공유하고 상속을 구현한다."},
+ {en:"Higher-order Function", ko:"고차 함수", desc:"함수를 값처럼 받거나 돌려주는 함수다. map, filter가 대표적이다."},
+ {en:"map / filter / reduce", ko:"배열 처리", desc:"배열을 다루는 핵심 함수들이다.", how:"map은 각 요소를 변환해 새 배열을, filter는 조건에 맞는 것만 골라 새 배열을, reduce는 모두 합쳐 하나의 값을 만든다. 원본은 안 바꾼다.", ex:"[1,2,3].map(n => n*2)는 [2,4,6], filter(n => n>1)은 [2,3]을 준다."},
+ {en:"Destructuring", ko:"구조 분해", desc:"객체나 배열에서 값을 한 번에 꺼내 변수에 담는 문법이다.", ex:"const { name, age } = user. user.name, user.age를 한 줄로 꺼낸다."},
+ {en:"Spread / Rest", ko:"펼치기 · 모으기", desc:"...로 값을 펼치거나 모으는 문법이다.", ex:"[...a, ...b]는 두 배열을 합치고, fn(...args)는 배열을 인자로 펼친다."},
+ {en:"Optional Chaining", ko:"옵셔널 체이닝", desc:"값이 없을 때 오류 대신 undefined를 돌려주는 안전한 접근법이다.", ex:"user?.address?.city. address가 없어도 오류 없이 undefined가 된다."},
+ {en:"Pure Function", ko:"순수 함수", desc:"같은 입력엔 항상 같은 결과를 내고, 바깥 값을 건드리지 않는 함수다. 예측과 테스트가 쉽다."},
+ {en:"Immutability", ko:"불변성", desc:"기존 값을 바꾸지 않고 새 값을 만드는 원칙이다. React가 변화를 감지하는 기반이다."},
+]},
+{id:"J", name:"비동기 JavaScript", terms:[
+ {en:"Sync / Async", ko:"동기 · 비동기", desc:"동기는 한 줄씩 끝날 때까지 기다리는 방식, 비동기는 오래 걸리는 일을 맡기고 다음으로 넘어가는 방식이다."},
+ {en:"Callback", ko:"콜백", desc:"작업이 끝난 뒤 실행되도록 넘기는 함수다. 비동기의 가장 기본 형태다."},
+ {en:"Promise", ko:"프로미스", desc:"지금 끝나지 않는 작업의 결과를 나중에 받기로 한 약속이다.", how:"작업을 시작하며 빈 약속표를 먼저 돌려준다. 끝나면 성공이면 결과를, 실패면 오류를 채운다. .then으로 성공, .catch로 실패를 처리한다.", ex:"fetch(url).then(처리).catch(오류처리) 형태로 쓴다."},
+ {en:"async / await", ko:"비동기 문법", desc:"Promise를 동기처럼 읽기 쉽게 쓰는 문법이다.", ex:"const res = await fetch(url). await가 결과가 올 때까지 기다린 뒤 다음 줄로 넘어간다."},
+ {en:"setTimeout", ko:"지연 실행", desc:"정해진 시간 뒤에 코드를 실행하는 함수다. 비동기로 동작한다."},
+ {en:"fetch", ko:"데이터 요청", desc:"서버에 데이터를 요청하는 내장 함수다. Promise를 돌려준다."},
+ {en:"Microtask / Macrotask", ko:"작업 우선순위", desc:"대기열의 두 종류다. Promise 처리(마이크로)가 setTimeout(매크로)보다 먼저 실행된다."},
+]},
+{id:"K", name:"DOM · 이벤트", terms:[
+ {en:"DOM 조작", ko:"화면 바꾸기", desc:"JS로 화면 요소를 찾아 글자·스타일·구조를 바꾸는 일이다.", ex:"el.textContent = '안녕'은 요소의 글자를, el.style.color = 'red'는 색을 바꾼다."},
+ {en:"querySelector", ko:"요소 찾기", desc:"CSS 선택자로 화면에서 요소를 찾는 함수다.", ex:"document.querySelector('.btn')은 class가 btn인 첫 요소를 찾는다."},
+ {en:"Event", ko:"이벤트", desc:"사용자 행동이다. 클릭, 스크롤, 입력이 전부 이벤트다.", memo:"당신 사이트의 스크롤 연동 3D는 스크롤 이벤트에 함수가 붙은 구조다."},
+ {en:"addEventListener", ko:"이벤트 등록", desc:"요소에 이벤트가 일어나면 실행할 함수를 연결하는 함수다.", ex:"btn.addEventListener('click', fn). 버튼을 누를 때 fn이 실행된다."},
+ {en:"Bubbling / Capturing", ko:"이벤트 전파", desc:"이벤트가 요소들 사이를 타고 퍼지는 방향이다.", how:"버블링은 클릭된 자식에서 부모로 위로 퍼지고, 캡처링은 부모에서 자식으로 내려간다. 기본은 버블링이다. 이 성질로 부모 하나에서 자식들의 클릭을 모아 처리한다.", ex:"버튼을 누르면 그 버튼 → 부모 div → body 순으로 클릭 이벤트가 전달된다."},
+ {en:"Event Delegation", ko:"이벤트 위임", desc:"자식마다 이벤트를 붙이지 않고 부모 하나에 붙여 처리하는 기법이다.", how:"버블링 덕에 자식 클릭이 부모로 올라온다. 부모에서 어떤 자식이 눌렸는지 확인해 처리하면 된다. 목록이 길어도 이벤트를 한 번만 등록해 가볍다.", ex:"목록 ul 하나에 클릭을 걸고, 눌린 li를 찾아 처리한다."},
+ {en:"preventDefault", ko:"기본 동작 막기", desc:"링크 이동이나 폼 전송 같은 기본 동작을 멈추는 함수다."},
+ {en:"Event Object", ko:"이벤트 객체", desc:"이벤트가 일어날 때 넘어오는 정보 묶음이다. 어디서 눌렸는지, 어떤 키인지 담겨 있다."},
+]},
+{id:"L", name:"모듈 · 패키지 · 빌드 도구", terms:[
+ {en:"Module (import/export)", ko:"모듈", desc:"코드를 파일 단위로 나누고 필요한 것만 가져다 쓰는 방식이다.", ex:"export function fn(){}로 내보내고, import { fn } from './file'로 가져온다."},
+ {en:"npm", ko:"패키지 관리자", desc:"필요한 라이브러리를 내려받아 설치하는 도구다. Node.js와 함께 깔린다."},
+ {en:"Node.js", ko:"실행 환경", desc:"JS를 브라우저 밖에서 실행하는 프로그램이다. React 도구를 돌리려면 필요하다.", memo:"React 버전을 PC에서 띄우려면 먼저 이게 깔려야 한다."},
+ {en:"package.json", ko:"프로젝트 명세", desc:"프로젝트 이름, 설치한 라이브러리 목록, 실행 명령을 적은 파일이다."},
+ {en:"package-lock", ko:"버전 고정 파일", desc:"설치된 라이브러리의 정확한 버전을 기록해 어디서든 같게 설치되게 한다."},
+ {en:"Dependencies", ko:"의존성", desc:"프로젝트가 작동하려고 빌려 쓰는 외부 라이브러리들이다. devDependencies는 개발할 때만 쓰는 것들이다."},
+ {en:"node_modules", ko:"설치 폴더", desc:"설치한 라이브러리들이 실제로 담기는 폴더다. 매우 크고, 공유하지 않고 다시 설치한다."},
+ {en:"Bundler", ko:"번들러", desc:"여러 파일을 묶어 브라우저가 읽을 형태로 만드는 도구다. Vite, Webpack이 대표적이다."},
+ {en:"Vite", ko:"최신 번들러", desc:"빠른 개발 서버와 빌드를 제공하는 요즘 표준 도구다."},
+ {en:"HMR", ko:"즉시 반영", desc:"코드를 저장하면 새로고침 없이 바뀐 부분만 화면에 바로 반영하는 기능이다. 개발이 빨라진다."},
+ {en:"Babel", ko:"변환기", desc:"최신 JS와 JSX를 옛 브라우저도 이해하는 문법으로 바꾸는 트랜스파일 도구다."},
+ {en:"Transpile", ko:"트랜스파일", desc:"새 문법을 옛 문법으로 바꾸는 작업이다. 빌드 과정에 포함된다."},
+ {en:"Environment Variable", ko:"환경 변수", desc:".env 파일에 API 키 같은 비밀값을 따로 보관하는 방식이다. 코드에 직접 안 적는다."},
+ {en:"Monorepo", ko:"모노레포", desc:"여러 프로젝트를 한 저장소에서 함께 관리하는 방식이다. 큰 팀에서 쓴다."},
+]},
+{id:"M", name:"라이브러리 · 프레임워크", terms:[
+ {en:"Library", ko:"라이브러리", desc:"자주 쓰는 기능을 미리 만들어둔 도구 모음이다. 필요한 것만 골라 부른다."},
+ {en:"Framework", ko:"프레임워크", desc:"전체 뼈대와 규칙까지 정해주는 큰 도구다. 라이브러리보다 강제하는 구조가 많다."},
+ {en:"Meta-framework", ko:"메타 프레임워크", desc:"프레임워크 위에 라우팅·렌더링·빌드를 더 얹은 상위 도구다. Next.js가 React의 메타 프레임워크다."},
+ {en:"SPA", ko:"단일 페이지 앱", desc:"HTML 한 장으로 돌아가는 앱이다. 이동해도 전체를 새로 안 불러오고 내용만 바꾼다."},
+ {en:"MPA", ko:"다중 페이지 앱", desc:"페이지마다 별도 HTML을 받는 전통 방식이다. 이동할 때마다 새로 불러온다."},
+ {en:"Vanilla", ko:"바닐라", desc:"프레임워크 없이 순수 HTML·CSS·JS만 쓴 상태다.", memo:"지금 당신 사이트가 바닐라다."},
+ {en:"React", ko:"UI 라이브러리", desc:"화면을 컴포넌트 조각으로 나눠 만드는 가장 널리 쓰이는 라이브러리다.", memo:"당신이 옮기려는 목적지다."},
+ {en:"Vue / Angular / Svelte", ko:"대안 도구", desc:"React와 같은 목적의 다른 프레임워크들이다. 하나를 골라 쓴다."},
+]},
+{id:"N", name:"React 핵심", terms:[
+ {en:"React", ko:"역할", desc:"화면(UI)을 만드는 라이브러리다. 화면을 컴포넌트로 나누고, 각 조각이 상태에 따라 무엇을 보여줄지 정의한다.", how:"당신은 이 상태일 때 화면은 이렇다만 적는다(선언형). 상태가 바뀌면 React가 화면을 새로 계산하고 달라진 부분만 반영한다. 요소를 직접 찾아 바꾸는 코드를 안 써도 된다."},
+ {en:"Component", ko:"컴포넌트", desc:"화면을 이루는 재사용 가능한 조각이다. 버튼 하나, 카드 하나를 만들어 여러 곳에 다시 쓴다."},
+ {en:"JSX", ko:"문법", desc:"HTML처럼 생긴 코드를 JS 안에 쓰는 문법이다.", ex:"const el = <h1>안녕</h1>. 빌드 때 일반 JS로 변환된다."},
+ {en:"Props", ko:"전달 값", desc:"부모가 자식 컴포넌트에 넘기는 값이다.", ex:"<Button text='저장' />에서 text가 props다. 자식은 props.text로 받는다."},
+ {en:"State", ko:"상태", desc:"컴포넌트가 기억하는 현재 값이다. 바뀌면 화면이 자동으로 다시 그려진다."},
+ {en:"useState", ko:"상태 훅", desc:"컴포넌트에 기억을 부여하는 훅이다.", ex:"const [count, setCount] = useState(0). count는 현재 값, setCount는 바꾸는 함수다."},
+ {en:"Event Handling", ko:"이벤트 처리", desc:"React에서 클릭 등에 함수를 연결하는 방식이다.", ex:"<button onClick={fn}>처럼 onClick에 함수를 넘긴다."},
+ {en:"Conditional Rendering", ko:"조건부 렌더링", desc:"조건에 따라 다른 화면을 보여주는 방식이다.", ex:"{isLogin ? <환영/> : <로그인/>}처럼 삼항 연산자로 갈래를 나눈다."},
+ {en:"List & Key", ko:"목록과 키", desc:"배열을 화면 목록으로 그릴 때 각 항목에 고유 key를 붙인다.", how:"key는 React가 어떤 항목이 추가·삭제·이동됐는지 구분하는 표식이다. key가 없거나 순서 번호를 쓰면 목록이 바뀔 때 엉뚱하게 다시 그려진다.", ex:"items.map(item => <li key={item.id}>{item.name}</li>)"},
+ {en:"Fragment", ko:"빈 묶음", desc:"불필요한 div 없이 여러 요소를 묶는 빈 껍데기다. <>...</>로 쓴다."},
+]},
+{id:"O", name:"React 동작 원리", terms:[
+ {en:"Virtual DOM", ko:"가상 DOM", desc:"React가 메모리에 두는 화면 구조의 가벼운 복사본이다.", how:"실제 DOM을 직접 바꾸는 건 느리다. React는 상태가 바뀌면 새 가상 복사본을 만들고, 이전과 비교해 달라진 부분만 추려 실제 화면에 적용한다. 전체를 다시 안 그려 빠르다.", ex:"목록 100개 중 한 줄 글자만 바뀌면, 그 한 줄만 실제 화면에서 갱신된다."},
+ {en:"Reconciliation", ko:"재조정", desc:"새 가상 DOM과 이전 것을 비교해 무엇이 바뀌었는지 찾는 과정이다. 가상 DOM이 빠른 핵심이다."},
+ {en:"Re-render", ko:"리렌더링", desc:"상태나 props가 바뀌어 컴포넌트가 화면을 다시 계산하는 일이다. 잦으면 느려져 최적화 대상이 된다."},
+ {en:"Declarative / Imperative", ko:"선언형 · 명령형", desc:"명령형은 단계별 지시(요소 찾아 바꿔라), 선언형은 결과만 적기(이 상태면 이렇다)다. React는 선언형이다."},
+ {en:"One-way Data Flow", ko:"단방향 흐름", desc:"데이터는 부모에서 자식으로 한 방향으로만 흐른다. 문제 추적이 쉽다."},
+ {en:"memo", ko:"리렌더 방지", desc:"props가 안 바뀌면 컴포넌트를 다시 안 그리게 막는 최적화 도구다."},
+]},
+{id:"P", name:"Hooks · 상태관리", terms:[
+ {en:"Hook", ko:"훅", desc:"함수형 컴포넌트에서 React 기능을 쓰게 해주는 함수다. 이름이 use로 시작한다."},
+ {en:"useEffect", ko:"효과 훅", desc:"화면이 그려진 뒤 실행할 작업을 지정하는 훅이다.", how:"데이터 불러오기, 외부 연결, 타이머 설정처럼 화면 그리기와 별개인 작업을 여기 둔다. 뒤에 정리 함수를 돌려주면 컴포넌트가 사라질 때 연결을 끊는다.", ex:"3D 씬을 만들고, 정리 함수에서 씬을 없앤다.", code:"useEffect(() => {\n  const scene = init3D();\n  return () => scene.dispose();\n}, []);", memo:"당신 사이트의 Three.js 초기화 코드가 여기로 옮겨질 가능성이 높다."},
+ {en:"useRef", ko:"참조 훅", desc:"화면을 다시 안 그리면서 값을 보관하거나 실제 DOM 요소를 가리킬 때 쓴다.", ex:"3D를 그릴 canvas 요소를 useRef로 붙잡아 Three.js에 넘긴다."},
+ {en:"useMemo", ko:"계산 기억", desc:"무거운 계산 결과를 기억해 불필요한 재계산을 막는 훅이다.", ex:"긴 목록을 정렬하는 계산을 useMemo로 감싸면 관련 값이 안 바뀔 땐 다시 계산하지 않는다."},
+ {en:"useCallback", ko:"함수 기억", desc:"함수를 기억해 자식에게 같은 함수를 넘기는 훅이다. 불필요한 리렌더를 줄인다."},
+ {en:"useContext", ko:"공유 값 읽기", desc:"멀리 떨어진 컴포넌트끼리 값을 공유해 읽는 훅이다."},
+ {en:"Custom Hook", ko:"커스텀 훅", desc:"반복되는 로직을 직접 만든 훅으로 묶어 재사용하는 것이다. 이름을 use로 시작한다."},
+ {en:"Context API", ko:"전역 공유", desc:"props로 일일이 안 넘기고 여러 컴포넌트가 같은 값을 쓰게 하는 React 기능이다."},
+ {en:"Props Drilling", ko:"props 줄줄이 전달", desc:"깊은 자식에게 값을 주려 중간 컴포넌트마다 props를 넘기는 번거로운 상황이다. Context로 해결한다."},
+ {en:"Redux / Zustand", ko:"상태관리 도구", desc:"앱 전체가 공유하는 상태를 한곳에서 관리하는 라이브러리다. Zustand가 더 간단하다."},
+ {en:"Global State", ko:"전역 상태", desc:"여러 화면이 함께 쓰는 데이터다. 로그인 정보, 장바구니가 예다."},
+]},
+{id:"Q", name:"렌더링 방식 · Next.js", terms:[
+ {en:"CSR", ko:"클라이언트 렌더링", desc:"브라우저가 빈 HTML과 JS를 받아 화면을 직접 그리는 방식이다.", how:"서버는 껍데기 HTML과 큰 JS를 보낸다. 브라우저가 JS를 실행해야 화면이 채워진다. 첫 화면이 늦고 검색에 약하다. 순수 React 기본 방식이다."},
+ {en:"SSR", ko:"서버 렌더링", desc:"서버가 요청마다 완성된 HTML을 만들어 보내는 방식이다.", how:"서버가 React를 돌려 완성된 HTML을 보내 사용자가 바로 본다. 이후 JS가 붙어 동작이 생긴다(하이드레이션). 첫 화면이 빠르고 검색에 유리하다."},
+ {en:"SSG", ko:"정적 생성", desc:"빌드할 때 페이지를 미리 HTML로 만들어두는 방식이다. 가장 빠르고 안 바뀌는 내용에 좋다."},
+ {en:"ISR", ko:"증분 정적 재생성", desc:"정적 페이지를 정해진 주기로 뒤에서 다시 만드는 Next.js 기능이다. 속도와 최신성을 함께 얻는다."},
+ {en:"Hydration", ko:"하이드레이션", desc:"서버가 보낸 정적 HTML에 JS가 동작을 붙여 살아나게 하는 과정이다.", how:"서버가 보낸 HTML은 보이지만 버튼이 안 먹는 마른 상태다. JS가 도착해 이벤트와 상태를 연결하면 그제야 클릭·스크롤이 작동한다."},
+ {en:"Next.js", ko:"React 프레임워크", desc:"React 위에 라우팅·서버 렌더링·빌드 최적화를 더한 메타 프레임워크다. 화면은 React로, 언제 어떻게 그릴지는 Next.js가 정한다."},
+ {en:"Routing", ko:"라우팅", desc:"어떤 주소에 어떤 페이지를 보여줄지 연결하는 일이다."},
+ {en:"React Router", ko:"라우팅 라이브러리", desc:"순수 React에서 주소와 화면을 연결할 때 쓰는 대표 라이브러리다."},
+ {en:"Dynamic Route", ko:"동적 경로", desc:"주소의 일부가 값에 따라 바뀌는 경로다.", ex:"/post/1, /post/2처럼 숫자만 다른 페이지를 하나의 규칙으로 처리한다."},
+ {en:"Server Component", ko:"서버 컴포넌트", desc:"서버에서만 그려 JS 부담을 줄이는 최신 React 방식이다. Next.js에서 쓴다."},
+]},
+{id:"R", name:"데이터 통신", terms:[
+ {en:"REST", ko:"통신 설계 방식", desc:"주소와 메서드로 데이터를 주고받는 가장 흔한 API 설계 규칙이다."},
+ {en:"HTTP Method", ko:"요청 종류", desc:"무엇을 할지 정하는 요청 방식이다.", ex:"GET은 조회, POST는 생성, PUT은 수정, DELETE는 삭제다."},
+ {en:"Status Code", ko:"상태 코드", desc:"요청 결과를 알리는 숫자다.", ex:"200은 성공, 404는 없음, 500은 서버 오류다."},
+ {en:"API", ko:"통신 약속", desc:"프로그램끼리 정보를 주고받는 약속이다. 날씨 API를 호출하면 날씨 데이터를 받는다."},
+ {en:"JSON", ko:"데이터 형식", desc:"이름·값 쌍으로 데이터를 담는 글자 형식이다. 통신에서 가장 많이 쓴다."},
+ {en:"fetch / axios", ko:"요청 도구", desc:"서버에 데이터를 요청하는 도구다. fetch는 내장, axios는 더 편한 외부 라이브러리다."},
+ {en:"GraphQL", ko:"맞춤 요청 방식", desc:"필요한 데이터만 골라 한 번에 받는 통신 방식이다. REST의 대안이다."},
+ {en:"WebSocket", ko:"실시간 연결", desc:"서버와 항상 연결을 유지해 실시간으로 데이터를 주고받는 방식이다. 채팅에 쓴다."},
+ {en:"React Query", ko:"데이터 관리 도구", desc:"서버 데이터를 가져오고 캐시·갱신을 자동 관리하는 라이브러리다. TanStack Query라고도 한다."},
+ {en:"CORS", ko:"교차 출처 정책", desc:"다른 도메인의 데이터를 함부로 못 받게 막는 브라우저 보안 규칙이다.", how:"브라우저는 보안을 위해 자기 사이트와 다른 출처의 응답을 기본 차단한다. 서버가 허용한다는 표시를 응답에 넣어야 받을 수 있다. 개발 중 흔히 만나는 오류다.", ex:"내 사이트에서 다른 서버 API를 부를 때 서버가 허용 설정을 안 하면 CORS 오류가 난다."},
+ {en:"Cookie", ko:"쿠키", desc:"브라우저에 저장되는 작은 정보다. 로그인 상태 유지에 쓴다."},
+ {en:"localStorage / sessionStorage", ko:"브라우저 저장소", desc:"브라우저에 데이터를 저장하는 공간이다. local은 영구, session은 탭을 닫으면 사라진다."},
+ {en:"JWT / Token", ko:"인증 토큰", desc:"로그인한 사용자임을 증명하는 암호화된 출입증이다. 요청마다 함께 보낸다."},
+]},
+{id:"S", name:"애니메이션 · 인터랙션", terms:[
+ {en:"CSS Transition", ko:"전환 효과", desc:"값이 바뀔 때 부드럽게 변하게 하는 CSS 효과다. 간단한 호버 효과에 적합하다."},
+ {en:"CSS Animation", ko:"키프레임 애니메이션", desc:"여러 단계 변화를 정해 자동 반복하는 CSS 기능이다."},
+ {en:"requestAnimationFrame", ko:"프레임 맞춤 실행", desc:"화면이 다시 그려지는 시점에 맞춰 코드를 실행하는 함수다.", how:"브라우저가 다음 프레임을 그리기 직전에 함수를 부른다. 이걸 매 프레임 반복하면 부드러운 애니메이션이 된다. 3D 렌더 루프와 스크롤 연동 움직임의 토대다."},
+ {en:"Easing", ko:"속도 곡선", desc:"애니메이션이 빨라지고 느려지는 리듬이다.", ex:"ease-in은 천천히 시작, ease-out은 천천히 끝, linear는 일정 속도다."},
+ {en:"GSAP", ko:"애니메이션 라이브러리", desc:"복잡하고 정밀한 애니메이션을 쉽게 만드는 강력한 라이브러리다."},
+ {en:"Framer Motion", ko:"React 애니메이션", desc:"React에서 컴포넌트 애니메이션을 간단히 만드는 라이브러리다."},
+ {en:"Scroll Trigger", ko:"스크롤 연동", desc:"스크롤 위치에 따라 애니메이션을 재생하는 기법이다.", memo:"확인됨: 이 사이트의 스크롤이 이 방식이다. Lenis(부드러운 스크롤)+GSAP+ScrollTrigger로 핀·스크럽을 구동한다."},
+ {en:"Parallax", ko:"패럴랙스", desc:"스크롤할 때 배경과 앞 요소가 다른 속도로 움직여 깊이감을 주는 효과다."},
+ {en:"Intersection Observer", ko:"등장 감지", desc:"요소가 화면에 들어왔는지 효율적으로 감지하는 도구다.", ex:"이미지가 화면에 보일 때만 불러오거나, 등장 애니메이션을 켤 때 쓴다."},
+]},
+{id:"T", name:"3D · WebGL", terms:[
+ {en:"WebGL", ko:"3D 기술", desc:"브라우저에서 3D를 그리는 기술이다. 직접 다루기 어려워 보통 라이브러리로 쓴다."},
+ {en:"Three.js", ko:"3D 라이브러리", desc:"WebGL을 쉽게 쓰게 해주는 표준급 라이브러리다.", memo:"확인됨: 이 사이트는 Three.js v0.160을 쓴다. 히어로·푸터 블루베리(GLB+HDR)와 스크롤 갤러리가 Three.js다."},
+ {en:"react-three-fiber", ko:"R3F", desc:"Three.js를 React 방식으로 쓰게 해주는 라이브러리다. 3D를 컴포넌트로 다룬다.", memo:"React로 옮기면 Three.js 코드가 보통 이걸로 바뀐다."},
+ {en:"Canvas", ko:"화면 영역", desc:"3D나 그림을 그리는 영역이다. Three.js는 이 위에 3D를 그린다."},
+ {en:"Scene", ko:"씬", desc:"3D 오브젝트들이 담기는 무대다. 카메라와 조명도 여기 들어간다."},
+ {en:"Camera", ko:"카메라", desc:"3D 세계를 어느 위치·각도에서 볼지 정하는 시점이다."},
+ {en:"Mesh", ko:"메시", desc:"눈에 보이는 3D 물체다. 형태(지오메트리)와 표면(머티리얼)을 합쳐 만든다."},
+ {en:"Geometry", ko:"형태", desc:"3D 물체의 모양 데이터다. 정육면체, 구 같은 뼈대다."},
+ {en:"Material", ko:"표면 재질", desc:"3D 물체의 색·질감·반사 같은 표면 성질이다."},
+ {en:"Light", ko:"조명", desc:"3D 세계를 비추는 빛이다. 빛이 없으면 물체가 검게 보인다."},
+ {en:"Shader / GLSL", ko:"셰이더", desc:"GPU에서 점과 픽셀의 위치·색을 계산하는 작은 프로그램이다. 특수 효과를 만든다. 까다롭다."},
+ {en:"Render Loop", ko:"렌더 루프", desc:"1초에 수십 번 화면을 다시 그려 움직임을 만드는 반복이다.", how:"매 프레임 오브젝트 위치·회전을 갱신하고 다시 그리기를 반복한다. 스크롤 값에 따라 이 안에서 오브젝트를 움직이면 스크롤 연동 3D가 된다."},
+ {en:"Texture", ko:"텍스처", desc:"3D 표면에 입히는 이미지다. 나무·금속 무늬를 사진으로 붙인다."},
+]},
+{id:"U", name:"성능 최적화", terms:[
+ {en:"Core Web Vitals", ko:"핵심 성능 지표", desc:"구글이 정한 사용자 체감 속도 지표 묶음이다. 검색 순위에도 영향을 준다."},
+ {en:"LCP", ko:"최대 콘텐츠 표시", desc:"가장 큰 내용이 화면에 뜨는 데 걸리는 시간이다. 빠를수록 좋다."},
+ {en:"CLS", ko:"화면 밀림 정도", desc:"로딩 중 요소가 갑자기 움직여 레이아웃이 튀는 정도다. 적을수록 좋다."},
+ {en:"INP", ko:"반응 속도", desc:"사용자가 누른 뒤 화면이 반응하기까지의 시간이다. 짧을수록 좋다."},
+ {en:"Lighthouse", ko:"성능 측정 도구", desc:"크롬에 내장된 사이트 성능·접근성·SEO 점수 측정 도구다."},
+ {en:"Debounce", ko:"디바운스", desc:"연속된 동작이 멈춘 뒤 한 번만 실행하는 기법이다.", how:"입력처럼 빠르게 반복되는 이벤트마다 처리하면 부담이 크다. 디바운스는 마지막 입력 후 일정 시간 조용하면 그때 한 번 실행한다.", ex:"검색창에 타이핑이 멈춘 0.3초 뒤에만 검색 요청을 보낸다."},
+ {en:"Throttle", ko:"스로틀", desc:"일정 간격마다 한 번씩만 실행하는 기법이다.", ex:"스크롤 이벤트를 0.1초에 한 번만 처리해 부담을 줄인다."},
+ {en:"Memoization", ko:"메모이제이션", desc:"한 번 계산한 결과를 저장해 같은 입력엔 다시 계산하지 않는 기법이다.", how:"입력과 결과를 짝지어 저장해둔다. 같은 입력이 또 오면 계산 없이 저장된 결과를 바로 돌려준다. React의 useMemo가 이 원리다."},
+ {en:"Lazy Loading", ko:"지연 로딩", desc:"이미지나 코드를 필요한 순간에만 불러오는 방식이다. 처음 로딩이 가볍다."},
+ {en:"Code Splitting", ko:"코드 분할", desc:"번들을 나눠 지금 페이지에 필요한 코드만 먼저 불러오는 기법이다."},
+ {en:"Tree Shaking", ko:"트리 쉐이킹", desc:"빌드 때 안 쓰는 코드를 최종 번들에서 털어내는 기능이다."},
+ {en:"Image Optimization", ko:"이미지 최적화", desc:"이미지를 가볍게 만드는 작업이다.", ex:"WebP 형식으로 바꾸고, srcset으로 화면 크기에 맞는 이미지를 골라 보낸다."},
+ {en:"Font Optimization", ko:"폰트 최적화", desc:"필요한 글자만 담거나 로딩 방식을 조절해 글꼴이 빨리 뜨게 하는 작업이다."},
+ {en:"Caching", ko:"캐싱", desc:"한 번 받은 파일을 저장해두고 재방문 때 사본을 써 빠르게 보여주는 방식이다."},
+ {en:"CDN", ko:"콘텐츠 전송망", desc:"세계 곳곳의 서버에서 사용자와 가까운 곳이 파일을 보내 속도를 높이는 망이다."},
+ {en:"Minification", ko:"경량화 · 압축", desc:"공백·주석을 지우고 이름을 줄여 파일을 가볍게 만드는 작업이다. 빌드 때 자동으로 일어난다."},
+ {en:"Bundle Size", ko:"번들 크기", desc:"브라우저가 받아야 할 JS 묶음의 크기다. 작을수록 빨리 뜬다."},
+]},
+{id:"V", name:"보안", terms:[
+ {en:"XSS", ko:"악성 스크립트 삽입", desc:"공격자가 사이트에 나쁜 JS를 끼워 넣어 실행시키는 공격이다.", how:"사용자가 입력한 글에 스크립트가 섞여 있는데 그대로 화면에 넣으면, 그 스크립트가 다른 사용자 브라우저에서 실행된다. 입력값을 그대로 안 믿고 걸러내야 막는다.", ex:"댓글에 <scr"+"ipt>...<\/scr"+"ipt>를 넣었는데 거르지 않으면 다른 사람이 그 글을 볼 때 실행된다."},
+ {en:"CSRF", ko:"요청 위조", desc:"로그인된 사용자를 속여 의도치 않은 요청을 보내게 하는 공격이다.", ex:"사용자가 로그인된 상태에서 악성 링크를 누르면, 모르는 사이 송금 요청 같은 게 보내진다."},
+ {en:"CSP", ko:"콘텐츠 보안 정책", desc:"어떤 스크립트·이미지만 허용할지 미리 정해 XSS를 줄이는 보안 설정이다."},
+ {en:"HTTPS", ko:"암호화 통신", desc:"통신 내용을 암호화해 중간에서 못 엿보게 하는 안전한 연결이다."},
+ {en:"Sanitization", ko:"입력값 정화", desc:"사용자 입력에서 위험한 코드를 걸러내는 작업이다. XSS를 막는 핵심이다."},
+ {en:"Environment Variable", ko:"환경 변수", desc:"API 키 같은 비밀값을 코드에 안 적고 .env 파일에 따로 보관하는 방식이다."},
+ {en:"Authentication / Authorization", ko:"인증 · 인가", desc:"인증은 누구인지 확인하는 것, 인가는 무엇을 할 권한이 있는지 확인하는 것이다."},
+]},
+{id:"W", name:"테스팅", terms:[
+ {en:"Unit Test", ko:"단위 테스트", desc:"함수 하나 같은 작은 조각이 제대로 도는지 확인하는 테스트다."},
+ {en:"Integration Test", ko:"통합 테스트", desc:"여러 조각이 함께 잘 맞물려 도는지 확인하는 테스트다."},
+ {en:"E2E Test", ko:"종단 테스트", desc:"실제 사용자처럼 처음부터 끝까지 클릭하며 확인하는 테스트다."},
+ {en:"Jest / Vitest", ko:"테스트 도구", desc:"테스트를 작성하고 돌리는 도구다. Vitest는 Vite와 잘 맞는 최신 도구다."},
+ {en:"Testing Library", ko:"컴포넌트 테스트", desc:"사용자 관점에서 컴포넌트를 테스트하게 돕는 도구다."},
+ {en:"Cypress / Playwright", ko:"E2E 도구", desc:"브라우저를 자동으로 조작해 종단 테스트를 돌리는 도구다."},
+ {en:"Snapshot", ko:"스냅샷", desc:"화면 결과를 저장해두고 다음에 달라졌는지 비교하는 테스트 방식이다."},
+ {en:"Mock", ko:"가짜 대역", desc:"실제 서버나 함수 대신 쓰는 가짜 대체물이다. 테스트를 빠르고 안정적으로 만든다."},
+]},
+{id:"X", name:"빌드 · 배포 · 협업", terms:[
+ {en:"Build", ko:"빌드", desc:"작성한 코드를 배포용 파일로 변환하는 과정이다. 트랜스파일·번들·경량화가 한 번에 일어난다.", memo:"바닐라는 더블클릭하면 열리지만 React는 빌드·개발서버가 필요해 그냥 안 열린다. 비개발자에게 첫 장벽이다."},
+ {en:"Bundle", ko:"번들", desc:"번들러가 여러 파일을 묶어 만든 최종 결과 파일이다."},
+ {en:"Obfuscation", ko:"난독화", desc:"코드를 사람이 못 읽게 일부러 망가뜨리는 작업이다.", how:"이름을 의미 없는 기호로 바꾸고 구조를 비틀어 알아보기 힘들게 만든다. 베끼기를 늦추는 목적이며, 결국 실행되는 코드라 완전한 보안은 아니다."},
+ {en:"Source Map", ko:"소스맵", desc:"경량화·난독화된 코드를 원래 코드로 되짚어주는 파일이다. 디버깅에 쓴다."},
+ {en:"Deploy", ko:"배포", desc:"완성한 사이트를 서버에 올려 공개하는 일이다."},
+ {en:"Vercel / Netlify", ko:"배포 플랫폼", desc:"코드를 올리면 빌드·배포를 자동으로 해주는 서비스다. Next.js는 Vercel과 잘 맞는다."},
+ {en:"CI/CD", ko:"자동 검사·배포", desc:"코드를 올리면 자동으로 테스트하고 배포까지 이어지는 자동화 흐름이다."},
+ {en:"PWA", ko:"앱 같은 웹", desc:"설치하고 오프라인에서도 쓸 수 있게 만든 웹앱이다."},
+ {en:"Service Worker", ko:"백그라운드 일꾼", desc:"브라우저 뒤에서 도는 스크립트다. 오프라인 캐싱과 알림을 담당한다."},
+ {en:"Git", ko:"버전 관리", desc:"코드 변경 기록을 저장하고 되돌릴 수 있게 하는 도구다."},
+ {en:"GitHub", ko:"코드 저장소", desc:"Git 코드를 온라인에 보관·공유·협업하는 사이트다."},
+ {en:"Commit / Branch / Merge", ko:"변경 기록 단위", desc:"commit은 한 번의 저장, branch는 갈래 작업 공간, merge는 갈래를 합치는 일이다."},
+ {en:"Pull Request", ko:"병합 요청", desc:"내 작업을 검토받고 합쳐달라고 요청하는 절차다. 협업의 핵심이다."},
+ {en:"TypeScript", ko:"타입 있는 JS", desc:"JS에 값의 종류 표시를 더한 언어다. 실수를 실행 전에 잡아준다. 최종적으로 JS로 변환된다."},
+ {en:"ESLint", ko:"코드 검사기", desc:"코드의 오류와 나쁜 습관을 자동으로 찾아 경고하는 도구다."},
+ {en:"Prettier", ko:"코드 정리기", desc:"들여쓰기·줄바꿈을 일정 규칙으로 자동 정리하는 도구다."},
+ {en:"Storybook", ko:"컴포넌트 전시", desc:"컴포넌트를 따로 떼어 모아 보고 테스트하는 도구다."},
+ {en:"i18n", ko:"다국어 지원", desc:"사이트를 여러 언어로 보여주게 만드는 작업이다."},
+ {en:"Figma", ko:"디자인 도구", desc:"디자이너가 화면을 그리고 개발자에게 색·간격·크기를 넘기는 협업 도구다."},
+]},
+];
+
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const main = document.getElementById('main');
+const chips = document.getElementById('chips');
+let total = 0;
+
+DATA.forEach((cat,i)=>{
+  const h = Math.round(i*360/DATA.length);
+  const c = `hsl(${h}, 55%, 46%)`;
+  const cs = `hsla(${h}, 55%, 46%, 0.10)`;
+  total += cat.terms.length;
+
+  const chip = document.createElement('a');
+  chip.href = '#sec-'+cat.id;
+  chip.className = 'chip';
+  chip.dataset.cat = cat.id;
+  chip.style.setProperty('--c', c);
+  chip.innerHTML = `<span class="ltr">${cat.id}</span>${cat.name}`;
+  chips.appendChild(chip);
+
+  const sec = document.createElement('section');
+  sec.className = 'section';
+  sec.id = 'sec-'+cat.id;
+  sec.dataset.cat = cat.id;
+  sec.style.setProperty('--c', c);
+  sec.style.setProperty('--c-soft', cs);
+
+  let html = `<div class="sec-head"><div class="badge">${cat.id}</div><h2>${cat.name}</h2><span class="n">${cat.terms.length}</span></div>`;
+  cat.terms.forEach(t=>{
+    const blob = (t.en+' '+t.ko+' '+t.desc+' '+(t.how||'')+' '+(t.ex||'')+' '+(t.memo||'')).toLowerCase();
+    html += `<article class="term" data-text="${esc(blob)}">
+      <div class="term-head"><span class="term-en">${esc(t.en)}</span><span class="term-ko">${esc(t.ko)}</span></div>
+      <p class="term-desc">${esc(t.desc)}</p>
+      ${t.how?`<div class="how"><b>작동 원리</b>${esc(t.how)}</div>`:''}
+      ${t.ex?`<div class="ex"><b>예시</b>${esc(t.ex)}${t.code?`<code>${esc(t.code)}</code>`:''}</div>`:''}
+      ${t.memo?`<div class="memo"><b>메모</b>${esc(t.memo)}</div>`:''}
+    </article>`;
+  });
+  sec.innerHTML = html;
+  main.appendChild(sec);
+});
+
+document.getElementById('count').textContent = total;
+document.getElementById('catcount').textContent = DATA.length;
+document.getElementById('footer').textContent = `${total} terms · ${DATA.length} categories · ${new Date().getFullYear()}`;
+
+const search = document.getElementById('search');
+const clearBtn = document.getElementById('clear');
+const emptyEl = document.getElementById('empty');
+function applyFilter(){
+  const q = search.value.trim().toLowerCase();
+  clearBtn.style.display = q ? 'block' : 'none';
+  let anyVisible = false;
+  document.querySelectorAll('.section').forEach(sec=>{
+    let secHas = false;
+    sec.querySelectorAll('.term').forEach(t=>{
+      const hit = !q || t.dataset.text.includes(q);
+      t.style.display = hit ? '' : 'none';
+      if(hit) secHas = true;
+    });
+    sec.style.display = secHas ? '' : 'none';
+    const chip = chips.querySelector(`.chip[data-cat="${sec.dataset.cat}"]`);
+    if(chip) chip.classList.toggle('dim', !secHas);
+    if(secHas) anyVisible = true;
+  });
+  emptyEl.style.display = anyVisible ? 'none' : 'block';
+}
+search.addEventListener('input', applyFilter);
+clearBtn.addEventListener('click', ()=>{ search.value=''; applyFilter(); search.focus(); });
+
+const chipEls = [...chips.querySelectorAll('.chip')];
+const spy = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const id = e.target.dataset.cat;
+      chipEls.forEach(ch=>ch.classList.toggle('active', ch.dataset.cat===id));
+      const active = chips.querySelector('.chip.active');
+      if(active) active.scrollIntoView({block:'nearest',inline:'center'});
+    }
+  });
+},{rootMargin:'-45% 0px -50% 0px',threshold:0});
+document.querySelectorAll('.section').forEach(s=>spy.observe(s));
+</script>
+</body>
+</html>

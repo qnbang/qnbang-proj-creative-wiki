@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프론트엔드 용어 사전</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F8; --surface:#FFFFFF; --ink:#16181D;
+    --muted:#5C6270; --faint-text:#8A8F9C;
+    --border:#E4E7EE; --faint:#EEF0F5;
+    --shadow:0 1px 2px rgba(20,24,33,.04), 0 4px 16px rgba(20,24,33,.04);
+    --radius:14px;
+    --sans:'Pretendard',system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.6;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:780px;margin:0 auto;padding:0 18px}
+
+  header.top{padding:40px 0 22px}
+  .kicker{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.04em;color:var(--faint-text);text-transform:uppercase;margin-bottom:12px}
+  h1{font-size:34px;line-height:1.15;font-weight:800;letter-spacing:-.03em}
+  .lede{margin-top:12px;font-size:15px;color:var(--muted);max-width:60ch}
+  .stat{margin-top:18px;display:inline-flex;align-items:baseline;gap:8px;font-family:var(--mono);font-size:13px;color:var(--muted)}
+  .stat b{font-size:15px;color:var(--ink);font-weight:700}
+
+  .controls{position:sticky;top:0;z-index:20;background:rgba(244,245,248,.86);backdrop-filter:saturate(180%) blur(10px);-webkit-backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--border);padding:12px 0 10px}
+  .search-box{position:relative}
+  .search-box svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--faint-text);pointer-events:none}
+  #search{width:100%;font-family:var(--sans);font-size:15px;padding:11px 38px 11px 40px;border:1px solid var(--border);border-radius:11px;background:var(--surface);color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
+  #search::placeholder{color:var(--faint-text)}
+  #search:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(22,24,29,.08)}
+  #clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:none;background:var(--faint);color:var(--muted);width:24px;height:24px;border-radius:7px;cursor:pointer;font-size:14px;line-height:1;display:none}
+  #clear:hover{background:#E2E5EC;color:var(--ink)}
+
+  .chips{display:flex;gap:7px;overflow-x:auto;margin-top:10px;padding-bottom:2px;scrollbar-width:none;-ms-overflow-style:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;padding:7px 13px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;text-decoration:none}
+  .chip .ltr{font-family:var(--mono);font-weight:700;color:var(--c)}
+  .chip:hover{border-color:var(--c)}
+  .chip.active{background:var(--c);color:#fff;border-color:var(--c)}
+  .chip.active .ltr{color:rgba(255,255,255,.9)}
+  .chip.dim{opacity:.35;pointer-events:none}
+
+  main{padding:18px 0 40px}
+  .section{padding-top:30px;scroll-margin-top:124px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .badge{flex:0 0 auto;font-family:var(--mono);font-weight:700;font-size:15px;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;color:#fff;background:var(--c)}
+  .sec-head h2{font-size:20px;font-weight:700;letter-spacing:-.02em}
+
+  .term{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;margin-bottom:10px}
+  .term-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 10px;margin-bottom:6px}
+  .term-en{font-family:var(--mono);font-weight:700;font-size:16px;color:var(--ink)}
+  .term-ko{font-size:12.5px;font-weight:600;color:var(--c);background:var(--c-soft);padding:3px 8px;border-radius:6px}
+  .term-desc{font-size:14.5px;color:#33373F}
+  .how{margin-top:11px;font-size:13.5px;color:#33373F;background:var(--faint);border-radius:8px;padding:10px 12px}
+  .how b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:3px}
+  .memo{margin-top:11px;font-size:13.5px;color:#33373F;background:var(--c-soft);border-left:3px solid var(--c);border-radius:0 8px 8px 0;padding:9px 12px}
+  .memo b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:2px}
+
+  .empty{display:none;text-align:center;color:var(--muted);padding:60px 0;font-size:15px}
+  .empty span{display:block;font-family:var(--mono);color:var(--faint-text);font-size:13px;margin-top:6px}
+
+  .priority{margin-top:46px;background:var(--ink);color:#fff;border-radius:18px;padding:26px 22px}
+  .priority .kicker{color:rgba(255,255,255,.5)}
+  .priority h2{font-size:19px;font-weight:700;margin-bottom:4px}
+  .priority p.sub{font-size:14px;color:rgba(255,255,255,.65);margin-bottom:18px}
+  .pr-item{display:flex;gap:14px;padding:13px 0;border-top:1px solid rgba(255,255,255,.12)}
+  .pr-num{font-family:var(--mono);font-weight:700;font-size:14px;color:rgba(255,255,255,.45);flex:0 0 auto;width:20px}
+  .pr-body b{font-size:14.5px;font-weight:700;display:block;margin-bottom:1px}
+  .pr-body b code{font-family:var(--mono);font-size:13px;font-weight:700}
+  .pr-body span{font-size:13.5px;color:rgba(255,255,255,.6)}
+
+  footer{padding:30px 0 50px;color:var(--faint-text);font-size:12.5px;font-family:var(--mono)}
+
+  @media (max-width:480px){h1{font-size:28px}header.top{padding:30px 0 18px}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">Frontend Glossary · 학습 노트</div>
+    <h1>프론트엔드 용어 사전</h1>
+    <p class="lede">비전공자 기준 사전입니다. 검색하거나 분류를 눌러 찾아보세요. 어려운 개념엔 <strong>작동 원리</strong>를, 당신 프로젝트(바닐라 3D → React)와 연결되는 부분엔 <strong>메모</strong>를 달았습니다.</p>
+    <div class="stat"><b id="count">0</b> 개 용어 · <b id="catcount">0</b> 개 분류</div>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="용어 검색 (예: Next.js, 난독화, 가상 DOM)" autocomplete="off" aria-label="용어 검색">
+      <button id="clear" aria-label="검색어 지우기">✕</button>
+    </div>
+    <nav class="chips" id="chips" aria-label="분류 이동"></nav>
+  </div>
+</div>
+
+<div class="wrap">
+  <main id="main"></main>
+  <div class="empty" id="empty">검색 결과가 없습니다.<span>다른 단어로 찾아보세요.</span></div>
+
+  <section class="priority">
+    <div class="kicker">Priority</div>
+    <h2>먼저 익힐 용어</h2>
+    <p class="sub">바닐라 3D 사이트를 React로 옮기는 작업의 우선순위입니다.</p>
+    <div class="pr-item"><div class="pr-num">01</div><div class="pr-body"><b><code>Component · State · Props · JSX</code></b><span>React로 화면을 짜는 기본 단위</span></div></div>
+    <div class="pr-item"><div class="pr-num">02</div><div class="pr-body"><b><code>가상 DOM · Hook · useEffect</code></b><span>React가 화면을 갱신하고 3D를 초기화하는 원리</span></div></div>
+    <div class="pr-item"><div class="pr-num">03</div><div class="pr-body"><b><code>Three.js → react-three-fiber · 렌더 루프</code></b><span>3D가 어떻게 옮겨지는지</span></div></div>
+    <div class="pr-item"><div class="pr-num">04</div><div class="pr-body"><b><code>Node.js · npm · Build · Dev Server</code></b><span>React 버전을 PC에서 띄우는 데 필요</span></div></div>
+    <div class="pr-item"><div class="pr-num">05</div><div class="pr-body"><b><code>Next.js · 렌더링 방식</code></b><span>지금은 몰라도 됨. 사이트가 커지면 검토</span></div></div>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const COLORS = {
+  A:"#2F6FED", B:"#E0533D", C:"#C08A1E", D:"#1F9D6B", E:"#7C5CF0",
+  F:"#E07A2E", G:"#0E8FD6", H:"#0E9A8A", I:"#C24E86", J:"#5A66E0", K:"#9B5B3A"
+};
+function soft(hex){
+  const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  return `rgba(${r},${g},${b},.10)`;
+}
+
+const DATA = [
+  {id:"A", name:"웹의 기본 구조", terms:[
+    {en:"Front-end", ko:"프론트엔드", desc:"사용자가 화면에서 직접 보고 누르는 부분이다. 버튼, 글자, 색, 움직임이 전부 프론트엔드다."},
+    {en:"Back-end", ko:"백엔드", desc:"사용자 눈에 안 보이는 부분이다. 데이터 저장, 로그인 처리, 계산을 담당한다."},
+    {en:"Client", ko:"클라이언트", desc:"사용자의 기기와 브라우저를 가리킨다. 당신 PC, 방문자의 휴대폰이 클라이언트다."},
+    {en:"Server", ko:"서버", desc:"요청을 받아 파일이나 데이터를 보내주는 컴퓨터다. 사이트 주소를 입력하면 서버가 HTML 파일을 보낸다."},
+    {en:"Browser", ko:"브라우저", desc:"크롬, 사파리 같은 프로그램이다. HTML·CSS·JavaScript를 읽어 화면으로 그려준다."},
+    {en:"HTTP / HTTPS", ko:"통신 규약", desc:"브라우저와 서버가 데이터를 주고받는 약속이다. HTTPS는 내용을 암호화한 안전한 버전이다."},
+    {en:"URL", ko:"주소", desc:"인터넷에서 특정 페이지나 파일의 위치를 가리키는 주소다."},
+    {en:"Domain", ko:"도메인", desc:"사람이 외우기 쉬운 사이트 이름이다(example.com). 실제 서버의 숫자 주소로 연결된다."},
+    {en:"Hosting", ko:"호스팅", desc:"사이트 파일을 서버에 올려 인터넷에서 접속 가능하게 하는 일이다."},
+    {en:"Static / Dynamic", ko:"정적 · 동적 사이트", desc:"정적은 모두에게 같은 고정 페이지다. 동적은 사용자나 상황에 따라 내용이 바뀌는 페이지다."},
+  ]},
+  {id:"B", name:"3대 핵심 언어", terms:[
+    {en:"HTML", ko:"HyperText Markup Language", desc:"웹페이지의 구조와 내용을 정의하는 언어다. 내용만 담당하고 디자인이나 동작은 담당하지 않는다."},
+    {en:"CSS", ko:"Cascading Style Sheets", desc:"화면의 모양을 담당하는 언어다. 색, 크기, 위치, 간격, 글꼴을 지정한다."},
+    {en:"JavaScript", ko:"JS", desc:"동작과 상호작용을 담당하는 언어다. 버튼을 누르면 창이 뜨고, 스크롤하면 화면이 바뀌는 일은 전부 JavaScript가 한다.", memo:"당신 사이트의 스크롤 작동과 3D 움직임은 JavaScript로 짜여 있다."},
+  ]},
+  {id:"C", name:"HTML 용어", terms:[
+    {en:"Element / Tag", ko:"요소 · 태그", desc:"요소는 HTML을 이루는 한 덩어리다. 태그는 그 요소를 표시하는 기호다. 여는 태그와 닫는 태그 사이의 전체가 하나의 요소다."},
+    {en:"Attribute", ko:"속성", desc:"요소에 추가 정보를 붙이는 값이다. 이미지 요소에 주소를 지정하거나, 요소에 이름표를 붙일 때 쓴다."},
+    {en:"Semantic Tag", ko:"시맨틱 태그", desc:"의미를 가진 태그다(header, nav, article 등). 검색엔진과 화면 낭독기가 구조를 이해하기 쉬워진다."},
+    {en:"DOM", ko:"Document Object Model", desc:"브라우저가 HTML을 읽어 메모리에 만든 구조다. JavaScript는 이 DOM을 통해 화면 요소를 찾고 바꾼다.", how:"브라우저는 HTML 글자를 그대로 쓰지 않고, 요소들을 부모·자식 관계의 나무 구조로 변환해 메모리에 올린다. JavaScript가 글자를 바꾸면 이 나무가 갱신되고, 화면이 다시 그려진다. DOM 조작은 이 나무를 직접 건드리는 작업을 뜻한다."},
+  ]},
+  {id:"D", name:"CSS 용어", terms:[
+    {en:"Selector", ko:"선택자", desc:"디자인을 적용할 대상을 고르는 문법이다. 모든 제목 또는 이 버튼 하나처럼 범위를 지정한다."},
+    {en:"Property / Value", ko:"속성 · 값", desc:"무엇을 어떻게 바꿀지 정하는 한 쌍이다. color: red에서 color가 속성, red가 값이다."},
+    {en:"Responsive", ko:"반응형 디자인", desc:"화면 크기에 따라 레이아웃이 자동으로 바뀌는 방식이다. PC에서 가로 3칸이던 게 휴대폰에서 세로 1칸으로 바뀐다."},
+    {en:"Media Query", ko:"미디어 쿼리", desc:"반응형을 구현하는 CSS 문법이다. 화면이 일정 너비보다 좁으면 이렇게 바꿔라를 지정한다."},
+    {en:"Flexbox / Grid", ko:"배치", desc:"요소를 가로세로로 배치하는 CSS 기능이다. Flexbox는 한 줄 정렬, Grid는 격자 배치에 쓴다."},
+    {en:"Sass / SCSS", ko:"전처리기", desc:"CSS를 더 편하게 쓰게 해주는 확장판이다. 변수와 반복을 지원하고, 최종적으로 일반 CSS로 변환된다."},
+    {en:"Tailwind CSS", ko:"유틸리티 CSS", desc:"미리 만들어둔 짧은 클래스 이름으로 디자인하는 도구다. HTML 안에서 바로 디자인을 지정한다."},
+  ]},
+  {id:"E", name:"JavaScript 용어", terms:[
+    {en:"Variable", ko:"변수", desc:"값을 담아두는 이름표다. 숫자나 글자를 저장해두고 나중에 꺼내 쓴다."},
+    {en:"Function", ko:"함수", desc:"정해진 동작을 묶어둔 단위다. 한 번 만들어두면 필요할 때마다 호출해서 같은 동작을 실행한다."},
+    {en:"Object / Array", ko:"객체 · 배열", desc:"객체는 이름표가 붙은 값들의 묶음이다. 배열은 순서대로 나열된 값들의 목록이다."},
+    {en:"Event", ko:"이벤트", desc:"사용자의 행동이다. 클릭, 스크롤, 키 입력이 전부 이벤트다. JavaScript는 이벤트가 일어나면 정해둔 함수를 실행한다.", memo:"당신 사이트의 스크롤하면 3D가 움직인다는 스크롤 이벤트에 함수가 연결된 구조다."},
+    {en:"Callback", ko:"콜백", desc:"나중에 실행되도록 다른 함수에 넘기는 함수다. 어떤 작업이 끝난 뒤 이걸 실행하라는 식으로 쓴다."},
+    {en:"Promise", ko:"프로미스", desc:"지금 당장 끝나지 않는 작업의 결과를 나중에 받기로 한 약속이다.", how:"데이터를 받아오는 작업은 시간이 걸린다. Promise는 작업을 시작하면서 빈 약속표를 먼저 돌려준다. 작업이 끝나면 성공이면 결과를, 실패면 오류를 그 약속표에 채운다. 코드는 결과를 기다리는 동안 멈추지 않고 다른 일을 한다. async/await가 이 Promise를 더 읽기 쉽게 쓰는 문법이다."},
+    {en:"async / await", ko:"비동기", desc:"오래 걸리는 작업을 기다리는 동안 다른 일을 멈추지 않게 하는 방식이다. 데이터를 받아오는 동안 화면이 멈추지 않게 한다."},
+    {en:"Module (import/export)", ko:"모듈", desc:"코드를 파일 단위로 나누고, 필요한 것만 가져다 쓰는 방식이다. export로 내보내고 import로 가져온다."},
+    {en:"ES6+", ko:"최신 문법", desc:"2015년 이후 추가된 현대 JavaScript 문법 묶음이다. 화살표 함수, 구조 분해 같은 편의 문법이 여기 속한다."},
+    {en:"API", ko:"Application Programming Interface", desc:"프로그램끼리 정보를 주고받는 약속이다. 날씨 API를 호출하면 현재 날씨 데이터를 받아온다."},
+    {en:"JSON", ko:"데이터 형식", desc:"데이터를 정리해 담는 글자 형식이다. 이름·값 쌍으로 되어 있어 사람과 프로그램 모두 읽기 쉽다."},
+  ]},
+  {id:"F", name:"라이브러리와 프레임워크", terms:[
+    {en:"Library", ko:"라이브러리", desc:"자주 쓰는 기능을 미리 만들어둔 도구 모음이다. 필요한 기능만 골라 부른다."},
+    {en:"Framework", ko:"프레임워크", desc:"전체 뼈대와 규칙까지 정해주는 큰 도구다. 차이는 내가 도구를 부른다(라이브러리) 대 도구의 규칙 안에서 내가 짠다(프레임워크)이다."},
+    {en:"Meta-framework", ko:"메타 프레임워크", desc:"프레임워크나 라이브러리 위에 라우팅·렌더링·빌드 기능을 더 얹은 상위 도구다. Next.js가 React의 메타 프레임워크다."},
+    {en:"Vanilla", ko:"바닐라", desc:"프레임워크 없이 순수 HTML·CSS·JavaScript만 쓴 상태다.", memo:"지금 당신 사이트가 바닐라다."},
+  ]},
+  {id:"G", name:"React", terms:[
+    {en:"React", ko:"역할", desc:"화면(UI)을 만드는 JavaScript 라이브러리다. 화면을 컴포넌트라는 조각으로 나누고, 각 조각이 현재 상태에 따라 무엇을 보여줄지 정의한다.", how:"당신은 이 상태일 때 화면은 이렇게 생겼다만 적는다(선언형). 상태가 바뀌면 React가 화면을 새로 계산하고, 이전과 달라진 부분만 골라 실제 화면에 반영한다. 직접 요소를 찾아 글자를 바꾸는 코드를 쓰지 않아도 된다. 이 자동 갱신과 조각 단위 재사용이 React의 핵심 역할이다.", memo:"당신이 옮기려는 목적지다."},
+    {en:"Component", ko:"컴포넌트", desc:"화면을 이루는 재사용 가능한 조각이다. 버튼 하나, 카드 하나를 컴포넌트로 만들어 여러 곳에 다시 쓴다. React의 가장 작은 단위다."},
+    {en:"JSX", ko:"문법", desc:"HTML처럼 생긴 코드를 JavaScript 안에 쓰는 문법이다. 화면 구조와 동작을 한 파일에 같이 적는다. 빌드 과정에서 일반 JavaScript로 변환된다."},
+    {en:"State", ko:"상태", desc:"컴포넌트가 기억하는 현재 값이다. 메뉴 열림/닫힘처럼 변하는 정보가 state다.", how:"state가 바뀌면 React는 그 컴포넌트를 다시 그려야 한다고 표시한다. 그 결과 화면이 새 값으로 자동 갱신된다. state를 직접 바꾸지 않고 정해진 함수로만 바꾸는 이유가 여기 있다. 그래야 React가 변경을 감지한다."},
+    {en:"Props", ko:"전달 값", desc:"부모 컴포넌트가 자식 컴포넌트에 넘겨주는 값이다. 같은 버튼 컴포넌트에 글자만 다르게 넘길 때 props를 쓴다."},
+    {en:"One-way Data Flow", ko:"단방향 데이터 흐름", desc:"데이터는 부모에서 자식으로 한 방향으로만 흐른다.", how:"자식이 부모 데이터를 멋대로 바꾸지 못한다. 값은 위에서 아래로만 내려가고, 자식이 무언가 바꿔야 하면 부모가 준 함수를 호출해 부모에게 요청한다. 흐름이 한 방향이라 문제가 생겼을 때 어디서 값이 바뀌었는지 추적하기 쉽다."},
+    {en:"Virtual DOM", ko:"가상 DOM", desc:"React가 메모리에 두는 화면 구조의 가벼운 복사본이다.", how:"실제 DOM을 직접 바꾸는 건 느리다. React는 상태가 바뀌면 먼저 메모리에 새 가상 복사본을 만들고, 이전 복사본과 비교해 실제로 달라진 부분만 추려낸다. 그 최소한의 변경만 실제 화면에 적용한다. 전체를 다시 그리지 않아 빠르다."},
+    {en:"Reconciliation", ko:"재조정", desc:"새 가상 DOM과 이전 가상 DOM을 비교해 무엇이 바뀌었는지 찾아내는 과정이다. 가상 DOM이 빠른 이유의 핵심이다."},
+    {en:"Re-render", ko:"리렌더링", desc:"상태나 props가 바뀌어 컴포넌트가 화면을 다시 계산하는 일이다. 자주 일어나면 느려질 수 있어 최적화 대상이 된다."},
+    {en:"Hook", ko:"훅", desc:"함수형 컴포넌트에서 React 기능을 쓰게 해주는 함수다. 이름이 use로 시작한다."},
+    {en:"useState", ko:"상태 훅", desc:"컴포넌트에 기억(상태)을 부여하는 훅이다. 현재 값과 그 값을 바꾸는 함수를 함께 돌려준다."},
+    {en:"useEffect", ko:"효과 훅", desc:"화면이 그려진 뒤 실행할 작업을 지정하는 훅이다. 데이터 불러오기, 외부 연결, 정리 작업에 쓴다.", memo:"3D 씬 초기화와 정리가 보통 useEffect 안에 들어간다. 당신 사이트의 Three.js 설정 코드가 여기로 옮겨질 가능성이 높다."},
+    {en:"Declarative / Imperative", ko:"선언형 · 명령형", desc:"명령형은 단계별 지시를 적는 방식이다(이 요소를 찾아 글자를 바꿔라). 선언형은 결과만 적고 과정은 도구에 맡기는 방식이다(이 상태면 화면은 이렇다). React는 선언형이다."},
+  ]},
+  {id:"H", name:"렌더링 방식 · 메타 프레임워크", terms:[
+    {en:"Next.js", ko:"React 프레임워크", desc:"React 위에 라우팅, 서버 렌더링, 빌드 최적화, 폴더 구조를 더한 메타 프레임워크다. 화면은 React로 만들고, 그 화면을 언제 어떻게 그려서 보낼지는 Next.js가 정한다.", how:"순수 React는 보통 브라우저에서 화면을 그린다(아래 CSR). Next.js는 페이지별로 서버에서 미리 그릴지, 빌드 때 미리 만들어둘지, 브라우저에서 그릴지를 고를 수 있게 해준다. 그래서 첫 화면이 빠르고 검색엔진에 잘 잡힌다. 주소와 페이지를 폴더 구조로 자동 연결해 라우팅도 직접 안 짜도 된다."},
+    {en:"CSR", ko:"클라이언트 렌더링", desc:"브라우저가 거의 빈 HTML과 JavaScript 묶음을 받아, 화면을 브라우저에서 직접 그리는 방식이다.", how:"서버는 내용이 거의 없는 껍데기 HTML과 큰 JavaScript 파일을 보낸다. 브라우저가 그 JavaScript를 실행해야 비로소 화면이 채워진다. 첫 화면이 늦게 뜨고 검색엔진이 내용을 못 읽을 수 있다. 순수 React 기본 방식이다."},
+    {en:"SSR", ko:"서버 렌더링", desc:"서버가 요청마다 완성된 HTML을 만들어 보내는 방식이다. 브라우저는 내용을 바로 본다.", how:"서버가 React를 돌려 완성된 HTML을 만들어 보낸다. 사용자는 내용을 즉시 본다. 그 뒤 JavaScript가 도착해 버튼·동작을 붙인다(하이드레이션). 첫 화면이 빠르고 검색에 유리하지만 서버 부담이 크다."},
+    {en:"SSG", ko:"정적 생성", desc:"빌드할 때 페이지를 미리 HTML 파일로 만들어두는 방식이다. 가장 빠르고, 자주 안 바뀌는 내용에 좋다."},
+    {en:"ISR", ko:"증분 정적 재생성", desc:"정적으로 만들어둔 페이지를 정해진 주기로 뒤에서 다시 생성하는 Next.js 기능이다. 정적의 속도와 최신 내용을 함께 얻는다."},
+    {en:"Hydration", ko:"하이드레이션", desc:"서버가 보낸 정적 HTML에 JavaScript가 동작을 붙여 살아나게 하는 과정이다.", how:"서버가 보낸 HTML은 보이긴 하지만 버튼을 눌러도 반응 없는 마른 상태다. 브라우저에 React가 도착하면 이 HTML에 이벤트와 상태를 연결한다. 그제야 클릭·스크롤이 작동한다. 이 물 붓는 과정을 하이드레이션이라 한다."},
+    {en:"SPA", ko:"단일 페이지 앱", desc:"HTML 한 장으로 돌아가는 앱이다. 페이지를 이동해도 전체를 새로 불러오지 않고 JavaScript가 내용만 바꿔치운다."},
+    {en:"Routing", ko:"라우팅", desc:"어떤 주소(URL)에 어떤 페이지나 컴포넌트를 보여줄지 연결하는 일이다."},
+  ]},
+  {id:"I", name:"3D 관련", terms:[
+    {en:"WebGL", ko:"3D 기술", desc:"브라우저에서 3D 그래픽을 그리는 기술이다. 직접 다루기 어려워서 보통 아래 라이브러리를 통해 쓴다."},
+    {en:"Three.js", ko:"3D 라이브러리", desc:"WebGL을 쉽게 쓰게 해주는 JavaScript 라이브러리다. 웹에서 3D 오브젝트를 만드는 표준에 가깝다.", memo:"당신 사이트의 3D는 Three.js로 만들었을 가능성이 높다. (확인 필요)"},
+    {en:"react-three-fiber", ko:"R3F", desc:"Three.js를 React 방식으로 쓰게 해주는 라이브러리다. 3D 오브젝트를 컴포넌트로 다룬다.", memo:"React로 옮기면 Three.js 코드가 보통 이걸로 바뀐다."},
+    {en:"Canvas", ko:"화면 영역", desc:"3D나 그림을 그리는 화면 영역이다. Three.js는 이 Canvas 위에 3D를 그린다."},
+    {en:"Shader / GLSL", ko:"셰이더", desc:"GPU에서 점과 픽셀의 위치·색을 계산하는 작은 프로그램이다. 빛, 질감, 특수 효과를 만든다. 직접 다루면 까다롭다."},
+    {en:"Render Loop", ko:"렌더 루프", desc:"1초에 수십 번 화면을 다시 그려 움직임을 만드는 반복이다.", how:"3D 화면은 정지 그림이 아니라 매 순간 새로 그려진다. 렌더 루프는 매 프레임 오브젝트 위치·회전을 갱신하고 다시 그리기를 반복한다. 스크롤 값에 따라 이 루프 안에서 오브젝트를 움직이면 스크롤 연동 3D 애니메이션이 된다.", memo:"당신 사이트의 스크롤 연동 움직임이 이 루프 안에서 돌고 있을 것이다."},
+  ]},
+  {id:"J", name:"빌드 · 최적화 · 배포", terms:[
+    {en:"Node.js", ko:"실행 환경", desc:"JavaScript를 브라우저 밖에서 실행하는 프로그램이다. React 같은 도구를 설치하고 돌리려면 필요하다.", memo:"React 버전을 PC에서 띄워보려면 먼저 이게 깔려 있어야 한다."},
+    {en:"npm", ko:"Node Package Manager", desc:"필요한 라이브러리를 내려받아 설치하는 도구다. Node.js와 함께 깔린다."},
+    {en:"Package", ko:"패키지", desc:"npm으로 설치하는 라이브러리 한 덩어리다. React, Three.js 모두 패키지로 설치한다."},
+    {en:"Bundler", ko:"번들러", desc:"여러 파일을 묶어 브라우저가 읽을 수 있는 형태로 만드는 도구다. Vite가 요즘 표준이고 빠르며, Webpack은 예전부터 널리 쓰였다."},
+    {en:"Bundle", ko:"번들", desc:"번들러가 여러 파일을 묶어 만든 최종 결과 파일이다. 브라우저는 이 묶음을 내려받아 실행한다."},
+    {en:"Build", ko:"빌드", desc:"작성한 코드를 실제 배포용 파일로 변환하는 과정이다.", how:"React·JSX·최신 문법은 브라우저가 바로 못 읽는다. 빌드는 이것들을 옛 문법으로 변환하고(트랜스파일), 파일을 묶고(번들), 크기를 줄이는(경량화) 작업을 한 번에 처리해 배포용 파일을 만든다.", memo:"바닐라 사이트는 파일을 더블클릭하면 열리지만, React는 빌드 또는 개발 서버가 필요해 그냥 안 열린다. 이 차이가 비개발자에게 첫 장벽이다."},
+    {en:"Transpile", ko:"트랜스파일", desc:"새 문법이나 JSX를 브라우저가 이해하는 옛 문법으로 바꾸는 작업이다. 빌드 과정에 포함된다."},
+    {en:"Dev Server", ko:"개발 서버", desc:"작업 중인 사이트를 PC에서 임시로 띄워 확인하는 도구다. 코드를 고치면 화면에 바로 반영된다."},
+    {en:"Minification", ko:"경량화 · 압축", desc:"파일 크기를 줄여 빨리 불러오게 만드는 작업이다.", how:"코드의 줄바꿈·공백·주석을 지우고, 긴 변수 이름을 a, b 같은 짧은 글자로 바꾼다. 동작은 그대로지만 글자 수가 줄어 파일이 가벼워진다. 빌드 단계에서 자동으로 일어난다. 앞서 말한 경량화가 이것이다."},
+    {en:"Obfuscation", ko:"난독화", desc:"코드를 사람이 읽기 어렵게 일부러 망가뜨리는 작업이다.", how:"변수와 함수 이름을 의미 없는 기호로 바꾸고, 구조를 복잡하게 비틀어 무슨 코드인지 알아보기 힘들게 만든다. 코드 베끼기를 늦추려는 목적이다. 단, 결국 브라우저가 실행하는 코드라 완전한 보안은 아니다. 시간을 끄는 방어일 뿐이다."},
+    {en:"Tree Shaking", ko:"트리 쉐이킹", desc:"빌드할 때 실제로 안 쓰는 코드를 최종 번들에서 털어내는 기능이다. 파일이 더 가벼워진다."},
+    {en:"Code Splitting", ko:"코드 스플리팅", desc:"번들을 여러 조각으로 나눠, 지금 페이지에 필요한 코드만 먼저 불러오는 기법이다. 첫 로딩이 빨라진다."},
+    {en:"Lazy Loading", ko:"지연 로딩", desc:"이미지나 컴포넌트를 필요한 순간에만 불러오는 방식이다. 처음에 모든 걸 받지 않아 가볍다."},
+    {en:"Source Map", ko:"소스맵", desc:"경량화·난독화된 코드를 원래 코드로 되짚어주는 파일이다. 문제를 디버깅할 때 쓴다."},
+    {en:"Cache", ko:"캐싱", desc:"한 번 받은 파일을 저장해두고, 다시 방문할 때 그 사본을 써서 빠르게 보여주는 방식이다."},
+    {en:"CDN", ko:"콘텐츠 전송망", desc:"세계 곳곳에 둔 서버들이다. 사용자와 가까운 서버에서 파일을 보내 속도를 높인다."},
+    {en:"Deploy", ko:"배포", desc:"완성한 사이트를 서버에 올려 누구나 접속할 수 있게 공개하는 일이다."},
+    {en:"Vercel / Netlify", ko:"배포 플랫폼", desc:"코드를 올리면 빌드와 배포를 자동으로 해주는 서비스다. Next.js는 만든 회사인 Vercel과 특히 잘 맞는다."},
+  ]},
+  {id:"K", name:"언어 확장 · 품질 도구", terms:[
+    {en:"TypeScript", ko:"타입 있는 JS", desc:"JavaScript에 타입(값의 종류) 표시를 더한 언어다. 숫자 자리에 글자를 넣는 실수 등을 실행 전에 잡아준다.", how:"JavaScript는 값의 종류를 안 따져서 엉뚱한 값이 들어가도 실행되다가 뒤늦게 터진다. TypeScript는 이 값은 숫자라고 미리 적게 하고, 어긋나면 코드를 짜는 동안 바로 경고한다. 최종적으로는 일반 JavaScript로 변환되어 실행된다. 규모가 큰 프로젝트일수록 실수를 줄여준다."},
+    {en:"Babel", ko:"변환기", desc:"최신 JavaScript와 JSX를 옛 브라우저도 이해하는 문법으로 바꿔주는 트랜스파일 도구다."},
+    {en:"ESLint", ko:"코드 검사기", desc:"코드의 오류와 나쁜 습관을 자동으로 찾아 경고하는 도구다. 버그를 미리 줄인다."},
+    {en:"Prettier", ko:"코드 정리기", desc:"코드의 들여쓰기와 줄바꿈을 일정한 규칙으로 자동 정리하는 도구다. 여러 사람이 짜도 모양이 통일된다."},
+  ]},
+];
+
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+const main = document.getElementById('main');
+const chips = document.getElementById('chips');
+let total = 0;
+
+DATA.forEach(cat=>{
+  const c = COLORS[cat.id], cs = soft(c);
+  total += cat.terms.length;
+
+  const chip = document.createElement('a');
+  chip.href = '#sec-'+cat.id;
+  chip.className = 'chip';
+  chip.dataset.cat = cat.id;
+  chip.style.setProperty('--c', c);
+  chip.innerHTML = `<span class="ltr">${cat.id}</span>${cat.name}`;
+  chips.appendChild(chip);
+
+  const sec = document.createElement('section');
+  sec.className = 'section';
+  sec.id = 'sec-'+cat.id;
+  sec.dataset.cat = cat.id;
+  sec.style.setProperty('--c', c);
+  sec.style.setProperty('--c-soft', cs);
+
+  let html = `<div class="sec-head"><div class="badge">${cat.id}</div><h2>${cat.name}</h2></div>`;
+  cat.terms.forEach(t=>{
+    const blob = (t.en+' '+t.ko+' '+t.desc+' '+(t.how||'')+' '+(t.memo||'')).toLowerCase();
+    html += `<article class="term" data-text="${esc(blob)}">
+      <div class="term-head"><span class="term-en">${esc(t.en)}</span><span class="term-ko">${esc(t.ko)}</span></div>
+      <p class="term-desc">${esc(t.desc)}</p>
+      ${t.how?`<div class="how"><b>작동 원리</b>${esc(t.how)}</div>`:''}
+      ${t.memo?`<div class="memo"><b>메모</b>${esc(t.memo)}</div>`:''}
+    </article>`;
+  });
+  sec.innerHTML = html;
+  main.appendChild(sec);
+});
+
+document.getElementById('count').textContent = total;
+document.getElementById('catcount').textContent = DATA.length;
+document.getElementById('footer').textContent = `${total} terms · ${DATA.length} categories · ${new Date().getFullYear()}`;
+
+const search = document.getElementById('search');
+const clearBtn = document.getElementById('clear');
+const emptyEl = document.getElementById('empty');
+
+function applyFilter(){
+  const q = search.value.trim().toLowerCase();
+  clearBtn.style.display = q ? 'block' : 'none';
+  let anyVisible = false;
+  document.querySelectorAll('.section').forEach(sec=>{
+    let secHas = false;
+    sec.querySelectorAll('.term').forEach(t=>{
+      const hit = !q || t.dataset.text.includes(q);
+      t.style.display = hit ? '' : 'none';
+      if(hit) secHas = true;
+    });
+    sec.style.display = secHas ? '' : 'none';
+    const chip = chips.querySelector(`.chip[data-cat="${sec.dataset.cat}"]`);
+    if(chip) chip.classList.toggle('dim', !secHas);
+    if(secHas) anyVisible = true;
+  });
+  emptyEl.style.display = anyVisible ? 'none' : 'block';
+}
+search.addEventListener('input', applyFilter);
+clearBtn.addEventListener('click', ()=>{ search.value=''; applyFilter(); search.focus(); });
+
+const chipEls = [...chips.querySelectorAll('.chip')];
+const spy = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const id = e.target.dataset.cat;
+      chipEls.forEach(ch=>ch.classList.toggle('active', ch.dataset.cat===id));
+      const active = chips.querySelector('.chip.active');
+      if(active) active.scrollIntoView({block:'nearest',inline:'center'});
+    }
+  });
+},{rootMargin:'-45% 0px -50% 0px',threshold:0});
+document.querySelectorAll('.section').forEach(s=>spy.observe(s));
+</script>
+</body>
+</html>

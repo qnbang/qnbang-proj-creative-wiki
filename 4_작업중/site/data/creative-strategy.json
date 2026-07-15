@@ -57,7 +57,8 @@
             "note": "헤드라인으로 주의를 낚고, 반전 스토리로 흥미·욕구를 키운 뒤 통신강좌 우편주문(행동)으로 닫는 AIDA 직접반응 카피의 교과서"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><polygon points='50,30 510,30 465,75 95,75' fill='none' stroke='#222' stroke-width='3'/><polygon points='95,75 465,75 420,120 140,120' fill='none' stroke='#222' stroke-width='3'/><polygon points='140,120 420,120 375,165 185,165' fill='none' stroke='#222' stroke-width='3'/><polygon points='185,165 375,165 330,205 230,205' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='57' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>주의</text><text x='280' y='102' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>흥미</text><text x='280' y='147' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>욕구</text><text x='280' y='190' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>행동</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>주의에서 행동까지 좁아지는 설득의 깔때기</text></svg>"
     }
   },
   {
@@ -116,7 +117,8 @@
             "note": "우유가 '떨어졌을 때'의 결핍·낭패감(문제·고통)을 환기시켜 구매(해결)로 미는 결핍 마케팅 = PAS의 변주"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='160' width='130' height='45' fill='none' stroke='#222' stroke-width='3'/><rect x='220' y='110' width='130' height='95' fill='none' stroke='#222' stroke-width='3'/><rect x='360' y='60' width='130' height='145' fill='none' stroke='#222' stroke-width='3'/><path d='M410 60 L425 40 L440 60' fill='none' stroke='#222' stroke-width='3'/><text x='145' y='185' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>문제</text><text x='285' y='135' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>증폭</text><text x='425' y='85' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>해결</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>문제를 키울수록 해결의 높이가 도드라진다</text></svg>"
     }
   },
   {
@@ -175,7 +177,8 @@
             "note": "'108MP 카메라'라는 사양(feature)을 '한 컷에서 디테일 손실 없이 21개 장면을 잘라낸다'는 이점·혜택(benefit)으로 번역한 FAB 구조. iPod '1,000 songs in your pocket'의 최신판. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='40' y='95' width='130' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='215' y='95' width='130' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='390' y='95' width='130' height='60' fill='none' stroke='#222' stroke-width='3'/><path d='M170 125 L213 125' stroke='#222' stroke-width='3'/><path d='M345 125 L388 125' stroke='#222' stroke-width='3'/><path d='M203 118 L213 125 L203 132 Z' fill='#222'/><path d='M378 118 L388 125 L378 132 Z' fill='#222'/><text x='105' y='130' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>특징</text><text x='280' y='130' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>강점</text><text x='455' y='130' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>이득</text><text x='191' y='113' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>So what?</text><text x='366' y='113' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>So what?</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>So what?을 반복해 특징을 고객의 이득으로 번역한다</text></svg>"
     }
   },
   {
@@ -235,7 +238,8 @@
             "note": "3음절 두운(Blast·past·fast)으로 짧고 임팩트 있게, 5G의 '빠름을 뛰어넘는 속도'를 긴박하게 압축한 4U형 헤드라인(유용·긴급·독창에 특히 강함). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='280' y1='30' x2='280' y2='190' stroke='#222' stroke-width='2'/><line x1='190' y1='110' x2='370' y2='110' stroke='#222' stroke-width='2'/><circle cx='280' cy='30' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='190' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='190' cy='110' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='370' cy='110' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='110' r='7' fill='#222'/><text x='280' y='16' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>유용</text><text x='150' y='114' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>긴급</text><text x='410' y='114' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>독창</text><text x='280' y='210' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>구체</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>네 축으로 헤드라인을 채점하는 체크리스트</text></svg>"
     }
   },
   {
@@ -294,7 +298,8 @@
             "note": "'우유는 원래 인간을 위한 게 아니다'라는 도발로 카테고리 자체를 재정의해, 식물성 대체유를 모르던 비인지·문제인지 단계 소비자를 깨우는 슈워츠식 인식수준 공략. 2021 슈퍼볼 LV 전국 집행. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='40' y='100' width='96' height='50' fill='none' stroke='#222' stroke-width='3'/><rect x='136' y='100' width='96' height='50' fill='none' stroke='#222' stroke-width='3'/><rect x='232' y='100' width='96' height='50' fill='none' stroke='#222' stroke-width='3'/><rect x='328' y='100' width='96' height='50' fill='none' stroke='#222' stroke-width='3'/><rect x='424' y='100' width='96' height='50' fill='#222'/><text x='88' y='90' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>무인지</text><text x='472' y='90' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>완전인지</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>인지 단계에 따라 메시지의 출발점이 달라진다</text></svg>"
     }
   },
   {
@@ -359,7 +364,8 @@
             "note": "새 카테고리 인지→관심·선호→구매로 단계를 밟아 올라가게 설계된 신제품 런칭 메시지"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='40' y='175' width='70' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='114' y='160' width='70' height='45' fill='none' stroke='#222' stroke-width='3'/><rect x='188' y='145' width='70' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='262' y='125' width='70' height='80' fill='none' stroke='#222' stroke-width='3'/><rect x='336' y='100' width='70' height='105' fill='none' stroke='#222' stroke-width='3'/><rect x='410' y='70' width='70' height='135' fill='none' stroke='#222' stroke-width='3'/><text x='75' y='190' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>인지</text><text x='445' y='85' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>구매</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>인지에서 구매까지 여섯 계단을 오른다</text></svg>"
     }
   },
   {
@@ -424,7 +430,8 @@
             "note": "'더 크게'가 미덕이던 자동차 광고에서 정반대 '작게'를 내세운 의외의 결합 — 기대와의 낙차"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='40' y='95' width='110' height='55' fill='none' stroke='#222' stroke-width='3'/><rect x='410' y='95' width='110' height='55' fill='none' stroke='#222' stroke-width='3'/><path d='M150 122 L230 100 L260 140 L300 105 L330 145 L410 122' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='122' r='6' fill='#222'/><text x='95' y='128' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>침대</text><text x='465' y='128' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>과학</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>먼 두 단어를 부딪쳐 낙차를 만든다</text></svg>"
     }
   },
   {
@@ -490,7 +497,8 @@
             "note": "'When we're ___, we'll ___'라는 동일 문법을 반복·대구로 쌓고, 화면 분할(split-screen)의 좌우 대칭과 호응해 형식과 메시지가 모두 병렬로 작동한다. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='280' y1='30' x2='280' y2='200' stroke='#888' stroke-width='1' stroke-dasharray='4 4'/><rect x='80' y='70' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='390' y='70' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='80' y='120' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='390' y='120' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='80' y='170' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><rect x='390' y='170' width='90' height='30' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 구조를 나란히 놓아 균형과 리듬을 만든다</text></svg>"
     }
   },
   {
@@ -561,7 +569,8 @@
             "note": "단 세 단어를 각각 마침표로 끊어 극단적으로 단순화한 슬로건 — 설명을 모두 빼고 'Pro' 한 단어만 남긴 군더더기 제거(빼기)의 전형. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2'><circle cx='80' cy='80' r='18'/><rect x='120' y='60' width='30' height='30'/><circle cx='60' cy='140' r='14'/><rect x='95' y='130' width='24' height='24'/><circle cx='140' cy='150' r='16'/><rect x='60' y='170' width='26' height='20'/></g><path d='M200 120 L330 120' stroke='#222' stroke-width='3'/><path d='M320 110 L335 120 L320 130' fill='#222' stroke='none'/><circle cx='430' cy='120' r='30' fill='none' stroke='#222' stroke-width='4'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>덜어내 하나만 남길 때 메시지가 강해진다</text></svg>"
     }
   },
   {
@@ -632,7 +641,8 @@
             "note": "'한순간의 보정 앱'과 '오래 남는 상처'를 대비시켜, 셀피 보정이 외모가 아니라 자존감을 깎아낸다는 날카로운 통찰을 재구성한 아하-모먼트 카피. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2'><rect x='60' y='60' width='34' height='34' transform='rotate(15 77 77)'/><rect x='120' y='100' width='34' height='34' transform='rotate(-20 137 117)'/><rect x='70' y='150' width='34' height='34' transform='rotate(30 87 167)'/></g><path d='M190 120 L260 120' stroke='#222' stroke-width='3'/><path d='M250 110 L265 120 L250 130' fill='#222' stroke='none'/><path d='M330 90 L345 120 L330 150 L400 150 L400 90 Z' fill='none' stroke='#222' stroke-width='3'/><path d='M430 70 L438 90 L458 90 L442 102 L448 122 L430 110 L412 122 L418 102 L402 90 L422 90 Z' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>흩어진 조각이 갑자기 하나로 재구성된다</text></svg>"
     }
   },
   {
@@ -698,7 +708,8 @@
             "note": "'30분 배달'이라는 단일 편익을 보증까지 걸어 반복한 USP"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2.5'><circle cx='120' cy='80' r='24'/><circle cx='200' cy='80' r='24'/><circle cx='360' cy='80' r='24'/><circle cx='120' cy='160' r='24'/><circle cx='200' cy='160' r='24'/><circle cx='280' cy='160' r='24'/><circle cx='360' cy='160' r='24'/><circle cx='440' cy='80' r='24'/><circle cx='440' cy='160' r='24'/></g><circle cx='280' cy='80' r='24' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>경쟁사가 못 하는 단 하나의 독자적 편익</text></svg>"
     }
   },
   {
@@ -751,7 +762,8 @@
             "note": "느낌이나 형용사가 아니라 '제품에 기후발자국 수치(원조 귀리음료 0.62kg CO2e/kg)를 표기한다'는 구체적 사실을 근거로, 두 면 전면 신문광고(NYT·LAT·WaPo)라는 정보형 롱카피로 논증한 오길비식 사실 기반 헤드라인·롱카피. 옆 면을 유업계에 무료로 내주며 같은 수치를 공개하라 도발하는 리서치 기반 설득 구조다. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='40' width='440' height='60' fill='#222'/><line x1='60' y1='130' x2='500' y2='130' stroke='#888' stroke-width='2'/><line x1='60' y1='150' x2='500' y2='150' stroke='#888' stroke-width='2'/><line x1='60' y1='170' x2='440' y2='170' stroke='#888' stroke-width='2'/><line x1='60' y1='190' x2='470' y2='190' stroke='#888' stroke-width='2'/><text x='280' y='78' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>헤드라인</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>헤드라인이 80, 롱카피가 판다</text></svg>"
     }
   },
   {
@@ -810,7 +822,8 @@
             "note": "카우보이(말보로맨)라는 캐릭터·세계관 드라마로 제품의 '내재적 드라마'를 구현한 버넷의 대표작"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g stroke='#888' stroke-width='1'><line x1='280' y1='120' x2='140' y2='30'/><line x1='280' y1='120' x2='280' y2='20'/><line x1='280' y1='120' x2='420' y2='30'/><line x1='280' y1='120' x2='100' y2='90'/><line x1='280' y1='120' x2='460' y2='90'/></g><rect x='250' y='100' width='60' height='90' rx='6' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='90' r='16' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>제품 속에 이미 있는 드라마를 캐릭터로 극화한다</text></svg>"
     }
   },
   {
@@ -870,7 +883,8 @@
             "note": "병을 증기로 세척한다는 '이유'를 설명해 5위에서 1위로 끌어올린 홉킨스 reason-why의 원조 사례"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='120' y='120' width='90' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='340' y='80' width='90' height='100' fill='none' stroke='#222' stroke-width='3'/><line x1='60' y1='180' x2='500' y2='180' stroke='#888' stroke-width='1'/><path d='M355 60 L375 60 L365 45 Z' fill='#222'/><text x='165' y='150' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>A</text><text x='385' y='135' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>B</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>느낌이 아니라 측정된 반응으로 검증한다</text></svg>"
     }
   },
   {
@@ -931,7 +945,8 @@
             "note": "평범한 '캔에 든 물'에 헤비메탈·공포(죽음·해골) 코드라는 무관해 보이는 요소를 결합해 새 카테고리 인식을 만든, '낡은 요소들의 새로운 조합'(제임스 웹 영)의 정의에 부합하는 사례. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><polygon points='280,30 366,92 333,193 227,193 194,92' fill='none' stroke='#222' stroke-width='2' stroke-dasharray='5 5'/><circle cx='280' cy='30' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='366' cy='92' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='333' cy='193' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='227' cy='193' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='194' cy='92' r='14' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='34' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>1</text><text x='366' y='96' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>2</text><text x='333' y='197' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>3</text><text x='227' y='197' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>4</text><text x='194' y='96' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>5</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>수집·소화·부화·유레카·검증의 순환</text></svg>"
     }
   },
   {
@@ -992,7 +1007,8 @@
             "note": "셀럽 광고 모델=유명인이라는 관습을 뒤집어, 유명인과 동명이인인 평범한 일반인(런던 버스기사)으로 대체·반전한 SCAMPER(Substitute·Reverse) 사례. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2.5'><circle cx='60' cy='120' r='26'/><circle cx='130' cy='120' r='26'/><circle cx='200' cy='120' r='26'/><circle cx='270' cy='120' r='26'/><circle cx='340' cy='120' r='26'/><circle cx='410' cy='120' r='26'/><circle cx='480' cy='120' r='26'/></g><text x='60' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>S</text><text x='130' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>C</text><text x='200' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>A</text><text x='270' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>M</text><text x='340' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>P</text><text x='410' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>E</text><text x='480' y='125' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>R</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>일곱 질문으로 기존 것을 체계적으로 변주한다</text></svg>"
     }
   },
   {
@@ -1053,7 +1069,8 @@
             "note": "제품과 무관해 보이는 가짜 럭셔리 브랜드명 'Eureka Spiritsis'가 사실 IKEA 철자를 재배열한 애너그램 — 무관한 단어를 강제로 끌어붙여 의미를 뒤집는 forced-connection 기법(KFC 'FCK' 계열). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='95' width='120' height='55' fill='none' stroke='#222' stroke-width='3'/><path d='M430 90 L440 115 L466 115 L446 130 L454 155 L430 140 L406 155 L414 130 L394 115 L420 115 Z' fill='none' stroke='#222' stroke-width='3'/><path d='M185 122 L390 122' stroke='#222' stroke-width='3' stroke-dasharray='6 4'/><path d='M380 112 L395 122 L380 132' fill='#222' stroke='none'/><text x='120' y='128' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>주제</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>무관한 단어를 강제로 연결해 패턴을 깬다</text></svg>"
     }
   },
   {
@@ -1120,7 +1137,8 @@
             "note": "친숙한 맥도날드 '골든 아치'를 사람의 '눈썹(올리는 표정)'이라는 전혀 다른 영역에 매핑해, 말 없이 눈썹만 치켜올려 '맥날 갈래?'를 전한 은유·유추(synectics) 사례. (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='120' cy='120' r='40' fill='none' stroke='#222' stroke-width='3'/><rect x='390' y='80' width='90' height='80' fill='none' stroke='#222' stroke-width='3' transform='rotate(20 435 120)'/><path d='M170 120 L380 120' stroke='#222' stroke-width='3'/><path d='M180 110 L165 120 L180 130' fill='#222' stroke='none'/><path d='M370 110 L385 120 L370 130' fill='#222' stroke='none'/><text x='280' y='108' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>유추</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>익숙한 것을 낯설게, 낯선 것을 익숙하게</text></svg>"
     }
   },
   {
@@ -1187,7 +1205,8 @@
             "note": "'톨보이 캔·데스메탈·위험·금기'라는 성인 주류 프레임과 '그냥 물(아이도 마시는 생수)'이라는 정반대 프레임을 충돌시킨 케스틀러식 bisociation 전형(2022 슈퍼볼 LVI 광고). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='230' cy='120' r='80' fill='none' stroke='#222' stroke-width='3'/><circle cx='330' cy='120' r='80' fill='none' stroke='#222' stroke-width='3'/><path d='M280 95 L288 115 L308 115 L292 127 L298 147 L280 135 L262 147 L268 127 L252 115 L272 115 Z' fill='#222'/><text x='160' y='125' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>맥락 A</text><text x='400' y='125' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>맥락 B</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>두 무관한 틀이 겹치는 지점에서 아이디어가 튄다</text></svg>"
     }
   },
   {
@@ -1263,7 +1282,8 @@
             "note": "블랙프라이데이에 '더 사라'가 아니라 '덜 사고 제품에 더 요구하라'고 외친 역발상 — 판매 극대화라는 업계 통념을 옆으로 비튼 수평적 발상 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M100 200 L100 60' stroke='#222' stroke-width='3'/><rect x='80' y='90' width='40' height='16' fill='#222'/><path d='M480 200 L480 60' stroke='#888' stroke-width='2' stroke-dasharray='4 4'/><path d='M100 200 C 200 200, 380 60, 480 60' fill='none' stroke='#222' stroke-width='3'/><circle cx='480' cy='60' r='10' fill='#222'/><text x='100' y='215' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>직선 사고</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>막힌 길을 돌아 옆에서 답에 이른다</text></svg>"
     }
   },
   {
@@ -1300,7 +1320,8 @@
         {
           "label": "British Design Council, The Double Diamond (2004~05)"
         }
-      ]
+      ],
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><polygon points='40,120 170,50 300,120 170,190' fill='none' stroke='#222' stroke-width='3'/><polygon points='300,120 430,50 520,120 430,190' fill='none' stroke='#222' stroke-width='3'/><text x='105' y='115' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>발견</text><text x='235' y='115' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>정의</text><text x='365' y='115' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>전개</text><text x='475' y='115' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>전달</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>발산과 수렴을 두 번 반복해 문제에서 해로</text></svg>"
     }
   },
   {
@@ -1358,7 +1379,8 @@
             "note": "10대 소녀가 셀카를 과보정하는 과정을 역재생해 보여준 캠페인 — '소셜미디어가 청소년 자존감을 해친다'는 사용자 실태 관찰에서 출발해 공감으로 문제를 재정의한 디자인 씽킹 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='115' r='85' fill='none' stroke='#222' stroke-width='2'/><path d='M280 30 L295 45 L280 45 Z' fill='#222'/><circle cx='280' cy='30' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='362' cy='89' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='331' cy='185' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='229' cy='185' r='14' fill='none' stroke='#222' stroke-width='3'/><circle cx='198' cy='89' r='14' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>공감·정의·발상·시제품·테스트를 순환한다</text></svg>"
     }
   },
   {
@@ -1424,7 +1446,8 @@
             "note": "'지금 몇 명이 보고 있다·방금 누가 예약했다'는 다수 행동(사회적 증거)과 희소성을 동시에 노출 — 합의·희소성 원칙을 전환율 카피로 상시 운용한 사례 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='70' y='90' width='90' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='400' y='90' width='90' height='60' fill='none' stroke='#222' stroke-width='3'/><path d='M165 108 L395 108' stroke='#222' stroke-width='2.5'/><path d='M385 100 L398 108 L385 116' fill='#222' stroke='none'/><path d='M395 132 L165 132' stroke='#222' stroke-width='2.5'/><path d='M175 124 L162 132 L175 140' fill='#222' stroke='none'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>먼저 주면 갚아야 한다는 마음이 되돌아온다</text></svg>"
     }
   },
   {
@@ -1491,7 +1514,8 @@
             "note": "평범한 개학 쇼핑 광고로 시작하다 총기난사 속에서 학용품이 생존도구로 변하는 반전 — '내 아이를 잃을 수 있다'는 최악의 손실을 환기해 행동을 압박한 손실회피(에미상 수상) (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='280' y1='50' x2='280' y2='90' stroke='#222' stroke-width='3'/><line x1='140' y1='150' x2='420' y2='90' stroke='#222' stroke-width='3'/><line x1='140' y1='150' x2='140' y2='110' stroke='#222' stroke-width='2'/><line x1='420' y1='90' x2='420' y2='60' stroke='#222' stroke-width='2'/><rect x='105' y='150' width='70' height='30' fill='#222'/><rect x='385' y='30' width='70' height='30' fill='none' stroke='#222' stroke-width='2'/><circle cx='280' cy='50' r='6' fill='#222'/><text x='140' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>손실</text><text x='420' y='45' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>이득</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 크기라도 손실이 이득보다 무겁게 느껴진다</text></svg>"
     }
   },
   {
@@ -1552,7 +1576,8 @@
             "note": "귀리음료를 '인간을 위해 만든 우유'로 표현 — 같은 제품을 '대체유'가 아니라 '사람에게 맞는 진짜 우유'로 재구성한 프레이밍(스웨덴 우유협회가 이 문구로 소송할 만큼 강력) (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M120 60 L100 170 L220 170 L200 60 Z' fill='none' stroke='#222' stroke-width='3'/><rect x='103' y='115' width='114' height='55' fill='#222'/><path d='M340 60 L320 170 L440 170 L420 60 Z' fill='none' stroke='#222' stroke-width='3'/><rect x='323' y='115' width='114' height='55' fill='#222'/><text x='160' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>절반이나 남았다</text><text x='380' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>절반밖에 안 남았다</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 사실도 틀에 따라 다르게 느껴진다</text></svg>"
     }
   },
   {
@@ -1600,7 +1625,8 @@
             "note": "경쟁 럭셔리 전기차의 높은 가격($57,900)을 비교 기준점(앵커)으로 제시해 자사 가격($36,990)을 '합리적'으로 인식시킨 가격 앵커링 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='60' y1='150' x2='500' y2='150' stroke='#222' stroke-width='2'/><circle cx='420' cy='150' r='14' fill='#222'/><circle cx='250' cy='150' r='10' fill='none' stroke='#222' stroke-width='3'/><path d='M250 150 C 320 100, 380 100, 415 130' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 4'/><path d='M405 122 L418 130 L410 142' fill='none' stroke='#888' stroke-width='2'/><text x='420' y='190' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>처음 본 숫자</text><text x='250' y='190' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>내 추정치</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>먼저 본 숫자 쪽으로 판단이 끌려간다</text></svg>"
     }
   },
   {
@@ -1654,7 +1680,8 @@
             "note": "'150억 트랜지스터·업계 최速'이라는 정량 스펙을 근거로 제시 — 소비자가 성능을 분석·비교하게 만드는 중심경로(논증) 설득의 고관여 카피 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='70' cy='120' r='18' fill='none' stroke='#222' stroke-width='3'/><path d='M88 110 L280 60' stroke='#222' stroke-width='3'/><path d='M88 130 C 200 190, 380 190, 470 140' fill='none' stroke='#222' stroke-width='3' stroke-dasharray='6 3'/><circle cx='490' cy='120' r='18' fill='none' stroke='#222' stroke-width='3'/><path d='M280 60 L490 120' stroke='#222' stroke-width='3'/><text x='280' y='50' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>중심 경로 — 근거로 설득</text><text x='280' y='205' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>주변 경로 — 단서로 설득</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>정교화 정도에 따라 설득의 경로가 갈린다</text></svg>"
     }
   },
   {
@@ -1720,7 +1747,8 @@
             "note": "5음절 징글 'ba-da-ba-BA-BAAA'와 결합해 정보 없이 즐거운 기분만 전이 — 직관·감정의 시스템1 소구"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='70' y='50' width='170' height='120' fill='none' stroke='#222' stroke-width='3'/><rect x='320' y='50' width='170' height='120' fill='none' stroke='#222' stroke-width='3'/><path d='M165 80 L145 110 L160 110 L140 145 L175 105 L160 105 Z' fill='#222'/><circle cx='405' cy='110' r='24' fill='none' stroke='#222' stroke-width='3'/><circle cx='405' cy='110' r='8' fill='#222'/><text x='155' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>시스템1 — 빠르고 직관적</text><text x='405' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>시스템2 — 느리고 숙고적</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>두 가지 사고 체계가 번갈아 판단을 이끈다</text></svg>"
     }
   },
   {
@@ -1786,7 +1814,8 @@
             "note": "면도 성능 대신 '남자다움의 책임'이라는 가치·도덕에 호소 — 옳고 그름의 정서·신념을 건드린 파토스/에토스 중심의 목적지향 광고 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><polygon points='280,40 460,180 100,180' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='40' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='460' cy='180' r='16' fill='none' stroke='#222' stroke-width='3'/><circle cx='100' cy='180' r='16' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='25' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>에토스</text><text x='490' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>파토스</text><text x='70' y='195' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>로고스</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>인격·감정·논리 세 축이 설득을 떠받친다</text></svg>"
     }
   },
   {
@@ -1854,7 +1883,8 @@
             "note": "100년 넘은 3박자 모토(Citius·Altius·Fortius)에 'Together'를 더해 리듬을 유지·확장 — 셋의 법칙을 현대적으로 갱신한 공식 표어 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='110' y='80' width='90' height='90' fill='none' stroke='#222' stroke-width='3'/><rect x='235' y='80' width='90' height='90' fill='none' stroke='#222' stroke-width='3'/><rect x='360' y='80' width='90' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='155' y='130' text-anchor='middle' font-size='16' fill='#222' font-family='sans-serif'>1</text><text x='280' y='130' text-anchor='middle' font-size='16' fill='#222' font-family='sans-serif'>2</text><text x='405' y='130' text-anchor='middle' font-size='16' fill='#222' font-family='sans-serif'>3</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>세 개일 때 가장 완결되고 잘 기억된다</text></svg>"
     }
   },
   {
@@ -1922,7 +1952,8 @@
             "note": "'mouth↔hand'의 대조(antithesis)와 운율 — 짧은 대조 수사의 정석"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='60' width='120' height='40' fill='none' stroke='#222' stroke-width='3'/><rect x='60' y='140' width='120' height='40' fill='none' stroke='#222' stroke-width='3'/><rect x='380' y='60' width='120' height='40' fill='none' stroke='#222' stroke-width='3'/><rect x='380' y='140' width='120' height='40' fill='none' stroke='#222' stroke-width='3'/><path d='M180 80 L380 160' stroke='#222' stroke-width='2'/><path d='M180 160 L380 80' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>어순을 뒤집어 대구를 이루는 교차 구조</text></svg>"
     }
   },
   {
@@ -1982,7 +2013,8 @@
             "note": "34일간 실제로 곰팡이가 핀 와퍼를 보여줌 — 의외성(곰팡이 광고)+구체성+신뢰성(주장이 아닌 증거)으로 들러붙게 만든 SUCCESs 사례(칸 그랑프리) (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2.5'><rect x='60' y='60' width='130' height='55'/><rect x='215' y='60' width='130' height='55'/><rect x='370' y='60' width='130' height='55'/><rect x='60' y='130' width='130' height='55'/><rect x='215' y='130' width='130' height='55'/><rect x='370' y='130' width='130' height='55'/></g><text x='125' y='93' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>단순</text><text x='280' y='93' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>의외성</text><text x='435' y='93' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>구체성</text><text x='125' y='163' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>신뢰성</text><text x='280' y='163' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>감성</text><text x='435' y='163' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>스토리</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>여섯 조건을 갖춘 메시지가 착 달라붙는다</text></svg>"
     }
   },
   {
@@ -2042,7 +2074,8 @@
             "note": "브랜드가 아니라 게스트와 호스트(고객)가 만든 실제 경험·사진을 주인공으로 내세움 — 고객을 이야기의 영웅으로, 브랜드는 그 경험을 가능케 한 조력자로 둔 스토리브랜드 구조 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='80' cy='120' r='24' fill='none' stroke='#222' stroke-width='3'/><text x='80' y='126' text-anchor='middle' font-size='16' fill='#222' font-family='sans-serif'>!</text><path d='M110 120 L200 120' stroke='#222' stroke-width='2.5'/><rect x='205' y='95' width='90' height='50' fill='none' stroke='#222' stroke-width='3'/><path d='M300 120 L390 120' stroke='#222' stroke-width='2.5'/><path d='M380 112 L393 120 L380 128' fill='#222' stroke='none'/><path d='M430 90 L438 110 L458 110 L442 122 L448 142 L430 130 L412 142 L418 122 L402 110 L422 110 Z' fill='#222'/><text x='80' y='160' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>주인공(문제)</text><text x='250' y='160' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>가이드(계획)</text><text x='430' y='160' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>성공</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>브랜드는 주인공이 아니라 가이드다</text></svg>"
     }
   },
   {
@@ -2103,7 +2136,8 @@
             "note": "팬데믹으로 멈춘 스포츠가 역경을 딛고 다시 일어서는 분할화면 서사 — 시련→극복→귀환으로 이어지는 영웅 여정 구조를 압축한 변화 서사(칸 필름 그랑프리) (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M280 190 A 100 100 0 1 1 279 190' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='190' r='11' fill='#222'/><circle cx='380' cy='110' r='9' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='30' r='9' fill='none' stroke='#222' stroke-width='3'/><circle cx='180' cy='110' r='9' fill='none' stroke='#222' stroke-width='3'/><text x='400' y='95' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>시련</text><text x='280' y='18' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>귀환</text><text x='160' y='95' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>변화</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>떠나고 시련을 겪고 변화하여 돌아온다</text></svg>"
     }
   },
   {
@@ -2162,7 +2196,8 @@
             "note": "근거 설명에 앞서 '기후변화가 궁극의 안전 시험'이라는 결론·핵심 주장을 한 문장으로 먼저 단정 — 결론을 맨 앞에 두고 뒤에서 논거(전기차 전환)를 받치는 결론우선(피라미드) 구조 (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='220' y='40' width='120' height='45' fill='#222'/><path d='M250 85 L150 140' stroke='#222' stroke-width='2'/><path d='M280 85 L280 140' stroke='#222' stroke-width='2'/><path d='M310 85 L410 140' stroke='#222' stroke-width='2'/><rect x='90' y='140' width='120' height='45' fill='none' stroke='#222' stroke-width='2.5'/><rect x='220' y='140' width='120' height='45' fill='none' stroke='#222' stroke-width='2.5'/><rect x='350' y='140' width='120' height='45' fill='none' stroke='#222' stroke-width='2.5'/><text x='280' y='67' text-anchor='middle' font-size='12' fill='#f4f4f1' font-family='sans-serif'>결론</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>결론을 먼저, 근거를 그 아래에 둔다</text></svg>"
     }
   },
   {
@@ -2233,7 +2268,8 @@
             "note": "1등 구글(과 페이스북)을 '감시하는 검색·서비스'로 규정하고 자신을 그 반대편 '추적 안 하는 프라이버시 검색(Privacy, simplified.)'으로 세워, 챌린저가 1등과의 대비로 소비자 머릿속에 '한 자리(프라이버시)'를 점유한 라이스&트라우트식 포지셔닝(2022년 전국 TV·라디오 집행). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='60' y1='120' x2='500' y2='120' stroke='#222' stroke-width='2'/><line x1='280' y1='20' x2='280' y2='210' stroke='#222' stroke-width='2'/><circle cx='150' cy='60' r='8' fill='#222'/><circle cx='170' cy='80' r='8' fill='#222'/><circle cx='400' cy='170' r='8' fill='#222'/><circle cx='420' cy='150' r='8' fill='#222'/><circle cx='400' cy='60' r='11' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='16' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>고급</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>비어 있는 자리를 찾아 다르게 자리잡는다</text></svg>"
     }
   },
   {
@@ -2292,7 +2328,8 @@
             "note": "'무엇이든 부수고 다시 지어 새로 만든다'는 창조·놀이 정신을 일관되게 내세워, 융 12원형 중 창조자(Creator) 원형을 그대로 체현한 캠페인(레고 30년 만의 첫 글로벌 브랜드 캠페인). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='120' r='90' fill='none' stroke='#222' stroke-width='3'/><line x1='280' y1='30' x2='280' y2='210' stroke='#222' stroke-width='2'/><line x1='190' y1='120' x2='370' y2='120' stroke='#222' stroke-width='2'/><line x1='216' y1='56' x2='344' y2='184' stroke='#222' stroke-width='2'/><line x1='344' y1='56' x2='216' y2='184' stroke='#222' stroke-width='2'/><circle cx='280' cy='120' r='6' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>브랜드는 저마다 원형의 성격을 입는다</text></svg>"
     }
   },
   {
@@ -2356,7 +2393,8 @@
             "note": "재킷·기능(What)이 아니라 '우리는 지구를 구하려고 사업한다'는 신념(Why)을 먼저 말하고, 그 신념대로 회사 소유권 전체를 지구(환경 신탁)에 넘겼다고 선언한 사이먼 시넥식 Why-first 카피(2022년 9월 소유구조 전환 발표). (최신)"
           }
         ]
-      }
+      },
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='115' r='90' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='280' cy='115' r='58' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='280' cy='115' r='26' fill='#222'/><text x='280' y='120' text-anchor='middle' font-size='12' fill='#f4f4f1' font-family='sans-serif'>왜</text><text x='280' y='68' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>어떻게</text><text x='280' y='38' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>무엇을</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>왜에서 시작해 어떻게·무엇으로 퍼진다</text></svg>"
     }
   }
 ]

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>프론트엔드 용어 정리</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5F8;
+    --surface:#FFFFFF;
+    --ink:#16181D;
+    --muted:#5C6270;
+    --faint-text:#8A8F9C;
+    --border:#E4E7EE;
+    --faint:#EEF0F5;
+    --shadow:0 1px 2px rgba(20,24,33,.04), 0 4px 16px rgba(20,24,33,.04);
+    --radius:14px;
+    --sans:'Pretendard',system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+  body{
+    font-family:var(--sans);
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.6;
+    letter-spacing:-.01em;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:780px;margin:0 auto;padding:0 18px}
+
+  /* ---- Header ---- */
+  header.top{
+    padding:40px 0 22px;
+  }
+  .kicker{
+    font-family:var(--mono);
+    font-size:12px;font-weight:500;
+    letter-spacing:.04em;
+    color:var(--faint-text);
+    text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  h1{
+    font-size:34px;line-height:1.15;font-weight:800;
+    letter-spacing:-.03em;
+  }
+  .lede{
+    margin-top:12px;
+    font-size:15px;color:var(--muted);
+    max-width:60ch;
+  }
+  .stat{
+    margin-top:18px;
+    display:inline-flex;align-items:baseline;gap:8px;
+    font-family:var(--mono);font-size:13px;color:var(--muted);
+  }
+  .stat b{font-size:15px;color:var(--ink);font-weight:700}
+
+  /* ---- Sticky controls ---- */
+  .controls{
+    position:sticky;top:0;z-index:20;
+    background:rgba(244,245,248,.86);
+    backdrop-filter:saturate(180%) blur(10px);
+    -webkit-backdrop-filter:saturate(180%) blur(10px);
+    border-bottom:1px solid var(--border);
+    padding:12px 0 10px;
+  }
+  .search-box{position:relative}
+  .search-box svg{
+    position:absolute;left:14px;top:50%;transform:translateY(-50%);
+    width:16px;height:16px;color:var(--faint-text);pointer-events:none;
+  }
+  #search{
+    width:100%;
+    font-family:var(--sans);font-size:15px;
+    padding:11px 38px 11px 40px;
+    border:1px solid var(--border);
+    border-radius:11px;
+    background:var(--surface);
+    color:var(--ink);
+    outline:none;
+    transition:border-color .15s,box-shadow .15s;
+  }
+  #search::placeholder{color:var(--faint-text)}
+  #search:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(22,24,29,.08)}
+  #clear{
+    position:absolute;right:8px;top:50%;transform:translateY(-50%);
+    border:none;background:var(--faint);color:var(--muted);
+    width:24px;height:24px;border-radius:7px;cursor:pointer;
+    font-size:14px;line-height:1;display:none;
+  }
+  #clear:hover{background:#E2E5EC;color:var(--ink)}
+
+  .chips{
+    display:flex;gap:7px;overflow-x:auto;
+    margin-top:10px;padding-bottom:2px;
+    scrollbar-width:none;-ms-overflow-style:none;
+  }
+  .chips::-webkit-scrollbar{display:none}
+  .chip{
+    flex:0 0 auto;
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:13px;font-weight:600;
+    padding:7px 13px;border-radius:999px;
+    border:1px solid var(--border);
+    background:var(--surface);color:var(--muted);
+    cursor:pointer;white-space:nowrap;
+    transition:all .15s;
+    text-decoration:none;
+  }
+  .chip .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+  .chip .ltr{font-family:var(--mono);font-weight:700;color:var(--c)}
+  .chip:hover{border-color:var(--c)}
+  .chip.active{background:var(--c);color:#fff;border-color:var(--c)}
+  .chip.active .dot{background:rgba(255,255,255,.85)}
+  .chip.active .ltr{color:rgba(255,255,255,.9)}
+  .chip.dim{opacity:.35;pointer-events:none}
+
+  /* ---- Sections ---- */
+  main{padding:18px 0 80px}
+  .section{padding-top:30px;scroll-margin-top:120px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  .badge{
+    flex:0 0 auto;
+    font-family:var(--mono);font-weight:700;font-size:15px;
+    width:34px;height:34px;border-radius:9px;
+    display:grid;place-items:center;
+    color:#fff;background:var(--c);
+  }
+  .sec-head h2{font-size:20px;font-weight:700;letter-spacing:-.02em}
+  .sec-note{font-size:14px;color:var(--muted);margin:2px 0 16px 46px}
+
+  /* ---- Term card ---- */
+  .term{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:16px 18px;
+    margin-bottom:10px;
+  }
+  .term-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 10px;margin-bottom:6px}
+  .term-en{font-family:var(--mono);font-weight:700;font-size:16px;color:var(--ink)}
+  .term-ko{
+    font-size:12.5px;font-weight:600;color:var(--c);
+    background:var(--c-soft);
+    padding:3px 8px;border-radius:6px;
+  }
+  .term-desc{font-size:14.5px;color:#33373F}
+  .memo{
+    margin-top:11px;
+    font-size:13.5px;color:#33373F;
+    background:var(--c-soft);
+    border-left:3px solid var(--c);
+    border-radius:0 8px 8px 0;
+    padding:9px 12px;
+  }
+  .memo b{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--c);text-transform:uppercase;letter-spacing:.03em;display:block;margin-bottom:2px}
+
+  .empty{display:none;text-align:center;color:var(--muted);padding:60px 0;font-size:15px}
+  .empty span{display:block;font-family:var(--mono);color:var(--faint-text);font-size:13px;margin-top:6px}
+
+  /* ---- Priority block ---- */
+  .priority{
+    margin-top:46px;
+    background:var(--ink);color:#fff;
+    border-radius:18px;padding:26px 22px;
+  }
+  .priority .kicker{color:rgba(255,255,255,.5)}
+  .priority h2{font-size:19px;font-weight:700;margin-bottom:4px}
+  .priority p.sub{font-size:14px;color:rgba(255,255,255,.65);margin-bottom:18px}
+  .pr-item{display:flex;gap:14px;padding:13px 0;border-top:1px solid rgba(255,255,255,.12)}
+  .pr-num{font-family:var(--mono);font-weight:700;font-size:14px;color:rgba(255,255,255,.45);flex:0 0 auto;width:20px}
+  .pr-body b{font-size:14.5px;font-weight:700;display:block}
+  .pr-body b code{font-family:var(--mono);font-size:13px;font-weight:700}
+  .pr-body span{font-size:13.5px;color:rgba(255,255,255,.6)}
+
+  footer{padding:30px 0 50px;color:var(--faint-text);font-size:12.5px;font-family:var(--mono)}
+
+  @media (max-width:480px){
+    h1{font-size:28px}
+    header.top{padding:30px 0 18px}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="kicker">Frontend Glossary · 학습 노트</div>
+    <h1>프론트엔드 용어 정리</h1>
+    <p class="lede">비전공자 기준으로 정리한 사전입니다. 검색하거나 분류를 눌러 바로 찾아보세요. 당신 프로젝트(바닐라 3D 사이트 → React)와 연결되는 용어엔 <strong>메모</strong>를 달았습니다.</p>
+    <div class="stat"><b id="count">0</b> 개 용어 · <b>9</b> 개 분류</div>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="용어 검색 (예: React, 스크롤, 빌드)" autocomplete="off" aria-label="용어 검색">
+      <button id="clear" aria-label="검색어 지우기">✕</button>
+    </div>
+    <nav class="chips" id="chips" aria-label="분류 이동"></nav>
+  </div>
+</div>
+
+<div class="wrap">
+  <main id="main"></main>
+  <div class="empty" id="empty">검색 결과가 없습니다.<span>다른 단어로 찾아보세요.</span></div>
+
+  <section class="priority">
+    <div class="kicker">Priority</div>
+    <h2>먼저 익힐 용어</h2>
+    <p class="sub">바닐라 3D 사이트를 React로 옮기는 작업에서 우선순위가 높은 묶음입니다.</p>
+    <div class="pr-item"><div class="pr-num">01</div><div class="pr-body"><b><code>Component · State · Props · JSX</code></b><span>React의 핵심 4개</span></div></div>
+    <div class="pr-item"><div class="pr-num">02</div><div class="pr-body"><b><code>Three.js · react-three-fiber</code></b><span>3D가 어떻게 옮겨지는지</span></div></div>
+    <div class="pr-item"><div class="pr-num">03</div><div class="pr-body"><b><code>Node.js · npm · Build · Dev Server</code></b><span>React 버전을 PC에서 띄우는 데 필요</span></div></div>
+    <div class="pr-item"><div class="pr-num">04</div><div class="pr-body"><b><code>Event · DOM 조작</code></b><span>스크롤 동작의 원리</span></div></div>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const COLORS = {
+  A:"#2F6FED", B:"#E04F3D", C:"#B8842B", D:"#1F9D6B", E:"#7C5CF0",
+  F:"#DD6B2E", G:"#0E9A9A", H:"#4F57E0", I:"#B05A86"
+};
+function soft(hex){ // 12% tint
+  const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  return `rgba(${r},${g},${b},.10)`;
+}
+
+const DATA = [
+  {id:"A", name:"웹의 기본 구조", terms:[
+    {en:"Front-end", ko:"프론트엔드", desc:"사용자가 화면에서 직접 보고 누르는 부분이다. 버튼, 글자, 색, 움직임이 전부 프론트엔드다."},
+    {en:"Back-end", ko:"백엔드", desc:"사용자 눈에 안 보이는 부분이다. 데이터 저장, 로그인 처리, 계산을 담당한다."},
+    {en:"Client", ko:"클라이언트", desc:"사용자의 기기와 브라우저를 가리킨다. 당신 PC, 방문자의 휴대폰이 클라이언트다."},
+    {en:"Server", ko:"서버", desc:"요청을 받아 파일이나 데이터를 보내주는 컴퓨터다. 사이트 주소를 입력하면 서버가 HTML 파일을 보낸다."},
+    {en:"Browser", ko:"브라우저", desc:"크롬, 사파리 같은 프로그램이다. HTML·CSS·JavaScript를 읽어 화면으로 그려준다."},
+  ]},
+  {id:"B", name:"3대 핵심 언어", terms:[
+    {en:"HTML", ko:"HyperText Markup Language", desc:"웹페이지의 구조와 내용을 정의하는 언어다. 여기는 제목, 여기는 문단, 여기는 이미지를 표시한다. 내용만 담당하고 디자인이나 동작은 담당하지 않는다."},
+    {en:"CSS", ko:"Cascading Style Sheets", desc:"화면의 모양을 담당하는 언어다. 색, 크기, 위치, 간격, 글꼴을 지정한다. HTML이 정한 내용에 디자인을 입힌다."},
+    {en:"JavaScript", ko:"JS", desc:"동작과 상호작용을 담당하는 언어다. 버튼을 누르면 창이 뜨고, 스크롤하면 화면이 바뀌는 일은 전부 JavaScript가 한다.", memo:"당신 사이트의 스크롤 작동과 3D 움직임은 JavaScript로 짜여 있다."},
+  ]},
+  {id:"C", name:"HTML 용어", terms:[
+    {en:"Element / Tag", ko:"요소 · 태그", desc:"요소는 HTML을 이루는 한 덩어리다. 태그는 그 요소를 표시하는 기호다. <p>안녕</p>에서 <p>와 </p>가 태그이고, 전체가 하나의 요소다."},
+    {en:"Attribute", ko:"속성", desc:"요소에 추가 정보를 붙이는 값이다. 이미지 요소에 주소를 지정하거나, 요소에 이름표를 붙일 때 쓴다."},
+    {en:"DOM", ko:"Document Object Model", desc:"브라우저가 HTML을 읽어 머릿속에 만든 구조다. JavaScript는 이 DOM을 통해 화면 요소를 찾고 바꾼다.", memo:"DOM 조작은 JavaScript가 화면의 글자나 요소를 실시간으로 바꾸는 작업을 뜻한다."},
+  ]},
+  {id:"D", name:"CSS 용어", terms:[
+    {en:"Selector", ko:"선택자", desc:"디자인을 적용할 대상을 고르는 문법이다. 모든 제목 또는 이 버튼 하나처럼 범위를 지정한다."},
+    {en:"Property / Value", ko:"속성 · 값", desc:"무엇을 어떻게 바꿀지 정하는 한 쌍이다. color: red에서 color가 속성, red가 값이다."},
+    {en:"Responsive", ko:"반응형 디자인", desc:"화면 크기에 따라 레이아웃이 자동으로 바뀌는 방식이다. PC에서 가로 3칸이던 게 휴대폰에서 세로 1칸으로 바뀐다."},
+    {en:"Media Query", ko:"미디어 쿼리", desc:"반응형을 구현하는 CSS 문법이다. 화면이 600px보다 좁으면 이렇게 바꿔라를 지정한다."},
+    {en:"Flexbox / Grid", ko:"배치", desc:"요소를 가로세로로 배치하는 CSS 기능이다. Flexbox는 한 줄 정렬, Grid는 격자 배치에 쓴다."},
+    {en:"Sass / SCSS", ko:"전처리기", desc:"CSS를 더 편하게 쓰게 해주는 확장판이다. 변수와 반복을 지원한다. 최종적으로는 일반 CSS로 변환된다."},
+    {en:"Tailwind CSS", ko:"유틸리티 CSS", desc:"미리 만들어둔 짧은 클래스 이름으로 디자인하는 도구다. 별도 CSS 파일을 적게 쓰고 HTML 안에서 바로 디자인을 지정한다."},
+  ]},
+  {id:"E", name:"JavaScript 용어", terms:[
+    {en:"Variable", ko:"변수", desc:"값을 담아두는 이름표다. 숫자나 글자를 저장해두고 나중에 꺼내 쓴다."},
+    {en:"Function", ko:"함수", desc:"정해진 동작을 묶어둔 단위다. 한 번 만들어두면 필요할 때마다 호출해서 같은 동작을 실행한다."},
+    {en:"Event", ko:"이벤트", desc:"사용자의 행동이다. 클릭, 스크롤, 키 입력이 전부 이벤트다. JavaScript는 이벤트가 일어나면 정해둔 함수를 실행한다.", memo:"당신 사이트의 스크롤하면 3D가 움직인다는 스크롤 이벤트에 함수가 연결된 구조다."},
+    {en:"API", ko:"Application Programming Interface", desc:"프로그램끼리 정보를 주고받는 약속이다. 날씨 API를 호출하면 현재 날씨 데이터를 받아온다."},
+    {en:"async / await", ko:"비동기", desc:"오래 걸리는 작업을 기다리는 동안 다른 일을 멈추지 않게 하는 방식이다. 데이터를 받아오는 동안 화면이 멈추지 않게 한다."},
+    {en:"JSON", ko:"데이터 형식", desc:"데이터를 정리해 담는 글자 형식이다. 이름·값 쌍으로 되어 있어 사람과 프로그램 모두 읽기 쉽다."},
+  ]},
+  {id:"F", name:"라이브러리와 프레임워크", terms:[
+    {en:"Library", ko:"라이브러리", desc:"자주 쓰는 기능을 미리 만들어둔 도구 모음이다. 필요한 기능만 골라 쓴다."},
+    {en:"Framework", ko:"프레임워크", desc:"전체 뼈대와 규칙까지 정해주는 큰 도구다. 라이브러리보다 강제하는 구조가 많다. 차이는 내가 도구를 부른다(라이브러리) 대 도구의 규칙 안에서 내가 짠다(프레임워크)이다."},
+    {en:"React", ko:"라이브러리", desc:"화면을 작은 조각으로 나눠 만드는 JavaScript 라이브러리다. 페이스북이 만들었고 가장 널리 쓰인다.", memo:"당신이 옮기려는 목적지다."},
+    {en:"Component", ko:"컴포넌트", desc:"화면을 이루는 재사용 가능한 조각이다. 버튼 하나, 카드 하나를 컴포넌트로 만들어 여러 곳에 다시 쓴다. React의 핵심 단위다."},
+    {en:"State", ko:"상태", desc:"컴포넌트가 기억하는 현재 값이다. 값이 바뀌면 화면이 자동으로 다시 그려진다. 메뉴가 열림/닫힘처럼 변하는 정보가 state다."},
+    {en:"Props", ko:"전달 값", desc:"부모 컴포넌트가 자식 컴포넌트에 넘겨주는 값이다. 같은 버튼 컴포넌트에 글자만 다르게 넘길 때 props를 쓴다."},
+    {en:"JSX", ko:"문법", desc:"React에서 HTML처럼 생긴 코드를 JavaScript 안에 쓰는 문법이다. 화면 구조와 동작을 한 파일에 같이 적는다."},
+    {en:"Vue / Angular", ko:"다른 프레임워크", desc:"React와 같은 목적의 다른 프레임워크다. 셋 중 하나를 고른다. 당신은 React 방향이므로 이름만 알아두면 된다."},
+  ]},
+  {id:"G", name:"3D 관련", terms:[
+    {en:"WebGL", ko:"3D 기술", desc:"브라우저에서 3D 그래픽을 그리는 기술이다. 직접 다루기 어려워서 보통 아래 라이브러리를 통해 쓴다."},
+    {en:"Three.js", ko:"3D 라이브러리", desc:"WebGL을 쉽게 쓰게 해주는 JavaScript 라이브러리다. 웹에서 3D 오브젝트를 만드는 표준에 가깝다.", memo:"당신 사이트의 3D는 Three.js로 만들었을 가능성이 높다. (확인 필요)"},
+    {en:"react-three-fiber", ko:"R3F", desc:"Three.js를 React 방식으로 쓰게 해주는 라이브러리다. 3D 오브젝트를 컴포넌트로 다룬다.", memo:"React로 옮기면 Three.js 코드가 보통 이걸로 바뀐다."},
+    {en:"Canvas", ko:"화면 영역", desc:"3D나 그림을 그리는 화면 영역이다. Three.js는 이 Canvas 위에 3D를 그린다."},
+  ]},
+  {id:"H", name:"개발 · 빌드 도구", terms:[
+    {en:"Node.js", ko:"실행 환경", desc:"JavaScript를 브라우저 밖에서 실행하는 프로그램이다. React 같은 도구를 설치하고 돌리려면 필요하다.", memo:"React 버전을 PC에서 띄워보려면 먼저 이게 깔려 있어야 한다."},
+    {en:"npm", ko:"Node Package Manager", desc:"필요한 라이브러리를 내려받아 설치하는 도구다. Node.js와 함께 깔린다."},
+    {en:"Package", ko:"패키지", desc:"npm으로 설치하는 라이브러리 한 덩어리다. React, Three.js 모두 패키지로 설치한다."},
+    {en:"Vite / Webpack", ko:"번들러", desc:"여러 파일을 묶어 브라우저가 읽을 수 있는 형태로 만드는 도구다. Vite가 요즘 표준이고 빠르다."},
+    {en:"Build", ko:"빌드", desc:"작성한 코드를 실제 배포용 파일로 변환하는 과정이다. React 코드는 그대로 브라우저에서 안 열리고 빌드를 거쳐야 한다.", memo:"바닐라 사이트는 파일을 더블클릭하면 열리지만, React는 빌드 또는 개발 서버가 필요해 그냥 안 열린다. 이 차이가 비개발자에게 첫 장벽이다."},
+    {en:"Transpile", ko:"트랜스파일", desc:"새 문법이나 JSX를 브라우저가 이해하는 옛 문법으로 바꾸는 작업이다. 빌드 과정에 포함된다."},
+    {en:"Dev Server", ko:"개발 서버", desc:"작업 중인 사이트를 PC에서 임시로 띄워 확인하는 도구다. 코드를 고치면 화면에 바로 반영된다."},
+  ]},
+  {id:"I", name:"기타 자주 나오는 말", terms:[
+    {en:"Rendering", ko:"렌더링", desc:"코드를 실제 화면 그림으로 그려내는 과정이다."},
+    {en:"Markup", ko:"마크업", desc:"태그로 내용의 구조를 표시하는 것이다. HTML이 마크업 언어다."},
+    {en:"Vanilla", ko:"바닐라", desc:"프레임워크 없이 순수 HTML·CSS·JavaScript만 쓴 상태다.", memo:"지금 당신 사이트가 바닐라다."},
+    {en:"Git / GitHub", ko:"버전 관리", desc:"Git은 코드 변경 기록을 저장하는 도구다. GitHub는 그 코드를 온라인에 보관·공유하는 사이트다. 작업 전 원본을 안전하게 보관할 때 쓴다."},
+  ]},
+];
+
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+// build
+const main = document.getElementById('main');
+const chips = document.getElementById('chips');
+let total = 0;
+
+DATA.forEach(cat=>{
+  const c = COLORS[cat.id], cs = soft(c);
+  total += cat.terms.length;
+
+  const chip = document.createElement('a');
+  chip.href = '#sec-'+cat.id;
+  chip.className = 'chip';
+  chip.dataset.cat = cat.id;
+  chip.style.setProperty('--c', c);
+  chip.innerHTML = `<span class="ltr">${cat.id}</span>${cat.name}`;
+  chips.appendChild(chip);
+
+  const sec = document.createElement('section');
+  sec.className = 'section';
+  sec.id = 'sec-'+cat.id;
+  sec.dataset.cat = cat.id;
+  sec.style.setProperty('--c', c);
+  sec.style.setProperty('--c-soft', cs);
+
+  let html = `<div class="sec-head"><div class="badge">${cat.id}</div><h2>${cat.name}</h2></div>`;
+  cat.terms.forEach(t=>{
+    html += `<article class="term" data-text="${esc((t.en+' '+t.ko+' '+t.desc+' '+(t.memo||'')).toLowerCase())}">
+      <div class="term-head"><span class="term-en">${esc(t.en)}</span><span class="term-ko">${esc(t.ko)}</span></div>
+      <p class="term-desc">${esc(t.desc)}</p>
+      ${t.memo?`<div class="memo"><b>메모</b>${esc(t.memo)}</div>`:''}
+    </article>`;
+  });
+  sec.innerHTML = html;
+  main.appendChild(sec);
+});
+
+document.getElementById('count').textContent = total;
+document.getElementById('footer').textContent = `${total} terms · 9 categories · 마지막 갱신 ${new Date().getFullYear()}`;
+
+// search
+const search = document.getElementById('search');
+const clearBtn = document.getElementById('clear');
+const emptyEl = document.getElementById('empty');
+
+function applyFilter(){
+  const q = search.value.trim().toLowerCase();
+  clearBtn.style.display = q ? 'block' : 'none';
+  let anyVisible = false;
+
+  document.querySelectorAll('.section').forEach(sec=>{
+    let secHas = false;
+    sec.querySelectorAll('.term').forEach(t=>{
+      const hit = !q || t.dataset.text.includes(q);
+      t.style.display = hit ? '' : 'none';
+      if(hit) secHas = true;
+    });
+    sec.style.display = secHas ? '' : 'none';
+    const chip = chips.querySelector(`.chip[data-cat="${sec.dataset.cat}"]`);
+    if(chip) chip.classList.toggle('dim', !secHas);
+    if(secHas) anyVisible = true;
+  });
+  emptyEl.style.display = anyVisible ? 'none' : 'block';
+}
+search.addEventListener('input', applyFilter);
+clearBtn.addEventListener('click', ()=>{ search.value=''; applyFilter(); search.focus(); });
+
+// scroll-spy
+const chipEls = [...chips.querySelectorAll('.chip')];
+const spy = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const id = e.target.dataset.cat;
+      chipEls.forEach(ch=>ch.classList.toggle('active', ch.dataset.cat===id));
+      const active = chips.querySelector('.chip.active');
+      if(active) active.scrollIntoView({block:'nearest',inline:'center'});
+    }
+  });
+},{rootMargin:'-45% 0px -50% 0px',threshold:0});
+document.querySelectorAll('.section').forEach(s=>spy.observe(s));
+</script>
+</body>
+</html>

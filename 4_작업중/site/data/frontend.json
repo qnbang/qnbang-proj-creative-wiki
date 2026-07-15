@@ -1,0 +1,2275 @@
+[
+  {
+    "id": "fe-front-end",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Front-end",
+    "titleEn": "프론트엔드",
+    "field": "웹 개발",
+    "oneLiner": "사용자가 화면에서 직접 보고 누르는 부분이다.",
+    "credibility": "established",
+    "keywords": [
+      "Front-end",
+      "프론트엔드"
+    ],
+    "related": [
+      "fe-back-end",
+      "fe-client",
+      "fe-server",
+      "fe-browser"
+    ],
+    "detail": {
+      "desc": "사용자가 화면에서 직접 보고 누르는 부분이다. 버튼, 글자, 색, 움직임이 전부 프론트엔드다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='140' y='40' width='280' height='150' fill='none' stroke='#222' stroke-width='3'/><rect x='160' y='58' width='90' height='14' fill='#222'/><rect x='160' y='84' width='240' height='8' fill='#222'/><rect x='160' y='100' width='190' height='8' fill='#222'/><rect x='160' y='140' width='70' height='26' rx='4' fill='none' stroke='#222' stroke-width='3'/><text x='195' y='157' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>Click</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>사용자 눈에 보이고 손이 닿는 화면 그 자체다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-back-end",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Back-end",
+    "titleEn": "백엔드",
+    "field": "웹 개발",
+    "oneLiner": "사용자 눈에 안 보이는 부분이다.",
+    "credibility": "established",
+    "keywords": [
+      "Back-end",
+      "백엔드"
+    ],
+    "related": [
+      "fe-front-end",
+      "fe-client",
+      "fe-server",
+      "fe-browser"
+    ],
+    "detail": {
+      "desc": "사용자 눈에 안 보이는 부분이다. 데이터 저장, 로그인 처리, 계산을 담당한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='40' width='220' height='150' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='6 6'/><rect x='110' y='58' width='70' height='10' fill='#888' opacity='0.4'/><rect x='330' y='55' width='140' height='150' fill='none' stroke='#222' stroke-width='3'/><circle cx='400' cy='110' r='20' fill='none' stroke='#222' stroke-width='3'/><circle cx='400' cy='110' r='7' fill='#222'/><rect x='355' y='150' width='90' height='12' fill='#222'/><rect x='355' y='170' width='60' height='12' fill='#222'/><text x='400' y='45' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>서버</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>화면 뒤에서 데이터와 로직을 처리하는 보이지 않는 부분</text></svg>"
+    }
+  },
+  {
+    "id": "fe-client",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Client",
+    "titleEn": "클라이언트",
+    "field": "웹 개발",
+    "oneLiner": "사용자의 기기와 브라우저를 가리킨다.",
+    "credibility": "established",
+    "keywords": [
+      "Client",
+      "클라이언트",
+      "PC"
+    ],
+    "related": [
+      "fe-back-end",
+      "fe-server",
+      "fe-front-end",
+      "fe-browser"
+    ],
+    "detail": {
+      "desc": "사용자의 기기와 브라우저를 가리킨다. 당신 PC, 방문자의 휴대폰이 클라이언트다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='190' y='55' width='180' height='120' rx='4' fill='none' stroke='#222' stroke-width='3'/><rect x='210' y='73' width='140' height='84' fill='none' stroke='#222' stroke-width='2'/><rect x='255' y='175' width='50' height='14' fill='#222'/><rect x='230' y='189' width='100' height='8' fill='#222'/><text x='280' y='40' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Client</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>요청을 보내는 사용자의 기기와 브라우저</text></svg>"
+    }
+  },
+  {
+    "id": "fe-server",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Server",
+    "titleEn": "서버",
+    "field": "웹 개발",
+    "oneLiner": "요청을 받아 파일이나 데이터를 보내주는 컴퓨터다.",
+    "credibility": "established",
+    "keywords": [
+      "Server",
+      "서버",
+      "HTML"
+    ],
+    "related": [
+      "fe-client",
+      "fe-browser",
+      "fe-back-end",
+      "fe-http-https"
+    ],
+    "detail": {
+      "desc": "요청을 받아 파일이나 데이터를 보내주는 컴퓨터다. 사이트 주소를 입력하면 서버가 HTML 파일을 보낸다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='230' y='40' width='100' height='160' fill='none' stroke='#222' stroke-width='3'/><line x1='230' y1='80' x2='330' y2='80' stroke='#222' stroke-width='2'/><line x1='230' y1='120' x2='330' y2='120' stroke='#222' stroke-width='2'/><line x1='230' y1='160' x2='330' y2='160' stroke='#222' stroke-width='2'/><circle cx='250' cy='60' r='4' fill='#222'/><circle cx='250' cy='100' r='4' fill='#222'/><circle cx='250' cy='140' r='4' fill='#222'/><circle cx='250' cy='180' r='4' fill='#222'/><text x='280' y='30' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Server</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>요청을 받아 파일과 데이터를 내려주는 컴퓨터</text></svg>"
+    }
+  },
+  {
+    "id": "fe-browser",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Browser",
+    "titleEn": "브라우저",
+    "field": "웹 개발",
+    "oneLiner": "크롬, 사파리 같은 프로그램이다.",
+    "credibility": "established",
+    "keywords": [
+      "Browser",
+      "브라우저",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-server",
+      "fe-http-https",
+      "fe-client",
+      "fe-url"
+    ],
+    "detail": {
+      "desc": "크롬, 사파리 같은 프로그램이다. HTML·CSS·JavaScript를 읽어 화면으로 그려준다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='55' width='60' height='30' fill='none' stroke='#222' stroke-width='2'/><text x='90' y='75' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>HTML</text><rect x='60' y='95' width='60' height='30' fill='none' stroke='#222' stroke-width='2'/><text x='90' y='115' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>CSS</text><rect x='60' y='135' width='60' height='30' fill='none' stroke='#222' stroke-width='2'/><text x='90' y='155' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>JS</text><path d='M 125 110 L 190 110' stroke='#222' stroke-width='3' fill='none' marker-end='url(#a1)'/><rect x='195' y='45' width='300' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='195' y='45' width='300' height='22' fill='#222'/><rect x='215' y='88' width='120' height='12' fill='#222'/><rect x='215' y='110' width='240' height='7' fill='#222'/><rect x='215' y='126' width='200' height='7' fill='#222'/><defs><marker id='a1' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>HTML·CSS·JS를 읽어 화면으로 그려주는 프로그램</text></svg>"
+    }
+  },
+  {
+    "id": "fe-http-https",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "HTTP / HTTPS",
+    "titleEn": "통신 규약",
+    "field": "웹 개발",
+    "oneLiner": "브라우저와 서버가 데이터를 주고받는 약속이다.",
+    "credibility": "established",
+    "keywords": [
+      "HTTP / HTTPS",
+      "통신 규약",
+      "HTTPS"
+    ],
+    "related": [
+      "fe-browser",
+      "fe-url",
+      "fe-server",
+      "fe-domain"
+    ],
+    "detail": {
+      "desc": "브라우저와 서버가 데이터를 주고받는 약속이다. HTTPS는 내용을 암호화한 안전한 버전이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='90' width='110' height='70' fill='none' stroke='#222' stroke-width='3'/><text x='115' y='130' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Client</text><rect x='390' y='90' width='110' height='70' fill='none' stroke='#222' stroke-width='3'/><text x='445' y='130' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Server</text><path d='M 175 105 L 385 105' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#a2)'/><path d='M 385 145 L 175 145' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#a2)'/><rect x='250' y='32' width='60' height='36' rx='5' fill='none' stroke='#222' stroke-width='2.5'/><path d='M 261 32 L 261 22 A 19 19 0 0 1 299 22 L 299 32' fill='none' stroke='#222' stroke-width='2.5'/><text x='280' y='55' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>HTTPS</text><defs><marker id='a2' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>브라우저와 서버가 요청·응답을 주고받는 약속, 자물쇠는 암호화</text></svg>"
+    }
+  },
+  {
+    "id": "fe-url",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "URL",
+    "titleEn": "주소",
+    "field": "웹 개발",
+    "oneLiner": "인터넷에서 특정 페이지나 파일의 위치를 가리키는 주소다.",
+    "credibility": "established",
+    "keywords": [
+      "URL",
+      "주소"
+    ],
+    "related": [
+      "fe-http-https",
+      "fe-domain",
+      "fe-browser",
+      "fe-hosting"
+    ],
+    "detail": {
+      "desc": "인터넷에서 특정 페이지나 파일의 위치를 가리키는 주소다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='95' width='440' height='40' fill='none' stroke='#222' stroke-width='3'/><line x1='185' y1='95' x2='185' y2='135' stroke='#222' stroke-width='2'/><line x1='350' y1='95' x2='350' y2='135' stroke='#222' stroke-width='2'/><text x='122' y='120' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>https://</text><text x='267' y='120' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>example.com</text><text x='425' y='120' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>/page</text><text x='122' y='150' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>규약</text><text x='267' y='150' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>도메인</text><text x='425' y='150' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>경로</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>페이지의 위치를 가리키는 주소, 세 조각으로 이루어진다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-domain",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Domain",
+    "titleEn": "도메인",
+    "field": "웹 개발",
+    "oneLiner": "사람이 외우기 쉬운 사이트 이름이다(example.com). 실제 서버의 숫자 주소로 연결된다.",
+    "credibility": "established",
+    "keywords": [
+      "Domain",
+      "도메인",
+      "example.com"
+    ],
+    "related": [
+      "fe-url",
+      "fe-hosting",
+      "fe-http-https",
+      "fe-static-dynamic"
+    ],
+    "detail": {
+      "desc": "사람이 외우기 쉬운 사이트 이름이다(example.com). 실제 서버의 숫자 주소로 연결된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='95' width='180' height='50' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='170' y='126' text-anchor='middle' font-size='15' fill='#222' font-family='sans-serif'>example.com</text><path d='M 270 120 L 340 120' stroke='#222' stroke-width='3' fill='none' marker-end='url(#a3)'/><rect x='345' y='95' width='150' height='50' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='420' y='126' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>203.0.113.1</text><text x='170' y='80' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>외우기 쉬운 이름</text><text x='420' y='80' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>실제 서버 주소</text><defs><marker id='a3' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>외우기 쉬운 이름이 실제 서버의 숫자 주소로 연결된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-hosting",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Hosting",
+    "titleEn": "호스팅",
+    "field": "웹 개발",
+    "oneLiner": "사이트 파일을 서버에 올려 인터넷에서 접속 가능하게 하는 일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Hosting",
+      "호스팅"
+    ],
+    "related": [
+      "fe-domain",
+      "fe-static-dynamic",
+      "fe-url",
+      "fe-http-https"
+    ],
+    "detail": {
+      "desc": "사이트 파일을 서버에 올려 인터넷에서 접속 가능하게 하는 일이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='120' width='90' height='60' fill='none' stroke='#222' stroke-width='2.5'/><rect x='105' y='134' width='60' height='8' fill='#222'/><rect x='105' y='148' width='60' height='8' fill='#222'/><rect x='105' y='162' width='40' height='8' fill='#222'/><path d='M 220 150 L 300 150' stroke='#222' stroke-width='3' fill='none' marker-end='url(#a4)'/><text x='260' y='140' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>업로드</text><rect x='330' y='55' width='90' height='140' fill='none' stroke='#222' stroke-width='3'/><line x1='330' y1='90' x2='420' y2='90' stroke='#222' stroke-width='2'/><line x1='330' y1='125' x2='420' y2='125' stroke='#222' stroke-width='2'/><line x1='330' y1='160' x2='420' y2='160' stroke='#222' stroke-width='2'/><defs><marker id='a4' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>사이트 파일을 서버에 올려 인터넷에서 열리게 하는 일</text></svg>"
+    }
+  },
+  {
+    "id": "fe-static-dynamic",
+    "domain": "frontend",
+    "category": "웹의 기본 구조",
+    "categoryLabel": "웹의 기본 구조",
+    "title": "Static / Dynamic",
+    "titleEn": "정적 · 동적 사이트",
+    "field": "웹 개발",
+    "oneLiner": "정적은 모두에게 같은 고정 페이지다.",
+    "credibility": "established",
+    "keywords": [
+      "Static / Dynamic",
+      "정적 · 동적 사이트"
+    ],
+    "related": [
+      "fe-hosting",
+      "fe-domain",
+      "fe-url",
+      "fe-http-https"
+    ],
+    "detail": {
+      "desc": "정적은 모두에게 같은 고정 페이지다. 동적은 사용자나 상황에 따라 내용이 바뀌는 페이지다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='140' y='40' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Static</text><rect x='70' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><rect x='120' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><rect x='170' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><line x1='80' y1='70' x2='100' y2='70' stroke='#222' stroke-width='2'/><line x1='130' y1='70' x2='150' y2='70' stroke='#222' stroke-width='2'/><line x1='180' y1='70' x2='200' y2='70' stroke='#222' stroke-width='2'/><text x='420' y='40' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Dynamic</text><rect x='350' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><rect x='400' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><rect x='450' y='55' width='40' height='55' fill='none' stroke='#222' stroke-width='2'/><line x1='360' y1='70' x2='380' y2='70' stroke='#222' stroke-width='2'/><circle cx='420' cy='80' r='9' fill='#222'/><path d='M 460 62 L 480 98 M 480 62 L 460 98' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>정적은 누구나 같은 페이지, 동적은 상황마다 바뀐다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-html",
+    "domain": "frontend",
+    "category": "3대 핵심 언어",
+    "categoryLabel": "3대 핵심 언어",
+    "title": "HTML",
+    "titleEn": "HyperText Markup Language",
+    "field": "웹 개발",
+    "oneLiner": "웹페이지의 구조와 내용을 정의하는 언어다.",
+    "credibility": "established",
+    "keywords": [
+      "HTML",
+      "HyperText Markup Language"
+    ],
+    "related": [
+      "fe-css",
+      "fe-javascript"
+    ],
+    "detail": {
+      "desc": "웹페이지의 구조와 내용을 정의하는 언어다. 내용만 담당하고 디자인이나 동작은 담당하지 않는다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='150' y='50' width='260' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='168' y='68' width='224' height='26' fill='none' stroke='#222' stroke-width='2'/><rect x='168' y='102' width='100' height='70' fill='none' stroke='#222' stroke-width='2'/><rect x='276' y='102' width='116' height='70' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='84' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>header</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>내용과 뼈대만 정의하는 언어, 디자인·동작은 없다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-css",
+    "domain": "frontend",
+    "category": "3대 핵심 언어",
+    "categoryLabel": "3대 핵심 언어",
+    "title": "CSS",
+    "titleEn": "Cascading Style Sheets",
+    "field": "웹 개발",
+    "oneLiner": "화면의 모양을 담당하는 언어다.",
+    "credibility": "established",
+    "keywords": [
+      "CSS",
+      "Cascading Style Sheets"
+    ],
+    "related": [
+      "fe-html",
+      "fe-javascript"
+    ],
+    "detail": {
+      "desc": "화면의 모양을 담당하는 언어다. 색, 크기, 위치, 간격, 글꼴을 지정한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='150' y='50' width='260' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='168' y='68' width='224' height='26' fill='#222'/><rect x='178' y='112' width='90' height='50' rx='8' fill='none' stroke='#222' stroke-width='2.5'/><rect x='286' y='112' width='96' height='50' rx='8' fill='none' stroke='#222' stroke-width='2.5'/><path d='M 320 30 L 340 30 M 330 20 L 330 40' stroke='#888' stroke-width='2'/><text x='430' y='30' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>색·간격·모양</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 구조에 색과 간격과 모양을 입히는 언어</text></svg>"
+    }
+  },
+  {
+    "id": "fe-javascript",
+    "domain": "frontend",
+    "category": "3대 핵심 언어",
+    "categoryLabel": "3대 핵심 언어",
+    "title": "JavaScript",
+    "titleEn": "JS",
+    "field": "웹 개발",
+    "oneLiner": "동작과 상호작용을 담당하는 언어다.",
+    "credibility": "established",
+    "keywords": [
+      "JavaScript",
+      "JS"
+    ],
+    "related": [
+      "fe-css",
+      "fe-html"
+    ],
+    "detail": {
+      "desc": "동작과 상호작용을 담당하는 언어다. 버튼을 누르면 창이 뜨고, 스크롤하면 화면이 바뀌는 일은 전부 JavaScript가 한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='150' y='50' width='260' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='178' y='150' width='90' height='30' rx='5' fill='none' stroke='#222' stroke-width='2.5'/><text x='223' y='170' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>Button</text><path d='M 245 205 L 223 182' stroke='#222' stroke-width='2' fill='none' marker-end='url(#a5)'/><path d='M 300 90 Q 330 70 360 90' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#a5)'/><rect x='300' y='95' width='90' height='45' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 4'/><text x='345' y='120' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>변한 화면</text><defs><marker id='a5' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>클릭 같은 행동에 반응해 화면을 움직이는 언어</text></svg>"
+    }
+  },
+  {
+    "id": "fe-element-tag",
+    "domain": "frontend",
+    "category": "HTML 용어",
+    "categoryLabel": "HTML 용어",
+    "title": "Element / Tag",
+    "titleEn": "요소 · 태그",
+    "field": "웹 개발",
+    "oneLiner": "요소는 HTML을 이루는 한 덩어리다.",
+    "credibility": "established",
+    "keywords": [
+      "Element / Tag",
+      "요소 · 태그",
+      "HTML"
+    ],
+    "related": [
+      "fe-attribute",
+      "fe-semantic-tag",
+      "fe-dom"
+    ],
+    "detail": {
+      "desc": "요소는 HTML을 이루는 한 덩어리다. 태그는 그 요소를 표시하는 기호다. 여는 태그와 닫는 태그 사이의 전체가 하나의 요소다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='90' y='120' font-size='20' fill='#222' font-family='monospace'>&lt;p&gt;</text><text x='150' y='120' font-size='20' fill='#222' font-family='monospace'>내용</text><text x='230' y='120' font-size='20' fill='#222' font-family='monospace'>&lt;/p&gt;</text><path d='M 85 135 L 85 150 L 300 150 L 300 135' stroke='#222' stroke-width='2' fill='none'/><text x='192' y='170' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>여는 태그부터 닫는 태그까지 = 하나의 요소</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>여는 태그와 닫는 태그 사이 전체가 하나의 요소다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-attribute",
+    "domain": "frontend",
+    "category": "HTML 용어",
+    "categoryLabel": "HTML 용어",
+    "title": "Attribute",
+    "titleEn": "속성",
+    "field": "웹 개발",
+    "oneLiner": "요소에 추가 정보를 붙이는 값이다.",
+    "credibility": "established",
+    "keywords": [
+      "Attribute",
+      "속성"
+    ],
+    "related": [
+      "fe-element-tag",
+      "fe-semantic-tag",
+      "fe-dom"
+    ],
+    "detail": {
+      "desc": "요소에 추가 정보를 붙이는 값이다. 이미지 요소에 주소를 지정하거나, 요소에 이름표를 붙일 때 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='90' y='120' font-size='19' fill='#222' font-family='monospace'>&lt;img src=&quot;cat.png&quot;&gt;</text><path d='M 220 130 L 220 155' stroke='#222' stroke-width='2' fill='none' marker-end='url(#a6)'/><text x='220' y='172' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>속성 = 값 (추가 정보)</text><path d='M 340 130 L 300 155' stroke='#888' stroke-width='1.5' fill='none'/><defs><marker id='a6' markerWidth='8' markerHeight='8' refX='4' refY='6' orient='auto'><path d='M0,0 L4,6 L8,0 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>요소에 추가 정보를 붙이는 이름=값 쌍이다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-semantic-tag",
+    "domain": "frontend",
+    "category": "HTML 용어",
+    "categoryLabel": "HTML 용어",
+    "title": "Semantic Tag",
+    "titleEn": "시맨틱 태그",
+    "field": "웹 개발",
+    "oneLiner": "의미를 가진 태그다(header, nav, article 등). 검색엔진과 화면 낭독기가 구조를 이해하기 쉬워진다.",
+    "credibility": "established",
+    "keywords": [
+      "Semantic Tag",
+      "시맨틱 태그",
+      "header",
+      "nav",
+      "article"
+    ],
+    "related": [
+      "fe-attribute",
+      "fe-dom",
+      "fe-element-tag"
+    ],
+    "detail": {
+      "desc": "의미를 가진 태그다(header, nav, article 등). 검색엔진과 화면 낭독기가 구조를 이해하기 쉬워진다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='130' y='40' width='300' height='160' fill='none' stroke='#222' stroke-width='3'/><rect x='130' y='40' width='300' height='34' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='62' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>header</text><rect x='130' y='74' width='80' height='90' fill='none' stroke='#222' stroke-width='2'/><text x='170' y='122' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>nav</text><rect x='210' y='74' width='220' height='90' fill='none' stroke='#222' stroke-width='2'/><text x='320' y='122' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>article</text><rect x='130' y='164' width='300' height='36' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='186' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>footer</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>의미를 가진 태그로 짠 구조, 검색엔진도 뜻을 안다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-dom",
+    "domain": "frontend",
+    "category": "HTML 용어",
+    "categoryLabel": "HTML 용어",
+    "title": "DOM",
+    "titleEn": "Document Object Model",
+    "field": "웹 개발",
+    "oneLiner": "브라우저가 HTML을 읽어 메모리에 만든 구조다.",
+    "credibility": "established",
+    "keywords": [
+      "DOM",
+      "Document Object Model",
+      "HTML",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-semantic-tag",
+      "fe-attribute",
+      "fe-element-tag"
+    ],
+    "detail": {
+      "desc": "브라우저가 HTML을 읽어 메모리에 만든 구조다. JavaScript는 이 DOM을 통해 화면 요소를 찾고 바꾼다.",
+      "how": "브라우저는 HTML 글자를 그대로 쓰지 않고, 요소들을 부모·자식 관계의 나무 구조로 변환해 메모리에 올린다. JavaScript가 글자를 바꾸면 이 나무가 갱신되고, 화면이 다시 그려진다. DOM 조작은 이 나무를 직접 건드리는 작업을 뜻한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='45' r='16' fill='none' stroke='#222' stroke-width='2.5'/><text x='280' y='49' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>html</text><line x1='265' y1='58' x2='190' y2='95' stroke='#222' stroke-width='2'/><line x1='295' y1='58' x2='370' y2='95' stroke='#222' stroke-width='2'/><circle cx='190' cy='108' r='15' fill='none' stroke='#222' stroke-width='2.5'/><text x='190' y='112' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>head</text><circle cx='370' cy='108' r='15' fill='none' stroke='#222' stroke-width='2.5'/><text x='370' y='112' text-anchor='middle' font-size='10' fill='#222' font-family='sans-serif'>body</text><line x1='355' y1='120' x2='310' y2='160' stroke='#222' stroke-width='2'/><line x1='385' y1='120' x2='430' y2='160' stroke='#222' stroke-width='2'/><circle cx='310' cy='172' r='14' fill='none' stroke='#222' stroke-width='2.5'/><text x='310' y='176' text-anchor='middle' font-size='9' fill='#222' font-family='sans-serif'>h1</text><circle cx='430' cy='172' r='14' fill='none' stroke='#222' stroke-width='2.5'/><text x='430' y='176' text-anchor='middle' font-size='9' fill='#222' font-family='sans-serif'>p</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>브라우저가 HTML을 부모·자식 나무 구조로 바꾼 것</text></svg>"
+    }
+  },
+  {
+    "id": "fe-selector",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Selector",
+    "titleEn": "선택자",
+    "field": "웹 개발",
+    "oneLiner": "디자인을 적용할 대상을 고르는 문법이다.",
+    "credibility": "established",
+    "keywords": [
+      "Selector",
+      "선택자"
+    ],
+    "related": [
+      "fe-property-value",
+      "fe-responsive",
+      "fe-media-query",
+      "fe-flexbox-grid"
+    ],
+    "detail": {
+      "desc": "디자인을 적용할 대상을 고르는 문법이다. 모든 제목 또는 이 버튼 하나처럼 범위를 지정한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='90' width='60' height='60' fill='none' stroke='#222' stroke-width='2'/><rect x='170' y='90' width='60' height='60' fill='none' stroke='#222' stroke-width='3'/><rect x='250' y='90' width='60' height='60' fill='none' stroke='#222' stroke-width='2'/><rect x='330' y='90' width='60' height='60' fill='none' stroke='#222' stroke-width='2'/><circle cx='200' cy='120' r='34' fill='none' stroke='#222' stroke-width='1.5'/><line x1='200' y1='76' x2='200' y2='96' stroke='#222' stroke-width='1.5'/><line x1='200' y1='144' x2='200' y2='164' stroke='#222' stroke-width='1.5'/><line x1='156' y1='120' x2='176' y2='120' stroke='#222' stroke-width='1.5'/><line x1='224' y1='120' x2='244' y2='120' stroke='#222' stroke-width='1.5'/><text x='200' y='185' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>이 상자만</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>여러 상자 중 디자인 적용할 대상을 콕 집어 고른다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-property-value",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Property / Value",
+    "titleEn": "속성 · 값",
+    "field": "웹 개발",
+    "oneLiner": "무엇을 어떻게 바꿀지 정하는 한 쌍이다.",
+    "credibility": "established",
+    "keywords": [
+      "Property / Value",
+      "속성 · 값",
+      "color",
+      "red"
+    ],
+    "related": [
+      "fe-selector",
+      "fe-responsive",
+      "fe-media-query",
+      "fe-flexbox-grid"
+    ],
+    "detail": {
+      "desc": "무엇을 어떻게 바꿀지 정하는 한 쌍이다. color: red에서 color가 속성, red가 값이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='120' y='90' width='140' height='54' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='190' y='124' text-anchor='middle' font-size='16' fill='#222' font-family='monospace'>color</text><text x='300' y='124' text-anchor='middle' font-size='20' fill='#222' font-family='monospace'>:</text><rect x='330' y='90' width='110' height='54' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='385' y='124' text-anchor='middle' font-size='16' fill='#222' font-family='monospace'>red</text><text x='190' y='70' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>무엇을</text><text x='385' y='70' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>어떻게</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>무엇을 어떻게 바꿀지 정하는 속성과 값의 한 쌍</text></svg>"
+    }
+  },
+  {
+    "id": "fe-responsive",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Responsive",
+    "titleEn": "반응형 디자인",
+    "field": "웹 개발",
+    "oneLiner": "화면 크기에 따라 레이아웃이 자동으로 바뀌는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "Responsive",
+      "반응형 디자인",
+      "PC"
+    ],
+    "related": [
+      "fe-property-value",
+      "fe-media-query",
+      "fe-selector",
+      "fe-flexbox-grid"
+    ],
+    "detail": {
+      "desc": "화면 크기에 따라 레이아웃이 자동으로 바뀌는 방식이다. PC에서 가로 3칸이던 게 휴대폰에서 세로 1칸으로 바뀐다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='40' y='60' width='220' height='120' fill='none' stroke='#222' stroke-width='3'/><rect x='55' y='75' width='60' height='90' fill='none' stroke='#222' stroke-width='2'/><rect x='125' y='75' width='60' height='90' fill='none' stroke='#222' stroke-width='2'/><rect x='195' y='75' width='50' height='90' fill='none' stroke='#222' stroke-width='2'/><path d='M 270 120 L 330 120' stroke='#222' stroke-width='3' fill='none' marker-end='url(#a7)'/><rect x='360' y='45' width='90' height='150' fill='none' stroke='#222' stroke-width='3'/><rect x='372' y='58' width='66' height='38' fill='none' stroke='#222' stroke-width='2'/><rect x='372' y='103' width='66' height='38' fill='none' stroke='#222' stroke-width='2'/><rect x='372' y='148' width='66' height='38' fill='none' stroke='#222' stroke-width='2'/><defs><marker id='a7' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>화면 크기에 맞춰 레이아웃이 3칸에서 1칸으로 바뀐다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-media-query",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Media Query",
+    "titleEn": "미디어 쿼리",
+    "field": "웹 개발",
+    "oneLiner": "반응형을 구현하는 CSS 문법이다.",
+    "credibility": "established",
+    "keywords": [
+      "Media Query",
+      "미디어 쿼리",
+      "CSS"
+    ],
+    "related": [
+      "fe-responsive",
+      "fe-flexbox-grid",
+      "fe-property-value",
+      "fe-sass-scss"
+    ],
+    "detail": {
+      "desc": "반응형을 구현하는 CSS 문법이다. 화면이 일정 너비보다 좁으면 이렇게 바꿔라를 지정한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='60' y1='60' x2='500' y2='60' stroke='#222' stroke-width='2'/><line x1='280' y1='50' x2='280' y2='70' stroke='#222' stroke-width='2'/><text x='280' y='42' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>768px 기준</text><path d='M 260 65 L 150 120' stroke='#222' stroke-width='2' fill='none' marker-end='url(#a8)'/><path d='M 300 65 L 410 120' stroke='#222' stroke-width='2' fill='none' marker-end='url(#a8)'/><rect x='100' y='125' width='100' height='70' fill='none' stroke='#222' stroke-width='2.5'/><text x='150' y='210' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>좁으면 이렇게</text><rect x='360' y='125' width='100' height='70' fill='none' stroke='#222' stroke-width='2.5'/><line x1='378' y1='140' x2='442' y2='140' stroke='#222' stroke-width='1.5'/><line x1='378' y1='160' x2='442' y2='160' stroke='#222' stroke-width='1.5'/><text x='410' y='210' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>넓으면 저렇게</text><defs><marker id='a8' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>화면 너비 기준을 두고 그 아래·위로 다르게 바꾸는 CSS 문법</text></svg>"
+    }
+  },
+  {
+    "id": "fe-flexbox-grid",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Flexbox / Grid",
+    "titleEn": "배치",
+    "field": "웹 개발",
+    "oneLiner": "요소를 가로세로로 배치하는 CSS 기능이다.",
+    "credibility": "established",
+    "keywords": [
+      "Flexbox / Grid",
+      "배치",
+      "CSS",
+      "Flexbox",
+      "Grid"
+    ],
+    "related": [
+      "fe-media-query",
+      "fe-sass-scss",
+      "fe-responsive",
+      "fe-tailwind-css"
+    ],
+    "detail": {
+      "desc": "요소를 가로세로로 배치하는 CSS 기능이다. Flexbox는 한 줄 정렬, Grid는 격자 배치에 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='150' y='40' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Flexbox</text><rect x='70' y='55' width='160' height='60' fill='none' stroke='#888' stroke-width='1.5' stroke-dasharray='4 4'/><rect x='78' y='65' width='40' height='40' fill='none' stroke='#222' stroke-width='2'/><rect x='125' y='65' width='40' height='40' fill='none' stroke='#222' stroke-width='2'/><rect x='172' y='65' width='40' height='40' fill='none' stroke='#222' stroke-width='2'/><text x='420' y='40' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Grid</text><rect x='340' y='55' width='160' height='120' fill='none' stroke='#888' stroke-width='1.5' stroke-dasharray='4 4'/><rect x='348' y='63' width='68' height='50' fill='none' stroke='#222' stroke-width='2'/><rect x='424' y='63' width='68' height='50' fill='none' stroke='#222' stroke-width='2'/><rect x='348' y='121' width='68' height='50' fill='none' stroke='#222' stroke-width='2'/><rect x='424' y='121' width='68' height='50' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>Flexbox는 한 줄 정렬, Grid는 격자 배치를 만든다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-sass-scss",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Sass / SCSS",
+    "titleEn": "전처리기",
+    "field": "웹 개발",
+    "oneLiner": "CSS를 더 편하게 쓰게 해주는 확장판이다.",
+    "credibility": "established",
+    "keywords": [
+      "Sass / SCSS",
+      "전처리기",
+      "CSS"
+    ],
+    "related": [
+      "fe-flexbox-grid",
+      "fe-tailwind-css",
+      "fe-media-query",
+      "fe-responsive"
+    ],
+    "detail": {
+      "desc": "CSS를 더 편하게 쓰게 해주는 확장판이다. 변수와 반복을 지원하고, 최종적으로 일반 CSS로 변환된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='170' y='115' font-size='15' fill='#222' font-family='monospace'>.card {</text><text x='185' y='140' font-size='15' fill='#222' font-family='monospace'>&amp;:hover { }</text><text x='170' y='163' font-size='15' fill='#222' font-family='monospace'>}</text><path d='M 260 130 L 320 130' stroke='#222' stroke-width='3' fill='none' marker-end='url(#a9)'/><text x='350' y='118' font-size='14' fill='#222' font-family='monospace'>.card { }</text><text x='350' y='142' font-size='14' fill='#222' font-family='monospace'>.card:hover { }</text><text x='170' y='95' font-size='11' fill='#888' font-family='sans-serif'>SCSS(중첩)</text><text x='350' y='95' font-size='11' fill='#888' font-family='sans-serif'>일반 CSS</text><defs><marker id='a9' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>중첩과 변수를 쓰다가 결국 일반 CSS로 변환된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-tailwind-css",
+    "domain": "frontend",
+    "category": "CSS 용어",
+    "categoryLabel": "CSS 용어",
+    "title": "Tailwind CSS",
+    "titleEn": "유틸리티 CSS",
+    "field": "웹 개발",
+    "oneLiner": "미리 만들어둔 짧은 클래스 이름으로 디자인하는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Tailwind CSS",
+      "유틸리티 CSS",
+      "HTML"
+    ],
+    "related": [
+      "fe-sass-scss",
+      "fe-flexbox-grid",
+      "fe-media-query",
+      "fe-responsive"
+    ],
+    "detail": {
+      "desc": "미리 만들어둔 짧은 클래스 이름으로 디자인하는 도구다. HTML 안에서 바로 디자인을 지정한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='90' y='120' font-size='16' fill='#222' font-family='monospace'>&lt;div class=&quot;</text><rect x='90' y='140' width='58' height='24' rx='4' fill='none' stroke='#222' stroke-width='1.5'/><text x='119' y='157' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>flex</text><rect x='154' y='140' width='66' height='24' rx='4' fill='none' stroke='#222' stroke-width='1.5'/><text x='187' y='157' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>p-4</text><rect x='226' y='140' width='90' height='24' rx='4' fill='none' stroke='#222' stroke-width='1.5'/><text x='271' y='157' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>text-red</text><text x='325' y='120' font-size='16' fill='#222' font-family='monospace'>&quot;&gt;</text><path d='M 119 168 L 119 190 M 187 168 L 187 190 M 271 168 L 271 190' stroke='#888' stroke-width='1' stroke-dasharray='3 3'/><text x='190' y='205' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>짧은 이름마다 미리 정해진 스타일</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>미리 만든 짧은 클래스 이름으로 HTML 안에서 바로 디자인한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-variable",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Variable",
+    "titleEn": "변수",
+    "field": "웹 개발",
+    "oneLiner": "값을 담아두는 이름표다.",
+    "credibility": "established",
+    "keywords": [
+      "Variable",
+      "변수"
+    ],
+    "related": [
+      "fe-function",
+      "fe-object-array",
+      "fe-event",
+      "fe-callback"
+    ],
+    "detail": {
+      "desc": "값을 담아두는 이름표다. 숫자나 글자를 저장해두고 나중에 꺼내 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='210' y='80' width='140' height='80' rx='8' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='128' text-anchor='middle' font-size='24' fill='#222' font-family='monospace'>10</text><path d='M 240 80 L 250 55 L 310 55 L 320 80' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='45' text-anchor='middle' font-size='14' fill='#222' font-family='monospace'>score</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>값을 담아두고 이름으로 꺼내 쓰는 이름표 붙은 상자</text></svg>"
+    }
+  },
+  {
+    "id": "fe-function",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Function",
+    "titleEn": "함수",
+    "field": "웹 개발",
+    "oneLiner": "정해진 동작을 묶어둔 단위다.",
+    "credibility": "established",
+    "keywords": [
+      "Function",
+      "함수"
+    ],
+    "related": [
+      "fe-variable",
+      "fe-object-array",
+      "fe-event",
+      "fe-callback"
+    ],
+    "detail": {
+      "desc": "정해진 동작을 묶어둔 단위다. 한 번 만들어두면 필요할 때마다 호출해서 같은 동작을 실행한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M 80 120 L 190 120' stroke='#222' stroke-width='3' fill='none' marker-end='url(#aa)'/><text x='135' y='105' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>입력</text><rect x='195' y='75' width='170' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='125' text-anchor='middle' font-size='15' fill='#222' font-family='monospace'>function()</text><path d='M 365 120 L 480 120' stroke='#222' stroke-width='3' fill='none' marker-end='url(#aa)'/><text x='420' y='105' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>출력</text><defs><marker id='aa' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>정해진 동작을 묶어 필요할 때마다 호출하는 단위</text></svg>"
+    }
+  },
+  {
+    "id": "fe-object-array",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Object / Array",
+    "titleEn": "객체 · 배열",
+    "field": "웹 개발",
+    "oneLiner": "객체는 이름표가 붙은 값들의 묶음이다.",
+    "credibility": "established",
+    "keywords": [
+      "Object / Array",
+      "객체 · 배열"
+    ],
+    "related": [
+      "fe-function",
+      "fe-event",
+      "fe-variable",
+      "fe-callback"
+    ],
+    "detail": {
+      "desc": "객체는 이름표가 붙은 값들의 묶음이다. 배열은 순서대로 나열된 값들의 목록이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='140' y='45' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Object</text><text x='60' y='125' font-size='30' fill='#222' font-family='monospace'>{</text><text x='90' y='105' font-size='13' fill='#222' font-family='monospace'>name: &quot;a&quot;</text><text x='90' y='130' font-size='13' fill='#222' font-family='monospace'>age: 20</text><text x='225' y='125' font-size='30' fill='#222' font-family='monospace'>}</text><text x='420' y='45' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Array</text><text x='330' y='125' font-size='30' fill='#222' font-family='monospace'>[</text><text x='360' y='105' font-size='13' fill='#222' font-family='monospace'>0: &quot;a&quot;</text><text x='360' y='130' font-size='13' fill='#222' font-family='monospace'>1: &quot;b&quot;</text><text x='465' y='125' font-size='30' fill='#222' font-family='monospace'>]</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>객체는 이름표 붙은 값의 묶음, 배열은 순번대로 늘어선 목록</text></svg>"
+    }
+  },
+  {
+    "id": "fe-event",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Event",
+    "titleEn": "이벤트",
+    "field": "웹 개발",
+    "oneLiner": "사용자의 행동이다.",
+    "credibility": "established",
+    "keywords": [
+      "Event",
+      "이벤트",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-object-array",
+      "fe-callback",
+      "fe-function",
+      "fe-promise"
+    ],
+    "detail": {
+      "desc": "사용자의 행동이다. 클릭, 스크롤, 키 입력이 전부 이벤트다. JavaScript는 이벤트가 일어나면 정해둔 함수를 실행한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='90' width='110' height='50' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='145' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>Button</text><path d='M 175 130 L 200 155 L 190 150 L 190 165 L 178 145 L 175 155 Z' fill='#222'/><path d='M 230 115 L 320 115' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#ab)'/><text x='275' y='100' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>클릭 발생</text><rect x='325' y='90' width='140' height='50' fill='none' stroke='#222' stroke-width='2.5'/><text x='395' y='120' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>onClick()</text><defs><marker id='ab' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>클릭, 스크롤, 입력 같은 사용자의 모든 행동</text></svg>"
+    }
+  },
+  {
+    "id": "fe-callback",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Callback",
+    "titleEn": "콜백",
+    "field": "웹 개발",
+    "oneLiner": "나중에 실행되도록 다른 함수에 넘기는 함수다.",
+    "credibility": "established",
+    "keywords": [
+      "Callback",
+      "콜백"
+    ],
+    "related": [
+      "fe-event",
+      "fe-promise",
+      "fe-object-array",
+      "fe-async-await"
+    ],
+    "detail": {
+      "desc": "나중에 실행되도록 다른 함수에 넘기는 함수다. 어떤 작업이 끝난 뒤 이걸 실행하라는 식으로 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='280' y='35' text-anchor='middle' font-size='13' fill='#222' font-family='monospace'>doTask( callback )</text><rect x='90' y='55' width='380' height='125' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='115' y='80' font-size='12' fill='#888' font-family='sans-serif'>doTask</text><rect x='170' y='90' width='250' height='65' rx='6' fill='none' stroke='#222' stroke-width='2.5'/><text x='295' y='128' text-anchor='middle' font-size='13' fill='#222' font-family='monospace'>function() { }</text><text x='295' y='75' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>나중에 실행될 함수</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>다른 함수 안에 넘겨져 나중에 실행되는 함수</text></svg>"
+    }
+  },
+  {
+    "id": "fe-promise",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Promise",
+    "titleEn": "프로미스",
+    "field": "웹 개발",
+    "oneLiner": "지금 당장 끝나지 않는 작업의 결과를 나중에 받기로 한 약속이다.",
+    "credibility": "established",
+    "keywords": [
+      "Promise",
+      "프로미스"
+    ],
+    "related": [
+      "fe-callback",
+      "fe-async-await",
+      "fe-event",
+      "fe-module-import-export"
+    ],
+    "detail": {
+      "desc": "지금 당장 끝나지 않는 작업의 결과를 나중에 받기로 한 약속이다.",
+      "how": "데이터를 받아오는 작업은 시간이 걸린다. Promise는 작업을 시작하면서 빈 약속표를 먼저 돌려준다. 작업이 끝나면 성공이면 결과를, 실패면 오류를 그 약속표에 채운다. 코드는 결과를 기다리는 동안 멈추지 않고 다른 일을 한다. async/await가 이 Promise를 더 읽기 쉽게 쓰는 문법이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='70' y1='120' x2='490' y2='120' stroke='#222' stroke-width='2'/><circle cx='120' cy='120' r='6' fill='#222'/><text x='120' y='100' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>작업 시작</text><rect x='95' y='135' width='90' height='40' rx='4' fill='none' stroke='#222' stroke-width='2' stroke-dasharray='5 4'/><text x='140' y='160' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>빈 약속표</text><circle cx='430' cy='120' r='6' fill='#222'/><text x='430' y='100' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>작업 완료</text><rect x='385' y='135' width='90' height='40' rx='4' fill='none' stroke='#222' stroke-width='2.5'/><text x='430' y='160' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>결과 채움</text><path d='M 195 155 L 375 155' stroke='#888' stroke-width='1.5' stroke-dasharray='4 4' fill='none' marker-end='url(#ac)'/><defs><marker id='ac' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#888'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>빈 약속표를 먼저 받고, 작업이 끝나면 결과가 채워진다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-async-await",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "async / await",
+    "titleEn": "비동기",
+    "field": "웹 개발",
+    "oneLiner": "오래 걸리는 작업을 기다리는 동안 다른 일을 멈추지 않게 하는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "async / await",
+      "비동기"
+    ],
+    "related": [
+      "fe-promise",
+      "fe-module-import-export",
+      "fe-callback",
+      "fe-es6"
+    ],
+    "detail": {
+      "desc": "오래 걸리는 작업을 기다리는 동안 다른 일을 멈추지 않게 하는 방식이다. 데이터를 받아오는 동안 화면이 멈추지 않게 한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='70' y='70' font-size='11' fill='#888' font-family='sans-serif'>동기</text><line x1='110' y1='66' x2='240' y2='66' stroke='#222' stroke-width='3'/><rect x='240' y='56' width='130' height='20' fill='none' stroke='#222' stroke-width='2' stroke-dasharray='5 4'/><text x='305' y='70' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>기다림(멈춤)</text><line x1='370' y1='66' x2='490' y2='66' stroke='#222' stroke-width='3'/><text x='70' y='145' font-size='11' fill='#888' font-family='sans-serif'>비동기</text><line x1='110' y1='141' x2='490' y2='141' stroke='#222' stroke-width='3'/><path d='M 240 141 Q 260 175 300 175 L 350 175 Q 390 175 410 141' stroke='#222' stroke-width='2' fill='none'/><text x='325' y='195' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>오래 걸리는 작업은 옆길로</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>기다리는 동안 멈추지 않고 본 흐름은 계속 달린다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-module-import-export",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "Module (import/export)",
+    "titleEn": "모듈",
+    "field": "웹 개발",
+    "oneLiner": "코드를 파일 단위로 나누고, 필요한 것만 가져다 쓰는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "Module (import/export)",
+      "모듈",
+      "export",
+      "import"
+    ],
+    "related": [
+      "fe-async-await",
+      "fe-es6",
+      "fe-promise",
+      "fe-api"
+    ],
+    "detail": {
+      "desc": "코드를 파일 단위로 나누고, 필요한 것만 가져다 쓰는 방식이다. export로 내보내고 import로 가져온다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='65' width='150' height='110' fill='none' stroke='#222' stroke-width='3'/><text x='155' y='55' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>a.js</text><rect x='100' y='85' width='110' height='28' fill='#222'/><rect x='100' y='125' width='110' height='28' fill='none' stroke='#222' stroke-width='2'/><path d='M 235 99 L 320 99' stroke='#222' stroke-width='3' fill='none' marker-end='url(#ad)'/><text x='277' y='88' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>export → import</text><rect x='325' y='65' width='150' height='110' fill='none' stroke='#222' stroke-width='3'/><text x='400' y='55' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>b.js</text><rect x='345' y='85' width='110' height='28' fill='#222'/><defs><marker id='ad' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>파일 단위로 나눠 두고 필요한 조각만 가져다 쓴다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-es6",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "ES6+",
+    "titleEn": "최신 문법",
+    "field": "웹 개발",
+    "oneLiner": "2015년 이후 추가된 현대 JavaScript 문법 묶음이다.",
+    "credibility": "established",
+    "keywords": [
+      "ES6+",
+      "최신 문법",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-module-import-export",
+      "fe-api",
+      "fe-async-await",
+      "fe-json"
+    ],
+    "detail": {
+      "desc": "2015년 이후 추가된 현대 JavaScript 문법 묶음이다. 화살표 함수, 구조 분해 같은 편의 문법이 여기 속한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='60' y1='150' x2='500' y2='150' stroke='#222' stroke-width='2'/><line x1='230' y1='140' x2='230' y2='160' stroke='#222' stroke-width='3'/><text x='230' y='180' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>2015 (ES6)</text><text x='140' y='125' text-anchor='middle' font-size='12' fill='#888' font-family='monospace'>var, function</text><rect x='255' y='55' width='120' height='26' rx='4' fill='none' stroke='#222' stroke-width='2'/><text x='315' y='73' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>() =&gt; {}</text><rect x='255' y='89' width='120' height='26' rx='4' fill='none' stroke='#222' stroke-width='2'/><text x='315' y='107' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>let, const</text><rect x='385' y='55' width='110' height='26' rx='4' fill='none' stroke='#222' stroke-width='2'/><text x='440' y='73' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>{a, b} = obj</text><rect x='385' y='89' width='110' height='26' rx='4' fill='none' stroke='#222' stroke-width='2'/><text x='440' y='107' text-anchor='middle' font-size='11' fill='#222' font-family='monospace'>import</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>2015년 이후 쏟아진 현대 JavaScript 문법 묶음</text></svg>"
+    }
+  },
+  {
+    "id": "fe-api",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "API",
+    "titleEn": "Application Programming Interface",
+    "field": "웹 개발",
+    "oneLiner": "프로그램끼리 정보를 주고받는 약속이다.",
+    "credibility": "established",
+    "keywords": [
+      "API",
+      "Application Programming Interface"
+    ],
+    "related": [
+      "fe-es6",
+      "fe-json",
+      "fe-module-import-export",
+      "fe-async-await"
+    ],
+    "detail": {
+      "desc": "프로그램끼리 정보를 주고받는 약속이다. 날씨 API를 호출하면 현재 날씨 데이터를 받아온다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='70' y='80' width='130' height='80' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='135' y='125' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>내 프로그램</text><rect x='360' y='80' width='130' height='80' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='425' y='125' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>날씨 서비스</text><rect x='245' y='95' width='70' height='50' fill='none' stroke='#222' stroke-width='2.5'/><text x='280' y='125' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>API</text><path d='M 205 105 L 240 105' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#ae)'/><path d='M 320 105 L 355 105' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#ae)'/><path d='M 355 135 L 320 135' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#ae)'/><path d='M 240 135 L 205 135' stroke='#222' stroke-width='2.5' fill='none' marker-end='url(#ae)'/><text x='280' y='75' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>정해진 창구</text><defs><marker id='ae' markerWidth='8' markerHeight='8' refX='6' refY='3' orient='auto'><path d='M0,0 L6,3 L0,6 Z' fill='#222'/></marker></defs><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>프로그램끼리 정해진 창구로 요청하고 응답받는 약속</text></svg>"
+    }
+  },
+  {
+    "id": "fe-json",
+    "domain": "frontend",
+    "category": "JavaScript 용어",
+    "categoryLabel": "JavaScript 용어",
+    "title": "JSON",
+    "titleEn": "데이터 형식",
+    "field": "웹 개발",
+    "oneLiner": "데이터를 정리해 담는 글자 형식이다.",
+    "credibility": "established",
+    "keywords": [
+      "JSON",
+      "데이터 형식"
+    ],
+    "related": [
+      "fe-api",
+      "fe-es6",
+      "fe-module-import-export",
+      "fe-async-await"
+    ],
+    "detail": {
+      "desc": "데이터를 정리해 담는 글자 형식이다. 이름·값 쌍으로 되어 있어 사람과 프로그램 모두 읽기 쉽다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='165' y='85' font-size='34' fill='#222' font-family='monospace'>{</text><text x='200' y='90' font-size='14' fill='#222' font-family='monospace'>&quot;name&quot;: &quot;kim&quot;,</text><text x='200' y='118' font-size='14' fill='#222' font-family='monospace'>&quot;age&quot;: 20,</text><text x='200' y='146' font-size='14' fill='#222' font-family='monospace'>&quot;tags&quot;: [&quot;a&quot;,&quot;b&quot;]</text><text x='165' y='185' font-size='34' fill='#222' font-family='monospace'>}</text><text x='430' y='90' font-size='11' fill='#888' font-family='sans-serif'>이름 : 값</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>이름·값 쌍으로 데이터를 담는 글자 형식</text></svg>"
+    }
+  },
+  {
+    "id": "fe-library",
+    "domain": "frontend",
+    "category": "라이브러리와 프레임워크",
+    "categoryLabel": "라이브러리와 프레임워크",
+    "title": "Library",
+    "titleEn": "라이브러리",
+    "field": "웹 개발",
+    "oneLiner": "자주 쓰는 기능을 미리 만들어둔 도구 모음이다.",
+    "credibility": "established",
+    "keywords": [
+      "Library",
+      "라이브러리"
+    ],
+    "related": [
+      "fe-framework",
+      "fe-meta-framework",
+      "fe-vanilla"
+    ],
+    "detail": {
+      "desc": "자주 쓰는 기능을 미리 만들어둔 도구 모음이다. 필요한 기능만 골라 부른다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='110' y='36' width='340' height='58' fill='none' stroke='#222' stroke-width='3'/><circle cx='150' cy='65' r='13' fill='none' stroke='#222' stroke-width='3'/><rect x='200' y='52' width='26' height='26' fill='none' stroke='#222' stroke-width='3'/><polygon points='300,52 318,78 282,78' fill='none' stroke='#222' stroke-width='3'/><rect x='350' y='52' width='26' height='26' fill='#222'/><line x1='213' y1='94' x2='213' y2='140' stroke='#222' stroke-width='3'/><path d='M213,150 l-8,-14 l16,0 z' fill='#222'/><rect x='140' y='150' width='260' height='50' fill='none' stroke='#222' stroke-width='2.5'/><text x='170' y='182' font-size='20' fill='#222' font-family='monospace'>{ }</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>도구 모음에서 필요한 기능만 골라 코드에 가져다 쓴다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-framework",
+    "domain": "frontend",
+    "category": "라이브러리와 프레임워크",
+    "categoryLabel": "라이브러리와 프레임워크",
+    "title": "Framework",
+    "titleEn": "프레임워크",
+    "field": "웹 개발",
+    "oneLiner": "전체 뼈대와 규칙까지 정해주는 큰 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Framework",
+      "프레임워크"
+    ],
+    "related": [
+      "fe-library",
+      "fe-meta-framework",
+      "fe-vanilla"
+    ],
+    "detail": {
+      "desc": "전체 뼈대와 규칙까지 정해주는 큰 도구다. 차이는 내가 도구를 부른다(라이브러리) 대 도구의 규칙 안에서 내가 짠다(프레임워크)이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='140' y='30' width='280' height='170' fill='none' stroke='#222' stroke-width='4'/><line x1='140' y1='75' x2='420' y2='75' stroke='#222' stroke-width='3'/><line x1='280' y1='75' x2='280' y2='200' stroke='#222' stroke-width='3'/><rect x='155' y='45' width='110' height='20' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><rect x='295' y='45' width='110' height='20' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><rect x='155' y='95' width='110' height='90' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><rect x='295' y='95' width='110' height='90' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><text x='210' y='145' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>내 코드</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>뼈대는 이미 정해져 있고, 정해진 칸 안에 코드를 채운다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-meta-framework",
+    "domain": "frontend",
+    "category": "라이브러리와 프레임워크",
+    "categoryLabel": "라이브러리와 프레임워크",
+    "title": "Meta-framework",
+    "titleEn": "메타 프레임워크",
+    "field": "웹 개발",
+    "oneLiner": "프레임워크나 라이브러리 위에 라우팅·렌더링·빌드 기능을 더 얹은 상위 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Meta-framework",
+      "메타 프레임워크",
+      "Next.js",
+      "React"
+    ],
+    "related": [
+      "fe-framework",
+      "fe-vanilla",
+      "fe-library"
+    ],
+    "detail": {
+      "desc": "프레임워크나 라이브러리 위에 라우팅·렌더링·빌드 기능을 더 얹은 상위 도구다. Next.js가 React의 메타 프레임워크다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='170' y='60' width='220' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='112' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>React</text><rect x='120' y='30' width='320' height='150' fill='none' stroke='#222' stroke-width='3' stroke-dasharray='6 4'/><text x='280' y='45' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>라우팅 · 렌더링 · 빌드</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>기존 도구를 감싸 라우팅·렌더링 기능을 더한 상위 도구다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-vanilla",
+    "domain": "frontend",
+    "category": "라이브러리와 프레임워크",
+    "categoryLabel": "라이브러리와 프레임워크",
+    "title": "Vanilla",
+    "titleEn": "바닐라",
+    "field": "웹 개발",
+    "oneLiner": "프레임워크 없이 순수 HTML·CSS·JavaScript만 쓴 상태다.",
+    "credibility": "established",
+    "keywords": [
+      "Vanilla",
+      "바닐라",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-meta-framework",
+      "fe-framework",
+      "fe-library"
+    ],
+    "detail": {
+      "desc": "프레임워크 없이 순수 HTML·CSS·JavaScript만 쓴 상태다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='200' y='50' width='160' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='76' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>HTML</text><rect x='200' y='100' width='160' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='126' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>CSS</text><rect x='200' y='150' width='160' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='176' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>JavaScript</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>더 감싸는 도구 없이 세 언어만 그대로 쌓아 쓴다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-react",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "React",
+    "titleEn": "역할",
+    "field": "웹 개발",
+    "oneLiner": "화면(UI)을 만드는 JavaScript 라이브러리다.",
+    "credibility": "established",
+    "keywords": [
+      "React",
+      "역할",
+      "UI",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-component",
+      "fe-jsx",
+      "fe-state",
+      "fe-props"
+    ],
+    "detail": {
+      "desc": "화면(UI)을 만드는 JavaScript 라이브러리다. 화면을 컴포넌트라는 조각으로 나누고, 각 조각이 현재 상태에 따라 무엇을 보여줄지 정의한다.",
+      "how": "당신은 이 상태일 때 화면은 이렇게 생겼다만 적는다(선언형). 상태가 바뀌면 React가 화면을 새로 계산하고, 이전과 달라진 부분만 골라 실제 화면에 반영한다. 직접 요소를 찾아 글자를 바꾸는 코드를 쓰지 않아도 된다. 이 자동 갱신과 조각 단위 재사용이 React의 핵심 역할이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='90' width='90' height='40' fill='#222'/><text x='105' y='115' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>상태</text><line x1='150' y1='110' x2='230' y2='110' stroke='#222' stroke-width='3'/><path d='M240,110 l-14,-8 l0,16 z' fill='#222'/><circle cx='320' cy='70' r='18' fill='none' stroke='#222' stroke-width='3'/><circle cx='280' cy='150' r='18' fill='none' stroke='#222' stroke-width='3'/><circle cx='360' cy='150' r='18' fill='none' stroke='#222' stroke-width='3'/><line x1='320' y1='88' x2='280' y2='132' stroke='#222' stroke-width='2'/><line x1='320' y1='88' x2='360' y2='132' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>상태에 따라 컴포넌트 나무 전체 화면을 계산해 그린다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-component",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Component",
+    "titleEn": "컴포넌트",
+    "field": "웹 개발",
+    "oneLiner": "화면을 이루는 재사용 가능한 조각이다.",
+    "credibility": "established",
+    "keywords": [
+      "Component",
+      "컴포넌트",
+      "React"
+    ],
+    "related": [
+      "fe-react",
+      "fe-jsx",
+      "fe-state",
+      "fe-props"
+    ],
+    "detail": {
+      "desc": "화면을 이루는 재사용 가능한 조각이다. 버튼 하나, 카드 하나를 컴포넌트로 만들어 여러 곳에 다시 쓴다. React의 가장 작은 단위다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='40' width='90' height='36' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='105' y='63' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>버튼</text><rect x='230' y='100' width='90' height='36' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='275' y='123' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>버튼</text><rect x='120' y='160' width='90' height='36' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='165' y='183' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>버튼</text><rect x='380' y='60' width='90' height='36' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='425' y='83' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>버튼</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 조각 하나를 여러 자리에 그대로 재사용한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-jsx",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "JSX",
+    "titleEn": "문법",
+    "field": "웹 개발",
+    "oneLiner": "HTML처럼 생긴 코드를 JavaScript 안에 쓰는 문법이다.",
+    "credibility": "established",
+    "keywords": [
+      "JSX",
+      "문법",
+      "HTML",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-component",
+      "fe-state",
+      "fe-react",
+      "fe-props"
+    ],
+    "detail": {
+      "desc": "HTML처럼 생긴 코드를 JavaScript 안에 쓰는 문법이다. 화면 구조와 동작을 한 파일에 같이 적는다. 빌드 과정에서 일반 JavaScript로 변환된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='40' width='380' height='150' fill='none' stroke='#222' stroke-width='3'/><text x='115' y='70' font-size='16' fill='#222' font-family='monospace'>function App() {</text><text x='140' y='105' font-size='16' fill='#222' font-family='monospace'>return (</text><rect x='160' y='118' width='230' height='40' fill='none' stroke='#222' stroke-width='2.5' stroke-dasharray='5 3'/><text x='170' y='143' font-size='15' fill='#222' font-family='monospace'>&lt;div&gt;안녕&lt;/div&gt;</text><text x='140' y='178' font-size='16' fill='#222' font-family='monospace'>) }</text><text x='400' y='138' font-size='11' fill='#888' font-family='sans-serif'>HTML처럼</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>JavaScript 함수 안에 HTML처럼 생긴 태그를 그대로 쓴다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-state",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "State",
+    "titleEn": "상태",
+    "field": "웹 개발",
+    "oneLiner": "컴포넌트가 기억하는 현재 값이다.",
+    "credibility": "established",
+    "keywords": [
+      "State",
+      "상태",
+      "state"
+    ],
+    "related": [
+      "fe-jsx",
+      "fe-props",
+      "fe-component",
+      "fe-one-way-data-flow"
+    ],
+    "detail": {
+      "desc": "컴포넌트가 기억하는 현재 값이다. 메뉴 열림/닫힘처럼 변하는 정보가 state다.",
+      "how": "state가 바뀌면 React는 그 컴포넌트를 다시 그려야 한다고 표시한다. 그 결과 화면이 새 값으로 자동 갱신된다. state를 직접 바꾸지 않고 정해진 함수로만 바꾸는 이유가 여기 있다. 그래야 React가 변경을 감지한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='50' width='90' height='44' fill='none' stroke='#222' stroke-width='3'/><text x='125' y='78' text-anchor='middle' font-size='16' fill='#222' font-family='monospace'>0</text><line x1='170' y1='72' x2='230' y2='72' stroke='#222' stroke-width='3'/><path d='M240,72 l-14,-8 l0,16 z' fill='#222'/><rect x='250' y='40' width='140' height='64' fill='none' stroke='#222' stroke-width='3'/><circle cx='320' cy='72' r='16' fill='none' stroke='#222' stroke-width='3'/><rect x='80' y='140' width='90' height='44' fill='#222'/><text x='125' y='168' text-anchor='middle' font-size='16' fill='#f4f4f1' font-family='monospace'>1</text><line x1='170' y1='162' x2='230' y2='162' stroke='#222' stroke-width='3'/><path d='M240,162 l-14,-8 l0,16 z' fill='#222'/><rect x='250' y='130' width='140' height='64' fill='none' stroke='#222' stroke-width='3'/><circle cx='320' cy='162' r='16' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>값이 바뀌면 화면도 그만큼 바뀐다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-props",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Props",
+    "titleEn": "전달 값",
+    "field": "웹 개발",
+    "oneLiner": "부모 컴포넌트가 자식 컴포넌트에 넘겨주는 값이다.",
+    "credibility": "established",
+    "keywords": [
+      "Props",
+      "전달 값",
+      "props"
+    ],
+    "related": [
+      "fe-state",
+      "fe-one-way-data-flow",
+      "fe-jsx",
+      "fe-virtual-dom"
+    ],
+    "detail": {
+      "desc": "부모 컴포넌트가 자식 컴포넌트에 넘겨주는 값이다. 같은 버튼 컴포넌트에 글자만 다르게 넘길 때 props를 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='220' y='36' width='120' height='50' fill='#222'/><text x='280' y='67' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>부모</text><line x1='260' y1='86' x2='170' y2='140' stroke='#222' stroke-width='3'/><path d='M160,150 l14,-4 l-8,-12 z' fill='#222'/><line x1='300' y1='86' x2='390' y2='140' stroke='#222' stroke-width='3'/><path d='M400,150 l-16,4 l4,-14 z' fill='#222'/><rect x='90' y='150' width='120' height='46' fill='none' stroke='#222' stroke-width='3'/><text x='150' y='178' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>자식</text><rect x='350' y='150' width='120' height='46' fill='none' stroke='#222' stroke-width='3'/><text x='410' y='178' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>자식</text><text x='280' y='115' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>props</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>부모가 자식에게 값을 위에서 아래로 내려준다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-one-way-data-flow",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "One-way Data Flow",
+    "titleEn": "단방향 데이터 흐름",
+    "field": "웹 개발",
+    "oneLiner": "데이터는 부모에서 자식으로 한 방향으로만 흐른다.",
+    "credibility": "established",
+    "keywords": [
+      "One-way Data Flow",
+      "단방향 데이터 흐름"
+    ],
+    "related": [
+      "fe-props",
+      "fe-virtual-dom",
+      "fe-state",
+      "fe-reconciliation"
+    ],
+    "detail": {
+      "desc": "데이터는 부모에서 자식으로 한 방향으로만 흐른다.",
+      "how": "자식이 부모 데이터를 멋대로 바꾸지 못한다. 값은 위에서 아래로만 내려가고, 자식이 무언가 바꿔야 하면 부모가 준 함수를 호출해 부모에게 요청한다. 흐름이 한 방향이라 문제가 생겼을 때 어디서 값이 바뀌었는지 추적하기 쉽다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='220' y='30' width='120' height='46' fill='#222'/><text x='280' y='58' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>부모</text><rect x='220' y='164' width='120' height='46' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='192' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>자식</text><line x1='250' y1='76' x2='250' y2='158' stroke='#222' stroke-width='3'/><path d='M250,164 l-8,-14 l16,0 z' fill='#222'/><text x='210' y='120' text-anchor='end' font-size='11' fill='#888' font-family='sans-serif'>값 전달</text><line x1='320' y1='158' x2='320' y2='76' stroke='#222' stroke-width='2.5' stroke-dasharray='5 4'/><path d='M320,70 l-8,14 l16,0 z' fill='#222'/><text x='330' y='120' font-size='11' fill='#888' font-family='sans-serif'>변경 요청</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>값은 위에서 아래로만, 변경은 요청으로만 거슬러 올라간다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-virtual-dom",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Virtual DOM",
+    "titleEn": "가상 DOM",
+    "field": "웹 개발",
+    "oneLiner": "React가 메모리에 두는 화면 구조의 가벼운 복사본이다.",
+    "credibility": "established",
+    "keywords": [
+      "Virtual DOM",
+      "가상 DOM",
+      "React"
+    ],
+    "related": [
+      "fe-one-way-data-flow",
+      "fe-reconciliation",
+      "fe-props",
+      "fe-re-render"
+    ],
+    "detail": {
+      "desc": "React가 메모리에 두는 화면 구조의 가벼운 복사본이다.",
+      "how": "실제 DOM을 직접 바꾸는 건 느리다. React는 상태가 바뀌면 먼저 메모리에 새 가상 복사본을 만들고, 이전 복사본과 비교해 실제로 달라진 부분만 추려낸다. 그 최소한의 변경만 실제 화면에 적용한다. 전체를 다시 그리지 않아 빠르다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='150' y='40' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>이전</text><circle cx='150' cy='70' r='16' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='150' cy='130' r='16' fill='none' stroke='#222' stroke-width='2.5'/><line x1='150' y1='86' x2='150' y2='114' stroke='#222' stroke-width='2'/><text x='410' y='40' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>새 상태</text><circle cx='410' cy='70' r='16' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='410' cy='130' r='16' fill='#222'/><line x1='410' y1='86' x2='410' y2='114' stroke='#222' stroke-width='2'/><line x1='200' y1='100' x2='340' y2='100' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>두 나무를 비교해 달라진 노드 하나만 찾아낸다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-reconciliation",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Reconciliation",
+    "titleEn": "재조정",
+    "field": "웹 개발",
+    "oneLiner": "새 가상 DOM과 이전 가상 DOM을 비교해 무엇이 바뀌었는지 찾아내는 과정이다.",
+    "credibility": "established",
+    "keywords": [
+      "Reconciliation",
+      "재조정",
+      "DOM"
+    ],
+    "related": [
+      "fe-virtual-dom",
+      "fe-re-render",
+      "fe-one-way-data-flow",
+      "fe-hook"
+    ],
+    "detail": {
+      "desc": "새 가상 DOM과 이전 가상 DOM을 비교해 무엇이 바뀌었는지 찾아내는 과정이다. 가상 DOM이 빠른 이유의 핵심이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='60' r='16' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='220' cy='120' r='16' fill='none' stroke='#222' stroke-width='2.5'/><circle cx='340' cy='120' r='16' fill='none' stroke='#222' stroke-width='2.5'/><line x1='280' y1='76' x2='220' y2='104' stroke='#222' stroke-width='2'/><line x1='280' y1='76' x2='340' y2='104' stroke='#222' stroke-width='2'/><text x='280' y='65' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>✓</text><text x='220' y='125' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>✓</text><circle cx='340' cy='120' r='22' fill='none' stroke='#222' stroke-width='3'/><text x='340' y='170' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>여기만 다름</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>같은 자리를 하나씩 대조해 바뀐 노드만 표시한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-re-render",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Re-render",
+    "titleEn": "리렌더링",
+    "field": "웹 개발",
+    "oneLiner": "상태나 props가 바뀌어 컴포넌트가 화면을 다시 계산하는 일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Re-render",
+      "리렌더링",
+      "props"
+    ],
+    "related": [
+      "fe-reconciliation",
+      "fe-hook",
+      "fe-virtual-dom",
+      "fe-usestate"
+    ],
+    "detail": {
+      "desc": "상태나 props가 바뀌어 컴포넌트가 화면을 다시 계산하는 일이다. 자주 일어나면 느려질 수 있어 최적화 대상이 된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='120' y='70' width='120' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='180' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>A</text><path d='M290,70 a40,40 0 1,1 -8,60' fill='none' stroke='#222' stroke-width='3'/><path d='M282,130 l-4,18 l18,-6 z' fill='#222'/><rect x='320' y='70' width='120' height='90' fill='#222'/><text x='380' y='120' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>A'</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>상태가 바뀌면 컴포넌트가 화면을 다시 계산해 그린다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-hook",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Hook",
+    "titleEn": "훅",
+    "field": "웹 개발",
+    "oneLiner": "함수형 컴포넌트에서 React 기능을 쓰게 해주는 함수다.",
+    "credibility": "established",
+    "keywords": [
+      "Hook",
+      "훅",
+      "React",
+      "use"
+    ],
+    "related": [
+      "fe-re-render",
+      "fe-usestate",
+      "fe-reconciliation",
+      "fe-useeffect"
+    ],
+    "detail": {
+      "desc": "함수형 컴포넌트에서 React 기능을 쓰게 해주는 함수다. 이름이 use로 시작한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='190' y='60' width='180' height='100' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='95' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>함수 컴포넌트</text><path d='M280,110 v30 q0,20 20,20 q20,0 20,-20' fill='none' stroke='#222' stroke-width='4'/><circle cx='320' cy='140' r='7' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='200' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>use...()</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>함수 컴포넌트에 훅을 걸어 React 기능을 끌어온다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-usestate",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "useState",
+    "titleEn": "상태 훅",
+    "field": "웹 개발",
+    "oneLiner": "컴포넌트에 기억(상태)을 부여하는 훅이다.",
+    "credibility": "established",
+    "keywords": [
+      "useState",
+      "상태 훅"
+    ],
+    "related": [
+      "fe-hook",
+      "fe-useeffect",
+      "fe-re-render",
+      "fe-declarative-imperative"
+    ],
+    "detail": {
+      "desc": "컴포넌트에 기억(상태)을 부여하는 훅이다. 현재 값과 그 값을 바꾸는 함수를 함께 돌려준다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='210' y='40' width='140' height='44' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='68' text-anchor='middle' font-size='14' fill='#222' font-family='monospace'>useState()</text><line x1='250' y1='84' x2='200' y2='140' stroke='#222' stroke-width='3'/><path d='M192,150 l14,-4 l-8,-12 z' fill='#222'/><line x1='320' y1='84' x2='370' y2='140' stroke='#222' stroke-width='3'/><path d='M378,150 l-16,4 l4,-14 z' fill='#222'/><rect x='130' y='150' width='120' height='44' fill='none' stroke='#222' stroke-width='2.5'/><text x='190' y='177' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>현재 값</text><rect x='310' y='150' width='120' height='44' fill='none' stroke='#222' stroke-width='2.5'/><text x='370' y='177' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>바꾸는 함수</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>컴포넌트에 기억할 값과 그 값을 바꾸는 함수를 함께 준다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-useeffect",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "useEffect",
+    "titleEn": "효과 훅",
+    "field": "웹 개발",
+    "oneLiner": "화면이 그려진 뒤 실행할 작업을 지정하는 훅이다.",
+    "credibility": "established",
+    "keywords": [
+      "useEffect",
+      "효과 훅"
+    ],
+    "related": [
+      "fe-usestate",
+      "fe-declarative-imperative",
+      "fe-hook",
+      "fe-re-render"
+    ],
+    "detail": {
+      "desc": "화면이 그려진 뒤 실행할 작업을 지정하는 훅이다. 데이터 불러오기, 외부 연결, 정리 작업에 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='90' width='130' height='50' fill='none' stroke='#222' stroke-width='3'/><text x='145' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>화면 그림</text><line x1='210' y1='115' x2='270' y2='115' stroke='#222' stroke-width='3'/><path d='M280,115 l-14,-8 l0,16 z' fill='#222'/><rect x='300' y='90' width='170' height='50' fill='none' stroke='#222' stroke-width='3' stroke-dasharray='5 3'/><text x='385' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>데이터 불러오기</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>화면이 그려진 다음에 정해둔 부수 작업을 실행한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-declarative-imperative",
+    "domain": "frontend",
+    "category": "React",
+    "categoryLabel": "React",
+    "title": "Declarative / Imperative",
+    "titleEn": "선언형 · 명령형",
+    "field": "웹 개발",
+    "oneLiner": "명령형은 단계별 지시를 적는 방식이다(이 요소를 찾아 글자를 바꿔라). 선언형은 결과만 적고 과정은 도구에 맡기는 방식이다(이 상태면 화면은 이렇다). React는 선언형이다.",
+    "credibility": "established",
+    "keywords": [
+      "Declarative / Imperative",
+      "선언형 · 명령형",
+      "React"
+    ],
+    "related": [
+      "fe-useeffect",
+      "fe-usestate",
+      "fe-hook",
+      "fe-re-render"
+    ],
+    "detail": {
+      "desc": "명령형은 단계별 지시를 적는 방식이다(이 요소를 찾아 글자를 바꿔라). 선언형은 결과만 적고 과정은 도구에 맡기는 방식이다(이 상태면 화면은 이렇다). React는 선언형이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='130' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>명령형</text><rect x='60' y='60' width='140' height='90' fill='none' stroke='#222' stroke-width='2.5'/><text x='130' y='90' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>1.찾기</text><text x='130' y='115' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>2.바꾸기</text><text x='130' y='140' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>3.그리기</text><line x1='260' y1='100' x2='320' y2='100' stroke='#888' stroke-width='2' stroke-dasharray='4 3'/><text x='420' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>선언형</text><rect x='350' y='75' width='140' height='60' fill='#222'/><text x='420' y='110' text-anchor='middle' font-size='12' fill='#f4f4f1' font-family='sans-serif'>이 상태=이 화면</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>단계 대신 결과만 적으면 과정은 알아서 된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-next-js",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "Next.js",
+    "titleEn": "React 프레임워크",
+    "field": "웹 개발",
+    "oneLiner": "React 위에 라우팅, 서버 렌더링, 빌드 최적화, 폴더 구조를 더한 메타 프레임워크다.",
+    "credibility": "established",
+    "keywords": [
+      "Next.js",
+      "React 프레임워크",
+      "React"
+    ],
+    "related": [
+      "fe-csr",
+      "fe-ssr",
+      "fe-ssg",
+      "fe-isr"
+    ],
+    "detail": {
+      "desc": "React 위에 라우팅, 서버 렌더링, 빌드 최적화, 폴더 구조를 더한 메타 프레임워크다. 화면은 React로 만들고, 그 화면을 언제 어떻게 그려서 보낼지는 Next.js가 정한다.",
+      "how": "순수 React는 보통 브라우저에서 화면을 그린다(아래 CSR). Next.js는 페이지별로 서버에서 미리 그릴지, 빌드 때 미리 만들어둘지, 브라우저에서 그릴지를 고를 수 있게 해준다. 그래서 첫 화면이 빠르고 검색엔진에 잘 잡힌다. 주소와 페이지를 폴더 구조로 자동 연결해 라우팅도 직접 안 짜도 된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='110' y='30' width='340' height='160' fill='none' stroke='#222' stroke-width='3' stroke-dasharray='6 4'/><text x='280' y='50' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>Next.js</text><rect x='180' y='70' width='200' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='120' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>React</text><text x='150' y='170' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>라우팅</text><text x='280' y='185' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>서버 렌더링</text><text x='410' y='170' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>빌드 최적화</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>React를 감싸 라우팅·렌더링·빌드까지 대신 정해준다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-csr",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "CSR",
+    "titleEn": "클라이언트 렌더링",
+    "field": "웹 개발",
+    "oneLiner": "브라우저가 거의 빈 HTML과 JavaScript 묶음을 받아, 화면을 브라우저에서 직접 그리는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "CSR",
+      "클라이언트 렌더링",
+      "HTML",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-next-js",
+      "fe-ssr",
+      "fe-ssg",
+      "fe-isr"
+    ],
+    "detail": {
+      "desc": "브라우저가 거의 빈 HTML과 JavaScript 묶음을 받아, 화면을 브라우저에서 직접 그리는 방식이다.",
+      "how": "서버는 내용이 거의 없는 껍데기 HTML과 큰 JavaScript 파일을 보낸다. 브라우저가 그 JavaScript를 실행해야 비로소 화면이 채워진다. 첫 화면이 늦게 뜨고 검색엔진이 내용을 못 읽을 수 있다. 순수 React 기본 방식이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='150' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>서버</text><rect x='90' y='50' width='120' height='60' fill='none' stroke='#222' stroke-width='2.5'/><text x='150' y='85' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>빈 HTML+JS</text><line x1='210' y1='80' x2='320' y2='80' stroke='#222' stroke-width='3'/><path d='M330,80 l-14,-8 l0,16 z' fill='#222'/><text x='420' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>브라우저</text><rect x='340' y='50' width='160' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='355' y='150' width='130' height='30' fill='#222'/><text x='420' y='170' text-anchor='middle' font-size='11' fill='#f4f4f1' font-family='sans-serif'>여기서 그림</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>서버는 껍데기만 보내고, 화면은 브라우저가 직접 채운다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-ssr",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "SSR",
+    "titleEn": "서버 렌더링",
+    "field": "웹 개발",
+    "oneLiner": "서버가 요청마다 완성된 HTML을 만들어 보내는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "SSR",
+      "서버 렌더링",
+      "HTML"
+    ],
+    "related": [
+      "fe-csr",
+      "fe-ssg",
+      "fe-next-js",
+      "fe-isr"
+    ],
+    "detail": {
+      "desc": "서버가 요청마다 완성된 HTML을 만들어 보내는 방식이다. 브라우저는 내용을 바로 본다.",
+      "how": "서버가 React를 돌려 완성된 HTML을 만들어 보낸다. 사용자는 내용을 즉시 본다. 그 뒤 JavaScript가 도착해 버튼·동작을 붙인다(하이드레이션). 첫 화면이 빠르고 검색에 유리하지만 서버 부담이 크다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='150' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>서버</text><rect x='90' y='50' width='120' height='140' fill='none' stroke='#222' stroke-width='3'/><rect x='105' y='150' width='90' height='30' fill='#222'/><text x='150' y='170' text-anchor='middle' font-size='11' fill='#f4f4f1' font-family='sans-serif'>여기서 그림</text><line x1='210' y1='110' x2='320' y2='110' stroke='#222' stroke-width='3'/><path d='M330,110 l-14,-8 l0,16 z' fill='#222'/><text x='420' y='34' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>브라우저</text><rect x='340' y='50' width='160' height='60' fill='none' stroke='#222' stroke-width='2.5'/><text x='420' y='85' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>완성된 HTML</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>서버가 완성된 화면을 그려 보내, 브라우저는 바로 보여준다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-ssg",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "SSG",
+    "titleEn": "정적 생성",
+    "field": "웹 개발",
+    "oneLiner": "빌드할 때 페이지를 미리 HTML 파일로 만들어두는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "SSG",
+      "정적 생성",
+      "HTML"
+    ],
+    "related": [
+      "fe-ssr",
+      "fe-isr",
+      "fe-csr",
+      "fe-hydration"
+    ],
+    "detail": {
+      "desc": "빌드할 때 페이지를 미리 HTML 파일로 만들어두는 방식이다. 가장 빠르고, 자주 안 바뀌는 내용에 좋다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='80' width='110' height='50' fill='none' stroke='#222' stroke-width='3'/><text x='115' y='110' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>빌드 시점</text><line x1='170' y1='105' x2='230' y2='105' stroke='#222' stroke-width='3'/><path d='M240,105 l-14,-8 l0,16 z' fill='#222'/><rect x='260' y='60' width='70' height='90' fill='none' stroke='#222' stroke-width='2.5'/><rect x='340' y='60' width='70' height='90' fill='none' stroke='#222' stroke-width='2.5'/><rect x='420' y='60' width='70' height='90' fill='none' stroke='#222' stroke-width='2.5'/><text x='295' y='110' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>HTML</text><text x='375' y='110' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>HTML</text><text x='455' y='110' text-anchor='middle' font-size='10' fill='#888' font-family='sans-serif'>HTML</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>요청이 오기 전, 빌드할 때 페이지를 미리 파일로 만든다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-isr",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "ISR",
+    "titleEn": "증분 정적 재생성",
+    "field": "웹 개발",
+    "oneLiner": "정적으로 만들어둔 페이지를 정해진 주기로 뒤에서 다시 생성하는 Next.js 기능이다.",
+    "credibility": "established",
+    "keywords": [
+      "ISR",
+      "증분 정적 재생성",
+      "Next.js"
+    ],
+    "related": [
+      "fe-ssg",
+      "fe-hydration",
+      "fe-ssr",
+      "fe-spa"
+    ],
+    "detail": {
+      "desc": "정적으로 만들어둔 페이지를 정해진 주기로 뒤에서 다시 생성하는 Next.js 기능이다. 정적의 속도와 최신 내용을 함께 얻는다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='210' y='60' width='140' height='90' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='110' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>정적 페이지</text><path d='M380,105 a40,40 0 1,1 -6,-38' fill='none' stroke='#222' stroke-width='3'/><path d='M372,68 l4,18 l16,-8 z' fill='#222'/><text x='400' y='150' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>일정 주기마다</text><text x='400' y='165' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>뒤에서 재생성</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>정적 페이지를 정해진 주기로 뒤에서 다시 만든다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-hydration",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "Hydration",
+    "titleEn": "하이드레이션",
+    "field": "웹 개발",
+    "oneLiner": "서버가 보낸 정적 HTML에 JavaScript가 동작을 붙여 살아나게 하는 과정이다.",
+    "credibility": "established",
+    "keywords": [
+      "Hydration",
+      "하이드레이션",
+      "HTML",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-isr",
+      "fe-spa",
+      "fe-ssg",
+      "fe-routing"
+    ],
+    "detail": {
+      "desc": "서버가 보낸 정적 HTML에 JavaScript가 동작을 붙여 살아나게 하는 과정이다.",
+      "how": "서버가 보낸 HTML은 보이긴 하지만 버튼을 눌러도 반응 없는 마른 상태다. 브라우저에 React가 도착하면 이 HTML에 이벤트와 상태를 연결한다. 그제야 클릭·스크롤이 작동한다. 이 물 붓는 과정을 하이드레이션이라 한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='150' y='60' width='260' height='120' fill='none' stroke='#222' stroke-width='3'/><rect x='180' y='150' width='90' height='30' fill='none' stroke='#888' stroke-width='2'/><text x='225' y='170' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>버튼(반응 없음)</text><path d='M250,40 q6,14 0,20 q-6,-6 0,-20' fill='#222'/><path d='M290,50 q6,12 0,18 q-6,-6 0,-18' fill='#222'/><path d='M330,40 q6,14 0,20 q-6,-6 0,-20' fill='#222'/><line x1='250' y1='64' x2='250' y2='90' stroke='#888' stroke-width='1.5' stroke-dasharray='2 3'/><line x1='290' y1='68' x2='290' y2='95' stroke='#888' stroke-width='1.5' stroke-dasharray='2 3'/><line x1='330' y1='64' x2='330' y2='90' stroke='#888' stroke-width='1.5' stroke-dasharray='2 3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>보이기만 하던 페이지에 JavaScript가 스며들어 반응하게 된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-spa",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "SPA",
+    "titleEn": "단일 페이지 앱",
+    "field": "웹 개발",
+    "oneLiner": "HTML 한 장으로 돌아가는 앱이다.",
+    "credibility": "established",
+    "keywords": [
+      "SPA",
+      "단일 페이지 앱",
+      "HTML",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-hydration",
+      "fe-routing",
+      "fe-isr",
+      "fe-ssg"
+    ],
+    "detail": {
+      "desc": "HTML 한 장으로 돌아가는 앱이다. 페이지를 이동해도 전체를 새로 불러오지 않고 JavaScript가 내용만 바꿔치운다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='150' y='40' width='260' height='150' fill='none' stroke='#222' stroke-width='4'/><rect x='170' y='60' width='90' height='60' fill='none' stroke='#222' stroke-width='2.5'/><text x='215' y='95' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>A</text><line x1='270' y1='90' x2='300' y2='90' stroke='#222' stroke-width='2.5'/><path d='M300,90 l-8,-6 l0,12 z' fill='#222'/><rect x='310' y='60' width='90' height='60' fill='#222'/><text x='355' y='95' text-anchor='middle' font-size='13' fill='#f4f4f1' font-family='sans-serif'>B</text><text x='280' y='165' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>전체 새로고침 없이 안쪽만 바뀐다</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>HTML 한 장 위에서 내용만 바꿔치우는 앱이다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-routing",
+    "domain": "frontend",
+    "category": "렌더링 방식 · 메타 프레임워크",
+    "categoryLabel": "렌더링 방식 · 메타 프레임워크",
+    "title": "Routing",
+    "titleEn": "라우팅",
+    "field": "웹 개발",
+    "oneLiner": "어떤 주소(URL)에 어떤 페이지나 컴포넌트를 보여줄지 연결하는 일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Routing",
+      "라우팅",
+      "URL"
+    ],
+    "related": [
+      "fe-spa",
+      "fe-hydration",
+      "fe-isr",
+      "fe-ssg"
+    ],
+    "detail": {
+      "desc": "어떤 주소(URL)에 어떤 페이지나 컴포넌트를 보여줄지 연결하는 일이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='150' y='75' font-size='13' fill='#222' font-family='monospace'>/home</text><line x1='230' y1='70' x2='300' y2='70' stroke='#222' stroke-width='2.5'/><path d='M308,70 l-12,-7 l0,14 z' fill='#222'/><rect x='320' y='55' width='110' height='30' fill='none' stroke='#222' stroke-width='2.5'/><text x='375' y='75' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>홈 화면</text><text x='150' y='140' font-size='13' fill='#222' font-family='monospace'>/posts/1</text><line x1='230' y1='135' x2='300' y2='135' stroke='#222' stroke-width='2.5'/><path d='M308,135 l-12,-7 l0,14 z' fill='#222'/><rect x='320' y='120' width='110' height='30' fill='none' stroke='#222' stroke-width='2.5'/><text x='375' y='140' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>글 화면</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>어떤 주소에 어떤 화면을 보여줄지 짝지어 둔다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-webgl",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "WebGL",
+    "titleEn": "3D 기술",
+    "field": "웹 개발",
+    "oneLiner": "브라우저에서 3D 그래픽을 그리는 기술이다.",
+    "credibility": "established",
+    "keywords": [
+      "WebGL",
+      "3D 기술"
+    ],
+    "related": [
+      "fe-three-js",
+      "fe-react-three-fiber",
+      "fe-canvas",
+      "fe-shader-glsl"
+    ],
+    "detail": {
+      "desc": "브라우저에서 3D 그래픽을 그리는 기술이다. 직접 다루기 어려워서 보통 아래 라이브러리를 통해 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='140' y='40' width='280' height='160' rx='6' fill='none' stroke='#222' stroke-width='3'/><line x1='140' y1='66' x2='420' y2='66' stroke='#222' stroke-width='2'/><circle cx='156' cy='53' r='4' fill='#222'/><circle cx='170' cy='53' r='4' fill='#222'/><circle cx='184' cy='53' r='4' fill='#222'/><g stroke='#222' stroke-width='2' fill='none'><polygon points='240,100 320,100 340,120 260,120'/><polygon points='240,150 320,150 340,170 260,170'/><line x1='240' y1='100' x2='240' y2='150'/><line x1='320' y1='100' x2='320' y2='150'/><line x1='340' y1='120' x2='340' y2='170'/><line x1='260' y1='120' x2='260' y2='170'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>브라우저 창 안에 3D 입체가 그려진다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-three-js",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "Three.js",
+    "titleEn": "3D 라이브러리",
+    "field": "웹 개발",
+    "oneLiner": "WebGL을 쉽게 쓰게 해주는 JavaScript 라이브러리다.",
+    "credibility": "established",
+    "keywords": [
+      "Three.js",
+      "3D 라이브러리",
+      "WebGL",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-webgl",
+      "fe-react-three-fiber",
+      "fe-canvas",
+      "fe-shader-glsl"
+    ],
+    "detail": {
+      "desc": "WebGL을 쉽게 쓰게 해주는 JavaScript 라이브러리다. 웹에서 3D 오브젝트를 만드는 표준에 가깝다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='140' y='150' width='280' height='30' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='170' text-anchor='middle' font-size='13' fill='#222' font-family='sans-serif'>WebGL</text><rect x='140' y='90' width='280' height='50' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='120' text-anchor='middle' font-size='14' fill='#222' font-family='sans-serif'>Three.js</text><g stroke='#222' stroke-width='2' fill='none'><polygon points='250,50 280,50 295,65 265,65'/><line x1='250' y1='50' x2='250' y2='75'/><line x1='280' y1='50' x2='280' y2='75'/><line x1='295' y1='65' x2='295' y2='90'/><polygon points='250,75 280,75 295,90 265,90'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>Three.js가 WebGL 위에 쉬운 손잡이를 얹는다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-react-three-fiber",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "react-three-fiber",
+    "titleEn": "R3F",
+    "field": "웹 개발",
+    "oneLiner": "Three.js를 React 방식으로 쓰게 해주는 라이브러리다.",
+    "credibility": "established",
+    "keywords": [
+      "react-three-fiber",
+      "R3F",
+      "Three.js",
+      "React"
+    ],
+    "related": [
+      "fe-three-js",
+      "fe-canvas",
+      "fe-webgl",
+      "fe-shader-glsl"
+    ],
+    "detail": {
+      "desc": "Three.js를 React 방식으로 쓰게 해주는 라이브러리다. 3D 오브젝트를 컴포넌트로 다룬다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><text x='200' y='100' font-size='22' fill='#222' font-family='monospace'>&lt;mesh&gt;</text><g stroke='#222' stroke-width='2' fill='none'><polygon points='250,120 300,120 320,140 270,140'/><polygon points='250,160 300,160 320,180 270,180'/><line x1='250' y1='120' x2='250' y2='160'/><line x1='300' y1='120' x2='300' y2='160'/><line x1='320' y1='140' x2='320' y2='180'/><line x1='270' y1='140' x2='270' y2='180'/></g><text x='200' y='200' font-size='22' fill='#222' font-family='monospace'>&lt;/mesh&gt;</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>React 태그로 3D 오브젝트를 감싸 다룬다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-canvas",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "Canvas",
+    "titleEn": "화면 영역",
+    "field": "웹 개발",
+    "oneLiner": "3D나 그림을 그리는 화면 영역이다.",
+    "credibility": "established",
+    "keywords": [
+      "Canvas",
+      "화면 영역",
+      "Three.js"
+    ],
+    "related": [
+      "fe-react-three-fiber",
+      "fe-shader-glsl",
+      "fe-three-js",
+      "fe-render-loop"
+    ],
+    "detail": {
+      "desc": "3D나 그림을 그리는 화면 영역이다. Three.js는 이 Canvas 위에 3D를 그린다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='160' y='50' width='240' height='140' fill='none' stroke='#222' stroke-width='3'/><text x='170' y='42' font-size='12' fill='#888' font-family='sans-serif'>canvas</text><g stroke='#222' stroke-width='2' fill='none'><polygon points='250,90 310,90 330,110 270,110'/><polygon points='250,140 310,140 330,160 270,160'/><line x1='250' y1='90' x2='250' y2='140'/><line x1='310' y1='90' x2='310' y2='140'/><line x1='330' y1='110' x2='330' y2='160'/><line x1='270' y1='110' x2='270' y2='160'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>정해진 화면 영역 안에 3D를 그린다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-shader-glsl",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "Shader / GLSL",
+    "titleEn": "셰이더",
+    "field": "웹 개발",
+    "oneLiner": "GPU에서 점과 픽셀의 위치·색을 계산하는 작은 프로그램이다.",
+    "credibility": "established",
+    "keywords": [
+      "Shader / GLSL",
+      "셰이더",
+      "GPU"
+    ],
+    "related": [
+      "fe-canvas",
+      "fe-render-loop",
+      "fe-react-three-fiber",
+      "fe-three-js"
+    ],
+    "detail": {
+      "desc": "GPU에서 점과 픽셀의 위치·색을 계산하는 작은 프로그램이다. 빛, 질감, 특수 효과를 만든다. 직접 다루면 까다롭다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g stroke='#222' stroke-width='1'><rect x='160' y='70' width='34' height='60' fill='#222' fill-opacity='0.12'/><rect x='194' y='70' width='34' height='60' fill='#222' fill-opacity='0.3'/><rect x='228' y='70' width='34' height='60' fill='#222' fill-opacity='0.48'/><rect x='262' y='70' width='34' height='60' fill='#222' fill-opacity='0.62'/><rect x='296' y='70' width='34' height='60' fill='#222' fill-opacity='0.76'/><rect x='330' y='70' width='34' height='60' fill='#222' fill-opacity='0.9'/><rect x='364' y='70' width='34' height='60' fill='#222'/></g><text x='280' y='150' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>GPU</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>픽셀 하나하나의 색을 규칙으로 계산한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-render-loop",
+    "domain": "frontend",
+    "category": "3D 관련",
+    "categoryLabel": "3D 관련",
+    "title": "Render Loop",
+    "titleEn": "렌더 루프",
+    "field": "웹 개발",
+    "oneLiner": "1초에 수십 번 화면을 다시 그려 움직임을 만드는 반복이다.",
+    "credibility": "established",
+    "keywords": [
+      "Render Loop",
+      "렌더 루프"
+    ],
+    "related": [
+      "fe-shader-glsl",
+      "fe-canvas",
+      "fe-react-three-fiber",
+      "fe-three-js"
+    ],
+    "detail": {
+      "desc": "1초에 수십 번 화면을 다시 그려 움직임을 만드는 반복이다.",
+      "how": "3D 화면은 정지 그림이 아니라 매 순간 새로 그려진다. 렌더 루프는 매 프레임 오브젝트 위치·회전을 갱신하고 다시 그리기를 반복한다. 스크롤 값에 따라 이 루프 안에서 오브젝트를 움직이면 스크롤 연동 3D 애니메이션이 된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M280 50 A80 80 0 1 1 210 65' fill='none' stroke='#222' stroke-width='3'/><polygon points='210,65 195,55 225,50' fill='#222'/><g stroke='#222' stroke-width='2' fill='none'><rect x='200' y='110' width='30' height='30' transform='rotate(0 215 125)'/><rect x='265' y='110' width='30' height='30' transform='rotate(20 280 125)'/><rect x='330' y='110' width='30' height='30' transform='rotate(45 345 125)'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>매 프레임 다시 그려 움직임을 만든다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-node-js",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Node.js",
+    "titleEn": "실행 환경",
+    "field": "웹 개발",
+    "oneLiner": "JavaScript를 브라우저 밖에서 실행하는 프로그램이다.",
+    "credibility": "established",
+    "keywords": [
+      "Node.js",
+      "실행 환경",
+      "JavaScript",
+      "React"
+    ],
+    "related": [
+      "fe-npm",
+      "fe-package",
+      "fe-bundler",
+      "fe-bundle"
+    ],
+    "detail": {
+      "desc": "JavaScript를 브라우저 밖에서 실행하는 프로그램이다. React 같은 도구를 설치하고 돌리려면 필요하다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='70' width='150' height='100' rx='6' fill='none' stroke='#888' stroke-width='2'/><text x='165' y='60' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>브라우저</text><line x1='105' y1='85' x2='225' y2='155' stroke='#888' stroke-width='2'/><line x1='225' y1='85' x2='105' y2='155' stroke='#888' stroke-width='2'/><rect x='320' y='70' width='150' height='100' rx='6' fill='none' stroke='#222' stroke-width='3'/><text x='395' y='60' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>터미널</text><text x='335' y='110' font-size='16' fill='#222' font-family='monospace'>&gt; node</text><text x='335' y='135' font-size='14' fill='#222' font-family='monospace'>JS 실행 중</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>JavaScript가 브라우저 밖에서도 돌아간다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-npm",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "npm",
+    "titleEn": "Node Package Manager",
+    "field": "웹 개발",
+    "oneLiner": "필요한 라이브러리를 내려받아 설치하는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "npm",
+      "Node Package Manager",
+      "Node.js"
+    ],
+    "related": [
+      "fe-node-js",
+      "fe-package",
+      "fe-bundler",
+      "fe-bundle"
+    ],
+    "detail": {
+      "desc": "필요한 라이브러리를 내려받아 설치하는 도구다. Node.js와 함께 깔린다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><path d='M200 60 a25 25 0 0 1 45 -10 a30 30 0 0 1 55 5 a25 25 0 0 1 20 40 h-120 a22 22 0 0 1 0 -35z' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='65' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>registry</text><line x1='280' y1='100' x2='280' y2='140' stroke='#222' stroke-width='3'/><polygon points='280,150 270,135 290,135' fill='#222'/><rect x='230' y='155' width='100' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='180' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>내 프로젝트</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>필요한 라이브러리를 내려받아 설치한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-package",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Package",
+    "titleEn": "패키지",
+    "field": "웹 개발",
+    "oneLiner": "npm으로 설치하는 라이브러리 한 덩어리다.",
+    "credibility": "established",
+    "keywords": [
+      "Package",
+      "패키지",
+      "npm",
+      "React",
+      "Three.js"
+    ],
+    "related": [
+      "fe-npm",
+      "fe-bundler",
+      "fe-node-js",
+      "fe-bundle"
+    ],
+    "detail": {
+      "desc": "npm으로 설치하는 라이브러리 한 덩어리다. React, Three.js 모두 패키지로 설치한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='170' y='55' width='220' height='140' rx='4' fill='none' stroke='#222' stroke-width='3'/><text x='280' y='45' text-anchor='middle' font-size='12' fill='#888' font-family='sans-serif'>package</text><rect x='195' y='80' width='170' height='30' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='100' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>React</text><rect x='195' y='125' width='170' height='30' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='145' text-anchor='middle' font-size='12' fill='#222' font-family='sans-serif'>Three.js</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>npm으로 설치하는 라이브러리 한 덩어리다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-bundler",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Bundler",
+    "titleEn": "번들러",
+    "field": "웹 개발",
+    "oneLiner": "여러 파일을 묶어 브라우저가 읽을 수 있는 형태로 만드는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Bundler",
+      "번들러",
+      "Vite",
+      "Webpack"
+    ],
+    "related": [
+      "fe-package",
+      "fe-bundle",
+      "fe-npm",
+      "fe-build"
+    ],
+    "detail": {
+      "desc": "여러 파일을 묶어 브라우저가 읽을 수 있는 형태로 만드는 도구다. Vite가 요즘 표준이고 빠르며, Webpack은 예전부터 널리 쓰였다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2'><rect x='120' y='40' width='36' height='44'/><rect x='170' y='40' width='36' height='44'/><rect x='220' y='40' width='36' height='44'/><rect x='270' y='40' width='36' height='44'/><rect x='320' y='40' width='36' height='44'/><rect x='370' y='40' width='36' height='44'/></g><path d='M110 100 L410 100 L300 160 L220 160 Z' fill='none' stroke='#222' stroke-width='3'/><rect x='240' y='170' width='40' height='30' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>여러 파일이 깔때기를 지나 하나로 합쳐진다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-bundle",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Bundle",
+    "titleEn": "번들",
+    "field": "웹 개발",
+    "oneLiner": "번들러가 여러 파일을 묶어 만든 최종 결과 파일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Bundle",
+      "번들"
+    ],
+    "related": [
+      "fe-bundler",
+      "fe-build",
+      "fe-package",
+      "fe-transpile"
+    ],
+    "detail": {
+      "desc": "번들러가 여러 파일을 묶어 만든 최종 결과 파일이다. 브라우저는 이 묶음을 내려받아 실행한다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='250' y='70' width='90' height='110' fill='none' stroke='#888' stroke-width='2'/><rect x='240' y='60' width='90' height='110' fill='none' stroke='#888' stroke-width='2'/><rect x='230' y='50' width='90' height='110' fill='none' stroke='#222' stroke-width='3'/><text x='275' y='110' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>bundle.js</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>번들러가 묶어낸 최종 결과 파일 하나다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-build",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Build",
+    "titleEn": "빌드",
+    "field": "웹 개발",
+    "oneLiner": "작성한 코드를 실제 배포용 파일로 변환하는 과정이다.",
+    "credibility": "established",
+    "keywords": [
+      "Build",
+      "빌드"
+    ],
+    "related": [
+      "fe-bundle",
+      "fe-transpile",
+      "fe-bundler",
+      "fe-dev-server"
+    ],
+    "detail": {
+      "desc": "작성한 코드를 실제 배포용 파일로 변환하는 과정이다.",
+      "how": "React·JSX·최신 문법은 브라우저가 바로 못 읽는다. 빌드는 이것들을 옛 문법으로 변환하고(트랜스파일), 파일을 묶고(번들), 크기를 줄이는(경량화) 작업을 한 번에 처리해 배포용 파일을 만든다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g fill='none' stroke='#222' stroke-width='2'><rect x='40' y='90' width='90' height='50'/><rect x='170' y='90' width='90' height='50'/><rect x='300' y='90' width='90' height='50'/><rect x='430' y='90' width='90' height='50'/></g><text x='85' y='120' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>소스</text><text x='215' y='120' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>변환</text><text x='345' y='120' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>번들</text><text x='475' y='120' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>경량화</text><g stroke='#222' stroke-width='2'><line x1='130' y1='115' x2='165' y2='115'/><line x1='260' y1='115' x2='295' y2='115'/><line x1='390' y1='115' x2='425' y2='115'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>코드가 단계를 거쳐 배포용 파일이 된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-transpile",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Transpile",
+    "titleEn": "트랜스파일",
+    "field": "웹 개발",
+    "oneLiner": "새 문법이나 JSX를 브라우저가 이해하는 옛 문법으로 바꾸는 작업이다.",
+    "credibility": "established",
+    "keywords": [
+      "Transpile",
+      "트랜스파일",
+      "JSX"
+    ],
+    "related": [
+      "fe-build",
+      "fe-dev-server",
+      "fe-bundle",
+      "fe-minification"
+    ],
+    "detail": {
+      "desc": "새 문법이나 JSX를 브라우저가 이해하는 옛 문법으로 바꾸는 작업이다. 빌드 과정에 포함된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='80' width='140' height='70' fill='none' stroke='#222' stroke-width='3'/><text x='160' y='120' text-anchor='middle' font-size='16' fill='#222' font-family='monospace'>&lt;JSX/&gt;</text><line x1='240' y1='115' x2='320' y2='115' stroke='#222' stroke-width='2'/><polygon points='320,115 305,107 305,123' fill='#222'/><text x='280' y='100' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>변환</text><rect x='330' y='80' width='140' height='70' fill='none' stroke='#222' stroke-width='3'/><text x='400' y='120' text-anchor='middle' font-size='16' fill='#222' font-family='monospace'>JS</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>새 문법을 브라우저가 아는 옛 문법으로 바꾼다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-dev-server",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Dev Server",
+    "titleEn": "개발 서버",
+    "field": "웹 개발",
+    "oneLiner": "작업 중인 사이트를 PC에서 임시로 띄워 확인하는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Dev Server",
+      "개발 서버",
+      "PC"
+    ],
+    "related": [
+      "fe-transpile",
+      "fe-minification",
+      "fe-build",
+      "fe-obfuscation"
+    ],
+    "detail": {
+      "desc": "작업 중인 사이트를 PC에서 임시로 띄워 확인하는 도구다. 코드를 고치면 화면에 바로 반영된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='180' y='55' width='200' height='120' rx='4' fill='none' stroke='#222' stroke-width='3'/><line x1='180' y1='80' x2='380' y2='80' stroke='#222' stroke-width='2'/><text x='195' y='73' font-size='11' fill='#888' font-family='sans-serif'>localhost:3000</text><line x1='210' y1='100' x2='350' y2='100' stroke='#222' stroke-width='2'/><line x1='210' y1='120' x2='320' y2='120' stroke='#222' stroke-width='2'/><line x1='210' y1='140' x2='340' y2='140' stroke='#222' stroke-width='2'/><path d='M400 90 A40 40 0 1 1 400 145' fill='none' stroke='#222' stroke-width='2'/><polygon points='400,145 388,135 412,133' fill='#222'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>코드를 고치면 화면이 바로 갱신된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-minification",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Minification",
+    "titleEn": "경량화 · 압축",
+    "field": "웹 개발",
+    "oneLiner": "파일 크기를 줄여 빨리 불러오게 만드는 작업이다.",
+    "credibility": "established",
+    "keywords": [
+      "Minification",
+      "경량화 · 압축"
+    ],
+    "related": [
+      "fe-dev-server",
+      "fe-obfuscation",
+      "fe-transpile",
+      "fe-tree-shaking"
+    ],
+    "detail": {
+      "desc": "파일 크기를 줄여 빨리 불러오게 만드는 작업이다.",
+      "how": "코드의 줄바꿈·공백·주석을 지우고, 긴 변수 이름을 a, b 같은 짧은 글자로 바꾼다. 동작은 그대로지만 글자 수가 줄어 파일이 가벼워진다. 빌드 단계에서 자동으로 일어난다. 앞서 말한 경량화가 이것이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='70' y='55' width='170' height='120' fill='none' stroke='#222' stroke-width='3'/><line x1='90' y1='80' x2='220' y2='80' stroke='#888' stroke-width='2'/><line x1='90' y1='100' x2='210' y2='100' stroke='#888' stroke-width='2'/><line x1='90' y1='120' x2='220' y2='120' stroke='#888' stroke-width='2'/><line x1='90' y1='140' x2='200' y2='140' stroke='#888' stroke-width='2'/><line x1='260' y1='115' x2='330' y2='115' stroke='#222' stroke-width='2'/><polygon points='330,115 315,107 315,123' fill='#222'/><rect x='350' y='95' width='60' height='40' fill='none' stroke='#222' stroke-width='3'/><line x1='360' y1='108' x2='400' y2='108' stroke='#222' stroke-width='2'/><line x1='360' y1='120' x2='390' y2='120' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>공백과 주석을 지워 파일을 작게 만든다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-obfuscation",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Obfuscation",
+    "titleEn": "난독화",
+    "field": "웹 개발",
+    "oneLiner": "코드를 사람이 읽기 어렵게 일부러 망가뜨리는 작업이다.",
+    "credibility": "established",
+    "keywords": [
+      "Obfuscation",
+      "난독화"
+    ],
+    "related": [
+      "fe-minification",
+      "fe-tree-shaking",
+      "fe-dev-server",
+      "fe-code-splitting"
+    ],
+    "detail": {
+      "desc": "코드를 사람이 읽기 어렵게 일부러 망가뜨리는 작업이다.",
+      "how": "변수와 함수 이름을 의미 없는 기호로 바꾸고, 구조를 복잡하게 비틀어 무슨 코드인지 알아보기 힘들게 만든다. 코드 베끼기를 늦추려는 목적이다. 단, 결국 브라우저가 실행하는 코드라 완전한 보안은 아니다. 시간을 끄는 방어일 뿐이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g stroke='#222' stroke-width='2'><line x1='90' y1='80' x2='220' y2='80'/><line x1='90' y1='100' x2='200' y2='100'/><line x1='90' y1='120' x2='215' y2='120'/><line x1='90' y1='140' x2='190' y2='140'/></g><line x1='250' y1='110' x2='310' y2='110' stroke='#222' stroke-width='2'/><polygon points='310,110 295,102 295,118' fill='#222'/><path d='M340 80 q10 15 -5 25 t20 20 q-15 10 5 20 t-10 25' fill='none' stroke='#222' stroke-width='2'/><path d='M400 75 q-10 20 15 25 t-15 20 q15 12 -5 20 t10 30' fill='none' stroke='#222' stroke-width='2'/><path d='M460 82 q12 14 -8 22 t18 22 q-14 8 8 20 t-12 26' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>코드를 일부러 알아보기 힘들게 뒤튼다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-tree-shaking",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Tree Shaking",
+    "titleEn": "트리 쉐이킹",
+    "field": "웹 개발",
+    "oneLiner": "빌드할 때 실제로 안 쓰는 코드를 최종 번들에서 털어내는 기능이다.",
+    "credibility": "established",
+    "keywords": [
+      "Tree Shaking",
+      "트리 쉐이킹"
+    ],
+    "related": [
+      "fe-obfuscation",
+      "fe-code-splitting",
+      "fe-minification",
+      "fe-lazy-loading"
+    ],
+    "detail": {
+      "desc": "빌드할 때 실제로 안 쓰는 코드를 최종 번들에서 털어내는 기능이다. 파일이 더 가벼워진다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><line x1='280' y1='90' x2='280' y2='190' stroke='#222' stroke-width='4'/><line x1='280' y1='120' x2='240' y2='150' stroke='#222' stroke-width='3'/><line x1='280' y1='110' x2='320' y2='140' stroke='#222' stroke-width='3'/><g fill='#222'><circle cx='230' cy='90' r='14'/><circle cx='280' cy='70' r='16'/><circle cx='330' cy='90' r='14'/><circle cx='255' cy='105' r='12'/><circle cx='305' cy='105' r='12'/></g><g fill='none' stroke='#888' stroke-width='2'><circle cx='180' cy='170' r='10'/><circle cx='150' cy='200' r='9'/><circle cx='380' cy='175' r='10'/></g><line x1='190' y1='160' x2='170' y2='190' stroke='#888' stroke-width='1' stroke-dasharray='3,3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>안 쓰는 잎(코드)은 번들에서 떨어져 나간다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-code-splitting",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Code Splitting",
+    "titleEn": "코드 스플리팅",
+    "field": "웹 개발",
+    "oneLiner": "번들을 여러 조각으로 나눠, 지금 페이지에 필요한 코드만 먼저 불러오는 기법이다.",
+    "credibility": "established",
+    "keywords": [
+      "Code Splitting",
+      "코드 스플리팅"
+    ],
+    "related": [
+      "fe-tree-shaking",
+      "fe-lazy-loading",
+      "fe-obfuscation",
+      "fe-source-map"
+    ],
+    "detail": {
+      "desc": "번들을 여러 조각으로 나눠, 지금 페이지에 필요한 코드만 먼저 불러오는 기법이다. 첫 로딩이 빨라진다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='90' width='110' height='60' fill='none' stroke='#222' stroke-width='3'/><line x1='215' y1='120' x2='270' y2='120' stroke='#222' stroke-width='2'/><polygon points='270,120 255,112 255,128' fill='#222'/><rect x='290' y='60' width='60' height='40' fill='none' stroke='#222' stroke-width='2'/><rect x='290' y='110' width='60' height='40' fill='none' stroke='#222' stroke-width='2'/><rect x='290' y='160' width='60' height='40' fill='none' stroke='#222' stroke-width='2'/><rect x='380' y='60' width='60' height='40' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4,3'/><rect x='380' y='160' width='60' height='40' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='4,3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>큰 번들 하나가 필요한 조각들로 나뉜다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-lazy-loading",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Lazy Loading",
+    "titleEn": "지연 로딩",
+    "field": "웹 개발",
+    "oneLiner": "이미지나 컴포넌트를 필요한 순간에만 불러오는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "Lazy Loading",
+      "지연 로딩"
+    ],
+    "related": [
+      "fe-code-splitting",
+      "fe-source-map",
+      "fe-tree-shaking",
+      "fe-cache"
+    ],
+    "detail": {
+      "desc": "이미지나 컴포넌트를 필요한 순간에만 불러오는 방식이다. 처음에 모든 걸 받지 않아 가볍다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='170' y='30' width='220' height='100' fill='none' stroke='#222' stroke-width='3'/><text x='180' y='24' font-size='11' fill='#888' font-family='sans-serif'>화면(뷰포트)</text><rect x='190' y='45' width='180' height='28' fill='none' stroke='#222' stroke-width='2'/><rect x='190' y='83' width='180' height='28' fill='none' stroke='#222' stroke-width='2'/><rect x='190' y='145' width='180' height='28' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='5,4'/><rect x='190' y='178' width='180' height='28' fill='none' stroke='#888' stroke-width='2' stroke-dasharray='5,4'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>화면 밖 요소는 점선처럼 아직 불러오지 않는다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-source-map",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Source Map",
+    "titleEn": "소스맵",
+    "field": "웹 개발",
+    "oneLiner": "경량화·난독화된 코드를 원래 코드로 되짚어주는 파일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Source Map",
+      "소스맵"
+    ],
+    "related": [
+      "fe-lazy-loading",
+      "fe-cache",
+      "fe-code-splitting",
+      "fe-cdn"
+    ],
+    "detail": {
+      "desc": "경량화·난독화된 코드를 원래 코드로 되짚어주는 파일이다. 문제를 디버깅할 때 쓴다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='70' y='60' width='160' height='110' fill='none' stroke='#222' stroke-width='3'/><path d='M85 90 h20 l5 -10 l5 20 l5 -15 l90 5' fill='none' stroke='#222' stroke-width='2'/><path d='M85 120 h130' fill='none' stroke='#222' stroke-width='2'/><text x='150' y='50' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>압축된 코드</text><line x1='240' y1='115' x2='300' y2='115' stroke='#222' stroke-width='2'/><polygon points='300,115 285,107 285,123' fill='#222'/><rect x='330' y='60' width='160' height='110' fill='none' stroke='#222' stroke-width='3'/><line x1='345' y1='90' x2='470' y2='90' stroke='#222' stroke-width='2'/><line x1='345' y1='110' x2='450' y2='110' stroke='#222' stroke-width='2'/><line x1='345' y1='130' x2='460' y2='130' stroke='#222' stroke-width='2'/><text x='410' y='50' text-anchor='middle' font-size='11' fill='#888' font-family='sans-serif'>원래 코드</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>압축된 코드를 원래 자리로 되짚어준다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-cache",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Cache",
+    "titleEn": "캐싱",
+    "field": "웹 개발",
+    "oneLiner": "한 번 받은 파일을 저장해두고, 다시 방문할 때 그 사본을 써서 빠르게 보여주는 방식이다.",
+    "credibility": "established",
+    "keywords": [
+      "Cache",
+      "캐싱"
+    ],
+    "related": [
+      "fe-source-map",
+      "fe-cdn",
+      "fe-lazy-loading",
+      "fe-deploy"
+    ],
+    "detail": {
+      "desc": "한 번 받은 파일을 저장해두고, 다시 방문할 때 그 사본을 써서 빠르게 보여주는 방식이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='60' y='55' width='70' height='40' fill='none' stroke='#222' stroke-width='2'/><text x='68' y='80' font-size='10' fill='#222' font-family='sans-serif'>서버</text><line x1='135' y1='75' x2='250' y2='75' stroke='#222' stroke-width='2'/><polygon points='250,75 236,67 236,83' fill='#222'/><rect x='260' y='55' width='70' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='266' y='80' font-size='10' fill='#222' font-family='sans-serif'>첫 방문·느림</text><rect x='60' y='140' width='70' height='40' fill='none' stroke='#888' stroke-width='2'/><text x='63' y='165' font-size='10' fill='#888' font-family='sans-serif'>저장소</text><line x1='135' y1='160' x2='250' y2='160' stroke='#222' stroke-width='2'/><polygon points='250,160 236,152 236,168' fill='#222'/><rect x='260' y='140' width='70' height='40' fill='none' stroke='#222' stroke-width='3'/><text x='266' y='165' font-size='10' fill='#222' font-family='sans-serif'>재방문·빠름</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>저장해둔 사본을 다시 써서 빨라진다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-cdn",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "CDN",
+    "titleEn": "콘텐츠 전송망",
+    "field": "웹 개발",
+    "oneLiner": "세계 곳곳에 둔 서버들이다.",
+    "credibility": "established",
+    "keywords": [
+      "CDN",
+      "콘텐츠 전송망"
+    ],
+    "related": [
+      "fe-cache",
+      "fe-deploy",
+      "fe-source-map",
+      "fe-vercel-netlify"
+    ],
+    "detail": {
+      "desc": "세계 곳곳에 둔 서버들이다. 사용자와 가까운 서버에서 파일을 보내 속도를 높인다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='280' cy='110' r='55' fill='none' stroke='#222' stroke-width='2'/><ellipse cx='280' cy='110' rx='55' ry='22' fill='none' stroke='#222' stroke-width='1'/><line x1='225' y1='110' x2='335' y2='110' stroke='#222' stroke-width='1'/><line x1='280' y1='55' x2='280' y2='165' stroke='#222' stroke-width='1'/><g fill='#222'><circle cx='90' cy='60' r='9'/><circle cx='470' cy='60' r='9'/><circle cx='60' cy='170' r='9'/><circle cx='500' cy='170' r='9'/><circle cx='280' cy='195' r='9'/></g><g stroke='#888' stroke-width='1' stroke-dasharray='3,3'><line x1='225' y1='90' x2='99' y2='63'/><line x1='335' y1='90' x2='461' y2='63'/><line x1='225' y1='130' x2='69' y2='167'/><line x1='335' y1='130' x2='491' y2='167'/><line x1='280' y1='165' x2='280' y2='186'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>세계 각지 서버에서 가까운 곳이 응답한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-deploy",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Deploy",
+    "titleEn": "배포",
+    "field": "웹 개발",
+    "oneLiner": "완성한 사이트를 서버에 올려 누구나 접속할 수 있게 공개하는 일이다.",
+    "credibility": "established",
+    "keywords": [
+      "Deploy",
+      "배포"
+    ],
+    "related": [
+      "fe-cdn",
+      "fe-vercel-netlify",
+      "fe-cache",
+      "fe-source-map"
+    ],
+    "detail": {
+      "desc": "완성한 사이트를 서버에 올려 누구나 접속할 수 있게 공개하는 일이다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='90' width='120' height='75' rx='4' fill='none' stroke='#222' stroke-width='3'/><line x1='80' y1='170' x2='220' y2='170' stroke='#222' stroke-width='3'/><text x='150' y='133' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>로컬</text><line x1='240' y1='125' x2='320' y2='125' stroke='#222' stroke-width='2'/><polygon points='320,125 305,117 305,133' fill='#222'/><path d='M370 130 a25 25 0 0 1 0 -1 a22 22 0 0 1 40 -9 a25 25 0 0 1 48 4 a22 22 0 0 1 17 40 h-105 a22 22 0 0 1 0 -34z' fill='none' stroke='#222' stroke-width='3'/><text x='425' y='135' text-anchor='middle' font-size='11' fill='#222' font-family='sans-serif'>서버</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>완성한 사이트를 구름(서버)으로 올린다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-vercel-netlify",
+    "domain": "frontend",
+    "category": "빌드 · 최적화 · 배포",
+    "categoryLabel": "빌드 · 최적화 · 배포",
+    "title": "Vercel / Netlify",
+    "titleEn": "배포 플랫폼",
+    "field": "웹 개발",
+    "oneLiner": "코드를 올리면 빌드와 배포를 자동으로 해주는 서비스다.",
+    "credibility": "established",
+    "keywords": [
+      "Vercel / Netlify",
+      "배포 플랫폼",
+      "Next.js",
+      "Vercel"
+    ],
+    "related": [
+      "fe-deploy",
+      "fe-cdn",
+      "fe-cache",
+      "fe-source-map"
+    ],
+    "detail": {
+      "desc": "코드를 올리면 빌드와 배포를 자동으로 해주는 서비스다. Next.js는 만든 회사인 Vercel과 특히 잘 맞는다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><circle cx='100' cy='120' r='30' fill='none' stroke='#222' stroke-width='3'/><text x='83' y='125' font-size='11' fill='#222' font-family='sans-serif'>push</text><line x1='135' y1='120' x2='195' y2='120' stroke='#222' stroke-width='2'/><polygon points='195,120 180,112 180,128' fill='#222'/><circle cx='280' cy='120' r='34' fill='none' stroke='#222' stroke-width='2'/><g stroke='#222' stroke-width='3'><line x1='280' y1='88' x2='280' y2='97'/><line x1='280' y1='143' x2='280' y2='152'/><line x1='248' y1='120' x2='257' y2='120'/><line x1='303' y1='120' x2='312' y2='120'/></g><text x='265' y='125' font-size='10' fill='#222' font-family='sans-serif'>빌드</text><line x1='320' y1='120' x2='380' y2='120' stroke='#222' stroke-width='2'/><polygon points='380,120 365,112 365,128' fill='#222'/><ellipse cx='450' cy='120' rx='40' ry='26' fill='none' stroke='#222' stroke-width='3'/><path d='M436 118 l7 9 l14 -16' fill='none' stroke='#222' stroke-width='2'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>코드를 올리면 빌드와 배포가 자동으로 된다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-typescript",
+    "domain": "frontend",
+    "category": "언어 확장 · 품질 도구",
+    "categoryLabel": "언어 확장 · 품질 도구",
+    "title": "TypeScript",
+    "titleEn": "타입 있는 JS",
+    "field": "웹 개발",
+    "oneLiner": "JavaScript에 타입(값의 종류) 표시를 더한 언어다.",
+    "credibility": "established",
+    "keywords": [
+      "TypeScript",
+      "타입 있는 JS",
+      "JavaScript"
+    ],
+    "related": [
+      "fe-babel",
+      "fe-eslint",
+      "fe-prettier"
+    ],
+    "detail": {
+      "desc": "JavaScript에 타입(값의 종류) 표시를 더한 언어다. 숫자 자리에 글자를 넣는 실수 등을 실행 전에 잡아준다.",
+      "how": "JavaScript는 값의 종류를 안 따져서 엉뚱한 값이 들어가도 실행되다가 뒤늦게 터진다. TypeScript는 이 값은 숫자라고 미리 적게 하고, 어긋나면 코드를 짜는 동안 바로 경고한다. 최종적으로는 일반 JavaScript로 변환되어 실행된다. 규모가 큰 프로젝트일수록 실수를 줄여준다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='70' width='150' height='60' fill='none' stroke='#222' stroke-width='3'/><text x='165' y='95' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>age: number</text><text x='165' y='118' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>= 26</text><path d='M255 100 l10 10 l20 -20' fill='none' stroke='#222' stroke-width='3'/><rect x='320' y='70' width='150' height='60' fill='none' stroke='#222' stroke-width='3'/><text x='395' y='95' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>age: number</text><text x='395' y='118' text-anchor='middle' font-size='12' fill='#222' font-family='monospace'>= '스물'</text><line x1='500' y1='90' x2='520' y2='110' stroke='#222' stroke-width='3'/><line x1='520' y1='90' x2='500' y2='110' stroke='#222' stroke-width='3'/><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>값의 종류가 맞는지 미리 검사한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-babel",
+    "domain": "frontend",
+    "category": "언어 확장 · 품질 도구",
+    "categoryLabel": "언어 확장 · 품질 도구",
+    "title": "Babel",
+    "titleEn": "변환기",
+    "field": "웹 개발",
+    "oneLiner": "최신 JavaScript와 JSX를 옛 브라우저도 이해하는 문법으로 바꿔주는 트랜스파일 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Babel",
+      "변환기",
+      "JavaScript",
+      "JSX"
+    ],
+    "related": [
+      "fe-typescript",
+      "fe-eslint",
+      "fe-prettier"
+    ],
+    "detail": {
+      "desc": "최신 JavaScript와 JSX를 옛 브라우저도 이해하는 문법으로 바꿔주는 트랜스파일 도구다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='80' y='90' width='120' height='50' fill='none' stroke='#222' stroke-width='2'/><text x='140' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='monospace'>ES2023</text><line x1='210' y1='115' x2='250' y2='115' stroke='#222' stroke-width='2'/><polygon points='250,115 235,107 235,123' fill='#222'/><circle cx='300' cy='115' r='32' fill='none' stroke='#222' stroke-width='2'/><g stroke='#222' stroke-width='3'><line x1='300' y1='83' x2='300' y2='91'/><line x1='300' y1='139' x2='300' y2='147'/><line x1='268' y1='115' x2='276' y2='115'/><line x1='324' y1='115' x2='332' y2='115'/></g><line x1='332' y1='115' x2='372' y2='115' stroke='#222' stroke-width='2'/><polygon points='372,115 357,107 357,123' fill='#222'/><rect x='380' y='90' width='100' height='50' fill='none' stroke='#222' stroke-width='2'/><text x='430' y='120' text-anchor='middle' font-size='13' fill='#222' font-family='monospace'>ES5</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>최신 문법을 옛 브라우저용 문법으로 바꾼다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-eslint",
+    "domain": "frontend",
+    "category": "언어 확장 · 품질 도구",
+    "categoryLabel": "언어 확장 · 품질 도구",
+    "title": "ESLint",
+    "titleEn": "코드 검사기",
+    "field": "웹 개발",
+    "oneLiner": "코드의 오류와 나쁜 습관을 자동으로 찾아 경고하는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "ESLint",
+      "코드 검사기"
+    ],
+    "related": [
+      "fe-babel",
+      "fe-prettier",
+      "fe-typescript"
+    ],
+    "detail": {
+      "desc": "코드의 오류와 나쁜 습관을 자동으로 찾아 경고하는 도구다. 버그를 미리 줄인다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><rect x='90' y='60' width='220' height='110' fill='none' stroke='#222' stroke-width='3'/><line x1='110' y1='85' x2='280' y2='85' stroke='#222' stroke-width='2'/><line x1='110' y1='110' x2='250' y2='110' stroke='#222' stroke-width='2'/><line x1='110' y1='135' x2='270' y2='135' stroke='#222' stroke-width='2'/><line x1='110' y1='155' x2='200' y2='155' stroke='#222' stroke-width='2'/><circle cx='230' cy='108' r='14' fill='none' stroke='#222' stroke-width='3'/><line x1='240' y1='118' x2='255' y2='133' stroke='#222' stroke-width='3'/><polygon points='420,60 460,140 380,140' fill='none' stroke='#222' stroke-width='3'/><text x='420' y='120' text-anchor='middle' font-size='20' fill='#222' font-family='sans-serif'>!</text><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>오류와 나쁜 습관을 자동으로 찾아 경고한다</text></svg>"
+    }
+  },
+  {
+    "id": "fe-prettier",
+    "domain": "frontend",
+    "category": "언어 확장 · 품질 도구",
+    "categoryLabel": "언어 확장 · 품질 도구",
+    "title": "Prettier",
+    "titleEn": "코드 정리기",
+    "field": "웹 개발",
+    "oneLiner": "코드의 들여쓰기와 줄바꿈을 일정한 규칙으로 자동 정리하는 도구다.",
+    "credibility": "established",
+    "keywords": [
+      "Prettier",
+      "코드 정리기"
+    ],
+    "related": [
+      "fe-eslint",
+      "fe-babel",
+      "fe-typescript"
+    ],
+    "detail": {
+      "desc": "코드의 들여쓰기와 줄바꿈을 일정한 규칙으로 자동 정리하는 도구다. 여러 사람이 짜도 모양이 통일된다.",
+      "svg": "<svg viewBox='0 0 560 240' xmlns='http://www.w3.org/2000/svg'><rect width='560' height='240' fill='#f4f4f1'/><g stroke='#222' stroke-width='2'><line x1='70' y1='80' x2='180' y2='80'/><line x1='90' y1='100' x2='150' y2='100'/><line x1='60' y1='120' x2='200' y2='120'/><line x1='100' y1='140' x2='140' y2='140'/><line x1='75' y1='160' x2='190' y2='160'/></g><line x1='230' y1='120' x2='290' y2='120' stroke='#222' stroke-width='2'/><polygon points='290,120 275,112 275,128' fill='#222'/><g stroke='#222' stroke-width='2'><line x1='330' y1='80' x2='450' y2='80'/><line x1='350' y1='100' x2='450' y2='100'/><line x1='330' y1='120' x2='450' y2='120'/><line x1='350' y1='140' x2='450' y2='140'/><line x1='330' y1='160' x2='450' y2='160'/></g><text x='280' y='222' text-anchor='middle' font-size='13' fill='#888' font-family='sans-serif'>들여쓰기와 줄바꿈을 일정한 규칙으로 정리한다</text></svg>"
+    }
+  }
+]

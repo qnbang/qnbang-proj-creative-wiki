@@ -21,16 +21,11 @@
   --link: #4545da;
   /* 미디어 면: 썸네일·도판 배경은 모드와 무관하게 밝게(다이어그램 잉크 선 보존) */
   --media-bg: #f2f4f7;
-  /* 리퀴드 글래스 (플로팅 네비): 라이트=얇고 투명한 막(흰 배경 위 탁한 회색 알약 방지),
-     다크=피그마 "iOS 26 Liquid Glass" 원본 값. 질감은 블러 림 3겹 + 스펙큘러 그라데이션 1겹이 만든다 */
+  /* 리퀴드 글래스 (플로팅 네비) */
   --glass-bg: rgba(255,255,255,0.16);
   --glass-border: rgba(255,255,255,0.5);
-  --glass-shadow: 0 8px 24px rgba(30,40,90,0.10);
-  --glass-rim-dark: rgba(0,0,0,0.16);
-  --glass-rim-hi: rgba(255,255,255,0.9);
-  --glass-rim-hi2: rgba(255,255,255,0.4);
-  --glass-lens: rgba(0,0,0,0.045);
-  --glass-spec: linear-gradient(135deg, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0) 42%);
+  --glass-shadow: 0 8px 24px rgba(0,0,0,0.14), inset 0 1px 0 rgba(255,255,255,0.32), inset 0 -1px 0 rgba(0,0,0,0.05);
+  --glass-spec: rgba(255,255,255,0.15);
   --shadow-pop: 0 8px 24px rgba(30,40,90,0.14);
 
   /* 도메인 분류색: 카드·상세의 점(dot) 전용, 면·버튼에 쓰지 않는다 */
@@ -61,14 +56,10 @@
   --hairline: rgba(242,244,255,0.10);
   --on-accent: #f5f9ff;
   --link: #7b7bf5;
-  --glass-bg: rgba(84,84,84,0.10);
-  --glass-border: rgba(255,255,255,0.4);
-  --glass-shadow: 0 10px 30px rgba(0,0,0,0.42);
-  --glass-rim-dark: rgba(0,0,0,0.8);
-  --glass-rim-hi: rgba(255,255,255,0.8);
-  --glass-rim-hi2: rgba(255,255,255,0.2);
-  --glass-lens: rgba(0,0,0,0.12);
-  --glass-spec: linear-gradient(135deg, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0) 45%);
+  --glass-bg: rgba(19,22,38,0.5);
+  --glass-border: rgba(255,255,255,0.14);
+  --glass-shadow: 0 10px 30px rgba(0,0,0,0.42), inset 0 1px 0 rgba(255,255,255,0.32), inset 0 -1px 0 rgba(0,0,0,0.05);
+  --glass-spec: rgba(255,255,255,0.20);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -105,30 +96,17 @@ main:focus { outline: none; }
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
-  backdrop-filter: blur(45px) saturate(160%);
-  -webkit-backdrop-filter: blur(45px) saturate(160%);
+  backdrop-filter: blur(13px) saturate(170%);
+  -webkit-backdrop-filter: blur(13px) saturate(170%);
   font-size: 15px;
 }
 [data-theme="dark"] .nav {
-  backdrop-filter: blur(45px) saturate(160%) brightness(1.12);
-  -webkit-backdrop-filter: blur(45px) saturate(160%) brightness(1.12);
+  backdrop-filter: blur(13px) saturate(170%) brightness(1.12);
+  -webkit-backdrop-filter: blur(13px) saturate(170%) brightness(1.12);
 }
-/* 리퀴드 글래스 레이어 (iOS 26 피그마 레이어 이식)
-   ng-body: 안쪽 6px 들어간 렌즈 음영 — 테두리 6px 폭이 밝게 떠서 유리 벽 두께로 읽힘
-   ng-rim-dark/hi/hi2: 블러 처리된 1px 보더 3겹(multiply 1 + plus-lighter 2) = 메니스커스 */
-.nav-glass {
-  position: absolute; inset: 0; border-radius: inherit;
-  overflow: hidden; pointer-events: none;
-}
-.nav-glass i { position: absolute; inset: 0; border-radius: 9999px; }
-.nav-glass .ng-body { inset: 6px; background: var(--glass-lens); mix-blend-mode: overlay; filter: blur(4px); }
-.nav-glass .ng-rim-dark { border: 1px solid var(--glass-rim-dark); filter: blur(4px); mix-blend-mode: multiply; }
-.nav-glass .ng-rim-hi { border: 1px solid var(--glass-rim-hi); filter: blur(1.5px); mix-blend-mode: plus-lighter; }
-.nav-glass .ng-rim-hi2 { border: 1px solid var(--glass-rim-hi2); filter: blur(1.5px); mix-blend-mode: plus-lighter; }
-/* 스펙큘러 하이라이트: 피그마 원본의 가장자리 굴절 이미지 레이어를 그라데이션으로 근사 (좌상단→우하단으로 스치는 빛) */
-.nav-glass::after {
-  content: ""; position: absolute; inset: 0; border-radius: inherit;
-  background: var(--glass-spec); mix-blend-mode: plus-lighter; pointer-events: none;
+.nav::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(135deg, var(--glass-spec) 0%, transparent 16%);
 }
 .nav-left, .nav-right { display: flex; align-items: center; gap: 26px; }
 .nav-link { position: relative; z-index: 1; color: var(--ink-muted); transition: color 0.18s; white-space: nowrap; padding: 8px 0; }

@@ -317,12 +317,12 @@ function renderItem(id) {
   view.innerHTML = `<div class="wrap"><article class="detail">
     <a class="detail-back" href="#/explore?d=${it.domain}">← ${d.ko} 목록</a>
     <div class="detail-top"><i class="card-dot" style="background:${d.color}"></i>${d.ko} · ${esc(it.categoryLabel)} ${badge(it.credibility)}</div>
-    <h1 class="detail-title">${esc(it.title)}${it.titleEn ? `<span class="en">${esc(it.titleEn)}</span>` : ''}</h1>
+    <div class="detail-title-row">
+      <h1 class="detail-title">${esc(it.title)}${it.titleEn ? `<span class="en">${esc(it.titleEn)}</span>` : ''}</h1>
+      <button class="detail-star ${marked ? 'on' : ''}" data-mark="${it.id}" aria-label="북마크 토글">${marked ? '★' : '☆'}</button>
+    </div>
     ${meta.length ? `<div class="detail-source">${meta.map((m) => `<span>${esc(m)}</span>`).join('')}</div>` : ''}
     <p class="detail-oneliner">${esc(it.oneLiner)}</p>
-    <div class="detail-actions">
-      <button class="btn ${marked ? 'on' : ''}" data-mark="${it.id}">${marked ? '저장됨' : '북마크'}</button>
-    </div>
     <div class="detail-body">${body}</div>
     ${rel.length ? `<div class="detail-block" style="margin-top:40px"><div class="detail-sub">연결된 항목</div><div class="related-grid">${rel.map(cardHTML).join('')}</div></div>` : ''}
   </article></div>`;
@@ -510,8 +510,7 @@ view.addEventListener('click', (e) => {
 function refreshStars() {
   view.querySelectorAll('[data-mark]').forEach((b) => {
     const on = isMarked(b.dataset.mark);
-    if (b.classList.contains('card-star')) { b.classList.toggle('on', on); b.textContent = on ? '★' : '☆'; }
-    else if (b.classList.contains('btn')) { b.classList.toggle('on', on); b.textContent = on ? '저장됨' : '북마크'; }
+    if (b.classList.contains('card-star') || b.classList.contains('detail-star')) { b.classList.toggle('on', on); b.textContent = on ? '★' : '☆'; }
   });
 }
 

@@ -277,8 +277,19 @@ main:focus { outline: none; }
 .detail-back { font-size: 13px; color: var(--ink-faint); margin-bottom: 32px; display: inline-block; padding: 6px 0; transition: color 0.18s; }
 .detail-back:hover { color: var(--ink); }
 .detail-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; letter-spacing: 0; color: var(--ink-faint); margin-bottom: 16px; }
-.detail-title { font-family: var(--font-title); font-size: clamp(30px, 5vw, 46px); font-weight: 700; line-height: 1.2; }
+.detail-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.detail-title { font-family: var(--font-title); font-size: clamp(30px, 5vw, 46px); font-weight: 700; line-height: 1.2; flex: 1 1 auto; min-width: 0; }
 .detail-title .en { display: block; font-family: var(--font); font-size: 16px; font-weight: 400; letter-spacing: 0.02em; color: var(--ink-faint); margin-top: 12px; text-transform: none; }
+/* 북마크: 제목 우측 끝 아이콘 버튼(카드 .card-star와 같은 44px 원형 톤). flex-start로 고정해
+   모바일에서 제목이 여러 줄로 줄바꿈돼도 버튼이 첫 줄 위치에 그대로 붙어 있게 한다. */
+.detail-star {
+  flex: none; width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 18px; color: var(--ink);
+  background: var(--surface);
+  transition: background-color 0.18s, color 0.18s;
+}
+.detail-star:hover { background: var(--surface-hover); }
+.detail-star.on { color: var(--accent); }
 .detail-source { font-size: 14px; color: var(--ink-muted); margin: 16px 0 32px; }
 .detail-source span { margin-right: 16px; }
 .detail-oneliner {
@@ -319,19 +330,6 @@ main:focus { outline: none; }
 .sources li { font-size: 14px; padding: 6px 0; color: var(--ink-muted); }
 .sources a { color: var(--link); border-bottom: 1px solid transparent; }
 .sources a:hover { border-color: var(--link); }
-
-/* 액션 줄, 버튼: 텍스트 하나만, 알약, 그림자 없음 */
-.detail-actions { display: flex; gap: 12px; margin: 8px 0 48px; flex-wrap: wrap; }
-.btn {
-  display: inline-flex; align-items: center; justify-content: center;
-  min-height: 52px; padding: 0 28px;
-  border: 1px solid var(--ink); border-radius: 9999px;
-  font-size: 16px; font-weight: 600; line-height: 1; letter-spacing: var(--ls-kr);
-  transition: background-color 0.18s, color 0.18s, border-color 0.18s;
-}
-.btn:hover { background: var(--surface-hover); }
-.btn.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
-.btn.on:hover { background: var(--accent-press); border-color: var(--accent-press); }
 
 /* 연결된 항목 */
 .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); align-items: stretch; gap: 12px; }

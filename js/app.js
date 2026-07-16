@@ -1,12 +1,13 @@
 // 크리에이티브 인덱스, 통합 위키 앱 (바닐라 ES module)
 // 데이터: data/*.json (공통 필드 + detail 도메인 원본)
 
+// 도메인 구분색은 폐기(신호등 색 점 반려, 2026-07-16) — 도메인은 텍스트 라벨(ko/en)만으로 구분한다.
 const DOMAINS = {
-  'aesthetics':        { ko: '미감', en: 'AESTHETICS', color: 'var(--c-aesthetics)', desc: '아름다움이 작동하는 원리. 게슈탈트 지각에서 신경미학까지.' },
-  'art-movement':      { ko: '양식', en: 'MOVEMENTS',  color: 'var(--c-art)',        desc: '미술·디자인 양식의 역사와 개념 사전. 색·타이포·인물로 읽는다.' },
-  'typography':        { ko: '타이포', en: 'TYPOGRAPHY', color: 'var(--c-typo)',     desc: '활자의 역사와 사람. 양식·거장·파운드리, 그리고 한글.' },
-  'creative-strategy': { ko: '전략', en: 'STRATEGY',   color: 'var(--c-strategy)',   desc: '카피·발상·설득의 법칙. 이론적 근거와 신뢰도까지 함께.' },
-  'frontend':          { ko: '프론트엔드', en: 'FRONTEND', color: 'var(--c-frontend)', desc: '웹·앱 개발 용어 사전. 비전공자 눈높이로, 화면 뒤에서 무슨 일이 일어나는지.' },
+  'aesthetics':        { ko: '미감', en: 'AESTHETICS', desc: '아름다움이 작동하는 원리. 게슈탈트 지각에서 신경미학까지.' },
+  'art-movement':      { ko: '양식', en: 'MOVEMENTS',  desc: '미술·디자인 양식의 역사와 개념 사전. 색·타이포·인물로 읽는다.' },
+  'typography':        { ko: '타이포', en: 'TYPOGRAPHY', desc: '활자의 역사와 사람. 양식·거장·파운드리, 그리고 한글.' },
+  'creative-strategy': { ko: '전략', en: 'STRATEGY',   desc: '카피·발상·설득의 법칙. 이론적 근거와 신뢰도까지 함께.' },
+  'frontend':          { ko: '프론트엔드', en: 'FRONTEND', desc: '웹·앱 개발 용어 사전. 비전공자 눈높이로, 화면 뒤에서 무슨 일이 일어나는지.' },
 };
 const DOMAIN_ORDER = ['aesthetics', 'art-movement', 'typography', 'creative-strategy', 'frontend'];
 
@@ -55,13 +56,6 @@ function toast(msg) {
   clearTimeout(t._t); t._t = setTimeout(() => { t.style.opacity = '0'; }, 1400);
 }
 
-// ── 테마 (라이트/다크 듀얼) ──
-const THEME_KEY = 'ckw_theme';
-function applyTheme(t) {
-  document.documentElement.dataset.theme = t;
-  try { localStorage.setItem(THEME_KEY, t); } catch { /* noop */ }
-}
-
 // ── 데이터 로드 ──
 async function loadData() {
   const files = ['aesthetics', 'art-movement', 'typography', 'creative-strategy', 'frontend'];
@@ -82,11 +76,14 @@ async function loadData() {
 // ── 컴포넌트 ──
 function badge(cred) {
   const c = CRED[cred]; if (!c) return '';
-  return `<span class="badge ${c.cls}" title="${c.note}"><i class="b-dot"></i>${c.ko}</span>`;
+  // 무채색 pill, 텍스트만(신호등 색 점 없음) — 설명은 title 속성 hover로 유지.
+  return `<span class="badge ${c.cls}" title="${c.note}">${c.ko}</span>`;
 }
+// 카드 배지: "정설"은 기본값이라 매 카드 반복 노출이 소음 — 정설이 아닌 것만 표시.
+// 상세 페이지(badge() 직접 호출)는 읽기 맥락이라 5종 전부 유지.
+function cardBadge(cred) { return cred === 'established' ? '' : badge(cred); }
 function cardThumb(item) {
   const d = item.detail || {};
-  const dm = DOMAINS[item.domain];
   if (d.artworks && d.artworks[0]) return `<img src="${esc(d.artworks[0].src)}" alt="" loading="lazy" referrerpolicy="no-referrer">`;
   if (d.demo) return `<span class="ct-demo">${d.demo}</span>`;
   if (d.svg) {
@@ -94,20 +91,25 @@ function cardThumb(item) {
     const bg = (d.svg.match(/<rect[^>]*fill=["']([^"']+)["']/) || [])[1];
     return `<span class="ct-svg"${bg ? ` style="background:${bg}"` : ''}>${d.svg}</span>`;
   }
-  return `<span class="ct-ph" style="--phc:${dm.color}">${esc((item.title || '·').slice(0, 1))}</span>`;
+  return `<span class="ct-ph">${esc((item.title || '·').slice(0, 1))}</span>`;
 }
 function cardHTML(item) {
   const d = DOMAINS[item.domain]; const marked = isMarked(item.id);
-  const sub = [item.origin, item.year || item.period].filter(Boolean).join(' · ');
+  // MMCA 스타일 카드 해부: 배경 상자 없음. 항목 = 썸네일(2.33:1 통일) + 캡션 행(제목+신뢰도 뱃지) + 태그 필 행(도메인·카테고리).
   return `<a class="card" href="#/item/${item.id}">
-    <span class="card-thumb">${cardThumb(item)}</span>
-    <button class="card-star ${marked ? 'on' : ''}" data-mark="${item.id}" aria-label="북마크 토글">${marked ? '★' : '☆'}</button>
-    <span class="card-body">
-      <span class="card-top"><i class="card-dot" style="background:${d.color}"></i>${d.ko} · ${esc(item.categoryLabel)}</span>
-      <span class="card-title">${esc(item.title)}${item.titleEn ? `<small>${esc(item.titleEn)}</small>` : ''}</span>
-      <span class="card-oneliner">${esc(item.oneLiner)}</span>
-      ${sub ? `<span class="card-meta">${esc(sub)}</span>` : ''}
+    <span class="card-thumb">
+      ${cardThumb(item)}
     </span>
+    <button class="card-star ${marked ? 'on' : ''}" data-mark="${item.id}" aria-label="북마크 토글">${marked ? '★' : '☆'}</button>
+    <span class="card-caption">
+      <span class="card-title">${esc(item.title)}<i class="card-arrow" aria-hidden="true">↗</i></span>
+      ${cardBadge(item.credibility)}
+    </span>
+    <span class="card-tags">
+      <span class="card-tag">${d.ko}</span>
+      <span class="card-tag">${esc(item.categoryLabel)}</span>
+    </span>
+    ${item.oneLiner ? `<span class="card-oneliner-mini">${esc(item.oneLiner)}</span>` : ''}
   </a>`;
 }
 const grid = (items) => items.length
@@ -120,7 +122,6 @@ function renderHome() {
   const domainCards = DOMAIN_ORDER.map((k, i) => {
     const d = DOMAINS[k];
     return `<a class="domain-card" href="#/explore?d=${k}">
-      <i class="dot" style="background:${d.color}"></i>
       <h3>${d.ko}</h3><div class="en">${d.en}</div>
       <p>${d.desc}</p><div class="count"><b>${counts[i]}</b> 항목</div>
     </a>`;
@@ -128,10 +129,12 @@ function renderHome() {
   const featured = pickFeatured();
   view.innerHTML = `
     <section class="hero">
-      <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(0 50 50)" stroke-dasharray="2 10"/><circle cx="50" cy="50" r="10" fill="currentColor"/></svg></div>
-      <h1 class="hero-title">크리에이티브 인덱스</h1>
-      <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙, 프론트엔드 용어까지. 흩어진 크리에이티브 지식을 하나의 색인으로 모았습니다. <b>${ALL.length}</b>개 항목.</p>
-      <form class="hero-search" id="homeSearch"><input type="search" placeholder="무엇이든 검색: 대비, 바우하우스, 프레이밍…" aria-label="검색"></form>
+      <div class="hero-stage">
+        <div class="hero-mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="2.5" transform="rotate(0 50 50)" stroke-dasharray="2 10"/><circle cx="50" cy="50" r="10" fill="currentColor"/></svg></div>
+        <h1 class="hero-title">크리에이티브 인덱스</h1>
+        <p class="hero-desc">아름다움의 원리, 미술·디자인 양식, 카피·발상의 법칙, 프론트엔드 용어까지. 흩어진 크리에이티브 지식을 하나의 색인으로 모았습니다. <b>${ALL.length}</b>개 항목.</p>
+        <form class="hero-search" id="homeSearch"><input type="search" placeholder="무엇이든 검색: 대비, 바우하우스, 프레이밍…" aria-label="검색"></form>
+      </div>
     </section>
     <div class="wrap">
       <section class="domains">${domainCards}</section>
@@ -145,7 +148,7 @@ function renderHome() {
     const q = e.target.querySelector('input').value.trim();
     location.hash = `#/explore${q ? `?q=${encodeURIComponent(q)}` : ''}`;
   });
-  $('#shuffle').addEventListener('click', () => { $('#featuredGrid').innerHTML = pickFeatured().map(cardHTML).join(''); });
+  $('#shuffle').addEventListener('click', () => { $('#featuredGrid').innerHTML = pickFeatured().map(cardHTML).join(''); revealCards($('#featuredGrid')); });
 }
 function pickFeatured() {
   return DOMAIN_ORDER.map((k) => {
@@ -242,7 +245,7 @@ function timelineHTML(items) {
         </a>`;
       }).join('')}
     </div>
-    <p class="tl-note">${isType ? `활자 양식 = 그 시대 대표 서체로 렌더 · 막대 <span class="tl-leg"><i style="background:var(--ink)"></i>인물</span><span class="tl-leg"><i style="background:var(--c-typo)"></i>파운드리</span><span class="tl-leg"><i style="background:var(--ink-faint)"></i>한글</span> · 시대순 · 가로 = 등장 시기` : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
+    <p class="tl-note">${isType ? `활자 양식 = 그 시대 대표 서체로 렌더 · 막대 <span class="tl-leg"><i style="background:var(--ink)"></i>인물</span><span class="tl-leg"><i style="background:var(--ink-muted)"></i>파운드리</span><span class="tl-leg"><i style="background:var(--ink-faint)"></i>한글</span> · 시대순 · 가로 = 등장 시기` : '막대 = 시대 폭 · 썸네일 = 대표작'}</p>
   </div>`;
 }
 function applyFilters() {
@@ -261,6 +264,7 @@ function applyFilters() {
   } else {
     if (meta) meta.textContent = `${items.length}개 항목${q ? ` · “${exState.q}”` : ''}`;
     holder.innerHTML = grid(items);
+    revealCards(holder);
   }
 }
 function syncURL() {
@@ -316,13 +320,13 @@ function renderItem(id) {
   const rel = (it.related || []).map((rid) => BY_ID.get(rid)).filter(Boolean);
   view.innerHTML = `<div class="wrap"><article class="detail">
     <a class="detail-back" href="#/explore?d=${it.domain}">← ${d.ko} 목록</a>
-    <div class="detail-top"><i class="card-dot" style="background:${d.color}"></i>${d.ko} · ${esc(it.categoryLabel)} ${badge(it.credibility)}</div>
-    <h1 class="detail-title">${esc(it.title)}${it.titleEn ? `<span class="en">${esc(it.titleEn)}</span>` : ''}</h1>
+    <div class="detail-top">${d.ko} · ${esc(it.categoryLabel)} ${badge(it.credibility)}</div>
+    <div class="detail-title-row">
+      <h1 class="detail-title">${esc(it.title)}${it.titleEn ? `<span class="en">${esc(it.titleEn)}</span>` : ''}</h1>
+      <button class="detail-star ${marked ? 'on' : ''}" data-mark="${it.id}" aria-label="북마크 토글">${marked ? '★' : '☆'}</button>
+    </div>
     ${meta.length ? `<div class="detail-source">${meta.map((m) => `<span>${esc(m)}</span>`).join('')}</div>` : ''}
     <p class="detail-oneliner">${esc(it.oneLiner)}</p>
-    <div class="detail-actions">
-      <button class="btn ${marked ? 'on' : ''}" data-mark="${it.id}">${marked ? '저장됨' : '북마크'}</button>
-    </div>
     <div class="detail-body">${body}</div>
     ${rel.length ? `<div class="detail-block" style="margin-top:40px"><div class="detail-sub">연결된 항목</div><div class="related-grid">${rel.map(cardHTML).join('')}</div></div>` : ''}
   </article></div>`;
@@ -459,7 +463,7 @@ function renderBoard() {
 
 // ── 뷰: 소개 ──
 function renderAbout() {
-  const legend = Object.values(CRED).map((c) => `<span class="badge ${c.cls}"><i class="b-dot"></i>${c.ko} · ${c.note}</span>`).join('');
+  const legend = Object.values(CRED).map((c) => `<span class="badge ${c.cls}">${c.ko} · ${c.note}</span>`).join('');
   view.innerHTML = `<div class="wrap"><div class="about">
     <h2>소개</h2>
     <p>〈크리에이티브 인덱스〉는 흩어져 있던 크리에이티브 지식을 하나의 색인으로 모읍니다. <b>미감</b>(아름다움의 원리), 양식(미술·디자인 사조와 개념), 타이포(활자의 역사와 사람), 전략(카피·발상·설득의 법칙), 프론트엔드(웹·앱 개발 용어).</p>
@@ -489,6 +493,7 @@ function router() {
   updateBoardCount();
   if (seg[0] !== 'explore') window.scrollTo(0, 0);
   view.focus({ preventScroll: true });
+  revealCards(view);
 }
 function updateBoardCount() {
   const n = getMarks().length; const el = $('#navBoardCount'); if (el) el.textContent = n ? n : '';
@@ -510,18 +515,36 @@ view.addEventListener('click', (e) => {
 function refreshStars() {
   view.querySelectorAll('[data-mark]').forEach((b) => {
     const on = isMarked(b.dataset.mark);
-    if (b.classList.contains('card-star')) { b.classList.toggle('on', on); b.textContent = on ? '★' : '☆'; }
-    else if (b.classList.contains('btn')) { b.classList.toggle('on', on); b.textContent = on ? '저장됨' : '북마크'; }
+    if (b.classList.contains('card-star') || b.classList.contains('detail-star')) { b.classList.toggle('on', on); b.textContent = on ? '★' : '☆'; }
   });
 }
 
 // ── 시작 ──
 (async function init() {
-  $('#themeToggle')?.addEventListener('click', () => {
-    applyTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
-  });
   view.innerHTML = `<div class="wrap"><div class="empty">불러오는 중…</div></div>`;
   await loadData();
   window.addEventListener('hashchange', router);
   router();
 })();
+
+const PREFERS_REDUCED_MOTION = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// ── 카드 리빌: IntersectionObserver + 55ms 스태거 (1회, prefers-reduced-motion 존중) ──
+// rootMargin을 넉넉히 잡고, 그래도 관측되지 않은 카드는 안전망 타이머로 강제 노출한다
+// (스크롤바 드래그·End 키 등 순간 점프로 프레임이 건너뛰면 중간 요소가 영영 안 보일 수 있음).
+function revealCards(root) {
+  if (!root || PREFERS_REDUCED_MOTION) return;
+  const cards = root.querySelectorAll('.card:not(.is-revealed), .domain-card:not(.is-revealed)');
+  if (!cards.length) return;
+  cards.forEach((c) => c.classList.add('is-revealed', 'card-reveal'));
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      const idx = Array.prototype.indexOf.call(cards, entry.target);
+      setTimeout(() => entry.target.classList.add('card-reveal-in'), Math.max(0, idx) * 55);
+      obs.unobserve(entry.target);
+    });
+  }, { threshold: 0.01, rootMargin: '600px 0px' });
+  cards.forEach((c) => io.observe(c));
+  setTimeout(() => { io.disconnect(); cards.forEach((c) => c.classList.add('card-reveal-in')); }, 1600);
+}

@@ -1,0 +1,182 @@
+/* ============================================================
+   getlayers 클론 — fonts.css
+   원본: source/_next/static/chunks/0u2jgac~8gzq6.css
+   변경점: URL만 /fonts/<파일명> 으로 치환(?dpl= 쿼리 제거).
+   그 외 속성(unicode-range·font-display·size-adjust 등)은 원본 그대로.
+   ============================================================ */
+
+/* ---------------- Onest (next/font google) ----------------
+   4개 서브셋 파일 × weight 400/500/600 (파일은 공유, unicode-range로 분기)
+   - 4084ce120da2621a  : cyrillic-ext
+   - 16d91c780434f2ce  : cyrillic
+   - ef79401ea952b7f0  : latin-ext
+   - 8800dfc60902df36  : latin
+------------------------------------------------------------- */
+
+/* Onest 400 */
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/4084ce120da2621a-s.0xli8s7shaj_o.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/16d91c780434f2ce-s.08txxdt~yy1o3.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/ef79401ea952b7f0-s.14047qjmgi0bb.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/8800dfc60902df36-s.p.127vvh92c894b.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Onest 500 */
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/4084ce120da2621a-s.0xli8s7shaj_o.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/16d91c780434f2ce-s.08txxdt~yy1o3.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/ef79401ea952b7f0-s.14047qjmgi0bb.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/8800dfc60902df36-s.p.127vvh92c894b.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Onest 600 */
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/4084ce120da2621a-s.0xli8s7shaj_o.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/16d91c780434f2ce-s.08txxdt~yy1o3.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/ef79401ea952b7f0-s.14047qjmgi0bb.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Onest;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/8800dfc60902df36-s.p.127vvh92c894b.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Onest 폴백(레이아웃 시프트 방지 size-adjust) */
+@font-face {
+  font-family: Onest Fallback;
+  src: local(Arial);
+  ascent-override: 92.2%;
+  descent-override: 28.99%;
+  line-gap-override: 0.0%;
+  size-adjust: 105.2%;
+}
+
+/* ---------------- generalSans (next/font local) ---------------- */
+@font-face {
+  font-family: generalSans;
+  src: url(/fonts/GeneralSans_Regular-s.p.0aqd04_idyb6d.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: generalSans;
+  src: url(/fonts/GeneralSans_Medium-s.p.0rb3ehjtk_okh.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: generalSans;
+  src: url(/fonts/GeneralSans_Semibold-s.p.0hfk9k1kkjsdy.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: generalSans;
+  src: url(/fonts/GeneralSans_Bold-s.p.0-mpnqa_q7f0-.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* generalSans 폴백 */
+@font-face {
+  font-family: generalSans Fallback;
+  src: local(Arial);
+  ascent-override: 99.89%;
+  descent-override: 23.74%;
+  line-gap-override: 9.89%;
+  size-adjust: 101.11%;
+}
+
+/* ---------------- next/font 변수 체계 수동 재현 ----------------
+   원본은 CSS 모듈 클래스(.onest_…__variable / .generalsans_…__variable)를
+   html/body에 붙여 변수를 주입했다. 여기서는 :root에 동일 값으로 정의.
+   (원본 변수값: --font-onest:"Onest", "Onest Fallback"
+              --font-general:"generalSans", "generalSans Fallback")
+----------------------------------------------------------------- */
+/* 위키 v2 추가 — Onest·generalSans는 라틴 전용(한글 글리프 없음)이라 한글은 브라우저 기본
+   시스템 폰트로 폴백되고 있었다(2026-07-16 사용자 실측 지적). "Pretendard Variable"을 두 스택
+   모두에 끼워 넣어 라틴은 그대로 Onest/generalSans, 한글은 Pretendard로 렌더되게 한다.
+   ⚠ family명 주의: jsdelivr dynamic-subset CSS가 정의하는 이름은 "Pretendard"가 아니라
+   "Pretendard Variable"이다 — "Pretendard"만 쓰면 그대로 폴백된다(이 프로젝트 기존 실수 재발 방지). */
+:root {
+  --font-onest: "Onest", "Pretendard Variable", "Onest Fallback";
+  --font-general: "generalSans", "Pretendard Variable", "generalSans Fallback";
+}

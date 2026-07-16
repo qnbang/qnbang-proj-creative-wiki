@@ -1,0 +1,133 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 41742, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(70703),
+    i = e.i(48787),
+    s = e.i(65658),
+    n = e.i(71645),
+    a = e.i(37203);
+  let o = (0, r.default)(() => e.A(32412).then(e => ({
+      default: e.MeshGradient
+    })), {
+      loadableGenerated: {
+        modules: [4456]
+      },
+      ssr: !1
+    }),
+    c = ["#0c0d10", "#06070a", "#06070a", "#2e333d", "#586575"];
+  e.s(["MeshBackdrop", 0, () => {
+    let e = (0, a.useIsStaticMode)(),
+      r = (0, n.useRef)(null),
+      [l, d] = (0, n.useState)(!1),
+      [u, m] = (0, n.useState)(!1);
+    (0, n.useEffect)(() => {
+      if (e) return;
+      let t = r.current;
+      if (!t) return;
+      let i = new IntersectionObserver(e => {
+        e.some(e => e.isIntersecting) && d(!0)
+      }, {
+        rootMargin: "50% 0px 50% 0px"
+      });
+      i.observe(t);
+      let s = new IntersectionObserver(e => {
+        e.some(e => e.isIntersecting) || (d(!1), m(!1))
+      }, {
+        rootMargin: "100% 0px 100% 0px"
+      });
+      return s.observe(t), () => {
+        i.disconnect(), s.disconnect()
+      }
+    }, [e]), (0, n.useEffect)(() => {
+      if (!l) return;
+      let e = requestAnimationFrame(() => {
+        e = requestAnimationFrame(() => m(!0))
+      });
+      return () => cancelAnimationFrame(e)
+    }, [l]);
+    let h = (0, s.useSpring)({
+      opacity: +!!u,
+      config: {
+        tension: 120,
+        friction: 28
+      }
+    });
+    return (0, t.jsx)("div", {
+      ref: r,
+      "aria-hidden": "true",
+      className: "pointer-events-none fixed inset-0 z-0 select-none",
+      children: l && (0, t.jsx)(i.animated.div, {
+        style: {
+          opacity: h.opacity
+        },
+        className: "absolute inset-0",
+        children: (0, t.jsx)(o, {
+          colors: c,
+          speed: .18,
+          distortion: .95,
+          swirl: .18,
+          grainOverlay: .04,
+          style: {
+            width: "100%",
+            height: "100%"
+          }
+        })
+      })
+    })
+  }])
+}, 58298, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(71645),
+    i = e.i(22016),
+    s = e.i(72562),
+    n = e.i(41742);
+  e.s(["default", 0, function({
+    error: e,
+    reset: a
+  }) {
+    return (0, r.useEffect)(() => {
+      console.error("[app/error]", e)
+    }, [e]), (0, t.jsxs)(t.Fragment, {
+      children: [(0, t.jsx)(n.MeshBackdrop, {}), (0, t.jsxs)("main", {
+        className: "relative z-10 mx-auto flex min-h-screen w-full max-w-2xl flex-col items-center justify-center gap-6 px-5 py-24 text-center sm:px-8",
+        children: [(0, t.jsx)("div", {
+          className: "not-found-mark",
+          "aria-hidden": "true",
+          children: (0, t.jsx)(s.Logo, {
+            showWordmark: !1
+          })
+        }), (0, t.jsx)("p", {
+          className: "profile-eyebrow",
+          children: "500 · Something cracked"
+        }), (0, t.jsx)("h1", {
+          className: "section-title",
+          children: "Sorry — that didn’t work."
+        }), (0, t.jsx)("p", {
+          className: "not-found-text",
+          children: "Something on our end is misbehaving. We’re already looking into it — give it a moment and try again. If you’re a Full Stack subscriber, drop a note in our private Discord and we’ll dig in with you."
+        }), (0, t.jsxs)("div", {
+          className: "not-found-actions",
+          children: [(0, t.jsx)("button", {
+            type: "button",
+            className: "btn-secondary",
+            onClick: a,
+            children: "Try again"
+          }), (0, t.jsx)(i.default, {
+            href: "/",
+            className: "profile-card-aux",
+            children: "Back home →"
+          })]
+        }), e.digest && (0, t.jsxs)("p", {
+          className: "error-digest",
+          "aria-label": "Error reference",
+          children: ["Reference: ", (0, t.jsx)("code", {
+            children: e.digest
+          })]
+        })]
+      })]
+    })
+  }])
+}, 32412, e => {
+  e.v(t => Promise.all(["static/chunks/0blldhynyk6cn.js"].map(t => e.l(t))).then(() => t(4456)))
+}]);

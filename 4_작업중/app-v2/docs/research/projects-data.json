@@ -1,0 +1,2056 @@
+[
+  {
+    "id": "prism-bubbles",
+    "title": "Prism Bubbles",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A cluster of iridescent soap bubbles drifts across a soft blush-pink haze, fusing and morphing as they graze past each other, rainbow shells catching the light in a bright, dreamy shimmer.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-bubbles.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-bubbles.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-bubbles-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-bubbles-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 14,
+    "createdAt": "2026-07-01"
+  },
+  {
+    "id": "verdant-glass",
+    "title": "Verdant Glass",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "Lush green foliage drifts and blooms behind a pane of crinkled cathedral glass, catching light in glittering creases while your touch wipes it clear.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/verdant-glass.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/verdant-glass.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/verdant-glass-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/verdant-glass-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 7,
+    "createdAt": "2026-07-01"
+  },
+  {
+    "id": "sea-sparkle",
+    "title": "Sea Sparkle",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A glittering bioluminescent creature adrift in the black void, its fuzzy cyan-to-indigo body flinging long spines into the dark while a warm orange glow shivers and sparkles at its heart.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sea-sparkle.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sea-sparkle.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sea-sparkle-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sea-sparkle-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 8,
+    "createdAt": "2026-07-01"
+  },
+  {
+    "id": "aether-flux",
+    "title": "Aether Flux",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A slowly turning cube of brushed-platinum rods swirling through a silent black void, catching pinpoint glints as the field churns into vortices.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/aether-flux.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/aether-flux.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/aether-flux-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/aether-flux-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 17,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "neon-totem",
+    "title": "Neon Totem",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A psychedelic neon totem snakes down a starlit void, its glowing rainbow body raked into shimmering vertical streaks that rain with light.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/neon-totem.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/neon-totem.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/neon-totem-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/neon-totem-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 0,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "halcyon-gate",
+    "title": "Halcyon Gate",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A slender brass ring stands half-sunk in a calm golden-hour sea, framing a glowing sunset sky that ripples and glitters in the mirror water below.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-gate.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-gate.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-gate-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-gate-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 15,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "halcyon-night",
+    "title": "Halcyon Gate — Night",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A still midnight sea mirrors a glowing moon and a slender brass arch beneath a deep indigo sky dusted with drifting cloud and quiet stars.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-night.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-night.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-night-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/halcyon-night-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 19,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "fluted-veil",
+    "title": "Fluted Veil",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A warm wave of crimson and lavender light drifts and churns behind a panel of vertical fluted glass, sliced into shimmering, grain-dusted corrugated columns.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/fluted-veil.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/fluted-veil.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/fluted-veil-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/fluted-veil-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 0,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "gilded-gyre",
+    "title": "Gilded Gyre",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A radiant gold gyroscope sphere turns and drifts above a glowing pool in a luminous blue grotto, its mirrored reflection rippling beneath it.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/gilded-gyre.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/gilded-gyre.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/gilded-gyre-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/gilded-gyre-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 32,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "halcyon",
+    "title": "Halcyon",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A  pocket watch drifts above an endless sea as the sky burns from dawn to dusk to moonlit night — a slow, cinematic voyage for a timepiece made to outlast generations. 3D watch model was created by Eddyson Work (https://sketchfab.com/LepriconGreen)",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/halcyon.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/halcyon.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/halcyon-preview.mp4",
+    "likes": 9,
+    "createdAt": "2026-06-30"
+  },
+  {
+    "id": "liquid-aurora",
+    "title": "Liquid Aurora",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "Tall chromatic tongues of liquid light rise and fold through a glowing spectrum, traced by thin dark creases like ink swirling in glass.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/liquid-aurora.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/liquid-aurora.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/liquid-aurora-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/liquid-aurora-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 26,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "spectral-warp",
+    "title": "Spectral Warp",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A white-hot diffraction star bursting into hundreds of full-spectrum rays that warp and fan across a twinkling starfield.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spectral-warp.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spectral-warp.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spectral-warp-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spectral-warp-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 2,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "wormhole",
+    "title": "Wormhole",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "shaders"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "shaders"
+    ],
+    "tier": "Premium",
+    "description": "A hyperspace jump pulled into light: streaks spiral out of a glowing vortex eye and rush past the lens through a haze of drifting colourful bokeh.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wormhole.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wormhole.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wormhole-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wormhole-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 6,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "plasma-burst",
+    "title": "Plasma Burst",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "shaders"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "shaders"
+    ],
+    "tier": "Premium",
+    "description": "A white-hot core erupts into hundreds of curling electric-violet filaments wrapped in a haze of twinkling sparks, all aglow on pure black.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plasma-burst.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plasma-burst.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plasma-burst-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plasma-burst-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 14,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "chroma-lattice",
+    "title": "Chroma Lattice",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A four-fold kaleidoscope of rainbow-fringed light that folds, blooms into butterfly petals, and rushes endlessly outward through a glitchy spectral tunnel.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/chroma-lattice.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/chroma-lattice.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/chroma-lattice-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/chroma-lattice-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 18,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "cosmic-web",
+    "title": "Cosmic Web",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A luminous web of galaxy clusters drifting through deep space, gold light blazing at the intersections while rivers of light pulse along violet-blue filaments.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cosmic-web.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cosmic-web.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cosmic-web-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cosmic-web-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 8,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "glyph-grid",
+    "title": "Glyph Grid",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A drifting field of acid-lime tech glyphs flickering across black, punched through with bold solid rectangles and lit by your cursor.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/glyph-grid.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/glyph-grid.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/glyph-grid-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/glyph-grid-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 30,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "cubic-gradient",
+    "title": "Cubic Gradient",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A frosted-glass mosaic of soft rounded tiles drifting through a flowing white-to-green haze, rippling with light wherever you touch it.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cubic-gradient.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cubic-gradient.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cubic-gradient-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/cubic-gradient-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 21,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "acid-rain",
+    "title": "Acid Rain",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shaders",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A psychedelic neon downpour of rainbow light streaming through a dark, star-flecked void, dissolved into glowing ASCII glyphs.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/acid-rain.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/acid-rain.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/acid-rain-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/acid-rain-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 15,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "slipstream",
+    "title": "Slipstream",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A warp-speed highway of light trails sweeping into a starlit black void, curving toward a vanishing point at the edge of the dark.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/slipstream.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/slipstream.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/slipstream-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/slipstream-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 0,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "vortex",
+    "title": "Vortex",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A searing white-hot star caught at the eye of a vast, slowly churning whirlpool of silken stardust adrift in the deep dark.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/vortex.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/vortex.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/vortex-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/vortex-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 21,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "maelstrom",
+    "title": "Maelstrom",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A vast spiral of light winds inward and drowns into a black singularity, adrift in the silent glitter of deep space.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/maelstrom.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/maelstrom.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/maelstrom-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/maelstrom-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 12,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "iridescent-clouds",
+    "title": "Iridescent Clouds",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "Billowing amethyst-to-cyan cumulus drift across a violet dusk sky, lit by a warm peach glow that trails your cursor.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/iridescent-clouds.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/iridescent-clouds.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/iridescent-clouds-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/iridescent-clouds-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 26,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "tree-of-life",
+    "title": "Tree of Life",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A luminous tree sketched from tangled white-hot filaments, breathing in a soft wind as it turns through a cool, near-black void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tree-of-life.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tree-of-life.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tree-of-life-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tree-of-life-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 12,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "nebula",
+    "title": "Nebula",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A drifting amethyst nebula aglow in the deep violet dark, where slow billowing clouds and a scatter of distant starlight wander across an endless cosmic night.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/nebula.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/nebula.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/nebula-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/nebula-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 14,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "prism-streaks",
+    "title": "Prism Streaks",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "shader",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A hyperspace bundle of white-hot light filaments bends and pinches through an unseen waist, splintering into warm and cool rainbow edges over drifting sparkle dust in the dark.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-streaks.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-streaks.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-streaks-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/prism-streaks-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 19,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "orb",
+    "title": "Orb",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A luminous sphere of magenta-and-violet light, breathing softly in the dark with a liquid, iridescent sheen.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/orb.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/orb.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/orb-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/orb-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 27,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "solaris",
+    "title": "Solaris",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A molten star sphere breathing in the dark, its cool-to-warm shell flaring with solar prominences wherever your cursor touches.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/solaris.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/solaris.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/solaris-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/solaris-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 22,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "plume",
+    "title": "Plume",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "stack": [
+      "threejs",
+      "particles",
+      "interactive"
+    ],
+    "tier": "Premium",
+    "description": "A tall, wavering column of luminous smoke rises from a glowing pool of dust and tapers into a white-hot flicker beneath a quiet field of stars.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plume.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plume.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plume-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/plume-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 4,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "ai-studio",
+    "title": "AI Studio",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A chrome star turns in the dark and the whole page becomes one cinematic scroll — violet light, a bloom of drifting particles, and a camera that flies clean through it. A neural-brand showreel that thinks ahead.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ai-studio.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ai-studio.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ai-studio-preview.mp4",
+    "likes": 4,
+    "createdAt": "2026-06-28"
+  },
+  {
+    "id": "new-era",
+    "title": "New Era",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A luminous swarm of orange-and-blue particles drifts through deep space, endlessly reshaping itself as you scroll — a cinematic voyage from a single point of light to a vast spiral galaxy.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/new-era.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/new-era.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/new-era-preview.mp4",
+    "likes": 45,
+    "createdAt": "2026-06-28"
+  },
+  {
+    "id": "helios",
+    "title": "Helios",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "tier": "Premium",
+    "description": "A field of molten light breathes behind the story of a fusion reactor's operator console — a case study that unfolds as you descend.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/helios.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/helios.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/helios-preview.mp4",
+    "likes": 33,
+    "createdAt": "2026-06-27"
+  },
+  {
+    "id": "clarix",
+    "title": "Clarix",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs"
+    ],
+    "tier": "Premium",
+    "description": "A cinematic scroll where a holographic ASCII model dissolves into being, words fly through space, and a logo assembles itself from thousands of glowing particles.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/clarix.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/clarix.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/clarix-preview.mp4",
+    "likes": 45,
+    "createdAt": "2026-06-26"
+  },
+  {
+    "id": "creative-director",
+    "title": "Creative Director",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A portfolio that smolders — molten reds drift like a lava lamp beneath film grain while case studies glide past in a slow heat haze.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/creative-director.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/creative-director.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/creative-director-preview.mp4",
+    "likes": 58,
+    "createdAt": "2026-06-25"
+  },
+  {
+    "id": "artist",
+    "title": "Kai Nomura",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A generative artist's portfolio in hushed, monochrome minimalism — works of light, code, and memory drifting past as you scroll.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/artist.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/artist.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/artist-preview.mp4",
+    "likes": 5,
+    "createdAt": "2026-06-16"
+  },
+  {
+    "id": "marcus-vane",
+    "title": "Marcus Vane",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A founder stands framed inside his own towering name — a cinematic, dark study in conviction, ventures, and two decades of building the impossible.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/marcus-vane.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/marcus-vane.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/marcus-vane-preview.mp4",
+    "likes": 18,
+    "createdAt": "2026-06-16"
+  },
+  {
+    "id": "neural-monitor",
+    "title": "Neural Monitor",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A luminous point-cloud brain hangs in the dark while the scan glides region by region — then lets go, scattering into a living constellation of signal.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/neural-monitor.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/neural-monitor.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/neural-monitor-preview.mp4",
+    "likes": 39,
+    "createdAt": "2026-06-10"
+  },
+  {
+    "id": "pinwheel-galaxy",
+    "title": "Pinwheel Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A vast pink-and-magenta spiral galaxy winds slowly through the dark as warm embers lift off its arms.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/pinwheel-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/pinwheel-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/pinwheel-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/pinwheel-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 22,
+    "createdAt": "2026-06-08"
+  },
+  {
+    "id": "universe",
+    "title": "Universe",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "Twin point galaxies in blue and steel-gray paint themselves outward on expanding ellipses through a dark void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/universe.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/universe.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/universe-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/universe-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 12,
+    "createdAt": "2026-06-08"
+  },
+  {
+    "id": "negantropy",
+    "title": "Negantropy",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "nextjs"
+    ],
+    "tier": "Premium",
+    "description": "A scroll through deep space where cosmic particle fields assemble, ignite, and pour through an hourglass — a cinematic tribute to refusing to fall apart.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/negantropy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/negantropy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/negantropy-preview.mp4",
+    "likes": 34,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "laocoon",
+    "title": "Laocoon",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs"
+    ],
+    "stack": [
+      "landing page",
+      "threejs"
+    ],
+    "tier": "Free",
+    "description": "A cinematic WebGL homage to the Laocoön — a glowing bronze sculpture you orbit as you scroll, wrapped in molten forge sparks and a breathing liquid-metal shader that drifts from bronze to deep sapphire.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/laocoon.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/laocoon.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/laocoon-preview.mp4",
+    "likes": 40,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "loopstack",
+    "title": "Loopstack",
+    "category": "template",
+    "tags": [
+      "hero"
+    ],
+    "stack": [
+      "hero"
+    ],
+    "tier": "Free",
+    "description": "A black canvas where a flower blooms behind your every word, and a glowing cursor whispers hello.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/loopstack.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/loopstack.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/loopstack-preview.mp4",
+    "likes": 28,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "soda",
+    "title": "Soda",
+    "category": "template",
+    "tags": [
+      "hero"
+    ],
+    "stack": [
+      "hero"
+    ],
+    "tier": "Free",
+    "description": "A 3D soda can floats and follows your cursor while berries scatter from your touch and the whole world shifts color when you pick a flavor.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/soda.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/soda.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/soda-preview.mp4",
+    "likes": 37,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "gravity-webgl",
+    "title": "Gravity",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "tier": "Premium",
+    "description": "A WebGL field of glossy spheres that drops, scatters, and reassembles into a heart as you scroll — chasing your cursor the whole way.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/gravity-webgl.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/gravity-webgl.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/gravity-webgl-preview.mp4",
+    "likes": 27,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "vexon",
+    "title": "Vexon",
+    "category": "template",
+    "tags": [
+      "hero",
+      "threejs",
+      "react"
+    ],
+    "stack": [
+      "hero",
+      "threejs",
+      "react"
+    ],
+    "tier": "Premium",
+    "description": "A black, GPU-particle halo breathes behind a dark AI landing where data resolves into your unfair advantage.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/vexon.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/vexon.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/vexon-preview.mp4",
+    "likes": 16,
+    "createdAt": "2026-06-07"
+  },
+  {
+    "id": "dna-helix",
+    "title": "DNA Helix",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A glowing double helix of particles spirals through deep midnight-blue space, its indigo-to-violet strands twisting and swaying.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/dna-helix.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/dna-helix.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/dna-helix-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/dna-helix-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 7,
+    "createdAt": "2026-06-06"
+  },
+  {
+    "id": "brain",
+    "title": "Brain",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader"
+    ],
+    "stack": [
+      "threejs",
+      "shader"
+    ],
+    "tier": "Premium",
+    "description": "A glowing point-cloud brain that drifts and sparks with synapse flashes in deep blue space.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/brain.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/brain.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/brain-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/brain-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 21,
+    "createdAt": "2026-06-04"
+  },
+  {
+    "id": "funnel",
+    "title": "Funnel",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A swirling vortex of particles glowing from deep indigo to electric cyan in a dark violet haze.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/funnel.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/funnel.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/funnel-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/funnel-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 4,
+    "createdAt": "2026-06-02"
+  },
+  {
+    "id": "planet",
+    "title": "Planet",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader"
+    ],
+    "stack": [
+      "threejs",
+      "shader"
+    ],
+    "tier": "Premium",
+    "description": "A textured 3D earth spins beneath drifting clouds, city lights and radar pings glowing across its night side.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/planet.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/planet.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/planet-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/planet-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 11,
+    "createdAt": "2026-06-01"
+  },
+  {
+    "id": "wave-galaxy",
+    "title": "Wave Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A vast disc of glowing blue-and-cyan points rolls in an animated radial wave over deep black.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wave-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wave-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wave-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/wave-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 8,
+    "createdAt": "2026-05-31"
+  },
+  {
+    "id": "sphere",
+    "title": "Particle Sphere",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A dense sphere of glowing points churns and ripples, shading from deep blue into hot magenta.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sphere.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sphere.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sphere-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/sphere-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 19,
+    "createdAt": "2026-05-29"
+  },
+  {
+    "id": "ring-galaxy",
+    "title": "Ring Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "Five concentric rings of electric-cyan stars ripple and spin against a dark navy void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/ring-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/ring-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/ring-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/ring-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 11,
+    "createdAt": "2026-05-27"
+  },
+  {
+    "id": "tentacle-star",
+    "title": "Tentacle Star",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A bioluminescent star core fans out into drifting tentacle filaments, shading from icy cyan to violet tips.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tentacle-star.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tentacle-star.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tentacle-star-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tentacle-star-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 7,
+    "createdAt": "2026-05-25"
+  },
+  {
+    "id": "sea-storm",
+    "title": "Sea Storm",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/sea-storm.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/sea-storm.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/sea-storm-preview.mp4",
+    "likes": 15,
+    "createdAt": "2026-05-22"
+  },
+  {
+    "id": "purple-desert",
+    "title": "Purple Desert",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/purple-desert.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/purple-desert.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/purple-desert-preview.mp4",
+    "likes": 22,
+    "createdAt": "2026-05-20"
+  },
+  {
+    "id": "ascend",
+    "title": "Ascend",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "stack": [
+      "landing page",
+      "threejs",
+      "react"
+    ],
+    "tier": "Premium",
+    "description": "A living Earth turns in deep space behind a mint-lit SaaS landing page — city lights, drifting clouds, and radar pings glowing as the planet sinks and swings with every scroll.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ascend.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ascend.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/ascend-preview.mp4",
+    "likes": 11,
+    "createdAt": "2026-05-20"
+  },
+  {
+    "id": "pool",
+    "title": "Pool",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/pool.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/pool.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/pool-preview.mp4",
+    "likes": 4,
+    "createdAt": "2026-05-18"
+  },
+  {
+    "id": "storm",
+    "title": "Storm",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "A turbulent plasma orb of glowing points pulses and breathes, glowing from a crimson core to a gold rim.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/storm.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/storm.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/storm-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/storm-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 23,
+    "createdAt": "2026-05-16"
+  },
+  {
+    "id": "flow-wave",
+    "title": "Flow Wave",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "A glowing sea of mint particle hills rolling endlessly under a deep-emerald haze.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flow-wave.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flow-wave.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flow-wave-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flow-wave-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 14,
+    "createdAt": "2026-05-15"
+  },
+  {
+    "id": "lumora",
+    "title": "Lumora",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "nextjs"
+    ],
+    "tier": "Free",
+    "description": "An independent design-and-engineering studio rendered in near-black calm — bold work surfacing with quiet, fluid precision as the page drifts past.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/lumora.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/lumora.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/lumora-preview.mp4",
+    "likes": 43,
+    "createdAt": "2026-05-14"
+  },
+  {
+    "id": "moon-walk",
+    "title": "Moon Walk",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/moon-walk.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/moon-walk.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/moon-walk-preview.mp4",
+    "likes": 24,
+    "createdAt": "2026-05-14"
+  },
+  {
+    "id": "molecules-universe",
+    "title": "Molecules Universe",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/molecules-universe.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/molecules-universe.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/molecules-universe-preview.mp4",
+    "likes": 6,
+    "createdAt": "2026-05-12"
+  },
+  {
+    "id": "elliptical-galaxy",
+    "title": "Elliptical Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "A whole sky of tilted golden lens galaxies tumbling and twinkling across a deep-indigo void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/elliptical-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/elliptical-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/elliptical-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/elliptical-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 17,
+    "createdAt": "2026-05-09"
+  },
+  {
+    "id": "baseline",
+    "title": "Baseline",
+    "category": "template",
+    "tags": [
+      "landing page",
+      "nextjs"
+    ],
+    "stack": [
+      "landing page",
+      "nextjs"
+    ],
+    "tier": "Free",
+    "description": "A members' tennis club and academy carried with championship poise — deep court-blue, confident type, and a calm scroll that reveals the coaching, the courts, and the pedigree one beat at a time.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/templates/baseline.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/templates/baseline.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/templates/baseline-preview.mp4",
+    "likes": 39,
+    "createdAt": "2026-05-09"
+  },
+  {
+    "id": "metal-human",
+    "title": "Metal Human",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/metal-human.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/metal-human.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/metal-human-preview.mp4",
+    "likes": 22,
+    "createdAt": "2026-05-07"
+  },
+  {
+    "id": "meow-yawn",
+    "title": "Meow Yawn",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/meow-yawn.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/meow-yawn.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/meow-yawn-preview.mp4",
+    "likes": 5,
+    "createdAt": "2026-05-05"
+  },
+  {
+    "id": "flame",
+    "title": "Flame",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader"
+    ],
+    "stack": [
+      "threejs",
+      "shader"
+    ],
+    "tier": "Premium",
+    "description": "A single soft flame burns in the dark, its amber-gold core drifting upward through a dim olive haze.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flame.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flame.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flame-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flame-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 4,
+    "createdAt": "2026-05-03"
+  },
+  {
+    "id": "spiral-network",
+    "title": "Spiral Network",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A slowly tilting spiral of cyan particles resolves into a glowing web of connected strands over a warm rust backdrop.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-network.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-network.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-network-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-network-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 5,
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": "material-hills",
+    "title": "Material Hills",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/material-hills.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/material-hills.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/material-hills-preview.mp4",
+    "likes": 9,
+    "createdAt": "2026-04-29"
+  },
+  {
+    "id": "flying-dust",
+    "title": "Flying Dust",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "Glowing rust-red and amber dust motes drift weightlessly toward you through a deep brown-black void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flying-dust.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flying-dust.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flying-dust-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/flying-dust-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 21,
+    "createdAt": "2026-04-27"
+  },
+  {
+    "id": "hourglass-galaxy",
+    "title": "Hourglass Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "Two counter-rotating particle funnels pour through a glowing waist like cosmic sand in an hourglass.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/hourglass-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/hourglass-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/hourglass-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/hourglass-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 14,
+    "createdAt": "2026-04-24"
+  },
+  {
+    "id": "corner-flames",
+    "title": "Corner Flames",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "shader"
+    ],
+    "stack": [
+      "threejs",
+      "shader"
+    ],
+    "tier": "Premium",
+    "description": "Turbulent green-teal flames lick out of opposite corners of a black frame, folding endlessly in soft bloom.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/corner-flames.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/corner-flames.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/corner-flames-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/corner-flames-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 9,
+    "createdAt": "2026-04-22"
+  },
+  {
+    "id": "liqued-molecule",
+    "title": "Liqued Molecule",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/liqued-molecule.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/liqued-molecule.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/liqued-molecule-preview.mp4",
+    "likes": 8,
+    "createdAt": "2026-04-20"
+  },
+  {
+    "id": "koi-art",
+    "title": "Koi Art",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/koi-art.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/koi-art.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/koi-art-preview.mp4",
+    "likes": 19,
+    "createdAt": "2026-04-18"
+  },
+  {
+    "id": "scroll-terrain",
+    "title": "Roadmap Terrain",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A glowing point-cloud terrain of golden peaks rolls endlessly toward you through black space.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/scroll-terrain.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/scroll-terrain.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/scroll-terrain-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/scroll-terrain-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 5,
+    "createdAt": "2026-04-16"
+  },
+  {
+    "id": "hills",
+    "title": "Hills",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/hills.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/hills.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/hills-preview.mp4",
+    "likes": 16,
+    "createdAt": "2026-04-14"
+  },
+  {
+    "id": "glass-flower",
+    "title": "Glass Flower",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-flower.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-flower.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-flower-preview.mp4",
+    "likes": 17,
+    "createdAt": "2026-04-12"
+  },
+  {
+    "id": "glass-arc",
+    "title": "Glass Arc",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-arc.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-arc.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/glass-arc-preview.mp4",
+    "likes": 7,
+    "createdAt": "2026-04-09"
+  },
+  {
+    "id": "molecule",
+    "title": "Molecule",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "An icosahedral atom cage of glowing particle clusters wired together by thin gold bonds, turning in deep teal-navy space.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/molecule.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/molecule.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/molecule-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/molecule-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 15,
+    "createdAt": "2026-04-07"
+  },
+  {
+    "id": "flower-field",
+    "title": "Flower Field",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-field.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-field.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-field-preview.mp4",
+    "likes": 20,
+    "createdAt": "2026-04-05"
+  },
+  {
+    "id": "spiral-galaxy",
+    "title": "Spiral Galaxy",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A two-arm spiral galaxy glowing gold at its core and fading to violet across a dark indigo void.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-galaxy.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-galaxy.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-galaxy-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/spiral-galaxy-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 7,
+    "createdAt": "2026-04-03"
+  },
+  {
+    "id": "flower-arc",
+    "title": "Flower Arc",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Free",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-arc.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-arc.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/flower-arc-preview.mp4",
+    "likes": 30,
+    "createdAt": "2026-04-01"
+  },
+  {
+    "id": "artistic-hands",
+    "title": "Artistic Hands",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/artistic-hands.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/artistic-hands.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/artistic-hands-preview.mp4",
+    "likes": 14,
+    "createdAt": "2026-03-30"
+  },
+  {
+    "id": "blob",
+    "title": "Blob",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Premium",
+    "description": "A liquid emerald sphere of glowing points that breathes and slowly spins in a deep-green haze.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/blob.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/blob.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/blob-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/blob-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 16,
+    "createdAt": "2026-03-27"
+  },
+  {
+    "id": "starfield-close",
+    "title": "Starfield Close",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "A dense field of mint and bone-white stars wraps the camera and streams past like an endless tunnel of starlight.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/starfield-close.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/starfield-close.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/starfield-close-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/starfield-close-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 21,
+    "createdAt": "2026-03-25"
+  },
+  {
+    "id": "ancient-cave",
+    "title": "Ancient Cave",
+    "category": "background",
+    "tags": [
+      "background"
+    ],
+    "stack": [],
+    "tier": "Premium",
+    "description": "Source files are include 4K video and 2K poster without any watermarks\nVideo background is looped",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/ancient-cave.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/ancient-cave.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/backgrounds/ancient-cave-preview.mp4",
+    "likes": 8,
+    "createdAt": "2026-03-23"
+  },
+  {
+    "id": "tunnel",
+    "title": "Tunnel",
+    "category": "3d_scene",
+    "tags": [
+      "threejs",
+      "particles"
+    ],
+    "stack": [
+      "threejs",
+      "particles"
+    ],
+    "tier": "Free",
+    "description": "A glowing wormhole of particles ripples and swirls deeper into deep indigo and electric cyan.",
+    "image": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tunnel.webp",
+    "posterVideo": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tunnel.mp4",
+    "posterVideoPreview": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tunnel-preview.mp4",
+    "controller": {
+      "videoUrl": "https://api.getlayers.ai/storage/v1/object/public/public/3d_scenes/tunnel-instruction.mp4",
+      "title": "Get full control over the scene",
+      "pill": "For Full Stack only",
+      "subtitle": "Source code is coming with built-in controller to adjust the effect as much as you wish allowing to get fully different results"
+    },
+    "likes": 15,
+    "createdAt": "2026-03-21"
+  }
+]

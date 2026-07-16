@@ -1,1 +1,19 @@
-node_modules/ .venv/ .DS_Store *.png *.jpg *.jpeg *.pdf *.zip *.mp4 *.psd *.ai *.hwp *.hwpx *.pptx *.docx *.xlsx
+node_modules/
+.next/
+out/
+.venv/
+.DS_Store
+*.tsbuildinfo
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.mp4
+*.psd
+*.ai
+*.hwp
+*.hwpx
+*.pptx
+*.docx
+*.xlsx

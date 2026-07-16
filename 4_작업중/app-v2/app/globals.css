@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@import "./components.css";
+
+/* 원본 Tailwind theme 매핑 — 마크업의 text-ink · bg-surface · border-line · font-display 유틸 생성용
+   (색 값은 components.css :root 토큰 참조 — 원본 0x0j CSS theme 레이어 재현) */
+@theme {
+  --font-sans: "Onest", "Onest Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "generalSans", "generalSans Fallback", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: var(--text-primary);
+  --color-ink-soft: var(--text-secondary);
+  --color-ink-faint: var(--text-muted);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border-soft);
+  --color-accent: var(--accent-1);
+  --color-accent-warm: var(--accent-warm-flat);
+  --color-background: var(--background);
+  --default-transition-duration: 0.15s;
+}

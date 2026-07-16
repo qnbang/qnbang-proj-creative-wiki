@@ -1,0 +1,973 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["object" == typeof document ? document.currentScript : void 0, 46944, e => {
+  "use strict";
+  var t = e.i(71645);
+  let r = (e, t) => {
+    let r = e instanceof Map ? e : new Map(e.entries()),
+      n = t instanceof Map ? t : new Map(t.entries());
+    if (r.size !== n.size) return !1;
+    for (let [e, t] of r)
+      if (!n.has(e) || !Object.is(t, n.get(e))) return !1;
+    return !0
+  };
+  e.s(["useShallow", 0, function(e) {
+    let n = t.default.useRef(void 0);
+    return t => {
+      let i = e(t);
+      return ! function(e, t) {
+        if (Object.is(e, t)) return !0;
+        if ("object" != typeof e || null === e || "object" != typeof t || null === t || Object.getPrototypeOf(e) !== Object.getPrototypeOf(t)) return !1;
+        if (Symbol.iterator in e && Symbol.iterator in t) {
+          if ("entries" in e && "entries" in t) return r(e, t);
+          let n = e[Symbol.iterator](),
+            i = t[Symbol.iterator](),
+            s = n.next(),
+            o = i.next();
+          for (; !s.done && !o.done;) {
+            if (!Object.is(s.value, o.value)) return !1;
+            s = n.next(), o = i.next()
+          }
+          return !!s.done && !!o.done
+        }
+        return r({
+          entries: () => Object.entries(e)
+        }, {
+          entries: () => Object.entries(t)
+        })
+      }(n.current, i) ? n.current = i : n.current
+    }
+  }], 46944)
+}, 67585, (e, t, r) => {
+  "use strict";
+  Object.defineProperty(r, "__esModule", {
+    value: !0
+  }), Object.defineProperty(r, "BailoutToCSR", {
+    enumerable: !0,
+    get: function() {
+      return i
+    }
+  });
+  let n = e.r(32061);
+
+  function i({
+    reason: e,
+    children: t
+  }) {
+    if ("u" < typeof window) throw Object.defineProperty(new n.BailoutToCSRError(e), "__NEXT_ERROR_CODE", {
+      value: "E394",
+      enumerable: !1,
+      configurable: !0
+    });
+    return t
+  }
+}, 9885, (e, t, r) => {
+  "use strict";
+
+  function n(e) {
+    return e.split("/").map(e => encodeURIComponent(e)).join("/")
+  }
+  Object.defineProperty(r, "__esModule", {
+    value: !0
+  }), Object.defineProperty(r, "encodeURIPath", {
+    enumerable: !0,
+    get: function() {
+      return n
+    }
+  })
+}, 52157, (e, t, r) => {
+  "use strict";
+  Object.defineProperty(r, "__esModule", {
+    value: !0
+  }), Object.defineProperty(r, "PreloadChunks", {
+    enumerable: !0,
+    get: function() {
+      return a
+    }
+  });
+  let n = e.r(43476),
+    i = e.r(74080),
+    s = e.r(63599),
+    o = e.r(9885),
+    l = e.r(43369);
+
+  function a({
+    moduleIds: e
+  }) {
+    if ("u" > typeof window) return null;
+    let t = s.workAsyncStorage.getStore();
+    if (void 0 === t) return null;
+    let r = [];
+    if (t.reactLoadableManifest && e) {
+      let n = t.reactLoadableManifest;
+      for (let t of e) {
+        if (!n[t]) continue;
+        let e = n[t].files;
+        r.push(...e)
+      }
+    }
+    if (0 === r.length) return null;
+    let c = (0, l.getAssetTokenQuery)();
+    return (0, n.jsx)(n.Fragment, {
+      children: r.map(e => {
+        let r = `${t.assetPrefix}/_next/${(0,o.encodeURIPath)(e)}${c}`;
+        return e.endsWith(".css") ? (0, n.jsx)("link", {
+          precedence: "dynamic",
+          href: r,
+          rel: "stylesheet",
+          as: "style",
+          nonce: t.nonce
+        }, e) : ((0, i.preload)(r, {
+          as: "script",
+          fetchPriority: "low",
+          nonce: t.nonce
+        }), null)
+      })
+    })
+  }
+}, 69093, (e, t, r) => {
+  "use strict";
+  Object.defineProperty(r, "__esModule", {
+    value: !0
+  }), Object.defineProperty(r, "default", {
+    enumerable: !0,
+    get: function() {
+      return c
+    }
+  });
+  let n = e.r(43476),
+    i = e.r(71645),
+    s = e.r(67585),
+    o = e.r(52157);
+
+  function l(e) {
+    return {
+      default: e && "default" in e ? e.default : e
+    }
+  }
+  let a = {
+      loader: () => Promise.resolve(l(() => null)),
+      loading: null,
+      ssr: !0
+    },
+    c = function(e) {
+      let t = {
+          ...a,
+          ...e
+        },
+        r = (0, i.lazy)(() => t.loader().then(l)),
+        c = t.loading;
+
+      function u(e) {
+        let l = c ? (0, n.jsx)(c, {
+            isLoading: !0,
+            pastDelay: !0,
+            error: null
+          }) : null,
+          a = !t.ssr || !!t.loading,
+          u = a ? i.Suspense : i.Fragment,
+          d = t.ssr ? (0, n.jsxs)(n.Fragment, {
+            children: ["u" < typeof window ? (0, n.jsx)(o.PreloadChunks, {
+              moduleIds: t.modules
+            }) : null, (0, n.jsx)(r, {
+              ...e
+            })]
+          }) : (0, n.jsx)(s.BailoutToCSR, {
+            reason: "next/dynamic",
+            children: (0, n.jsx)(r, {
+              ...e
+            })
+          });
+        return (0, n.jsx)(u, {
+          ...a ? {
+            fallback: l
+          } : {},
+          children: d
+        })
+      }
+      return u.displayName = "LoadableComponent", u
+    }
+}, 70703, (e, t, r) => {
+  "use strict";
+  Object.defineProperty(r, "__esModule", {
+    value: !0
+  }), Object.defineProperty(r, "default", {
+    enumerable: !0,
+    get: function() {
+      return i
+    }
+  });
+  let n = e.r(55682)._(e.r(69093));
+
+  function i(e, t) {
+    let r = {};
+    "function" == typeof e && (r.loader = e);
+    let i = {
+      ...r,
+      ...t
+    };
+    return (0, n.default)({
+      ...i,
+      modules: i.loadableGenerated?.modules
+    })
+  }("function" == typeof r.default || "object" == typeof r.default && null !== r.default) && void 0 === r.default.__esModule && (Object.defineProperty(r.default, "__esModule", {
+    value: !0
+  }), Object.assign(r.default, r), t.exports = r.default)
+}, 37203, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(71645);
+  e.i(48787);
+  var n = e.i(7027);
+  let i = (0, r.createContext)("motion");
+
+  function s(e) {
+    n.Globals.assign({
+      skipAnimation: "static" === e
+    })
+  }
+
+  function o() {
+    return (0, r.useContext)(i)
+  }
+  e.s(["RenderModeProvider", 0, function({
+    initial: e,
+    children: n
+  }) {
+    s(e);
+    let [o, l] = (0, r.useState)(e);
+    return (0, r.useEffect)(() => {
+      s(o), document.documentElement.setAttribute("data-render-mode", o)
+    }, [o]), (0, r.useEffect)(() => {
+      if (navigator.webdriver) return void l("static");
+      let e = window.matchMedia("(prefers-reduced-motion: reduce)"),
+        t = () => {
+          e.matches && l("static")
+        };
+      return t(), e.addEventListener("change", t), () => e.removeEventListener("change", t)
+    }, []), (0, t.jsx)(i.Provider, {
+      value: o,
+      children: n
+    })
+  }, "useIsStaticMode", 0, function() {
+    return "static" === o()
+  }, "useRenderMode", 0, o])
+}, 10738, e => {
+  "use strict";
+  e.s(["debounce", 0, (e, t) => {
+    let r;
+    return (...n) => {
+      clearTimeout(r), r = setTimeout(() => e(...n), t)
+    }
+  }, "lerp", 0, (e, t, r) => e * (1 - r) + t * r])
+}, 79050, e => {
+  "use strict";
+  let t = {
+    mobileWidth: 768,
+    disableOnMobile: {
+      hover: !0,
+      inview: !1,
+      spring: !1,
+      springtrigger: !1
+    }
+  };
+  e.s(["isMobileDisabled", 0, e => !!e && !!(window.innerWidth <= t.mobileWidth), "springsConfig", 0, t])
+}, 48097, e => {
+  "use strict";
+  var t = e.i(10738),
+    r = e.i(71645);
+  e.s(["useWindowWidth", 0, function(e = 300) {
+    let [n, i] = (0, r.useState)(window.innerWidth);
+    return (0, r.useEffect)(() => {
+      let r = (0, t.debounce)(() => {
+        i(window.innerWidth)
+      }, e);
+      return window.addEventListener("resize", r), () => {
+        window.removeEventListener("resize", r)
+      }
+    }, [e]), n
+  }])
+}, 23301, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(48787),
+    n = e.i(65658),
+    i = e.i(71645),
+    s = e.i(79050),
+    o = e.i(48097);
+  let l = (0, i.forwardRef)(({
+    tag: e = "span",
+    children: n,
+    className: s,
+    style: o,
+    ...l
+  }, a) => {
+    let c = (0, i.useRef)(null);
+    (0, i.useImperativeHandle)(a, () => c.current);
+    let u = r.animated[e];
+    return (0, t.jsx)(u, {
+      ref: c,
+      className: s,
+      style: o,
+      ...l,
+      children: n
+    })
+  });
+  l.displayName = "AnimatedVarTextTag";
+  let a = (0, i.forwardRef)(({
+    tag: e = "div",
+    children: r,
+    from: a = {},
+    to: c = {},
+    mode: u = "always",
+    style: d,
+    config: f = {},
+    delayIn: p = 0,
+    delayOut: b = 0,
+    enabled: g = !0,
+    disableOnMobile: h = !1,
+    immediateOut: m = !1,
+    ...x
+  }, v) => {
+    let y = (0, i.useRef)(null),
+      k = (0, i.useRef)(!1),
+      j = (0, i.useRef)(!1),
+      w = (0, o.useWindowWidth)();
+    (0, i.useImperativeHandle)(v, () => y.current), (0, i.useEffect)(() => {
+      if (!(0, s.isMobileDisabled)(s.springsConfig.disableOnMobile.spring || h) && "forward" === u) {
+        let e = () => {
+          y.current && (y.current.getBoundingClientRect().top > 0 ? j.current = !1 : j.current = !0)
+        };
+        return window.addEventListener("scroll", e, {
+          passive: !0
+        }), () => window.removeEventListener("scroll", e)
+      }
+    }, [u, h, w]);
+    let S = (0, i.useMemo)(() => !(0, s.isMobileDisabled)(s.springsConfig.disableOnMobile.spring || h) && !!g && ("once" === u && !!k.current || "forward" === u && !!j.current || (k.current = !0, !0)), [u, g, h, w]),
+      C = (0, n.useSpring)({
+        from: a,
+        to: S ? c : a,
+        config: f,
+        delay: S ? p : b,
+        immediate: !S && m
+      });
+    return (0, t.jsx)(l, {
+      tag: e,
+      ref: y,
+      style: {
+        ...C,
+        ...d
+      },
+      ...x,
+      children: r
+    })
+  });
+  a.displayName = "Spring", e.s(["Spring", 0, a])
+}, 18566, (e, t, r) => {
+  t.exports = e.r(76562)
+}, 14283, e => {
+  "use strict";
+  var t = e.i(68834),
+    r = e.i(95187);
+  let n = (0, r.createServerReference)("0040252d5f324febaa62180293698091f4401a475c", r.callServer, void 0, r.findSourceMapURL, "getMeAction"),
+    i = (0, r.createServerReference)("00d6e40426ceb901d509b0b1254d955b4268d6fa4e", r.callServer, void 0, r.findSourceMapURL, "signOutAction"),
+    s = (0, r.createServerReference)("4006bb86da8a4a2464dc563357ad10b41d4f54d9e8", r.callServer, void 0, r.findSourceMapURL, "toggleFavoriteAction"),
+    o = (0, r.createServerReference)("4025bf0b32300d8bd892941f945f86c746c27de5ae", r.callServer, void 0, r.findSourceMapURL, "updateMeAction"),
+    l = (0, t.create)((e, t) => ({
+      user: null,
+      subscription: null,
+      likes: [],
+      hydrated: !1,
+      hydrate: async () => {
+        let t = await n();
+        e({
+          user: t.user ?? null,
+          subscription: t.subscription,
+          likes: t.favorites,
+          hydrated: !0
+        })
+      },
+      signOut: async () => {
+        await i(), e({
+          user: null,
+          subscription: null,
+          likes: [],
+          hydrated: !1
+        }), window.location.replace("/sign-in")
+      },
+      toggleLike: async r => {
+        if (!t().user) return !1;
+        let n = t().likes;
+        e({
+          likes: n.includes(r) ? n.filter(e => e !== r) : [...n, r]
+        });
+        try {
+          let {
+            favorites: t,
+            favorited: n
+          } = await s(r);
+          return e({
+            likes: t
+          }), n
+        } catch (t) {
+          throw e({
+            likes: n
+          }), t
+        }
+      },
+      updateUser: async r => {
+        if (!t().user) return;
+        let n = await o(r);
+        e({
+          user: n.user ?? null,
+          subscription: n.subscription,
+          likes: n.favorites
+        })
+      },
+      applySession: t => {
+        e({
+          user: t.user ?? null,
+          subscription: t.subscription,
+          likes: t.favorites,
+          hydrated: !0
+        })
+      }
+    }));
+  e.s(["useAuth", 0, l], 14283)
+}, 8406, e => {
+  "use strict";
+  let t = (0, e.i(68834).create)(e => ({
+    message: null,
+    variant: "default",
+    show: (t, r = "default") => e({
+      message: t,
+      variant: r
+    }),
+    hide: () => e({
+      message: null
+    })
+  }));
+  e.s(["useToast", 0, t])
+}, 72562, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(71645);
+  e.s(["Logo", 0, ({
+    className: e = "",
+    showWordmark: n = !0
+  }) => {
+    let i = (0, r.useId)().replace(/:/g, ""),
+      s = `getlayers-mark-${i}`;
+    return (0, t.jsxs)("span", {
+      className: `logo ${e}`,
+      children: [(0, t.jsxs)("svg", {
+        className: "logo-mark",
+        viewBox: "0 0 28 28",
+        fill: "none",
+        "aria-hidden": "true",
+        focusable: "false",
+        children: [(0, t.jsx)("defs", {
+          children: (0, t.jsxs)("linearGradient", {
+            id: s,
+            x1: "3",
+            y1: "2",
+            x2: "25",
+            y2: "26",
+            gradientUnits: "userSpaceOnUse",
+            children: [(0, t.jsx)("stop", {
+              offset: "0",
+              style: {
+                stopColor: "var(--accent-1)"
+              }
+            }), (0, t.jsx)("stop", {
+              offset: "0.5",
+              style: {
+                stopColor: "var(--accent-2)"
+              }
+            }), (0, t.jsx)("stop", {
+              offset: "1",
+              style: {
+                stopColor: "var(--accent-3)"
+              }
+            })]
+          })
+        }), (0, t.jsx)("path", {
+          d: "M14 16 24.5 21 14 26 3.5 21Z",
+          fill: `url(#${s})`,
+          fillOpacity: "0.3"
+        }), (0, t.jsx)("path", {
+          d: "M14 9 24.5 14 14 19 3.5 14Z",
+          fill: `url(#${s})`,
+          fillOpacity: "0.6"
+        }), (0, t.jsx)("path", {
+          d: "M14 2 24.5 7 14 12 3.5 7Z",
+          fill: `url(#${s})`
+        })]
+      }), n && (0, t.jsxs)("span", {
+        className: "logo-word",
+        children: [(0, t.jsx)("span", {
+          className: "logo-word-dim",
+          children: "get"
+        }), "layers"]
+      })]
+    })
+  }])
+}, 37038, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(71645);
+  let n = (0, r.forwardRef)(function({
+      hasError: e,
+      className: n,
+      ...o
+    }, l) {
+      let [a, c] = (0, r.useState)(!1), u = ["auth-input", "password-input", e ? "auth-input-error" : "", n ?? ""].filter(Boolean).join(" ");
+      return (0, t.jsxs)("div", {
+        className: "password-input-wrap",
+        children: [(0, t.jsx)("input", {
+          ref: l,
+          ...o,
+          type: a ? "text" : "password",
+          className: u
+        }), (0, t.jsx)("button", {
+          type: "button",
+          className: "password-input-toggle",
+          onClick: () => c(e => !e),
+          "aria-label": a ? "Hide password" : "Show password",
+          "aria-pressed": a,
+          tabIndex: -1,
+          children: a ? (0, t.jsx)(s, {}) : (0, t.jsx)(i, {})
+        })]
+      })
+    }),
+    i = () => (0, t.jsxs)("svg", {
+      width: "18",
+      height: "18",
+      viewBox: "0 0 18 18",
+      fill: "none",
+      "aria-hidden": "true",
+      children: [(0, t.jsx)("path", {
+        d: "M1.5 9s2.5-5.5 7.5-5.5S16.5 9 16.5 9 14 14.5 9 14.5 1.5 9 1.5 9Z",
+        stroke: "currentColor",
+        strokeWidth: "1.4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round"
+      }), (0, t.jsx)("circle", {
+        cx: "9",
+        cy: "9",
+        r: "2.4",
+        stroke: "currentColor",
+        strokeWidth: "1.4"
+      })]
+    }),
+    s = () => (0, t.jsxs)("svg", {
+      width: "18",
+      height: "18",
+      viewBox: "0 0 18 18",
+      fill: "none",
+      "aria-hidden": "true",
+      children: [(0, t.jsx)("path", {
+        d: "M3.5 3.5l11 11",
+        stroke: "currentColor",
+        strokeWidth: "1.4",
+        strokeLinecap: "round"
+      }), (0, t.jsx)("path", {
+        d: "M7.05 5.13C7.66 4.95 8.32 4.85 9 4.85c5 0 7.5 4.15 7.5 4.15a13.6 13.6 0 0 1-2.2 2.62M11.4 11.4a3 3 0 0 1-3.81-3.81M5.06 6.18C2.9 7.66 1.5 9 1.5 9s2.5 4.15 7.5 4.15c.95 0 1.84-.15 2.66-.4",
+        stroke: "currentColor",
+        strokeWidth: "1.4",
+        strokeLinecap: "round",
+        strokeLinejoin: "round"
+      })]
+    });
+  e.s(["PasswordInput", 0, n])
+}, 21104, 53837, e => {
+  "use strict";
+  var t = e.i(95187);
+  let r = (0, t.createServerReference)("401d4d60998111675a396eb5680392f1f0a53c6f3f", t.callServer, void 0, t.findSourceMapURL, "signInAction");
+  e.s(["signInAction", 0, r], 21104);
+  let n = (0, t.createServerReference)("404c8c9ebd243b029c1b528f210bf6f038a0282e9b", t.callServer, void 0, t.findSourceMapURL, "signInWithGoogleAction");
+  e.s(["signInWithGoogleAction", 0, n], 53837)
+}, 40803, e => {
+  "use strict";
+  var t = e.i(95187);
+  let r = (0, t.createServerReference)("00a66687a8722b607e5d3cd1deb2a697599443f1f0", t.callServer, void 0, t.findSourceMapURL, "openSubscriptionPortalAction");
+  e.s(["openSubscriptionPortalAction", 0, r])
+}, 34631, e => {
+  "use strict";
+  var t = e.i(43476);
+  let r = [{
+    fg: "#7e93ad",
+    bg: "#10141c"
+  }, {
+    fg: "#9cb0c8",
+    bg: "#0e1218"
+  }, {
+    fg: "#6e8aa6",
+    bg: "#0b0e14"
+  }, {
+    fg: "#8ea3bd",
+    bg: "#11151c"
+  }, {
+    fg: "#a8b8cc",
+    bg: "#0c1118"
+  }, {
+    fg: "#7388a3",
+    bg: "#0a0d12"
+  }, {
+    fg: "#94aac4",
+    bg: "#0e131a"
+  }, {
+    fg: "#aebac9",
+    bg: "#10141a"
+  }];
+  e.s(["UserAvatar", 0, ({
+    email: e,
+    size: n = 40,
+    radius: i = "0.55rem",
+    className: s = ""
+  }) => {
+    let {
+      fg: o,
+      bg: l,
+      cells: a
+    } = function(e) {
+      let t = (e => {
+          let t = 0x811c9dc5;
+          for (let r = 0; r < e.length; r += 1) t ^= e.charCodeAt(r), t = Math.imul(t, 0x1000193);
+          return t >>> 0
+        })((e || "").toLowerCase().trim() || "anonymous"),
+        n = r[t % r.length],
+        i = [];
+      for (let e = 0; e < 5; e += 1) {
+        let r = [, , , , , ];
+        for (let n = 0; n < 5; n += 1) {
+          let i = (t >>> 2 * (3 * e + (n < 3 ? n : 4 - n)) % 30 & 1) == 1;
+          r[n] = i
+        }
+        i.push(r)
+      }
+      return i[2][2] = i[2][2] || !0, {
+        fg: n.fg,
+        bg: n.bg,
+        cells: i
+      }
+    }(e), c = "0 0 50 50";
+    return (0, t.jsx)("span", {
+      className: `user-avatar ${s}`,
+      style: {
+        width: n,
+        height: n,
+        borderRadius: i
+      },
+      "aria-hidden": "true",
+      children: (0, t.jsxs)("svg", {
+        viewBox: c,
+        width: n,
+        height: n,
+        role: "presentation",
+        shapeRendering: "crispEdges",
+        children: [(0, t.jsx)("rect", {
+          width: 50,
+          height: 50,
+          fill: l
+        }), a.map((e, r) => e.map((e, n) => e ? (0, t.jsx)("rect", {
+          x: 10 * n,
+          y: 10 * r,
+          width: 10,
+          height: 10,
+          fill: o
+        }, `${n}-${r}`) : null))]
+      })
+    })
+  }], 34631)
+}, 71929, e => {
+  "use strict";
+  var t = e.i(43476),
+    r = e.i(71645),
+    n = e.i(22016),
+    i = e.i(48787),
+    s = e.i(65658);
+  let o = {
+      primary: "bg-[var(--accent-2)] text-[var(--background)] hover:opacity-90",
+      secondary: "border border-line bg-[var(--glass-tint)] text-ink hover:bg-[var(--glass-tint-strong)]"
+    },
+    l = ({
+      children: e,
+      onClick: r,
+      variant: n = "primary"
+    }) => (0, t.jsx)("button", {
+      type: "button",
+      onClick: r,
+      className: `cursor-pointer rounded-[var(--radius-pill)] px-4 py-2.5 text-base font-normal leading-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-3)] ${o[n]}`,
+      children: e
+    });
+  var a = e.i(53363);
+  let c = () => {
+    let e = (0, a.useCookieStore)(e => e.consent),
+      r = (0, a.useCookieStore)(e => e.hydrated),
+      o = (0, a.useCookieStore)(e => e.modalOpen),
+      c = (0, a.useCookieStore)(e => e.acceptAll),
+      u = (0, a.useCookieStore)(e => e.rejectAll),
+      d = (0, a.useCookieStore)(e => e.openModal);
+    return (0, s.useTransition)(r && null === e && !o, {
+      from: {
+        opacity: 0,
+        y: 24
+      },
+      enter: {
+        opacity: 1,
+        y: 0
+      },
+      leave: {
+        opacity: 0,
+        y: 24
+      },
+      config: {
+        tension: 280,
+        friction: 32
+      }
+    })((e, r) => r ? (0, t.jsxs)(i.animated.section, {
+      "aria-label": "Cookie consent",
+      style: {
+        opacity: e.opacity,
+        transform: e.y.to(e => `translateY(${e}px)`)
+      },
+      className: "glass fixed bottom-4 left-4 right-4 z-50 flex flex-col gap-3 rounded-[var(--radius-card)] bg-[#121212] p-5 font-sans text-ink sm:bottom-4 sm:left-4 sm:right-auto sm:w-[400px] sm:p-6",
+      children: [(0, t.jsx)("h2", {
+        className: "font-display text-base font-semibold leading-snug sm:text-lg",
+        children: "This website uses cookies"
+      }), (0, t.jsxs)("p", {
+        className: "text-base leading-relaxed text-ink-soft",
+        children: ["We use cookies to keep the site working. See our", " ", (0, t.jsx)(n.default, {
+          href: "/cookies-policy",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          className: "text-ink underline underline-offset-2 hover:text-ink-soft",
+          children: "cookie policy"
+        }), "."]
+      }), (0, t.jsxs)("div", {
+        className: "mt-1 flex flex-wrap items-center gap-2",
+        children: [(0, t.jsx)(l, {
+          onClick: c,
+          children: "Accept all"
+        }), (0, t.jsx)(l, {
+          variant: "secondary",
+          onClick: u,
+          children: "Reject all"
+        }), (0, t.jsx)("button", {
+          type: "button",
+          onClick: d,
+          className: "cursor-pointer px-2 py-2 text-base font-normal leading-none text-ink-soft underline underline-offset-2 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-3)]",
+          children: "Manage preferences"
+        })]
+      })]
+    }) : null)
+  };
+  var u = e.i(31973);
+  let d = [{
+      key: "necessary",
+      title: "Strictly necessary",
+      body: "Required for the site to work — sign-in, security, page navigation. These can't be turned off.",
+      required: !0
+    }, {
+      key: "analytics",
+      title: "Analytics",
+      body: "Anonymised usage stats so we know which pages help and which fall flat. No personal profile is built."
+    }, {
+      key: "marketing",
+      title: "Marketing",
+      body: "Lets us measure ad performance and re-show content you didn't get to finish reading. Opt out anytime."
+    }],
+    f = "cookie-preferences-title",
+    p = () => {
+      let e = (0, a.useCookieStore)(e => e.modalOpen),
+        o = (0, a.useCookieStore)(e => e.consent),
+        c = (0, a.useCookieStore)(e => e.closeModal),
+        p = (0, a.useCookieStore)(e => e.acceptAll),
+        g = (0, a.useCookieStore)(e => e.rejectAll),
+        h = (0, a.useCookieStore)(e => e.savePreferences),
+        m = (0, u.useScroll)(e => e.stop),
+        x = (0, u.useScroll)(e => e.start),
+        [v, y] = (0, r.useState)(o?.analytics ?? !0),
+        [k, j] = (0, r.useState)(o?.marketing ?? !0);
+      (0, r.useEffect)(() => {
+        e && (y(o?.analytics ?? !0), j(o?.marketing ?? !0))
+      }, [e, o]);
+      let w = (0, r.useRef)(null);
+      (0, r.useEffect)(() => {
+        if (!e) return;
+        w.current = document.activeElement, m();
+        let t = e => {
+          "Escape" === e.key && c()
+        };
+        return window.addEventListener("keydown", t), () => {
+          window.removeEventListener("keydown", t), x();
+          let e = w.current;
+          e && "function" == typeof e.focus && e.focus()
+        }
+      }, [e, c, m, x]);
+      let S = () => h({
+        analytics: v,
+        marketing: k
+      });
+      return (0, s.useTransition)(e, {
+        from: {
+          opacity: 0,
+          scale: .94,
+          blur: 0
+        },
+        enter: {
+          opacity: 1,
+          scale: 1,
+          blur: 10
+        },
+        leave: {
+          opacity: 0,
+          scale: .94,
+          blur: 0
+        },
+        config: {
+          tension: 320,
+          friction: 32
+        }
+      })((e, r) => r ? (0, t.jsx)(i.animated.div, {
+        className: "modal-backdrop font-sans",
+        style: {
+          opacity: e.opacity,
+          backdropFilter: e.blur.to(e => `blur(${e}px)`),
+          WebkitBackdropFilter: e.blur.to(e => `blur(${e}px)`)
+        },
+        onMouseDown: c,
+        children: (0, t.jsxs)(i.animated.div, {
+          role: "dialog",
+          "aria-modal": "true",
+          "aria-labelledby": f,
+          onMouseDown: e => e.stopPropagation(),
+          style: {
+            transform: e.scale.to(e => `scale(${e})`)
+          },
+          className: "glass relative flex max-h-full w-[calc(100vw-1.5rem)] max-w-[34rem] flex-col gap-5 overflow-hidden rounded-[var(--radius-stage)] bg-[#121212] p-6 text-ink sm:p-7",
+          children: [(0, t.jsxs)("header", {
+            className: "flex items-start justify-between gap-3",
+            children: [(0, t.jsx)("h2", {
+              id: f,
+              className: "font-display text-xl font-semibold leading-tight",
+              children: "Cookie preferences"
+            }), (0, t.jsx)("button", {
+              type: "button",
+              onClick: c,
+              "aria-label": "Close cookie preferences",
+              className: "flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-[var(--radius-control)] border border-line text-ink hover:bg-[var(--glass-tint-strong)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-3)]",
+              children: (0, t.jsx)("svg", {
+                width: "16",
+                height: "16",
+                viewBox: "0 0 16 16",
+                fill: "none",
+                "aria-hidden": !0,
+                children: (0, t.jsx)("path", {
+                  d: "M4 4l8 8M12 4l-8 8",
+                  stroke: "currentColor",
+                  strokeWidth: "1.5",
+                  strokeLinecap: "round"
+                })
+              })
+            })]
+          }), (0, t.jsxs)("p", {
+            className: "text-base leading-relaxed text-ink-soft",
+            children: ["Choose which categories of cookies we're allowed to use. You can change this any time. See our", " ", (0, t.jsx)(n.default, {
+              href: "/cookies-policy",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "text-ink underline underline-offset-2",
+              children: "cookie policy"
+            }), " ", "and", " ", (0, t.jsx)(n.default, {
+              href: "/privacy-policy",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "text-ink underline underline-offset-2",
+              children: "privacy policy"
+            }), "."]
+          }), (0, t.jsx)("div", {
+            className: "flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto py-1",
+            children: d.map(e => {
+              let r = "necessary" === e.key || ("analytics" === e.key ? v : k),
+                n = "analytics" === e.key ? y : "marketing" === e.key ? j : void 0;
+              return (0, t.jsxs)("div", {
+                className: "flex items-start justify-between gap-4 rounded-[var(--radius-control)] border border-line bg-[var(--glass-tint)] px-4 py-3.5",
+                children: [(0, t.jsxs)("div", {
+                  className: "flex min-w-0 flex-col gap-1",
+                  children: [(0, t.jsx)("h3", {
+                    className: "text-base font-semibold leading-snug text-ink",
+                    children: e.title
+                  }), (0, t.jsx)("p", {
+                    className: "text-sm leading-relaxed text-ink-faint",
+                    children: e.body
+                  })]
+                }), (0, t.jsx)(b, {
+                  on: r,
+                  disabled: e.required,
+                  label: e.title,
+                  onChange: n ? () => n(e => !e) : void 0
+                })]
+              }, e.key)
+            })
+          }), (0, t.jsxs)("footer", {
+            className: "mt-1 flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-between",
+            children: [(0, t.jsx)(l, {
+              variant: "secondary",
+              onClick: g,
+              children: "Reject all"
+            }), (0, t.jsxs)("div", {
+              className: "flex flex-col-reverse gap-2 sm:flex-row sm:items-center",
+              children: [(0, t.jsx)(l, {
+                variant: "secondary",
+                onClick: S,
+                children: "Save preferences"
+              }), (0, t.jsx)(l, {
+                onClick: p,
+                children: "Accept all"
+              })]
+            })]
+          })]
+        })
+      }) : null)
+    },
+    b = ({
+      on: e,
+      disabled: r,
+      onChange: n,
+      label: o
+    }) => {
+      let l = (0, s.useSpring)({
+        x: 1.25 * !!e,
+        config: {
+          tension: 320,
+          friction: 26
+        }
+      });
+      return (0, t.jsx)("button", {
+        type: "button",
+        role: "switch",
+        "aria-checked": e,
+        "aria-label": o,
+        "aria-disabled": r || void 0,
+        disabled: r,
+        onClick: n,
+        className: `relative h-6 w-11 shrink-0 rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-3)] ${e?"bg-[var(--accent-2)]":"bg-[var(--glass-tint-strong)]"} ${r?"cursor-not-allowed opacity-55":"cursor-pointer"}`,
+        children: (0, t.jsx)(i.animated.span, {
+          style: {
+            transform: l.x.to(e => `translateX(${e}rem)`)
+          },
+          className: `absolute left-[0.1875rem] top-[0.1875rem] block h-[1.125rem] w-[1.125rem] rounded-full ${e?"bg-[var(--background)]":"bg-[var(--text-secondary)]"}`
+        })
+      })
+    };
+  e.s(["Cookie", 0, () => {
+    let e = (0, a.useCookieStore)(e => e.hydrate);
+    return (0, r.useEffect)(() => {
+      e()
+    }, [e]), (0, t.jsxs)(t.Fragment, {
+      children: [(0, t.jsx)(c, {}), (0, t.jsx)(p, {})]
+    })
+  }], 71929)
+}, 40959, e => {
+  e.v(t => Promise.all(["static/chunks/0gjg.szwlpkwu.js"].map(t => e.l(t))).then(() => t(8356)))
+}]);

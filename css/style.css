@@ -27,8 +27,9 @@
   /* 콘텐츠 컨테이너: 주요 콘텐츠(네비 내용물·그리드·상세·보드·푸터 내용)를 1280px에서 중앙 정렬.
      1280px 미만 뷰포트에서는 좌우 거터가 화면 가장자리 가드로 작동. */
   --container: 1280px;
-  /* 본문 측정폭(reading measure): 상세 읽기 문단·리스트·출처에만 적용(1280 컨테이너 안에서 유지).
-     제목·메타·이미지 그리드는 컨테이너 폭을 그대로 채운다. */
+  /* 본문 측정폭(reading measure): 상세 아티클 컨테이너(.detail) 한 곳에만 적용.
+     그 안의 제목·한줄정의·도판·문단·리스트·출처·관련 그리드는 폭 제한 없이
+     컨테이너를 채워 전부 같은 좌우 라인에 선다(요소 단위 max-width 금지 — 지침 하드룰). */
   --measure: min(880px, 100%);
   --radius: 4px;
   --radius-pill: 9999px;
@@ -197,6 +198,8 @@ main:focus { outline: none; }
   column-gap: var(--gutter); row-gap: 64px;
 }
 .card-grid { padding-bottom: 96px; }
+/* 상세 관련 그리드: 880 컨테이너 안에서 3열(카드 폭 ≈ 탐색 4열과 동급) */
+.detail .related-grid { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 1439px) and (min-width: 1024px) {
   .card-grid, .featured-grid, .related-grid { grid-template-columns: repeat(3, 1fr); }
 }
@@ -265,8 +268,10 @@ main:focus { outline: none; }
   background: var(--sunken); color: var(--ink-muted); white-space: nowrap;
 }
 
-/* ── 상세: 준풀블리드(제목·메타는 거터 끝까지, 읽기 문단만 측정폭) ── */
-.detail { padding: 40px 0 120px; }
+/* ── 상세: 읽기 폭은 아티클 컨테이너 한 곳에서만(지침 하드룰) —
+   제목·한줄정의·도판·문단·리스트·출처·관련 그리드 전부 이 컨테이너를 채워
+   같은 좌우 라인에 선다. 요소 단위 max-width 금지(우측 라인 어긋남의 원인). ── */
+.detail { padding: 40px 0 120px; max-width: var(--measure); margin-inline: auto; }
 .detail-back { font-size: 13px; color: var(--ink-muted); margin-bottom: 32px; display: inline-block; padding: 6px 0; transition: color 0.15s; }
 .detail-back:hover { color: var(--ink); }
 .detail-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--ink-muted); margin-bottom: 16px; }
@@ -284,7 +289,6 @@ main:focus { outline: none; }
 .detail-source { font-size: 14px; color: var(--ink-muted); margin: 16px 0 32px; }
 .detail-source span { margin-right: 16px; }
 .detail-oneliner {
-  max-width: var(--measure);
   font-size: 21px; font-weight: 600; line-height: 1.5;
   margin: 8px 0 32px; padding-bottom: 32px; border-bottom: 1px solid var(--hairline);
 }
@@ -292,9 +296,8 @@ main:focus { outline: none; }
 .detail-body { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
 .detail-block { margin-bottom: 32px; }
 .detail-sub { font-size: 13px; font-weight: 600; color: var(--ink-muted); margin-bottom: 12px; }
-/* 상세 읽기 본문만 65~70% 측정폭·17px·1.8행간(한글 장문 가독 예외) */
-.detail-block p { max-width: var(--measure); color: var(--ink); font-size: 17px; line-height: 1.8; }
-.detail-list { max-width: var(--measure); }
+/* 읽기 본문 17px·1.8행간(한글 장문 가독 예외). 폭은 .detail 컨테이너가 소유 */
+.detail-block p { color: var(--ink); font-size: 17px; line-height: 1.8; }
 .detail-list li { padding: 12px 0; border-top: 1px solid var(--hairline); color: var(--ink); font-size: 17px; line-height: 1.8; }
 
 .detail-figure { margin: 8px 0 32px; }
@@ -320,7 +323,6 @@ main:focus { outline: none; }
 .tag { font-size: 13px; padding: 6px 14px; background: var(--sunken); color: var(--ink-muted); border-radius: var(--radius-pill); }
 
 /* 출처 */
-.sources { max-width: var(--measure); }
 .sources li { font-size: 14px; padding: 6px 0; color: var(--ink-muted); }
 .sources a { color: var(--link); border-bottom: 1px solid transparent; }
 .sources a:hover { border-color: var(--link); }
